@@ -1,0 +1,554 @@
+// multilevel.wisar.uz — data model
+// Subjects are data-driven: ENGLISH (4-skill multilevel) and UZBEK (ona tili,
+// 45-question test + insho) share the same exam engine via sections/parts/questions.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------- Enums ----------
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Subject {
+  ENGLISH
+  UZBEK
+}
+
+enum CefrLevel {
+  A1
+  A2
+  B1
+  B2
+  C1
+  C2
+}
+
+enum Skill {
+  LISTENING
+  READING
+  WRITING
+  SPEAKING
+  GRAMMAR
+  VOCABULARY
+}
+
+enum ExerciseType {
+  MCQ_SINGLE
+  MCQ_MULTI
+  TRUE_FALSE
+  GAP_FILL
+  MATCHING
+  ORDERING
+  SHORT_ANSWER
+  WRITING_TASK
+  SPEAKING_TASK
+}
+
+enum MockKind {
+  FULL
+  SECTION
+  MINI
+  PLACEMENT
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  SUBMITTED
+  SCORING
+  SCORED
+  ABANDONED
+}
+
+enum EvalStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+enum ProgressStatus {
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum PlanTaskKind {
+  LESSON
+  EXERCISE_SET
+  VOCAB_REVIEW
+  MOCK_FULL
+  MOCK_SECTION
+  CUSTOM
+}
+
+enum PlanTaskStatus {
+  PENDING
+  DONE
+  SKIPPED
+}
+
+// ---------- Users & auth ----------
+
+model User {
+  id           String    @id @default(cuid())
+  email        String?   @unique
+  passwordHash String?
+  googleId     String?   @unique
+  telegramId   BigInt?   @unique
+  firstName    String
+  lastName     String?
+  avatarUrl    String?
+  role         Role      @default(USER)
+  uiLanguage   String    @default("uz")
+
+  // Learning profile
+  targetLevel      CefrLevel?
+  currentLevel     CefrLevel?
+  examDate         DateTime?
+  dailyGoalMinutes Int        @default(60)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  refreshTokens    RefreshToken[]
+  exerciseAttempts ExerciseAttempt[]
+  vocabCards       UserVocabCard[]
+  mockAttempts     MockAttempt[]
+  aiEvaluations    AiEvaluation[]
+  studyPlans       StudyPlan[]
+  lessonProgress   LessonProgress[]
+  dailyActivity    DailyActivity[]
+  telegramProfile  TelegramProfile?
+  linkTokens       TelegramLinkToken[]
+}
+
+model RefreshToken {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash String    @unique
+  userAgent String?
+  ip        String?
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId])
+}
+
+// ---------- Course content ----------
+
+model Course {
+  id            String    @id @default(cuid())
+  subject       Subject
+  level         CefrLevel
+  slug          String    @unique
+  titleUz       String
+  titleEn       String?
+  descriptionUz String?
+  descriptionEn String?
+  icon          String?
+  order         Int       @default(0)
+  isPublished   Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  modules CourseModule[]
+
+  @@index([subject, level])
+}
+
+model CourseModule {
+  id            String   @id @default(cuid())
+  courseId      String
+  course        Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  slug          String
+  titleUz       String
+  titleEn       String?
+  descriptionUz String?
+  order         Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  lessons Lesson[]
+
+  @@unique([courseId, slug])
+}
+
+model Lesson {
+  id               String    @id @default(cuid())
+  moduleId         String
+  module           CourseModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  slug             String
+  titleUz          String
+  titleEn          String?
+  skill            Skill?
+  level            CefrLevel
+  order            Int       @default(0)
+  estimatedMinutes Int       @default(15)
+  objectivesUz     String[]
+  // Structured content blocks: [{type: 'theory'|'example'|'tip'|'table'|'dialogue'|..., ...}]
+  contentJson      Json
+  isPublished      Boolean   @default(false)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  exercises Exercise[]
+  progress  LessonProgress[]
+  planTasks PlanTask[]
+
+  @@unique([moduleId, slug])
+  @@index([level, skill])
+}
+
+model Exercise {
+  id            String       @id @default(cuid())
+  lessonId      String?
+  lesson        Lesson?      @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  type          ExerciseType
+  skill         Skill
+  subject       Subject      @default(ENGLISH)
+  level         CefrLevel
+  order         Int          @default(0)
+  promptUz      String?
+  promptEn      String?
+  // Question payload: text, options, pairs, gaps, images, audio — shape depends on `type`
+  dataJson      Json
+  // Correct answer payload; null for open-ended (writing/speaking) tasks
+  answerJson    Json?
+  explanationUz String?
+  points        Float        @default(1)
+  isPublished   Boolean      @default(true)
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  attempts ExerciseAttempt[]
+
+  @@index([lessonId])
+  @@index([subject, skill, level])
+}
+
+model ExerciseAttempt {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exerciseId String
+  exercise   Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+  answerJson Json
+  isCorrect  Boolean?
+  score      Float?
+  createdAt  DateTime @default(now())
+
+  @@index([userId, exerciseId])
+}
+
+// ---------- Vocabulary & spaced repetition ----------
+
+model VocabWord {
+  id           String    @id @default(cuid())
+  subject      Subject   @default(ENGLISH)
+  level        CefrLevel
+  topic        String?
+  word         String
+  phonetic     String?
+  partOfSpeech String?
+  translation  String // uz translation
+  definitionEn String?
+  exampleEn    String?
+  exampleUz    String?
+  audioUrl     String?
+  createdAt    DateTime  @default(now())
+
+  cards UserVocabCard[]
+
+  @@unique([subject, word, translation])
+  @@index([subject, level])
+  @@index([subject, topic])
+}
+
+model UserVocabCard {
+  id             String    @id @default(cuid())
+  userId         String
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  wordId         String
+  word           VocabWord @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  // SM-2 spaced repetition state
+  easeFactor     Float     @default(2.5)
+  intervalDays   Float     @default(0)
+  repetitions    Int       @default(0)
+  lapses         Int       @default(0)
+  dueAt          DateTime  @default(now())
+  lastReviewedAt DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@unique([userId, wordId])
+  @@index([userId, dueAt])
+}
+
+// ---------- Mock exams ----------
+
+model MockExam {
+  id            String   @id @default(cuid())
+  subject       Subject
+  kind          MockKind @default(FULL)
+  slug          String   @unique
+  titleUz       String
+  titleEn       String?
+  descriptionUz String?
+  order         Int      @default(0)
+  isPublished   Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  sections ExamSection[]
+  attempts MockAttempt[]
+  planTasks PlanTask[]
+
+  @@index([subject, kind])
+}
+
+model ExamSection {
+  id              String   @id @default(cuid())
+  examId          String
+  exam            MockExam @relation(fields: [examId], references: [id], onDelete: Cascade)
+  skill           Skill
+  order           Int      @default(0)
+  durationMinutes Int
+  instructionsUz  String?
+  instructionsEn  String?
+  audioUrl        String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  parts ExamPart[]
+
+  @@index([examId])
+}
+
+model ExamPart {
+  id             String      @id @default(cuid())
+  sectionId      String
+  section        ExamSection @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  order          Int         @default(0)
+  titleUz        String?
+  titleEn        String?
+  instructionsUz String?
+  instructionsEn String?
+  passageText    String?
+  audioUrl       String?
+  imageUrl       String?
+  // Extra payload: cue cards, image sets for speaking, matching headings pool, etc.
+  contextJson    Json?
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+
+  questions Question[]
+
+  @@index([sectionId])
+}
+
+model Question {
+  id         String       @id @default(cuid())
+  partId     String
+  part       ExamPart     @relation(fields: [partId], references: [id], onDelete: Cascade)
+  order      Int          @default(0)
+  // Question number as shown in the real exam section (1..35)
+  number     Int
+  type       ExerciseType
+  promptEn   String?
+  promptUz   String?
+  dataJson   Json
+  answerJson Json?
+  points     Float        @default(1)
+  // Marking rubric for writing/speaking tasks (criteria + descriptors)
+  rubricJson Json?
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  answers AttemptAnswer[]
+  evaluations AiEvaluation[]
+
+  @@index([partId])
+}
+
+model MockAttempt {
+  id                String        @id @default(cuid())
+  userId            String
+  user              User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examId            String
+  exam              MockExam      @relation(fields: [examId], references: [id], onDelete: Cascade)
+  status            AttemptStatus @default(IN_PROGRESS)
+  startedAt         DateTime      @default(now())
+  submittedAt       DateTime?
+  scoredAt          DateTime?
+  // Per-section results: {LISTENING: {raw, max, scaled}, WRITING: {scaled, criteria...}, ...}
+  sectionScoresJson Json?
+  overallScore      Float?
+  estimatedLevel    CefrLevel?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  answers     AttemptAnswer[]
+  evaluations AiEvaluation[]
+
+  @@index([userId, examId])
+  @@index([status])
+}
+
+model AttemptAnswer {
+  id         String      @id @default(cuid())
+  attemptId  String
+  attempt    MockAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  answerJson Json?
+  // Speaking recordings / uploaded files
+  audioUrl   String?
+  isCorrect  Boolean?
+  score      Float?
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+
+  @@unique([attemptId, questionId])
+}
+
+// ---------- AI evaluation ----------
+
+model AiEvaluation {
+  id            String      @id @default(cuid())
+  userId        String
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attemptId     String?
+  attempt       MockAttempt? @relation(fields: [attemptId], references: [id], onDelete: SetNull)
+  questionId    String?
+  question      Question?   @relation(fields: [questionId], references: [id], onDelete: SetNull)
+  skill         Skill
+  subject       Subject     @default(ENGLISH)
+  status        EvalStatus  @default(PENDING)
+  inputText     String?
+  inputAudioUrl String?
+  transcript    String?
+  provider      String      @default("gemini")
+  model         String?
+  // {overallScore, criteria: [{name, score, max, commentUz}], strengths, mistakes, improvedVersion, estimatedLevel}
+  resultJson    Json?
+  errorMessage  String?
+  retryCount    Int         @default(0)
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  completedAt   DateTime?
+
+  @@index([status])
+  @@index([userId, createdAt])
+}
+
+// ---------- Study plan ----------
+
+model StudyPlan {
+  id           String     @id @default(cuid())
+  userId       String
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subject      Subject
+  startLevel   CefrLevel
+  targetLevel  CefrLevel
+  examDate     DateTime?
+  dailyMinutes Int        @default(60)
+  isActive     Boolean    @default(true)
+  // Generator metadata: phases, weekly focus, notes
+  metaJson     Json?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  tasks PlanTask[]
+
+  @@index([userId, isActive])
+}
+
+model PlanTask {
+  id              String         @id @default(cuid())
+  planId          String
+  plan            StudyPlan      @relation(fields: [planId], references: [id], onDelete: Cascade)
+  date            DateTime       @db.Date
+  order           Int            @default(0)
+  kind            PlanTaskKind
+  titleUz         String
+  durationMinutes Int            @default(30)
+  lessonId        String?
+  lesson          Lesson?        @relation(fields: [lessonId], references: [id], onDelete: SetNull)
+  mockExamId      String?
+  mockExam        MockExam?      @relation(fields: [mockExamId], references: [id], onDelete: SetNull)
+  vocabCount      Int?
+  status          PlanTaskStatus @default(PENDING)
+  completedAt     DateTime?
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  @@index([planId, date])
+}
+
+// ---------- Progress & activity ----------
+
+model LessonProgress {
+  id          String         @id @default(cuid())
+  userId      String
+  user        User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId    String
+  lesson      Lesson         @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  status      ProgressStatus @default(IN_PROGRESS)
+  score       Float?
+  startedAt   DateTime       @default(now())
+  completedAt DateTime?
+  updatedAt   DateTime       @updatedAt
+
+  @@unique([userId, lessonId])
+}
+
+model DailyActivity {
+  id               String   @id @default(cuid())
+  userId           String
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date             DateTime @db.Date
+  xp               Int      @default(0)
+  minutes          Int      @default(0)
+  lessonsCompleted Int      @default(0)
+  wordsReviewed    Int      @default(0)
+  updatedAt        DateTime @updatedAt
+
+  @@unique([userId, date])
+}
+
+// ---------- Telegram ----------
+
+model TelegramProfile {
+  id                String   @id @default(cuid())
+  userId            String   @unique
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  telegramId        BigInt   @unique
+  chatId            BigInt
+  username          String?
+  remindersEnabled  Boolean  @default(true)
+  reminderTime      String   @default("19:00")
+  dailyWordsEnabled Boolean  @default(true)
+  timezone          String   @default("Asia/Tashkent")
+  linkedAt          DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+model TelegramLinkToken {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+}

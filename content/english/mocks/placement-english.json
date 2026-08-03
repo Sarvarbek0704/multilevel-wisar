@@ -1,0 +1,69 @@
+{
+  "subject": "ENGLISH",
+  "kind": "PLACEMENT",
+  "slug": "english-placement-test",
+  "titleUz": "Darajani aniqlash testi (Ingliz tili)",
+  "titleEn": "English Placement Test",
+  "descriptionUz": "20 ta savol, 25 daqiqa. Natijaga qarab platforma sizga qaysi darajadan boshlashni tavsiya qiladi va shaxsiy o'quv reja tuziladi.",
+  "order": 0,
+  "isPublished": true,
+  "sections": [
+    {
+      "skill": "GRAMMAR",
+      "order": 0,
+      "durationMinutes": 25,
+      "instructionsUz": "Har bir savolga eng to'g'ri javobni tanlang. Bilmagan savolingizni taxmin qilmang — «bilmayman» bo'lsa tashlab keting, natija aniqroq chiqadi.",
+      "instructionsEn": "Choose the best answer for each question.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "1-qism (A1-A2)",
+          "titleEn": "Part 1 (A1-A2)",
+          "questions": [
+            { "number": 1, "type": "MCQ_SINGLE", "promptEn": "She ___ a teacher.", "data": { "options": ["am", "is", "are", "be"] }, "answer": { "value": "is" } },
+            { "number": 2, "type": "MCQ_SINGLE", "promptEn": "___ you like pizza?", "data": { "options": ["Are", "Is", "Do", "Does"] }, "answer": { "value": "Do" } },
+            { "number": 3, "type": "MCQ_SINGLE", "promptEn": "There ___ two books on the table.", "data": { "options": ["is", "are", "have", "has"] }, "answer": { "value": "are" } },
+            { "number": 4, "type": "MCQ_SINGLE", "promptEn": "My brother ___ football every weekend.", "data": { "options": ["play", "plays", "playing", "is play"] }, "answer": { "value": "plays" } },
+            { "number": 5, "type": "MCQ_SINGLE", "promptEn": "I ___ to the cinema yesterday.", "data": { "options": ["go", "goes", "went", "gone"] }, "answer": { "value": "went" } }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "2-qism (B1)",
+          "titleEn": "Part 2 (B1)",
+          "questions": [
+            { "number": 6, "type": "MCQ_SINGLE", "promptEn": "I have lived in Tashkent ___ 2015.", "data": { "options": ["for", "since", "from", "during"] }, "answer": { "value": "since" } },
+            { "number": 7, "type": "MCQ_SINGLE", "promptEn": "If it rains tomorrow, we ___ at home.", "data": { "options": ["stay", "will stay", "stayed", "would stay"] }, "answer": { "value": "will stay" } },
+            { "number": 8, "type": "MCQ_SINGLE", "promptEn": "She asked me ___ I could help her.", "data": { "options": ["that", "what", "if", "which"] }, "answer": { "value": "if" } },
+            { "number": 9, "type": "MCQ_SINGLE", "promptEn": "This book is ___ than the film.", "data": { "options": ["interesting", "more interesting", "most interesting", "interestinger"] }, "answer": { "value": "more interesting" } },
+            { "number": 10, "type": "MCQ_SINGLE", "promptEn": "You ___ smoke in the hospital. It's forbidden.", "data": { "options": ["shouldn't", "mustn't", "don't have to", "might not"] }, "answer": { "value": "mustn't" } }
+          ]
+        },
+        {
+          "order": 2,
+          "titleUz": "3-qism (B2)",
+          "titleEn": "Part 3 (B2)",
+          "questions": [
+            { "number": 11, "type": "MCQ_SINGLE", "promptEn": "By the time we arrived, the film ___.", "data": { "options": ["already started", "has already started", "had already started", "was already starting"] }, "answer": { "value": "had already started" } },
+            { "number": 12, "type": "MCQ_SINGLE", "promptEn": "The bridge ___ by engineers from Japan in 2020.", "data": { "options": ["built", "was built", "has built", "was building"] }, "answer": { "value": "was built" } },
+            { "number": 13, "type": "MCQ_SINGLE", "promptEn": "I wish I ___ more time to prepare for the exam.", "data": { "options": ["have", "had", "would have", "has"] }, "answer": { "value": "had" } },
+            { "number": 14, "type": "MCQ_SINGLE", "promptEn": "He denied ___ the window.", "data": { "options": ["to break", "break", "breaking", "broke"] }, "answer": { "value": "breaking" } },
+            { "number": 15, "type": "MCQ_SINGLE", "promptEn": "___ the bad weather, the match continued.", "data": { "options": ["Despite", "Although", "However", "Because of"] }, "answer": { "value": "Despite" } }
+          ]
+        },
+        {
+          "order": 3,
+          "titleUz": "4-qism (C1)",
+          "titleEn": "Part 4 (C1)",
+          "questions": [
+            { "number": 16, "type": "MCQ_SINGLE", "promptEn": "Not until she got home ___ that she had lost her keys.", "data": { "options": ["she realised", "did she realise", "she did realise", "realised she"] }, "answer": { "value": "did she realise" } },
+            { "number": 17, "type": "MCQ_SINGLE", "promptEn": "Had I known about the meeting, I ___ attended.", "data": { "options": ["would", "will have", "would have", "had"] }, "answer": { "value": "would have" } },
+            { "number": 18, "type": "MCQ_SINGLE", "promptEn": "The proposal was met with ___ criticism from the board.", "data": { "options": ["scathing", "scorching", "searing", "sizzling"] }, "answer": { "value": "scathing" } },
+            { "number": 19, "type": "MCQ_SINGLE", "promptEn": "It's high time the government ___ serious measures.", "data": { "options": ["takes", "took", "has taken", "will take"] }, "answer": { "value": "took" } },
+            { "number": 20, "type": "MCQ_SINGLE", "promptEn": "She is by far ___ candidate we have interviewed.", "data": { "options": ["the most qualified", "a more qualified", "the more qualified", "most qualified"] }, "answer": { "value": "the most qualified" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

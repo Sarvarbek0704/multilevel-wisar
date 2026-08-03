@@ -1,0 +1,465 @@
+{
+  "subject": "ENGLISH",
+  "level": "A2",
+  "slug": "english-a2-foundation",
+  "titleUz": "Ingliz tili A2 — Poydevor",
+  "titleEn": "English A2 — Foundation",
+  "descriptionUz": "Multilevel yo'lidagi birinchi jiddiy bosqich: Present Simple, kundalik mavzular, asosiy so'z boyligi. Har dars nazariya (o'zbekcha tushuntirish), misollar va interaktiv mashqlardan iborat.",
+  "icon": "🌱",
+  "order": 1,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "grammar-basics-1",
+      "titleUz": "Grammatika asoslari I: to be va Present Simple",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "verb-to-be",
+          "titleUz": "«To be» fe'li: am / is / are",
+          "titleEn": "The verb 'to be'",
+          "skill": "GRAMMAR",
+          "level": "A2",
+          "order": 0,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "am/is/are ni to'g'ri tanlash",
+            "To be bilan darak, inkor va so'roq gaplar tuzish",
+            "Qisqartmalarni (I'm, he's, they're) ishlatish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "«To be» nima uchun kerak?",
+              "bodyUz": "Ingliz tilida «to be» (bo'lmoq) — eng ko'p ishlatiladigan fe'l. O'zbek tilida biz «Men talabaman» deymiz — «man» qo'shimchasi vazifasini ingliz tilida **am/is/are** bajaradi.\n\n- **I am** — men ...man\n- **He/She/It is** — u ...dir\n- **We/You/They are** — biz/siz/ular ...miz/siz/lar"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I am a student.", "uz": "Men talabaman." },
+                { "en": "She is a doctor.", "uz": "U shifokor." },
+                { "en": "They are from Tashkent.", "uz": "Ular Toshkentdan." },
+                { "en": "It is cold today.", "uz": "Bugun havo sovuq." }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Qisqartmalar",
+              "headers": ["To'liq shakl", "Qisqartma", "Tarjima"],
+              "rows": [
+                ["I am", "I'm", "men ...man"],
+                ["He is", "He's", "u ...dir"],
+                ["She is", "She's", "u ...dir"],
+                ["We are", "We're", "biz ...miz"],
+                ["They are", "They're", "ular ...lar"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Inkor va so'roq",
+              "bodyUz": "**Inkor:** be dan keyin **not** qo'shiladi: *I am not tired. She isn't a teacher.*\n\n**So'roq:** be gapning boshiga chiqadi: *Are you ready? Is he at home?*\n\nQisqa javoblar: *Yes, I am. / No, I'm not. / Yes, she is. / No, she isn't.*"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihonda eng ko'p uchraydigan xato: «He are», «They is». Egani aniqlab oling: birlikmi (is) yoki ko'plikmi (are)? «I» esa doim «am» bilan!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "My brother ___ an engineer.", "options": ["am", "is", "are", "be"] },
+              "answer": { "value": "is" },
+              "explanationUz": "«My brother» — u (birlik, 3-shaxs), shuning uchun «is» ishlatiladi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "___ you from Samarkand?", "options": ["Am", "Is", "Are", "Be"] },
+              "answer": { "value": "Are" },
+              "explanationUz": "«You» bilan doim «are» ishlatiladi: Are you...?"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (am/is/are):",
+              "data": { "text": "I ___ very happy today." },
+              "answer": { "accept": ["am", "'m"] },
+              "explanationUz": "«I» bilan faqat «am» ishlatiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu gap grammatik jihatdan to'g'rimi?",
+              "data": { "statement": "They is my friends." },
+              "answer": { "value": "false" },
+              "explanationUz": "«They» ko'plik, shuning uchun «are» kerak: They are my friends."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["is", "sister", "my", "a", "nurse"] },
+              "answer": { "order": ["my", "sister", "is", "a", "nurse"] },
+              "explanationUz": "To'g'ri tartib: My sister is a nurse. (Ega + fe'l + kesim)"
+            }
+          ]
+        },
+        {
+          "slug": "present-simple-affirmative",
+          "titleUz": "Present Simple: darak gaplar",
+          "titleEn": "Present Simple: affirmative",
+          "skill": "GRAMMAR",
+          "level": "A2",
+          "order": 1,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Present Simple qachon ishlatilishini bilish",
+            "3-shaxs birlikda -s/-es qo'shishni o'rganish",
+            "Odatiy ish-harakatlar haqida gapirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Present Simple nima?",
+              "bodyUz": "Present Simple — **odatiy, takrorlanadigan** ish-harakatlar va **umumiy haqiqatlar** uchun ishlatiladi:\n\n- Odatlar: *I drink tea every morning.* (Har kuni choy ichaman)\n- Jadval: *The lesson starts at 9.* (Dars 9 da boshlanadi)\n- Haqiqatlar: *Water boils at 100°C.*\n\nSignal so'zlar: **every day, always, usually, often, sometimes, never**"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Oltin qoida: he/she/it + -s",
+              "bodyUz": "3-shaxs birlikda (he, she, it) fe'lga **-s** qo'shiladi:\n\n- I work → He work**s**\n- We play → She play**s**\n\nMaxsus holatlar:\n- -o, -sh, -ch, -ss, -x bilan tugasa → **-es**: go → go**es**, watch → watch**es**\n- undosh + y bilan tugasa → **-ies**: study → stud**ies**\n- have → **has** (istisno!)"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I wake up at 6 o'clock.", "uz": "Men soat 6 da uyg'onaman." },
+                { "en": "Aziza works at a bank.", "uz": "Aziza bankda ishlaydi." },
+                { "en": "My father watches the news every evening.", "uz": "Otam har kuni kechqurun yangiliklarni ko'radi." },
+                { "en": "She studies English online.", "uz": "U ingliz tilini onlayn o'rganadi." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Multilevel imtihonining Listening va Reading qismlarida Present Simple eng ko'p uchraydigan zamon. «-s» ni unutish — writingda ham eng keng tarqalgan xato. «He/She/It — s bilan do'st» deb yodlab oling!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "My mother ___ delicious plov every Sunday.", "options": ["cook", "cooks", "cooking", "is cook"] },
+              "answer": { "value": "cooks" },
+              "explanationUz": "«My mother» = she → fe'lga -s qo'shiladi: cooks."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri shaklda yozing:",
+              "data": { "text": "Karim ___ (go) to school by bus." },
+              "answer": { "accept": ["goes"] },
+              "explanationUz": "«go» -o bilan tugaydi → goes."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri shaklda yozing:",
+              "data": { "text": "She ___ (study) at the university." },
+              "answer": { "accept": ["studies"] },
+              "explanationUz": "undosh + y → -ies: studies."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["He have two brothers.", "He has two brothers.", "He haves two brothers.", "He is have two brothers."] },
+              "answer": { "value": "He has two brothers." },
+              "explanationUz": "«have» 3-shaxs birlikda «has» bo'ladi — istisno fe'l."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Egani mos fe'l shakli bilan bog'lang:",
+              "data": { "left": ["I", "My sister", "They", "The dog"], "right": ["barks", "read books", "wake up early", "teaches math"] },
+              "answer": { "pairs": { "I": "wake up early", "My sister": "teaches math", "They": "read books", "The dog": "barks" } },
+              "explanationUz": "I/They — asos shakl; my sister/the dog (he-she-it) — fe'l + s."
+            }
+          ]
+        },
+        {
+          "slug": "present-simple-negative-questions",
+          "titleUz": "Present Simple: inkor va so'roq (don't/doesn't)",
+          "titleEn": "Present Simple: negatives & questions",
+          "skill": "GRAMMAR",
+          "level": "A2",
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "don't/doesn't bilan inkor gap tuzish",
+            "Do/Does bilan so'roq gap tuzish",
+            "Qisqa javoblarni to'g'ri berish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Inkor: don't / doesn't",
+              "bodyUz": "Present Simple'da inkor uchun yordamchi fe'l kerak:\n\n- I/You/We/They + **don't** + fe'l: *I don't like coffee.*\n- He/She/It + **doesn't** + fe'l: *She doesn't work here.*\n\n⚠️ MUHIM: doesn't dan keyin fe'l **asos shaklda** qoladi (-s YO'Q!):\n❌ *She doesn't works* → ✅ *She doesn't work*"
+            },
+            {
+              "type": "theory",
+              "titleUz": "So'roq: Do / Does",
+              "bodyUz": "- **Do** I/you/we/they + fe'l? — *Do you speak English?*\n- **Does** he/she/it + fe'l? — *Does he play football?*\n\nQisqa javoblar: *Yes, I do. / No, I don't. / Yes, she does. / No, she doesn't.*\n\nWh- savollar: *Where do you live? What time does the shop open?*"
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat",
+              "lines": [
+                { "speaker": "A", "en": "Do you live in Tashkent?", "uz": "Siz Toshkentda yashaysizmi?" },
+                { "speaker": "B", "en": "No, I don't. I live in Bukhara.", "uz": "Yo'q. Men Buxoroda yashayman." },
+                { "speaker": "A", "en": "Does your brother study English?", "uz": "Akangiz ingliz tili o'rganadimi?" },
+                { "speaker": "B", "en": "Yes, he does. He wants to get C1!", "uz": "Ha. U C1 olmoqchi!" }
+              ]
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "My parents ___ watch TV in the morning.", "options": ["doesn't", "don't", "aren't", "isn't"] },
+              "answer": { "value": "don't" },
+              "explanationUz": "«My parents» = they → don't."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["She doesn't likes tea.", "She don't like tea.", "She doesn't like tea.", "She not like tea."] },
+              "answer": { "value": "She doesn't like tea." },
+              "explanationUz": "doesn't + fe'l asos shaklda: doesn't like (likes EMAS)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (Do/Does):",
+              "data": { "text": "___ your sister speak Russian?" },
+              "answer": { "accept": ["does", "Does"] },
+              "explanationUz": "«your sister» = she → Does."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'roq gap tuzing:",
+              "data": { "items": ["time", "does", "start", "what", "the film"] },
+              "answer": { "order": ["what", "time", "does", "the film", "start"] },
+              "explanationUz": "Wh-savol tartibi: What time + does + ega + fe'l? — What time does the film start?"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Inkor shaklda yozing: «He plays chess» →",
+              "data": { "text": "He ___ chess." },
+              "answer": { "gaps": [["doesn't play", "does not play"]] },
+              "explanationUz": "He + doesn't + play (asos shakl)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "everyday-english-1",
+      "titleUz": "Kundalik ingliz tili I: tanishuv va oila",
+      "order": 1,
+      "lessons": [
+        {
+          "slug": "introducing-yourself",
+          "titleUz": "O'zingizni tanishtirish",
+          "titleEn": "Introducing yourself",
+          "skill": "SPEAKING",
+          "level": "A2",
+          "order": 0,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "O'zi haqida 6-8 gap ayta olish",
+            "Tanishuv savollariga javob berish",
+            "Speaking Part 1 formatiga birinchi qadam"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Speaking Part 1 bilan tanishuv",
+              "bodyUz": "Multilevel Speaking imtihonining 1-qismida o'zingiz haqingizda oddiy savollar beriladi: ism, yosh, qayerdanligingiz, oila, sevimli mashg'ulot. Bu darsda tayyor javob shablonlarini o'rganamiz."
+            },
+            {
+              "type": "example",
+              "titleUz": "Foydali iboralar",
+              "items": [
+                { "en": "My name is ... / I'm ...", "uz": "Mening ismim ... / Men ..." },
+                { "en": "I'm ... years old.", "uz": "Men ... yoshdaman." },
+                { "en": "I'm from Uzbekistan, from ... region.", "uz": "Men O'zbekistondanman, ... viloyatidan." },
+                { "en": "There are ... people in my family.", "uz": "Oilamizda ... kishi bor." },
+                { "en": "In my free time, I like reading.", "uz": "Bo'sh vaqtimda kitob o'qishni yaxshi ko'raman." }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Namuna javob",
+              "lines": [
+                { "speaker": "Examiner", "en": "Tell me about yourself.", "uz": "O'zingiz haqingizda gapirib bering." },
+                { "speaker": "You", "en": "My name is Aziza. I'm 21 years old and I'm from Fergana. There are five people in my family. I'm a student and I study economics. In my free time, I like watching films in English because it helps me learn new words.", "uz": "Ismim Aziza. 21 yoshdaman, Farg'onadanman. Oilamizda 5 kishi bor. Men talabaman, iqtisodiyot o'qiyman. Bo'sh vaqtimda inglizcha filmlar ko'rishni yoqtiraman, chunki bu yangi so'zlarni o'rganishga yordam beradi." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Speaking'da bir so'zli javob bermang! Har javobga kamida bitta sabab yoki qo'shimcha ma'lumot qo'shing: «...because...», «...and I also...». Bu sizni darhol yuqori bahoga ko'taradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "Savolga mos javobni tanlang:",
+              "data": {
+                "left": ["Where are you from?", "How old are you?", "What do you do?", "What do you like doing?"],
+                "right": ["I'm a student.", "I enjoy playing football.", "I'm from Namangan.", "I'm nineteen."]
+              },
+              "answer": { "pairs": { "Where are you from?": "I'm from Namangan.", "How old are you?": "I'm nineteen.", "What do you do?": "I'm a student.", "What do you like doing?": "I enjoy playing football." } },
+              "explanationUz": "Savol so'zlariga e'tibor bering: Where — joy, How old — yosh, What do you do — kasb."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Iborani to'ldiring:",
+              "data": { "text": "There ___ four people in my family." },
+              "answer": { "accept": ["are"] },
+              "explanationUz": "«four people» — ko'plik → There are."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Introduce yourself: say your name, age, where you are from, your family, and one hobby with a reason. Speak for 45-60 seconds.",
+              "promptUz": "O'zingizni tanishtiring: ism, yosh, qayerdanligingiz, oilangiz va bitta sevimli mashg'ulotingizni sababi bilan ayting. 45-60 soniya gapiring.",
+              "data": { "preparationSeconds": 30, "recordSeconds": 60 }
+            }
+          ]
+        },
+        {
+          "slug": "family-vocabulary",
+          "titleUz": "Oila a'zolari: so'z boyligi",
+          "titleEn": "Family vocabulary",
+          "skill": "VOCABULARY",
+          "level": "A2",
+          "order": 1,
+          "estimatedMinutes": 15,
+          "objectivesUz": ["20 ta oila so'zini o'rganish", "Egalik qo'shimchasi 's ni ishlatish"],
+          "content": [
+            {
+              "type": "table",
+              "titleUz": "Oila a'zolari",
+              "headers": ["English", "O'zbekcha", "English", "O'zbekcha"],
+              "rows": [
+                ["mother / mum", "ona", "father / dad", "ota"],
+                ["brother", "aka/uka", "sister", "opa/singil"],
+                ["grandmother", "buvi", "grandfather", "buva"],
+                ["aunt", "xola/amma", "uncle", "tog'a/amaki"],
+                ["cousin", "amakivachcha", "nephew / niece", "jiyan (o'g'il/qiz)"],
+                ["husband", "er", "wife", "xotin"],
+                ["son", "o'g'il", "daughter", "qiz"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Egalik: 's",
+              "bodyUz": "Kimningdir narsasini aytish uchun ismga **'s** qo'shiladi:\n\n- *Aziza's brother* — Azizaning akasi\n- *my father's car* — otamning mashinasi\n- Ko'plikda faqat apostrof: *my parents' house* — ota-onamning uyi"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "«Buvi» inglizchada qanday bo'ladi?",
+              "data": { "options": ["aunt", "grandmother", "niece", "wife"] },
+              "answer": { "value": "grandmother" },
+              "explanationUz": "grandmother = buvi; aunt = xola/amma."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "To'ldiring: «My mother's sister is my ___»",
+              "data": { "text": "My mother's sister is my ___." },
+              "answer": { "accept": ["aunt"] },
+              "explanationUz": "Onamning opasi/singlisi — xola (aunt)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "This is my ___ car.", "options": ["brothers", "brother's", "brothers's", "brother"] },
+              "answer": { "value": "brother's" },
+              "explanationUz": "Egalik uchun 's: my brother's car — akamning mashinasi."
+            }
+          ]
+        },
+        {
+          "slug": "daily-routine-reading",
+          "titleUz": "O'qish: Kundalik tartib",
+          "titleEn": "Reading: Daily routine",
+          "skill": "READING",
+          "level": "A2",
+          "order": 2,
+          "estimatedMinutes": 20,
+          "objectivesUz": ["Qisqa matndan asosiy ma'lumotni topish", "Reading'da True/False savollariga yondashuv"],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Matn",
+              "bodyUz": "**Dilnoza's Day**\n\nDilnoza is a nurse at a big hospital in Andijan. She wakes up at 5:30 every morning and does exercise for twenty minutes. After breakfast, she goes to work by bus because she doesn't have a car. Her shift starts at 8:00 and finishes at 16:00. In the evening, she studies English for one hour because she wants to work abroad in the future. She usually goes to bed at 22:30."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "True/False savollarida matndagi RAQAMLAR va INKOR so'zlarga (doesn't, never) alohida e'tibor bering — tuzoqlar odatda shu yerda bo'ladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TRUE_FALSE",
+              "skill": "READING",
+              "promptUz": "Matn bo'yicha: to'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Dilnoza goes to work by car." },
+              "answer": { "value": "false" },
+              "explanationUz": "Matnda: «she goes to work by bus because she doesn't have a car»."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "READING",
+              "promptUz": "Matn bo'yicha: to'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Her working day is eight hours long." },
+              "answer": { "value": "true" },
+              "explanationUz": "8:00 dan 16:00 gacha = 8 soat."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Nima uchun Dilnoza ingliz tili o'rganadi?",
+              "data": { "options": ["She likes films.", "She wants to work abroad.", "Her hospital needs it.", "She teaches English."] },
+              "answer": { "value": "She wants to work abroad." },
+              "explanationUz": "Matnda: «because she wants to work abroad in the future»."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "READING",
+              "promptUz": "Dilnoza soat nechada uyg'onadi? (raqam bilan yozing, masalan 6:00)",
+              "data": { "text": "She wakes up at ___." },
+              "answer": { "accept": ["5:30", "05:30", "five thirty", "half past five"] },
+              "explanationUz": "Matnda: «She wakes up at 5:30 every morning»."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

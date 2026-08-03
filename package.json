@@ -1,0 +1,18 @@
+{
+  "name": "multilevel-wisar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "multilevel.wisar.uz — bepul CEFR (UzBMB multilevel) imtihoniga tayyorlash platformasi",
+  "scripts": {
+    "api:dev": "pnpm --filter @multilevel/api start:dev",
+    "api:build": "pnpm --filter @multilevel/api build",
+    "api:seed": "pnpm --filter @multilevel/api seed",
+    "db:up": "docker compose up -d postgres",
+    "db:migrate": "pnpm --filter @multilevel/api prisma:migrate",
+    "db:studio": "pnpm --filter @multilevel/api prisma:studio"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@11.6.0"
+}

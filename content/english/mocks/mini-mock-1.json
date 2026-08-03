@@ -1,0 +1,153 @@
+{
+  "subject": "ENGLISH",
+  "kind": "MINI",
+  "slug": "english-mini-mock-1",
+  "titleUz": "Mini Mock #1: Reading + Writing + Speaking",
+  "titleEn": "Mini Mock #1",
+  "descriptionUz": "Qisqartirilgan mock: Reading (10 savol, 20 daqiqa), Writing (2 task, 40 daqiqa), Speaking (3 qism, 15 daqiqa). Writing va Speaking javoblaringizni AI baholab, o'zbekcha batafsil tahlil beradi.",
+  "order": 1,
+  "isPublished": true,
+  "sections": [
+    {
+      "skill": "READING",
+      "order": 0,
+      "durationMinutes": 20,
+      "instructionsUz": "Matnlarni o'qib, savollarga javob bering. Javoblar faqat matnga asoslanishi kerak.",
+      "instructionsEn": "Read the texts and answer the questions.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "1-qism: Sarlavhalarni moslashtirish",
+          "titleEn": "Part 1: Matching headings",
+          "instructionsEn": "Match each paragraph (A-E) with the correct heading. There is one extra heading you do not need.",
+          "instructionsUz": "Har bir xatboshiga (A-E) mos sarlavhani tanlang. Bitta sarlavha ortiqcha.",
+          "passageText": "A. Every year, millions of tourists visit Uzbekistan to see the ancient cities of Samarkand, Bukhara and Khiva. The number of foreign visitors has grown rapidly since electronic visas were introduced.\n\nB. Traditional Uzbek dishes such as plov, samsa and lagman are becoming famous worldwide. Several Uzbek restaurants have recently opened in London, New York and Seoul.\n\nC. The government has invested heavily in high-speed railways. The Afrosiyob train now connects Tashkent and Samarkand in just over two hours, making day trips possible.\n\nD. Many young Uzbeks are learning foreign languages. English is the most popular choice because it opens doors to international universities and better-paid jobs.\n\nE. Air pollution in large cities remains a serious problem, especially in winter. Experts suggest expanding public transport and planting more trees to improve air quality.",
+          "context": { "headingsPool": ["Faster travel between cities", "National cuisine goes global", "A growing environmental concern", "Why young people study languages", "Tourism on the rise", "New universities open their doors"] },
+          "questions": [
+            { "number": 1, "type": "MCQ_SINGLE", "promptEn": "Paragraph A", "data": { "options": ["Faster travel between cities", "National cuisine goes global", "A growing environmental concern", "Why young people study languages", "Tourism on the rise", "New universities open their doors"] }, "answer": { "value": "Tourism on the rise" }, "points": 1 },
+            { "number": 2, "type": "MCQ_SINGLE", "promptEn": "Paragraph B", "data": { "options": ["Faster travel between cities", "National cuisine goes global", "A growing environmental concern", "Why young people study languages", "Tourism on the rise", "New universities open their doors"] }, "answer": { "value": "National cuisine goes global" }, "points": 1 },
+            { "number": 3, "type": "MCQ_SINGLE", "promptEn": "Paragraph C", "data": { "options": ["Faster travel between cities", "National cuisine goes global", "A growing environmental concern", "Why young people study languages", "Tourism on the rise", "New universities open their doors"] }, "answer": { "value": "Faster travel between cities" }, "points": 1 },
+            { "number": 4, "type": "MCQ_SINGLE", "promptEn": "Paragraph D", "data": { "options": ["Faster travel between cities", "National cuisine goes global", "A growing environmental concern", "Why young people study languages", "Tourism on the rise", "New universities open their doors"] }, "answer": { "value": "Why young people study languages" }, "points": 1 },
+            { "number": 5, "type": "MCQ_SINGLE", "promptEn": "Paragraph E", "data": { "options": ["Faster travel between cities", "National cuisine goes global", "A growing environmental concern", "Why young people study languages", "Tourism on the rise", "New universities open their doors"] }, "answer": { "value": "A growing environmental concern" }, "points": 1 }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "2-qism: Matnni tushunish",
+          "titleEn": "Part 2: Reading comprehension",
+          "instructionsEn": "Read the text and answer questions 6-10.",
+          "instructionsUz": "Matnni o'qib, 6-10-savollarga javob bering.",
+          "passageText": "The Rise of Online Learning\n\nOnline education has transformed the way people learn languages. A decade ago, students had to attend physical classes, often travelling long distances and paying high fees. Today, anyone with a smartphone can access world-class lessons from home.\n\nHowever, online learning is not without challenges. Research shows that only about 15 per cent of people who start a free online course actually finish it. Experts believe the main reason is the lack of structure and accountability: when nobody checks your progress, it is easy to give up.\n\nSuccessful online learners share several habits. First, they set a fixed study time every day, treating it like an important appointment. Second, they combine different skills — reading, listening, writing and speaking — rather than focusing on just one. Finally, they track their progress with regular tests, which keeps motivation high.\n\nInterestingly, studies suggest that learners who use spaced repetition for vocabulary remember up to 80 per cent of new words after a month, compared with only 20 per cent for those who cram. The message is clear: consistency beats intensity.",
+          "questions": [
+            { "number": 6, "type": "MCQ_SINGLE", "promptEn": "According to the text, what was learning like a decade ago?", "data": { "options": ["Cheaper than today", "Available only on smartphones", "Expensive and less convenient", "More effective than online learning"] }, "answer": { "value": "Expensive and less convenient" }, "points": 1 },
+            { "number": 7, "type": "MCQ_SINGLE", "promptEn": "What percentage of people finish free online courses?", "data": { "options": ["About 15%", "About 20%", "About 80%", "About 50%"] }, "answer": { "value": "About 15%" }, "points": 1 },
+            { "number": 8, "type": "MCQ_SINGLE", "promptEn": "Why do most people give up, according to experts?", "data": { "options": ["Courses are too difficult", "Nobody monitors their progress", "Lessons are too expensive", "They prefer physical classes"] }, "answer": { "value": "Nobody monitors their progress" }, "points": 1 },
+            { "number": 9, "type": "TRUE_FALSE", "promptEn": "Successful learners focus on only one skill at a time.", "data": { "statement": "Successful learners focus on only one skill at a time." }, "answer": { "value": "false" }, "points": 1 },
+            { "number": 10, "type": "MCQ_SINGLE", "promptEn": "What is the main message of the final paragraph?", "data": { "options": ["Cramming is the best way to learn", "Regular study works better than occasional intense study", "Vocabulary is not important", "Tests reduce motivation"] }, "answer": { "value": "Regular study works better than occasional intense study" }, "points": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "WRITING",
+      "order": 1,
+      "durationMinutes": 40,
+      "instructionsUz": "Ikkala vazifani ham bajaring. So'z sonini hisobga oling — talabdan kam yozsangiz ball pasayadi.",
+      "instructionsEn": "Complete both tasks.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "Task 1: Email",
+          "titleEn": "Task 1: Email",
+          "questions": [
+            {
+              "number": 1,
+              "type": "WRITING_TASK",
+              "promptEn": "You received this email from your English friend Jack:\n\n\"Hi! Great news — I'm coming to Uzbekistan next month for a week! I've never been there before. Which cities should I visit? What food must I try? And what's the weather like in September? Write back soon! Jack\"\n\nWrite a reply to Jack. Answer all three questions. Write at least 50 words.",
+              "promptUz": "Do'stingiz Jackdan email keldi (yuqorida). Unga javob yozing: uchala savoliga ham javob bering. Kamida 50 so'z.",
+              "data": { "minWords": 50, "maxWords": 100 },
+              "points": 1,
+              "rubric": { "criteria": ["Task fulfillment — all 3 questions answered", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "informal" }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "Task 2: Esse",
+          "titleEn": "Task 2: Essay",
+          "questions": [
+            {
+              "number": 2,
+              "type": "WRITING_TASK",
+              "promptEn": "Some people believe that children should start learning a foreign language at primary school, while others think it is better to start at secondary school. Discuss both views and give your own opinion. Write at least 180 words.",
+              "promptUz": "Ba'zilar chet tilini boshlang'ich maktabdan, boshqalar o'rta maktabdan o'rganishni ma'qul deb hisoblaydi. Ikkala fikrni muhokama qiling va o'z fikringizni bildiring. Kamida 180 so'z.",
+              "data": { "minWords": 180, "maxWords": 250 },
+              "points": 2,
+              "rubric": { "criteria": ["Task response — both views + opinion", "Coherence & cohesion — paragraphs, linking", "Lexical resource", "Grammatical range & accuracy"], "style": "formal essay" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "SPEAKING",
+      "order": 2,
+      "durationMinutes": 15,
+      "instructionsUz": "Har bir qismda mikrofonga javob yozib boring. AI transkripsiya qilib, rasmiy mezonlar bo'yicha baholaydi.",
+      "instructionsEn": "Record your answers for each part.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "Part 1: Shaxsiy savollar",
+          "titleEn": "Part 1: Personal questions",
+          "instructionsEn": "Answer the questions about yourself. Speak for 30-40 seconds per question.",
+          "questions": [
+            {
+              "number": 1,
+              "type": "SPEAKING_TASK",
+              "promptEn": "Let's talk about your free time. What do you usually do at the weekend? Do you prefer spending time alone or with friends? Why?",
+              "promptUz": "Bo'sh vaqtingiz haqida: dam olish kunlari odatda nima qilasiz? Yolg'iz yoki do'stlar bilan vaqt o'tkazishni afzal ko'rasizmi? Nima uchun?",
+              "data": { "preparationSeconds": 10, "recordSeconds": 60 },
+              "points": 1,
+              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "B1" }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "Part 2: Monolog (rasm asosida)",
+          "titleEn": "Part 2: Individual long turn",
+          "instructionsEn": "Describe the situation and express your opinion. You have 1 minute to prepare and 2 minutes to speak.",
+          "questions": [
+            {
+              "number": 2,
+              "type": "SPEAKING_TASK",
+              "promptEn": "Many people in big cities spend more than two hours a day travelling to work or study. Describe the advantages and disadvantages of living far from your workplace or university. What would you personally choose: a cheaper home far away, or a more expensive one nearby? Explain why.",
+              "promptUz": "Katta shaharlarda ko'pchilik ishga/o'qishga kuniga 2+ soat qatnaydi. Ish joyidan uzoqda yashashning afzalliklari va kamchiliklarini tasvirlab bering. Siz shaxsan nimani tanlardingiz: uzoq lekin arzon uy yoki yaqin lekin qimmat uy? Sababini tushuntiring.",
+              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "points": 1,
+              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "B2" }
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "titleUz": "Part 3: Munozara",
+          "titleEn": "Part 3: Discussion",
+          "instructionsEn": "Discuss the abstract question, presenting both sides of the argument. Speak for about 2 minutes.",
+          "questions": [
+            {
+              "number": 3,
+              "type": "SPEAKING_TASK",
+              "promptEn": "\"Artificial intelligence will replace human teachers in the future.\" To what extent do you agree or disagree? Consider both the benefits of AI in education and the unique value of human teachers.",
+              "promptUz": "«Kelajakda sun'iy intellekt o'qituvchilar o'rnini egallaydi». Bu fikrga qay darajada qo'shilasiz? AI ning ta'limdagi foydasi va inson o'qituvchining o'ziga xos qadrini ikkala tomondan muhokama qiling.",
+              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "points": 1,
+              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation", "Argumentation — both sides"], "level": "C1" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

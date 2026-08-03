@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: multilevel-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-multilevel}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-multilevel_dev_password}
+      POSTGRES_DB: ${POSTGRES_DB:-multilevel}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-multilevel}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    container_name: multilevel-api
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file:
+      - apps/api/.env
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-multilevel}:${POSTGRES_PASSWORD:-multilevel_dev_password}@postgres:5432/${POSTGRES_DB:-multilevel}?schema=public
+      PORT: 3001
+    ports:
+      - "${API_PORT:-3001}:3001"
+    volumes:
+      - uploads:/app/apps/api/uploads
+    profiles:
+      - prod
+
+volumes:
+  pgdata:
+  uploads:

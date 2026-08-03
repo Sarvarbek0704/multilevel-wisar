@@ -1,0 +1,260 @@
+{
+  "subject": "ENGLISH",
+  "level": "B1",
+  "slug": "english-b1-writing-core",
+  "titleUz": "Ingliz tili B1 — Writing poydevori",
+  "titleEn": "English B1 — Writing Core",
+  "descriptionUz": "Multilevel Writing bo'limiga maxsus tayyorgarlik: norasmiy va rasmiy email yozish, bog'lovchi so'zlar, imtihon strukturasi. Task 1 ni shu kursdan keyin bemalol yoza olasiz.",
+  "icon": "✍️",
+  "order": 3,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "email-writing",
+      "titleUz": "Email yozish san'ati (Writing Task 1)",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "informal-email-structure",
+          "titleUz": "Norasmiy email tuzilishi",
+          "titleEn": "Informal email structure",
+          "skill": "WRITING",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Norasmiy email 4 qismini bilish: salomlashish, maqsad, asosiy qism, xayrlashish",
+            "Do'stona ohang uchun iboralarni ishlatish",
+            "Task 1 (norasmiy email) uchun shablon yodlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Imtihonda Task 1 qanday bo'ladi?",
+              "bodyUz": "Multilevel Writing Task 1 da sizga kelgan email ko'rsatiladi va unga javob yozishingiz kerak. Norasmiy qism uchun **kamida 50 so'z** talab qilinadi. Baholashda: vazifani bajarish, matn izchilligi, so'z boyligi va grammatika hisobga olinadi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "4 qismli oltin struktura",
+              "bodyUz": "1. **Salomlashish**: *Hi Tom, / Dear Aziz,*\n2. **Kirish + his-tuyg'u**: *Thanks for your email! It was great to hear from you.*\n3. **Asosiy qism**: savollarga JAVOB bering (har savolga 1-2 gap)\n4. **Xayrlashish**: *Write back soon! / Best wishes, / Take care,* + ism"
+            },
+            {
+              "type": "example",
+              "titleUz": "Foydali norasmiy iboralar",
+              "items": [
+                { "en": "Thanks for your email!", "uz": "Emailing uchun rahmat!" },
+                { "en": "Sorry for my late reply.", "uz": "Kech javob berganim uchun uzr." },
+                { "en": "Guess what!", "uz": "Bilasanmi nima!" },
+                { "en": "Why don't we meet on Saturday?", "uz": "Shanba kuni uchrashsak-chi?" },
+                { "en": "Can't wait to see you!", "uz": "Ko'rishishga sabrim chidamayapti!" },
+                { "en": "Write back soon!", "uz": "Tez orada javob yoz!" }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namuna javob (Task 1 uslubida)",
+              "bodyUz": "**Savol:** Do'stingiz Tom sizni shahriga taklif qilyapti va qachon kelishingizni, nimalar qilishni xohlashingizni so'rayapti.\n\n**Javob (58 so'z):**\n\n*Hi Tom,*\n\n*Thanks for your email! I was really happy to read it.*\n\n*I think I can visit you in July, after my exams. Could you meet me at the station? I'd love to see the old town and try some local food together. Also, let's watch a football match if possible!*\n\n*Write back soon!*\n*Aziz*"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Vaqtni tejang: salomlashish va xayrlashish shablonini OLDINDAN yodlab oling. Imtihonda faqat asosiy qismni o'ylaysiz. Va doim so'zlarni sanang — 50 dan kam bo'lsa, ball keskin tushadi!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Email qismlarini to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["Write back soon! Aziz", "Hi Tom,", "I can come in July. Let's visit the old town!", "Thanks for your email! Great to hear from you."] },
+              "answer": { "order": ["Hi Tom,", "Thanks for your email! Great to hear from you.", "I can come in July. Let's visit the old town!", "Write back soon! Aziz"] },
+              "explanationUz": "Salomlashish → kirish → asosiy qism → xayrlashish."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Norasmiy emailga MOS KELMAYDIGAN iborani toping:",
+              "data": { "options": ["Hi Aziza,", "Guess what!", "Dear Sir or Madam,", "Take care!"] },
+              "answer": { "value": "Dear Sir or Madam," },
+              "explanationUz": "«Dear Sir or Madam» — rasmiy uslub, notanish kishiga yoziladi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Norasmiy email uchun mos xayrlashuvlarni belgilang (bir nechta):",
+              "data": { "options": ["Best wishes,", "Yours faithfully,", "Take care,", "Write soon!"] },
+              "answer": { "values": ["Best wishes,", "Take care,", "Write soon!"] },
+              "explanationUz": "«Yours faithfully» — faqat rasmiy xatlarda (Dear Sir/Madam bilan)."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Your English friend Emma invited you to her birthday party next month. Write a reply email (at least 50 words): thank her, say if you can come, ask one question about the party, and suggest bringing something.",
+              "promptUz": "Ingliz do'stingiz Emma sizni kelasi oy tug'ilgan kuniga taklif qildi. Javob email yozing (kamida 50 so'z): minnatdorchilik bildiring, bora olishingizni ayting, ziyofat haqida bitta savol bering va biror narsa olib borishni taklif qiling.",
+              "data": { "minWords": 50, "maxWords": 90 }
+            }
+          ]
+        },
+        {
+          "slug": "formal-email-structure",
+          "titleUz": "Rasmiy email yozish",
+          "titleEn": "Formal email structure",
+          "skill": "WRITING",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Rasmiy va norasmiy uslub farqini bilish",
+            "Rasmiy iboralar to'plamini o'rganish",
+            "Task 1 rasmiy javob (120-150 so'z) yozishga tayyorlanish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Rasmiy email qachon kerak?",
+              "bodyUz": "Imtihonda rasmiy javob ko'pincha: ishga ariza, shikoyat, ma'lumot so'rash, taklifga rasmiy javob. Talab: **120-150 so'z**. Rasmiy uslubda qisqartmalar (I'm, don't) ishlatilmaydi — to'liq yoziladi (I am, do not)."
+            },
+            {
+              "type": "table",
+              "titleUz": "Rasmiy vs Norasmiy",
+              "headers": ["Vazifa", "Norasmiy", "Rasmiy"],
+              "rows": [
+                ["Salomlashish", "Hi Tom,", "Dear Mr Smith, / Dear Sir or Madam,"],
+                ["Kirish", "Thanks for your email!", "I am writing in response to..."],
+                ["So'rov", "Can you send me...?", "I would be grateful if you could send..."],
+                ["Uzr", "Sorry!", "I apologise for..."],
+                ["Xayrlashish", "Take care!", "Yours sincerely, / Yours faithfully,"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Rasmiy iboralar xazinasi",
+              "items": [
+                { "en": "I am writing to enquire about...", "uz": "... haqida ma'lumot olish uchun yozyapman" },
+                { "en": "I would like to apply for...", "uz": "...ga ariza topshirmoqchiman" },
+                { "en": "Could you please provide further details?", "uz": "Qo'shimcha ma'lumot bera olasizmi?" },
+                { "en": "I look forward to hearing from you.", "uz": "Javobingizni intiqlik bilan kutaman." },
+                { "en": "Please do not hesitate to contact me.", "uz": "Bemalol men bilan bog'laning." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Oltin qoida: «Dear Mr Smith» (ism ma'lum) → «Yours sincerely»; «Dear Sir or Madam» (ism noma'lum) → «Yours faithfully». Bu juftlikni adashtirish — tez-tez uchraydigan xato."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Norasmiy iborani rasmiy juftiga bog'lang:",
+              "data": {
+                "left": ["Thanks!", "Sorry!", "Can you help?", "Bye!"],
+                "right": ["Yours sincerely,", "I apologise for the inconvenience.", "Thank you for your assistance.", "I would appreciate your help."]
+              },
+              "answer": { "pairs": { "Thanks!": "Thank you for your assistance.", "Sorry!": "I apologise for the inconvenience.", "Can you help?": "I would appreciate your help.", "Bye!": "Yours sincerely," } },
+              "explanationUz": "Rasmiy uslub — to'liq, hurmatli konstruksiyalar."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«Dear Sir or Madam» bilan boshlangan xat qanday tugashi kerak?",
+              "data": { "options": ["Yours sincerely,", "Yours faithfully,", "Take care,", "Best,"] },
+              "answer": { "value": "Yours faithfully," },
+              "explanationUz": "Ism noma'lum bo'lsa: Dear Sir or Madam → Yours faithfully."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Rasmiy iborani to'ldiring:",
+              "data": { "text": "I am writing to ___ about the English courses at your school." },
+              "answer": { "accept": ["enquire", "inquire", "ask"] },
+              "explanationUz": "I am writing to enquire about... — ma'lumot so'rashning standart rasmiy shakli."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "You saw an advertisement for an online English course. Write a formal email to the school (120-150 words): say where you saw the advert, ask about the price and schedule, ask if there is a free trial lesson, and request an application form.",
+              "promptUz": "Onlayn ingliz tili kursi reklamasini ko'rdingiz. Maktabga rasmiy email yozing (120-150 so'z): reklamani qayerda ko'rganingizni ayting, narx va jadval haqida so'rang, bepul sinov darsi bor-yo'qligini so'rang va ariza formasini so'rang.",
+              "data": { "minWords": 120, "maxWords": 150 }
+            }
+          ]
+        },
+        {
+          "slug": "linking-words",
+          "titleUz": "Bog'lovchi so'zlar: matningizni professional qiladi",
+          "titleEn": "Linking words",
+          "skill": "WRITING",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "10 ta asosiy bog'lovchini o'rganish",
+            "Coherence & cohesion balini oshirish",
+            "Gaplarni tabiiy bog'lash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega bog'lovchilar muhim?",
+              "bodyUz": "Writing baholashda **Coherence & cohesion** (izchillik) alohida mezon. Bog'lovchisiz matn — uzuq-yuluq gaplar to'plami. Bog'lovchilar bilan — ravon, professional matn. Bu eng oson ball olish yo'li!"
+            },
+            {
+              "type": "table",
+              "titleUz": "Asosiy bog'lovchilar",
+              "headers": ["Bog'lovchi", "Ma'nosi", "Misol"],
+              "rows": [
+                ["and", "va", "I like tea and coffee."],
+                ["but", "lekin", "It's cheap but good."],
+                ["because", "chunki", "I study because I want C1."],
+                ["so", "shuning uchun", "It rained, so we stayed home."],
+                ["however", "biroq (rasmiy)", "However, there are problems."],
+                ["also", "shuningdek", "I also play tennis."],
+                ["for example", "masalan", "For example, apples are healthy."],
+                ["in addition", "bundan tashqari", "In addition, the course is free."],
+                ["therefore", "shu sababli (rasmiy)", "Therefore, I recommend it."],
+                ["although", "garchi", "Although it was hard, I finished."]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Norasmiy emailda: and, but, so, because, also. Rasmiy emailda: however, therefore, in addition, furthermore. Ularni aralashtirmang — uslub birligi ham baholanadi!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "To'g'ri bog'lovchini tanlang:",
+              "data": { "text": "I wanted to go for a walk, ___ it started to rain.", "options": ["because", "but", "so", "also"] },
+              "answer": { "value": "but" },
+              "explanationUz": "Qarama-qarshilik: bormoqchi edim, LEKIN yomg'ir boshlandi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "To'g'ri bog'lovchini tanlang:",
+              "data": { "text": "The tickets were expensive, ___ we decided to stay at home.", "options": ["although", "because", "so", "however"] },
+              "answer": { "value": "so" },
+              "explanationUz": "Natija: qimmat edi, SHUNING UCHUN uyda qoldik."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Rasmiy bog'lovchi bilan to'ldiring («bundan tashqari»):",
+              "data": { "text": "The course is very effective. ___ , it is completely free." },
+              "answer": { "accept": ["in addition", "furthermore", "moreover", "additionally"] },
+              "explanationUz": "In addition / Furthermore / Moreover — rasmiy «bundan tashqari»."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Bog'lovchini vazifasiga bog'lang:",
+              "data": { "left": ["because", "however", "for example", "therefore"], "right": ["misol keltirish", "sabab", "qarama-qarshilik", "xulosa/natija"] },
+              "answer": { "pairs": { "because": "sabab", "however": "qarama-qarshilik", "for example": "misol keltirish", "therefore": "xulosa/natija" } },
+              "explanationUz": "Har bir bog'lovchining o'z vazifasi bor — to'g'ri joyda ishlating."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

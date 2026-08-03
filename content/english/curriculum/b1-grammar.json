@@ -1,0 +1,3113 @@
+{
+  "subject": "ENGLISH",
+  "level": "B1",
+  "slug": "english-b1-grammar",
+  "titleUz": "Ingliz tili B1 — Grammatika to'liq kursi",
+  "titleEn": "English B1 — Complete Grammar Course",
+  "descriptionUz": "Multilevel (UzBMB) imtihoniga mo'ljallangan to'liq B1 grammatika kursi: zamonlar, modal fe'llar, shart gaplar, majhul nisbat, o'zlashtirma gap va boshqa asosiy tuzilmalar. Har bir dars chuqur o'zbekcha tushuntirish, jonli misollar, imtihon tuzoqlariga qarshi maslahatlar va avtomatik tekshiriladigan mashqlardan iborat.",
+  "icon": "🧠",
+  "order": 2,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "tenses-mastery",
+      "titleUz": "Zamonlar mahorati: o'tgan, hozirgi va kelasi",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "past-simple-vs-past-continuous",
+          "titleUz": "Past Simple va Past Continuous: nuqta va jarayon",
+          "titleEn": "Past Simple vs Past Continuous",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Past Simple va Past Continuous qachon ishlatilishini aniq farqlash",
+            "when va while bilan murakkab gaplar tuzish",
+            "O'tgan voqeani hikoya qilishda ikki zamonni birga qo'llash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Ikki zamon — ikki vazifa",
+              "bodyUz": "O'tgan zamonda ikki xil vaziyat bo'ladi:\n\n**Past Simple** — tugallangan, bitta nuqtadagi harakat. O'zbekchadagi «-di» qo'shimchasiga to'g'ri keladi: *keldi, ko'rdi, ishladi*.\n- *I watched a film yesterday.* — Kecha film ko'rdim. (boshladim va tugatdim — voqea yopiq)\n\n**Past Continuous (was/were + V-ing)** — o'tgan zamondagi ma'lum paytda **davom etayotgan** jarayon. O'zbekchadagi «-ayotgan edi» shakliga mos: *ko'rayotgan edim, ishlayotgan edi*.\n- *I was watching a film at 8 pm.* — Soat 8 da film ko'rayotgan edim. (jarayonning o'rtasida edim)\n\nVaqt chizig'ida tasavvur qiling: Past Simple — chiziqdagi bitta NUQTA (•), Past Continuous — cho'zilgan TO'LQINLI CHIZIQ (~~~~~), va biz o'sha chiziqning o'rtasiga qaraymiz."
+            },
+            {
+              "type": "table",
+              "titleUz": "Yasalishi",
+              "headers": [
+                "Zamon",
+                "Darak",
+                "Inkor",
+                "So'roq"
+              ],
+              "rows": [
+                [
+                  "Past Simple",
+                  "I worked / She went (V2)",
+                  "I didn't work / She didn't go",
+                  "Did you work? / Did she go?"
+                ],
+                [
+                  "Past Continuous",
+                  "I was working / They were working",
+                  "I wasn't working / They weren't working",
+                  "Was I working? / Were they working?"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "when va while: harakatlar to'qnashganda",
+              "bodyUz": "Hikoya qilishda ikkala zamon ko'pincha BITTA gapda keladi:\n\n**Uzun (fon) harakat → Past Continuous; uni bo'lib yuborgan qisqa harakat → Past Simple:**\n- *I was having dinner when the phone rang.* — Kechki ovqat yeyayotgan edim, telefon jiringladi.\n\nEng ishonchli formula: **while + Past Continuous**, **when + Past Simple**:\n- *While I was walking home, I met my old teacher.* — Uyga ketayotganimda eski o'qituvchimni uchratdim.\n\nIkkita PARALLEL jarayon bo'lsa, ikkalasi ham Past Continuous bo'ladi:\n- *While I was cooking, my sister was setting the table.* — Men ovqat pishirayotganimda, singlim dasturxon tuzayotgan edi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Qiyoslab ko'ring",
+              "items": [
+                {
+                  "en": "When I came in, they were talking about the exam.",
+                  "uz": "Men kirganimda, ular imtihon haqida gaplashayotgan edi."
+                },
+                {
+                  "en": "Yesterday I cleaned my room and washed the dishes.",
+                  "uz": "Kecha xonamni yig'ishtirdim va idishlarni yuvdim. (ketma-ket tugagan harakatlar)"
+                },
+                {
+                  "en": "At 6 o'clock yesterday I was doing my homework.",
+                  "uz": "Kecha soat 6 da uy vazifamni qilayotgan edim."
+                },
+                {
+                  "en": "She was reading when the lights went out.",
+                  "uz": "Chiroq o'chib qolganda u kitob o'qiyotgan edi."
+                },
+                {
+                  "en": "While we were playing football, it started to rain.",
+                  "uz": "Biz futbol o'ynayotganimizda yomg'ir boshlandi."
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: kechagi voqea",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "en": "What were you doing at 9 pm yesterday? I called you twice.",
+                  "uz": "Kecha soat 9 da nima qilayotgan eding? Ikki marta qo'ng'iroq qildim."
+                },
+                {
+                  "speaker": "B",
+                  "en": "Sorry, I was helping my father in the garden. I didn't hear the phone.",
+                  "uz": "Kechirasan, otamga bog'da yordam berayotgan edim. Telefonni eshitmadim."
+                },
+                {
+                  "speaker": "A",
+                  "en": "While you were working, we were watching the match!",
+                  "uz": "Sen ishlayotganingda biz o'yinni ko'rayotgan edik!"
+                },
+                {
+                  "speaker": "B",
+                  "en": "Really? Who won?",
+                  "uz": "Rostdanmi? Kim yutdi?"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Multilevel imtihonida bu mavzu Listening'dagi hikoya matnlarida va grammatika topshiriqlarida «when/while» tuzog'i sifatida keladi: while'dan keyin deyarli har doim Past Continuous, when'dan keyin esa ko'pincha Past Simple turadi. Writing Task 2 da o'tgan voqeani hikoya qilsangiz, fon uchun Past Continuous ishlatish («The sun was shining when...») grammatik diapazon balingizni sezilarli oshiradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "I ___ TV when my friend called.",
+                "options": [
+                  "watched",
+                  "was watching",
+                  "watch",
+                  "am watching"
+                ]
+              },
+              "answer": {
+                "value": "was watching"
+              },
+              "explanationUz": "Televizor ko'rish — davom etayotgan fon harakati (Past Continuous), qo'ng'iroq uni bo'lib yubordi (Past Simple)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "While we ___ football, it started to rain.",
+                "options": [
+                  "played",
+                  "were playing",
+                  "play",
+                  "are playing"
+                ]
+              },
+              "answer": {
+                "value": "were playing"
+              },
+              "explanationUz": "while — jarayon belgisi: while + Past Continuous (were playing). Yomg'ir esa qisqa hodisa — started."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri shaklda yozing:",
+              "data": {
+                "text": "She ___ (sleep) when the earthquake happened."
+              },
+              "answer": {
+                "accept": [
+                  "was sleeping"
+                ]
+              },
+              "explanationUz": "Zilzila paytida u uxlash JARAYONIDA edi → was sleeping."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri shaklda yozing:",
+              "data": {
+                "text": "Yesterday I ___ (buy) a new phone."
+              },
+              "answer": {
+                "accept": [
+                  "bought"
+                ]
+              },
+              "explanationUz": "yesterday — tugagan bitta harakat → Past Simple: bought (buy fe'lining noto'g'ri V2 shakli)."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«When the teacher came in, the students were talking» gapida gaplashish o'qituvchi kirishidan OLDIN boshlangan."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri: Past Continuous (were talking) — o'qituvchi kirgan paytda allaqachon davom etayotgan jarayon edi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Gap boshlanishini mos davomi bilan bog'lang:",
+              "data": {
+                "left": [
+                  "While I was walking home,",
+                  "When the phone rang,",
+                  "Yesterday evening we",
+                  "At 9 pm last night she"
+                ],
+                "right": [
+                  "watched an interesting film.",
+                  "I saw an old friend.",
+                  "was doing her homework.",
+                  "I was having a shower."
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "While I was walking home,": "I saw an old friend.",
+                  "When the phone rang,": "I was having a shower.",
+                  "Yesterday evening we": "watched an interesting film.",
+                  "At 9 pm last night she": "was doing her homework."
+                }
+              },
+              "explanationUz": "while + jarayon ichida qisqa voqea (saw); when + qisqa voqea paytidagi jarayon (was having); yesterday evening — oddiy tugagan harakat; at 9 pm — aynan shu paytdagi jarayon."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "when",
+                  "cooking",
+                  "I",
+                  "arrived",
+                  "was",
+                  "she",
+                  "dinner"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "I",
+                  "was",
+                  "cooking",
+                  "dinner",
+                  "when",
+                  "she",
+                  "arrived"
+                ]
+              },
+              "explanationUz": "To'g'ri gap: I was cooking dinner when she arrived. — U kelganda men ovqat pishirayotgan edim."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap grammatik jihatdan TO'G'RI?",
+              "data": {
+                "options": [
+                  "While I was reading, my brother was watching TV.",
+                  "While I read, my brother watching TV.",
+                  "While I was read, my brother watched TV.",
+                  "While I reading, my brother was watch TV."
+                ]
+              },
+              "answer": {
+                "value": "While I was reading, my brother was watching TV."
+              },
+              "explanationUz": "Ikkita parallel jarayon — ikkalasi ham Past Continuous: was reading / was watching."
+            }
+          ]
+        },
+        {
+          "slug": "present-perfect-basics",
+          "titleUz": "Present Perfect: for/since, ever/never",
+          "titleEn": "Present Perfect with for/since, ever/never",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Present Perfect g'oyasini (o'tmish → hozir bog'liqligi) tushunish",
+            "for va since ni to'g'ri tanlash",
+            "ever/never bilan tajriba haqida gapirish va so'rash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Present Perfect — o'zbek tilida yo'q zamon",
+              "bodyUz": "Present Perfect (**have/has + V3**) — o'zbek tilida AYNAN mos keladigan zamoni yo'q, shuning uchun eng ko'p qiynaydigan mavzu. Mohiyati: **harakat o'tmishda bo'lgan, lekin natijasi yoki aloqasi HOZIRGA tegishli**.\n\nVaqt chizig'ini tasavvur qiling: harakat o'tmishdagi noma'lum nuqtada sodir bo'lgan (•), lekin undan hozirgi paytga ko'rinmas ip tortilgan: • ——→ HOZIR. Bizni harakatning QACHON bo'lgani emas, HOZIRGA ta'siri qiziqtiradi.\n\n- *I have lost my keys.* — Kalitlarimni yo'qotib qo'yganman. (Natija: HOZIR kalitim yo'q, uyga kirolmayapman!)\n- *She has been to London.* — U Londonda bo'lgan. (Tajriba bor — qachonligi muhim emas)\n\nO'zbekcha «-gan» shakli ko'pincha yordam beradi: *ko'rganman, borganman, yeganman* — bularda ham aniq vaqt aytilmaydi, xuddi Present Perfect kabi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Yasalishi: have/has + V3",
+              "headers": [
+                "Shakl",
+                "Formula",
+                "Misol"
+              ],
+              "rows": [
+                [
+                  "Darak (I/you/we/they)",
+                  "have + V3",
+                  "I have finished my work."
+                ],
+                [
+                  "Darak (he/she/it)",
+                  "has + V3",
+                  "She has finished her work."
+                ],
+                [
+                  "Inkor",
+                  "haven't / hasn't + V3",
+                  "We haven't seen this film."
+                ],
+                [
+                  "So'roq",
+                  "Have/Has + ega + V3?",
+                  "Have you ever eaten sushi?"
+                ],
+                [
+                  "Muhim V3 shakllar",
+                  "go→gone, see→seen, do→done",
+                  "eat→eaten, write→written, be→been"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "for va since",
+              "bodyUz": "Harakat qancha vaqtdan beri davom etayotganini aytish uchun:\n\n**for + davomiylik** (qancha vaqt?): *for two years, for six months, for a long time*\n- *I have lived in Tashkent for five years.* — Toshkentda besh yildan beri yashayman.\n\n**since + boshlanish nuqtasi** (qachondan beri?): *since 2020, since Monday, since childhood*\n- *He has worked here since 2021.* — U bu yerda 2021-yildan beri ishlaydi.\n\nSodda test: so'zdan keyin MUDDAT (ikki yil, uch oy) tursa — **for**; SANA yoki PAYT (2020, dushanba, bolalik) tursa — **since**.\n\nDiqqat: bunday gaplarni o'zbekchaga HOZIRGI zamon bilan tarjima qilamiz («yashayman», «ishlaydi») — chunki harakat hali ham davom etmoqda!"
+            },
+            {
+              "type": "theory",
+              "titleUz": "ever va never",
+              "bodyUz": "**ever** — «umuman, hayotingizda biror marta» — asosan so'roq gaplarda:\n- *Have you EVER been to Samarkand?* — Umuman Samarqandda bo'lganmisiz?\n\n**never** — «hech qachon» — darak gap shaklida inkor ma'no beradi (not qo'shilmaydi!):\n- *I have NEVER ridden a horse.* — Hech qachon ot minmaganman.\n\nIkkalasi ham have/has bilan V3 ORASIDA turadi: have + ever/never + V3.\n\n❌ *I haven't never seen...* — ikki marta inkor xato! ✅ *I have never seen...*"
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: tajribalar haqida",
+              "lines": [
+                {
+                  "speaker": "Examiner",
+                  "en": "Have you ever travelled to another country?",
+                  "uz": "Boshqa davlatga sayohat qilganmisiz?"
+                },
+                {
+                  "speaker": "You",
+                  "en": "No, I haven't, but I have visited many cities in Uzbekistan. I have been to Khiva twice.",
+                  "uz": "Yo'q, lekin O'zbekistonning ko'p shaharlarida bo'lganman. Xivaga ikki marta borganman."
+                },
+                {
+                  "speaker": "Examiner",
+                  "en": "How long have you studied English?",
+                  "uz": "Ingliz tilini qancha vaqtdan beri o'rganasiz?"
+                },
+                {
+                  "speaker": "You",
+                  "en": "I have studied it for three years, since 2023.",
+                  "uz": "Uch yildan beri, 2023-yildan boshlab o'rganaman."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Multilevel Speaking Part 1 da «Have you ever...?» savollari juda ko'p uchraydi — javobda avval Present Perfect bilan tajribangizni ayting, keyin xohlasangiz tafsilotni Past Simple bilan davom ettiring. Grammatika bo'limida esa for/since tanlovi deyarli har yili bor: «muddat → for, boshlanish nuqtasi → since» qoidasini avtomatizmga yetkazing."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "I ___ never ___ sushi.",
+                "options": [
+                  "have / eaten",
+                  "has / eaten",
+                  "have / ate",
+                  "am / eating"
+                ]
+              },
+              "answer": {
+                "value": "have / eaten"
+              },
+              "explanationUz": "I + have; never'dan keyin V3 shakl: eaten. To'liq gap: I have never eaten sushi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "She has worked here ___ 2020.",
+                "options": [
+                  "for",
+                  "since",
+                  "from",
+                  "during"
+                ]
+              },
+              "answer": {
+                "value": "since"
+              },
+              "explanationUz": "2020 — boshlanish nuqtasi (sana) → since. «for» faqat muddat bilan keladi: for five years."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (for/since):",
+              "data": {
+                "text": "We have been friends ___ ten years."
+              },
+              "answer": {
+                "accept": [
+                  "for"
+                ]
+              },
+              "explanationUz": "ten years — muddat (qancha vaqt?) → for."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni Present Perfect shaklida yozing:",
+              "data": {
+                "text": "He ___ (break) his leg, so he can't play today."
+              },
+              "answer": {
+                "accept": [
+                  "has broken",
+                  "'s broken"
+                ]
+              },
+              "explanationUz": "Natija hozirga tegishli (bugun o'ynay olmaydi) → has broken. break fe'lining V3 shakli — broken."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«Since» so'zidan keyin vaqt davomiyligi (masalan, two years) keladi."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: since'dan keyin boshlanish NUQTASI keladi (since 2020, since Monday). Davomiylik esa for bilan: for two years."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Savolga mos javobni tanlang:",
+              "data": {
+                "left": [
+                  "Have you ever been to Samarkand?",
+                  "How long have you lived here?",
+                  "Has she finished her homework?",
+                  "Have they ever won a prize?"
+                ],
+                "right": [
+                  "Yes, she has.",
+                  "For about ten years.",
+                  "No, they haven't.",
+                  "Yes, I have. Twice."
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "Have you ever been to Samarkand?": "Yes, I have. Twice.",
+                  "How long have you lived here?": "For about ten years.",
+                  "Has she finished her homework?": "Yes, she has.",
+                  "Have they ever won a prize?": "No, they haven't."
+                }
+              },
+              "explanationUz": "Have you...? → Yes, I have; Has she...? → Yes, she has; How long...? → for/since bilan javob."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'roq gap tuzing:",
+              "data": {
+                "items": [
+                  "ever",
+                  "have",
+                  "you",
+                  "abroad",
+                  "been"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "have",
+                  "you",
+                  "ever",
+                  "been",
+                  "abroad"
+                ]
+              },
+              "explanationUz": "So'roq tartibi: Have + you + ever + been + abroad? — Chet elda bo'lganmisiz?"
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap grammatik jihatdan TO'G'RI?",
+              "data": {
+                "options": [
+                  "I have seen him yesterday.",
+                  "I have never been to London.",
+                  "She has went home.",
+                  "They has finished the test."
+                ]
+              },
+              "answer": {
+                "value": "I have never been to London."
+              },
+              "explanationUz": "«yesterday» Present Perfect bilan ishlatilmaydi; went — V2 (has bilan gone kerak); they — have. To'g'risi: I have never been to London."
+            }
+          ]
+        },
+        {
+          "slug": "present-perfect-vs-past-simple",
+          "titleUz": "Present Perfect vs Past Simple: imtihondagi eng katta tuzoq",
+          "titleEn": "Present Perfect vs Past Simple",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Vaqt ko'rsatkichiga qarab to'g'ri zamonni tanlash",
+            "Signal so'zlarni (yesterday, just, yet, ago...) zamonga bog'lash",
+            "Suhbatda ikki zamon almashinishini tushunish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Oltin qoida: vaqt aytilganmi?",
+              "bodyUz": "Bu ikki zamonni farqlash — multilevel imtihonida ENG KO'P tushadigan grammatik savol. Oltin qoida bitta:\n\n**Aniq o'tgan vaqt aytilgan bo'lsa (yesterday, last year, in 2020, two days ago) → Past Simple.**\n- *I visited Khiva last summer.* — vaqt aniq: o'tgan yozda.\n\n**Vaqt aytilmagan, muhimi natija yoki tajriba bo'lsa → Present Perfect.**\n- *I have visited Khiva.* — qachonligi muhim emas, tajribam borligi muhim.\n\nVaqt chizig'ida: Past Simple — o'tmishdagi YOPIQ nuqta, hozir bilan aloqasi uzilgan. Present Perfect — o'tmishdan hozirga tortilgan OCHIQ ko'prik."
+            },
+            {
+              "type": "table",
+              "titleUz": "Signal so'zlar jadvali",
+              "headers": [
+                "Past Simple bilan",
+                "Present Perfect bilan"
+              ],
+              "rows": [
+                [
+                  "yesterday (kecha)",
+                  "just (hozirgina)"
+                ],
+                [
+                  "last week/month/year (o'tgan ...)",
+                  "already (allaqachon)"
+                ],
+                [
+                  "in 2020 (aniq yilda)",
+                  "yet (hali / allaqachonmi — inkor va so'roqda)"
+                ],
+                [
+                  "two days ago (... oldin)",
+                  "ever / never (umuman / hech qachon)"
+                ],
+                [
+                  "when...? (qachon? savoli)",
+                  "for / since (...dan beri)"
+                ],
+                [
+                  "at 5 o'clock (aniq soatda)",
+                  "recently / lately (yaqinda)"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Uchta klassik tuzoq",
+              "bodyUz": "1) **When? — har doim Past Simple.** «When have you arrived?» ❌ → *When did you arrive?* ✅ Chunki «qachon?» savoli aniq vaqtni so'raydi.\n\n2) **Suhbatda zamon almashadi:** tajriba haqidagi umumiy savol — Present Perfect, tafsilotlar — Past Simple:\n- *— Have you ever been to Bukhara? — Yes, I have. I went there in 2024 with my class.*\n\n3) **Tugagan vaqt vs tugamagan vaqt:**\n- *I drank three cups of tea yesterday.* (kecha — vaqt tugagan)\n- *I have drunk three cups of tea today.* (bugun — kun hali tugamagan, yana ichishim mumkin!)\n\n«this week, this month, today» kabi TUGAMAGAN davrlar bilan Present Perfect keladi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Qiyoslang",
+              "items": [
+                {
+                  "en": "I have lost my passport.",
+                  "uz": "Pasportimni yo'qotib qo'yganman. (hozir ham yo'q — natija muhim)"
+                },
+                {
+                  "en": "I lost my passport in 2023, but I found it.",
+                  "uz": "2023-yilda pasportimni yo'qotgandim, lekin topib oldim. (aniq vaqt — yopiq voqea)"
+                },
+                {
+                  "en": "She has written three books.",
+                  "uz": "U uchta kitob yozgan. (yozuvchi hayot va ijodda — yana yozishi mumkin)"
+                },
+                {
+                  "en": "Navoi wrote many great works.",
+                  "uz": "Navoiy ko'plab buyuk asarlar yozdi. (davr tugagan — faqat Past Simple)"
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: test haqida",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "en": "Have you done the practice test yet?",
+                  "uz": "Amaliy testni ishlab bo'ldingmi (hali)?"
+                },
+                {
+                  "speaker": "B",
+                  "en": "Yes, I have. I did it on Tuesday.",
+                  "uz": "Ha. Seshanba kuni ishladim."
+                },
+                {
+                  "speaker": "A",
+                  "en": "How was it? I haven't tried it yet.",
+                  "uz": "Qanday ekan? Men hali urinib ko'rmadim."
+                },
+                {
+                  "speaker": "B",
+                  "en": "It was hard! The grammar part took me an hour.",
+                  "uz": "Qiyin edi! Grammatika qismiga bir soat vaqtim ketdi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon strategiyasi: gapda vaqt ko'rsatkichini qidiring. «ago, last..., in + yil, yesterday, when?» ko'rsangiz — javob Past Simple. «just, already, yet, ever, never, for, since» ko'rsangiz — Present Perfect. Shu bitta qoida grammatika bo'limida kamida 2-3 ball olib keladi, chunki test tuzuvchilar aynan shu farqni har yili so'raydi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "I ___ my keys. I can't open the door.",
+                "options": [
+                  "lost",
+                  "have lost",
+                  "lose",
+                  "was losing"
+                ]
+              },
+              "answer": {
+                "value": "have lost"
+              },
+              "explanationUz": "Natija hozirga tegishli (eshikni ocholmayapman) va vaqt aytilmagan → Present Perfect: have lost."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "She ___ to Turkey in 2022.",
+                "options": [
+                  "has been",
+                  "went",
+                  "has gone",
+                  "goes"
+                ]
+              },
+              "answer": {
+                "value": "went"
+              },
+              "explanationUz": "in 2022 — aniq o'tgan vaqt → Past Simple: went. Aniq yil bilan Present Perfect ishlatilmaydi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri zamonda yozing:",
+              "data": {
+                "text": "We ___ (visit) Bukhara last spring."
+              },
+              "answer": {
+                "accept": [
+                  "visited"
+                ]
+              },
+              "explanationUz": "last spring — aniq o'tgan vaqt → Past Simple: visited."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri zamonda yozing (inkor):",
+              "data": {
+                "text": "I ___ (not / finish) my homework yet."
+              },
+              "answer": {
+                "accept": [
+                  "haven't finished",
+                  "have not finished"
+                ]
+              },
+              "explanationUz": "yet — Present Perfect signali (inkorda «hali» ma'nosida): haven't finished."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«I have watched a great film yesterday» — grammatik jihatdan to'g'ri gap."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: yesterday aniq o'tgan vaqt, u Present Perfect bilan kelmaydi. To'g'risi: I watched a great film yesterday."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "When ___ you ___ school?",
+                "options": [
+                  "did / finish",
+                  "have / finished",
+                  "do / finished",
+                  "did / finished"
+                ]
+              },
+              "answer": {
+                "value": "did / finish"
+              },
+              "explanationUz": "When? — aniq vaqtni so'raydi → har doim Past Simple: When did you finish...? (did'dan keyin fe'l asos shaklda)."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Signal so'zni mos zamon bilan bog'lang:",
+              "data": {
+                "left": [
+                  "yesterday",
+                  "just",
+                  "ago",
+                  "yet"
+                ],
+                "right": [
+                  "Present Perfect — inkor va so'roqda «hali»",
+                  "Past Simple — aniq o'tgan kun",
+                  "Present Perfect — «hozirgina»",
+                  "Past Simple — «... oldin»"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "yesterday": "Past Simple — aniq o'tgan kun",
+                  "just": "Present Perfect — «hozirgina»",
+                  "ago": "Past Simple — «... oldin»",
+                  "yet": "Present Perfect — inkor va so'roqda «hali»"
+                }
+              },
+              "explanationUz": "yesterday va ago aniq o'tgan vaqtni bildiradi → Past Simple; just va yet — Present Perfect belgilari."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Dialogni to'ldiring: «A: Have you seen the new film? — B: Yes, I ___ it on Friday.»",
+              "data": {
+                "options": [
+                  "have seen",
+                  "saw",
+                  "see",
+                  "have watched"
+                ]
+              },
+              "answer": {
+                "value": "saw"
+              },
+              "explanationUz": "Javobda aniq vaqt paydo bo'ldi (on Friday) → suhbat Past Simple'ga o'tadi: I saw it on Friday."
+            }
+          ]
+        },
+        {
+          "slug": "future-forms",
+          "titleUz": "Kelasi zamon: will, going to va Present Continuous",
+          "titleEn": "Future forms: will / going to / Present Continuous",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 3,
+          "estimatedMinutes": 28,
+          "objectivesUz": [
+            "will, going to va Present Continuous'ning kelasi zamondagi vazifalarini farqlash",
+            "Vaziyatga qarab (qaror, reja, bashorat, kelishuv) to'g'ri shaklni tanlash",
+            "Kelajak rejalari haqida tabiiy gapirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "will — qaror, bashorat, va'da",
+              "bodyUz": "**will + V** uch vaziyatda ishlatiladi:\n\n1. **Gapirish paytida qabul qilingan qaror:** *The phone is ringing — I'll answer it!* (oldindan reja YO'Q edi, hozir qaror qildim)\n2. **Fikrga asoslangan bashorat** (I think, probably, maybe bilan): *I think Uzbekistan will win the match.*\n3. **Va'da, taklif, iltimos:** *I'll help you with your homework. Don't worry, I won't tell anyone.*\n\nO'zbekchada bularning hammasi «-aman/-adi» bo'lib ketadi (boraman, yordam beraman), shuning uchun farqni VAZIYATDAN aniqlashni o'rganish kerak."
+            },
+            {
+              "type": "theory",
+              "titleUz": "be going to — niyat va dalilli bashorat",
+              "bodyUz": "**be going to + V** ikki vaziyatda:\n\n1. **Oldindan qilingan reja, niyat:** *I'm going to study medicine next year.* (qaror ALLAQACHON, suhbatdan oldin qabul qilingan)\n2. **Dalilga asoslangan bashorat** — ko'z oldingizdagi belgiga qarab: *Look at those black clouds! It's going to rain.* (osmonda qora bulutlar — dalil bor)\n\nAsosiy farq: will bilan bashorat — shaxsiy fikr, taxmin; going to bilan bashorat — ko'rinib turgan dalil asosida."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Present Continuous — kelishilgan rejalar",
+              "bodyUz": "**Present Continuous** kelasi zamonda kelishilgan, tashkil qilingan rejalar (arrangement) uchun ishlatiladi — odatda vaqt va joy aniq, boshqa odamlar bilan kelishib bo'lingan:\n- *I'm meeting Dilshod at 6 pm.* — Soat 6 da Dilshod bilan uchrashaman (u ham biladi, kelishganmiz).\n- *We're flying to Istanbul on Monday.* — Dushanba kuni uchamiz (chiptalar olingan!).\n\ngoing to (niyat) va Present Continuous (kelishuv) ko'p hollarda almashishi mumkin, lekin chipta olingan, joy band qilingan aniq kelishuvlarda Present Continuous tabiiyroq eshitiladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Uchala shaklni solishtiring",
+              "headers": [
+                "Vaziyat",
+                "Shakl",
+                "Misol"
+              ],
+              "rows": [
+                [
+                  "Hozirgina qabul qilingan qaror",
+                  "will",
+                  "OK, I'll take this one."
+                ],
+                [
+                  "Va'da / taklif",
+                  "will",
+                  "I'll carry your bag."
+                ],
+                [
+                  "Fikrga asoslangan bashorat",
+                  "will",
+                  "I think the exam will be difficult."
+                ],
+                [
+                  "Oldindan qilingan niyat",
+                  "be going to",
+                  "She's going to open a shop."
+                ],
+                [
+                  "Dalilga asoslangan bashorat",
+                  "be going to",
+                  "Watch out! You're going to fall!"
+                ],
+                [
+                  "Kelishilgan reja (vaqt/joy aniq)",
+                  "Present Continuous",
+                  "We're meeting at the café at 5."
+                ]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: shanba rejalari",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "en": "What are you doing on Saturday?",
+                  "uz": "Shanba kuni nima qilyapsan? (rejang qanday?)"
+                },
+                {
+                  "speaker": "B",
+                  "en": "I'm taking a mock test at 10 o'clock. Then I'm going to review my mistakes.",
+                  "uz": "Soat 10 da sinov testi topshiraman (yozilganman). Keyin xatolarimni tahlil qilmoqchiman."
+                },
+                {
+                  "speaker": "A",
+                  "en": "Good idea! I think you'll get a high score.",
+                  "uz": "Yaxshi fikr! Menimcha, yuqori ball olasan."
+                },
+                {
+                  "speaker": "B",
+                  "en": "Thanks! I'll call you after the test.",
+                  "uz": "Rahmat! Testdan keyin qo'ng'iroq qilaman. (hozir va'da beryapman)"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihonda kelasi zamon savollari ko'pincha mini-dialog shaklida keladi: «The phone is ringing» kabi vaziyatdan keyingi javob — will; «Look at the clouds» kabi dalildan keyin — going to; chipta, uchrashuv, jadval haqida gap ketsa — Present Continuous. Speaking Part 3 da kelajak rejalaringizni aytganda uchala shaklni aralash ishlating («I'm going to..., I think I'll..., I'm meeting...») — bu grammatik diapazon balini oshiradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "Look at those black clouds! It ___ rain.",
+                "options": [
+                  "will",
+                  "is going to",
+                  "is",
+                  "would"
+                ]
+              },
+              "answer": {
+                "value": "is going to"
+              },
+              "explanationUz": "Ko'z oldimizda dalil bor (qora bulutlar) → dalilga asoslangan bashorat: is going to rain."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Dialogni to'ldiring: «A: The phone is ringing. — B: I ___ answer it.»",
+              "data": {
+                "options": [
+                  "'ll",
+                  "'m going to",
+                  "'m",
+                  "would"
+                ]
+              },
+              "answer": {
+                "value": "'ll"
+              },
+              "explanationUz": "Qaror hozir, gapirish paytida qabul qilindi → will: I'll answer it."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni kelishilgan reja shaklida (Present Continuous) yozing:",
+              "data": {
+                "text": "We ___ (meet) our grandparents on Saturday — everything is arranged."
+              },
+              "answer": {
+                "accept": [
+                  "are meeting",
+                  "'re meeting"
+                ]
+              },
+              "explanationUz": "Kelishib bo'lingan uchrashuv (arrangement) → Present Continuous: are meeting."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "I ___ study medicine next year. I decided last month.",
+                "options": [
+                  "will",
+                  "am going to",
+                  "study",
+                  "would"
+                ]
+              },
+              "answer": {
+                "value": "am going to"
+              },
+              "explanationUz": "Qaror oldindan (o'tgan oy) qabul qilingan → niyat: am going to study."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«Will» oldindan puxta rejalashtirilgan niyatlar uchun eng to'g'ri shakl hisoblanadi."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: oldindan qilingan reja/niyat uchun be going to (yoki kelishuv bo'lsa Present Continuous) ishlatiladi. will — shu paytdagi qaror, bashorat va va'da uchun."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Va'da bildiring — qavs ichidagi fe'l bilan to'ldiring:",
+              "data": {
+                "text": "Don't worry, I ___ (help) you with your homework."
+              },
+              "answer": {
+                "accept": [
+                  "will help",
+                  "'ll help"
+                ]
+              },
+              "explanationUz": "Va'da → will: I will help you / I'll help you."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Vaziyatni mos gap bilan bog'lang:",
+              "data": {
+                "left": [
+                  "Hozirgina qabul qilingan qaror",
+                  "Oldindan qilingan niyat",
+                  "Dalilga asoslangan bashorat",
+                  "Vaqti-joyi kelishilgan uchrashuv"
+                ],
+                "right": [
+                  "I'm flying to Istanbul on Monday at 7 am.",
+                  "OK, I'll help you.",
+                  "Watch out! You're going to fall!",
+                  "I'm going to learn Chinese next year."
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "Hozirgina qabul qilingan qaror": "OK, I'll help you.",
+                  "Oldindan qilingan niyat": "I'm going to learn Chinese next year.",
+                  "Dalilga asoslangan bashorat": "Watch out! You're going to fall!",
+                  "Vaqti-joyi kelishilgan uchrashuv": "I'm flying to Istanbul on Monday at 7 am."
+                }
+              },
+              "explanationUz": "will — shu paytdagi qaror; going to — niyat va ko'rinib turgan dalil; Present Continuous — chipta olingan aniq kelishuv."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "going",
+                  "she",
+                  "to",
+                  "is",
+                  "buy",
+                  "car",
+                  "a",
+                  "new"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "she",
+                  "is",
+                  "going",
+                  "to",
+                  "buy",
+                  "a",
+                  "new",
+                  "car"
+                ]
+              },
+              "explanationUz": "To'g'ri gap: She is going to buy a new car. — U yangi mashina olmoqchi (niyat)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "structures",
+      "titleUz": "Grammatik tuzilmalar: qiyoslash, modallar va shart gaplar",
+      "order": 1,
+      "lessons": [
+        {
+          "slug": "comparatives-superlatives",
+          "titleUz": "Sifat darajalari: comparative, superlative va as...as",
+          "titleEn": "Comparatives, superlatives and as...as",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 27,
+          "objectivesUz": [
+            "Qiyosiy va orttirma darajalarni to'g'ri yasash (-er/-est, more/most)",
+            "Istisno sifatlarni (good/better/best...) yodda saqlash",
+            "as...as va not as...as bilan teng qiyoslash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Qiyosiy daraja: -er yoki more",
+              "bodyUz": "Ikkita narsani solishtirganda (o'zbekcha «-roq» yoki «...dan ko'ra»):\n\n**Qisqa (1 bo'g'inli) sifatlar + -er:** *old → older, cheap → cheaper*\n- Imlo: *big → biGGer* (undosh ikkilanadi), *nice → nicer*, *happy → happIER* (y → i)\n\n**Uzun (2+ bo'g'inli) sifatlar → more + sifat:** *more interesting, more expensive*\n\nSolishtirilayotgan narsa **than** bilan qo'shiladi (o'zbekcha «...dan»):\n- *Samarkand is older than Tashkent.* — Samarqand Toshkentdan qadimiyroq.\n\n❌ Ikkalasini birga ishlatmang: *more older* — xato! Yoki -er, yoki more."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Orttirma daraja: the -est / the most",
+              "bodyUz": "Guruh ichida «ENG» degani uchun (o'zbekcha «eng ...»):\n\n- Qisqa sifat: **the + -est**: *the oldest, the biggest, the happiest*\n- Uzun sifat: **the most + sifat**: *the most beautiful, the most difficult*\n\n«the» ni unutmang — orttirma daraja deyarli har doim the bilan keladi!\n\nIkki foydali qolip:\n1. **the ... in + joy:** *Tashkent is the largest city IN Central Asia.* (of emas, in!)\n2. **the ... + Present Perfect:** *It's the best film I HAVE EVER SEEN.* — Bu men ko'rgan eng yaxshi film."
+            },
+            {
+              "type": "table",
+              "titleUz": "Istisno sifatlar (yodlash shart!)",
+              "headers": [
+                "Sifat",
+                "Comparative",
+                "Superlative",
+                "Tarjima"
+              ],
+              "rows": [
+                [
+                  "good",
+                  "better",
+                  "the best",
+                  "yaxshi / yaxshiroq / eng yaxshi"
+                ],
+                [
+                  "bad",
+                  "worse",
+                  "the worst",
+                  "yomon / yomonroq / eng yomon"
+                ],
+                [
+                  "far",
+                  "further (farther)",
+                  "the furthest",
+                  "uzoq / uzoqroq / eng uzoq"
+                ],
+                [
+                  "little",
+                  "less",
+                  "the least",
+                  "kam / kamroq / eng kam"
+                ],
+                [
+                  "many / much",
+                  "more",
+                  "the most",
+                  "ko'p / ko'proq / eng ko'p"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "as ... as — teng qiyoslash",
+              "bodyUz": "**as + sifat + as** — «...dek, ...day, xuddi ...dagidek»:\n- *Bukhara is as beautiful as Khiva.* — Buxoro Xivadek go'zal.\n\n**not as ... as** — «...chalik emas»:\n- *My English is not as good as yours.* — Mening inglizcham siznikichalik yaxshi emas. (= Yours is better)\n\n⚠️ Diqqat: as...as orasida sifat ODDIY darajada turadi:\n❌ *as better as* → ✅ *as good as*\n❌ *as more interesting as* → ✅ *as interesting as*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                {
+                  "en": "Tashkent is the largest city in Central Asia.",
+                  "uz": "Toshkent — Markaziy Osiyodagi eng katta shahar."
+                },
+                {
+                  "en": "This mock test was easier than the real exam.",
+                  "uz": "Bu sinov testi haqiqiy imtihondan osonroq edi."
+                },
+                {
+                  "en": "My results are getting better and better.",
+                  "uz": "Natijalarim tobora yaxshilanib bormoqda."
+                },
+                {
+                  "en": "Speaking is not as difficult as it seems.",
+                  "uz": "Speaking ko'ringanchalik qiyin emas."
+                },
+                {
+                  "en": "It's the most interesting book I have ever read.",
+                  "uz": "Bu men o'qigan eng qiziqarli kitob."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Multilevel grammatika bo'limida sifat darajalari «xatoni top» uslubida keladi: variantlarda more better, the most biggest, as better as kabi ikki marta kuchaytirilgan XATO shakllar beriladi. Writing'da esa «...is one of the most important...» va «not as ... as» qoliplarini ishlatish balingizni ko'taradi — ikkalasini tayyor holda yodlab oling."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "Samarkand is ___ than my town.",
+                "options": [
+                  "old",
+                  "older",
+                  "more old",
+                  "the oldest"
+                ]
+              },
+              "answer": {
+                "value": "older"
+              },
+              "explanationUz": "old — qisqa sifat, than bilan qiyoslash → older. «more old» xato."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi sifatni orttirma darajada yozing:",
+              "data": {
+                "text": "This is ___ (interesting) book in our library."
+              },
+              "answer": {
+                "accept": [
+                  "the most interesting"
+                ]
+              },
+              "explanationUz": "interesting — uzun sifat → the most interesting. «the» ni unutmang!"
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "My results are ___ than last year.",
+                "options": [
+                  "gooder",
+                  "better",
+                  "more good",
+                  "best"
+                ]
+              },
+              "answer": {
+                "value": "better"
+              },
+              "explanationUz": "good — istisno sifat: good → better → the best. «gooder» va «more good» mavjud emas."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring:",
+              "data": {
+                "text": "The test wasn't as difficult ___ I expected."
+              },
+              "answer": {
+                "accept": [
+                  "as"
+                ]
+              },
+              "explanationUz": "Teng qiyoslash qolipi: (not) as + sifat + as: not as difficult as."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«This exam is more easier than the last one» — grammatik jihatdan to'g'ri gap."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: more va -er birga ishlatilmaydi. To'g'risi: This exam is easier than the last one."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "It's ___ film I have ever seen.",
+                "options": [
+                  "the worst",
+                  "the baddest",
+                  "worse",
+                  "most bad"
+                ]
+              },
+              "answer": {
+                "value": "the worst"
+              },
+              "explanationUz": "bad — istisno: bad → worse → the worst. Superlative + Present Perfect qolipi: the worst film I have ever seen."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Sifatni qiyosiy darajasi bilan bog'lang:",
+              "data": {
+                "left": [
+                  "good",
+                  "far",
+                  "happy",
+                  "expensive"
+                ],
+                "right": [
+                  "more expensive",
+                  "better",
+                  "happier",
+                  "further"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "good": "better",
+                  "far": "further",
+                  "happy": "happier",
+                  "expensive": "more expensive"
+                }
+              },
+              "explanationUz": "good/far — istisno shakllar; happy → y ni i ga almashtirib -er; expensive — uzun sifat → more."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "city",
+                  "largest",
+                  "Tashkent",
+                  "in",
+                  "is",
+                  "Uzbekistan",
+                  "the"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Tashkent",
+                  "is",
+                  "the",
+                  "largest",
+                  "city",
+                  "in",
+                  "Uzbekistan"
+                ]
+              },
+              "explanationUz": "To'g'ri gap: Tashkent is the largest city in Uzbekistan. Orttirma daraja + in + joy."
+            }
+          ]
+        },
+        {
+          "slug": "modal-verbs",
+          "titleUz": "Modal fe'llar: must, have to, should, might",
+          "titleEn": "Modal verbs: must / have to / should / might",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 28,
+          "objectivesUz": [
+            "must va have to (majburiyat) farqini tushunish",
+            "mustn't (taqiq) va don't have to (shart emas) tuzog'ini yengish",
+            "should (maslahat) va might (ehtimollik) ni to'g'ri qo'llash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Modal fe'llar qanday ishlaydi",
+              "bodyUz": "Modal fe'llar uchun uchta umumiy qoida:\n\n1. Modaldan keyin fe'l **asos shaklda, to'siz** keladi: *must go* (❌ must to go, ❌ must goes)\n2. 3-shaxsda **-s qo'shilmaydi**: *She must go* (❌ she musts)\n3. Inkor **not** bilan, so'roqda modal oldinga chiqadi: *You mustn't be late. Should I call him?*\n\n⚠️ **have to** — istisno: u oddiy fe'l kabi tuslanadi: *she HAS to..., she DOESN'T have to..., DID you have to...?*"
+            },
+            {
+              "type": "theory",
+              "titleUz": "must va have to — majburiyat",
+              "bodyUz": "Ikkalasi ham «kerak, shart» degan majburiyatni bildiradi, farq — majburiyat QAYERDAN kelayotganida:\n\n**must** — so'zlovchining o'z talabi yoki rasmiy qoida: *You must bring your passport to the exam.* — (qoida shunday)\n\n**have to** — tashqi sharoit majbur qiladi: *I have to get up at 6 because my classes start early.* — (sharoit shunday)\n\nAmalda B1 darajasida ular ko'pincha almashinadi. LEKIN inkorda ma'no BUTUNLAY boshqa:\n\n- **mustn't** = TAQIQ, qilish MUMKIN EMAS: *You mustn't use your phone in the exam.* — Telefon ishlatish taqiqlangan!\n- **don't have to** = SHART EMAS, ixtiyoriy: *You don't have to come early.* — Erta kelishingiz shart emas (kelsangiz ham bo'ladi).\n\nBu farq — imtihonchilarning eng sevimli tuzog'i!"
+            },
+            {
+              "type": "theory",
+              "titleUz": "should va might",
+              "bodyUz": "**should** — maslahat, «...gan ma'qul, ...ish kerak (yumshoq)»:\n- *You should sleep more before the exam.* — Imtihondan oldin ko'proq uxlaganingiz ma'qul.\n- Inkori: *You shouldn't drink so much coffee.*\n\n**might** — ehtimollik, «balki, ehtimol» (taxminan 30-50% ishonch):\n- *It might rain later.* — Keyinroq yomg'ir yog'ishi mumkin.\n- *She might come, but I'm not sure.* — Kelishi mumkin, lekin aniq emas.\n\nmay va could ham shunga yaqin ehtimollikni bildiradi: *It may/could rain.*"
+            },
+            {
+              "type": "table",
+              "titleUz": "Modal fe'llar xaritasi",
+              "headers": [
+                "Modal",
+                "Ma'no",
+                "Misol",
+                "Tarjima"
+              ],
+              "rows": [
+                [
+                  "must",
+                  "qat'iy majburiyat (qoida, o'z talabi)",
+                  "You must wear a seatbelt.",
+                  "Xavfsizlik kamarini taqishingiz shart."
+                ],
+                [
+                  "have to",
+                  "tashqi majburiyat (sharoit)",
+                  "I have to wear a uniform at work.",
+                  "Ishda forma kiyishimga to'g'ri keladi."
+                ],
+                [
+                  "mustn't",
+                  "TAQIQ",
+                  "You mustn't smoke here.",
+                  "Bu yerda chekish mumkin emas!"
+                ],
+                [
+                  "don't have to",
+                  "SHART EMAS",
+                  "You don't have to pay — it's free.",
+                  "To'lashingiz shart emas — bepul."
+                ],
+                [
+                  "should",
+                  "maslahat",
+                  "You should do more mock tests.",
+                  "Ko'proq sinov testlari ishlaganingiz ma'qul."
+                ],
+                [
+                  "might",
+                  "ehtimollik",
+                  "She might come later.",
+                  "U keyinroq kelishi mumkin."
+                ]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: imtihonga tayyorgarlik",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "en": "I have my multilevel exam next week. What should I do?",
+                  "uz": "Keyingi hafta multilevel imtihonim bor. Nima qilganim ma'qul?"
+                },
+                {
+                  "speaker": "B",
+                  "en": "You should do a full mock test every day. And remember: you must bring your passport — it's the rule.",
+                  "uz": "Har kuni to'liq sinov testi ishlaganing ma'qul. Va esla: pasportingni olib borishing SHART — qoida shunaqa."
+                },
+                {
+                  "speaker": "A",
+                  "en": "Do I have to arrive early?",
+                  "uz": "Erta borishim kerakmi?"
+                },
+                {
+                  "speaker": "B",
+                  "en": "Yes, you have to be there 30 minutes before. But you don't have to bring paper — they give it to you.",
+                  "uz": "Ha, 30 daqiqa oldin borishing kerak. Lekin qog'oz olib borishing shart emas — o'zlari berishadi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihonda mustn't va don't have to farqi — eng ko'p tushadigan modal savol: «It's free, so you ___ pay» ko'rinishidagi gapda javob don't have to (shart emas), mustn't emas (taqiq)! Speaking Part 2-3 da maslahat so'ralsa, «You should... / If I were you, I would...» qoliplari tayyor tursin — ular baholash mezonidagi «funktional til» balini beradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "You ___ wear a seatbelt in the car. It's the law.",
+                "options": [
+                  "might",
+                  "must",
+                  "should",
+                  "can"
+                ]
+              },
+              "answer": {
+                "value": "must"
+              },
+              "explanationUz": "Qonun — qat'iy majburiyat → must. should — faqat maslahat, might — ehtimollik."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "You look tired. You ___ go to bed earlier.",
+                "options": [
+                  "must",
+                  "might",
+                  "should",
+                  "have to"
+                ]
+              },
+              "answer": {
+                "value": "should"
+              },
+              "explanationUz": "Bu maslahat (charchagan ko'rinasiz — ertaroq yotganingiz ma'qul) → should."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "Tomorrow is Sunday, so I ___ get up early.",
+                "options": [
+                  "mustn't",
+                  "don't have to",
+                  "can't",
+                  "shouldn't"
+                ]
+              },
+              "answer": {
+                "value": "don't have to"
+              },
+              "explanationUz": "Yakshanba — erta turish SHART EMAS (ixtiyoriy) → don't have to. mustn't «taqiqlangan» degan bo'lardi — bu mantiqqa to'g'ri kelmaydi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Ehtimollik bildiruvchi modal bilan to'ldiring:",
+              "data": {
+                "text": "It ___ rain later — take an umbrella just in case."
+              },
+              "answer": {
+                "accept": [
+                  "might",
+                  "may",
+                  "could"
+                ]
+              },
+              "explanationUz": "«ehtimol yog'adi» — ehtimollik → might (may/could ham to'g'ri)."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«Mustn't» va «don't have to» bir xil ma'noni bildiradi."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: mustn't = taqiq (mumkin emas!), don't have to = shart emas (ixtiyoriy). Bu — imtihondagi eng mashhur tuzoq."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (have to ni to'g'ri shaklda):",
+              "data": {
+                "text": "She ___ to wear a uniform at work."
+              },
+              "answer": {
+                "accept": [
+                  "has"
+                ]
+              },
+              "explanationUz": "have to oddiy fe'l kabi tuslanadi: she has to. (Boshqa modallarga -s qo'shilmaydi, lekin have to — istisno.)"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Modalni ma'nosi bilan bog'lang:",
+              "data": {
+                "left": [
+                  "must",
+                  "should",
+                  "might",
+                  "don't have to"
+                ],
+                "right": [
+                  "maslahat",
+                  "shart emas (ixtiyoriy)",
+                  "qat'iy majburiyat",
+                  "ehtimollik"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "must": "qat'iy majburiyat",
+                  "should": "maslahat",
+                  "might": "ehtimollik",
+                  "don't have to": "shart emas (ixtiyoriy)"
+                }
+              },
+              "explanationUz": "must — shart/qoida; should — «...gan ma'qul»; might — «balki»; don't have to — «shart emas»."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap grammatik jihatdan TO'G'RI?",
+              "data": {
+                "options": [
+                  "He must to study harder.",
+                  "He musts study harder.",
+                  "He must study harder.",
+                  "He must studies harder."
+                ]
+              },
+              "answer": {
+                "value": "He must study harder."
+              },
+              "explanationUz": "Modaldan keyin fe'l asos shaklda, to'siz va -s'siz keladi: must study."
+            }
+          ]
+        },
+        {
+          "slug": "conditionals-1-2",
+          "titleUz": "Shart gaplar: First va Second Conditional",
+          "titleEn": "First and Second Conditionals",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "First Conditional bilan real kelajak shartlarini ifodalash",
+            "Second Conditional bilan xayoliy vaziyatlar haqida gapirish",
+            "«If I were you...» maslahat qolipini o'zlashtirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "First Conditional — real kelajak",
+              "bodyUz": "**If + Present Simple, ... will + V** — kelajakda bo'lishi REAL, ehtimoli yuqori shart:\n- *If it rains tomorrow, we will stay at home.* — Agar ertaga yomg'ir yog'sa, uyda qolamiz.\n\nO'zbekcha «-sa» shakli aynan mos keladi: yog'SA — qolAMIZ.\n\n⚠️ ENG MUHIM QOIDA: **if qismida will ISHLATILMAYDI!**\n❌ *If it will rain...* → ✅ *If it rains...*\n\nQismlarning o'rnini almashtirish mumkin: *We will stay at home if it rains.* — bu holda vergul yozilmaydi. if o'rnida **unless** (= if not) ham keladi: *Unless you hurry, you will be late.* — Shoshilmasang, kechikasan."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Second Conditional — xayoliy vaziyat",
+              "bodyUz": "**If + Past Simple, ... would + V** — hozir yoki kelajakdagi XAYOLIY, ehtimoli juda past vaziyat:\n- *If I had a million dollars, I would build a school.* — Millionim bo'lganida edi, maktab qurardim. (hozir millionim yo'q!)\n\n⚠️ Diqqat: bu yerdagi Past Simple O'TGAN ZAMONNI bildirmaydi — u faqat «xayoliylik» belgisi. O'zbekchadagi «-sa edi / -ganida edi ... -ardi» shakliga mos keladi.\n\n**be** fe'li barcha shaxslarda **were** bo'ladi:\n- *If I were you, I would practise listening every day.* — Sizning o'rningizda bo'lsam, har kuni listening mashq qilardim.\n\nBu «If I were you, I would...» — maslahat berishning tayyor oltin qolipi!"
+            },
+            {
+              "type": "table",
+              "titleUz": "Ikkala shartni solishtiring",
+              "headers": [
+                "",
+                "First Conditional",
+                "Second Conditional"
+              ],
+              "rows": [
+                [
+                  "Ma'no",
+                  "real kelajak (bo'lishi mumkin)",
+                  "xayoliy / ehtimoli juda past"
+                ],
+                [
+                  "If qismi",
+                  "Present Simple",
+                  "Past Simple"
+                ],
+                [
+                  "Asosiy qism",
+                  "will + V",
+                  "would + V"
+                ],
+                [
+                  "Misol",
+                  "If I see him, I will tell him.",
+                  "If I saw a ghost, I would run!"
+                ],
+                [
+                  "Tarjima",
+                  "Uni ko'rsam, aytaman.",
+                  "Sharpa ko'rsam edi, qochardim!"
+                ]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Qiyoslang",
+              "items": [
+                {
+                  "en": "If I have time tonight, I will call you.",
+                  "uz": "Bugun kechqurun vaqtim bo'lsa, qo'ng'iroq qilaman. (real reja)"
+                },
+                {
+                  "en": "If I had more free time, I would learn Korean.",
+                  "uz": "Bo'sh vaqtim ko'proq bo'lganida edi, koreys tilini o'rganardim. (hozir vaqtim yo'q)"
+                },
+                {
+                  "en": "If you study these rules, you will pass the grammar section.",
+                  "uz": "Shu qoidalarni o'rgansang, grammatika bo'limidan o'tasan."
+                },
+                {
+                  "en": "If I were the president, I would build more schools.",
+                  "uz": "Prezident bo'lganimda edi, ko'proq maktab qurardim. (xayoliy)"
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: rejalar va orzular",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "en": "What will you do if you pass the multilevel exam?",
+                  "uz": "Multilevel imtihonidan o'tsang nima qilasan? (real ehtimol)"
+                },
+                {
+                  "speaker": "B",
+                  "en": "If I pass it, I'll apply for a scholarship.",
+                  "uz": "O'tsam, stipendiyaga hujjat topshiraman."
+                },
+                {
+                  "speaker": "A",
+                  "en": "And if you could study in any country, which would you choose?",
+                  "uz": "Agar istalgan davlatda o'qiy olganingda edi, qaysi birini tanlardin? (xayoliy)"
+                },
+                {
+                  "speaker": "B",
+                  "en": "If I could choose, I would go to Japan.",
+                  "uz": "Tanlay olganimda edi, Yaponiyaga borardim."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihonda shart gaplar ikki ko'rinishda keladi: grammatika bo'limida «If it ___ (rain)...» tipidagi bo'sh joy (if qismiga will qo'ymaslikni tekshirishadi!) va Speaking Part 3 da «What would you do if...?» savollari. Savoldagi zamonga qarab javob bering: «will» bilan so'ralsa — First, «would» bilan so'ralsa — Second Conditional bilan javob qaytaring. Bu moslik baholovchi uchun kuchli signal."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "If it rains tomorrow, we ___ at home.",
+                "options": [
+                  "stay",
+                  "will stay",
+                  "would stay",
+                  "stayed"
+                ]
+              },
+              "answer": {
+                "value": "will stay"
+              },
+              "explanationUz": "If + Present Simple (rains) → asosiy qismda will + V: will stay. Bu First Conditional."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "If I ___ you, I would apologize.",
+                "options": [
+                  "am",
+                  "was",
+                  "were",
+                  "be"
+                ]
+              },
+              "answer": {
+                "value": "were"
+              },
+              "explanationUz": "Second Conditional'da be fe'li barcha shaxslarda were: If I were you... — maslahat qolipi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri shaklda yozing:",
+              "data": {
+                "text": "If she ___ (study) hard, she will pass the multilevel exam."
+              },
+              "answer": {
+                "accept": [
+                  "studies"
+                ]
+              },
+              "explanationUz": "Asosiy qismda will bor → First Conditional → if qismida Present Simple: studies (will studies EMAS!)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri shaklda yozing:",
+              "data": {
+                "text": "If I had more free time, I ___ (learn) another language."
+              },
+              "answer": {
+                "accept": [
+                  "would learn",
+                  "'d learn"
+                ]
+              },
+              "explanationUz": "If qismida Past Simple (had) → Second Conditional → asosiy qismda would + V: would learn."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«If it will rain, we will stay at home» — to'g'ri tuzilgan First Conditional."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: if qismida will ishlatilmaydi. To'g'risi: If it rains, we will stay at home."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "If I won the lottery, I ___ a house for my parents.",
+                "options": [
+                  "will buy",
+                  "would buy",
+                  "buy",
+                  "bought"
+                ]
+              },
+              "answer": {
+                "value": "would buy"
+              },
+              "explanationUz": "won — Past Simple (xayoliy: lotereya yutish ehtimoli past) → Second Conditional: would buy."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Gap boshlanishini mos davomi bilan bog'lang:",
+              "data": {
+                "left": [
+                  "If you practise every day,",
+                  "If I were rich,",
+                  "If you don't hurry,",
+                  "If we lived near the sea,"
+                ],
+                "right": [
+                  "we would swim every day.",
+                  "your English will improve.",
+                  "I would help poor families.",
+                  "you will miss the bus."
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "If you practise every day,": "your English will improve.",
+                  "If I were rich,": "I would help poor families.",
+                  "If you don't hurry,": "you will miss the bus.",
+                  "If we lived near the sea,": "we would swim every day."
+                }
+              },
+              "explanationUz": "Present Simple bilan boshlangan shartlar → will (First); Past Simple bilan boshlanganlar (were, lived) → would (Second)."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "match",
+                  "if",
+                  "will",
+                  "snows",
+                  "the",
+                  "it",
+                  "stop"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "if",
+                  "it",
+                  "snows",
+                  "the",
+                  "match",
+                  "will",
+                  "stop"
+                ]
+              },
+              "explanationUz": "To'g'ri gap: If it snows, the match will stop. — Qor yog'sa, o'yin to'xtaydi (First Conditional)."
+            }
+          ]
+        },
+        {
+          "slug": "gerund-vs-infinitive",
+          "titleUz": "Gerund va Infinitive: enjoy doing / want to do",
+          "titleEn": "Gerund vs Infinitive",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 3,
+          "estimatedMinutes": 27,
+          "objectivesUz": [
+            "Gerund (V-ing) talab qiladigan asosiy fe'llarni yodlash",
+            "Infinitive (to + V) talab qiladigan asosiy fe'llarni yodlash",
+            "Predlogdan keyin gerund kelish qoidasini qo'llash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Muammo nimada?",
+              "bodyUz": "O'zbek tilida ikkala holat ham «-ish» bilan tugaydi: *o'qiSHNI yoqtiraman*, *o'qiSHNI xohlayman* — farq yo'q. Ingliz tilida esa BIRINCHI fe'l keyingi fe'lning shaklini belgilab beradi:\n\n- *I enjoy readING.* — o'qishni yoqtiraman (gerund)\n- *I want TO read.* — o'qishni xohlayman (infinitive)\n\nBuni mantiq bilan chiqarib bo'lmaydi — qaysi fe'l nimani «talab qilishini» yodlash kerak. Yaxshi yangilik: B1 uchun eng muhim fe'llar 15-20 ta xolos, va ular quyidagi ikki jadvalda to'liq berilgan."
+            },
+            {
+              "type": "table",
+              "titleUz": "Gerund (V-ing) talab qiladigan fe'llar",
+              "headers": [
+                "Fe'l",
+                "Misol",
+                "Tarjima"
+              ],
+              "rows": [
+                [
+                  "enjoy",
+                  "I enjoy swimming.",
+                  "Suzishni yoqtiraman."
+                ],
+                [
+                  "finish",
+                  "He finished writing the essay.",
+                  "U insho yozishni tugatdi."
+                ],
+                [
+                  "mind",
+                  "Do you mind waiting?",
+                  "Kutishga qarshi emasmisiz?"
+                ],
+                [
+                  "keep",
+                  "She keeps making the same mistake.",
+                  "U bir xil xatoni qilaveradi."
+                ],
+                [
+                  "avoid",
+                  "Avoid eating fast food.",
+                  "Fastfud yeyishdan qoching."
+                ],
+                [
+                  "suggest",
+                  "I suggest going by taxi.",
+                  "Taksida borishni taklif qilaman."
+                ],
+                [
+                  "practise",
+                  "Practise speaking every day.",
+                  "Har kuni gapirishni mashq qiling."
+                ],
+                [
+                  "give up",
+                  "He gave up smoking.",
+                  "U chekishni tashladi."
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Infinitive (to + V) talab qiladigan fe'llar",
+              "headers": [
+                "Fe'l",
+                "Misol",
+                "Tarjima"
+              ],
+              "rows": [
+                [
+                  "want",
+                  "I want to become a doctor.",
+                  "Shifokor bo'lishni xohlayman."
+                ],
+                [
+                  "decide",
+                  "We decided to move to Tashkent.",
+                  "Toshkentga ko'chishga qaror qildik."
+                ],
+                [
+                  "hope",
+                  "I hope to pass the exam.",
+                  "Imtihondan o'tishga umid qilaman."
+                ],
+                [
+                  "plan",
+                  "She plans to open a café.",
+                  "U kafe ochishni rejalashtirmoqda."
+                ],
+                [
+                  "need",
+                  "You need to sleep more.",
+                  "Ko'proq uxlashingiz kerak."
+                ],
+                [
+                  "promise",
+                  "He promised to call me.",
+                  "U qo'ng'iroq qilishga va'da berdi."
+                ],
+                [
+                  "learn",
+                  "I'm learning to drive.",
+                  "Mashina haydashni o'rganyapman."
+                ],
+                [
+                  "would like",
+                  "I'd like to order plov.",
+                  "Palov buyurtma qilmoqchiman."
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Uchta qo'shimcha qoida",
+              "bodyUz": "1) **Predlogdan keyin — doim gerund:** *good AT swimmING, interested IN learnING, before goING home, thank you FOR helpING.*\n\n2) **like / love / hate** — ikkala shaklni ham qabul qiladi, ma'no deyarli bir xil: *I like reading = I like to read.*\n\n3) **Ma'no o'zgaradigan juftliklar (ehtiyot bo'ling!):**\n- *stop doing* — qilishni TO'XTATMOQ: *He stopped smoking.* — Chekishni tashladi.\n- *stop to do* — qilish UCHUN to'xtamoq: *He stopped to smoke.* — Chekish uchun to'xtadi.\n- *forget/remember TO do* — bajarilishi kerak bo'lgan VAZIFA: *Don't forget to lock the door.*\n- *forget/remember doING* — o'tmishdagi XOTIRA: *I remember visiting this place as a child.*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                {
+                  "en": "I enjoy listening to podcasts in English.",
+                  "uz": "Inglizcha podkastlar tinglashni yoqtiraman."
+                },
+                {
+                  "en": "She decided to take the exam in December.",
+                  "uz": "U imtihonni dekabrda topshirishga qaror qildi."
+                },
+                {
+                  "en": "He is good at solving grammar tests.",
+                  "uz": "U grammatika testlarini yechishga usta. (predlog + gerund)"
+                },
+                {
+                  "en": "Keep practising — don't give up learning!",
+                  "uz": "Mashq qilishda davom eting — o'rganishni tashlamang!"
+                },
+                {
+                  "en": "I hope to get at least B2 this year.",
+                  "uz": "Bu yil kamida B2 olishga umid qilaman."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Multilevel grammatika bo'limida «I enjoy ___ (read)» tipidagi savollar muntazam keladi — javob variantlarida doim to read va reading yonma-yon turadi. Shu darsdagi ikki jadvalni yodlagan odam bu savollarni sekundlarda yechadi. Writing va Speaking'da esa «I enjoy doing..., I would like to..., I'm interested in doing...» qoliplari fikringizni tabiiy bog'lashga xizmat qiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "I enjoy ___ books in the evening.",
+                "options": [
+                  "read",
+                  "to read",
+                  "reading",
+                  "reads"
+                ]
+              },
+              "answer": {
+                "value": "reading"
+              },
+              "explanationUz": "enjoy — gerund talab qiladi: enjoy reading."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "She wants ___ a doctor.",
+                "options": [
+                  "become",
+                  "becoming",
+                  "to become",
+                  "becomes"
+                ]
+              },
+              "answer": {
+                "value": "to become"
+              },
+              "explanationUz": "want — infinitive talab qiladi: want to become."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri shaklda yozing:",
+              "data": {
+                "text": "Have you finished ___ (do) your homework?"
+              },
+              "answer": {
+                "accept": [
+                  "doing"
+                ]
+              },
+              "explanationUz": "finish — gerund bilan: finish doing."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni to'g'ri shaklda yozing:",
+              "data": {
+                "text": "We decided ___ (move) to Tashkent."
+              },
+              "answer": {
+                "accept": [
+                  "to move"
+                ]
+              },
+              "explanationUz": "decide — infinitive bilan: decide to move."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "He is good at ___ chess.",
+                "options": [
+                  "play",
+                  "playing",
+                  "to play",
+                  "played"
+                ]
+              },
+              "answer": {
+                "value": "playing"
+              },
+              "explanationUz": "at — predlog; predlogdan keyin doim gerund: good at playing."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«I suggested to go to the park» — grammatik jihatdan to'g'ri gap."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: suggest gerund talab qiladi: I suggested going to the park."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Fe'lni mos davomi bilan bog'lang:",
+              "data": {
+                "left": [
+                  "enjoy",
+                  "hope",
+                  "avoid",
+                  "promise"
+                ],
+                "right": [
+                  "to pass the exam",
+                  "eating too much sugar",
+                  "to help me tomorrow",
+                  "listening to music"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "enjoy": "listening to music",
+                  "hope": "to pass the exam",
+                  "avoid": "eating too much sugar",
+                  "promise": "to help me tomorrow"
+                }
+              },
+              "explanationUz": "enjoy/avoid + gerund (yoqtirish — musiqa tinglash; qochish — shakar yeyish); hope/promise + infinitive."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "Don't forget ___ the door when you leave.",
+                "options": [
+                  "locking",
+                  "to lock",
+                  "lock",
+                  "locked"
+                ]
+              },
+              "answer": {
+                "value": "to lock"
+              },
+              "explanationUz": "Bajarilishi kerak bo'lgan vazifa (kelajakka qaragan) → forget TO lock. «forget locking» o'tmishdagi xotira haqida bo'lardi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sentence-building",
+      "titleUz": "Gap qurish san'ati: murakkab tuzilmalar",
+      "order": 2,
+      "lessons": [
+        {
+          "slug": "relative-clauses",
+          "titleUz": "Nisbiy ergash gaplar: who, which, where, that",
+          "titleEn": "Relative clauses: who / which / where / that",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 27,
+          "objectivesUz": [
+            "who/which/where/that ni to'g'ri tanlash",
+            "Ikkita sodda gapni nisbiy ergash gap bilan birlashtirish",
+            "that/which qachon tushirib qoldirilishini bilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nima uchun kerak?",
+              "bodyUz": "Nisbiy ergash gaplar ikkita sodda gapni bitta tabiiy gapga birlashtiradi:\n\n- *I have a friend. He lives in London.* → *I have a friend WHO lives in London.* — Londonda yashayDIGAN do'stim bor.\n\nO'zbek tilida bu ma'no «-gan/-digan» sifatdosh shakli bilan beriladi va aniqlovchi otdan OLDIN keladi (*yashaydigan do'stim*). Ingliz tilida esa teskari: aniqlovchi otdan KEYIN keladi va who/which/where/that so'zlari bilan boshlanadi. Shu «teskari tartib»ga ko'nikish — mavzuning asosiy kaliti."
+            },
+            {
+              "type": "table",
+              "titleUz": "To'rt asosiy olmosh",
+              "headers": [
+                "Olmosh",
+                "Nima uchun",
+                "Misol",
+                "Tarjima"
+              ],
+              "rows": [
+                [
+                  "who",
+                  "odamlar",
+                  "The teacher who helped me is kind.",
+                  "Menga yordam bergan o'qituvchi mehribon."
+                ],
+                [
+                  "which",
+                  "narsalar, hayvonlar",
+                  "The phone which I bought is fast.",
+                  "Men olgan telefon tez ishlaydi."
+                ],
+                [
+                  "where",
+                  "joylar",
+                  "The school where I studied is old.",
+                  "Men o'qigan maktab eski."
+                ],
+                [
+                  "that",
+                  "ham odam, ham narsa (norasmiy)",
+                  "The book that you gave me is great.",
+                  "Sen bergan kitob zo'r."
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "that/which qachon tushib qoladi?",
+              "bodyUz": "Agar nisbiy olmoshdan KEYIN yangi ega kelsa (ya'ni olmosh to'ldiruvchi vazifasida bo'lsa), uni tushirib qoldirish mumkin:\n\n- *The film (that) WE watched was boring.* — that'dan keyin «we» (yangi ega) bor → tushirsa bo'ladi: *The film we watched...*\n- *The man that CALLED you is my uncle.* — that'dan keyin darhol fe'l keladi, demak that o'zi EGA → tushirib BO'LMAYDI!\n\nSodda test: olmoshdan keyin ega bormi? Bor — tushirish mumkin. Yo'q — qoladi.\n\n**where** hech qachon tushirilmaydi va undan keyin har doim to'liq gap (ega + fe'l) keladi: *the café where WE MET*."
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                {
+                  "en": "A dictionary is a book which explains words.",
+                  "uz": "Lug'at — so'zlarni tushuntiradigan kitob."
+                },
+                {
+                  "en": "The woman who lives next door is a nurse.",
+                  "uz": "Qo'shni uyda yashaydigan ayol — hamshira."
+                },
+                {
+                  "en": "Khiva is a city where every street looks like a museum.",
+                  "uz": "Xiva — har bir ko'chasi muzeyga o'xshaydigan shahar."
+                },
+                {
+                  "en": "The test that I took last week was difficult.",
+                  "uz": "O'tgan hafta topshirgan testim qiyin edi."
+                },
+                {
+                  "en": "I know a girl who has passed the C1 exam.",
+                  "uz": "C1 imtihonini topshirgan qizni taniyman."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Multilevel Reading bo'limida uzun gaplarning ko'pchiligi nisbiy ergash gaplar bilan qurilgan — who/which/where'ni ko'rganda gapni ikkiga bo'lib o'qish tushunishni osonlashtiradi. Speaking'da ta'rif berish savollarida («Describe a place...») «It's a place where..., He's a person who...» qoliplari tayyor javob skeletini beradi. Grammatika bo'limida esa odam/narsa/joy farqi so'raladi: odamga which ❌, narsaga who ❌ — eng ko'p uchraydigan xatolar."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "The woman ___ teaches us English is from Khiva.",
+                "options": [
+                  "who",
+                  "which",
+                  "where",
+                  "whose"
+                ]
+              },
+              "answer": {
+                "value": "who"
+              },
+              "explanationUz": "The woman — odam → who ishlatiladi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "This is the phone ___ I bought last week.",
+                "options": [
+                  "which",
+                  "who",
+                  "where",
+                  "whom"
+                ]
+              },
+              "answer": {
+                "value": "which"
+              },
+              "explanationUz": "The phone — narsa → which (yoki that)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (who/which/where):",
+              "data": {
+                "text": "The café ___ we first met is closed now."
+              },
+              "answer": {
+                "accept": [
+                  "where"
+                ]
+              },
+              "explanationUz": "The café — joy, undan keyin to'liq gap (we met) keladi → where."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«The man which lives next door is a doctor» — grammatik jihatdan to'g'ri gap."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: the man — odam, unga which ishlatilmaydi. To'g'risi: The man who lives next door..."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Olmoshni vazifasi bilan bog'lang:",
+              "data": {
+                "left": [
+                  "who",
+                  "which",
+                  "where",
+                  "that"
+                ],
+                "right": [
+                  "joylar uchun",
+                  "ham odam, ham narsa uchun (norasmiy)",
+                  "odamlar uchun",
+                  "narsa va hayvonlar uchun"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "who": "odamlar uchun",
+                  "which": "narsa va hayvonlar uchun",
+                  "where": "joylar uchun",
+                  "that": "ham odam, ham narsa uchun (norasmiy)"
+                }
+              },
+              "explanationUz": "who — odam, which — narsa/hayvon, where — joy, that — universal (norasmiy uslubda)."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "where",
+                  "school",
+                  "is",
+                  "this",
+                  "studied",
+                  "I",
+                  "the"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "this",
+                  "is",
+                  "the",
+                  "school",
+                  "where",
+                  "I",
+                  "studied"
+                ]
+              },
+              "explanationUz": "To'g'ri gap: This is the school where I studied. — Bu men o'qigan maktab."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gapda «that» olmoshini TUSHIRIB QOLDIRISH mumkin?",
+              "data": {
+                "options": [
+                  "The boy that broke the window ran away.",
+                  "The book that I borrowed was great.",
+                  "The dog that bit me was big.",
+                  "The teacher that helped us is kind."
+                ]
+              },
+              "answer": {
+                "value": "The book that I borrowed was great."
+              },
+              "explanationUz": "Faqat shu gapda that'dan keyin yangi ega (I) bor — demak that to'ldiruvchi va uni tushirish mumkin: The book I borrowed... Qolganlarida that — ega, tushirib bo'lmaydi."
+            }
+          ]
+        },
+        {
+          "slug": "passive-voice",
+          "titleUz": "Majhul nisbat (Passive): hozirgi va o'tgan zamon",
+          "titleEn": "Passive voice: present and past",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 28,
+          "objectivesUz": [
+            "Present va Past Simple Passive shakllarini yasash (is done / was done)",
+            "Aktiv gapni passivga to'g'ri o'tkazish",
+            "by bilan bajaruvchini qachon ko'rsatishni bilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Majhul nisbat nima?",
+              "bodyUz": "Aktiv gapda ega ish-harakatni O'ZI BAJARADI: *People grow cotton here.* — Odamlar bu yerda paxta yetishtiradi.\n\nPassiv gapda esa harakat egaga NISBATAN bajariladi: *Cotton is grown here.* — Bu yerda paxta yetishtirilADI.\n\nO'zbek tilidagi «-il/-in» majhul qo'shimchasiga aynan mos keladi: qurilADI, qurilGAN, yetishtirilADI — shuning uchun bu mavzu o'zbek o'quvchisiga aslida tanish!\n\nPassiv qachon kerak? Harakatni KIM bajargani noma'lum, muhim bo'lmaganda yoki o'z-o'zidan ravshan bo'lganda:\n- *My bike was stolen.* — Velosipedim o'g'irlandi. (kim o'g'irlagani noma'lum)\n- *English is taught at every school.* — Ingliz tili har bir maktabda o'qitiladi. (kim o'qitishi ravshan — o'qituvchilar)"
+            },
+            {
+              "type": "table",
+              "titleUz": "Yasalishi: be + V3",
+              "headers": [
+                "Shakl",
+                "Formula",
+                "Misol",
+                "Tarjima"
+              ],
+              "rows": [
+                [
+                  "Present Simple Passive",
+                  "am/is/are + V3",
+                  "English is spoken worldwide.",
+                  "Ingliz tilida butun dunyoda gaplashiladi."
+                ],
+                [
+                  "Past Simple Passive",
+                  "was/were + V3",
+                  "The Registan was built centuries ago.",
+                  "Registon asrlar oldin qurilgan."
+                ],
+                [
+                  "Inkor",
+                  "be + not + V3",
+                  "The rooms aren't cleaned every day.",
+                  "Xonalar har kuni tozalanmaydi."
+                ],
+                [
+                  "So'roq",
+                  "Be + ega + V3?",
+                  "Was this photo taken in Khiva?",
+                  "Bu surat Xivada olinganmi?"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Aktivdan passivga o'tkazish — 3 qadam",
+              "bodyUz": "1) Aktiv gapdagi TO'LDIRUVCHINI yangi gapning EGASI qiling.\n2) Zamonga mos **be** shaklini qo'ying (hozirgi → is/are, o'tgan → was/were).\n3) Asosiy fe'lni **V3** shakliga o'tkazing.\n\n*They built this bridge in 2010.*\n→ **This bridge** (1-qadam) + **was** (2-qadam: o'tgan zamon, birlik) + **built** (3-qadam) + in 2010.\n\nBajaruvchini aytish MUHIM bo'lsa, gap oxiriga **by** bilan qo'shiladi:\n- *This portrait was painted BY a local artist.* — Bu portret mahalliy rassom TOMONIDAN chizilgan.\n\n«by people, by someone» kabi ma'nosiz bajaruvchilar yozilmaydi — passivning butun maqsadi ularni tushirish!"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                {
+                  "en": "Plov is cooked with rice, meat and carrots.",
+                  "uz": "Palov guruch, go'sht va sabzi bilan tayyorlanadi."
+                },
+                {
+                  "en": "These carpets are made by hand in Khiva.",
+                  "uz": "Bu gilamlar Xivada qo'lda to'qiladi."
+                },
+                {
+                  "en": "The letter was sent yesterday.",
+                  "uz": "Xat kecha jo'natildi."
+                },
+                {
+                  "en": "Our school was opened in 1985.",
+                  "uz": "Maktabimiz 1985-yilda ochilgan."
+                },
+                {
+                  "en": "Uzbek and Russian are spoken in my city.",
+                  "uz": "Shahrimda o'zbek va rus tillarida gaplashiladi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Multilevel'da passiv ikki joyda ishlaydi: grammatika bo'limida «The bridge ___ in 2010» tipidagi savollar (was built ni tanlash kerak — built emas!) va Writing Task 2 da: rasmiy uslubda «It is believed that..., The exam is held twice a year...» kabi passiv qoliplar ishlatish matningizni akademik ko'rsatadi va balingizni oshiradi. Reading'da esa ilmiy matnlar deyarli har doim passivga boy — is grown, was discovered, are produced shakllarini tez tanishga o'rganing."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "English ___ in many countries.",
+                "options": [
+                  "speaks",
+                  "is spoken",
+                  "spoke",
+                  "is speaking"
+                ]
+              },
+              "answer": {
+                "value": "is spoken"
+              },
+              "explanationUz": "Ingliz tili o'zi gapirmaydi — unda gaplashilADI (majhul) → is spoken (Present Simple Passive)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "This mosque ___ in the 15th century.",
+                "options": [
+                  "built",
+                  "was built",
+                  "is built",
+                  "was building"
+                ]
+              },
+              "answer": {
+                "value": "was built"
+              },
+              "explanationUz": "Masjid qurilGAN (o'tgan zamon, majhul) → was built. «built» yolg'iz kelsa aktiv bo'lib qoladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni Present Simple Passive shaklida yozing:",
+              "data": {
+                "text": "These carpets ___ (make) by hand in Khiva."
+              },
+              "answer": {
+                "accept": [
+                  "are made"
+                ]
+              },
+              "explanationUz": "carpets — ko'plik, hozirgi zamon → are + V3: are made."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni Past Simple Passive shaklida yozing:",
+              "data": {
+                "text": "The letter ___ (send) yesterday."
+              },
+              "answer": {
+                "accept": [
+                  "was sent"
+                ]
+              },
+              "explanationUz": "yesterday — o'tgan zamon, the letter — birlik → was + V3: was sent."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "Passiv gapda harakatni kim bajargani har doim «by» bilan ko'rsatilishi shart."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: by faqat bajaruvchi MUHIM bo'lgandagina qo'shiladi. Passivning asosiy maqsadi — noma'lum yoki ahamiyatsiz bajaruvchini tushirib qoldirish."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "built",
+                  "2010",
+                  "bridge",
+                  "was",
+                  "the",
+                  "in"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "the",
+                  "bridge",
+                  "was",
+                  "built",
+                  "in",
+                  "2010"
+                ]
+              },
+              "explanationUz": "To'g'ri gap: The bridge was built in 2010. — Ko'prik 2010-yilda qurilgan."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«They grow cotton in Uzbekistan» gapining passiv shakli qaysi?",
+              "data": {
+                "options": [
+                  "Cotton is grown in Uzbekistan.",
+                  "Cotton grows in Uzbekistan.",
+                  "Cotton was grown in Uzbekistan.",
+                  "Cotton is growing in Uzbekistan."
+                ]
+              },
+              "answer": {
+                "value": "Cotton is grown in Uzbekistan."
+              },
+              "explanationUz": "To'ldiruvchi (cotton) ega bo'ladi + hozirgi zamon be (is) + V3 (grown): Cotton is grown..."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Aktiv gapni passiv juftligi bilan bog'lang:",
+              "data": {
+                "left": [
+                  "Someone stole my bike.",
+                  "People speak English here.",
+                  "They built this road last year.",
+                  "The chef cooks the meals."
+                ],
+                "right": [
+                  "This road was built last year.",
+                  "The meals are cooked by the chef.",
+                  "My bike was stolen.",
+                  "English is spoken here."
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "Someone stole my bike.": "My bike was stolen.",
+                  "People speak English here.": "English is spoken here.",
+                  "They built this road last year.": "This road was built last year.",
+                  "The chef cooks the meals.": "The meals are cooked by the chef."
+                }
+              },
+              "explanationUz": "O'tgan zamon aktivlar → was/were + V3; hozirgi zamon aktivlar → is/are + V3. Bajaruvchi muhim bo'lganda (the chef) by bilan saqlanadi."
+            }
+          ]
+        },
+        {
+          "slug": "reported-speech",
+          "titleUz": "O'zlashtirma gap (Reported Speech): darak va so'roq gaplar",
+          "titleEn": "Reported speech: statements and questions",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Zamonlarni bir qadam orqaga surish qoidasini qo'llash",
+            "Olmosh va vaqt so'zlarini to'g'ri o'zgartirish",
+            "Savollarni darak tartibida o'zlashtirish (if/whether, wh-)"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Asosiy g'oya — bir qadam orqaga",
+              "bodyUz": "Birovning gapini o'z so'zimiz bilan yetkazganda (*He said that...*), zamon BIR QADAM ORQAGA suriladi. Nega? Chunki gap AYTILGAN payt — allaqachon o'tmishda.\n\n- To'g'ri gap: *«I AM tired,»* he said.\n- O'zlashtirma: *He said (that) he WAS tired.* — U charchaganini aytdi.\n\nO'zbek tilida biz buni «-ligini aytdi» qolipi bilan beramiz va zamonni SURMAYMIZ («charchaganman dedi» → «charchaganini aytdi»). Ingliz tilida esa surish MAJBURIY — shuning uchun bu mavzu alohida diqqat talab qiladi. «that» bog'lovchisi og'zaki nutqda ko'pincha tushiriladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Zamonlar qanday suriladi",
+              "headers": [
+                "To'g'ri gapda",
+                "O'zlashtirmada",
+                "Misol"
+              ],
+              "rows": [
+                [
+                  "Present Simple",
+                  "Past Simple",
+                  "«I work» → He said he worked."
+                ],
+                [
+                  "Present Continuous",
+                  "Past Continuous",
+                  "«I am reading» → She said she was reading."
+                ],
+                [
+                  "Past Simple / Present Perfect",
+                  "Past Perfect",
+                  "«I saw it» → He said he had seen it."
+                ],
+                [
+                  "will",
+                  "would",
+                  "«I will call» → She said she would call."
+                ],
+                [
+                  "can",
+                  "could",
+                  "«I can swim» → He said he could swim."
+                ],
+                [
+                  "must",
+                  "had to",
+                  "«I must go» → She said she had to go."
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Olmosh va vaqt so'zlari ham o'zgaradi",
+              "bodyUz": "Gapni boshqa odam, boshqa payt va joyda aytayotganimiz uchun «ko'rsatkich» so'zlar ham moslashadi:\n\n**Olmoshlar:** I → he/she; my → his/her; we → they; you → I/we (vaziyatga qarab)\n\n**Vaqt va joy so'zlari:**\n- now → then (o'shanda)\n- today → that day (o'sha kuni)\n- tomorrow → the next day (ertasi kuni)\n- yesterday → the day before (bir kun oldin)\n- here → there (u yerda)\n\nMisol: *«I will call you tomorrow,»* Aziz said. → *Aziz said he would call me the next day.* — Aziz menga ertasi kuni qo'ng'iroq qilishini aytdi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Savollarni o'zlashtirish",
+              "bodyUz": "Savolni o'zlashtirganda SO'ROQ TARTIBI YO'QOLADI — gap darak tartibiga qaytadi, do/does/did yordamchilari tushib qoladi:\n\n**Wh- savollar** — so'roq so'zi qoladi, tartib darak bo'ladi:\n- *«Where do you live?»* → *She asked me where I LIVED.* (❌ where did I live)\n\n**Yes/No savollar** — **if** yoki **whether** («...mi» ma'nosida) qo'shiladi:\n- *«Are you ready?»* → *He asked IF I was ready.* — U tayyorligimni so'radi.\n\nFe'l tanlash: **said** — shunchaki aytdi (kimga ekani aytilmasa), **told + kishi** — kimgadir aytdi (*He told ME...*), **asked** — so'radi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                {
+                  "en": "\"I live in Fergana,\" he said. → He said he lived in Fergana.",
+                  "uz": "«Farg'onada yashayman», dedi u. → U Farg'onada yashashini aytdi."
+                },
+                {
+                  "en": "\"We have finished,\" they said. → They said they had finished.",
+                  "uz": "«Tugatdik», dedi ular. → Ular tugatganlarini aytishdi."
+                },
+                {
+                  "en": "\"Can you help me?\" she asked. → She asked if I could help her.",
+                  "uz": "«Yordam bera olasizmi?» deb so'radi u. → U yordam bera olishimni so'radi."
+                },
+                {
+                  "en": "\"What time does the exam start?\" I asked. → I asked what time the exam started.",
+                  "uz": "«Imtihon soat nechada boshlanadi?» deb so'radim. → Imtihon qachon boshlanishini so'radim."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Multilevel grammatika bo'limida reported speech savollari odatda ikki tuzoqqa quriladi: (1) zamonni surishni unutish — «He said he WILL come» ❌, (2) o'zlashtirma savolda so'roq tartibini saqlash — «She asked where DID I live» ❌. Listening'da esa «She said she would...» kabi gaplar javob kalitlari bo'lib keladi. Yodda tuting: said → surilgan zamon, asked + darak tartibi — shu ikki formula ballaringizni himoya qiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang: «I am tired,» he said. → He said (that) he ___ tired.",
+              "data": {
+                "options": [
+                  "is",
+                  "was",
+                  "were",
+                  "has been"
+                ]
+              },
+              "answer": {
+                "value": "was"
+              },
+              "explanationUz": "Present Simple (am) bir qadam orqaga suriladi → Past Simple: was."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang: «I will call you,» she said. → She said she ___ call me.",
+              "data": {
+                "options": [
+                  "will",
+                  "would",
+                  "can",
+                  "shall"
+                ]
+              },
+              "answer": {
+                "value": "would"
+              },
+              "explanationUz": "will o'zlashtirmada would bo'ladi: She said she would call me."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring: «I live in Fergana,» he said. → He said he ___ in Fergana.",
+              "data": {
+                "text": "He said he ___ in Fergana."
+              },
+              "answer": {
+                "accept": [
+                  "lived"
+                ]
+              },
+              "explanationUz": "Present Simple (live) → Past Simple (lived)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang: «Where do you work?» she asked. → She asked me where ___.",
+              "data": {
+                "options": [
+                  "do I work",
+                  "did I work",
+                  "I worked",
+                  "I work"
+                ]
+              },
+              "answer": {
+                "value": "I worked"
+              },
+              "explanationUz": "O'zlashtirma savolda do/did tushib qoladi, tartib darak bo'ladi va zamon suriladi: where I worked."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring: «Are you ready?» he asked. → He asked ___ I was ready.",
+              "data": {
+                "text": "He asked ___ I was ready."
+              },
+              "answer": {
+                "accept": [
+                  "if",
+                  "whether"
+                ]
+              },
+              "explanationUz": "Yes/No savol o'zlashtirilganda if yoki whether qo'shiladi: He asked if/whether I was ready."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "O'zlashtirma savollarda so'roq tartibi (do/does/did) saqlanib qoladi."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: o'zlashtirma savolda so'roq tartibi YO'QOLADI, gap darak tartibiga o'tadi: She asked where I lived (❌ where did I live)."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri gapdagi so'zni o'zlashtirmadagi juftligi bilan bog'lang:",
+              "data": {
+                "left": [
+                  "now",
+                  "tomorrow",
+                  "yesterday",
+                  "here"
+                ],
+                "right": [
+                  "the day before",
+                  "there",
+                  "then",
+                  "the next day"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "now": "then",
+                  "tomorrow": "the next day",
+                  "yesterday": "the day before",
+                  "here": "there"
+                }
+              },
+              "explanationUz": "Vaqt/joy ko'rsatkichlari «uzoqlashadi»: now→then, tomorrow→the next day, yesterday→the day before, here→there."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "O'zlashtirma savol tuzing:",
+              "data": {
+                "items": [
+                  "was",
+                  "she",
+                  "where",
+                  "asked",
+                  "going",
+                  "me",
+                  "I"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "she",
+                  "asked",
+                  "me",
+                  "where",
+                  "I",
+                  "was",
+                  "going"
+                ]
+              },
+              "explanationUz": "To'g'ri gap: She asked me where I was going. — U qayerga ketayotganimni so'radi. (darak tartibi: where + I + was going)"
+            }
+          ]
+        },
+        {
+          "slug": "question-tags-indirect-questions",
+          "titleUz": "Question tags va bilvosita savollar",
+          "titleEn": "Question tags and indirect questions",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 3,
+          "estimatedMinutes": 28,
+          "objectivesUz": [
+            "Musbat/inkor gaplarga to'g'ri tag tanlash",
+            "Yordamchi fe'lga mos tag yasash (do/does/did, be, have, can...)",
+            "Could you tell me / Do you know bilan muloyim savol tuzish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Question tags — «shundaymi?»",
+              "bodyUz": "Gap oxiridagi qisqa savol — o'zbekchadagi «shundaymi?», «to'g'rimi?», «-a?» ga mos keladi: *You are a student, aren't you?* — Siz talabasiz, shundaymi?\n\nIkki qoida:\n1. **Musbat gap → inkor tag; inkor gap → musbat tag.**\n2. Tag'da gapdagi YORDAMCHI fe'l takrorlanadi (be, have, will, can...). Yordamchi fe'l bo'lmasa (Present/Past Simple) — **do/does/did** ishlatiladi.\n\n- *She works here, DOESN'T she?* (works — yordamchi yo'q → does)\n- *They didn't come, DID they?* (inkor → musbat tag)\n\nMaxsus holat: *I am late, AREN'T I?* («amn't I» mavjud emas!)"
+            },
+            {
+              "type": "table",
+              "titleUz": "Namunalar",
+              "headers": [
+                "Gap",
+                "Tag",
+                "Nega?"
+              ],
+              "rows": [
+                [
+                  "You are from Fergana,",
+                  "aren't you?",
+                  "be musbat → inkor tag"
+                ],
+                [
+                  "She speaks German,",
+                  "doesn't she?",
+                  "Present Simple → does"
+                ],
+                [
+                  "They went home,",
+                  "didn't they?",
+                  "Past Simple → did"
+                ],
+                [
+                  "He can't drive,",
+                  "can he?",
+                  "inkor → musbat tag"
+                ],
+                [
+                  "You have finished,",
+                  "haven't you?",
+                  "have yordamchi takrorlanadi"
+                ],
+                [
+                  "It isn't expensive,",
+                  "is it?",
+                  "inkor → musbat tag"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Indirect questions — muloyim savollar",
+              "bodyUz": "To'g'ridan-to'g'ri savol ba'zan qo'pol eshitiladi. Muloyim shakl **Could you tell me... / Do you know... / I wonder...** bilan boshlanadi, lekin ichidagi savol DARAK TARTIBIGA o'tadi:\n\n- *Where IS the bank?* → *Could you tell me where the bank IS?* — Bank qayerdaligini ayta olasizmi?\n- *What time DOES the shop open?* → *Do you know what time the shop OPENS?* (does yo'qoladi, fe'lga -s qaytadi!)\n\nYes/No savollar uchun **if/whether** qo'shiladi:\n- *Does this bus go to the airport?* → *Do you know IF this bus goes to the airport?*\n\nE'tibor bering: o'zlashtirma gapdan farqli, bu yerda zamon SURILMAYDI — chunki savol hozir berilyapti."
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: muloyim so'rash",
+              "lines": [
+                {
+                  "speaker": "Tourist",
+                  "en": "Excuse me, could you tell me where the metro station is?",
+                  "uz": "Kechirasiz, metro bekati qayerdaligini ayta olasizmi?"
+                },
+                {
+                  "speaker": "Local",
+                  "en": "Of course. Go straight and turn left. You're a tourist, aren't you?",
+                  "uz": "Albatta. To'g'ri yurib, chapga buriling. Siz sayyohsiz, shundaymi?"
+                },
+                {
+                  "speaker": "Tourist",
+                  "en": "Yes, I am. Do you know if the museums are open today?",
+                  "uz": "Ha. Muzeylar bugun ochiqmi, bilasizmi?"
+                },
+                {
+                  "speaker": "Local",
+                  "en": "They're open until 6 pm, I think. You won't be late, will you?",
+                  "uz": "Menimcha, soat 6 gacha ochiq. Kechikmaysiz-a, to'g'rimi?"
+                }
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "To'g'ri savol → muloyim savol",
+              "items": [
+                {
+                  "en": "Where is the nearest bank? → Could you tell me where the nearest bank is?",
+                  "uz": "Eng yaqin bank qayerda? → Eng yaqin bank qayerdaligini ayta olasizmi?"
+                },
+                {
+                  "en": "When does the train leave? → Do you know when the train leaves?",
+                  "uz": "Poyezd qachon jo'naydi? → Poyezd qachon jo'nashini bilasizmi?"
+                },
+                {
+                  "en": "Is there a pharmacy near here? → Do you know if there is a pharmacy near here?",
+                  "uz": "Yaqin atrofda dorixona bormi? → Yaqin atrofda dorixona bor-yo'qligini bilasizmi?"
+                },
+                {
+                  "en": "How much does it cost? → Could you tell me how much it costs?",
+                  "uz": "Bu qancha turadi? → Bu qancha turishini ayta olasizmi?"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Listening bo'limida question tag'lar suhbat ohangini beradi — «..., isn't it?» eshitsangiz, gapiruvchi tasdiq kutyapti. Speaking imtihonida esa «Could you tell me...?» kabi muloyim shakllar va to'g'ri tag ishlatish muloqot madaniyati balini oshiradi. Grammatika bo'limidagi klassik tuzoq: bilvosita savol ichida so'roq tartibini saqlash — «Could you tell me where IS the bank?» ❌ — to'g'risi «...where the bank IS» ✅."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "You're from Andijan, ___?",
+                "options": [
+                  "are you",
+                  "aren't you",
+                  "don't you",
+                  "isn't it"
+                ]
+              },
+              "answer": {
+                "value": "aren't you"
+              },
+              "explanationUz": "Musbat gap (You're) → inkor tag, yordamchi be takrorlanadi: aren't you?"
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "She doesn't eat meat, ___?",
+                "options": [
+                  "does she",
+                  "doesn't she",
+                  "is she",
+                  "did she"
+                ]
+              },
+              "answer": {
+                "value": "does she"
+              },
+              "explanationUz": "Inkor gap (doesn't) → musbat tag: does she?"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring:",
+              "data": {
+                "text": "They went home early, ___ they?"
+              },
+              "answer": {
+                "accept": [
+                  "didn't"
+                ]
+              },
+              "explanationUz": "went — Past Simple, yordamchi yo'q → did; musbat gap → inkor tag: didn't they?"
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "Could you tell me where ___?",
+                "options": [
+                  "is the station",
+                  "the station is",
+                  "does the station is",
+                  "is station"
+                ]
+              },
+              "answer": {
+                "value": "the station is"
+              },
+              "explanationUz": "Bilvosita savolda darak tartibi: where + ega + fe'l → where the station is."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Yes/No savolni bilvosita shaklga to'ldiring:",
+              "data": {
+                "text": "Do you know ___ she speaks French?"
+              },
+              "answer": {
+                "accept": [
+                  "if",
+                  "whether"
+                ]
+              },
+              "explanationUz": "Yes/No savol bilvosita shaklda if/whether bilan beriladi: Do you know if she speaks French?"
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": {
+                "statement": "«Could you tell me where is the bank?» — so'z tartibi to'g'ri tuzilgan bilvosita savol."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri: bilvosita savolda darak tartibi kerak — Could you tell me where the bank is?"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Gapni mos tag bilan bog'lang:",
+              "data": {
+                "left": [
+                  "He can swim,",
+                  "You have been to Khiva,",
+                  "It isn't cold,",
+                  "Aziza works here,"
+                ],
+                "right": [
+                  "doesn't she?",
+                  "is it?",
+                  "can't he?",
+                  "haven't you?"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "He can swim,": "can't he?",
+                  "You have been to Khiva,": "haven't you?",
+                  "It isn't cold,": "is it?",
+                  "Aziza works here,": "doesn't she?"
+                }
+              },
+              "explanationUz": "can → can't he; have → haven't you; inkor isn't → musbat is it; works (yordamchisiz Present Simple) → doesn't she."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "Muloyim savol tuzing:",
+              "data": {
+                "items": [
+                  "time",
+                  "could",
+                  "tell",
+                  "you",
+                  "it",
+                  "me",
+                  "what",
+                  "is"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "could",
+                  "you",
+                  "tell",
+                  "me",
+                  "what",
+                  "time",
+                  "it",
+                  "is"
+                ]
+              },
+              "explanationUz": "To'g'ri gap: Could you tell me what time it is? — Soat nechaligini ayta olasizmi? (ichki savol darak tartibida: it is)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

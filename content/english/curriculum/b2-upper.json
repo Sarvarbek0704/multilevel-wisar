@@ -1,0 +1,1689 @@
+{
+  "subject": "ENGLISH",
+  "level": "B2",
+  "slug": "english-b2-upper",
+  "titleUz": "Ingliz tili B2 — Yuqori bosqich",
+  "titleEn": "English B2 — Upper Intermediate",
+  "descriptionUz": "Multilevel imtihonida B2-C1 darajaga chiqish uchun murakkab zamonlar, ilg'or grammatik konstruksiyalar va imtihon strategiyalari. Har bir dars chuqur nazariya, boy misollar va imtihon taktikasi bilan yakunlanadi.",
+  "icon": "🚀",
+  "order": 4,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "advanced-tenses",
+      "titleUz": "Murakkab zamonlar",
+      "titleEn": "Advanced tenses",
+      "descriptionUz": "Past Perfect, Future Perfect, uchinchi va aralash shart gaplar, wish/if only — B2 grammatikasining poydevori.",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "past-perfect-and-continuous",
+          "titleUz": "Past Perfect va Past Perfect Continuous",
+          "titleEn": "Past Perfect & Past Perfect Continuous",
+          "skill": "GRAMMAR",
+          "level": "B2",
+          "order": 0,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "O'tmishdagi ikki voqeadan qaysi biri oldin sodir bo'lganini Past Perfect bilan ko'rsatish",
+            "Past Perfect Continuous orqali o'tmishdagi paytgacha davom etgan jarayonni ifodalash",
+            "by the time, after, before, already, for/since signal so'zlari bilan ishonchli ishlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega Past Perfect kerak?",
+              "bodyUz": "O'tmishda IKKITA voqea bo'lsa, qaysi biri OLDIN sodir bo'lganini ko'rsatish uchun Past Perfect ishlatiladi: **had + V3**.\n\n*When we arrived at the cinema, the film **had started**.* — Biz kinoteatrga yetib kelganimizda, film (bizdan OLDIN) boshlanib bo'lgan edi.\n\nAgar ikkala voqea shunchaki ketma-ket aytilsa, ikkalasi ham Past Simple bo'ladi: *I came home and went to bed.* Past Perfect faqat tartibni TA'KIDLASH kerak bo'lganda ishlatiladi. Signal so'zlar: *by the time, after, before, already, just, never ... before*."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Past Perfect Continuous: natijagacha davom etgan jarayon",
+              "bodyUz": "**had been + V-ing** — o'tmishdagi bir paytgacha DAVOM ETGAN jarayonni bildiradi. Ko'pincha *for/since* bilan davomiylik ko'rsatiladi yoki ko'rinib turgan natija-iz tushuntiriladi:\n\n*She **had been working** at the hospital **for ten years** when she got the promotion.* — Lavozimi ko'tarilganda u kasalxonada o'n yildan beri ishlab kelayotgan edi.\n\n*The ground was wet — it **had been raining** all night.* — Yer ho'l edi — tun bo'yi yomg'ir yog'ib chiqqan edi (natija-iz: ho'l yer).\n\nDiqqat: holat fe'llari (*know, believe, own, love*) continuous shaklda ishlatilmaydi: *I **had known** him for years* (\"had been knowing\" emas)."
+            },
+            {
+              "type": "table",
+              "titleUz": "Taqqoslash jadvali",
+              "headers": ["Zamon", "Formula", "Nimani ta'kidlaydi", "Misol"],
+              "rows": [
+                ["Past Simple", "V2", "o'tmishdagi oddiy fakt", "I finished the report yesterday."],
+                ["Past Perfect", "had + V3", "boshqa o'tmish voqeasidan OLDIN tugagan ish", "I had finished the report before the meeting."],
+                ["Past Perfect Continuous", "had been + V-ing", "o'tmishdagi paytgacha davom etgan JARAYON", "I had been writing the report for three hours when the laptop died."]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Signal so'zlar bilan misollar",
+              "items": [
+                { "en": "By the time the guests arrived, we had cooked everything.", "uz": "Mehmonlar kelguniga qadar biz hamma narsani pishirib bo'lgan edik." },
+                { "en": "After she had passed the exam, she celebrated with her friends.", "uz": "Imtihondan o'tib bo'lgach, u do'stlari bilan nishonladi." },
+                { "en": "He had never seen the ocean before he moved to Spain.", "uz": "Ispaniyaga ko'chib o'tishidan oldin u okeanni hech qachon ko'rmagan edi." },
+                { "en": "The children were exhausted because they had been playing football for hours.", "uz": "Bolalar holdan toygan edi, chunki ular soatlab futbol o'ynagan edilar." },
+                { "en": "I had been learning English for five years before I took the Multilevel exam.", "uz": "Multilevel imtihonini topshirishdan oldin men besh yil ingliz tili o'rgangan edim." },
+                { "en": "She realised she had left her passport at home.", "uz": "U pasportini uyda qoldirib kelganini angladi." }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbatda qo'llanishi",
+              "turns": [
+                { "speaker": "Malika", "en": "You look tired. What happened?", "uz": "Charchagan ko'rinasan. Nima bo'ldi?" },
+                { "speaker": "Aziz", "en": "I had been revising grammar all night, so I only slept three hours.", "uz": "Tun bo'yi grammatika takrorlagan edim, shuning uchun bor-yo'g'i uch soat uxladim." },
+                { "speaker": "Malika", "en": "Had you finished all the units by the morning?", "uz": "Ertalabgacha hamma bo'limlarni tugatib bo'lganmiding?" },
+                { "speaker": "Aziz", "en": "Almost. By 5 a.m. I had completed ten of the twelve units.", "uz": "Deyarli. Ertalab beshgacha o'n ikki bo'limdan o'ntasini tugatgan edim." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: Reading va Listening'da «voqealar qaysi tartibda sodir bo'lgan?» tipidagi savollar uchraydi. *By the time, after, before, already* so'zlarini ko'rsangiz, gapda ikki voqea borligini va Past Perfect OLDINGI voqeani bildirishini eslang. Grammatika bo'limida esa gapda natija-iz (ho'l yer, qizargan ko'zlar, charchoq) + *because* bo'lsa, javob ko'pincha Past Perfect Continuous bo'ladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "When we arrived at the stadium, the match ___ .",
+                "options": ["had already started", "has already started", "was already starting", "already starts"]
+              },
+              "answer": { "value": "had already started" },
+              "explanationUz": "Ikki o'tmish voqeasi bor: o'yin biz kelishimizdan OLDIN boshlangan — Past Perfect (had + V3). Present Perfect (has started) o'tmishdagi hikoya ichida ishlatilmaydi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni to'g'ri zamonda qo'ying:",
+              "data": { "text": "By the time the police arrived, the thief ___ (escape)." },
+              "answer": { "accept": ["had escaped", "had already escaped"] },
+              "explanationUz": "«By the time + Past Simple» — ikkinchi qismda undan OLDIN tugagan ish Past Perfect bo'ladi: had escaped."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi shakl mos keladi?",
+              "data": {
+                "text": "Her eyes were red because she ___ .",
+                "options": ["had been crying", "had cried", "was cried", "has been crying"]
+              },
+              "answer": { "value": "had been crying" },
+              "explanationUz": "Qizargan ko'zlar — davom etgan jarayonning natija-izi. Shu sababli Past Perfect Continuous (had been crying) tanlanadi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Holat fe'llari (know, believe, own) Past Perfect Continuous shaklida ishlatilmaydi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Holat fe'llari continuous shakllarga kirmaydi: I had known him for years (\"had been knowing\" emas)."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Gap boshlanishini mos davomiga bog'lang:",
+              "data": {
+                "left": ["She was exhausted because", "When I got home,", "By 2020,", "He had been driving for hours"],
+                "right": ["my family had already eaten dinner.", "before he finally stopped to rest.", "she had been working all night.", "they had moved to Tashkent."]
+              },
+              "answer": {
+                "pairs": {
+                  "She was exhausted because": "she had been working all night.",
+                  "When I got home,": "my family had already eaten dinner.",
+                  "By 2020,": "they had moved to Tashkent.",
+                  "He had been driving for hours": "before he finally stopped to rest."
+                }
+              },
+              "explanationUz": "Charchoq → davomiy jarayon (had been working); when/by → oldin tugagan ish (had eaten, had moved); for hours → davomiylik + before bilan yakun."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni to'g'ri zamonda qo'ying:",
+              "data": { "text": "I ___ (wait) for forty minutes when the bus finally came." },
+              "answer": { "accept": ["had been waiting"] },
+              "explanationUz": "«for forty minutes» — davomiylik, avtobus kelgan paytgacha kutish DAVOM ETGAN. Shuning uchun Past Perfect Continuous: had been waiting."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtirib gap tuzing:",
+              "data": { "items": ["had never flown", "She", "before that trip", "in a plane"] },
+              "answer": { "order": ["She", "had never flown", "in a plane", "before that trip"] },
+              "explanationUz": "Ega + had never + V3 + to'ldiruvchi + vaqt: She had never flown in a plane before that trip."
+            }
+          ]
+        },
+        {
+          "slug": "future-perfect-continuous",
+          "titleUz": "Future Perfect va Future Continuous",
+          "titleEn": "Future Perfect & Future Continuous",
+          "skill": "GRAMMAR",
+          "level": "B2",
+          "order": 1,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Kelajakdagi muayyan paytgacha tugallanadigan ish uchun Future Perfect (will have done) ishlatish",
+            "Kelajakdagi muayyan paytda davom etadigan jarayon uchun Future Continuous (will be doing) ishlatish",
+            "by, by the time, this time tomorrow kabi signal iboralarni bir qarashda tanib olish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Future Continuous: kelajakdagi jarayon",
+              "bodyUz": "**will be + V-ing** — kelajakdagi MA'LUM PAYTDA davom etib turadigan harakatni bildiradi:\n\n*This time tomorrow, I **will be flying** to Istanbul.* — Ertaga shu paytda men Istanbulga uchib ketayotgan bo'laman.\n\n*Don't call at 8 — we **will be having** dinner.* — Soat 8 da qo'ng'iroq qilma — kechki ovqat yeb o'tirgan bo'lamiz.\n\nShuningdek, tabiiy ravishda rejalashtirilgan ishlar uchun ham ishlatiladi: *I**'ll be seeing** Karim at the office anyway, so I can pass on your message.* — Karimni baribir ofisda ko'raman, xabaringni yetkazib qo'yaman."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Future Perfect: muddatgacha tugallangan ish",
+              "bodyUz": "**will have + V3** — kelajakdagi muayyan muddatGACHA tugallanib bo'ladigan ishni bildiradi. Asosiy signal: **by** (…gacha): *by the time, by 2030, by the end of the year*.\n\n*By 2030, the company **will have opened** fifty new branches.* — 2030-yilga borib kompaniya ellikta yangi filial ochib bo'ladi.\n\nJarayonning davomiyligini ta'kidlash uchun **Future Perfect Continuous** ishlatiladi: *By May, she **will have been living** in London for a year.* — May oyiga kelib u Londonda bir yildan beri yashayotgan bo'ladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Uchala shaklni solishtiring",
+              "headers": ["Zamon", "Formula", "Qaysi savolga javob beradi", "Misol"],
+              "rows": [
+                ["Future Continuous", "will be + V-ing", "o'sha paytda nima bo'layotgan bo'ladi?", "At 8 pm we will be watching the final."],
+                ["Future Perfect", "will have + V3", "o'sha paytgacha nima tugagan bo'ladi?", "By 8 pm the match will have finished."],
+                ["Future Perfect Continuous", "will have been + V-ing", "o'sha paytgacha qancha davom etgan bo'ladi?", "By 8 pm they will have been playing for two hours."]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Hayotiy misollar",
+              "items": [
+                { "en": "Don't phone me at 7 — I will be driving to work.", "uz": "Soat 7 da qo'ng'iroq qilma — men ishga mashinada ketayotgan bo'laman." },
+                { "en": "By the time you read this letter, I will have left the country.", "uz": "Sen bu xatni o'qiganingda men mamlakatni tark etib bo'lgan bo'laman." },
+                { "en": "Next June, we will have been married for twenty years.", "uz": "Kelasi iyunda turmush qurganimizga yigirma yil to'lgan bo'ladi." },
+                { "en": "Scientists predict that by 2050 the population will have reached ten billion.", "uz": "Olimlarning bashoratiga ko'ra, 2050-yilga borib aholi soni o'n milliardga yetgan bo'ladi." },
+                { "en": "This time next week, the students will be taking their final exam.", "uz": "Kelasi hafta shu paytda talabalar yakuniy imtihon topshirayotgan bo'lishadi." },
+                { "en": "I will have finished the report by Friday, I promise.", "uz": "Juma kunigacha hisobotni tugatib bo'laman, va'da beraman." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: gapda **by / by the time / by 2030** ko'rsangiz — javob deyarli har doim Future Perfect (will have done). **This time tomorrow / at 5 pm tomorrow** bo'lsa — Future Continuous (will be doing). **for + muddat** ham **by** bilan birga kelsa — Future Perfect Continuous. Shu uch signalni yodlab olsangiz, grammatika bo'limidagi bu turdagi savollarni 10 soniyada yechasiz."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "This time next week, I ___ on a beach in Antalya.",
+                "options": ["will be lying", "will have lain", "will lie been", "am lying been"]
+              },
+              "answer": { "value": "will be lying" },
+              "explanationUz": "«This time next week» — kelajakdagi aniq paytdagi jarayon: Future Continuous (will be + V-ing)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni to'g'ri zamonda qo'ying:",
+              "data": { "text": "By 2030, scientists ___ (develop) new treatments for many diseases." },
+              "answer": { "accept": ["will have developed"] },
+              "explanationUz": "«By 2030» — muddatgacha tugallangan ish: Future Perfect (will have developed)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi shakl mos keladi?",
+              "data": {
+                "text": "Don't call at 8 — we ___ dinner with my grandparents.",
+                "options": ["will be having", "will have had", "will have", "are had"]
+              },
+              "answer": { "value": "will be having" },
+              "explanationUz": "Soat 8 da ovqatlanish DAVOM ETAYOTGAN bo'ladi — Future Continuous. «Will have had» esa 8 gacha tugagan bo'lardi, ma'noga mos emas."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«By the time you arrive, I will have finished the report» gapida hisobot siz kelishingizdan OLDIN tugallangan bo'ladi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Future Perfect aynan shuni bildiradi: kelajakdagi nuqtagacha (siz kelguningizcha) ish tugagan bo'ladi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Signal iborani mos gapga bog'lang:",
+              "data": {
+                "left": ["by the time", "this time tomorrow", "for ten years by then", "by 2035"],
+                "right": ["I will have been working here for ten years by then.", "By 2035, robots will have replaced millions of workers.", "By the time you wake up, I will have left.", "This time tomorrow we will be flying to Dubai."]
+              },
+              "answer": {
+                "pairs": {
+                  "by the time": "By the time you wake up, I will have left.",
+                  "this time tomorrow": "This time tomorrow we will be flying to Dubai.",
+                  "for ten years by then": "I will have been working here for ten years by then.",
+                  "by 2035": "By 2035, robots will have replaced millions of workers."
+                }
+              },
+              "explanationUz": "by / by the time → Future Perfect; this time tomorrow → Future Continuous; for + muddat → Future Perfect Continuous."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni to'g'ri zamonda qo'ying:",
+              "data": { "text": "By next month, they ___ (build) the new bridge across the river." },
+              "answer": { "accept": ["will have built"] },
+              "explanationUz": "«By next month» — muddat signali. Ko'prik o'sha paytgacha qurilib BO'LADI: will have built."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtirib gap tuzing:",
+              "data": { "items": ["will have been", "By December,", "she", "for six months", "working here"] },
+              "answer": { "order": ["By December,", "she", "will have been", "working here", "for six months"] },
+              "explanationUz": "By + muddat, ega, will have been + V-ing, for + davomiylik: By December, she will have been working here for six months."
+            }
+          ]
+        },
+        {
+          "slug": "third-and-mixed-conditionals",
+          "titleUz": "Uchinchi va aralash shart gaplar",
+          "titleEn": "Third & mixed conditionals",
+          "skill": "GRAMMAR",
+          "level": "B2",
+          "order": 2,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "O'tmishdagi ro'y bermagan voqealar haqida Third Conditional bilan gapirish",
+            "O'tmishdagi sabab va hozirgi natijani Mixed Conditional orqali bog'lash",
+            "would o'rniga could/might ishlatib ma'no ottenkalarini berish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Third Conditional: o'tmishdagi ro'y bermagan voqea",
+              "bodyUz": "**If + Past Perfect, ... would have + V3** — o'tmishda BO'LMAGAN voqeani tasavvur qilish va uning o'tmishdagi natijasi haqida gapirish uchun ishlatiladi. Bu — «afsuslanish grammatikasi»:\n\n*If you **had told** me about the problem, I **would have helped** you.* — Muammo haqida aytganingda edi, senga yordam bergan bo'lardim. (Aslida: aytmading — yordam bermadim.)\n\n*would* o'rniga *could* (imkoniyat) yoki *might* (ehtimol) ham keladi: *If we had left earlier, we **could have caught** the train.* — Ertaroq chiqqanimizda poyezdga ulgurishimiz mumkin edi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Third Conditional misollari",
+              "items": [
+                { "en": "If she had applied for the scholarship, she would have won it.", "uz": "Grantga ariza topshirganida edi, uni yutib olgan bo'lardi." },
+                { "en": "We wouldn't have got lost if we had taken a map.", "uz": "Xarita olganimizda edi, adashmagan bo'lardik." },
+                { "en": "If I hadn't missed the bus, I wouldn't have met my future wife.", "uz": "Avtobusni o'tkazib yubormaganimda edi, bo'lajak rafiqamni uchratmagan bo'lardim." },
+                { "en": "He might have passed the interview if he had prepared properly.", "uz": "To'g'ri tayyorgarlik ko'rganida edi, suhbatdan o'tishi mumkin edi." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Mixed Conditional: o'tmish va hozirni bog'lash",
+              "bodyUz": "Aralash shart gaplar ikki zamonni bog'laydi:\n\n**1) O'tmishdagi sabab → hozirgi natija**: *If + Past Perfect, ... would + V1*\n*If I **had saved** my money, I **would be** rich now.* — Pulimni jamg'arganimda edi, hozir boy bo'lardim.\n\n**2) Hozirgi (doimiy) holat → o'tmishdagi natija**: *If + Past Simple, ... would have + V3*\n*If he **weren't** so shy, he **would have spoken** to her yesterday.* — U shunchalik tortinchoq bo'lmaganida, kecha u qiz bilan gaplashgan bo'lardi.\n\nKalit: har bir qismdagi VAQT belgisiga qarang (*now, today* — hozirgi natija; *yesterday, last year* — o'tmishdagi natija)."
+            },
+            {
+              "type": "table",
+              "titleUz": "2-, 3- va aralash shartlarni farqlash",
+              "headers": ["Tur", "If qismi", "Asosiy qism", "Ma'no"],
+              "rows": [
+                ["Second Conditional", "Past Simple", "would + V1", "hozir/kelajakdagi xayoliy holat"],
+                ["Third Conditional", "Past Perfect", "would have + V3", "o'tmishdagi ro'y bermagan voqea"],
+                ["Mixed (o'tmish → hozir)", "Past Perfect", "would + V1", "o'tmishdagi xato — hozirgi natija"],
+                ["Mixed (hozir → o'tmish)", "Past Simple", "would have + V3", "doimiy xislat — o'tmishdagi natija"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: shart gap savolida avval IKKALA qismdagi vaqt ko'rsatkichlarini toping. Natija qismida *now / today* bo'lsa — would + V1, *yesterday / last week* bo'lsa — would have + V3. Multilevel'da aralash shartlar aynan shu «vaqt tuzog'i» bilan tekshiriladi: talabalarning ko'pchiligi if qismiga qarab shablonni yodaki qo'yadi va xato qiladi — siz esa vaqt belgisiga qarang."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "If you had told me earlier, I ___ you.",
+                "options": ["would have helped", "would help", "will have helped", "helped"]
+              },
+              "answer": { "value": "would have helped" },
+              "explanationUz": "If + Past Perfect (had told) → o'tmishdagi natija: would have + V3. Klassik Third Conditional."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni to'g'ri shaklda qo'ying:",
+              "data": { "text": "If she ___ (study) medicine, she would have become a doctor." },
+              "answer": { "accept": ["had studied"] },
+              "explanationUz": "Natija qismi would have become (o'tmish) — demak if qismida Past Perfect: had studied."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Aralash shart gapni to'ldiring:",
+              "data": {
+                "text": "If I had saved my money last year, I ___ a car now.",
+                "options": ["could buy", "could have bought", "can buy", "will buy"]
+              },
+              "answer": { "value": "could buy" },
+              "explanationUz": "Sabab o'tmishda (last year — had saved), natija HOZIR (now) — shuning uchun could/would + V1. «Could have bought» o'tmishdagi natija bo'lardi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Third Conditional o'tmishda REAL sodir bo'lgan voqealarni tasvirlaydi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Third Conditional aynan RO'Y BERMAGAN, xayoliy o'tmishni tasvirlaydi — shuning uchun u afsus va tanqid uchun ishlatiladi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Shart qismini mos natijaga bog'lang:",
+              "data": {
+                "left": ["If Aziz had set an alarm,", "If I spoke French,", "If she hadn't missed the flight,", "If he weren't so lazy,"],
+                "right": ["she would be in Paris now.", "he would have finished the project long ago.", "he wouldn't have overslept.", "I would have understood the guide yesterday."]
+              },
+              "answer": {
+                "pairs": {
+                  "If Aziz had set an alarm,": "he wouldn't have overslept.",
+                  "If I spoke French,": "I would have understood the guide yesterday.",
+                  "If she hadn't missed the flight,": "she would be in Paris now.",
+                  "If he weren't so lazy,": "he would have finished the project long ago."
+                }
+              },
+              "explanationUz": "Birinchi juftlik — sof Third Conditional; qolganlari aralash: hozirgi xislat → o'tmishdagi natija yoki o'tmishdagi voqea → hozirgi natija."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni to'g'ri shaklda qo'ying:",
+              "data": { "text": "I would be rich now if I ___ (invest) in that company five years ago." },
+              "answer": { "accept": ["had invested"] },
+              "explanationUz": "Natija hozirda (would be rich now), sabab o'tmishda (five years ago) — if qismida Past Perfect: had invested."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap ARALASH (mixed) shart gap?",
+              "data": {
+                "options": [
+                  "If he had taken the medicine, he would feel better now.",
+                  "If I had known, I would have come.",
+                  "If I were you, I would apologise.",
+                  "If you heat ice, it melts."
+                ]
+              },
+              "answer": { "value": "If he had taken the medicine, he would feel better now." },
+              "explanationUz": "Had taken (o'tmish) + would feel now (hozir) — ikki zamon aralashgan. Qolganlari: sof Third, Second va Zero Conditional."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtirib gap tuzing:",
+              "data": { "items": ["would have passed", "If", "harder,", "she had revised", "she", "the exam"] },
+              "answer": { "order": ["If", "she had revised", "harder,", "she", "would have passed", "the exam"] },
+              "explanationUz": "If + Past Perfect qismi oldin, keyin natija: If she had revised harder, she would have passed the exam."
+            }
+          ]
+        },
+        {
+          "slug": "wish-if-only",
+          "titleUz": "Wish / If only — afsus va orzular",
+          "titleEn": "Wish / If only (regrets)",
+          "skill": "GRAMMAR",
+          "level": "B2",
+          "order": 3,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Hozirgi holatdan afsuslanish uchun wish + Past Simple ishlatish",
+            "O'tmishdagi xatolardan afsuslanish uchun wish + Past Perfect ishlatish",
+            "Boshqalarning g'ashga tegadigan odatlari uchun wish + would qolipini qo'llash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "wish + Past Simple: hozirgi holatdan afsus",
+              "bodyUz": "Hozirgi holat yoqmasa va uni o'zgartirishni istasak: **wish + Past Simple**. E'tibor bering: zamon ORQAGA suriladi — hozirgi holat haqida o'tgan zamon bilan gapiramiz:\n\n*I **wish** I **had** more free time.* — Ko'proq bo'sh vaqtim bo'lishini istardim (hozir yo'q).\n\n*be* fe'li bilan rasmiy uslubda barcha shaxslarda **were** ishlatiladi: *I wish I **were** taller. She wishes she **were** in Paris now.*"
+            },
+            {
+              "type": "theory",
+              "titleUz": "wish + Past Perfect: o'tmishdagi xatodan afsus",
+              "bodyUz": "O'tmishda qilgan (yoki qilmagan) ishimizdan afsuslanish: **wish + Past Perfect**:\n\n*I **wish** I **had studied** harder at school.* — Maktabda yaxshiroq o'qimaganimdan afsusdaman.\n\n*She **wishes** she **hadn't sold** her car.* — U mashinasini sotganidan afsusda.\n\n**If only** xuddi shu qoliplar bilan ishlaydi, lekin his-tuyg'uni KUCHLIROQ ifodalaydi: *If only I had listened to my parents!* — Qaniydi ota-onamning gapiga quloq solganimda!"
+            },
+            {
+              "type": "theory",
+              "titleUz": "wish + would: boshqalardan norozilik",
+              "bodyUz": "Boshqa odamlarning (yoki vaziyatning) bizni bezovta qiladigan odatiga norozilik bildirish: **wish + would**:\n\n*I **wish** you **would stop** interrupting me.* — Gapimni bo'lishni bas qilishingni istardim.\n\n*I **wish** it **would stop** raining.* — Qaniydi yomg'ir tinsa.\n\nDiqqat: o'zimiz haqimizda *wish + would* ishlatilMAYDI (*I wish I would...* — xato), chunki bu qolip boshqa birovning irodasiga qaratilgan bo'ladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Uch qolip — bir jadvalda",
+              "headers": ["Qolip", "Qachon ishlatiladi", "Misol", "Tarjima"],
+              "rows": [
+                ["wish + Past Simple", "hozirgi holatdan afsus", "I wish I knew the answer.", "Javobni bilganimda edi."],
+                ["wish + Past Perfect", "o'tmishdagi afsus", "I wish I had gone to the concert.", "Konsertga borganimda edi."],
+                ["wish + would", "boshqalarning odatidan norozilik", "I wish he would drive more carefully.", "U ehtiyotkorroq haydasa edi."]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: imtihondan keyingi afsuslar",
+              "turns": [
+                { "speaker": "Dilnoza", "en": "How was the mock exam?", "uz": "Sinov imtihoni qanday o'tdi?" },
+                { "speaker": "Jasur", "en": "Terrible. I wish I had practised more listening tasks.", "uz": "Juda yomon. Ko'proq listening mashq qilganimda edi." },
+                { "speaker": "Dilnoza", "en": "Don't worry. I wish you wouldn't be so hard on yourself.", "uz": "Xavotir olma. O'zingga bunchalik qattiq bo'lmasligingni istardim." },
+                { "speaker": "Jasur", "en": "You're right. If only the real exam were next month, not next week!", "uz": "Haqsan. Qaniydi haqiqiy imtihon kelasi hafta emas, kelasi oy bo'lsa edi!" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: wish'dan keyin HECH QACHON hozirgi zamon kelmaydi (*I wish I have* — xato). Grammatika bo'limida wish savolini ko'rsangiz, avval afsus QAYSI VAQTGA tegishli ekanini aniqlang: hozir → Past Simple, o'tmish → Past Perfect, birovning odati → would. Writing'da esa *If only...* qolipi hikoya va norasmiy xatga his-tuyg'u qo'shib, grammatik diapazon balini oshiradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "I wish I ___ taller — I can't reach the top shelf.",
+                "options": ["were", "am", "would be", "had been"]
+              },
+              "answer": { "value": "were" },
+              "explanationUz": "Hozirgi holatdan afsus → wish + Past Simple. Be fe'li bilan barcha shaxslarda «were» ishlatiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni to'g'ri shaklda qo'ying:",
+              "data": { "text": "I wish I ___ (not/spend) all my money last weekend." },
+              "answer": { "accept": ["hadn't spent", "had not spent"] },
+              "explanationUz": "«Last weekend» — o'tmishdagi xato → wish + Past Perfect: hadn't spent."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi shakl mos keladi?",
+              "data": {
+                "text": "I wish my neighbours ___ making noise at night.",
+                "options": ["would stop", "stopped to", "will stop", "have stopped"]
+              },
+              "answer": { "value": "would stop" },
+              "explanationUz": "Boshqalarning bezovta qiladigan odati → wish + would: I wish they would stop..."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«I wish I had studied abroad» gapi o'tmishdagi afsusni bildiradi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. wish + Past Perfect (had studied) — o'tmishda qilinmagan ishdan afsuslanish."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Qolipni ma'nosiga bog'lang:",
+              "data": {
+                "left": ["wish + Past Simple", "wish + Past Perfect", "wish + would", "If only + Past Simple"],
+                "right": ["boshqalarning odatidan shikoyat", "hozirgi holatdan afsuslanish", "hozirgi holatdan kuchliroq afsus", "o'tmishdagi xatodan afsuslanish"]
+              },
+              "answer": {
+                "pairs": {
+                  "wish + Past Simple": "hozirgi holatdan afsuslanish",
+                  "wish + Past Perfect": "o'tmishdagi xatodan afsuslanish",
+                  "wish + would": "boshqalarning odatidan shikoyat",
+                  "If only + Past Simple": "hozirgi holatdan kuchliroq afsus"
+                }
+              },
+              "explanationUz": "If only — wish bilan bir xil grammatika, faqat his-tuyg'u kuchliroq."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni to'g'ri shaklda qo'ying:",
+              "data": { "text": "If only I ___ (know) about the meeting yesterday!" },
+              "answer": { "accept": ["had known"] },
+              "explanationUz": "«Yesterday» — o'tmish → If only + Past Perfect: had known."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "Parafraz qiling. «I'm sorry I didn't listen to your advice.» gapini wish bilan qayta yozing (I wish ... bilan boshlang):",
+              "data": { "text": "I'm sorry I didn't listen to your advice. → I wish ..." },
+              "answer": { "accept": ["I wish I had listened to your advice", "I wish I had listened to your advice.", "I wish I'd listened to your advice", "I wish I'd listened to your advice."] },
+              "explanationUz": "O'tmishdagi afsus: wish + Past Perfect. Inkor gap ijobiyga aylanadi: didn't listen → had listened."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "advanced-structures",
+      "titleUz": "Murakkab konstruksiyalar",
+      "titleEn": "Advanced structures",
+      "descriptionUz": "Ilg'or passiv, boy reporting fe'llar, nisbiy ergash gaplar va inversiya — yozma va og'zaki nutqni B2-C1 darajasiga ko'taradigan qoliplar.",
+      "order": 1,
+      "lessons": [
+        {
+          "slug": "advanced-passive",
+          "titleUz": "Murakkab passiv: have something done, It is said that...",
+          "titleEn": "Advanced passive: have something done, It is said that...",
+          "skill": "GRAMMAR",
+          "level": "B2",
+          "order": 0,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Xizmatdan foydalanishni have/get something done qolipida ifodalash",
+            "It is said that... / He is believed to... kabi shaxssiz passiv konstruksiyalarni qo'llash",
+            "O'tmishdagi ish uchun perfect infinitive (to have done) bilan passiv yasash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "have something done: xizmatdan foydalanish",
+              "bodyUz": "Ishni O'ZIMIZ emas, boshqa birov (usta, sartarosh, tikuvchi) biz uchun bajarsa: **have + obyekt + V3**:\n\n*I **had my hair cut** yesterday.* — Kecha sochimni oldirdim (sartaroshda).\n\n*We're **having our flat renovated** at the moment.* — Hozir kvartiramizni ta'mirlatyapmiz.\n\nNorasmiy uslubda *have* o'rniga *get* keladi: *I need to **get my laptop repaired**.* — Noutbukimni tuzattirishim kerak.\n\nSolishtiring: *I cut my hair* (o'zim oldim) va *I had my hair cut* (oldirdim — boshqa odam oldi). Ma'no butunlay boshqacha!"
+            },
+            {
+              "type": "example",
+              "titleUz": "have/get something done misollari",
+              "items": [
+                { "en": "She has her nails done every month.", "uz": "U har oy manikyur qildiradi." },
+                { "en": "They had the roof repaired after the storm.", "uz": "Bo'rondan keyin ular tomni tuzattirishdi." },
+                { "en": "Where do you have your suits made?", "uz": "Kostyumlaringizni qayerda tiktirasiz?" },
+                { "en": "I must get my eyes tested — I keep getting headaches.", "uz": "Ko'zimni tekshirtirishim kerak — boshim tez-tez og'riyapti." },
+                { "en": "He had his phone stolen on the metro.", "uz": "Metroda telefonini o'g'irlatib qo'ydi (yoqimsiz hodisalar ham shu qolipda beriladi)." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "It is said that... / He is believed to...: shaxssiz passiv",
+              "bodyUz": "Rasmiy va akademik uslubda manbasi umumiy bo'lgan fikrlar ikki qolipda beriladi:\n\n**1) It + passiv + that...**: *People say that the water is polluted.* → ***It is said that** the water is polluted.* — Aytishlaricha, suv ifloslangan.\n\n**2) Ega + passiv + to V**: *The water **is said to be** polluted.* — xuddi shu ma'no, lekin gap suvdan boshlanadi.\n\nO'tmishdagi ish uchun **perfect infinitive (to have + V3)** ishlatiladi: *He **is believed to have left** the country in 2020.* — U 2020-yilda mamlakatni tark etgan deb hisoblanadi.\n\nShu qolipda keladigan fe'llar: *say, think, believe, know, expect, report, consider*."
+            },
+            {
+              "type": "table",
+              "titleUz": "Uch bosqichli transformatsiya",
+              "headers": ["Oddiy gap", "It + passiv", "Ega + passiv + to V"],
+              "rows": [
+                ["People think he is rich.", "It is thought that he is rich.", "He is thought to be rich."],
+                ["People say she lives in Dubai.", "It is said that she lives in Dubai.", "She is said to live in Dubai."],
+                ["People believe he stole the money.", "It is believed that he stole the money.", "He is believed to have stolen the money."],
+                ["People expect prices will rise.", "It is expected that prices will rise.", "Prices are expected to rise."]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: Reading'dagi yangilik uslubidagi matnlarda *is reported to / is believed to* qoliplari ko'p uchraydi — bular «tasdiqlanmagan ma'lumot» belgisi, True/False/Not Given savollarida ehtiyot bo'ling. Writing Task 2 da esa *It is often argued that...* bilan boshlangan kirish gapi rasmiy uslub balini oshiradi. have something done esa Speaking'da kundalik xizmatlar haqidagi savollarda (Where do you get your hair cut?) tabiiy javob beradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "They ___ last month, so it looks brand new.",
+                "options": ["had their house painted", "had painted their house", "have their house paint", "painted their house had"]
+              },
+              "answer": { "value": "had their house painted" },
+              "explanationUz": "have/had + obyekt + V3 — xizmat qolipi: uyni O'ZLARI emas, ustalar bo'yagan. «Had painted their house» esa o'zlari bo'yaganini bildirardi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni bitta so'z bilan to'ldiring:",
+              "data": { "text": "She is going to ___ her dress made by a professional tailor." },
+              "answer": { "accept": ["have", "get"] },
+              "explanationUz": "have/get + obyekt (her dress) + V3 (made) — ko'ylakni tiktiradi. Ikkala fe'l ham to'g'ri, get — norasmiyroq."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi shakl mos keladi?",
+              "data": {
+                "text": "It ___ that the company will move its office to Samarkand.",
+                "options": ["is expected", "expects", "is expecting", "expected"]
+              },
+              "answer": { "value": "is expected" },
+              "explanationUz": "Shaxssiz passiv qolip: It is expected that... — ...kutilmoqda. Ega «it» rasmiy, harakat manbasi umumiy."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Gapni passiv qolipda qayta tuzing (uchta so'z + V1):",
+              "data": { "text": "People say that he is the richest man in the region. → He ___ the richest man in the region." },
+              "answer": { "accept": ["is said to be"] },
+              "explanationUz": "Ega + passiv + to-infinitive: He is said to be... — U ... deb aytiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«I cut my hair» va «I had my hair cut» gaplari bir xil ma'noni bildiradi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. «I cut my hair» — sochimni O'ZIM oldim; «I had my hair cut» — sochimni OLDIRDIM (sartarosh oldi)."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Oddiy gapni passiv muqobiliga bog'lang:",
+              "data": {
+                "left": ["People think she lives abroad.", "Everyone knows he wrote the letter.", "They expect prices to rise.", "People say the castle is haunted."],
+                "right": ["Prices are expected to rise.", "The castle is said to be haunted.", "She is thought to live abroad.", "He is known to have written the letter."]
+              },
+              "answer": {
+                "pairs": {
+                  "People think she lives abroad.": "She is thought to live abroad.",
+                  "Everyone knows he wrote the letter.": "He is known to have written the letter.",
+                  "They expect prices to rise.": "Prices are expected to rise.",
+                  "People say the castle is haunted.": "The castle is said to be haunted."
+                }
+              },
+              "explanationUz": "Hozirgi ish → to + V1 (to live, to be); o'tmishdagi ish → perfect infinitive (to have written)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi fe'lni perfect infinitive shaklida qo'ying:",
+              "data": { "text": "The politician is believed ___ (leave) the country secretly last year." },
+              "answer": { "accept": ["to have left"] },
+              "explanationUz": "«Last year» — o'tmishdagi ish, shuning uchun perfect infinitive: is believed to have left."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtirib gap tuzing:",
+              "data": { "items": ["is", "The bridge", "to", "said", "be", "unsafe"] },
+              "answer": { "order": ["The bridge", "is", "said", "to", "be", "unsafe"] },
+              "explanationUz": "Ega + is said + to be + sifat: The bridge is said to be unsafe. — Ko'prik xavfli deb aytiladi."
+            }
+          ]
+        },
+        {
+          "slug": "reported-speech-advanced",
+          "titleUz": "Bilvosita nutq: suggest, admit, deny va boshqa fe'llar",
+          "titleEn": "Advanced reported speech: suggest, admit, deny + patterns",
+          "skill": "GRAMMAR",
+          "level": "B2",
+          "order": 1,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Reporting fe'llarning to'rt asosiy grammatik qolipini farqlash",
+            "suggest/admit/deny + V-ing, promise/refuse + to V, warn/advise + shaxs + to V qoliplarini qo'llash",
+            "say/tell o'rniga gapiruvchining maqsadini aniq beradigan fe'l tanlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega say/tell yetarli emas?",
+              "bodyUz": "«He said sorry», «She said yes» kabi gaplar — B1 darajasi. B2 da gapiruvchining MAQSADINI bitta aniq fe'l bilan yetkazasiz:\n\n*«I'm so sorry I'm late.»* → *He **apologised** for being late.* — U kechikkani uchun uzr so'radi.\n\n*«OK, I'll pay for the damage.»* → *He **agreed to pay** for the damage.* — U zararni to'lashga rozi bo'ldi.\n\nBunday fe'llar Listening'da («gapiruvchining maqsadi nima?» tipidagi savollar) va Writing'da yuqori baholanadi. Lekin har bir fe'lning O'Z QOLIPI bor — ularni aniq bilish shart."
+            },
+            {
+              "type": "table",
+              "titleUz": "To'rt asosiy qolip",
+              "headers": ["Qolip", "Fe'llar", "Misol"],
+              "rows": [
+                ["fe'l + V-ing", "suggest, admit, deny, recommend", "He denied breaking the window."],
+                ["fe'l + to V", "offer, promise, refuse, agree, threaten", "She refused to sign the contract."],
+                ["fe'l + shaxs + to V", "advise, warn, remind, encourage, persuade", "The doctor advised me to rest."],
+                ["fe'l + that ...", "explain, complain, insist, admit", "He explained that the train had been delayed."]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "To'g'ridan-to'g'ri nutqdan bilvositaga",
+              "items": [
+                { "en": "«Let's order pizza tonight.» → She suggested ordering pizza that night.", "uz": "«Bugun kechqurun pitsa buyuraylik.» → U o'sha kecha pitsa buyurishni taklif qildi." },
+                { "en": "«It was me. I took your pen.» → He admitted taking my pen.", "uz": "«Bu men edim. Ruchkangni men olgandim.» → U ruchkamni olganini tan oldi." },
+                { "en": "«I never touched your laptop!» → She denied touching my laptop.", "uz": "«Noutbukingga umuman tegmadim!» → U noutbukimga tekkanini inkor etdi." },
+                { "en": "«Don't forget to book the tickets.» → He reminded me to book the tickets.", "uz": "«Chipta band qilishni unutma.» → U menga chipta band qilishni eslatdi." },
+                { "en": "«If you touch that dog, it will bite you.» → She warned me not to touch the dog.", "uz": "«O'sha itga tegsang, tishlaydi.» → U meni itga tegmaslikka ogohlantirdi." },
+                { "en": "«I'll call the police if you don't leave.» → He threatened to call the police.", "uz": "«Ketmasang, politsiya chaqiraman.» → U politsiya chaqirish bilan qo'rqitdi." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "suggest — eng xavfli fe'l",
+              "bodyUz": "*suggest* hech qachon **suggest to do** yoki **suggest somebody to do** shaklida kelMAYDI. To'g'ri variantlar faqat ikkita:\n\n1. *She suggested **going** to the museum.* — U muzeyga borishni taklif qildi.\n2. *She suggested **that we (should) go** to the museum.* — U muzeyga borishimizni taklif qildi.\n\n*recommend* ham xuddi shunday ishlaydi. Multilevel grammatika bo'limida *suggest* bilan tuzoq-savol deyarli har doim bor — «suggested me to go» ko'rinishidagi variant HAR DOIM xato."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: Listening'da «What does the man suggest?» tipidagi savollar funksiyani so'raydi — audioda *Why don't we...? / How about...? / We could...* eshitsangiz, bu SUGGESTION. Javob variantlarida xuddi shu fikr parafraz qilinadi. Grammatikada esa reporting fe'l savolida ma'no emas, QOLIP tekshiriladi: avval fe'ldan keyin V-ing, to V yoki shaxs + to V kelishini eslang, keyin javob tanlang."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "«I didn't break the window,» said Tom. → Tom ___ the window.",
+                "options": ["denied breaking", "denied to break", "refused breaking", "admitted breaking"]
+              },
+              "answer": { "value": "denied breaking" },
+              "explanationUz": "Inkor qilish = deny, qolipi esa deny + V-ing: denied breaking. «Admitted breaking» ma'noga zid (tan olish), «denied to break» — noto'g'ri qolip."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi shakl to'g'ri?",
+              "data": {
+                "text": "«Why don't we go by train?» → She suggested ___ by train.",
+                "options": ["going", "to go", "us to go", "that go"]
+              },
+              "answer": { "value": "going" },
+              "explanationUz": "suggest + V-ing: suggested going. «Suggest to go» va «suggest us to go» — mavjud bo'lmagan qoliplar."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Mos reporting fe'lni yozing:",
+              "data": { "text": "«I'll definitely return the book tomorrow.» → He ___ to return the book the next day." },
+              "answer": { "accept": ["promised"] },
+              "explanationUz": "Qat'iy va'da (I'll definitely...) = promise + to V: promised to return."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Mos reporting fe'lni yozing:",
+              "data": { "text": "«Don't touch the wire — it's dangerous!» → The electrician ___ us not to touch the wire." },
+              "answer": { "accept": ["warned"] },
+              "explanationUz": "Xavfdan ogohlantirish = warn + shaxs + (not) to V: warned us not to touch."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Gapni mos reporting fe'lga bog'lang:",
+              "data": {
+                "left": ["«I'm really sorry I'm late.»", "«Yes, it was me who ate the cake.»", "«You should see a doctor, Aziz.»", "«I won't sign this contract.»"],
+                "right": ["advised", "refused", "apologised", "admitted"]
+              },
+              "answer": {
+                "pairs": {
+                  "«I'm really sorry I'm late.»": "apologised",
+                  "«Yes, it was me who ate the cake.»": "admitted",
+                  "«You should see a doctor, Aziz.»": "advised",
+                  "«I won't sign this contract.»": "refused"
+                }
+              },
+              "explanationUz": "Uzr → apologise, tan olish → admit, maslahat → advise, rad etish → refuse."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«She suggested me to buy the tickets» — grammatik jihatdan to'g'ri gap." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. suggest + shaxs + to V qolipi mavjud emas. To'g'risi: She suggested buying the tickets yoki She suggested that I (should) buy the tickets."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi fe'llardan keyin V-ing keladi? (bir nechta javob)",
+              "data": { "options": ["suggest", "deny", "refuse", "admit", "promise"] },
+              "answer": { "values": ["suggest", "deny", "admit"] },
+              "explanationUz": "suggest/deny/admit + V-ing; refuse va promise esa + to V oladi (refused to go, promised to help)."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtirib gap tuzing:",
+              "data": { "items": ["stealing", "admitted", "the money", "The manager"] },
+              "answer": { "order": ["The manager", "admitted", "stealing", "the money"] },
+              "explanationUz": "Ega + admit + V-ing + to'ldiruvchi: The manager admitted stealing the money."
+            }
+          ]
+        },
+        {
+          "slug": "relative-clauses-advanced",
+          "titleUz": "Nisbiy ergash gaplar: defining va non-defining, whose/whom",
+          "titleEn": "Advanced relative clauses: defining vs non-defining, whose/whom",
+          "skill": "GRAMMAR",
+          "level": "B2",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Defining va non-defining relative clause farqini vergul orqali ko'rsatish",
+            "whose, whom, where, when olmoshlarini to'g'ri tanlash",
+            "Qaysi holatlarda that ishlatib bo'lmasligini aniq bilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Defining: qaysi biri ekanini aniqlaydi",
+              "bodyUz": "**Defining relative clause** — gapdan olib tashlab BO'LMAYDIGAN, ma'noni aniqlab beradigan qism. Vergul QO'YILMAYDI:\n\n*The woman **who lives next door** is a doctor.* — Yonimizda yashaydigan ayol — shifokor. (Qaysi ayol? — yonimizda yashaydigani. Bu ma'lumotsiz gap tushunarsiz.)\n\nBu turda *who/which* o'rniga **that** ishlatish mumkin: *The book **that** you lent me is fascinating.* Olmosh to'ldiruvchi vazifasida bo'lsa, uni tushirish ham mumkin: *The book you lent me is fascinating.*"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Non-defining: qo'shimcha ma'lumot",
+              "bodyUz": "**Non-defining relative clause** — QO'SHIMCHA ma'lumot; olib tashlansa ham gap ma'nosi saqlanadi. Ikki tomondan VERGUL bilan ajratiladi:\n\n*My father, **who is 62**, still plays tennis.* — Otam, 62 yoshda bo'lishiga qaramay, hali ham tennis o'ynaydi.\n\nMuhim qoidalar:\n1. Bu turda **that ishlatib bo'lmaydi** (*My father, that is 62,...* — xato).\n2. Olmoshni tushirib ham bo'lmaydi.\n3. **which** butun gapga ishora qilishi mumkin: *He passed the exam with a high score, **which** surprised everyone.* — U imtihondan yuqori ball bilan o'tdi, bu hammani hayratda qoldirdi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "whose, whom, where, when",
+              "bodyUz": "**whose** — egalik (kimning/nimaning): *That's the artist **whose** paintings sold for a million dollars.* — Rasmlari million dollarga sotilgan rassom shu.\n\n**whom** — rasmiy uslubda to'ldiruvchi vazifasidagi shaxs, ayniqsa predlogdan keyin: *The candidate **to whom** you spoke has been hired.* — Siz gaplashgan nomzod ishga olindi.\n\n**where** — joy: *the city **where** I was born*; **when** — vaqt: *the day **when** we met*.\n\nRasmiy yozuvda predlog + which ham ishlatiladi: *the house **in which** he grew up* = *the house where he grew up*."
+            },
+            {
+              "type": "table",
+              "titleUz": "Olmosh tanlash jadvali",
+              "headers": ["Olmosh", "Nimaga ishora qiladi", "Defining'da that bilan almashadimi?", "Misol"],
+              "rows": [
+                ["who", "shaxs (ega)", "ha", "the student who won the contest"],
+                ["which", "narsa, hayvon", "ha", "the app which keeps crashing"],
+                ["whose", "egalik", "yo'q, o'zi qoladi", "the writer whose novel won the prize"],
+                ["whom", "shaxs (to'ldiruvchi, rasmiy)", "norasmiyda that/who", "the man whom we interviewed"],
+                ["where", "joy", "yo'q", "the café where we first met"],
+                ["when", "vaqt", "tushirish mumkin", "the year when I graduated"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: vergulga qarang! Bo'sh joydan OLDIN vergul tursa, javob hech qachon *that* bo'lmaydi. Reading'da non-defining clause (ikki vergul orasidagi qism) ko'pincha detail-savollarning javobini yashiradi — matndan sana, yosh yoki lavozim so'ralsa, avval vergullar orasini tekshiring. Writing'da esa bitta o'rinli non-defining clause gapingizni darhol B2 darajasiga ko'taradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri olmoshni tanlang:",
+              "data": {
+                "text": "My uncle, ___ lives in Bukhara, is a well-known surgeon.",
+                "options": ["who", "that", "which", "whom"]
+              },
+              "answer": { "value": "who" },
+              "explanationUz": "Vergullar — non-defining clause belgisi, unda «that» ishlatilmaydi. Shaxs + ega vazifasi → who."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri olmoshni tanlang:",
+              "data": {
+                "text": "The writer ___ novel won the international prize will visit our university.",
+                "options": ["whose", "who", "which", "whom"]
+              },
+              "answer": { "value": "whose" },
+              "explanationUz": "Egalik ma'nosi: yozuvchining romani → whose novel (kimning romani)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni mos olmosh bilan to'ldiring:",
+              "data": { "text": "The hotel ___ we stayed last summer has closed down." },
+              "answer": { "accept": ["where", "in which", "at which"] },
+              "explanationUz": "Joy ma'nosi (mehmonxonaDA turdik) → where yoki rasmiy in/at which. Oddiy which ishlatilsa, predlog kerak bo'lardi: which we stayed AT."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Non-defining relative clause'da «that» olmoshini ishlatish mumkin emas." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Vergul bilan ajratilgan qo'shimcha ma'lumotda faqat who/which/whose ishlatiladi, that — taqiqlangan."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi olmosh butun gapga ishora qiladi?",
+              "data": {
+                "text": "He failed the driving test three times, ___ surprised nobody.",
+                "options": ["which", "that", "what", "who"]
+              },
+              "answer": { "value": "which" },
+              "explanationUz": "Faqat «which» oldingi butun gapga (uch marta yiqilgani faktiga) ishora qila oladi. Bu har doim non-defining, vergul bilan."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Olmoshni vazifasiga bog'lang:",
+              "data": {
+                "left": ["whose", "whom", "where", "when"],
+                "right": ["joyni bildiradi", "egalikni bildiradi (kimning)", "vaqtni bildiradi", "predlogdan keyin keladigan shaxs (rasmiy)"]
+              },
+              "answer": {
+                "pairs": {
+                  "whose": "egalikni bildiradi (kimning)",
+                  "whom": "predlogdan keyin keladigan shaxs (rasmiy)",
+                  "where": "joyni bildiradi",
+                  "when": "vaqtni bildiradi"
+                }
+              },
+              "explanationUz": "whose = egalik, whom = rasmiy to'ldiruvchi (to whom, with whom), where = joy, when = vaqt."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gapda tinish belgilari TO'G'RI qo'yilgan?",
+              "data": {
+                "options": [
+                  "Tashkent, which is the capital of Uzbekistan, has over three million people.",
+                  "Tashkent which is the capital of Uzbekistan has over three million people.",
+                  "Tashkent, that is the capital of Uzbekistan, has over three million people.",
+                  "Tashkent which, is the capital of Uzbekistan, has over three million people."
+                ]
+              },
+              "answer": { "value": "Tashkent, which is the capital of Uzbekistan, has over three million people." },
+              "explanationUz": "Toshkent — yagona aniq shahar, ma'lumot qo'shimcha → non-defining: ikki tomondan vergul, «which» bilan (that emas)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Rasmiy uslubdagi savolni to'ldiring:",
+              "data": { "text": "To ___ should I address this letter of complaint?" },
+              "answer": { "accept": ["whom"] },
+              "explanationUz": "Predlogdan keyin (to, with, for) faqat whom keladi: To whom should I address...? — rasmiy uslub."
+            }
+          ]
+        },
+        {
+          "slug": "inversion-basics",
+          "titleUz": "Inversiya asoslari: Not only..., Hardly... when",
+          "titleEn": "Inversion basics: Not only..., Hardly... when",
+          "skill": "GRAMMAR",
+          "level": "B2",
+          "order": 3,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Inversiya nima ekanini va u gapga qanday urg'u berishini tushunish",
+            "Not only ... but also, Never, Rarely bilan inversiya yasash",
+            "Hardly ... when va No sooner ... than qoliplarini adashtirmasdan qo'llash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Inversiya nima va nega kerak?",
+              "bodyUz": "Inversiya — urg'u berish uchun gap boshiga inkor yoki cheklovchi ibora chiqarilib, so'ng SAVOL TARTIBI (yordamchi fe'l + ega) ishlatilishi:\n\n*I have never seen such a crowd.* → ***Never have I seen** such a crowd.* — Bunday olomonni hech qachon ko'rmaganman.\n\nBu rasmiy va ta'sirchan uslub: nutqlar, esselar, adabiy matnlar. Writing Task 2 da o'rinli ishlatilgan bitta inversiya grammatik diapazon (grammatical range) balini sezilarli oshiradi.\n\nYodda tuting: oddiy zamonlarda (Present/Past Simple) yordamchi **do/does/did** qo'shiladi: *Rarely **does he** admit his mistakes.* — U xatolarini kamdan-kam tan oladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Asosiy inversiya qoliplari",
+              "headers": ["Qolip", "Misol", "Tarjima"],
+              "rows": [
+                ["Never + yordamchi + ega", "Never have I tasted such good plov.", "Bunchalik mazali oshni hech qachon yemaganman."],
+                ["Not only ... but (also)", "Not only does she sing, but she also writes songs.", "U nafaqat kuylaydi, balki qo'shiq ham yozadi."],
+                ["Hardly ... when", "Hardly had I sat down when the doorbell rang.", "O'tirishim bilanoq eshik qo'ng'irog'i jiringladi."],
+                ["No sooner ... than", "No sooner had we left than it started to snow.", "Chiqishimiz bilanoq qor yog'a boshladi."],
+                ["Rarely / Seldom", "Rarely do we see such dedication.", "Bunday fidoyilikni kamdan-kam ko'ramiz."],
+                ["Under no circumstances", "Under no circumstances should you open this door.", "Hech qanday holatda bu eshikni ochmang."]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Oddiy gap → inversiya",
+              "items": [
+                { "en": "I had hardly finished speaking when he interrupted. → Hardly had I finished speaking when he interrupted.", "uz": "Gapimni tugatishim bilanoq u so'zimni bo'ldi." },
+                { "en": "She not only passed the exam but also got the highest score. → Not only did she pass the exam, but she also got the highest score.", "uz": "U nafaqat imtihondan o'tdi, balki eng yuqori ball ham oldi." },
+                { "en": "We had no sooner arrived than the show began. → No sooner had we arrived than the show began.", "uz": "Yetib kelishimiz bilanoq tomosha boshlandi." },
+                { "en": "You should never sign a contract without reading it. → Never should you sign a contract without reading it.", "uz": "Shartnomani o'qimasdan hech qachon imzolamang." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Eng ko'p uchraydigan xatolar",
+              "bodyUz": "1. **Yordamchi fe'lni unutish**: *Never I have seen...* — xato. To'g'ri: *Never **have I** seen...*\n\n2. **Juftlikni adashtirish**: *Hardly* doim **when** bilan, *No sooner* doim **than** bilan keladi: *Hardly had I arrived **when**... / No sooner had I arrived **than**...*\n\n3. **Not only'dan keyin tartib**: inversiya faqat BIRINCHI qismda bo'ladi: *Not only **did he** apologise, but he **also sent** flowers.* — ikkinchi qismda oddiy tartib qoladi.\n\n4. Hardly/No sooner qoliplarida deyarli har doim **Past Perfect** ishlatiladi (*Hardly **had** I...*), chunki ikki voqea ketma-ket keladi."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: grammatika bo'limida gap Not only / Hardly / No sooner / Never bilan boshlansa, undan keyin ALBATTA yordamchi fe'l + ega tartibi kelishini tekshiring — variantlardan aynan shu tartibdagisini tanlang. Writing'da esseda 1-2 tadan ko'p inversiya ishlatmang: me'yorida — mahorat, ko'p bo'lsa — sun'iylik. Eng xavfsiz tanlov: xulosada *Not only ... but also* bilan ikkita asosiy dalilingizni birlashtirish."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": {
+                "text": "Not only ___ the piano, but she also composes music.",
+                "options": ["does she play", "she plays", "plays she", "she does play"]
+              },
+              "answer": { "value": "does she play" },
+              "explanationUz": "Not only gap boshida → inversiya: yordamchi (does) + ega (she) + fe'l (play). Present Simple'da do/does qo'shiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni ikki so'z bilan to'ldiring (yordamchi fe'l + ega):",
+              "data": { "text": "Hardly ___ closed my eyes when the phone rang." },
+              "answer": { "accept": ["had I"] },
+              "explanationUz": "Hardly + Past Perfect inversiyasi: Hardly had I closed my eyes when... — Ko'zimni yumishim bilanoq..."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi bog'lovchi mos keladi?",
+              "data": {
+                "text": "No sooner had we started the picnic ___ it began to rain.",
+                "options": ["than", "when", "that", "then"]
+              },
+              "answer": { "value": "than" },
+              "explanationUz": "Juftliklar qat'iy: No sooner ... THAN, Hardly ... WHEN. Ularni almashtirish — imtihondagi klassik tuzoq."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Inversiyada yordamchi fe'l egadan OLDIN keladi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Inversiya — savol tartibining darak gapda ishlatilishi: Never HAVE I seen... (have — yordamchi, I — ega)."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtirib gap tuzing:",
+              "data": { "items": ["have", "such a beautiful", "Never", "I", "seen", "sunset"] },
+              "answer": { "order": ["Never", "have", "I", "seen", "such a beautiful", "sunset"] },
+              "explanationUz": "Never + yordamchi + ega + V3: Never have I seen such a beautiful sunset."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi so'z gapni to'g'ri boshlaydi?",
+              "data": {
+                "text": "___ do students realise how quickly exam time passes.",
+                "options": ["Rarely", "Always", "Often", "Usually"]
+              },
+              "answer": { "value": "Rarely" },
+              "explanationUz": "Inversiya (do students realise) faqat inkor/cheklovchi ravishlardan keyin keladi: Rarely, Seldom, Never. «Always/Often» bilan inversiya bo'lmaydi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "Gapni «Never» bilan boshlab, inversiya bilan qayta yozing:",
+              "data": { "text": "I have never eaten such delicious plov. → Never ..." },
+              "answer": { "accept": ["Never have I eaten such delicious plov", "Never have I eaten such delicious plov."] },
+              "explanationUz": "Never gap boshiga chiqdi → yordamchi fe'l (have) ega (I) dan oldin keladi: Never have I eaten..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "exam-skills-b2",
+      "titleUz": "B2 imtihon ko'nikmalari",
+      "titleEn": "B2 exam skills",
+      "descriptionUz": "Multilevel imtihonining o'zi uchun: Reading strategiyalari, Listening signal so'zlari, essay tuzilishi va formal so'z boyligi.",
+      "order": 2,
+      "lessons": [
+        {
+          "slug": "reading-skimming-scanning",
+          "titleUz": "Reading: skimming va scanning strategiyalari",
+          "titleEn": "Reading: skimming & scanning strategies",
+          "skill": "READING",
+          "level": "B2",
+          "order": 0,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Skimming orqali matnning umumiy g'oyasini 1-2 daqiqada aniqlash",
+            "Scanning orqali sanalar, ismlar va raqamlarni tez topish",
+            "Multilevel Reading bo'limida vaqtni to'g'ri taqsimlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Skimming: 90 soniyada umumiy g'oya",
+              "bodyUz": "**Skimming** — matnning har bir so'zini o'qimasdan, UMUMIY G'OYANI ilg'ash texnikasi. Qanday qilinadi:\n\n1. **Sarlavha**ni o'qing — mavzuni beradi.\n2. **Birinchi xatboshi**ni to'liq o'qing — asosiy g'oya odatda shu yerda.\n3. Har xatboshining **birinchi (topic) gapini** o'qing.\n4. **Oxirgi xatboshi**ga ko'z tashlang — xulosa.\n\nMaqsad: 90-120 soniyada «Bu matn nima haqida? Muallifning pozitsiyasi qanday?» savollariga javob topish. «Main idea / best title / writer's purpose» savollari aynan skimming bilan yechiladi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Scanning: aniq faktni ov qilish",
+              "bodyUz": "**Scanning** — matndan ANIQ MA'LUMOTNI (sana, ism, raqam, atama) tez topish. Qanday qilinadi:\n\n1. Avval SAVOLNI o'qing va kalit so'zni belgilang (masalan: *2030, Navoi, 25%*).\n2. Matnni o'qimang — ko'zingizni matn bo'ylab yurgizib, faqat shu kalit so'zni (yoki uning parafrazini) izlang. Raqamlar va bosh harfli so'zlar ko'zga tez tashlanadi.\n3. Kalit so'z topilgach, o'sha gapni va yonidagi 1-2 gapni DIQQAT bilan o'qing — javob shu yerda.\n\n«What year...? How many...? Who...? Where...?» savollari — scanning savollari."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Mashq matni: Solar Power in Uzbekistan",
+              "bodyUz": "Quyidagi matn ustida ishlaymiz. Avval 90 soniya SKIMMING qiling (sarlavha + har xatboshining birinchi gapi), so'ng mashqlardagi savollarga scanning bilan javob toping.\n\n*Uzbekistan, a country blessed with more than 300 sunny days a year, is rapidly becoming one of Central Asia's leaders in solar energy. In 2021, the country opened its first large-scale solar plant in the Navoi region, capable of producing 100 megawatts of electricity. Since then, the government has signed agreements with international companies to build additional plants in Samarkand, Jizzakh and Surkhandarya. Officials hope that by 2030, renewable sources will provide 25 per cent of the country's electricity.*\n\n*There are several reasons for this ambitious plan. First, demand for electricity is growing by around seven per cent every year as the population and the economy expand. Second, natural gas, which currently generates most of the country's power, is increasingly needed for export and for industry. Finally, solar power has become dramatically cheaper: the cost of panels has fallen by almost 90 per cent since 2010.*\n\n*However, experts warn that challenges remain. The national grid, much of which was built in the Soviet era, requires modernisation before it can handle large amounts of renewable energy. In addition, the country will need thousands of trained engineers to install and maintain the new technology.*"
+            },
+            {
+              "type": "table",
+              "titleUz": "Skimming vs Scanning",
+              "headers": ["Mezon", "Skimming", "Scanning"],
+              "rows": [
+                ["Maqsad", "umumiy g'oyani aniqlash", "aniq faktni topish"],
+                ["Nima o'qiladi", "sarlavha va topic gaplar", "faqat kalit so'z atrofidagi 1-2 gap"],
+                ["Tezlik", "90-120 soniya / butun matn", "10-20 soniya / bitta savol"],
+                ["Savol turi", "main idea, best title, purpose", "sana, raqam, ism, joy"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: Multilevel Reading'da vaqt — eng katta dushman. Har bir matnga formulani qo'llang: 1) 90 soniya skimming; 2) savollarni o'qib, turini aniqlang (umumiy g'oyami yoki faktmi); 3) fakt-savollarni scanning bilan yeching; 4) bitta qiyin savolga 60 soniyadan ko'p sarflamang — belgilab qo'yib, keyingisiga o'ting. Hech qachon javobni bo'sh qoldirmang: noto'g'ri javob uchun ball KESILMAYDI."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "SKIMMING: matnning asosiy g'oyasi qaysi?",
+              "data": {
+                "options": [
+                  "Uzbekistan is developing solar energy but still faces some challenges.",
+                  "Uzbekistan has stopped exporting natural gas.",
+                  "Solar panels are too expensive for Central Asian countries.",
+                  "The Soviet-era grid works perfectly for renewable energy."
+                ]
+              },
+              "answer": { "value": "Uzbekistan is developing solar energy but still faces some challenges." },
+              "explanationUz": "Birinchi xatboshi — rivojlanish, oxirgi xatboshi (However...) — muammolar. Skimming shu ikki qismdan asosiy g'oyani beradi. Qolgan variantlar matnga zid."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "READING",
+              "promptUz": "SCANNING: Birinchi yirik quyosh elektr stansiyasi qaysi viloyatda ochilgan? (matndan toping)",
+              "data": { "text": "In which region was the first large-scale solar plant opened?" },
+              "answer": { "accept": ["Navoi", "Navoiy", "the Navoi region", "Navoi region", "in the Navoi region"] },
+              "explanationUz": "Kalit so'z: «first large-scale solar plant» → matnda «in the Navoi region» deb berilgan. Bosh harfli so'zlar scanning'da tez topiladi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "READING",
+              "promptUz": "SCANNING: 2030-yilga borib elektr energiyaning necha foizini qayta tiklanuvchi manbalar berishi kutilmoqda?",
+              "data": { "text": "By 2030, what percentage of electricity is expected to come from renewable sources?" },
+              "answer": { "accept": ["25", "25%", "25 per cent", "25 percent", "twenty-five per cent"] },
+              "explanationUz": "Kalit so'z: «2030» raqami. U turgan gapda javob ham bor: «...by 2030, renewable sources will provide 25 per cent...»"
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "READING",
+              "promptUz": "Matnga ko'ra to'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Quyosh panellari narxi 2010-yildan beri deyarli 90 foizga arzonlashgan." },
+              "answer": { "value": "true" },
+              "explanationUz": "Matn: «the cost of panels has fallen by almost 90 per cent since 2010» — aynan shu fakt. Scanning kaliti: 90 va 2010 raqamlari."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "READING",
+              "promptUz": "Matnga ko'ra to'g'ri yoki noto'g'ri?",
+              "data": { "statement": "O'zbekistonda elektr energiyaga talab yiliga 25 foizga o'smoqda." },
+              "answer": { "value": "false" },
+              "explanationUz": "Tuzoq! 25% — 2030-yilgi maqsad, talab esa yiliga «around seven per cent» o'smoqda. Raqamlarni adashtirish — imtihonning sevimli tuzog'i."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Matnda tilga olingan muammolardan biri qaysi?",
+              "data": {
+                "options": [
+                  "Elektr tarmog'i eskirgan va modernizatsiya talab qiladi",
+                  "Quyoshli kunlar soni kamayib bormoqda",
+                  "Aholi soni qisqarmoqda",
+                  "Panellar narxi keskin oshmoqda"
+                ]
+              },
+              "answer": { "value": "Elektr tarmog'i eskirgan va modernizatsiya talab qiladi" },
+              "explanationUz": "Oxirgi xatboshi (However signalidan keyin): «The national grid... requires modernisation». Muammolar deyarli har doim However/Although'dan keyin keladi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "READING",
+              "promptUz": "Strategiya elementini ta'rifiga bog'lang:",
+              "data": {
+                "left": ["Skimming maqsadi", "Scanning maqsadi", "Skimmingda nima o'qiladi", "Scanningda nima qidiriladi"],
+                "right": ["aniq faktni (sana, ism, raqam) topish", "umumiy g'oyani aniqlash", "raqamlar, ismlar, sanalar", "sarlavha va har xatboshining birinchi gapi"]
+              },
+              "answer": {
+                "pairs": {
+                  "Skimming maqsadi": "umumiy g'oyani aniqlash",
+                  "Scanning maqsadi": "aniq faktni (sana, ism, raqam) topish",
+                  "Skimmingda nima o'qiladi": "sarlavha va har xatboshining birinchi gapi",
+                  "Scanningda nima qidiriladi": "raqamlar, ismlar, sanalar"
+                }
+              },
+              "explanationUz": "Skimming — keng va yuzaki (g'oya uchun), scanning — tor va aniq (fakt uchun). Ikkalasi birga ishlaydi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Scanning paytida eng to'g'ri yondashuv qaysi?",
+              "data": {
+                "options": [
+                  "Avval savoldagi kalit so'zni belgilab, keyin matndan faqat shu so'zni izlash",
+                  "Matnni boshidan oxirigacha diqqat bilan o'qib chiqish",
+                  "Har bir notanish so'zni lug'atdan qarash",
+                  "Avval barcha javob variantlarini yodlab olish"
+                ]
+              },
+              "answer": { "value": "Avval savoldagi kalit so'zni belgilab, keyin matndan faqat shu so'zni izlash" },
+              "explanationUz": "Scanning formulasi: savol → kalit so'z → matndan ov. To'liq o'qish vaqtni yutadi va imtihonda eng katta xato hisoblanadi."
+            }
+          ]
+        },
+        {
+          "slug": "listening-signal-words",
+          "titleUz": "Listening: signal so'zlar va parafraz",
+          "titleEn": "Listening: signal words & paraphrase",
+          "skill": "LISTENING",
+          "level": "B2",
+          "order": 1,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Signal so'zlar (however, in the end, because) orqali javob kelayotganini oldindan sezish",
+            "Audiodagi parafrazni savoldagi so'zlar bilan bog'lash",
+            "Chalg'ituvchi (distractor) javoblarni tanib olish va chetlab o'tish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Signal so'zlar: javob kelayotganini e'lon qiladi",
+              "bodyUz": "Audioda javoblar tasodifiy joyda kelmaydi — ularni **signal so'zlar** e'lon qiladi. Eng muhimlari:\n\n1. **Burilish signallari** (*but, however, actually, in fact, unfortunately*) — oldin aytilgan ma'lumot O'ZGARADI. Javob deyarli har doim signaldan KEYIN keladi.\n2. **Yakuniy qaror signallari** (*in the end, eventually, finally, so we decided*) — bir nechta variant aytilgach, qaysi biri tanlangani.\n3. **Sabab signallari** (*because, since, the reason is, that's why*) — «Why...?» savollarining javobi.\n\nOltin qoida: gapiruvchi AVVAL aytgan narsasi ko'pincha TUZOQ (distractor), signaldan keyingi ma'lumot — JAVOB."
+            },
+            {
+              "type": "table",
+              "titleUz": "Signal so'zlar xaritasi",
+              "headers": ["Turkum", "So'zlar", "Nimadan darak beradi"],
+              "rows": [
+                ["Qarama-qarshilik", "but, however, although, actually", "reja yoki fikr o'zgardi — javob keyin keladi"],
+                ["Yakuniy qaror", "in the end, eventually, finally", "tanlangan variant shu yerda"],
+                ["Sabab", "because, since, the reason is", "Why-savolning javobi"],
+                ["Qo'shimcha", "also, what's more, on top of that", "yana bir muhim detal"],
+                ["Xulosa", "so, all in all, to sum up", "asosiy fikr takrorlanadi"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Parafraz: imtihonning asosiy o'yini",
+              "bodyUz": "Savoldagi so'zlar audioda AYNAN takrorlanmaydi — ma'no boshqa so'zlar bilan beriladi. Transkript misolini ko'ring:\n\n**Savol:** *What time did the woman's train leave?*\n**Audio (transkript):** *«I was planning to take the nine o'clock train to Samarkand, but the tickets were sold out, so in the end I caught the half past ten one instead.»*\n\n**Tahlil:** 9:00 — tuzoq (reja edi, *but* uni bekor qildi). Javob: **10:30** (*in the end* signalidan keyin, «half past ten» parafrazida).\n\nYana bir misol:\n**Savol:** *Is the museum free?*\n**Audio:** *«Entrance won't cost you anything, though you'll need to book online.»*\n**Tahlil:** *free* so'zi aytilmadi, lekin *won't cost you anything* = *free*. Javob: ha, bepul."
+            },
+            {
+              "type": "example",
+              "titleUz": "Tez-tez uchraydigan parafraz juftliklari",
+              "items": [
+                { "en": "free = costs nothing / free of charge / no fee", "uz": "bepul = hech qancha turmaydi / to'lovsiz" },
+                { "en": "cheap = inexpensive / affordable / doesn't cost much", "uz": "arzon = qimmat emas / hamyonbop" },
+                { "en": "crowded = busy / full of people / packed", "uz": "gavjum = odamga to'la / tirband" },
+                { "en": "cancel = call off / it's not going ahead", "uz": "bekor qilmoq = o'tkazilmaydigan bo'ldi" },
+                { "en": "postpone = put off / move to a later date", "uz": "kechiktirmoq = keyinga surmoq" },
+                { "en": "twice a week = every Tuesday and Friday", "uz": "haftada ikki marta = har seshanba va juma" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: audio boshlanishidan oldin beriladigan 30-45 soniyada savollarni o'qib, kalit so'zlar tagiga chizing va parafrazlarini tasavvur qiling (free → cost nothing). Audio paytida raqam eshitsangiz darhol yozib qo'ying, lekin oxirgi eshitilgan raqam har doim ham javob emas — *but / in the end* signallarini kuting. Bitta savolni o'tkazib yuborsangiz, unga qaytib o'ylanib qolmang: keyingi savolning signalini ham boy berasiz."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "LISTENING",
+              "promptUz": "Transkriptni o'qing va savolga javob bering:",
+              "data": {
+                "text": "Transkript: «I used to go swimming every morning, but these days I mostly go jogging in the park.» — Savol: What does the speaker usually do now?",
+                "options": ["goes jogging", "goes swimming", "goes to the gym", "stays at home"]
+              },
+              "answer": { "value": "goes jogging" },
+              "explanationUz": "«But» signalidan keyin hozirgi odat aytildi: jogging. Swimming — o'tmishdagi odat (used to), ya'ni tuzoq-distractor."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "LISTENING",
+              "promptUz": "Transkriptni o'qing va savolga javob bering:",
+              "data": {
+                "text": "Transkript: «The lecture was supposed to start at 2 pm, but the professor arrived twenty minutes late.» — Savol: Ma'ruza soat nechada boshlandi?",
+                "options": ["2:20", "2:00", "1:40", "2:30"]
+              },
+              "answer": { "value": "2:20" },
+              "explanationUz": "2:00 — reja (was supposed to — tuzoq), «but» dan keyin: yigirma daqiqa kechikdi → 2:20. Hisoblash talab qilinadigan savollar Listening'da ko'p."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "LISTENING",
+              "promptUz": "Signal so'zni vazifasiga bog'lang:",
+              "data": {
+                "left": ["however", "because", "therefore", "in fact"],
+                "right": ["sabab ko'rsatish", "aniqlik kiritish yoki kuchaytirish", "qarama-qarshilik, fikr o'zgarishi", "natija yoki xulosa"]
+              },
+              "answer": {
+                "pairs": {
+                  "however": "qarama-qarshilik, fikr o'zgarishi",
+                  "because": "sabab ko'rsatish",
+                  "therefore": "natija yoki xulosa",
+                  "in fact": "aniqlik kiritish yoki kuchaytirish"
+                }
+              },
+              "explanationUz": "Har bir signal o'z turkumidagi savolga yo'l ko'rsatadi: however → o'zgargan ma'lumot, because → why-savol, therefore → xulosa."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "LISTENING",
+              "promptUz": "Qaysi so'zlar avval aytilgan ma'lumot O'ZGARISHIDAN darak beradi? (bir nechta javob)",
+              "data": { "options": ["actually", "but", "for example", "however", "also"] },
+              "answer": { "values": ["actually", "but", "however"] },
+              "explanationUz": "actually/but/however — burilish signallari: ulardan keyingi ma'lumot avvalgisini bekor qiladi. «For example» va «also» esa fikrni davom ettiradi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "LISTENING",
+              "promptUz": "Parafrazni to'ldiring (bitta so'z):",
+              "data": { "text": "Audio: «Entrance is free of charge.» = Savoldagi parafraz: «It doesn't ___ anything.»" },
+              "answer": { "accept": ["cost"] },
+              "explanationUz": "free of charge = doesn't cost anything. Imtihon aynan shu sinonimik almashinuvlarni tekshiradi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "LISTENING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Listening'da to'g'ri javob odatda savoldagi so'zlarning aynan o'zi bilan audioda aytiladi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Aynan takrorlangan so'z ko'pincha TUZOQ bo'ladi; to'g'ri javob parafraz (sinonim, boshqa ifoda) orqali beriladi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "LISTENING",
+              "promptUz": "Transkriptni o'qing va savolga javob bering:",
+              "data": {
+                "text": "Transkript: «I thought about ordering the fish, and the steak looked great too, but in the end I just had a salad.» — Savol: What did the speaker eat?",
+                "options": ["salad", "fish", "steak", "soup"]
+              },
+              "answer": { "value": "salad" },
+              "explanationUz": "Fish va steak — ko'rib chiqilgan variantlar (tuzoqlar). «In the end» — yakuniy qaror signali: salad."
+            }
+          ]
+        },
+        {
+          "slug": "essay-structure",
+          "titleUz": "Essay tuzilishi: kirish, asosiy qism, xulosa",
+          "titleEn": "Essay structure: introduction, body, conclusion",
+          "skill": "WRITING",
+          "level": "B2",
+          "order": 2,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "4 xatboshili essay strukturasini (kirish, 2 ta asosiy, xulosa) qo'llash",
+            "Kuchli thesis statement yozishni o'rganish",
+            "Har bir asosiy xatboshini PEEL formulasi bo'yicha qurish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Multilevel Task 2: nimani kutish kerak",
+              "bodyUz": "Writing Task 2 — berilgan mavzu bo'yicha **200-250 so'zlik** essay. Ko'pincha fikr bildirish (opinion) yoki ikki tomonni muhokama qilish (discussion) so'raladi. Baholash mezonlari: vazifani bajarish, matn izchilligi, so'z boyligi va grammatika.\n\nOltin struktura — **4 xatboshi**:\n1. **Kirish** (3-4 gap): mavzuga olib kirish + thesis statement\n2. **Asosiy xatboshi 1** (4-5 gap): eng kuchli dalil + misol\n3. **Asosiy xatboshi 2** (4-5 gap): ikkinchi dalil + misol\n4. **Xulosa** (2-3 gap): pozitsiyani boshqa so'zlar bilan takrorlash"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Thesis statement: essayning yuragi",
+              "bodyUz": "**Thesis statement** — kirish xatboshisining OXIRGI gapi bo'lib, butun essayning yo'nalishini belgilaydi: sizning pozitsiyangiz + asosiy sabablar.\n\n**Kuchsiz:** *Education is very important in our life.* (umumiy gap, pozitsiya yo'q)\n\n**Kuchli:** *This essay will argue that studying abroad benefits young people because it develops independence and improves career prospects.* (aniq pozitsiya + ikki sabab = ikki asosiy xatboshining tayyor rejasi!)\n\nKuchli thesis yozsangiz, asosiy qism o'z-o'zidan rejalanadi: har bir sabab — bitta xatboshi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Asosiy xatboshi: PEEL formulasi",
+              "bodyUz": "Har bir asosiy xatboshini **PEEL** bo'yicha quring:\n\n- **P**oint (fikr): topic sentence — xatboshining birinchi gapi. *One major advantage of studying abroad is that it develops independence.*\n- **E**xplain (izohlash): nima uchun bu to'g'ri? *Living far from family forces students to manage their own money, time and daily problems.*\n- **E**xample (misol): aniq misol. *For example, my cousin, who studied in Germany, learned to cook and budget within months.*\n- **L**ink (bog'lash): xulosa-gap yoki keyingi xatboshiga ko'prik. *As a result, such students mature much faster than their peers.*\n\nXulosa xatboshisi esa thesis'ni YANGI so'zlar bilan takrorlaydi va yangi dalil KIRITMAYDI."
+            },
+            {
+              "type": "example",
+              "titleUz": "Essay uchun tayyor iboralar",
+              "items": [
+                { "en": "It is widely believed that...", "uz": "Keng tarqalgan fikrga ko'ra..." },
+                { "en": "This essay will argue that...", "uz": "Ushbu esseda ... fikri asoslab beriladi" },
+                { "en": "One major advantage of ... is ...", "uz": "...ning asosiy afzalliklaridan biri — ..." },
+                { "en": "A clear example of this can be seen in...", "uz": "Buning yaqqol misolini ...da ko'rish mumkin" },
+                { "en": "Opponents of this view claim that...", "uz": "Bu qarash muxoliflarining ta'kidlashicha..." },
+                { "en": "In conclusion, while both sides have merit,...", "uz": "Xulosa qilib aytganda, har ikki tomonning ham asosi bo'lsa-da,..." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: 30 daqiqani shunday taqsimlang — 5 daqiqa reja (thesis + ikkita dalil + misollar), 20 daqiqa yozish, 5 daqiqa tekshirish (qisqartmalar yo'qmi, so'z soni yetarlimi, har xatboshida topic sentence bormi). 200 so'zdan kam yozish — eng qimmat xato: vazifa to'liq bajarilmagan hisoblanadi. Rejasiz boshlamang: reja qog'ozda 5 daqiqa oladi, kallada esa 15 daqiqa yo'qotadi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Essay qismlarini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "Xulosa: fikrni boshqa so'zlar bilan takrorlash",
+                  "Kirish: umumiy gap + thesis statement",
+                  "Ikkinchi asosiy xatboshi: qo'shimcha dalil + misol",
+                  "Birinchi asosiy xatboshi: eng kuchli dalil + misol"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Kirish: umumiy gap + thesis statement",
+                  "Birinchi asosiy xatboshi: eng kuchli dalil + misol",
+                  "Ikkinchi asosiy xatboshi: qo'shimcha dalil + misol",
+                  "Xulosa: fikrni boshqa so'zlar bilan takrorlash"
+                ]
+              },
+              "explanationUz": "4 xatboshili klassik struktura: kirish → kuchli dalil → qo'shimcha dalil → xulosa."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Qaysi biri KUCHLI thesis statement?",
+              "data": {
+                "options": [
+                  "This essay will argue that online education benefits students because it is flexible and affordable.",
+                  "Education is very important in our life.",
+                  "There are many different opinions about online education.",
+                  "I want to write about online education."
+                ]
+              },
+              "answer": { "value": "This essay will argue that online education benefits students because it is flexible and affordable." },
+              "explanationUz": "Kuchli thesis = aniq pozitsiya (benefits) + sabablar (flexible, affordable). Qolganlari umumiy gaplar — pozitsiya ham, reja ham yo'q."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Topic sentence xatboshining qayerida joylashadi?",
+              "data": { "options": ["Xatboshining boshida", "Xatboshining o'rtasida", "Xatboshining oxirida", "Faqat xulosada"] },
+              "answer": { "value": "Xatboshining boshida" },
+              "explanationUz": "Topic sentence — xatboshining birinchi gapi (PEEL'dagi Point). Bu tekshiruvchiga ham, Reading'da sizga ham xatboshi g'oyasini darhol beradi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Xulosa qismida yangi dalil (argument) kiritish tavsiya etiladi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Xulosa faqat aytilgan fikrlarni yangi so'zlar bilan jamlaydi. Yangi dalil — rivojlantirilmagan fikr, u ball tushiradi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Essay elementini vazifasiga bog'lang:",
+              "data": {
+                "left": ["Hook", "Thesis statement", "Topic sentence", "Conclusion"],
+                "right": ["xatboshining asosiy g'oyasini bildiradi", "o'quvchi diqqatini tortadigan birinchi gap", "fikrni boshqa so'zlar bilan yakunlash", "muallifning asosiy pozitsiyasini bildiradi"]
+              },
+              "answer": {
+                "pairs": {
+                  "Hook": "o'quvchi diqqatini tortadigan birinchi gap",
+                  "Thesis statement": "muallifning asosiy pozitsiyasini bildiradi",
+                  "Topic sentence": "xatboshining asosiy g'oyasini bildiradi",
+                  "Conclusion": "fikrni boshqa so'zlar bilan yakunlash"
+                }
+              },
+              "explanationUz": "Hook — kirishning birinchi gapi, thesis — kirishning oxirgi gapi, topic sentence — har asosiy xatboshining boshi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Xulosani boshlash uchun mos ibora yozing:",
+              "data": { "text": "___ , online education offers clear advantages for students with busy schedules." },
+              "answer": { "accept": ["In conclusion", "To conclude", "To sum up", "In summary"] },
+              "explanationUz": "Xulosa signallari: In conclusion / To conclude / To sum up. Ular tekshiruvchiga strukturangiz aniq ekanini darhol ko'rsatadi."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Some people believe that students should study abroad if they have the opportunity, while others think studying in their own country is better. Write an essay (200-250 words): introduce the topic with a clear thesis statement, present your opinion with two supporting arguments and examples (use the PEEL structure), and finish with a conclusion.",
+              "promptUz": "Ba'zilar imkoniyat bo'lsa chet elda o'qish kerak deb hisoblaydi, boshqalar esa o'z mamlakatida o'qish afzal deydi. Essay yozing (200-250 so'z): mavzuni aniq thesis statement bilan kiriting, fikringizni ikkita dalil va misollar bilan asoslang (PEEL strukturasidan foydalaning) va xulosa bilan yakunlang.",
+              "data": { "minWords": 200, "maxWords": 250 },
+              "explanationUz": "Tekshirish ro'yxati: 4 xatboshi bormi? Thesis kirishning oxirgi gapimi? Har asosiy xatboshi topic sentence bilan boshlanganmi? Xulosada yangi dalil yo'qmi? So'z soni 200-250 orasidami?"
+            }
+          ]
+        },
+        {
+          "slug": "formal-vocabulary-upgrade",
+          "titleUz": "Formal so'z boyligi: get → obtain, big → significant",
+          "titleEn": "Formal vocabulary upgrade",
+          "skill": "VOCABULARY",
+          "level": "B2",
+          "order": 3,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "30 ta kundalik so'zning rasmiy muqobilini o'rganish",
+            "Essay va rasmiy xatlarda formal leksikadan o'rinli foydalanish",
+            "Phrasal verblarni bir so'zli rasmiy fe'llarga almashtirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega formal leksika ball beradi?",
+              "bodyUz": "Writing baholashda **so'z boyligi (lexical resource)** alohida mezon. *get, big, a lot of, kids* — og'zaki nutqda normal, lekin essayda ular balingizni B1 darajasida ushlab turadi. Xuddi shu fikr rasmiy so'zlar bilan B2-C1 taassurotini beradi:\n\n**Oddiy:** *Students get a lot of good things from studying abroad.*\n**Rasmiy:** *Students obtain significant benefits from studying abroad.*\n\nUch qoida: 1) phrasal verblarni bir so'zli fe'lga almashtiring (*find out → discover*), 2) qisqartmalardan voz keching (*don't → do not*), 3) umumiy sifatlarni aniqroq rasmiy sifatga almashtiring (*good → beneficial*)."
+            },
+            {
+              "type": "table",
+              "titleUz": "15 ta fe'l juftligi",
+              "headers": ["Oddiy", "Rasmiy", "Ma'nosi"],
+              "rows": [
+                ["get", "obtain", "olmoq, qo'lga kiritmoq"],
+                ["buy", "purchase", "sotib olmoq"],
+                ["help", "assist", "yordam bermoq"],
+                ["need", "require", "talab qilmoq"],
+                ["ask for", "request", "so'ramoq"],
+                ["find out", "discover", "aniqlamoq"],
+                ["put off", "postpone", "kechiktirmoq"],
+                ["go up", "increase", "o'smoq, ko'tarilmoq"],
+                ["go down", "decrease", "kamaymoq"],
+                ["give up", "abandon", "voz kechmoq"],
+                ["set up", "establish", "tashkil etmoq"],
+                ["think about", "consider", "ko'rib chiqmoq"],
+                ["deal with", "address", "hal qilmoq, shug'ullanmoq"],
+                ["make sure", "ensure", "ta'minlamoq"],
+                ["start", "commence", "boshlamoq"]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "15 ta sifat, ot va bog'lovchi juftligi",
+              "headers": ["Oddiy", "Rasmiy", "Ma'nosi"],
+              "rows": [
+                ["big", "significant", "katta, salmoqli"],
+                ["small", "minor", "kichik, arzimas"],
+                ["good", "beneficial", "foydali"],
+                ["bad", "detrimental", "zararli"],
+                ["cheap", "inexpensive", "arzon"],
+                ["enough", "sufficient", "yetarli"],
+                ["wrong", "incorrect", "noto'g'ri"],
+                ["a lot of", "a considerable amount of", "ko'p miqdorda"],
+                ["kids", "children", "bolalar"],
+                ["job", "occupation", "kasb"],
+                ["chance", "opportunity", "imkoniyat"],
+                ["idea", "concept", "tushuncha, g'oya"],
+                ["so", "therefore", "shu sababli"],
+                ["but", "however", "biroq"],
+                ["in the end", "ultimately", "pirovardida"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Gapni yangilash: oldin va keyin",
+              "items": [
+                { "en": "We found out that kids need a lot of help. → We discovered that children require considerable assistance.", "uz": "Bolalarga ko'p yordam kerakligini aniqladik — bitta gapda uchta so'z rasmiylashtirildi." },
+                { "en": "The company put off the meeting because there wasn't enough time. → The company postponed the meeting because there was insufficient time.", "uz": "Kompaniya vaqt yetarli emasligi sababli yig'ilishni keyinga surdi." },
+                { "en": "Prices went up a lot, so people bought less. → Prices increased significantly; therefore, people purchased less.", "uz": "Narxlar sezilarli oshdi, shu sababli xaridlar kamaydi." },
+                { "en": "It's a big chance to get a good job. → It is a significant opportunity to obtain a rewarding occupation.", "uz": "Bu munosib kasb egallash uchun katta imkoniyat." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon taktikasi: essayda har bir xatboshiga kamida 2-3 ta rasmiy so'z joylashtiring, lekin me'yorni saqlang — butun gapni «qiyin» so'zlardan qurish sun'iy ko'rinadi va xato ehtimolini oshiradi. Eng foydali beshlik: *significant, obtain, require, therefore, however* — deyarli har qanday mavzuga tushadi. Yozib bo'lgach, 30 soniya sarflab matndan *get / big / a lot of / so* so'zlarini qidiring va almashtiring — bu eng tez ball oshirish usuli."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Oddiy fe'lni rasmiy muqobiliga bog'lang:",
+              "data": {
+                "left": ["get", "buy", "need", "find out"],
+                "right": ["discover", "obtain", "require", "purchase"]
+              },
+              "answer": {
+                "pairs": {
+                  "get": "obtain",
+                  "buy": "purchase",
+                  "need": "require",
+                  "find out": "discover"
+                }
+              },
+              "explanationUz": "get → obtain, buy → purchase, need → require, find out → discover — essayda eng ko'p ishlatiladigan to'rt almashtirish."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Oddiy sifatni rasmiy muqobiliga bog'lang:",
+              "data": {
+                "left": ["big", "bad", "cheap", "enough"],
+                "right": ["sufficient", "significant", "inexpensive", "detrimental"]
+              },
+              "answer": {
+                "pairs": {
+                  "big": "significant",
+                  "bad": "detrimental",
+                  "cheap": "inexpensive",
+                  "enough": "sufficient"
+                }
+              },
+              "explanationUz": "big → significant, bad → detrimental, cheap → inexpensive, enough → sufficient. Detrimental — «zararli» ma'nosidagi kuchli akademik sifat."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "Rasmiy essayda «The government should deal with this problem» o'rniga qaysi variant eng mos?",
+              "data": {
+                "options": [
+                  "The government should address this problem.",
+                  "The government should fix up this problem.",
+                  "The government should sort out this problem.",
+                  "The government should get rid of this problem."
+                ]
+              },
+              "answer": { "value": "The government should address this problem." },
+              "explanationUz": "address — «hal qilmoq» ning bir so'zli rasmiy muqobili. Qolganlari phrasal verblar — rasmiy uslubga mos emas."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Rasmiy muqobilini yozing:",
+              "data": { "text": "put off (kechiktirmoq) → ___" },
+              "answer": { "accept": ["postpone"] },
+              "explanationUz": "put off → postpone. Rasmiy xatlarda: The meeting has been postponed until Friday."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Gapni rasmiy so'z bilan to'ldiring:",
+              "data": { "text": "a lot of information → a ___ amount of information" },
+              "answer": { "accept": ["considerable", "significant", "substantial"] },
+              "explanationUz": "a lot of → a considerable/significant/substantial amount of — uchala sifat ham rasmiy uslubda qabul qilinadi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "VOCABULARY",
+              "promptUz": "Rasmiy uslubga mos so'zlarni belgilang (bir nechta javob):",
+              "data": { "options": ["purchase", "kids", "furthermore", "stuff", "demonstrate"] },
+              "answer": { "values": ["purchase", "furthermore", "demonstrate"] },
+              "explanationUz": "purchase, furthermore, demonstrate — rasmiy leksika. «Kids» o'rniga children, «stuff» o'rniga items/materials yoziladi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "Qaysi gap rasmiy uslubda yozilgan?",
+              "data": {
+                "options": [
+                  "The results demonstrate a significant increase in demand.",
+                  "The results show demand went up a lot.",
+                  "Demand got really big, the results say.",
+                  "The results kinda show more demand."
+                ]
+              },
+              "answer": { "value": "The results demonstrate a significant increase in demand." },
+              "explanationUz": "demonstrate + significant + increase — uchta rasmiy so'z bir gapda. Qolganlarida go up, get big, kinda — og'zaki uslub."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "Gapni rasmiy fe'l bilan qayta yozing (faqat phrasal verb almashsin):",
+              "data": { "text": "The company decided to put off the meeting. → ..." },
+              "answer": { "accept": ["The company decided to postpone the meeting", "The company decided to postpone the meeting.", "postpone"] },
+              "explanationUz": "put off → postpone: The company decided to postpone the meeting. Bir so'zli fe'l gapni darhol rasmiylashtiradi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "subject": "ENGLISH",
+  "level": "B1",
+  "slug": "multilevel-exam-strategy",
+  "titleUz": "Multilevel imtihon strategiyasi",
+  "titleEn": "Multilevel Exam Strategy",
+  "descriptionUz": "Imtihonning o'zini o'rganing: format, ball tizimi, har bo'lim taktikasi, vaqt boshqaruvi va eng ko'p uchraydigan tuzoqlar. Bu kurs darajangizdan qat'i nazar birinchi bo'lib o'qilishi kerak.",
+  "icon": "🎯",
+  "order": 9,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "know-your-exam",
+      "titleUz": "Imtihoningizni bilib oling",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "exam-format-overview",
+          "titleUz": "Imtihon formati va ball tizimi",
+          "skill": "READING",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "4 bo'lim tuzilishini aniq bilish",
+            "0-75 ball tizimi va daraja chegaralarini tushunish",
+            "O'z maqsad balingizni belgilash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Imtihon tuzilishi",
+              "bodyUz": "UzBMB multilevel imtihoni 4 bo'limdan iborat, umumiy davomiyligi ~3 soat:\n\n1. **Listening** — 6 qism, 35 savol, ~45 daqiqa\n2. **Reading** — 5 qism, 35 savol, 60 daqiqa\n3. **Writing** — 2 vazifa (email + esse), 60 daqiqa\n4. **Speaking** — 3 qism, ~15 daqiqa\n\nHar bo'lim 0-75 ball shkalasida baholanadi, umumiy natija — 4 bo'lim o'rtachasi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Ball → Daraja",
+              "headers": ["Daraja", "Ball oralig'i", "Nima beradi"],
+              "rows": [
+                ["C1", "65 – 75", "Oliy ta'limda eng yuqori imtiyozlar, ko'p universitetlarda chet tili fanidan maksimal ball"],
+                ["B2", "51 – 64", "Ko'plab OTMlar va ish o'rinlari uchun yetarli"],
+                ["B1", "38 – 50", "Boshlang'ich sertifikat darajasi"],
+                ["B1 dan past", "0 – 37", "Sertifikat berilmaydi — tayyorgarlikni davom ettiring"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Muhim strategik fakt: umumiy ball — O'RTACHA. Bitta zaif bo'lim (masalan, Writing 40) kuchli bo'limlarni (Listening 70) pastga tortadi. Shuning uchun eng zaif ko'nikmangizga eng ko'p vaqt ajrating — bu eng tez ball oshirish yo'li!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "C1 daraja olish uchun umumiy ball kamida necha bo'lishi kerak?",
+              "data": { "options": ["51", "60", "65", "70"] },
+              "answer": { "value": "65" },
+              "explanationUz": "C1: 65-75 ball oralig'i."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Listening bo'limida nechta savol bor?",
+              "data": { "options": ["30", "35", "40", "45"] },
+              "answer": { "value": "35" },
+              "explanationUz": "Listening: 6 qism, 35 savol."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "READING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Umumiy ball to'rt bo'lim ballarining o'rtachasi sifatida hisoblanadi." },
+              "answer": { "value": "true" },
+              "explanationUz": "Ha — shuning uchun barcha 4 ko'nikma muvozanatli rivojlanishi kerak."
+            }
+          ]
+        },
+        {
+          "slug": "listening-tactics",
+          "titleUz": "Listening taktikasi: 35 savolni qanday yutish mumkin",
+          "skill": "LISTENING",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Audio boshlanishidan oldin savollarni skanerlashni o'rganish",
+            "Parafraz tuzog'ini tanish",
+            "Javobni o'tkazib yuborganda vahima qilmaslik"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Oltin qoidalar",
+              "bodyUz": "1. **Oldindan o'qing**: har qism oldidan beriladigan 20-30 soniyada savollarni o'qib, KALIT so'zlarni belgilang.\n2. **Parafrazni kuting**: audio deyarli hech qachon savoldagi so'zlarni aynan ishlatmaydi. Savolda «cost» bo'lsa, audioda «price», «pay», «$20» bo'lishi mumkin.\n3. **Birinchi javob tuzog'i**: ko'pincha avval bitta variant aytiladi, keyin «actually...», «but...» bilan O'ZGARTIRILADI. Oxirgi aytilgan ma'lumot to'g'ri javob bo'ladi.\n4. **O'tkazib yubordingizmi? Unuting!** Bitta savolga yopishib qolsangiz, keyingi 2-3 savolni ham o'tkazib yuborasiz. Belgilang, davom eting.\n5. **Yozish qismlarida (gap-fill)**: so'z imlosini to'g'ri yozing — xato imlo = 0 ball."
+            },
+            {
+              "type": "example",
+              "titleUz": "Parafraz misollari",
+              "items": [
+                { "en": "Savolda: What time does the museum open?", "uz": "Audioda: «Doors open at half past nine» → javob: 9:30" },
+                { "en": "Savolda: How much is the ticket?", "uz": "Audioda: «It'll set you back twenty dollars» → javob: $20" },
+                { "en": "Savolda: Where will they meet?", "uz": "Audioda: «Let's not meet at the station — the café is better» → javob: café (station EMAS!)" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Har kuni kamida 20 daqiqa ingliz tilida tinglang (podkast, YouTube). Imtihondan 2 hafta oldin faqat mock listening qiling — miyangiz imtihon tempiga o'rganadi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "LISTENING",
+              "promptUz": "Audioda: «I was going to take the bus, but John offered me a lift in his car». Qanday borgan?",
+              "data": { "options": ["Avtobusda", "Mashinada", "Piyoda", "Taksida"] },
+              "answer": { "value": "Mashinada" },
+              "explanationUz": "«was going to» — reja edi, lekin «but» dan keyingi ma'lumot haqiqiy: John mashinasida."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "LISTENING",
+              "promptUz": "Savolni o'tkazib yubordingiz. Eng to'g'ri harakat qaysi?",
+              "data": { "options": ["Audio qaytarilishini kutish", "Belgilab, keyingi savolga o'tish", "Yonidagidan so'rash", "O'sha savolni o'ylab o'tirish"] },
+              "answer": { "value": "Belgilab, keyingi savolga o'tish" },
+              "explanationUz": "Audio faqat BIR marta eshittiriladi. Bitta savolga yopishish — 2-3 savolni yo'qotish demak."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "LISTENING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Gap-fill savollarida so'z ma'nosi to'g'ri bo'lsa, imlo xatosi ball yo'qotmaydi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Imlo xato = javob noto'g'ri hisoblanadi. Imloni mashq qiling!"
+            }
+          ]
+        },
+        {
+          "slug": "reading-time-management",
+          "titleUz": "Reading: 60 daqiqada 35 savol — vaqt jangi",
+          "skill": "READING",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Skimming va scanning farqini amalda qo'llash",
+            "Vaqt taqsimotini rejalashtirish",
+            "«Chiroyli, lekin noto'g'ri» variantlarni tanish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vaqt taqsimoti",
+              "bodyUz": "60 daqiqa / 5 qism = har qismga ~11 daqiqa + 5 daqiqa zaxira.\n\n**Skimming** (umumiy o'qish): matnni 1-2 daqiqada ko'z yugurtirib, har xatboshining ASOSIY G'OYASINI ushlang — sarlavha moslashtirish uchun shu kifoya.\n\n**Scanning** (izlab topish): aniq faktlar (raqam, ism, sana) uchun matnni so'zma-so'z o'qimasdan, kerakli ma'lumotni «radar» kabi qidiring.\n\n**Muhim**: savollar odatda matn tartibida keladi (1-savol matn boshida, oxirgisi oxirida)."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Variant tuzoqlari",
+              "bodyUz": "Noto'g'ri variantlar tasodifiy emas — ular maxsus yasaladi:\n\n1. **Matndan so'z olingan, lekin ma'no boshqa** — tanish so'zni ko'rib aldanmang\n2. **Haqiqatda to'g'ri, lekin matnda YO'Q** — savol «matn bo'yicha» ekanini unutmang\n3. **Juda mutlaq** — «always», «never», «all» so'zli variantlar ko'pincha noto'g'ri\n4. **Yarim to'g'ri** — gapning birinchi yarmi to'g'ri, ikkinchisi xato"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Javobni belgilashdan oldin o'zingizdan so'rang: «Buni matnning QAYSI gapi tasdiqlaydi?» Aniq gapni topa olmasangiz — javob noto'g'ri bo'lishi ehtimoli katta."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Xatboshiga sarlavha tanlash uchun qaysi texnika eng samarali?",
+              "data": { "options": ["Har so'zni lug'at bilan o'qish", "Skimming — asosiy g'oyani ushlash", "Faqat birinchi so'zni o'qish", "Savollarni o'qimaslik"] },
+              "answer": { "value": "Skimming — asosiy g'oyani ushlash" },
+              "explanationUz": "Sarlavha = xatboshining asosiy g'oyasi. Skimming aynan shuni topadi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Qaysi turdagi variant ko'pincha TUZOQ bo'ladi?",
+              "data": { "options": ["Matndagi so'zlar ishlatilgan, lekin ma'nosi boshqa variant", "Qisqa variant", "Birinchi variant", "Inglizcha variant"] },
+              "answer": { "value": "Matndagi so'zlar ishlatilgan, lekin ma'nosi boshqa variant" },
+              "explanationUz": "Tanish so'zlar ishonch uyg'otadi — lekin ma'noni tekshiring!"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "READING",
+              "promptUz": "Aniq faktni (sana, raqam) tez topish texnikasi qanday ataladi? (inglizcha)",
+              "data": { "text": "___" },
+              "answer": { "accept": ["scanning", "skanning"] },
+              "explanationUz": "Scanning — matndan aniq ma'lumotni izlab topish."
+            }
+          ]
+        },
+        {
+          "slug": "writing-speaking-scoring",
+          "titleUz": "Writing va Speaking: baholovchi nimaga qaraydi?",
+          "skill": "WRITING",
+          "level": "B1",
+          "order": 3,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "4 ta baholash mezonini bilish",
+            "Har mezonda ball yo'qotadigan xatolarni tanish",
+            "AI baholash hisobotini o'qishni o'rganish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "4 mezon — Writing",
+              "bodyUz": "1. **Task fulfillment**: hamma so'ralgan narsaga javob berdingizmi? So'z soni yetarlimi? (Eng ko'p ball shu yerda yo'qoladi!)\n2. **Coherence & cohesion**: xatboshilar, bog'lovchilar, mantiqiy oqim\n3. **Lexical resource**: so'z boyligi — bir so'zni qayta-qayta ishlatmang\n4. **Grammatical range & accuracy**: xatosizlik + TURLI konstruksiyalar (faqat oddiy gaplar = past ball)\n\nSpeaking'da 4-mezon o'rniga **Pronunciation** baholanadi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Tez-tez ball yo'qotish sabablari",
+              "headers": ["Xato", "Qaysi mezon jabr ko'radi", "Yechim"],
+              "rows": [
+                ["So'z soni yetmadi", "Task fulfillment", "Yozgach sanang; shablonlar vaqt tejaydi"],
+                ["Savolning bir qismiga javob yo'q", "Task fulfillment", "Rejada har savolga 1 band ajrating"],
+                ["Xatboshi yo'q, bitta blok matn", "Coherence", "Kirish + 2 tana + xulosa"],
+                ["Faqat 'and' va 'but'", "Coherence", "however, therefore, in addition..."],
+                ["good/bad/big/nice takrori", "Lexical resource", "Sinonimlar: beneficial, significant..."],
+                ["Faqat Present Simple", "Grammar range", "Shart gaplar, passiv, perfect qo'shing"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Platformadagi AI baholash aynan shu mezonlar bo'yicha ishlaydi va har mezonga alohida izoh beradi. Har mock'dan keyin AI hisobotidagi «mistakes» ro'yxatini daftarga ko'chiring — keyingi safar aynan shu xatolarni qaytarmaslikka harakat qiling. 3-4 mock'dan keyin shaxsiy «xatolar lug'atingiz» shakllanadi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Esse 200 so'z o'rniga 120 so'z yozildi. Qaysi mezon eng ko'p jabr ko'radi?",
+              "data": { "options": ["Task fulfillment", "Pronunciation", "Lexical resource", "Hech qaysi"] },
+              "answer": { "value": "Task fulfillment" },
+              "explanationUz": "So'z soni — vazifa talabining bir qismi. Yetmasa, Task fulfillment keskin tushadi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Qaysi ikkisi Coherence & cohesion balini oshiradi? (2 ta tanlang)",
+              "data": { "options": ["Aniq xatboshilarga bo'lish", "Bog'lovchi so'zlar (however, therefore)", "Uzun so'zlar ishlatish", "Tez yozish"] },
+              "answer": { "values": ["Aniq xatboshilarga bo'lish", "Bog'lovchi so'zlar (however, therefore)"] },
+              "explanationUz": "Coherence = tuzilma (xatboshilar) + bog'lanish (linkerlar)."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Xatoni jabr ko'radigan mezonga bog'lang:",
+              "data": {
+                "left": ["Savolning yarmiga javob yo'q", "'nice' so'zi 6 marta", "Xatboshisiz yaxlit matn", "Faqat oddiy gaplar"],
+                "right": ["Grammar range", "Coherence & cohesion", "Task fulfillment", "Lexical resource"]
+              },
+              "answer": { "pairs": { "Savolning yarmiga javob yo'q": "Task fulfillment", "'nice' so'zi 6 marta": "Lexical resource", "Xatboshisiz yaxlit matn": "Coherence & cohesion", "Faqat oddiy gaplar": "Grammar range" } },
+              "explanationUz": "Har xato o'z mezoniga zarba beradi — kuchli javob to'rttasini ham qamrab oladi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

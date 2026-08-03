@@ -1,0 +1,173 @@
+{
+  "subject": "UZBEK",
+  "kind": "MINI",
+  "slug": "uzbek-mini-mock-1",
+  "titleUz": "Ona tili Mini Mock #1: Til qoidalari + Insho",
+  "descriptionUz": "Milliy sertifikat (ona tili) formatidagi qisqartirilgan sinov: 15 ta test savoli (fonetika, imlo, morfologiya, sintaksis, leksikologiya) va insho. Insho AI tomonidan rasmiy mezonlarga yaqin tarzda baholanadi.",
+  "order": 1,
+  "isPublished": true,
+  "sections": [
+    {
+      "skill": "GRAMMAR",
+      "order": 0,
+      "durationMinutes": 25,
+      "instructionsUz": "Har bir savolga eng to'g'ri javobni tanlang. Milliy sertifikat imtihonida til qoidalari bo'yicha savollar shu uslubda beriladi.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "Fonetika va imlo",
+          "questions": [
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptUz": "O'zbek tilida nechta unli tovush bor?",
+              "data": { "options": ["5 ta", "6 ta", "7 ta", "8 ta"] },
+              "answer": { "value": "6 ta" }
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Qofiyali misralardan iborat badiiy asar» ma'nosidagi so'z qaysi qatorda to'g'ri yozilgan?",
+              "data": { "options": ["sher", "she'r", "sheer", "she r"] },
+              "answer": { "value": "she'r" }
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Kitob» so'zi necha bo'g'indan iborat?",
+              "data": { "options": ["1", "2", "3", "4"] },
+              "answer": { "value": "2" }
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Qaysi qatordagi so'zda tutuq belgisi (') to'g'ri qo'llangan?",
+              "data": { "options": ["ma'no", "m'ano", "man'o", "mano'"] },
+              "answer": { "value": "ma'no" }
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Jarangsiz undoshlar berilgan qatorni toping.",
+              "data": { "options": ["b, d, g", "p, t, k", "m, n, l", "v, z, j"] },
+              "answer": { "value": "p, t, k" }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "Morfologiya",
+          "questions": [
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Chiroyli» so'zi qaysi so'z turkumiga mansub?",
+              "data": { "options": ["Ot", "Sifat", "Fe'l", "Ravish"] },
+              "answer": { "value": "Sifat" }
+            },
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Maktabga» so'zidagi «-ga» qaysi kelishik qo'shimchasi?",
+              "data": { "options": ["Tushum kelishigi", "Jo'nalish kelishigi", "O'rin-payt kelishigi", "Chiqish kelishigi"] },
+              "answer": { "value": "Jo'nalish kelishigi" }
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Ishchi» so'zi qanday usulda yasalgan?",
+              "data": { "options": ["Ot + fe'l qo'shilishidan", "«ish» otiga «-chi» yasovchi qo'shimchasini qo'shish bilan", "Ikki so'zni qo'shish bilan", "So'z ma'nosini ko'chirish bilan"] },
+              "answer": { "value": "«ish» otiga «-chi» yasovchi qo'shimchasini qo'shish bilan" }
+            },
+            {
+              "number": 9,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Kitobim» so'zidagi «-im» qanday qo'shimcha?",
+              "data": { "options": ["Ko'plik qo'shimchasi", "Egalik qo'shimchasi", "Kelishik qo'shimchasi", "Yasovchi qo'shimcha"] },
+              "answer": { "value": "Egalik qo'shimchasi" }
+            },
+            {
+              "number": 10,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Qaysi qatorda fe'l berilgan?",
+              "data": { "options": ["yugurish maydoni", "yugurdi", "yugurik", "yuguruvchi bola"] },
+              "answer": { "value": "yugurdi" }
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "titleUz": "Sintaksis va leksikologiya",
+          "questions": [
+            {
+              "number": 11,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Aziza kutubxonada kitob o'qidi» gapida ega qaysi so'z?",
+              "data": { "options": ["Aziza", "kutubxonada", "kitob", "o'qidi"] },
+              "answer": { "value": "Aziza" }
+            },
+            {
+              "number": 12,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Go'zal» so'zining sinonimi qaysi?",
+              "data": { "options": ["xunuk", "chiroyli", "katta", "yorug'"] },
+              "answer": { "value": "chiroyli" }
+            },
+            {
+              "number": 13,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Uzoq» so'zining antonimi qaysi?",
+              "data": { "options": ["olis", "yaqin", "keng", "baland"] },
+              "answer": { "value": "yaqin" }
+            },
+            {
+              "number": 14,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Qo'li ochiq» iborasining ma'nosi nima?",
+              "data": { "options": ["ishyoqmas", "saxiy", "uddaburon", "kamtarin"] },
+              "answer": { "value": "saxiy" }
+            },
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Ot» so'zi «ism» va «hayvon» ma'nolarida qo'llanadi. Bu qanday hodisa?",
+              "data": { "options": ["Sinonimiya", "Antonimiya", "Omonimiya", "Paronimiya"] },
+              "answer": { "value": "Omonimiya" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "WRITING",
+      "order": 1,
+      "durationMinutes": 40,
+      "instructionsUz": "Berilgan mavzuda insho yozing. Reja asosida, mantiqiy izchil, adabiy til me'yorlariga rioya qilgan holda yozing.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "Insho",
+          "questions": [
+            {
+              "number": 1,
+              "type": "WRITING_TASK",
+              "promptUz": "Mavzu: «Kitob — ma'naviyat ko'zgusi». Insho yozing (kamida 150 so'z). Talablar: (1) kirish, asosiy qism va xulosa aniq ajralib tursin; (2) fikringizni hayotiy yoki adabiy misol bilan asoslang; (3) adabiy til me'yorlariga va imlo qoidalariga rioya qiling.",
+              "data": { "minWords": 150, "maxWords": 300 },
+              "points": 2,
+              "rubric": {
+                "criteria": [
+                  "Mavzuni ochib berish va mazmun to'liqligi",
+                  "Mantiqiy izchillik va kompozitsiya (kirish-asosiy qism-xulosa)",
+                  "So'z boyligi va uslubiy rang-baranglik",
+                  "Imlo, ishoraviy va grammatik savodxonlik"
+                ],
+                "style": "adabiy insho",
+                "language": "uz"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1432 @@
+{
+  "subject": "ENGLISH",
+  "level": "A1",
+  "slug": "english-a1-starter",
+  "titleUz": "Ingliz tili A1 — Ilk qadamlar",
+  "titleEn": "English A1 — First Steps",
+  "descriptionUz": "Ingliz tilini mutlaqo noldan boshlaydiganlar uchun kurs: alifbo va talaffuz, sonlar, olmoshlar, ilk iboralar va eng sodda gap qoliplari. Har bir dars o'zbekcha tushuntirish, jonli misollar va avtomatik tekshiriladigan mashqlardan iborat — multilevel yo'lidagi eng birinchi qadam.",
+  "icon": "🐣",
+  "order": 0,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "alphabet-numbers-pronouns",
+      "titleUz": "Alifbo, sonlar va olmoshlar",
+      "descriptionUz": "Ingliz tilining eng birinchi g'ishtlari: 26 harf va ularning talaffuzi, 1 dan 100 gacha sonlar, shaxs olmoshlari va this/that/these/those ko'rsatish so'zlari.",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "alphabet-and-sounds",
+          "titleUz": "Ingliz alifbosi va talaffuz asoslari",
+          "titleEn": "The English alphabet & basic sounds",
+          "skill": "VOCABULARY",
+          "level": "A1",
+          "order": 0,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "26 ta harfni nomi bilan ayta olish",
+            "Unli va undosh harflarni farqlash",
+            "O'z ismini harflab (spell qilib) ayta olish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Alifbo bilan tanishamiz",
+              "bodyUz": "Ingliz alifbosida **26 ta harf** bor (o'zbek lotin alifbosida esa 29 ta belgi). Harflar tanish ko'rinsa ham, ularning **nomlari** butunlay boshqacha o'qiladi!\n\nEng muhim farq: o'zbek tilida harf qanday yozilsa, shunday o'qiladi. Ingliz tilida esa harfning **nomi** bilan uning so'z ichidagi **tovushi** ko'pincha farq qiladi:\n\n- **A** harfining nomi **[ey]**, lekin *cat* so'zida u [æ] deb o'qiladi\n- **E** harfining nomi **[i:]**, lekin *pen* so'zida [e] deb o'qiladi\n\nShuning uchun avval harflarning **nomlarini** yodlab olamiz — bu ismingizni harflab aytish (spelling) uchun kerak bo'ladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "26 harf va ularning nomlari (taxminiy o'zbekcha talaffuz)",
+              "headers": ["Harf", "Nomi", "Harf", "Nomi"],
+              "rows": [
+                ["A a", "[ey]", "B b", "[bi]"],
+                ["C c", "[si]", "D d", "[di]"],
+                ["E e", "[i:]", "F f", "[ef]"],
+                ["G g", "[ji]", "H h", "[eych]"],
+                ["I i", "[ay]", "J j", "[jey]"],
+                ["K k", "[key]", "L l", "[el]"],
+                ["M m", "[em]", "N n", "[en]"],
+                ["O o", "[ou]", "P p", "[pi]"],
+                ["Q q", "[kyu]", "R r", "[a:r]"],
+                ["S s", "[es]", "T t", "[ti]"],
+                ["U u", "[yu]", "V v", "[vi]"],
+                ["W w", "[dabl-yu]", "X x", "[eks]"],
+                ["Y y", "[uay]", "Z z", "[zed] / [zi]"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Unli va undosh harflar",
+              "bodyUz": "Ingliz alifbosida **5 ta unli harf** bor: **A, E, I, O, U** (ba'zan **Y** ham unli vazifasini bajaradi: *my, happy*).\n\nQolgan 21 tasi — undosh harflar.\n\nBuni hoziroq yodlab oling: unli harflar keyinroq **a/an** artiklini tanlashda (a book, an apple) juda kerak bo'ladi!"
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: ismni harflab aytish",
+              "lines": [
+                { "speaker": "A", "en": "What's your name?", "uz": "Ismingiz nima?" },
+                { "speaker": "B", "en": "My name is Aziz.", "uz": "Mening ismim Aziz." },
+                { "speaker": "A", "en": "How do you spell it?", "uz": "Uni qanday harflaysiz?" },
+                { "speaker": "B", "en": "A-Z-I-Z. [ey] - [zed] - [ay] - [zed].", "uz": "A-Z-I-Z harflari bilan." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "O'zbek talabalar eng ko'p adashadigan juftliklar: **E** [i:] va **I** [ay] — nomlari «almashib ketganday» tuyuladi; **G** [ji] va **J** [jey]; **W** [dabl-yu] va **V** [vi]. Telefon raqamingizni yoki ismingizni har kuni bir marta inglizcha harflab ayting — bir haftada avtomatizmga aylanadi!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "Ingliz alifbosida nechta harf bor?",
+              "data": { "options": ["24", "26", "28", "29"] },
+              "answer": { "value": "26" },
+              "explanationUz": "Ingliz alifbosida 26 ta harf bor. 29 — bu o'zbek lotin alifbosidagi belgilar soni, adashtirmang!"
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "VOCABULARY",
+              "promptUz": "Qaysi harflar unli (vowel) hisoblanadi? Hammasini belgilang.",
+              "data": { "options": ["A", "B", "E", "K", "O"] },
+              "answer": { "values": ["A", "E", "O"] },
+              "explanationUz": "Ingliz tilida 5 ta unli harf bor: A, E, I, O, U. B va K — undoshlar."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Harfni uning nomi bilan bog'lang:",
+              "data": {
+                "left": ["A", "E", "I", "G"],
+                "right": ["[ji]", "[ey]", "[i:]", "[ay]"]
+              },
+              "answer": { "pairs": { "A": "[ey]", "E": "[i:]", "I": "[ay]", "G": "[ji]" } },
+              "explanationUz": "Eng «aldamchi» juftlik: E ning nomi [i:], I ning nomi esa [ay]. G — [ji] deb o'qiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«W» harfining inglizcha nomi [dabl-yu] deb o'qiladi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri: W — [dabl-yu] (double U — «ikkita U» degani). V esa [vi] deb o'qiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Bo'sh joyga bitta harf yozing:",
+              "data": { "text": "The word «book» starts with the letter ___." },
+              "answer": { "accept": ["b", "B"] },
+              "explanationUz": "«book» so'zi B harfi bilan boshlanadi. «Starts with» — «... bilan boshlanadi» degani."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "VOCABULARY",
+              "promptUz": "Harflarni alifbo tartibida joylashtiring:",
+              "data": { "items": ["D", "A", "C", "B", "E"] },
+              "answer": { "order": ["A", "B", "C", "D", "E"] },
+              "explanationUz": "Alifbo tartibi: A, B, C, D, E. Lug'atdan so'z izlashda bu tartib juda kerak bo'ladi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "Javobni raqam bilan yozing:",
+              "data": { "text": "How many letters are there in the word «cat»?" },
+              "answer": { "accept": ["3", "three", "Three"] },
+              "explanationUz": "«cat» so'zida 3 ta harf bor: c-a-t. «How many» — «nechta» degan savol."
+            }
+          ]
+        },
+        {
+          "slug": "numbers-1-100-and-age",
+          "titleUz": "Sonlar 1–100 va yosh haqida gapirish",
+          "titleEn": "Numbers 1–100 & talking about age",
+          "skill": "VOCABULARY",
+          "level": "A1",
+          "order": 1,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "1 dan 100 gacha sonlarni ayta olish va yoza olish",
+            "13/30 kabi o'xshash sonlarni (-teen/-ty) farqlash",
+            "«How old are you?» savoliga to'g'ri javob berish"
+          ],
+          "content": [
+            {
+              "type": "table",
+              "titleUz": "1 dan 12 gacha — alohida yodlanadi",
+              "headers": ["Son", "English", "Son", "English"],
+              "rows": [
+                ["1", "one", "7", "seven"],
+                ["2", "two", "8", "eight"],
+                ["3", "three", "9", "nine"],
+                ["4", "four", "10", "ten"],
+                ["5", "five", "11", "eleven"],
+                ["6", "six", "12", "twelve"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "13–19: -teen, o'nliklar: -ty",
+              "bodyUz": "13 dan 19 gacha sonlar **-teen** bilan tugaydi, o'nliklar (20, 30, 40...) esa **-ty** bilan:\n\n- 13 — thir**teen**, 30 — thir**ty**\n- 15 — fif**teen**, 50 — fif**ty**\n\n⚠️ Imloga e'tibor bering:\n- 40 — **forty** (four dagi «u» yo'qoladi!)\n- 15/50 — **fif**teen/**fif**ty (five dagi «v» → «f»)\n\n21 dan boshlab sonlar defis bilan qo'shib yoziladi: 21 — twenty-**one**, 35 — thirty-**five**, 99 — ninety-**nine**. 100 — **one hundred** (yoki a hundred)."
+            },
+            {
+              "type": "table",
+              "titleUz": "Aldamchi juftliklar: -teen va -ty",
+              "headers": ["-teen (13–19)", "-ty (o'nliklar)"],
+              "rows": [
+                ["thirteen (13)", "thirty (30)"],
+                ["fourteen (14)", "forty (40)"],
+                ["fifteen (15)", "fifty (50)"],
+                ["sixteen (16)", "sixty (60)"],
+                ["seventeen (17)", "seventy (70)"],
+                ["eighteen (18)", "eighty (80)"],
+                ["nineteen (19)", "ninety (90)"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Yosh haqida gapirish",
+              "bodyUz": "Yoshni so'rash: **How old are you?** — «Necha yoshdasiz?»\n\nJavob: **I am 18 years old.** yoki qisqa: **I'm 18.**\n\n⚠️ Eng keng tarqalgan xato: ❌ *I have 18 years* — bunday deyilmaydi! O'zbekcha «men 18 yoshdaman» iborasi inglizchada **to be** orqali beriladi: ✅ *I **am** 18 (years old)*.\n\nBoshqalar haqida: *My brother **is** 25 years old. How old **is** your mother?*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I am nineteen years old.", "uz": "Men o'n to'qqiz yoshdaman." },
+                { "en": "My grandmother is seventy-two.", "uz": "Buvim yetmish ikki yoshda." },
+                { "en": "There are thirty-three pupils in our class.", "uz": "Sinfimizda o'ttiz uch o'quvchi bor." },
+                { "en": "How old is your sister? — She is eleven.", "uz": "Singlingiz necha yoshda? — U o'n bir yoshda." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Listening imtihonida 13 va 30 ni farqlash tez-tez tekshiriladi! Sirni eslab qoling: **-teen** sonlarda urg'u OXIRGI bo'g'inda (thir-TEEN), **-ty** sonlarda esa BIRINCHI bo'g'inda (THIR-ty). Yana: yuzliklarda -s qo'shilmaydi — ❌ two hundreds → ✅ two hundred."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "«15» soni inglizchada qanday yoziladi?",
+              "data": { "options": ["fiveteen", "fifteen", "fifty", "fivety"] },
+              "answer": { "value": "fifteen" },
+              "explanationUz": "15 = fifteen (five dagi «v» tovushi «f» ga aylanadi). fifty — bu 50; «fiveteen» degan so'z mavjud emas."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Sonni so'z bilan yozing:",
+              "data": { "text": "My grandfather is ___ (90) years old." },
+              "answer": { "accept": ["ninety"] },
+              "explanationUz": "90 = ninety. nineteen (19) bilan adashtirmang: o'nliklar -ty bilan tugaydi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Raqamni so'z bilan bog'lang:",
+              "data": {
+                "left": ["12", "13", "20", "30"],
+                "right": ["thirty", "twelve", "twenty", "thirteen"]
+              },
+              "answer": { "pairs": { "12": "twelve", "13": "thirteen", "20": "twenty", "30": "thirty" } },
+              "explanationUz": "12 — twelve (istisno so'z), 13 — thirteen (-teen), 20 — twenty va 30 — thirty (-ty)."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«40» soni inglizchada «fourty» deb yoziladi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri! 40 = forty — «u» harfi yozilmaydi. Bu imtihonlardagi eng mashhur imlo tuzog'i."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "«How old are you?» savoliga TO'G'RI javobni tanlang:",
+              "data": { "options": ["I have 19 years.", "I am 19 years old.", "I are 19 years old.", "Me 19 years."] },
+              "answer": { "value": "I am 19 years old." },
+              "explanationUz": "Yosh «to be» bilan aytiladi: I am 19 (years old). «I have 19 years» — o'zbek/rus tilidan noto'g'ri ko'chirma, inglizchada bunday deyilmaydi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "«21» sonini inglizcha so'z bilan yozing:",
+              "data": { "text": "21 = ?" },
+              "answer": { "accept": ["twenty-one", "twenty one"] },
+              "explanationUz": "21 dan 99 gacha qo'shma sonlar defis bilan yoziladi: twenty-one, thirty-five, ninety-nine."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "VOCABULARY",
+              "promptUz": "Sonlarni kichikdan kattaga qarab tartiblang:",
+              "data": { "items": ["forty", "four", "one hundred", "fourteen"] },
+              "answer": { "order": ["four", "fourteen", "forty", "one hundred"] },
+              "explanationUz": "four (4) → fourteen (14) → forty (40) → one hundred (100). -teen har doim -ty dan kichik ekanini eslang."
+            }
+          ]
+        },
+        {
+          "slug": "personal-pronouns-to-be",
+          "titleUz": "Shaxs olmoshlari va «to be» (kirish)",
+          "titleEn": "Personal pronouns & 'to be' (introduction)",
+          "skill": "GRAMMAR",
+          "level": "A1",
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "7 ta shaxs olmoshini to'g'ri tanlash",
+            "Har bir olmoshga mos am/is/are ni qo'yish",
+            "O'zi haqida 3–4 ta sodda gap tuza olish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Shaxs olmoshlari: kim haqida gapiryapmiz?",
+              "bodyUz": "Ingliz tilida 7 ta asosiy shaxs olmoshi bor: **I, you, he, she, it, we, they**.\n\n⚠️ O'zbek tilida «u» so'zi hamma narsaga to'g'ri keladi, ingliz tilida esa UCH xil «u» bor:\n\n- **he** — u (erkak kishi): otam, akam, Aziz\n- **she** — u (ayol kishi): onam, opam, Malika\n- **it** — u (narsa, hayvon, joy): kitob, mushuk, Toshkent\n\nYana bir farq: o'zbekchada «sen» va «siz» bor, inglizchada ikkalasi ham **you**. Va e'tibor bering: **I** (men) har doim, hatto gap o'rtasida ham BOSH harf bilan yoziladi!"
+            },
+            {
+              "type": "table",
+              "titleUz": "Olmoshlar va «to be» shakllari",
+              "headers": ["Olmosh", "Tarjima", "to be", "Misol"],
+              "rows": [
+                ["I", "men", "am", "I am happy."],
+                ["you", "sen / siz", "are", "You are my friend."],
+                ["he", "u (erkak)", "is", "He is a doctor."],
+                ["she", "u (ayol)", "is", "She is my sister."],
+                ["it", "u (narsa/hayvon)", "is", "It is a book."],
+                ["we", "biz", "are", "We are students."],
+                ["they", "ular", "are", "They are teachers."]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I am from Uzbekistan.", "uz": "Men O'zbekistondanman." },
+                { "en": "She is my English teacher.", "uz": "U mening ingliz tili o'qituvchim." },
+                { "en": "Tashkent is a big city. It is beautiful.", "uz": "Toshkent — katta shahar. U go'zal." },
+                { "en": "We are friends.", "uz": "Biz do'stmiz." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Qisqartmalar — og'zaki nutqning kaliti",
+              "bodyUz": "Og'zaki nutqda deyarli har doim qisqartma ishlatiladi:\n\n- I am → **I'm** • you are → **you're** • he is → **he's**\n- she is → **she's** • it is → **it's** • we are → **we're** • they are → **they're**\n\n*I'm Aziz. She's my sister. They're from Bukhara.*\n\nHozircha shu uchta qolipni yod oling: **I'm ... / He's ... / We're ...** — keyingi darslarda ular hamma joyda uchraydi."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Oltin qoida: narsa va hayvonlar haqida «he/she» demang! ❌ *My phone — he is new* → ✅ *My phone? **It** is new.* Va yana: «I» dan keyin faqat **am**, «he/she/it» dan keyin faqat **is**, qolganlarida (**you/we/they**) — **are**. Shu uchlikni yodlab olsangiz, A1 grammatikaning yarmi cho'ntagingizda!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«Mening singlim» o'rniga qaysi olmosh ishlatiladi?",
+              "data": { "options": ["he", "she", "it", "they"] },
+              "answer": { "value": "she" },
+              "explanationUz": "Singil — ayol kishi, shuning uchun «she». «He» — erkaklar, «it» — narsa va hayvonlar uchun."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "___ am a pupil.", "options": ["I", "He", "They", "You"] },
+              "answer": { "value": "I" },
+              "explanationUz": "«am» faqat «I» bilan ishlatiladi: I am a pupil. — Men o'quvchiman."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyga mos olmoshni yozing:",
+              "data": { "text": "My father is a driver. ___ is 45 years old." },
+              "answer": { "accept": ["He", "he"] },
+              "explanationUz": "Ota — erkak kishi, shuning uchun «he» olmoshi ishlatiladi: He is 45 years old."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Olmoshni mos gap oxiri bilan bog'lang:",
+              "data": {
+                "left": ["I", "He", "We", "It"],
+                "right": ["is my cat", "am a doctor", "is my brother", "are students"]
+              },
+              "answer": { "pairs": { "I": "am a doctor", "He": "is my brother", "We": "are students", "It": "is my cat" } },
+              "explanationUz": "I + am; he + is (odam, erkak); we + are (ko'plik); it + is (hayvon — mushuk)."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Kitob haqida gapirganda «it» olmoshi ishlatiladi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri: kitob — narsa, narsalar uchun «it» ishlatiladi. «He/she» faqat odamlar uchun."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlardan gap tuzing:",
+              "data": { "items": ["is", "she", "teacher", "a"] },
+              "answer": { "order": ["she", "is", "a", "teacher"] },
+              "explanationUz": "Inglizcha gap tartibi: Ega + fe'l + qolgan qism → She is a teacher. (U o'qituvchi.)"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyga mos olmoshni yozing:",
+              "data": { "text": "Aziza and Malika are my friends. ___ are students." },
+              "answer": { "accept": ["They", "they"] },
+              "explanationUz": "Aziza va Malika — ikki kishi (ko'plik), shuning uchun «they» (ular): They are students."
+            }
+          ]
+        },
+        {
+          "slug": "this-that-these-those",
+          "titleUz": "This / that / these / those: ko'rsatish so'zlari",
+          "titleEn": "This / that / these / those",
+          "skill": "GRAMMAR",
+          "level": "A1",
+          "order": 3,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "Yaqin va uzoqdagi narsalarni to'g'ri ko'rsatish",
+            "Birlik va ko'plikda this/these, that/those ni farqlash",
+            "«What is this?» savoliga javob berish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "To'rt so'z — ikkita savol",
+              "bodyUz": "Narsani ko'rsatib gapirganda ikkita savolga javob beramiz:\n\n1. **Yaqinmi yoki uzoqmi?**\n2. **Bittami yoki ko'pmi?**\n\n- **this** — bu (yaqin, bitta): *this book* — bu kitob\n- **that** — u / ana u (uzoq, bitta): *that car* — ana u mashina\n- **these** — bular (yaqin, ko'p): *these books* — bu kitoblar\n- **those** — ana ular (uzoq, ko'p): *those cars* — ana u mashinalar\n\nQo'lingizdagi narsa — **this**, xona narigi burchagidagi narsa — **that**."
+            },
+            {
+              "type": "table",
+              "titleUz": "Jadval: to'rt so'z bir qarashda",
+              "headers": ["", "Yaqin (bu yerda)", "Uzoq (u yerda)"],
+              "rows": [
+                ["Birlik (1 ta)", "this — bu", "that — u, ana u"],
+                ["Ko'plik (2+ ta)", "these — bular", "those — ana ular"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "This is my book.", "uz": "Bu mening kitobim." },
+                { "en": "That is your pen over there.", "uz": "Ana u yerdagi — sizning ruchkangiz." },
+                { "en": "These are my keys.", "uz": "Bular mening kalitlarim." },
+                { "en": "Those are our bags.", "uz": "Ana ular bizning sumkalarimiz." }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: do'konda",
+              "lines": [
+                { "speaker": "A", "en": "What is this?", "uz": "Bu nima?" },
+                { "speaker": "B", "en": "It's a souvenir from Samarkand.", "uz": "Bu Samarqanddan olingan esdalik sovg'a." },
+                { "speaker": "A", "en": "And what are those?", "uz": "Ana ular-chi, nima?" },
+                { "speaker": "B", "en": "They're plates. They are very beautiful.", "uz": "Ular likopchalar. Ular juda chiroyli." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Ikki muhim nuqta: 1) Talaffuz: **this** [ðis] — qisqa «i», **these** [ði:z] — cho'ziq «i:». Listening'da aynan shu farq tekshiriladi. 2) Eng ko'p xato — birlik/ko'plikni aralashtirish: ❌ *this books* → ✅ *this book* yoki *these books*. Ko'plik qo'shimchasi -s ni ko'rsangiz, faqat these/those!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qo'lingizdagi BITTA kitob haqida gapiryapsiz. To'g'ri variantni tanlang:",
+              "data": { "text": "___ is my book.", "options": ["This", "These", "Those", "They"] },
+              "answer": { "value": "This" },
+              "explanationUz": "Yaqin (qo'limizda) va bitta narsa — «this»: This is my book."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Uzoqdagi KO'P narsalar uchun qaysi so'z ishlatiladi?",
+              "data": { "options": ["this", "that", "these", "those"] },
+              "answer": { "value": "those" },
+              "explanationUz": "Uzoq + ko'plik = those: Those are our bags. (Ana ular bizning sumkalarimiz.)"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (yaqin, ko'plik):",
+              "data": { "text": "___ shoes are new. I like them!" },
+              "answer": { "accept": ["These", "these"] },
+              "explanationUz": "«shoes» — ko'plik, narsalar yaqinimizda → These shoes are new."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu gap grammatik jihatdan to'g'rimi?",
+              "data": { "statement": "This are my friends." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri: «friends» ko'plik, shuning uchun «These are my friends» bo'lishi kerak. This — faqat birlik bilan."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Inglizcha so'zni o'zbekcha tarjimasi bilan bog'lang:",
+              "data": {
+                "left": ["this", "that", "these", "those"],
+                "right": ["ana ular", "bu", "bular", "ana u"]
+              },
+              "answer": { "pairs": { "this": "bu", "that": "ana u", "these": "bular", "those": "ana ular" } },
+              "explanationUz": "this — bu, that — ana u, these — bular, those — ana ular. -ese/-ose bilan tugaganlari ko'plik."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'roq gap tuzing:",
+              "data": { "items": ["your", "that", "car", "is"] },
+              "answer": { "order": ["is", "that", "your", "car"] },
+              "explanationUz": "So'roqda «to be» gap boshiga chiqadi: Is that your car? (Ana u sizning mashinangizmi?)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "first-words",
+      "titleUz": "Ilk so'zlar va iboralar",
+      "descriptionUz": "Kundalik hayotda birinchi bo'lib kerak bo'ladigan narsalar: salomlashish va xayrlashish, kasblar, ranglar, a/an artikllari va otlarning ko'plik shakli.",
+      "order": 1,
+      "lessons": [
+        {
+          "slug": "greetings-and-farewells",
+          "titleUz": "Salomlashish va xayrlashish",
+          "titleEn": "Greetings and farewells",
+          "skill": "SPEAKING",
+          "level": "A1",
+          "order": 0,
+          "estimatedMinutes": 15,
+          "objectivesUz": [
+            "Kun vaqtiga mos salomlashishni tanlash",
+            "«How are you?» savoliga tabiiy javob berish",
+            "Xayrlashish iboralarini to'g'ri ishlatish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Salomlashish: rasmiy va do'stona",
+              "bodyUz": "Ingliz tilida salomlashish kun vaqtiga qarab o'zgaradi:\n\n- **Good morning!** — Xayrli tong! (ertalabdan tushgacha)\n- **Good afternoon!** — Xayrli kun! (tushdan keyin, ~18:00 gacha)\n- **Good evening!** — Xayrli kech! (kechqurun)\n\nDo'stona muloqotda esa universal: **Hello!** (har doim mos) va **Hi!** (do'stlar orasida).\n\n⚠️ Diqqat: **Good night!** salomlashish EMAS! Bu «Xayrli tun» — uxlash oldidan yoki kechqurun xayrlashayotganda aytiladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Iboralar jadvali",
+              "headers": ["Ibora", "Qachon ishlatiladi", "Tarjima"],
+              "rows": [
+                ["Hello! / Hi!", "istalgan vaqtda", "Salom!"],
+                ["Good morning!", "ertalab", "Xayrli tong!"],
+                ["Good afternoon!", "tushdan keyin", "Xayrli kun!"],
+                ["Good evening!", "kechqurun (salomlashish)", "Xayrli kech!"],
+                ["Good night!", "uxlash oldidan (xayrlashish!)", "Xayrli tun!"],
+                ["Goodbye! / Bye!", "xayrlashishda", "Xayr!"],
+                ["See you later!", "xayrlashishda", "Ko'rishguncha!"]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: ko'chada uchrashuv",
+              "lines": [
+                { "speaker": "A", "en": "Good morning, Dilnoza! How are you?", "uz": "Xayrli tong, Dilnoza! Qalaysiz?" },
+                { "speaker": "B", "en": "I'm fine, thank you. And you?", "uz": "Yaxshiman, rahmat. O'zingiz-chi?" },
+                { "speaker": "A", "en": "I'm OK, thanks.", "uz": "Men ham yaxshiman, rahmat." },
+                { "speaker": "B", "en": "Sorry, I must go. See you later!", "uz": "Kechirasiz, ketishim kerak. Ko'rishguncha!" },
+                { "speaker": "A", "en": "Bye!", "uz": "Xayr!" }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "«How are you?» — savol va javoblar",
+              "bodyUz": "**How are you?** — «Qalaysiz? / Yaxshimisiz?»\n\nTabiiy javoblar:\n\n- *I'm fine, thank you. And you?* — Yaxshiman, rahmat. O'zingiz-chi?\n- *I'm OK, thanks.* — Yomon emas, rahmat.\n- *Not bad.* — Yomonmas.\n\nMuhim odat: javobdan keyin **And you?** deb qaytarib so'rash — bu xushmuomalalik belgisi. Faqat «Fine» deb qo'yish biroz quruq eshitiladi."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "O'zbek tilidagi «Assalomu alaykum» rasmiy va hurmatli — inglizchada bunga eng yaqini «Good morning/afternoon/evening». «Hi» esa faqat tengdoshlar va do'stlar bilan. Imtihonda examiner bilan «Good afternoon» deb salomlashsangiz — juda chiroyli taassurot qoldirasiz!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Ertalab soat 9 da nima deb salomlashamiz?",
+              "data": { "options": ["Good night", "Good morning", "Good evening", "Good afternoon"] },
+              "answer": { "value": "Good morning" },
+              "explanationUz": "Ertalab — Good morning. Good afternoon — tushdan keyin, Good evening — kechqurun, Good night esa umuman salomlashish emas."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«Good night!» iborasi bilan odamlar bilan salomlashamiz." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri! Good night — xayrlashish iborasi, uxlash oldidan aytiladi. Kechqurun salomlashish uchun Good evening ishlatiladi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "Iborani vaziyat bilan bog'lang:",
+              "data": {
+                "left": ["Good morning", "Good afternoon", "Good evening", "Good night"],
+                "right": ["kechqurun salomlashish", "ertalab salomlashish", "uxlash oldidan xayrlashish", "tushdan keyin salomlashish"]
+              },
+              "answer": { "pairs": { "Good morning": "ertalab salomlashish", "Good afternoon": "tushdan keyin salomlashish", "Good evening": "kechqurun salomlashish", "Good night": "uxlash oldidan xayrlashish" } },
+              "explanationUz": "morning — tong, afternoon — tushdan keyin, evening — kech. Night bilan esa faqat xayrlashamiz."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Suhbatni to'ldiring:",
+              "data": { "text": "A: How are you? — B: I'm ___, thank you. And you?" },
+              "answer": { "accept": ["fine", "OK", "ok", "good", "well"] },
+              "explanationUz": "Standart javob: I'm fine, thank you. «OK», «good», «well» ham to'g'ri javoblar."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "Suhbat qatorlarini to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["And you?", "Hi, Aziz!", "I'm fine, thanks.", "How are you?"] },
+              "answer": { "order": ["Hi, Aziz!", "How are you?", "I'm fine, thanks.", "And you?"] },
+              "explanationUz": "Avval salomlashamiz (Hi!), keyin hol-ahvol so'raymiz (How are you?), javob beramiz (I'm fine) va qaytarib so'raymiz (And you?)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Xayrlashish uchun qaysi ibora ISHLATILMAYDI?",
+              "data": { "options": ["Goodbye!", "See you later!", "Good morning!", "Bye!"] },
+              "answer": { "value": "Good morning!" },
+              "explanationUz": "Good morning — salomlashish iborasi. Qolgan uchtasi (Goodbye, See you later, Bye) — xayrlashish uchun."
+            }
+          ]
+        },
+        {
+          "slug": "jobs-what-do-you-do",
+          "titleUz": "Kasblar va «What do you do?»",
+          "titleEn": "Jobs & 'What do you do?'",
+          "skill": "VOCABULARY",
+          "level": "A1",
+          "order": 1,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "10 dan ortiq kasb nomini o'rganish",
+            "«What do you do?» savolini tushunish va javob berish",
+            "Kasb oldida a/an artiklini unutmaslik"
+          ],
+          "content": [
+            {
+              "type": "table",
+              "titleUz": "Kasblar lug'ati",
+              "headers": ["English", "O'zbekcha", "English", "O'zbekcha"],
+              "rows": [
+                ["teacher", "o'qituvchi", "doctor", "shifokor"],
+                ["nurse", "hamshira", "driver", "haydovchi"],
+                ["engineer", "muhandis", "farmer", "fermer / dehqon"],
+                ["cook / chef", "oshpaz", "shop assistant", "sotuvchi"],
+                ["builder", "quruvchi", "student", "talaba"],
+                ["pupil", "o'quvchi", "waiter", "ofitsiant"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "«What do you do?» — bu qanday savol?",
+              "bodyUz": "**What do you do?** so'zma-so'z «Nima qilasiz?» bo'lsa ham, aslida **«Kasbingiz nima?»** degan savol!\n\nJavob qolipi: **I am a/an + kasb.**\n\n- *What do you do? — I am a teacher.* (Men o'qituvchiman.)\n- *What does your father do? — He is a farmer.* (U fermer.)\n\n⚠️ ENG MUHIM QOIDA: O'zbek tilida artikl degan narsa umuman yo'q, shuning uchun uni tushirib qoldirish — o'zbek talabalarning 1-raqamli xatosi. Ingliz tilida bitta sanaladigan kasb/narsa oldidan **albatta a yoki an** kerak:\n\n❌ *I am teacher.* → ✅ *I am **a** teacher.*\n❌ *He is engineer.* → ✅ *He is **an** engineer.*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I am a student.", "uz": "Men talabaman." },
+                { "en": "My mother is a nurse.", "uz": "Onam hamshira." },
+                { "en": "He is an engineer.", "uz": "U muhandis." },
+                { "en": "My brothers are builders.", "uz": "Akalarim quruvchi." }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: kasb haqida",
+              "lines": [
+                { "speaker": "A", "en": "What do you do?", "uz": "Kasbingiz nima?" },
+                { "speaker": "B", "en": "I'm a student. I study at college. What about you?", "uz": "Men talabaman. Kollejda o'qiyman. O'zingiz-chi?" },
+                { "speaker": "A", "en": "I'm an English teacher.", "uz": "Men ingliz tili o'qituvchisiman." },
+                { "speaker": "B", "en": "Oh, great! And what does your wife do?", "uz": "Zo'r-ku! Turmush o'rtog'ingiz nima ish qiladi?" },
+                { "speaker": "A", "en": "She's a doctor.", "uz": "U shifokor." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Ko'p kasb nomlari fe'lga **-er/-or** qo'shib yasaladi: teach (o'qitmoq) → teach**er**, drive (haydamoq) → driv**er**, build (qurmoq) → build**er**, work (ishlamoq) → work**er**. Yangi fe'l o'rgansangiz, undan kasb yasab ko'ring — lug'atingiz ikki baravar tez o'sadi! Ko'plikda esa artikl kerak emas: *They are doctors.*"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "«Shifokor» inglizchada qanday bo'ladi?",
+              "data": { "options": ["teacher", "doctor", "driver", "farmer"] },
+              "answer": { "value": "doctor" },
+              "explanationUz": "doctor — shifokor. teacher — o'qituvchi, driver — haydovchi, farmer — fermer."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyga artikl yozing:",
+              "data": { "text": "My mother is ___ teacher." },
+              "answer": { "accept": ["a"] },
+              "explanationUz": "«teacher» undosh tovush bilan boshlanadi → «a»: a teacher. Kasb oldida artikl majburiy!"
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["He is engineer.", "He is a engineer.", "He is an engineer.", "He an engineer is."] },
+              "answer": { "value": "He is an engineer." },
+              "explanationUz": "«engineer» unli tovush bilan boshlanadi → «an». Artiklsiz (He is engineer) — xato, chunki kasb oldida a/an majburiy."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Kasbni tarjimasi bilan bog'lang:",
+              "data": {
+                "left": ["teacher", "driver", "cook", "builder"],
+                "right": ["quruvchi", "o'qituvchi", "haydovchi", "oshpaz"]
+              },
+              "answer": { "pairs": { "teacher": "o'qituvchi", "driver": "haydovchi", "cook": "oshpaz", "builder": "quruvchi" } },
+              "explanationUz": "Hammasi fe'ldan yasalgan: teach → teacher, drive → driver, cook → cook, build → builder."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«What do you do?» savoli insonning kasbi haqida so'raydi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri: «What do you do?» = «Kasbingiz nima?». Javob: I am a/an + kasb."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "Fe'ldan kasb nomini yasang:",
+              "data": { "text": "teach → ?" },
+              "answer": { "accept": ["teacher", "a teacher"] },
+              "explanationUz": "teach (o'qitmoq) + -er = teacher (o'qituvchi). Xuddi shunday: drive → driver, build → builder."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlardan gap tuzing:",
+              "data": { "items": ["a", "driver", "my brother", "is"] },
+              "answer": { "order": ["my brother", "is", "a", "driver"] },
+              "explanationUz": "Ega + to be + a/an + kasb: My brother is a driver. (Akam haydovchi.)"
+            }
+          ]
+        },
+        {
+          "slug": "colours-and-articles",
+          "titleUz": "Ranglar, narsalar va a/an artikllari",
+          "titleEn": "Colours, things & the articles a/an",
+          "skill": "VOCABULARY",
+          "level": "A1",
+          "order": 2,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "10 ta rang nomini o'rganish",
+            "a va an ni tovushga qarab to'g'ri tanlash",
+            "«Artikl + rang + narsa» tartibida so'z birikmasi tuzish"
+          ],
+          "content": [
+            {
+              "type": "table",
+              "titleUz": "Ranglar lug'ati",
+              "headers": ["English", "O'zbekcha", "English", "O'zbekcha"],
+              "rows": [
+                ["red", "qizil", "blue", "ko'k"],
+                ["green", "yashil", "yellow", "sariq"],
+                ["black", "qora", "white", "oq"],
+                ["brown", "jigarrang", "orange", "to'q sariq"],
+                ["pink", "pushti", "grey", "kulrang"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Artikl nima va nega u bizga «g'alati»?",
+              "bodyUz": "O'zbek tilida artikl umuman YO'Q — shuning uchun bu mavzu boshida g'alati tuyuladi. Lekin qoida juda sodda:\n\nIngliz tilida **bitta sanaladigan narsa** oldidan doim kichkina «yordamchi so'z» — **a** yoki **an** qo'yiladi. U «bitta, qandaydir» degan ma'noni beradi:\n\n- **a** + undosh TOVUSH: *a book* (kitob), *a pen* (ruchka), *a red apple*\n- **an** + unli TOVUSH (a, e, i, o, u): *an apple* (olma), *an egg* (tuxum), *an orange*\n\n⚠️ E'tibor bering: a/an KEYINGI so'zning birinchi tovushiga qaraydi:\n- *an apple* — lekin — *a **red** apple* (chunki endi keyingi so'z «red»)\n- *a book* — lekin — *an **old** book*"
+            },
+            {
+              "type": "theory",
+              "titleUz": "So'z tartibi: artikl + rang + narsa",
+              "bodyUz": "Rang sifati narsadan OLDIN keladi, artikl esa eng boshida:\n\n**a/an + rang + narsa**\n\n- *a red car* — qizil mashina\n- *a white cat* — oq mushuk\n- *an orange ball* — to'q sariq to'p\n\n❌ *a car red* — noto'g'ri tartib!\n\nRang haqida so'rash: **What colour is it?** — *It is blue.* (U ko'k rangda.)"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "It is a blue pen.", "uz": "Bu ko'k ruchka." },
+                { "en": "This is an orange.", "uz": "Bu apelsin." },
+                { "en": "I have a black cat.", "uz": "Menda qora mushuk bor." },
+                { "en": "That is an old book.", "uz": "Ana u — eski kitob." },
+                { "en": "What colour is your bag? — It's brown.", "uz": "Sumkangiz qanday rangda? — Jigarrang." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Artiklni tushirib qoldirish — o'zbek talabalarning writing va speakingdagi eng ko'p xatosi, chunki ona tilimizda u yo'q. Oddiy qoida yodlab oling: «BITTA sanaladigan narsa — oldida ALBATTA biror so'z bo'ladi: a/an, the, my, this...» Yolg'iz «I am student», «I have car» deb hech qachon yozmang: «I am **a** student», «I have **a** car»!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "This is ___ apple.", "options": ["a", "an", "artiklsiz", "a the"] },
+              "answer": { "value": "an" },
+              "explanationUz": "«apple» unli tovush [æ] bilan boshlanadi → «an apple»."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyga a yoki an yozing:",
+              "data": { "text": "It is ___ big banana." },
+              "answer": { "accept": ["a"] },
+              "explanationUz": "Artikl KEYINGI so'zga qaraydi: «big» undosh [b] bilan boshlanadi → «a big banana»."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "«Yashil» inglizchada qanday bo'ladi?",
+              "data": { "options": ["yellow", "green", "grey", "brown"] },
+              "answer": { "value": "green" },
+              "explanationUz": "green — yashil. yellow — sariq, grey — kulrang, brown — jigarrang."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi so'zlar oldidan «an» ishlatiladi? Hammasini belgilang.",
+              "data": { "options": ["egg", "pen", "umbrella", "table", "orange"] },
+              "answer": { "values": ["egg", "umbrella", "orange"] },
+              "explanationUz": "egg, umbrella, orange — unli tovush bilan boshlanadi → an. pen va table undosh bilan boshlanadi → a."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Rangni tarjimasi bilan bog'lang:",
+              "data": {
+                "left": ["red", "black", "white", "yellow"],
+                "right": ["sariq", "qizil", "oq", "qora"]
+              },
+              "answer": { "pairs": { "red": "qizil", "black": "qora", "white": "oq", "yellow": "sariq" } },
+              "explanationUz": "red — qizil, black — qora, white — oq, yellow — sariq. Bu to'rt rang imtihonda eng ko'p uchraydi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«I am a student» gapida «a» artikli kerak emas." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri fikr! Kasb va maqom oldidan artikl MAJBURIY: I am a student. O'zbekchada artikl yo'qligi uni tushirib qoldirishga sabab bo'lmasin."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlardan gap tuzing:",
+              "data": { "items": ["car", "a", "is", "this", "red"] },
+              "answer": { "order": ["this", "is", "a", "red", "car"] },
+              "explanationUz": "This is + a + rang + narsa: This is a red car. Rang doim narsadan oldin keladi."
+            }
+          ]
+        },
+        {
+          "slug": "plural-nouns",
+          "titleUz": "Ko'plik: -s va -es qo'shimchalari",
+          "titleEn": "Plural nouns: -s and -es",
+          "skill": "GRAMMAR",
+          "level": "A1",
+          "order": 3,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "-s va -es qo'shish qoidalarini bilish",
+            "Eng muhim noto'g'ri ko'pliklarni (man→men, child→children) yodlash",
+            "Ko'plik bilan a/an ishlatilmasligini tushunish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Asosiy qoida: + s",
+              "bodyUz": "O'zbek tilida ko'plik uchun «-lar» qo'shamiz, ingliz tilida esa **-s**:\n\n- book → book**s** (kitoblar)\n- pen → pen**s** (ruchkalar)\n- car → car**s** (mashinalar)\n\nJuda sodda! Lekin uchta maxsus holat bor — ularni keyingi bo'limda ko'ramiz."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Maxsus holatlar: -es va -ies",
+              "bodyUz": "1) So'z **-s, -sh, -ch, -x, -o** bilan tugasa → **-es** qo'shiladi:\n- bus → bus**es**, watch → watch**es**, box → box**es**, potato → potato**es**\n\n2) So'z **undosh + y** bilan tugasa → y tushib, **-ies** qo'shiladi:\n- baby → bab**ies**, city → cit**ies**, family → famil**ies**\n\n3) Lekin **unli + y** bo'lsa, oddiy -s: boy → boy**s**, day → day**s**\n\nTalaffuz: buses, watches dagi -es [iz] deb o'qiladi — «two buses» [tu: basiz]."
+            },
+            {
+              "type": "table",
+              "titleUz": "Noto'g'ri (irregular) ko'pliklar — yodlash SHART",
+              "headers": ["Birlik", "Ko'plik", "Tarjima"],
+              "rows": [
+                ["man", "men", "erkak(lar)"],
+                ["woman", "women", "ayol(lar)"],
+                ["child", "children", "bola(lar)"],
+                ["person", "people", "odam(lar)"],
+                ["foot", "feet", "oyoq(lar)"],
+                ["tooth", "teeth", "tish(lar)"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "one book — two books", "uz": "bitta kitob — ikkita kitob" },
+                { "en": "one bus — three buses", "uz": "bitta avtobus — uchta avtobus" },
+                { "en": "one child — four children", "uz": "bitta bola — to'rtta bola" },
+                { "en": "There are many people in the bazaar.", "uz": "Bozorda odamlar ko'p." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Ikkita tuzoqdan ehtiyot bo'ling: 1) Ko'plik bilan a/an ISHLATILMAYDI: ❌ *a books* → ✅ *books*. 2) Noto'g'ri ko'plikka yana -s qo'shmang: ❌ *childrens*, ❌ *peoples* → ✅ *children*, ✅ *people*. Va esingizda bo'lsin: sondan keyin ham ko'plik kerak — *two brother* emas, *two brother**s***!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«box» so'zining ko'pligi qanday?",
+              "data": { "options": ["boxs", "boxes", "boxies", "boxen"] },
+              "answer": { "value": "boxes" },
+              "explanationUz": "-x bilan tugagan so'zlarga -es qo'shiladi: box → boxes."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi so'zni ko'plikda yozing:",
+              "data": { "text": "I have two ___ (child)." },
+              "answer": { "accept": ["children"] },
+              "explanationUz": "child — noto'g'ri ko'plikli so'z: child → children. «childs» yoki «childrens» — xato!"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavsdagi so'zni ko'plikda yozing:",
+              "data": { "text": "We can see three ___ (bus) in the street." },
+              "answer": { "accept": ["buses"] },
+              "explanationUz": "-s bilan tugagan so'zga -es qo'shiladi: bus → buses (talaffuzi [basiz])."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Birlikni ko'plik bilan bog'lang:",
+              "data": {
+                "left": ["man", "woman", "foot", "tooth"],
+                "right": ["teeth", "men", "feet", "women"]
+              },
+              "answer": { "pairs": { "man": "men", "woman": "women", "foot": "feet", "tooth": "teeth" } },
+              "explanationUz": "Bular noto'g'ri ko'pliklar: ichki unli o'zgaradi: man→men, woman→women, foot→feet, tooth→teeth."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«childs» — «child» so'zining to'g'ri ko'plik shakli." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri: child ning ko'pligi children. Bu noto'g'ri (irregular) ko'plik — alohida yodlanadi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["I have two brother.", "I have two brothers.", "I have a two brothers.", "I have two brotheres."] },
+              "answer": { "value": "I have two brothers." },
+              "explanationUz": "Sondan keyin ot ko'plikda bo'ladi: two brothers. Ko'plik oldidan «a» ishlatilmaydi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "«baby» so'zining ko'pligini yozing:",
+              "data": { "text": "baby → ?" },
+              "answer": { "accept": ["babies"] },
+              "explanationUz": "undosh + y → y tushadi, -ies qo'shiladi: baby → babies. (Lekin boy → boys, chunki u yerda unli + y.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "simple-sentences",
+      "titleUz": "Oddiy gaplar tuzamiz",
+      "descriptionUz": "Endi gap qoliplari: have got bilan egalik, can bilan qobiliyat, there is/are bilan mavjudlik va kunlar-oylar bilan «When...?» savollari. Modul oxirida siz o'zingiz, oilangiz va atrofingiz haqida bemalol gapira olasiz.",
+      "order": 2,
+      "lessons": [
+        {
+          "slug": "have-got-possession",
+          "titleUz": "Have got: «menda ... bor»",
+          "titleEn": "Have got: possession",
+          "skill": "GRAMMAR",
+          "level": "A1",
+          "order": 0,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "have got / has got ni egaga moslash",
+            "Inkor (haven't/hasn't got) va so'roq (Have you got...?) tuzish",
+            "Oila va buyumlar haqida gapirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "«Menda ... bor» qanday aytiladi?",
+              "bodyUz": "O'zbekcha «Menda telefon bor» gapi inglizchada **have got** bilan aytiladi:\n\n- **I/you/we/they + have got**: *I have got a phone.* — Menda telefon bor.\n- **he/she/it + has got**: *She has got two sisters.* — Uning ikkita opa-singlisi bor.\n\nOg'zaki nutqda deyarli doim qisqartma ishlatiladi:\n- I have got → **I've got** • He has got → **He's got**\n\n⚠️ Diqqat: *He's got* dagi **'s = has** (is emas!): He's got a car = He HAS got a car."
+            },
+            {
+              "type": "table",
+              "titleUz": "Darak, inkor va so'roq",
+              "headers": ["Shakl", "I / you / we / they", "he / she / it"],
+              "rows": [
+                ["Darak (+)", "I have got a bike.", "She has got a bike."],
+                ["Inkor (−)", "We haven't got a car.", "He hasn't got a car."],
+                ["So'roq (?)", "Have you got a pen?", "Has she got a pen?"],
+                ["Qisqa javob", "Yes, I have. / No, I haven't.", "Yes, she has. / No, she hasn't."]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I have got a bicycle.", "uz": "Menda velosiped bor." },
+                { "en": "She has got two sisters.", "uz": "Uning ikkita opa-singlisi bor." },
+                { "en": "We haven't got a car.", "uz": "Bizda mashina yo'q." },
+                { "en": "Have you got a pen? — Yes, I have.", "uz": "Sizda ruchka bormi? — Ha, bor." }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: oila haqida",
+              "lines": [
+                { "speaker": "A", "en": "Have you got any brothers or sisters?", "uz": "Aka-uka yoki opa-singillaringiz bormi?" },
+                { "speaker": "B", "en": "Yes, I've got one brother. His name is Timur.", "uz": "Ha, bitta ukam bor. Ismi Timur." },
+                { "speaker": "A", "en": "Has he got a phone?", "uz": "Uning telefoni bormi?" },
+                { "speaker": "B", "en": "No, he hasn't. He is only six years old!", "uz": "Yo'q. U endigina olti yoshda!" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Ingliz tilida egalikni **I have a car** deb ham aytish mumkin (ayniqsa Amerika inglizchasida) — ikkalasi ham to'g'ri va imtihonda ikkalasi ham qabul qilinadi. Eng katta xato esa aralashtirish: ❌ *He have got* → ✅ *He **has** got*. «He/she/it» ko'rsangiz — darhol «has»!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "My sister ___ got a new phone.", "options": ["have", "has", "is", "are"] },
+              "answer": { "value": "has" },
+              "explanationUz": "«My sister» = she → has got: My sister has got a new phone."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (have/has):",
+              "data": { "text": "I ___ got two brothers." },
+              "answer": { "accept": ["have", "'ve"] },
+              "explanationUz": "«I» bilan «have» ishlatiladi: I have got (I've got) two brothers."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu gap grammatik jihatdan to'g'rimi?",
+              "data": { "statement": "He have got a dog." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri: «he» bilan «has» kerak — He has got a dog."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«Bizda mashina yo'q» — qaysi gap TO'G'RI?",
+              "data": { "options": ["We haven't got a car.", "We hasn't got a car.", "We not got a car.", "We no have car."] },
+              "answer": { "value": "We haven't got a car." },
+              "explanationUz": "«We» bilan inkor: haven't got. «hasn't» faqat he/she/it bilan ishlatiladi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'roq gap tuzing:",
+              "data": { "items": ["got", "you", "have", "a pen"] },
+              "answer": { "order": ["have", "you", "got", "a pen"] },
+              "explanationUz": "So'roqda «have» gap boshiga chiqadi: Have you got a pen? (Sizda ruchka bormi?)"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "To'liq shaklni qisqartmasi bilan bog'lang:",
+              "data": {
+                "left": ["I have got", "He has got", "We have not got", "She has not got"],
+                "right": ["She hasn't got", "I've got", "He's got", "We haven't got"]
+              },
+              "answer": { "pairs": { "I have got": "I've got", "He has got": "He's got", "We have not got": "We haven't got", "She has not got": "She hasn't got" } },
+              "explanationUz": "have → 've, has → 's, have not → haven't, has not → hasn't. «He's got» dagi 's — bu «has»!"
+            }
+          ]
+        },
+        {
+          "slug": "can-cant-ability",
+          "titleUz": "Can / can't: qobiliyat haqida",
+          "titleEn": "Can / can't: ability",
+          "skill": "GRAMMAR",
+          "level": "A1",
+          "order": 1,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "can/can't bilan qobiliyat haqida gapirish",
+            "«Can you...?» savoliga qisqa javob berish",
+            "can dan keyin fe'l asos shaklda qolishini yodlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Can — «... olaman»",
+              "bodyUz": "**can** = «... ola olmoq, uddalay olmoq». Undan keyin fe'l **asos shaklda** keladi:\n\n- *I can swim.* — Men suza olaman.\n- *She can cook very well.* — U juda yaxshi ovqat pishira oladi.\n\nEng yoqimli tomoni: **can hamma shaxslar uchun BIR XIL!** He/she/it bilan ham -s qo'shilmaydi:\n\n✅ *He can swim.* ❌ *He cans swim.* ❌ *He can swims.*\n\nInkor: **can't** (= cannot): *I can't drive.* — Men mashina hayday olmayman.\nSo'roq: **Can** gap boshiga chiqadi: *Can you help me?* — Yordam bera olasizmi?"
+            },
+            {
+              "type": "table",
+              "titleUz": "Foydali fe'llar",
+              "headers": ["Fe'l", "Tarjima", "Fe'l", "Tarjima"],
+              "rows": [
+                ["swim", "suzmoq", "run", "yugurmoq"],
+                ["draw", "rasm chizmoq", "sing", "kuylamoq"],
+                ["drive", "mashina haydamoq", "ride a bike", "velosiped uchmoq"],
+                ["cook", "ovqat pishirmoq", "play chess", "shaxmat o'ynamoq"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I can speak three languages.", "uz": "Men uch tilda gapira olaman." },
+                { "en": "My grandmother can cook wonderful plov.", "uz": "Buvim ajoyib osh damlay oladi." },
+                { "en": "He can't drive a car.", "uz": "U mashina hayday olmaydi." },
+                { "en": "Can you swim? — Yes, I can. / No, I can't.", "uz": "Suza olasizmi? — Ha, olaman. / Yo'q, olmayman." }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: nimalar qila olasiz?",
+              "lines": [
+                { "speaker": "A", "en": "Can you play football?", "uz": "Futbol o'ynay olasizmi?" },
+                { "speaker": "B", "en": "Yes, I can, but I can't play very well.", "uz": "Ha, o'ynay olaman, lekin unchalik yaxshi emas." },
+                { "speaker": "A", "en": "Can your sister ride a bike?", "uz": "Singlingiz velosiped ucha oladimi?" },
+                { "speaker": "B", "en": "No, she can't. But she can sing beautifully!", "uz": "Yo'q, olmaydi. Lekin u juda chiroyli kuylay oladi!" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Uchta tuzoq: 1) can dan keyin «to» YO'Q: ❌ *I can to swim* → ✅ *I can swim*. 2) -s YO'Q: ❌ *She can swims*. 3) Talaffuz: **can** [kən] — kuchsiz, **can't** [ka:nt] — cho'ziq va urg'uli. Listening'da farqni urg'udan ajratasiz: can't doim aniq eshitiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "She ___ play the piano very well.", "options": ["can", "cans", "can to", "is can"] },
+              "answer": { "value": "can" },
+              "explanationUz": "can hamma shaxslar uchun bir xil, unga hech qanday qo'shimcha qo'shilmaydi: She can play."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu gap grammatik jihatdan to'g'rimi?",
+              "data": { "statement": "He can swims." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri: can dan keyin fe'l asos shaklda qoladi — He can swim. -s faqat oddiy Present Simple'da qo'shiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Inkor shaklda to'ldiring:",
+              "data": { "text": "I ___ drive a car — I am only ten years old!" },
+              "answer": { "accept": ["can't", "cannot", "can not"] },
+              "explanationUz": "Ma'noga qarang: 10 yoshli bola mashina hayday OLMAYDI → can't (cannot) drive."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'roq gap tuzing:",
+              "data": { "items": ["you", "English", "can", "speak"] },
+              "answer": { "order": ["can", "you", "speak", "English"] },
+              "explanationUz": "So'roqda can gap boshiga chiqadi: Can you speak English? (Inglizcha gapira olasizmi?)"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Fe'lni tarjimasi bilan bog'lang:",
+              "data": {
+                "left": ["swim", "draw", "sing", "drive"],
+                "right": ["kuylamoq", "suzmoq", "mashina haydamoq", "rasm chizmoq"]
+              },
+              "answer": { "pairs": { "swim": "suzmoq", "draw": "rasm chizmoq", "sing": "kuylamoq", "drive": "mashina haydamoq" } },
+              "explanationUz": "swim — suzmoq, draw — rasm chizmoq, sing — kuylamoq, drive — mashina haydamoq."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«Can you help me?» savoliga TO'G'RI qisqa javob:",
+              "data": { "options": ["Yes, I can.", "Yes, I do.", "Yes, I am.", "Yes, I helps."] },
+              "answer": { "value": "Yes, I can." },
+              "explanationUz": "Can bilan berilgan savolga can bilan javob beriladi: Yes, I can. / No, I can't."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Say three things you can do and two things you can't do. Example: I can cook, but I can't drive.",
+              "promptUz": "O'zingiz qila oladigan 3 ta va qila olmaydigan 2 ta ishni ayting. Namuna: I can cook, but I can't drive.",
+              "data": { "preparationSeconds": 30, "recordSeconds": 45 },
+              "explanationUz": "Namuna javob: I can swim, I can ride a bike and I can cook plov. But I can't drive a car and I can't play the piano. — «but» bog'lovchisi javobingizni tabiiy qiladi."
+            }
+          ]
+        },
+        {
+          "slug": "there-is-there-are",
+          "titleUz": "There is / There are: «... bor»",
+          "titleEn": "There is / There are",
+          "skill": "GRAMMAR",
+          "level": "A1",
+          "order": 2,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "There is (birlik) va There are (ko'plik) ni farqlash",
+            "Inkor va so'roq shakllarini tuzish",
+            "Xona, uy va shahar haqida gapirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "«Xonada stol bor» — inglizchada qanday?",
+              "bodyUz": "Biror joyda nimadir BORLIGINI aytish uchun gap **There is / There are** bilan boshlanadi:\n\n- **There is + birlik**: *There is a table in the room.* — Xonada stol bor.\n- **There are + ko'plik**: *There are two windows.* — Ikkita deraza bor.\n\n⚠️ O'zbek tilida «bor» gap OXIRIDA turadi, inglizchada esa there is/are gap BOSHIDA! So'zma-so'z tarjima qilmang:\n\n❌ *In the room a table there is* → ✅ *There is a table in the room.*\n\nBu qolipdagi «there» so'zi «u yerda» deb tarjima QILINMAYDI — u shunchaki gapni boshlab beruvchi yordamchi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Shakllar jadvali",
+              "headers": ["Shakl", "Birlik", "Ko'plik"],
+              "rows": [
+                ["Darak (+)", "There is a shop.", "There are two shops."],
+                ["Inkor (−)", "There isn't a shop.", "There aren't any shops."],
+                ["So'roq (?)", "Is there a shop?", "Are there any shops?"],
+                ["Qisqa javob", "Yes, there is. / No, there isn't.", "Yes, there are. / No, there aren't."]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "There is a beautiful mosque in our street.", "uz": "Ko'chamizda chiroyli masjid bor." },
+                { "en": "There are five rooms in our house.", "uz": "Uyimizda beshta xona bor." },
+                { "en": "There isn't a TV in my room.", "uz": "Xonamda televizor yo'q." },
+                { "en": "Are there any shops near here? — Yes, there are.", "uz": "Bu yaqinda do'konlar bormi? — Ha, bor." }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: shahringiz haqida",
+              "lines": [
+                { "speaker": "A", "en": "Is there a park in your city?", "uz": "Shahringizda park bormi?" },
+                { "speaker": "B", "en": "Yes, there is. It's very green and beautiful.", "uz": "Ha, bor. U juda ko'kalamzor va chiroyli." },
+                { "speaker": "A", "en": "Are there any big bazaars?", "uz": "Katta bozorlar-chi, bormi?" },
+                { "speaker": "B", "en": "Yes, there are two big bazaars and a lot of shops.", "uz": "Ha, ikkita katta bozor va juda ko'p do'konlar bor." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Qaysi birini tanlashni KEYINGI so'z hal qiladi: bitta narsa bo'lsa — there is, ko'p bo'lsa — there are. Imtihonda eng ko'p tekshiriladigan xato: ❌ *There is two doors* → ✅ *There **are** two doors*. Sonni ko'rdingizmi (two, three, many) — demak **are**!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "___ a big window in my room.", "options": ["There is", "There are", "It is", "They are"] },
+              "answer": { "value": "There is" },
+              "explanationUz": "«a big window» — birlik → There is. Borlikni bildirish uchun There is/are qolipi ishlatiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (is/are):",
+              "data": { "text": "There ___ five rooms in our house." },
+              "answer": { "accept": ["are"] },
+              "explanationUz": "«five rooms» — ko'plik → There are. Son ko'rsangiz — are!"
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu gap grammatik jihatdan to'g'rimi?",
+              "data": { "statement": "There are a cat in the garden." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri: «a cat» — birlik, shuning uchun There IS a cat in the garden bo'lishi kerak."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlardan gap tuzing:",
+              "data": { "items": ["in the fridge", "there", "apples", "are"] },
+              "answer": { "order": ["there", "are", "apples", "in the fridge"] },
+              "explanationUz": "There are + narsa + joy: There are apples in the fridge. (Muzlatgichda olmalar bor.)"
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«Are there any banks near here?» savoliga TO'G'RI qisqa javob:",
+              "data": { "options": ["Yes, there are.", "Yes, they are.", "Yes, there is.", "Yes, it is."] },
+              "answer": { "value": "Yes, there are." },
+              "explanationUz": "Are there...? savoliga javob ham there are bilan: Yes, there are. / No, there aren't."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Inkor shaklda to'ldiring (birlik):",
+              "data": { "text": "There ___ a cinema in our village." },
+              "answer": { "accept": ["isn't", "is not"] },
+              "explanationUz": "Birlikda inkor: There isn't (is not) a cinema. — Qishlog'imizda kinoteatr yo'q."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gaplar TO'G'RI? Hammasini belgilang.",
+              "data": { "options": ["There is a book on the table.", "There are three pens in the box.", "There is two doors in the room.", "There are a lamp on the desk."] },
+              "answer": { "values": ["There is a book on the table.", "There are three pens in the box."] },
+              "explanationUz": "There is + birlik (a book), There are + ko'plik (three pens). «There is two doors» va «There are a lamp» — son va shakl mos emas."
+            }
+          ]
+        },
+        {
+          "slug": "days-months-when-questions",
+          "titleUz": "Hafta kunlari, oylar va «When...?» savollari",
+          "titleEn": "Days, months & 'When...?' questions",
+          "skill": "VOCABULARY",
+          "level": "A1",
+          "order": 3,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "7 kun va 12 oy nomini o'rganish",
+            "on + kun, in + oy predloglarini to'g'ri tanlash",
+            "«When...?» savolini berish va javob berish"
+          ],
+          "content": [
+            {
+              "type": "table",
+              "titleUz": "Hafta kunlari",
+              "headers": ["English", "O'zbekcha"],
+              "rows": [
+                ["Monday", "dushanba"],
+                ["Tuesday", "seshanba"],
+                ["Wednesday", "chorshanba"],
+                ["Thursday", "payshanba"],
+                ["Friday", "juma"],
+                ["Saturday", "shanba"],
+                ["Sunday", "yakshanba"]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Oylar",
+              "headers": ["English", "O'zbekcha", "English", "O'zbekcha"],
+              "rows": [
+                ["January", "yanvar", "July", "iyul"],
+                ["February", "fevral", "August", "avgust"],
+                ["March", "mart", "September", "sentabr"],
+                ["April", "aprel", "October", "oktabr"],
+                ["May", "may", "November", "noyabr"],
+                ["June", "iyun", "December", "dekabr"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Bosh harf va predloglar — ikki oltin qoida",
+              "bodyUz": "1) O'zbek tilidan farqli, ingliz tilida kun va oy nomlari **DOIM bosh harf bilan** yoziladi: dushanba → **M**onday, mart → **M**arch. Kichik harf bilan yozish — writingdagi tipik xato!\n\n2) Predloglar:\n- **on + kun**: *on Monday* — dushanba kuni, *on Fridays* — har juma\n- **in + oy**: *in June* — iyunda, *in December* — dekabrda\n\n❌ *in Monday*, ❌ *on June* — bu ikkalasini almashtirish eng keng tarqalgan xato. Yodlash usuli: kun — qisqa so'z «on», oy — «in»."
+            },
+            {
+              "type": "theory",
+              "titleUz": "«When...?» savoli",
+              "bodyUz": "**When** = «qachon». Savol qolipi: **When is + narsa?**\n\n- *When is your birthday?* — Tug'ilgan kuningiz qachon? → *It's in May.* — May oyida.\n- *When is the English lesson?* — Ingliz tili darsi qachon? → *It's on Tuesday.* — Seshanba kuni.\n- *When is Navruz?* — *It's in March, on the 21st.* — Martda, 21-sanada.\n\nJavobda ham xuddi shu predloglar: **in** + oy, **on** + kun."
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "My birthday is in September.", "uz": "Tug'ilgan kunim sentabrda." },
+                { "en": "We have English lessons on Mondays and Thursdays.", "uz": "Ingliz tili darslarimiz dushanba va payshanba kunlari." },
+                { "en": "The weekend is Saturday and Sunday.", "uz": "Dam olish kunlari — shanba va yakshanba." },
+                { "en": "When is the exam? — It's on Friday.", "uz": "Imtihon qachon? — Juma kuni." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Talaffuz tuzoqlari: **Tuesday** [tyuzdey] va **Thursday** [thorzdey] ni adashtirmaslik uchun eslang: Tuesday — 2-kun (T-two), Thursday ichida «urs» bor — 4-kun. **Wednesday** esa [uenzdey] deb o'qiladi — o'rtadagi «d» talaffuz qilinmaydi! Va unutmang: weekend = Saturday + Sunday. «See you on Monday!» — «Dushanbada ko'rishamiz!»"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "Haftaning birinchi ish kuni inglizchada qanday ataladi?",
+              "data": { "options": ["Sunday", "Monday", "Tuesday", "Friday"] },
+              "answer": { "value": "Monday" },
+              "explanationUz": "Monday — dushanba, haftaning birinchi ish kuni. Sunday — yakshanba, Tuesday — seshanba, Friday — juma."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyga predlog yozing (in/on):",
+              "data": { "text": "My birthday is ___ April." },
+              "answer": { "accept": ["in"] },
+              "explanationUz": "Oylar bilan «in» ishlatiladi: in April — aprelda. «on» faqat kunlar bilan."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyga predlog yozing (in/on):",
+              "data": { "text": "The English lesson is ___ Friday." },
+              "answer": { "accept": ["on"] },
+              "explanationUz": "Kunlar bilan «on» ishlatiladi: on Friday — juma kuni. «in Friday» — xato!"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Kunni tarjimasi bilan bog'lang:",
+              "data": {
+                "left": ["Monday", "Wednesday", "Friday", "Sunday"],
+                "right": ["yakshanba", "dushanba", "juma", "chorshanba"]
+              },
+              "answer": { "pairs": { "Monday": "dushanba", "Wednesday": "chorshanba", "Friday": "juma", "Sunday": "yakshanba" } },
+              "explanationUz": "Monday — dushanba, Wednesday — chorshanba ([uenzdey] deb o'qiladi), Friday — juma, Sunday — yakshanba."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Ingliz tilida kun va oy nomlari doim bosh harf bilan yoziladi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri: Monday, March — doim bosh harf bilan. O'zbek tilida kichik harf bilan yozilgani uchun bu qoida tez-tez esdan chiqadi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "VOCABULARY",
+              "promptUz": "Oylarni yil boshidan boshlab tartiblang:",
+              "data": { "items": ["March", "January", "April", "February"] },
+              "answer": { "order": ["January", "February", "March", "April"] },
+              "explanationUz": "Yil boshi: January (yanvar) → February (fevral) → March (mart) → April (aprel)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«When is Navruz?» savoliga TO'G'RI javob:",
+              "data": { "options": ["It's in March.", "It's on March.", "It's at March.", "In the March it is."] },
+              "answer": { "value": "It's in March." },
+              "explanationUz": "Navruz — mart oyida, oy bilan «in» ishlatiladi: It's in March. «on March» — xato, «on» faqat kunlar va sanalar bilan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

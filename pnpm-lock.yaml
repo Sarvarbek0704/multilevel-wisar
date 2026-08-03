@@ -52,6 +52,9 @@ importers:
       grammy:
         specifier: ^1.33.0
         version: 1.45.1
+      multer:
+        specifier: ^2.2.0
+        version: 2.2.0
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2

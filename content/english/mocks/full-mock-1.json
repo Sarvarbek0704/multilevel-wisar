@@ -21,17 +21,140 @@
           "titleEn": "Part 1: Short recordings (Questions 1-8)",
           "instructionsEn": "You will hear eight short recordings. For each question, choose the correct answer.",
           "instructionsUz": "Sakkizta qisqa audio eshitasiz. Har bir savol uchun to'g'ri javobni tanlang.",
-          "context": { "transcript": "You will hear eight short recordings. For each question, choose the correct answer.\n\nOne. You hear a conversation at a railway station.\nW: Excuse me, when is the next train to Samarkand?\nM: Let me check. I'm afraid the 2.15 has just left. The next one departs at 2.30 from platform four.\nW: That's fine. How long does the journey take?\nM: Just over two hours, so you'll arrive at about 4.40.\n\nTwo. You hear a telephone message.\nM: Good morning, this is a message for Ms Karimova from Dr Aliyev's dental clinic. Unfortunately the doctor will be away on Tuesday, so we have had to change your appointment. Could you come on Thursday instead, at the same time, ten o'clock? Please call us back to confirm. Thank you.\n\nThree. You hear two friends deciding where to eat.\nM: I'm starving. Shall we get a pizza at Roma's?\nW: Roma's is closed on Mondays, remember? What about that new sushi bar next to the cinema?\nM: Sushi is a bit expensive... but all right, let's try it. Pizza can wait until the weekend.\n\nFour. You hear a weather forecast on the radio.\nW: Good morning, here is today's weather. It will be wet and windy across the region until midday, so don't leave home without an umbrella. During the afternoon, however, the clouds will clear, and we can expect warm sunshine with temperatures of about twenty-five degrees.\n\nFive. You hear a man shopping for clothes.\nM: I like this shirt, but the medium feels a bit tight. Do you have it in large?\nW: In large we only have blue and white left — the green is completely sold out.\nM: That's a pity, green was my first choice. Hmm, white gets dirty so quickly... I'll take the blue one, then.\n\nSix. You hear an announcement at an airport.\nW: Attention please. Flight HY six-oh-two to Istanbul has been delayed by forty minutes because of fog. The flight will now board at six fifty from gate twelve — not gate nine as shown on your boarding passes. We apologise for the inconvenience.\n\nSeven. You hear two colleagues talking on Monday morning.\nW: How was your weekend? Did you drive to Chirchiq to visit your grandmother in the end?\nM: That was the plan, but my car refused to start on Saturday morning. So I stayed at home and finally painted the kitchen instead. Honestly, it looks fantastic now.\n\nEight. You hear a student talking to a librarian.\nM: Excuse me, what time does the library close today?\nW: On weekdays we are open until eight, but today is Saturday, so we close at six. And don't forget we are closed all day on Sundays.\nM: Six o'clock — right, I'd better hurry then." },
+          "context": {
+            "transcript": "You will hear eight short recordings. For each question, choose the correct answer.\n\nOne. You hear a conversation at a railway station.\nW: Excuse me, when is the next train to Samarkand?\nM: Let me check. I'm afraid the 2.15 has just left. The next one departs at 2.30 from platform four.\nW: That's fine. How long does the journey take?\nM: Just over two hours, so you'll arrive at about 4.40.\n\nTwo. You hear a telephone message.\nM: Good morning, this is a message for Ms Karimova from Dr Aliyev's dental clinic. Unfortunately the doctor will be away on Tuesday, so we have had to change your appointment. Could you come on Thursday instead, at the same time, ten o'clock? Please call us back to confirm. Thank you.\n\nThree. You hear two friends deciding where to eat.\nM: I'm starving. Shall we get a pizza at Roma's?\nW: Roma's is closed on Mondays, remember? What about that new sushi bar next to the cinema?\nM: Sushi is a bit expensive... but all right, let's try it. Pizza can wait until the weekend.\n\nFour. You hear a weather forecast on the radio.\nW: Good morning, here is today's weather. It will be wet and windy across the region until midday, so don't leave home without an umbrella. During the afternoon, however, the clouds will clear, and we can expect warm sunshine with temperatures of about twenty-five degrees.\n\nFive. You hear a man shopping for clothes.\nM: I like this shirt, but the medium feels a bit tight. Do you have it in large?\nW: In large we only have blue and white left — the green is completely sold out.\nM: That's a pity, green was my first choice. Hmm, white gets dirty so quickly... I'll take the blue one, then.\n\nSix. You hear an announcement at an airport.\nW: Attention please. Flight HY six-oh-two to Istanbul has been delayed by forty minutes because of fog. The flight will now board at six fifty from gate twelve — not gate nine as shown on your boarding passes. We apologise for the inconvenience.\n\nSeven. You hear two colleagues talking on Monday morning.\nW: How was your weekend? Did you drive to Chirchiq to visit your grandmother in the end?\nM: That was the plan, but my car refused to start on Saturday morning. So I stayed at home and finally painted the kitchen instead. Honestly, it looks fantastic now.\n\nEight. You hear a student talking to a librarian.\nM: Excuse me, what time does the library close today?\nW: On weekdays we are open until eight, but today is Saturday, so we close at six. And don't forget we are closed all day on Sundays.\nM: Six o'clock — right, I'd better hurry then."
+          },
           "questions": [
-            { "number": 1, "type": "MCQ_SINGLE", "promptEn": "What time does the next train to Samarkand leave?", "data": { "options": ["At 2.15", "At 2.30", "At 4.40"] }, "answer": { "value": "At 2.30" }, "points": 1 },
-            { "number": 2, "type": "MCQ_SINGLE", "promptEn": "When is Ms Karimova's new appointment?", "data": { "options": ["On Tuesday at ten o'clock", "On Thursday at two o'clock", "On Thursday at ten o'clock"] }, "answer": { "value": "On Thursday at ten o'clock" }, "points": 1 },
-            { "number": 3, "type": "MCQ_SINGLE", "promptEn": "What will the friends eat today?", "data": { "options": ["Sushi", "Pizza", "Burgers"] }, "answer": { "value": "Sushi" }, "points": 1 },
-            { "number": 4, "type": "MCQ_SINGLE", "promptEn": "What will the weather be like in the afternoon?", "data": { "options": ["Wet and windy", "Warm and sunny", "Cold and cloudy"] }, "answer": { "value": "Warm and sunny" }, "points": 1 },
-            { "number": 5, "type": "MCQ_SINGLE", "promptEn": "Which shirt does the man buy?", "data": { "options": ["The green one", "The white one", "The blue one"] }, "answer": { "value": "The blue one" }, "points": 1 },
-            { "number": 6, "type": "MCQ_SINGLE", "promptEn": "Where should passengers board flight HY-602?", "data": { "options": ["At gate twelve", "At gate nine", "At gate six"] }, "answer": { "value": "At gate twelve" }, "points": 1 },
-            { "number": 7, "type": "MCQ_SINGLE", "promptEn": "What did the man do at the weekend?", "data": { "options": ["He visited his grandmother", "He painted his kitchen", "He repaired his car"] }, "answer": { "value": "He painted his kitchen" }, "points": 1 },
-            { "number": 8, "type": "MCQ_SINGLE", "promptEn": "What time does the library close today?", "data": { "options": ["At six o'clock", "At eight o'clock", "At nine o'clock"] }, "answer": { "value": "At six o'clock" }, "points": 1 }
-          ]
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What time does the next train to Samarkand leave?",
+              "data": {
+                "options": [
+                  "At 2.15",
+                  "At 2.30",
+                  "At 4.40"
+                ]
+              },
+              "answer": {
+                "value": "At 2.30"
+              },
+              "points": 1
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptEn": "When is Ms Karimova's new appointment?",
+              "data": {
+                "options": [
+                  "On Tuesday at ten o'clock",
+                  "On Thursday at two o'clock",
+                  "On Thursday at ten o'clock"
+                ]
+              },
+              "answer": {
+                "value": "On Thursday at ten o'clock"
+              },
+              "points": 1
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What will the friends eat today?",
+              "data": {
+                "options": [
+                  "Sushi",
+                  "Pizza",
+                  "Burgers"
+                ]
+              },
+              "answer": {
+                "value": "Sushi"
+              },
+              "points": 1
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What will the weather be like in the afternoon?",
+              "data": {
+                "options": [
+                  "Wet and windy",
+                  "Warm and sunny",
+                  "Cold and cloudy"
+                ]
+              },
+              "answer": {
+                "value": "Warm and sunny"
+              },
+              "points": 1
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Which shirt does the man buy?",
+              "data": {
+                "options": [
+                  "The green one",
+                  "The white one",
+                  "The blue one"
+                ]
+              },
+              "answer": {
+                "value": "The blue one"
+              },
+              "points": 1
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Where should passengers board flight HY-602?",
+              "data": {
+                "options": [
+                  "At gate twelve",
+                  "At gate nine",
+                  "At gate six"
+                ]
+              },
+              "answer": {
+                "value": "At gate twelve"
+              },
+              "points": 1
+            },
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What did the man do at the weekend?",
+              "data": {
+                "options": [
+                  "He visited his grandmother",
+                  "He painted his kitchen",
+                  "He repaired his car"
+                ]
+              },
+              "answer": {
+                "value": "He painted his kitchen"
+              },
+              "points": 1
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What time does the library close today?",
+              "data": {
+                "options": [
+                  "At six o'clock",
+                  "At eight o'clock",
+                  "At nine o'clock"
+                ]
+              },
+              "answer": {
+                "value": "At six o'clock"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-1-part1.mp3"
         },
         {
           "order": 1,
@@ -40,15 +163,106 @@
           "instructionsEn": "You will hear a talk about a summer camp. Complete the notes. Write ONE, TWO or THREE words or a number for each gap.",
           "instructionsUz": "Yozgi lager haqidagi e'lonni tinglab, yozuvlarni to'ldiring. Har bir bo'sh joyga bir, ikki yoki uch so'z (yoki raqam) yozing.",
           "passageText": "GREEN VALLEY SUMMER CAMP — NOTES\n\nLocation: in the Chimgan mountains, next to a large (9) ______\nFirst session starts: (10) ______ June\nEach session lasts: twelve days\nPrice ($240) includes: cabins, all meals and (11) ______\nFor mountain hikes, campers must bring: (12) ______\nFriday evenings: a (13) ______ by the river\nHow to book: only on the camp's (14) ______",
-          "context": { "transcript": "Hello everyone, and thank you for coming to this short information session about Green Valley Summer Camp. Let me give you the key facts.\n\nThe camp is set in beautiful countryside in the Chimgan mountains, right next to a large lake, where campers go swimming and kayaking every morning.\n\nWe run three sessions each summer. The first begins on the fifteenth of June, the second on the first of July, and the last one on the twentieth of July. Each session lasts twelve days.\n\nThe price is two hundred and forty dollars. That might sound like a lot, but it covers accommodation in comfortable wooden cabins, all meals, and transport — a coach picks campers up from the city centre and brings them back at the end of the session.\n\nNow, what should you pack? Summers are hot, so a hat and sun cream are essential. Trainers are fine for most activities, but for the mountain hikes you will definitely need walking boots — ordinary shoes are simply not safe on rocky paths.\n\nEvenings are always fun. From Monday to Thursday we organise games and quizzes in the main hall, and every Friday evening there is a barbecue down by the river, which campers say is the best part of the whole week.\n\nFinally, how to book. Please note that you can no longer book by phone — places must be reserved through the camp's website, where you will also find photos and answers to common questions. Book early: last year every place was gone by the end of April." },
+          "context": {
+            "transcript": "Hello everyone, and thank you for coming to this short information session about Green Valley Summer Camp. Let me give you the key facts.\n\nThe camp is set in beautiful countryside in the Chimgan mountains, right next to a large lake, where campers go swimming and kayaking every morning.\n\nWe run three sessions each summer. The first begins on the fifteenth of June, the second on the first of July, and the last one on the twentieth of July. Each session lasts twelve days.\n\nThe price is two hundred and forty dollars. That might sound like a lot, but it covers accommodation in comfortable wooden cabins, all meals, and transport — a coach picks campers up from the city centre and brings them back at the end of the session.\n\nNow, what should you pack? Summers are hot, so a hat and sun cream are essential. Trainers are fine for most activities, but for the mountain hikes you will definitely need walking boots — ordinary shoes are simply not safe on rocky paths.\n\nEvenings are always fun. From Monday to Thursday we organise games and quizzes in the main hall, and every Friday evening there is a barbecue down by the river, which campers say is the best part of the whole week.\n\nFinally, how to book. Please note that you can no longer book by phone — places must be reserved through the camp's website, where you will also find photos and answers to common questions. Book early: last year every place was gone by the end of April."
+          },
           "questions": [
-            { "number": 9, "type": "GAP_FILL", "promptEn": "The camp is in the Chimgan mountains, next to a large (9) ______.", "data": { "text": "The camp is in the Chimgan mountains, next to a large (9) ______." }, "answer": { "accept": ["lake", "a lake"] }, "points": 1 },
-            { "number": 10, "type": "GAP_FILL", "promptEn": "The first session begins on (10) ______ June.", "data": { "text": "The first session begins on (10) ______ June." }, "answer": { "accept": ["15", "15th", "fifteenth", "the fifteenth of"] }, "points": 1 },
-            { "number": 11, "type": "GAP_FILL", "promptEn": "The price includes cabins, all meals and (11) ______.", "data": { "text": "The price includes cabins, all meals and (11) ______." }, "answer": { "accept": ["transport", "the transport", "a coach"] }, "points": 1 },
-            { "number": 12, "type": "GAP_FILL", "promptEn": "For mountain hikes campers must bring (12) ______.", "data": { "text": "For mountain hikes campers must bring (12) ______." }, "answer": { "accept": ["walking boots", "boots"] }, "points": 1 },
-            { "number": 13, "type": "GAP_FILL", "promptEn": "Every Friday evening there is a (13) ______ by the river.", "data": { "text": "Every Friday evening there is a (13) ______ by the river." }, "answer": { "accept": ["barbecue", "BBQ", "barbeque"] }, "points": 1 },
-            { "number": 14, "type": "GAP_FILL", "promptEn": "Places can only be booked on the camp's (14) ______.", "data": { "text": "Places can only be booked on the camp's (14) ______." }, "answer": { "accept": ["website", "web site"] }, "points": 1 }
-          ]
+            {
+              "number": 9,
+              "type": "GAP_FILL",
+              "promptEn": "The camp is in the Chimgan mountains, next to a large (9) ______.",
+              "data": {
+                "text": "The camp is in the Chimgan mountains, next to a large (9) ______."
+              },
+              "answer": {
+                "accept": [
+                  "lake",
+                  "a lake"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 10,
+              "type": "GAP_FILL",
+              "promptEn": "The first session begins on (10) ______ June.",
+              "data": {
+                "text": "The first session begins on (10) ______ June."
+              },
+              "answer": {
+                "accept": [
+                  "15",
+                  "15th",
+                  "fifteenth",
+                  "the fifteenth of"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 11,
+              "type": "GAP_FILL",
+              "promptEn": "The price includes cabins, all meals and (11) ______.",
+              "data": {
+                "text": "The price includes cabins, all meals and (11) ______."
+              },
+              "answer": {
+                "accept": [
+                  "transport",
+                  "the transport",
+                  "a coach"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 12,
+              "type": "GAP_FILL",
+              "promptEn": "For mountain hikes campers must bring (12) ______.",
+              "data": {
+                "text": "For mountain hikes campers must bring (12) ______."
+              },
+              "answer": {
+                "accept": [
+                  "walking boots",
+                  "boots"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 13,
+              "type": "GAP_FILL",
+              "promptEn": "Every Friday evening there is a (13) ______ by the river.",
+              "data": {
+                "text": "Every Friday evening there is a (13) ______ by the river."
+              },
+              "answer": {
+                "accept": [
+                  "barbecue",
+                  "BBQ",
+                  "barbeque"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 14,
+              "type": "GAP_FILL",
+              "promptEn": "Places can only be booked on the camp's (14) ______.",
+              "data": {
+                "text": "Places can only be booked on the camp's (14) ______."
+              },
+              "answer": {
+                "accept": [
+                  "website",
+                  "web site"
+                ]
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-1-part2.mp3"
         },
         {
           "order": 2,
@@ -56,13 +270,80 @@
           "titleEn": "Part 3: Conversation (Questions 15-18)",
           "instructionsEn": "You will hear two students talking about their geography project. For each question, choose the correct answer.",
           "instructionsUz": "Ikki talabaning loyiha haqidagi suhbatini tinglang. Har bir savol uchun to'g'ri javobni tanlang.",
-          "context": { "transcript": "W: Aziz, have you started our geography project yet? It's due next Friday.\nM: Not really. I was going to write about solar power, but half the class has chosen that, so I think we should do something different.\nW: Agreed. What about wind energy? There's that new wind farm near Bukhara — we could use it as a case study.\nM: Good idea. I read that the government wants wind power to produce eight per cent of the country's electricity by 2030. That statistic could open the presentation nicely.\nW: Perfect. Now, how do we split the work? I could do the research and collect the data, and you could design the slides — you're much better at that than I am.\nM: Fine by me, but let's write the conclusion together. Last time we each wrote half and the two parts didn't match at all.\nW: True, that was a mess. Shall we meet at the library on Wednesday afternoon to put everything together?\nM: Wednesday's no good — I have football training. Thursday morning works, though, before classes start.\nW: Thursday morning it is, then. I'll book one of the group study rooms." },
+          "context": {
+            "transcript": "W: Aziz, have you started our geography project yet? It's due next Friday.\nM: Not really. I was going to write about solar power, but half the class has chosen that, so I think we should do something different.\nW: Agreed. What about wind energy? There's that new wind farm near Bukhara — we could use it as a case study.\nM: Good idea. I read that the government wants wind power to produce eight per cent of the country's electricity by 2030. That statistic could open the presentation nicely.\nW: Perfect. Now, how do we split the work? I could do the research and collect the data, and you could design the slides — you're much better at that than I am.\nM: Fine by me, but let's write the conclusion together. Last time we each wrote half and the two parts didn't match at all.\nW: True, that was a mess. Shall we meet at the library on Wednesday afternoon to put everything together?\nM: Wednesday's no good — I have football training. Thursday morning works, though, before classes start.\nW: Thursday morning it is, then. I'll book one of the group study rooms."
+          },
           "questions": [
-            { "number": 15, "type": "MCQ_SINGLE", "promptEn": "Why do the students decide not to write about solar power?", "data": { "options": ["Their teacher rejected the topic", "Many classmates have already chosen it", "There is too little information about it", "It is too expensive to research"] }, "answer": { "value": "Many classmates have already chosen it" }, "points": 1 },
-            { "number": 16, "type": "MCQ_SINGLE", "promptEn": "How will they use the wind farm near Bukhara in their project?", "data": { "options": ["As a survey location", "As the title of the project", "As a case study", "As a source of photographs"] }, "answer": { "value": "As a case study" }, "points": 1 },
-            { "number": 17, "type": "MCQ_SINGLE", "promptEn": "What will Aziz be responsible for?", "data": { "options": ["Collecting the data", "Booking a study room", "Writing the conclusion alone", "Designing the slides"] }, "answer": { "value": "Designing the slides" }, "points": 1 },
-            { "number": 18, "type": "MCQ_SINGLE", "promptEn": "When will the students meet?", "data": { "options": ["On Wednesday afternoon", "On Thursday morning", "On Friday afternoon", "On Thursday evening"] }, "answer": { "value": "On Thursday morning" }, "points": 1 }
-          ]
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why do the students decide not to write about solar power?",
+              "data": {
+                "options": [
+                  "Their teacher rejected the topic",
+                  "Many classmates have already chosen it",
+                  "There is too little information about it",
+                  "It is too expensive to research"
+                ]
+              },
+              "answer": {
+                "value": "Many classmates have already chosen it"
+              },
+              "points": 1
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How will they use the wind farm near Bukhara in their project?",
+              "data": {
+                "options": [
+                  "As a survey location",
+                  "As the title of the project",
+                  "As a case study",
+                  "As a source of photographs"
+                ]
+              },
+              "answer": {
+                "value": "As a case study"
+              },
+              "points": 1
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What will Aziz be responsible for?",
+              "data": {
+                "options": [
+                  "Collecting the data",
+                  "Booking a study room",
+                  "Writing the conclusion alone",
+                  "Designing the slides"
+                ]
+              },
+              "answer": {
+                "value": "Designing the slides"
+              },
+              "points": 1
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptEn": "When will the students meet?",
+              "data": {
+                "options": [
+                  "On Wednesday afternoon",
+                  "On Thursday morning",
+                  "On Friday afternoon",
+                  "On Thursday evening"
+                ]
+              },
+              "answer": {
+                "value": "On Thursday morning"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-1-part3.mp3"
         },
         {
           "order": 3,
@@ -70,14 +351,97 @@
           "titleEn": "Part 4: Interview (Questions 19-23)",
           "instructionsEn": "You will hear a radio interview with a wildlife photographer. For each question, choose the correct answer.",
           "instructionsUz": "Yovvoyi tabiat fotografi bilan radiointervyuni tinglang. Har bir savol uchun to'g'ri javobni tanlang.",
-          "context": { "transcript": "M: Today my guest is wildlife photographer Nilufar Rashidova, whose pictures of snow leopards have appeared in magazines around the world. Nilufar, welcome to the programme.\nW: Thank you for inviting me.\nM: How did it all begin for you?\nW: People assume I studied photography, but actually my degree is in biology. I only picked up a camera seriously when I was working as a ranger in the Ugam-Chatkal national park and realised that nobody was recording the animals we saw there.\nM: Snow leopards are famously difficult to photograph. What's the secret?\nW: Patience, much more than equipment. My first good leopard picture took me three winters. I use camera traps — small automatic cameras fixed to rocks — because a human sitting in the snow will simply never get close enough.\nM: I imagine the hardest part is the cold?\nW: Everyone thinks so, but you can dress for cold. The real difficulty is carrying enough batteries. There is no electricity in the mountains, and in low temperatures batteries die twice as fast, so half of my rucksack is always power banks.\nM: What do you hope your photographs achieve?\nW: I'm not interested in winning prizes. If a farmer sees my photos and decides that a living leopard is worth more to his village than a dead one — through tourism — that is success for me. That's why I give my pictures free of charge to local schools and conservation groups.\nM: And what would you say to young photographers who are just starting?\nW: Don't buy expensive equipment at the beginning. Learn to sit still and watch. The best camera in the world is useless if you don't understand the animal in front of it." },
+          "context": {
+            "transcript": "M: Today my guest is wildlife photographer Nilufar Rashidova, whose pictures of snow leopards have appeared in magazines around the world. Nilufar, welcome to the programme.\nW: Thank you for inviting me.\nM: How did it all begin for you?\nW: People assume I studied photography, but actually my degree is in biology. I only picked up a camera seriously when I was working as a ranger in the Ugam-Chatkal national park and realised that nobody was recording the animals we saw there.\nM: Snow leopards are famously difficult to photograph. What's the secret?\nW: Patience, much more than equipment. My first good leopard picture took me three winters. I use camera traps — small automatic cameras fixed to rocks — because a human sitting in the snow will simply never get close enough.\nM: I imagine the hardest part is the cold?\nW: Everyone thinks so, but you can dress for cold. The real difficulty is carrying enough batteries. There is no electricity in the mountains, and in low temperatures batteries die twice as fast, so half of my rucksack is always power banks.\nM: What do you hope your photographs achieve?\nW: I'm not interested in winning prizes. If a farmer sees my photos and decides that a living leopard is worth more to his village than a dead one — through tourism — that is success for me. That's why I give my pictures free of charge to local schools and conservation groups.\nM: And what would you say to young photographers who are just starting?\nW: Don't buy expensive equipment at the beginning. Learn to sit still and watch. The best camera in the world is useless if you don't understand the animal in front of it."
+          },
           "questions": [
-            { "number": 19, "type": "MCQ_SINGLE", "promptEn": "What did Nilufar study at university?", "data": { "options": ["Photography", "Journalism", "Biology", "Tourism"] }, "answer": { "value": "Biology" }, "points": 1 },
-            { "number": 20, "type": "MCQ_SINGLE", "promptEn": "How did Nilufar get her first good photo of a snow leopard?", "data": { "options": ["She followed the animals on foot for weeks", "She used automatic cameras fixed to rocks", "She hired an experienced local guide", "She photographed one at a wildlife park"] }, "answer": { "value": "She used automatic cameras fixed to rocks" }, "points": 1 },
-            { "number": 21, "type": "MCQ_SINGLE", "promptEn": "According to Nilufar, what is the most difficult part of her work?", "data": { "options": ["Surviving the extreme cold", "Carrying enough batteries", "Climbing dangerous rocks", "Finding clean water"] }, "answer": { "value": "Carrying enough batteries" }, "points": 1 },
-            { "number": 22, "type": "MCQ_SINGLE", "promptEn": "What does Nilufar consider a success?", "data": { "options": ["Winning international competitions", "Selling photographs to magazines", "Opening her own photography school", "Changing local attitudes towards leopards"] }, "answer": { "value": "Changing local attitudes towards leopards" }, "points": 1 },
-            { "number": 23, "type": "MCQ_SINGLE", "promptEn": "What advice does Nilufar give to young photographers?", "data": { "options": ["Buy professional equipment early", "Enter as many competitions as possible", "Learn to watch animals patiently", "Move to the mountains permanently"] }, "answer": { "value": "Learn to watch animals patiently" }, "points": 1 }
-          ]
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What did Nilufar study at university?",
+              "data": {
+                "options": [
+                  "Photography",
+                  "Journalism",
+                  "Biology",
+                  "Tourism"
+                ]
+              },
+              "answer": {
+                "value": "Biology"
+              },
+              "points": 1
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How did Nilufar get her first good photo of a snow leopard?",
+              "data": {
+                "options": [
+                  "She followed the animals on foot for weeks",
+                  "She used automatic cameras fixed to rocks",
+                  "She hired an experienced local guide",
+                  "She photographed one at a wildlife park"
+                ]
+              },
+              "answer": {
+                "value": "She used automatic cameras fixed to rocks"
+              },
+              "points": 1
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to Nilufar, what is the most difficult part of her work?",
+              "data": {
+                "options": [
+                  "Surviving the extreme cold",
+                  "Carrying enough batteries",
+                  "Climbing dangerous rocks",
+                  "Finding clean water"
+                ]
+              },
+              "answer": {
+                "value": "Carrying enough batteries"
+              },
+              "points": 1
+            },
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does Nilufar consider a success?",
+              "data": {
+                "options": [
+                  "Winning international competitions",
+                  "Selling photographs to magazines",
+                  "Opening her own photography school",
+                  "Changing local attitudes towards leopards"
+                ]
+              },
+              "answer": {
+                "value": "Changing local attitudes towards leopards"
+              },
+              "points": 1
+            },
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What advice does Nilufar give to young photographers?",
+              "data": {
+                "options": [
+                  "Buy professional equipment early",
+                  "Enter as many competitions as possible",
+                  "Learn to watch animals patiently",
+                  "Move to the mountains permanently"
+                ]
+              },
+              "answer": {
+                "value": "Learn to watch animals patiently"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-1-part4.mp3"
         },
         {
           "order": 4,
@@ -85,15 +449,100 @@
           "titleEn": "Part 5: Sentence completion (Questions 24-29)",
           "instructionsEn": "You will hear a short talk about the history of paper. Complete the sentences. Write ONE or TWO words for each gap.",
           "instructionsUz": "Qog'oz tarixi haqidagi qisqa ma'ruzani tinglab, gaplarni to'ldiring. Har bir bo'sh joyga bir yoki ikki so'z yozing.",
-          "context": { "transcript": "Good afternoon. Today I want to talk about something we all use every day without thinking: paper — and, in particular, the special role our region played in its history.\n\nPaper was invented in China around two thousand years ago. For centuries the Chinese kept the production method a complete secret, and people in other countries had to write on expensive materials such as silk, or on specially prepared animal skin known as parchment.\n\nEverything changed in the eighth century. After a famous battle near the Talas river, craftsmen who knew the secret of paper-making were brought to Samarkand, and the city soon became the paper capital of the Islamic world. Samarkand paper was celebrated for two qualities: it was remarkably smooth, and it was strong — strong enough, in fact, that some documents written on it can still be read today, centuries later.\n\nSo what made it so good? The most important ingredient was the bark of the mulberry tree — the same tree whose leaves feed silkworms. The bark was soaked in water, beaten into a soft paste, pressed into thin sheets, and finally each sheet was polished with a smooth stone or a piece of glass until the surface shone.\n\nFrom Samarkand the technology travelled slowly westwards — first to Baghdad, then to Egypt — and it arrived in Europe only in the twelfth century, roughly four hundred years after it reached our region.\n\nToday you can still watch paper being made in the traditional way. A small workshop near Samarkand, run by a family of craftsmen, produces mulberry paper by hand using water power, and it has become a popular stop for tourists. Artists particularly value this paper because it does not change colour, even after many years." },
+          "context": {
+            "transcript": "Good afternoon. Today I want to talk about something we all use every day without thinking: paper — and, in particular, the special role our region played in its history.\n\nPaper was invented in China around two thousand years ago. For centuries the Chinese kept the production method a complete secret, and people in other countries had to write on expensive materials such as silk, or on specially prepared animal skin known as parchment.\n\nEverything changed in the eighth century. After a famous battle near the Talas river, craftsmen who knew the secret of paper-making were brought to Samarkand, and the city soon became the paper capital of the Islamic world. Samarkand paper was celebrated for two qualities: it was remarkably smooth, and it was strong — strong enough, in fact, that some documents written on it can still be read today, centuries later.\n\nSo what made it so good? The most important ingredient was the bark of the mulberry tree — the same tree whose leaves feed silkworms. The bark was soaked in water, beaten into a soft paste, pressed into thin sheets, and finally each sheet was polished with a smooth stone or a piece of glass until the surface shone.\n\nFrom Samarkand the technology travelled slowly westwards — first to Baghdad, then to Egypt — and it arrived in Europe only in the twelfth century, roughly four hundred years after it reached our region.\n\nToday you can still watch paper being made in the traditional way. A small workshop near Samarkand, run by a family of craftsmen, produces mulberry paper by hand using water power, and it has become a popular stop for tourists. Artists particularly value this paper because it does not change colour, even after many years."
+          },
           "questions": [
-            { "number": 24, "type": "GAP_FILL", "promptEn": "Before paper, people wrote on silk or on animal skin known as (24) ______.", "data": { "text": "Before paper, people wrote on silk or on animal skin known as (24) ______." }, "answer": { "accept": ["parchment"] }, "points": 1 },
-            { "number": 25, "type": "GAP_FILL", "promptEn": "Paper-making reached Samarkand in the (25) ______ century.", "data": { "text": "Paper-making reached Samarkand in the (25) ______ century." }, "answer": { "accept": ["eighth", "8th", "8"] }, "points": 1 },
-            { "number": 26, "type": "GAP_FILL", "promptEn": "Samarkand paper was famous for being smooth and (26) ______.", "data": { "text": "Samarkand paper was famous for being smooth and (26) ______." }, "answer": { "accept": ["strong"] }, "points": 1 },
-            { "number": 27, "type": "GAP_FILL", "promptEn": "The most important ingredient was the (27) ______ of the mulberry tree.", "data": { "text": "The most important ingredient was the (27) ______ of the mulberry tree." }, "answer": { "accept": ["bark"] }, "points": 1 },
-            { "number": 28, "type": "GAP_FILL", "promptEn": "Each sheet was polished with a stone or a piece of (28) ______.", "data": { "text": "Each sheet was polished with a stone or a piece of (28) ______." }, "answer": { "accept": ["glass"] }, "points": 1 },
-            { "number": 29, "type": "GAP_FILL", "promptEn": "Paper-making arrived in Europe in the (29) ______ century.", "data": { "text": "Paper-making arrived in Europe in the (29) ______ century." }, "answer": { "accept": ["twelfth", "12th", "12"] }, "points": 1 }
-          ]
+            {
+              "number": 24,
+              "type": "GAP_FILL",
+              "promptEn": "Before paper, people wrote on silk or on animal skin known as (24) ______.",
+              "data": {
+                "text": "Before paper, people wrote on silk or on animal skin known as (24) ______."
+              },
+              "answer": {
+                "accept": [
+                  "parchment"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 25,
+              "type": "GAP_FILL",
+              "promptEn": "Paper-making reached Samarkand in the (25) ______ century.",
+              "data": {
+                "text": "Paper-making reached Samarkand in the (25) ______ century."
+              },
+              "answer": {
+                "accept": [
+                  "eighth",
+                  "8th",
+                  "8"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 26,
+              "type": "GAP_FILL",
+              "promptEn": "Samarkand paper was famous for being smooth and (26) ______.",
+              "data": {
+                "text": "Samarkand paper was famous for being smooth and (26) ______."
+              },
+              "answer": {
+                "accept": [
+                  "strong"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 27,
+              "type": "GAP_FILL",
+              "promptEn": "The most important ingredient was the (27) ______ of the mulberry tree.",
+              "data": {
+                "text": "The most important ingredient was the (27) ______ of the mulberry tree."
+              },
+              "answer": {
+                "accept": [
+                  "bark"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 28,
+              "type": "GAP_FILL",
+              "promptEn": "Each sheet was polished with a stone or a piece of (28) ______.",
+              "data": {
+                "text": "Each sheet was polished with a stone or a piece of (28) ______."
+              },
+              "answer": {
+                "accept": [
+                  "glass"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 29,
+              "type": "GAP_FILL",
+              "promptEn": "Paper-making arrived in Europe in the (29) ______ century.",
+              "data": {
+                "text": "Paper-making arrived in Europe in the (29) ______ century."
+              },
+              "answer": {
+                "accept": [
+                  "twelfth",
+                  "12th",
+                  "12"
+                ]
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-1-part5.mp3"
         },
         {
           "order": 5,
@@ -101,15 +550,114 @@
           "titleEn": "Part 6: Lecture (Questions 30-35)",
           "instructionsEn": "You will hear part of a university lecture about sleep. For each question, choose the correct answer.",
           "instructionsUz": "Uyqu haqidagi universitet ma'ruzasidan parchani tinglang. Har bir savol uchun to'g'ri javobni tanlang.",
-          "context": { "transcript": "Good morning, everyone. In today's lecture I want to challenge a popular idea: the belief that sleep is simply a period when the brain switches off. Nothing could be further from the truth. In many ways your brain is busier at three in the morning than at three in the afternoon.\n\nLet's start with memory. During the day, new information is stored temporarily in a region called the hippocampus — think of it as a notebook for quick notes. But the notebook is small, and it fills up fast. While you sleep, the brain copies important information from this temporary store into long-term storage in the cortex, and — just as importantly — it deletes what it does not need. This is why students who sleep after studying consistently outperform those who stay up all night revising. In one well-known experiment, participants who slept after learning a list of words remembered about forty per cent more than those who stayed awake.\n\nThe second function is physical, and it was only discovered quite recently, in 2013. During deep sleep, the channels between brain cells widen, allowing fluid to wash through the brain and carry away waste chemicals produced during the day. One of these chemicals is linked to Alzheimer's disease, which may explain the connection researchers keep finding between years of poor sleep in middle age and memory problems decades later.\n\nSo how much sleep do we actually need? For adults, the evidence points clearly to between seven and nine hours. Some people insist they function perfectly on five. Laboratory testing shows that almost all of them are wrong: their reaction times and judgement decline sharply, but their opinion of their own performance stays high. In other words, sleep-deprived people are usually the last to notice their own mistakes — which is precisely what makes driving while tired so dangerous.\n\nFinally, a word about naps, because they are often dismissed as laziness. A short nap of around twenty minutes measurably improves alertness and mood. The key word is short. Sleep longer than about half an hour in the daytime and you enter deep sleep, and waking from deep sleep leaves you feeling worse than before — slow and confused, a state scientists call sleep inertia. Next week we will look at what happens when we dream." },
+          "context": {
+            "transcript": "Good morning, everyone. In today's lecture I want to challenge a popular idea: the belief that sleep is simply a period when the brain switches off. Nothing could be further from the truth. In many ways your brain is busier at three in the morning than at three in the afternoon.\n\nLet's start with memory. During the day, new information is stored temporarily in a region called the hippocampus — think of it as a notebook for quick notes. But the notebook is small, and it fills up fast. While you sleep, the brain copies important information from this temporary store into long-term storage in the cortex, and — just as importantly — it deletes what it does not need. This is why students who sleep after studying consistently outperform those who stay up all night revising. In one well-known experiment, participants who slept after learning a list of words remembered about forty per cent more than those who stayed awake.\n\nThe second function is physical, and it was only discovered quite recently, in 2013. During deep sleep, the channels between brain cells widen, allowing fluid to wash through the brain and carry away waste chemicals produced during the day. One of these chemicals is linked to Alzheimer's disease, which may explain the connection researchers keep finding between years of poor sleep in middle age and memory problems decades later.\n\nSo how much sleep do we actually need? For adults, the evidence points clearly to between seven and nine hours. Some people insist they function perfectly on five. Laboratory testing shows that almost all of them are wrong: their reaction times and judgement decline sharply, but their opinion of their own performance stays high. In other words, sleep-deprived people are usually the last to notice their own mistakes — which is precisely what makes driving while tired so dangerous.\n\nFinally, a word about naps, because they are often dismissed as laziness. A short nap of around twenty minutes measurably improves alertness and mood. The key word is short. Sleep longer than about half an hour in the daytime and you enter deep sleep, and waking from deep sleep leaves you feeling worse than before — slow and confused, a state scientists call sleep inertia. Next week we will look at what happens when we dream."
+          },
           "questions": [
-            { "number": 30, "type": "MCQ_SINGLE", "promptEn": "Which popular idea does the lecturer disagree with?", "data": { "options": ["Sleep is a time when the brain rests completely", "Students sleep less than they used to", "Naps are a sign of laziness", "Dreams have hidden meanings"] }, "answer": { "value": "Sleep is a time when the brain rests completely" }, "points": 1 },
-            { "number": 31, "type": "MCQ_SINGLE", "promptEn": "According to the lecture, what happens to important memories during sleep?", "data": { "options": ["They remain in the hippocampus permanently", "They are moved into long-term storage", "They are gradually deleted", "They become less accurate"] }, "answer": { "value": "They are moved into long-term storage" }, "points": 1 },
-            { "number": 32, "type": "MCQ_SINGLE", "promptEn": "What was the result of the word-list experiment?", "data": { "options": ["Participants who slept remembered about forty per cent more", "Participants remembered only forty per cent of the words", "Both groups performed equally well", "The sleepers forgot the list within a week"] }, "answer": { "value": "Participants who slept remembered about forty per cent more" }, "points": 1 },
-            { "number": 33, "type": "MCQ_SINGLE", "promptEn": "What discovery about sleep was made in 2013?", "data": { "options": ["Brain cells multiply during deep sleep", "Adults need exactly nine hours of sleep", "Deep sleep lets fluid wash waste chemicals out of the brain", "Dreaming protects against memory loss"] }, "answer": { "value": "Deep sleep lets fluid wash waste chemicals out of the brain" }, "points": 1 },
-            { "number": 34, "type": "MCQ_SINGLE", "promptEn": "What does the lecturer say about people who sleep only five hours?", "data": { "options": ["Most of them genuinely perform well", "They usually fail to notice their own reduced performance", "They react faster than well-rested people", "They readily admit their mistakes"] }, "answer": { "value": "They usually fail to notice their own reduced performance" }, "points": 1 },
-            { "number": 35, "type": "MCQ_SINGLE", "promptEn": "What is the lecturer's advice about daytime naps?", "data": { "options": ["Sleep at least an hour in the afternoon", "Avoid naps completely", "Keep naps shorter than about half an hour", "Replace night sleep with several naps"] }, "answer": { "value": "Keep naps shorter than about half an hour" }, "points": 1 }
-          ]
+            {
+              "number": 30,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Which popular idea does the lecturer disagree with?",
+              "data": {
+                "options": [
+                  "Sleep is a time when the brain rests completely",
+                  "Students sleep less than they used to",
+                  "Naps are a sign of laziness",
+                  "Dreams have hidden meanings"
+                ]
+              },
+              "answer": {
+                "value": "Sleep is a time when the brain rests completely"
+              },
+              "points": 1
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the lecture, what happens to important memories during sleep?",
+              "data": {
+                "options": [
+                  "They remain in the hippocampus permanently",
+                  "They are moved into long-term storage",
+                  "They are gradually deleted",
+                  "They become less accurate"
+                ]
+              },
+              "answer": {
+                "value": "They are moved into long-term storage"
+              },
+              "points": 1
+            },
+            {
+              "number": 32,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What was the result of the word-list experiment?",
+              "data": {
+                "options": [
+                  "Participants who slept remembered about forty per cent more",
+                  "Participants remembered only forty per cent of the words",
+                  "Both groups performed equally well",
+                  "The sleepers forgot the list within a week"
+                ]
+              },
+              "answer": {
+                "value": "Participants who slept remembered about forty per cent more"
+              },
+              "points": 1
+            },
+            {
+              "number": 33,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What discovery about sleep was made in 2013?",
+              "data": {
+                "options": [
+                  "Brain cells multiply during deep sleep",
+                  "Adults need exactly nine hours of sleep",
+                  "Deep sleep lets fluid wash waste chemicals out of the brain",
+                  "Dreaming protects against memory loss"
+                ]
+              },
+              "answer": {
+                "value": "Deep sleep lets fluid wash waste chemicals out of the brain"
+              },
+              "points": 1
+            },
+            {
+              "number": 34,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the lecturer say about people who sleep only five hours?",
+              "data": {
+                "options": [
+                  "Most of them genuinely perform well",
+                  "They usually fail to notice their own reduced performance",
+                  "They react faster than well-rested people",
+                  "They readily admit their mistakes"
+                ]
+              },
+              "answer": {
+                "value": "They usually fail to notice their own reduced performance"
+              },
+              "points": 1
+            },
+            {
+              "number": 35,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the lecturer's advice about daytime naps?",
+              "data": {
+                "options": [
+                  "Sleep at least an hour in the afternoon",
+                  "Avoid naps completely",
+                  "Keep naps shorter than about half an hour",
+                  "Replace night sleep with several naps"
+                ]
+              },
+              "answer": {
+                "value": "Keep naps shorter than about half an hour"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-1-part6.mp3"
         }
       ]
     },
@@ -127,14 +675,145 @@
           "instructionsEn": "Match each paragraph (A-F) with the correct heading. There are two extra headings you do not need.",
           "instructionsUz": "Har bir xatboshiga (A-F) mos sarlavhani tanlang. Ikkita sarlavha ortiqcha.",
           "passageText": "The Silk Road: Past and Present\n\nA. Despite its famous name, the Silk Road was never a single road. It was a huge network of caravan tracks that connected China with the Mediterranean, crossing deserts and mountain passes along the way. Few merchants ever travelled the whole distance of nearly seven thousand kilometres; instead, goods changed hands many times, rising in price at every stop.\n\nB. Silk, of course, moved along these routes, together with spices, glass, silver and paper. Yet the most valuable cargo was often invisible. Religions such as Buddhism and Islam, technologies like paper-making, musical instruments, and even fruits such as the peach travelled from one civilisation to another in merchants' caravans.\n\nC. From the end of the fifteenth century, however, the caravans slowly vanished. European sailors had discovered sea routes to India and China, and moving goods by ship proved faster, cheaper and far safer than months of desert travel. The great trading cities of Central Asia gradually lost their wealth and importance.\n\nD. In our century, the old idea has been reborn in a new form. Modern railways and motorways now follow the ancient directions, and freight trains regularly carry goods from China across Central Asia towards European markets. A new railway line through Kyrgyzstan and Uzbekistan is expected to shorten the journey even further.\n\nE. The legend of the Silk Road now attracts a different kind of traveller. Tourists from all over the world come to walk through the restored squares of Samarkand, Bukhara and Khiva, sleep in caravanserai-style hotels and photograph the same domes that traders saw five hundred years ago. Simpler visa rules have helped visitor numbers grow year after year.\n\nF. This popularity, however, has a price. Millions of feet wear down ancient stairways, and unsuitable modern repairs can damage buildings that survived for centuries. Heritage experts argue that historic cities must find a careful balance between welcoming visitors and protecting the monuments those visitors come to see.",
-          "context": { "headingsPool": ["Not one road but many", "More than goods on the move", "Why the caravans disappeared", "Trade returns on rails", "Travelling for pleasure, not profit", "Keeping old cities standing", "The secret of making silk", "A dangerous job in the desert"] },
+          "context": {
+            "headingsPool": [
+              "Not one road but many",
+              "More than goods on the move",
+              "Why the caravans disappeared",
+              "Trade returns on rails",
+              "Travelling for pleasure, not profit",
+              "Keeping old cities standing",
+              "The secret of making silk",
+              "A dangerous job in the desert"
+            ]
+          },
           "questions": [
-            { "number": 1, "type": "MCQ_SINGLE", "promptEn": "Paragraph A", "data": { "options": ["Not one road but many", "More than goods on the move", "Why the caravans disappeared", "Trade returns on rails", "Travelling for pleasure, not profit", "Keeping old cities standing", "The secret of making silk", "A dangerous job in the desert"] }, "answer": { "value": "Not one road but many" }, "points": 1 },
-            { "number": 2, "type": "MCQ_SINGLE", "promptEn": "Paragraph B", "data": { "options": ["Not one road but many", "More than goods on the move", "Why the caravans disappeared", "Trade returns on rails", "Travelling for pleasure, not profit", "Keeping old cities standing", "The secret of making silk", "A dangerous job in the desert"] }, "answer": { "value": "More than goods on the move" }, "points": 1 },
-            { "number": 3, "type": "MCQ_SINGLE", "promptEn": "Paragraph C", "data": { "options": ["Not one road but many", "More than goods on the move", "Why the caravans disappeared", "Trade returns on rails", "Travelling for pleasure, not profit", "Keeping old cities standing", "The secret of making silk", "A dangerous job in the desert"] }, "answer": { "value": "Why the caravans disappeared" }, "points": 1 },
-            { "number": 4, "type": "MCQ_SINGLE", "promptEn": "Paragraph D", "data": { "options": ["Not one road but many", "More than goods on the move", "Why the caravans disappeared", "Trade returns on rails", "Travelling for pleasure, not profit", "Keeping old cities standing", "The secret of making silk", "A dangerous job in the desert"] }, "answer": { "value": "Trade returns on rails" }, "points": 1 },
-            { "number": 5, "type": "MCQ_SINGLE", "promptEn": "Paragraph E", "data": { "options": ["Not one road but many", "More than goods on the move", "Why the caravans disappeared", "Trade returns on rails", "Travelling for pleasure, not profit", "Keeping old cities standing", "The secret of making silk", "A dangerous job in the desert"] }, "answer": { "value": "Travelling for pleasure, not profit" }, "points": 1 },
-            { "number": 6, "type": "MCQ_SINGLE", "promptEn": "Paragraph F", "data": { "options": ["Not one road but many", "More than goods on the move", "Why the caravans disappeared", "Trade returns on rails", "Travelling for pleasure, not profit", "Keeping old cities standing", "The secret of making silk", "A dangerous job in the desert"] }, "answer": { "value": "Keeping old cities standing" }, "points": 1 }
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph A",
+              "data": {
+                "options": [
+                  "Not one road but many",
+                  "More than goods on the move",
+                  "Why the caravans disappeared",
+                  "Trade returns on rails",
+                  "Travelling for pleasure, not profit",
+                  "Keeping old cities standing",
+                  "The secret of making silk",
+                  "A dangerous job in the desert"
+                ]
+              },
+              "answer": {
+                "value": "Not one road but many"
+              },
+              "points": 1
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph B",
+              "data": {
+                "options": [
+                  "Not one road but many",
+                  "More than goods on the move",
+                  "Why the caravans disappeared",
+                  "Trade returns on rails",
+                  "Travelling for pleasure, not profit",
+                  "Keeping old cities standing",
+                  "The secret of making silk",
+                  "A dangerous job in the desert"
+                ]
+              },
+              "answer": {
+                "value": "More than goods on the move"
+              },
+              "points": 1
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph C",
+              "data": {
+                "options": [
+                  "Not one road but many",
+                  "More than goods on the move",
+                  "Why the caravans disappeared",
+                  "Trade returns on rails",
+                  "Travelling for pleasure, not profit",
+                  "Keeping old cities standing",
+                  "The secret of making silk",
+                  "A dangerous job in the desert"
+                ]
+              },
+              "answer": {
+                "value": "Why the caravans disappeared"
+              },
+              "points": 1
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph D",
+              "data": {
+                "options": [
+                  "Not one road but many",
+                  "More than goods on the move",
+                  "Why the caravans disappeared",
+                  "Trade returns on rails",
+                  "Travelling for pleasure, not profit",
+                  "Keeping old cities standing",
+                  "The secret of making silk",
+                  "A dangerous job in the desert"
+                ]
+              },
+              "answer": {
+                "value": "Trade returns on rails"
+              },
+              "points": 1
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph E",
+              "data": {
+                "options": [
+                  "Not one road but many",
+                  "More than goods on the move",
+                  "Why the caravans disappeared",
+                  "Trade returns on rails",
+                  "Travelling for pleasure, not profit",
+                  "Keeping old cities standing",
+                  "The secret of making silk",
+                  "A dangerous job in the desert"
+                ]
+              },
+              "answer": {
+                "value": "Travelling for pleasure, not profit"
+              },
+              "points": 1
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph F",
+              "data": {
+                "options": [
+                  "Not one road but many",
+                  "More than goods on the move",
+                  "Why the caravans disappeared",
+                  "Trade returns on rails",
+                  "Travelling for pleasure, not profit",
+                  "Keeping old cities standing",
+                  "The secret of making silk",
+                  "A dangerous job in the desert"
+                ]
+              },
+              "answer": {
+                "value": "Keeping old cities standing"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -145,14 +824,127 @@
           "instructionsUz": "Matnni o'qib, 7-14-savollarga javob bering. 12-14-savollarda har bir gap matnga ko'ra to'g'ri yoki noto'g'ri ekanini aniqlang.",
           "passageText": "The Aral Sea: A Lesson for the World\n\nIn 1960 the Aral Sea was the fourth-largest lake on the planet, covering 68,000 square kilometres of territory between Kazakhstan and Uzbekistan. Around its shores stood busy fishing towns such as Moynaq, whose boats brought in tens of thousands of tonnes of fish every year and whose cannery supplied much of the Soviet Union.\n\nThe sea depended on two great rivers, the Amu Darya and the Syr Darya. In the 1960s, planners began redirecting their water into hundreds of canals to irrigate enormous new cotton fields. The results for agriculture were impressive; the results for the sea were catastrophic. Deprived of its rivers, the Aral began to retreat. By the 1990s it had split into separate parts, and by 2007 only about ten per cent of the original surface remained. Where fishing boats once sailed, camels now walk between rusting ships on dry sand.\n\nThe disappearance of the water destroyed far more than the fishing industry. Winds pick up salt and agricultural chemicals from the exposed seabed and carry them hundreds of kilometres, and doctors in the region report unusually high levels of breathing problems. The local climate has changed too: a large body of water softens temperatures, so without it summers have become hotter and winters colder.\n\nYet the story is not entirely hopeless. In 2005 Kazakhstan, supported by the World Bank, completed the Kokaral dam, which holds the Syr Darya's water in the northern part of the sea. Since then water levels there have risen by several metres, the water has become less salty, and fish — along with fishermen — have returned. The much larger southern section on the Uzbek side, however, is considered impossible to refill. Instead, Uzbekistan has chosen a different strategy: planting millions of hectares of drought-resistant saxaul trees on the dried seabed. Their roots hold the loose soil in place and reduce the dust storms at their source.\n\nScientists today describe the Aral Sea as one of the clearest warnings in environmental history: decisions taken without thinking about nature can undo, within a single human lifetime, what took thousands of years to create.",
           "questions": [
-            { "number": 7, "type": "MCQ_SINGLE", "promptEn": "Why did the Aral Sea begin to shrink?", "data": { "options": ["A long period of drought dried it up", "Its rivers were redirected to irrigate cotton fields", "The Kokaral dam cut off its water supply", "Overfishing destroyed its ecosystem"] }, "answer": { "value": "Its rivers were redirected to irrigate cotton fields" }, "points": 1 },
-            { "number": 8, "type": "MCQ_SINGLE", "promptEn": "What does the text say about the area around Moynaq today?", "data": { "options": ["Rusting ships stand on dry land where boats once sailed", "The cannery still processes fish for export", "It has become the region's main port", "It is now covered by the northern sea"] }, "answer": { "value": "Rusting ships stand on dry land where boats once sailed" }, "points": 1 },
-            { "number": 9, "type": "MCQ_SINGLE", "promptEn": "According to the text, why are the dust storms dangerous?", "data": { "options": ["They destroy the new saxaul plantations", "They make the winters even colder", "They carry salt and chemicals that harm people's health", "They prevent farmers from growing cotton"] }, "answer": { "value": "They carry salt and chemicals that harm people's health" }, "points": 1 },
-            { "number": 10, "type": "MCQ_SINGLE", "promptEn": "What has happened since the Kokaral dam was completed?", "data": { "options": ["The southern part has slowly refilled", "Water levels in the northern part have risen and fish have returned", "The dam collapsed after several years", "Salt levels in the north have increased"] }, "answer": { "value": "Water levels in the northern part have risen and fish have returned" }, "points": 1 },
-            { "number": 11, "type": "MCQ_SINGLE", "promptEn": "Why is Uzbekistan planting saxaul trees on the dried seabed?", "data": { "options": ["To hold the loose soil and reduce dust storms", "To provide firewood for local villages", "To bring back the fishing industry", "To attract tourists to the desert"] }, "answer": { "value": "To hold the loose soil and reduce dust storms" }, "points": 1 },
-            { "number": 12, "type": "TRUE_FALSE", "promptEn": "In 1960 the Aral Sea was the largest lake in the world.", "data": { "statement": "In 1960 the Aral Sea was the largest lake in the world." }, "answer": { "value": "false" }, "points": 1 },
-            { "number": 13, "type": "TRUE_FALSE", "promptEn": "The loss of the sea has made local summers hotter.", "data": { "statement": "The loss of the sea has made local summers hotter." }, "answer": { "value": "true" }, "points": 1 },
-            { "number": 14, "type": "TRUE_FALSE", "promptEn": "Experts believe the southern part of the sea can be refilled.", "data": { "statement": "Experts believe the southern part of the sea can be refilled." }, "answer": { "value": "false" }, "points": 1 }
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why did the Aral Sea begin to shrink?",
+              "data": {
+                "options": [
+                  "A long period of drought dried it up",
+                  "Its rivers were redirected to irrigate cotton fields",
+                  "The Kokaral dam cut off its water supply",
+                  "Overfishing destroyed its ecosystem"
+                ]
+              },
+              "answer": {
+                "value": "Its rivers were redirected to irrigate cotton fields"
+              },
+              "points": 1
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the text say about the area around Moynaq today?",
+              "data": {
+                "options": [
+                  "Rusting ships stand on dry land where boats once sailed",
+                  "The cannery still processes fish for export",
+                  "It has become the region's main port",
+                  "It is now covered by the northern sea"
+                ]
+              },
+              "answer": {
+                "value": "Rusting ships stand on dry land where boats once sailed"
+              },
+              "points": 1
+            },
+            {
+              "number": 9,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the text, why are the dust storms dangerous?",
+              "data": {
+                "options": [
+                  "They destroy the new saxaul plantations",
+                  "They make the winters even colder",
+                  "They carry salt and chemicals that harm people's health",
+                  "They prevent farmers from growing cotton"
+                ]
+              },
+              "answer": {
+                "value": "They carry salt and chemicals that harm people's health"
+              },
+              "points": 1
+            },
+            {
+              "number": 10,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What has happened since the Kokaral dam was completed?",
+              "data": {
+                "options": [
+                  "The southern part has slowly refilled",
+                  "Water levels in the northern part have risen and fish have returned",
+                  "The dam collapsed after several years",
+                  "Salt levels in the north have increased"
+                ]
+              },
+              "answer": {
+                "value": "Water levels in the northern part have risen and fish have returned"
+              },
+              "points": 1
+            },
+            {
+              "number": 11,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why is Uzbekistan planting saxaul trees on the dried seabed?",
+              "data": {
+                "options": [
+                  "To hold the loose soil and reduce dust storms",
+                  "To provide firewood for local villages",
+                  "To bring back the fishing industry",
+                  "To attract tourists to the desert"
+                ]
+              },
+              "answer": {
+                "value": "To hold the loose soil and reduce dust storms"
+              },
+              "points": 1
+            },
+            {
+              "number": 12,
+              "type": "TRUE_FALSE",
+              "promptEn": "In 1960 the Aral Sea was the largest lake in the world.",
+              "data": {
+                "statement": "In 1960 the Aral Sea was the largest lake in the world."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "points": 1
+            },
+            {
+              "number": 13,
+              "type": "TRUE_FALSE",
+              "promptEn": "The loss of the sea has made local summers hotter.",
+              "data": {
+                "statement": "The loss of the sea has made local summers hotter."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "points": 1
+            },
+            {
+              "number": 14,
+              "type": "TRUE_FALSE",
+              "promptEn": "Experts believe the southern part of the sea can be refilled.",
+              "data": {
+                "statement": "Experts believe the southern part of the sea can be refilled."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -162,15 +954,174 @@
           "instructionsEn": "Seven sentences have been removed from the text. For each gap (15-21), choose the sentence that fits best. There are two extra sentences you do not need.",
           "instructionsUz": "Matndan yettita gap olib tashlangan. Har bir bo'sh joy (15-21) uchun eng mos gapni tanlang. Ikkita gap ortiqcha.",
           "passageText": "Tiny Forests, Big Hopes\n\nOn a grey corner of an industrial district in the Dutch city of Utrecht, something unusual is growing. Three years ago the site was a car park. (15) ______ Today the same plot holds more than forty species of trees and shrubs, and birdsong competes with the traffic noise.\n\nThis is a 'tiny forest' — a dense patch of native woodland no bigger than a tennis court. The method behind it was developed in the 1970s by the Japanese botanist Akira Miyawaki. (16) ______ The result, supporters claim, is a wood that grows up to ten times faster than one planted in the traditional way.\n\nThe recipe sounds simple. First, the soil is dug deep and enriched with natural material. (17) ______ Because the young plants compete for light, they race upwards, forming a closed green roof within a few years.\n\nThe benefits go beyond beauty. (18) ______ In summer the shade makes the surrounding streets noticeably cooler, and in autumn the roots soak up rainwater that would otherwise flood the drains.\n\nScientists, however, warn against seeing tiny forests as a complete answer to climate change. (19) ______ A tennis-court-sized wood, they point out, stores in a decade roughly the carbon that a single passenger releases on one long-haul flight.\n\nEven so, the movement keeps spreading, with thousands of plots now growing in the Netherlands, India, France and beyond. (20) ______ Schools in particular use them as open-air classrooms, where children measure insects and soil temperature instead of only reading about them.\n\nPerhaps that is the real point. (21) ______ If a forest at the end of the street convinces a child that nature is worth protecting, it may achieve far more than its size suggests.",
-          "context": { "sentencesPool": ["Cracked concrete covered the ground, and litter collected in its corners.", "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.", "Then dozens of young native plants are placed close together, three or more in every square metre.", "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.", "The amount of carbon such a small plot can absorb is, in reality, very modest.", "Many of the new plots are planted beside schools, hospitals and busy roads.", "Its real harvest may not be timber or carbon, but enthusiasm.", "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.", "Miyawaki spent most of his career studying tropical rainforests."] },
+          "context": {
+            "sentencesPool": [
+              "Cracked concrete covered the ground, and litter collected in its corners.",
+              "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.",
+              "Then dozens of young native plants are placed close together, three or more in every square metre.",
+              "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.",
+              "The amount of carbon such a small plot can absorb is, in reality, very modest.",
+              "Many of the new plots are planted beside schools, hospitals and busy roads.",
+              "Its real harvest may not be timber or carbon, but enthusiasm.",
+              "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.",
+              "Miyawaki spent most of his career studying tropical rainforests."
+            ]
+          },
           "questions": [
-            { "number": 15, "type": "MCQ_SINGLE", "promptEn": "Gap 15", "data": { "options": ["Cracked concrete covered the ground, and litter collected in its corners.", "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.", "Then dozens of young native plants are placed close together, three or more in every square metre.", "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.", "The amount of carbon such a small plot can absorb is, in reality, very modest.", "Many of the new plots are planted beside schools, hospitals and busy roads.", "Its real harvest may not be timber or carbon, but enthusiasm.", "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.", "Miyawaki spent most of his career studying tropical rainforests."] }, "answer": { "value": "Cracked concrete covered the ground, and litter collected in its corners." }, "points": 1 },
-            { "number": 16, "type": "MCQ_SINGLE", "promptEn": "Gap 16", "data": { "options": ["Cracked concrete covered the ground, and litter collected in its corners.", "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.", "Then dozens of young native plants are placed close together, three or more in every square metre.", "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.", "The amount of carbon such a small plot can absorb is, in reality, very modest.", "Many of the new plots are planted beside schools, hospitals and busy roads.", "Its real harvest may not be timber or carbon, but enthusiasm.", "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.", "Miyawaki spent most of his career studying tropical rainforests."] }, "answer": { "value": "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest." }, "points": 1 },
-            { "number": 17, "type": "MCQ_SINGLE", "promptEn": "Gap 17", "data": { "options": ["Cracked concrete covered the ground, and litter collected in its corners.", "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.", "Then dozens of young native plants are placed close together, three or more in every square metre.", "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.", "The amount of carbon such a small plot can absorb is, in reality, very modest.", "Many of the new plots are planted beside schools, hospitals and busy roads.", "Its real harvest may not be timber or carbon, but enthusiasm.", "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.", "Miyawaki spent most of his career studying tropical rainforests."] }, "answer": { "value": "Then dozens of young native plants are placed close together, three or more in every square metre." }, "points": 1 },
-            { "number": 18, "type": "MCQ_SINGLE", "promptEn": "Gap 18", "data": { "options": ["Cracked concrete covered the ground, and litter collected in its corners.", "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.", "Then dozens of young native plants are placed close together, three or more in every square metre.", "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.", "The amount of carbon such a small plot can absorb is, in reality, very modest.", "Many of the new plots are planted beside schools, hospitals and busy roads.", "Its real harvest may not be timber or carbon, but enthusiasm.", "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.", "Miyawaki spent most of his career studying tropical rainforests."] }, "answer": { "value": "A dense wall of leaves filters dust from the air and gives insects and birds a place to live." }, "points": 1 },
-            { "number": 19, "type": "MCQ_SINGLE", "promptEn": "Gap 19", "data": { "options": ["Cracked concrete covered the ground, and litter collected in its corners.", "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.", "Then dozens of young native plants are placed close together, three or more in every square metre.", "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.", "The amount of carbon such a small plot can absorb is, in reality, very modest.", "Many of the new plots are planted beside schools, hospitals and busy roads.", "Its real harvest may not be timber or carbon, but enthusiasm.", "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.", "Miyawaki spent most of his career studying tropical rainforests."] }, "answer": { "value": "The amount of carbon such a small plot can absorb is, in reality, very modest." }, "points": 1 },
-            { "number": 20, "type": "MCQ_SINGLE", "promptEn": "Gap 20", "data": { "options": ["Cracked concrete covered the ground, and litter collected in its corners.", "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.", "Then dozens of young native plants are placed close together, three or more in every square metre.", "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.", "The amount of carbon such a small plot can absorb is, in reality, very modest.", "Many of the new plots are planted beside schools, hospitals and busy roads.", "Its real harvest may not be timber or carbon, but enthusiasm.", "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.", "Miyawaki spent most of his career studying tropical rainforests."] }, "answer": { "value": "Many of the new plots are planted beside schools, hospitals and busy roads." }, "points": 1 },
-            { "number": 21, "type": "MCQ_SINGLE", "promptEn": "Gap 21", "data": { "options": ["Cracked concrete covered the ground, and litter collected in its corners.", "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.", "Then dozens of young native plants are placed close together, three or more in every square metre.", "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.", "The amount of carbon such a small plot can absorb is, in reality, very modest.", "Many of the new plots are planted beside schools, hospitals and busy roads.", "Its real harvest may not be timber or carbon, but enthusiasm.", "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.", "Miyawaki spent most of his career studying tropical rainforests."] }, "answer": { "value": "Its real harvest may not be timber or carbon, but enthusiasm." }, "points": 1 }
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 15",
+              "data": {
+                "options": [
+                  "Cracked concrete covered the ground, and litter collected in its corners.",
+                  "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.",
+                  "Then dozens of young native plants are placed close together, three or more in every square metre.",
+                  "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.",
+                  "The amount of carbon such a small plot can absorb is, in reality, very modest.",
+                  "Many of the new plots are planted beside schools, hospitals and busy roads.",
+                  "Its real harvest may not be timber or carbon, but enthusiasm.",
+                  "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.",
+                  "Miyawaki spent most of his career studying tropical rainforests."
+                ]
+              },
+              "answer": {
+                "value": "Cracked concrete covered the ground, and litter collected in its corners."
+              },
+              "points": 1
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 16",
+              "data": {
+                "options": [
+                  "Cracked concrete covered the ground, and litter collected in its corners.",
+                  "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.",
+                  "Then dozens of young native plants are placed close together, three or more in every square metre.",
+                  "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.",
+                  "The amount of carbon such a small plot can absorb is, in reality, very modest.",
+                  "Many of the new plots are planted beside schools, hospitals and busy roads.",
+                  "Its real harvest may not be timber or carbon, but enthusiasm.",
+                  "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.",
+                  "Miyawaki spent most of his career studying tropical rainforests."
+                ]
+              },
+              "answer": {
+                "value": "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest."
+              },
+              "points": 1
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 17",
+              "data": {
+                "options": [
+                  "Cracked concrete covered the ground, and litter collected in its corners.",
+                  "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.",
+                  "Then dozens of young native plants are placed close together, three or more in every square metre.",
+                  "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.",
+                  "The amount of carbon such a small plot can absorb is, in reality, very modest.",
+                  "Many of the new plots are planted beside schools, hospitals and busy roads.",
+                  "Its real harvest may not be timber or carbon, but enthusiasm.",
+                  "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.",
+                  "Miyawaki spent most of his career studying tropical rainforests."
+                ]
+              },
+              "answer": {
+                "value": "Then dozens of young native plants are placed close together, three or more in every square metre."
+              },
+              "points": 1
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 18",
+              "data": {
+                "options": [
+                  "Cracked concrete covered the ground, and litter collected in its corners.",
+                  "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.",
+                  "Then dozens of young native plants are placed close together, three or more in every square metre.",
+                  "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.",
+                  "The amount of carbon such a small plot can absorb is, in reality, very modest.",
+                  "Many of the new plots are planted beside schools, hospitals and busy roads.",
+                  "Its real harvest may not be timber or carbon, but enthusiasm.",
+                  "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.",
+                  "Miyawaki spent most of his career studying tropical rainforests."
+                ]
+              },
+              "answer": {
+                "value": "A dense wall of leaves filters dust from the air and gives insects and birds a place to live."
+              },
+              "points": 1
+            },
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 19",
+              "data": {
+                "options": [
+                  "Cracked concrete covered the ground, and litter collected in its corners.",
+                  "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.",
+                  "Then dozens of young native plants are placed close together, three or more in every square metre.",
+                  "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.",
+                  "The amount of carbon such a small plot can absorb is, in reality, very modest.",
+                  "Many of the new plots are planted beside schools, hospitals and busy roads.",
+                  "Its real harvest may not be timber or carbon, but enthusiasm.",
+                  "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.",
+                  "Miyawaki spent most of his career studying tropical rainforests."
+                ]
+              },
+              "answer": {
+                "value": "The amount of carbon such a small plot can absorb is, in reality, very modest."
+              },
+              "points": 1
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 20",
+              "data": {
+                "options": [
+                  "Cracked concrete covered the ground, and litter collected in its corners.",
+                  "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.",
+                  "Then dozens of young native plants are placed close together, three or more in every square metre.",
+                  "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.",
+                  "The amount of carbon such a small plot can absorb is, in reality, very modest.",
+                  "Many of the new plots are planted beside schools, hospitals and busy roads.",
+                  "Its real harvest may not be timber or carbon, but enthusiasm.",
+                  "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.",
+                  "Miyawaki spent most of his career studying tropical rainforests."
+                ]
+              },
+              "answer": {
+                "value": "Many of the new plots are planted beside schools, hospitals and busy roads."
+              },
+              "points": 1
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 21",
+              "data": {
+                "options": [
+                  "Cracked concrete covered the ground, and litter collected in its corners.",
+                  "He argued that if native trees are planted densely in well-prepared soil, nature will do the rest.",
+                  "Then dozens of young native plants are placed close together, three or more in every square metre.",
+                  "A dense wall of leaves filters dust from the air and gives insects and birds a place to live.",
+                  "The amount of carbon such a small plot can absorb is, in reality, very modest.",
+                  "Many of the new plots are planted beside schools, hospitals and busy roads.",
+                  "Its real harvest may not be timber or carbon, but enthusiasm.",
+                  "Cutting down mature forests, by contrast, releases carbon that was stored over centuries.",
+                  "Miyawaki spent most of his career studying tropical rainforests."
+                ]
+              },
+              "answer": {
+                "value": "Its real harvest may not be timber or carbon, but enthusiasm."
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -181,13 +1132,125 @@
           "instructionsUz": "Muallifning fikr-mulohazasi bildirilgan maqolani o'qib, 22-28-savollarga javob bering. Muallif nazarda tutgan ma'noga eng mos javobni tanlang.",
           "passageText": "In Praise of Boredom\n\nI recently watched a man wait four minutes for a bus. It was, apparently, an ordeal. In the first thirty seconds he checked his messages; in the next he refreshed a news feed that had not changed; by minute three he was watching a video of a stranger assembling furniture. At no point did he look up at the spring sky or simply stand and think. Waiting, once a natural part of every life, has become an emergency requiring immediate digital treatment.\n\nWe are the first generation in history that need never be bored, and we may come to regret it. Boredom is uncomfortable, which is precisely why it is useful. When the brain receives no entertainment, it entertains itself: it wanders, replays conversations, connects unrelated ideas, imagines futures. Psychologists call this the 'default mode', and it is where much of our most original thinking happens. Ask writers or scientists where their best ideas arrive, and the answers are suspiciously similar — in the shower, on a long walk, staring out of a train window. Rarely does anyone say 'while scrolling'.\n\nThe entertainment industry, of course, sees things differently. Every app on your phone is engineered by talented people whose salaries depend on you never experiencing an empty moment. They speak warmly of 'engagement', a word that sounds like commitment but means capture. I do not blame them — capturing attention is their job. I merely note that our attention is the prize in a contest we did not know we had entered, against opponents we cannot see, with rules written entirely by the other side.\n\nSome argue that filling empty minutes with podcasts and articles is self-improvement, not distraction. There is something in this; a commute spent learning a language is hardly wasted. But improvement, too, can become a compulsion — the ambitious cousin of doom-scrolling. A mind that must always be fed is still a mind that cannot be left alone, whatever the quality of its diet.\n\nI am not suggesting we abandon our phones and take up staring at walls professionally. Technology has returned to us hours that earlier generations lost to queues and paperwork, and only a hypocrite would type these words on a laptop and then demand you read them on paper. What I am suggesting is more modest: that we occasionally decline the rescue. Next time a bus is late, let it be late. Stand in the ordinary silence, be bored properly for five minutes, and see what your unsupervised mind drags home. It may be nothing. It may be the idea you have been too busy to have.",
           "questions": [
-            { "number": 22, "type": "MCQ_SINGLE", "promptEn": "Why does the writer describe the man at the bus stop?", "data": { "options": ["To show how difficult modern people find even short waits", "To demonstrate the unreliability of city buses", "To explain the popularity of furniture videos", "To prove that news feeds change too quickly"] }, "answer": { "value": "To show how difficult modern people find even short waits" }, "points": 1 },
-            { "number": 23, "type": "MCQ_SINGLE", "promptEn": "According to the writer, why is boredom valuable?", "data": { "options": ["It makes later entertainment more enjoyable", "It teaches patience in daily life", "It forces the mind to produce its own ideas", "It helps people remember conversations accurately"] }, "answer": { "value": "It forces the mind to produce its own ideas" }, "points": 1 },
-            { "number": 24, "type": "MCQ_SINGLE", "promptEn": "The writer mentions showers, walks and train windows to show that...", "data": { "options": ["creative people dislike modern technology", "good ideas often arrive when people are not being entertained", "scientists think best while travelling", "washing and walking improve the memory"] }, "answer": { "value": "good ideas often arrive when people are not being entertained" }, "points": 1 },
-            { "number": 25, "type": "MCQ_SINGLE", "promptEn": "What is the writer's attitude towards the people who design apps?", "data": { "options": ["He admires their goals completely", "He believes they misunderstand their own products", "He wants them to be punished by law", "He does not blame them personally but objects to the unequal contest they run"] }, "answer": { "value": "He does not blame them personally but objects to the unequal contest they run" }, "points": 1 },
-            { "number": 26, "type": "MCQ_SINGLE", "promptEn": "What does the writer mean by calling self-improvement 'the ambitious cousin of doom-scrolling'?", "data": { "options": ["Educational content can also become a way of avoiding an empty mind", "Learning languages during a commute is a waste of time", "Ambitious people scroll more than anyone else", "Podcasts are lower quality than articles"] }, "answer": { "value": "Educational content can also become a way of avoiding an empty mind" }, "points": 1 },
-            { "number": 27, "type": "MCQ_SINGLE", "promptEn": "Why does the writer mention typing on a laptop?", "data": { "options": ["To recommend writing by hand instead", "To admit that he relies on technology too", "To criticise people who read on paper", "To advertise his next article"] }, "answer": { "value": "To admit that he relies on technology too" }, "points": 1 },
-            { "number": 28, "type": "MCQ_SINGLE", "promptEn": "Which statement would the writer most likely agree with?", "data": { "options": ["People should abandon smartphones entirely", "Being bored is always a pleasant experience", "Occasionally choosing to do nothing can produce unexpected ideas", "Commutes should always be filled with podcasts"] }, "answer": { "value": "Occasionally choosing to do nothing can produce unexpected ideas" }, "points": 1 }
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does the writer describe the man at the bus stop?",
+              "data": {
+                "options": [
+                  "To show how difficult modern people find even short waits",
+                  "To demonstrate the unreliability of city buses",
+                  "To explain the popularity of furniture videos",
+                  "To prove that news feeds change too quickly"
+                ]
+              },
+              "answer": {
+                "value": "To show how difficult modern people find even short waits"
+              },
+              "points": 1
+            },
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the writer, why is boredom valuable?",
+              "data": {
+                "options": [
+                  "It makes later entertainment more enjoyable",
+                  "It teaches patience in daily life",
+                  "It forces the mind to produce its own ideas",
+                  "It helps people remember conversations accurately"
+                ]
+              },
+              "answer": {
+                "value": "It forces the mind to produce its own ideas"
+              },
+              "points": 1
+            },
+            {
+              "number": 24,
+              "type": "MCQ_SINGLE",
+              "promptEn": "The writer mentions showers, walks and train windows to show that...",
+              "data": {
+                "options": [
+                  "creative people dislike modern technology",
+                  "good ideas often arrive when people are not being entertained",
+                  "scientists think best while travelling",
+                  "washing and walking improve the memory"
+                ]
+              },
+              "answer": {
+                "value": "good ideas often arrive when people are not being entertained"
+              },
+              "points": 1
+            },
+            {
+              "number": 25,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the writer's attitude towards the people who design apps?",
+              "data": {
+                "options": [
+                  "He admires their goals completely",
+                  "He believes they misunderstand their own products",
+                  "He wants them to be punished by law",
+                  "He does not blame them personally but objects to the unequal contest they run"
+                ]
+              },
+              "answer": {
+                "value": "He does not blame them personally but objects to the unequal contest they run"
+              },
+              "points": 1
+            },
+            {
+              "number": 26,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the writer mean by calling self-improvement 'the ambitious cousin of doom-scrolling'?",
+              "data": {
+                "options": [
+                  "Educational content can also become a way of avoiding an empty mind",
+                  "Learning languages during a commute is a waste of time",
+                  "Ambitious people scroll more than anyone else",
+                  "Podcasts are lower quality than articles"
+                ]
+              },
+              "answer": {
+                "value": "Educational content can also become a way of avoiding an empty mind"
+              },
+              "points": 1
+            },
+            {
+              "number": 27,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does the writer mention typing on a laptop?",
+              "data": {
+                "options": [
+                  "To recommend writing by hand instead",
+                  "To admit that he relies on technology too",
+                  "To criticise people who read on paper",
+                  "To advertise his next article"
+                ]
+              },
+              "answer": {
+                "value": "To admit that he relies on technology too"
+              },
+              "points": 1
+            },
+            {
+              "number": 28,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Which statement would the writer most likely agree with?",
+              "data": {
+                "options": [
+                  "People should abandon smartphones entirely",
+                  "Being bored is always a pleasant experience",
+                  "Occasionally choosing to do nothing can produce unexpected ideas",
+                  "Commutes should always be filled with podcasts"
+                ]
+              },
+              "answer": {
+                "value": "Occasionally choosing to do nothing can produce unexpected ideas"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -198,13 +1261,120 @@
           "instructionsUz": "Akademik matnni o'qib, 29-35-savollarga javob bering. 33-35-savollarga matndan olingan ko'pi bilan UCH so'z bilan qisqa javob yozing.",
           "passageText": "The Melting Water Towers of Central Asia\n\nHigh above the farms and cities of Central Asia, the mountain ranges of the Tien Shan and the Pamir hold thousands of glaciers. Scientists often call these frozen reserves 'water towers', because they store winter snowfall as ice and release it gradually during hot, dry summers — precisely when the rivers below are needed most. The two great rivers of the region, the Amu Darya and the Syr Darya, both begin among these peaks, and tens of millions of people depend on their flow for drinking water, agriculture and electricity.\n\nThat dependable rhythm is now changing. By comparing modern satellite measurements with records kept by Soviet researchers since the mid-twentieth century, glaciologists have calculated that the Tien Shan has lost roughly a quarter of its ice mass since the 1960s. The rate of loss, moreover, appears to be accelerating: glaciers here are shrinking faster than the global average, partly because Central Asian summers have warmed sharply, and partly because dust and soot settle on the ice, darkening its surface so that it absorbs more sunlight instead of reflecting it.\n\nCounter-intuitively, the first stage of glacier decline can look like abundance. As melting speeds up, rivers actually carry more water than before, encouraging farms and hydropower stations to expand. Hydrologists warn against reading this as good news. They describe a moment called 'peak water': the point at which a river's flow reaches its maximum and then begins a long, permanent decline as the ice reserve behind it runs out. Several major basins in the region are expected to pass this point around the middle of this century — within the lifetime of today's students.\n\nWhat would that mean in practice? Agriculture consumes about ninety per cent of the region's water, much of it through open earth canals dug decades ago, from which a large share evaporates or leaks away before ever reaching a field. Even partial modernisation would soften the coming shortage considerably. Drip irrigation, which delivers water directly to a plant's roots through narrow pipes, can cut a farm's water use by up to half while actually raising yields, and Uzbekistan now subsidises farmers who install it. Meteorological stations are also being rebuilt in the high mountains, where data collection largely stopped after 1991, because forecasting future supply is impossible without knowing what is happening on the glaciers today.\n\nThe deeper challenge, researchers argue, is political rather than technical. Central Asia's rivers ignore national borders: water stored in the mountains of one state is consumed on the plains of another. Upstream countries prefer to release water in winter to generate electricity, while downstream countries need it in summer for their fields. Climate change raises the stakes of this old disagreement, but it may also supply the motivation to settle it. A river system approaching peak water, scientists observe, is an argument that nobody can afford to lose.",
           "questions": [
-            { "number": 29, "type": "MCQ_SINGLE", "promptEn": "Why are Central Asian glaciers described as 'water towers'?", "data": { "options": ["They rise higher than any building in the region", "They store frozen water and release it during the dry season", "They pump river water up into mountain lakes", "They protect the valleys from winter snowfall"] }, "answer": { "value": "They store frozen water and release it during the dry season" }, "points": 1 },
-            { "number": 30, "type": "MCQ_SINGLE", "promptEn": "How did scientists calculate the ice lost since the 1960s?", "data": { "options": ["By interviewing farmers about river levels", "By counting the glaciers from aeroplanes", "By comparing satellite data with Soviet-era records", "By measuring rainfall in the valleys"] }, "answer": { "value": "By comparing satellite data with Soviet-era records" }, "points": 1 },
-            { "number": 31, "type": "MCQ_SINGLE", "promptEn": "Why do hydrologists warn against celebrating today's higher river flows?", "data": { "options": ["The extra water is a sign that the ice reserve is running out", "The water is too salty for use in agriculture", "Floods destroy hydropower stations every spring", "The flow decreases again within a few weeks"] }, "answer": { "value": "The extra water is a sign that the ice reserve is running out" }, "points": 1 },
-            { "number": 32, "type": "MCQ_SINGLE", "promptEn": "According to the passage, sharing the region's water is difficult mainly because...", "data": { "options": ["the rivers are too polluted to share fairly", "upstream and downstream countries need the water at different times of year", "satellite monitoring is not allowed across borders", "farmers refuse to modernise their canals"] }, "answer": { "value": "upstream and downstream countries need the water at different times of year" }, "points": 1 },
-            { "number": 33, "type": "SHORT_ANSWER", "promptEn": "What settles on the glaciers and makes the ice absorb more sunlight? (no more than THREE words)", "data": { "text": "What settles on the glaciers and makes the ice absorb more sunlight?" }, "answer": { "accept": ["dust and soot", "soot and dust", "dust", "soot"] }, "points": 1 },
-            { "number": 34, "type": "SHORT_ANSWER", "promptEn": "Which irrigation technology can cut a farm's water use by up to half? (no more than THREE words)", "data": { "text": "Which irrigation technology can cut a farm's water use by up to half?" }, "answer": { "accept": ["drip irrigation", "drip"] }, "points": 1 },
-            { "number": 35, "type": "SHORT_ANSWER", "promptEn": "What term describes the moment when a river's flow reaches its maximum before a permanent decline? (TWO words)", "data": { "text": "What term describes the moment when a river's flow reaches its maximum before a permanent decline?" }, "answer": { "accept": ["peak water"] }, "points": 1 }
+            {
+              "number": 29,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why are Central Asian glaciers described as 'water towers'?",
+              "data": {
+                "options": [
+                  "They rise higher than any building in the region",
+                  "They store frozen water and release it during the dry season",
+                  "They pump river water up into mountain lakes",
+                  "They protect the valleys from winter snowfall"
+                ]
+              },
+              "answer": {
+                "value": "They store frozen water and release it during the dry season"
+              },
+              "points": 1
+            },
+            {
+              "number": 30,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How did scientists calculate the ice lost since the 1960s?",
+              "data": {
+                "options": [
+                  "By interviewing farmers about river levels",
+                  "By counting the glaciers from aeroplanes",
+                  "By comparing satellite data with Soviet-era records",
+                  "By measuring rainfall in the valleys"
+                ]
+              },
+              "answer": {
+                "value": "By comparing satellite data with Soviet-era records"
+              },
+              "points": 1
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why do hydrologists warn against celebrating today's higher river flows?",
+              "data": {
+                "options": [
+                  "The extra water is a sign that the ice reserve is running out",
+                  "The water is too salty for use in agriculture",
+                  "Floods destroy hydropower stations every spring",
+                  "The flow decreases again within a few weeks"
+                ]
+              },
+              "answer": {
+                "value": "The extra water is a sign that the ice reserve is running out"
+              },
+              "points": 1
+            },
+            {
+              "number": 32,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the passage, sharing the region's water is difficult mainly because...",
+              "data": {
+                "options": [
+                  "the rivers are too polluted to share fairly",
+                  "upstream and downstream countries need the water at different times of year",
+                  "satellite monitoring is not allowed across borders",
+                  "farmers refuse to modernise their canals"
+                ]
+              },
+              "answer": {
+                "value": "upstream and downstream countries need the water at different times of year"
+              },
+              "points": 1
+            },
+            {
+              "number": 33,
+              "type": "SHORT_ANSWER",
+              "promptEn": "What settles on the glaciers and makes the ice absorb more sunlight? (no more than THREE words)",
+              "data": {
+                "text": "What settles on the glaciers and makes the ice absorb more sunlight?"
+              },
+              "answer": {
+                "accept": [
+                  "dust and soot",
+                  "soot and dust",
+                  "dust",
+                  "soot"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 34,
+              "type": "SHORT_ANSWER",
+              "promptEn": "Which irrigation technology can cut a farm's water use by up to half? (no more than THREE words)",
+              "data": {
+                "text": "Which irrigation technology can cut a farm's water use by up to half?"
+              },
+              "answer": {
+                "accept": [
+                  "drip irrigation",
+                  "drip"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 35,
+              "type": "SHORT_ANSWER",
+              "promptEn": "What term describes the moment when a river's flow reaches its maximum before a permanent decline? (TWO words)",
+              "data": {
+                "text": "What term describes the moment when a river's flow reaches its maximum before a permanent decline?"
+              },
+              "answer": {
+                "accept": [
+                  "peak water"
+                ]
+              },
+              "points": 1
+            }
           ]
         }
       ]
@@ -228,18 +1398,40 @@
               "type": "WRITING_TASK",
               "promptEn": "You received this email from your English friend Lisa:\n\n\"Hi! I just heard you've got a summer job at a children's camp — congratulations! What exactly will you be doing there? Who will you be working with? And will you be free to meet up before you leave? Write soon! Lisa\"\n\nWrite a reply to Lisa. Answer all three of her questions. Write at least 50 words.",
               "promptUz": "Do'stingiz Lisadan email keldi (yuqorida). Unga javob yozing: uchala savoliga ham javob bering. Kamida 50 so'z.",
-              "data": { "minWords": 50, "maxWords": 100 },
+              "data": {
+                "minWords": 50,
+                "maxWords": 100
+              },
               "points": 1,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "informal email — all 3 questions must be answered in a friendly tone" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "informal email — all 3 questions must be answered in a friendly tone"
+              }
             },
             {
               "number": 2,
               "type": "WRITING_TASK",
               "promptEn": "You recently ordered a pair of wireless headphones from an online shop. When the package arrived, the headphones were damaged and the charging cable was missing.\n\nWrite an email to the shop's customer service department. In your email:\n- say when you ordered the headphones and give your order details;\n- describe the two problems;\n- explain what action you want the shop to take.\n\nWrite 120-150 words. Begin your email with 'Dear Sir or Madam'.",
               "promptUz": "Onlayn do'kondan buyurtma qilgan simsiz quloqchiningiz shikastlangan holda keldi va zaryadlash kabeli yo'q edi. Do'konning mijozlarga xizmat ko'rsatish bo'limiga rasmiy email yozing: qachon buyurtma qilganingizni va buyurtma ma'lumotlarini ayting; ikkala muammoni tasvirlab bering; do'kondan qanday chora kutayotganingizni tushuntiring. 120-150 so'z yozing. Emailni 'Dear Sir or Madam' bilan boshlang.",
-              "data": { "minWords": 120, "maxWords": 150 },
+              "data": {
+                "minWords": 120,
+                "maxWords": 150
+              },
               "points": 1,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "formal email of complaint — polite register, all 3 content points covered" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "formal email of complaint — polite register, all 3 content points covered"
+              }
             }
           ]
         },
@@ -255,9 +1447,20 @@
               "type": "WRITING_TASK",
               "promptEn": "Some people believe that higher education should be free for all students, while others think that students should pay for their own university studies. Discuss both views and give your own opinion. Give reasons and examples from your own knowledge or experience. Write at least 180 words.",
               "promptUz": "Ba'zilar oliy ta'lim barcha talabalar uchun bepul bo'lishi kerak deb hisoblaydi, boshqalar esa talabalar o'qishlari uchun o'zlari to'lashi kerak deb o'ylaydi. Ikkala qarashni muhokama qiling va o'z fikringizni bildiring. Fikrlaringizni sabab va misollar bilan asoslang. Kamida 180 so'z yozing.",
-              "data": { "minWords": 180, "maxWords": 250 },
+              "data": {
+                "minWords": 180,
+                "maxWords": 250
+              },
               "points": 2,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "formal discussion essay — both views discussed, clear personal opinion, paragraphing and linking devices" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "formal discussion essay — both views discussed, clear personal opinion, paragraphing and linking devices"
+              }
             }
           ]
         }
@@ -282,9 +1485,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "Let's talk about where you live. What do you like most about your home town or city? How has it changed in recent years? Is it a good place for young people? Why or why not?",
               "promptUz": "Yashash joyingiz haqida gaplashamiz. Shahringiz yoki qishlog'ingizning nimasi sizga eng ko'p yoqadi? U so'nggi yillarda qanday o'zgardi? U yoshlar uchun yaxshi joymi? Nima uchun?",
-              "data": { "preparationSeconds": 10, "recordSeconds": 60 },
+              "data": {
+                "preparationSeconds": 10,
+                "recordSeconds": 60
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "B1" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "B1"
+              }
             }
           ]
         },
@@ -300,9 +1514,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "These days many people prefer shopping online instead of going to local shops and bazaars. Describe the advantages and disadvantages of online shopping. Which do you personally prefer — buying things online, or in a shop where you can see and touch them? Explain your reasons.",
               "promptUz": "Hozirda ko'pchilik mahalliy do'kon va bozorlarga borish o'rniga onlayn xarid qilishni afzal ko'radi. Onlayn xaridning afzalliklari va kamchiliklarini tasvirlab bering. Siz shaxsan qaysi birini afzal ko'rasiz — onlayn xaridmi yoki mahsulotni ko'rib, ushlab xarid qilishmi? Sabablarini tushuntiring.",
-              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "data": {
+                "preparationSeconds": 60,
+                "recordSeconds": 120
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "B2" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "B2"
+              }
             }
           ]
         },
@@ -318,9 +1543,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "\"Governments should spend money on solving problems here on Earth rather than on exploring space.\" To what extent do you agree or disagree? Consider both the urgent needs of people today and the long-term benefits that space research may bring.",
               "promptUz": "«Hukumatlar koinotni o'rganishga emas, Yerdagi muammolarni hal qilishga pul sarflashi kerak». Bu fikrga qay darajada qo'shilasiz? Bugungi odamlarning dolzarb ehtiyojlarini ham, koinot tadqiqotlari keltirishi mumkin bo'lgan uzoq muddatli foydani ham muhokama qiling.",
-              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "data": {
+                "preparationSeconds": 60,
+                "recordSeconds": 120
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "C1" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "C1"
+              }
             }
           ]
         }

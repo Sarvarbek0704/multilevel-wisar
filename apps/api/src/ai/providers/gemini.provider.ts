@@ -42,7 +42,7 @@ export class GeminiProvider implements AiProvider {
     jsonMode: boolean,
   ): Promise<string> {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${this.model}:generateContent`;
-    const response = await fetch(url, {
+    const init: RequestInit = {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -57,11 +57,26 @@ export class GeminiProvider implements AiProvider {
           ...(jsonMode ? { responseMimeType: 'application/json' } : {}),
         },
       }),
-    });
+    };
 
-    if (!response.ok) {
+    // Retry on rate limits (429) / transient 5xx with backoff. Free-tier Gemini
+    // throttles by requests-per-minute and returns "Please retry in Ns" — honour
+    // it so a single grading request succeeds instead of surfacing a 500.
+    const maxRetries = 5;
+    let response!: Response;
+    for (let attempt = 0; ; attempt++) {
+      response = await fetch(url, init);
+      if (response.ok) break;
       const body = await response.text();
-      throw new Error(`Gemini API ${response.status}: ${body.slice(0, 500)}`);
+      const retryable = response.status === 429 || response.status >= 500;
+      if (!retryable || attempt >= maxRetries) {
+        throw new Error(`Gemini API ${response.status}: ${body.slice(0, 500)}`);
+      }
+      const match = body.match(/retry in ([0-9.]+)s/i);
+      const delayMs = match
+        ? Math.ceil(parseFloat(match[1]) * 1000) + 500
+        : 2000 * 2 ** attempt;
+      await new Promise((resolve) => setTimeout(resolve, Math.min(delayMs, 60000)));
     }
     const data = (await response.json()) as {
       candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;

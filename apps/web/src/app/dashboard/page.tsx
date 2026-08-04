@@ -212,6 +212,17 @@ function DashboardContent() {
         <ArrowRight size={18} className="text-ink-4" />
       </Link>
 
+      {/* Xatolar daftari */}
+      <Link href="/mistakes" className="mt-2.5 flex items-center gap-3 border border-line p-4">
+        <div className="flex-1">
+          <p className="text-ui font-semibold">Xatolar daftari</p>
+          <p className="mt-1 text-base leading-relaxed text-ink-3">
+            AI topgan xatolaringiz tur bo‘yicha guruhlangan — takroriylarini yo‘q qiling.
+          </p>
+        </div>
+        <ArrowRight size={18} className="text-ink-4" />
+      </Link>
+
       {/* Oxirgi mock */}
       {data.lastMockResult && (
         <Link href="/mocks" className="mt-2.5 flex items-center gap-3 border border-line-3 p-4">

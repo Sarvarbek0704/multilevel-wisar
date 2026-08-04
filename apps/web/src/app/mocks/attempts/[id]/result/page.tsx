@@ -251,38 +251,116 @@ export default function ResultPage() {
         )}
       </div>
 
-      {/* Keyingi qadam */}
+      {/* Keyingi qadam — zaif bo'limga aniq yo'nalish */}
       {weakest && (
-        <div className="mx-5 mt-7 border border-accent-border bg-accent-soft p-4">
+        <div className="mx-5 mt-7 lg:mx-8">
           <SectionLabel className="text-accent">
-            ENG ZAIF BO‘LIM · {SKILL_LABEL[weakest.skill].toUpperCase()}
+            KEYINGI QADAM · ENG ZAIF BO‘LIM: {SKILL_LABEL[weakest.skill].toUpperCase()}
           </SectionLabel>
-          <p className="mt-2 text-ui leading-relaxed text-accent-mid">
-            Shu ko‘nikmaga ko‘proq vaqt ajrating — umumiy ball bo‘limlar o‘rtachasi bo‘lgani
-            uchun eng zaif bo‘lim natijani eng ko‘p pasaytiradi.
+          <p className="mt-2 text-base leading-relaxed text-ink-3">
+            Umumiy ball bo‘limlar o‘rtachasi bo‘lgani uchun eng zaif bo‘lim natijani eng ko‘p
+            pasaytiradi. Shu tartibda ishlang:
           </p>
-          <Link
-            href={nextCourseFor(weakest.skill)}
-            className="mt-3 inline-block bg-accent px-4 py-2.5 text-base font-semibold text-white"
-          >
-            Mashq qilishni boshlash
-          </Link>
+
+          <div className="mt-3 flex flex-col gap-2">
+            {remediationFor(weakest.skill, data.estimatedLevel).map((step, index) => (
+              <Link
+                key={step.href}
+                href={step.href}
+                className="flex items-start gap-3 border border-line bg-surface p-4"
+              >
+                <span className="font-mono text-sm text-accent">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <span className="flex-1">
+                  <span className="block text-ui font-semibold">{step.title}</span>
+                  <span className="mt-1 block text-base leading-relaxed text-ink-3">
+                    {step.body}
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       )}
     </div>
   );
 }
 
-function nextCourseFor(skill: Skill): string {
+interface RemediationStep {
+  href: string;
+  title: string;
+  body: string;
+}
+
+/**
+ * Natijadan keyin nima qilish kerakligi — umumiy "kurslarga o'ting" emas,
+ * balki zaif ko'nikma va joriy darajaga qarab aniq ketma-ketlik.
+ */
+function remediationFor(skill: Skill, level: string | null): RemediationStep[] {
+  const nearC1 = level === 'B2' || level === 'C1';
+
+  const steps: RemediationStep[] = [];
+
   switch (skill) {
     case 'WRITING':
-      return '/courses/english-b1-writing-core';
+      steps.push(
+        nearC1
+          ? {
+              href: '/courses/english-c1-writing-models',
+              title: 'C1 Writing: namunaviy javoblar',
+              body: '70/75 baholangan javob qanday ko‘rinishini gap-bagap ko‘ring.',
+            }
+          : {
+              href: '/courses/english-b1-writing-core',
+              title: 'Writing poydevori',
+              body: 'Email va esse tuzilishi, bog‘lovchilar — asosdan boshlaymiz.',
+            },
+      );
+      break;
     case 'SPEAKING':
-      return '/courses/english-speaking-mastery';
-    case 'LISTENING':
-    case 'READING':
-      return '/courses/multilevel-exam-strategy';
+      steps.push(
+        nearC1
+          ? {
+              href: '/courses/english-c1-speaking-models',
+              title: 'C1 Speaking: namunaviy javoblar',
+              body: 'C1 javob transkripti, nutq ramkalari va iboralar banki.',
+            }
+          : {
+              href: '/courses/english-speaking-mastery',
+              title: 'Speaking mahorati',
+              body: 'Javob formulasi, ravonlik va talaffuz — har darsda mikrofon mashqi.',
+            },
+      );
+      break;
     default:
-      return '/courses';
+      steps.push({
+        href: '/courses/multilevel-exam-strategy',
+        title: 'Imtihon strategiyasi',
+        body: `${SKILL_LABEL[skill]} bo‘limi uchun taktika: tuzoqlar, vaqt boshqaruvi, parafraz.`,
+      });
   }
+
+  if (nearC1) {
+    steps.push({
+      href: '/courses/english-b2-to-c1-bridge',
+      title: 'B2 dan C1 ga: farqni yopish',
+      body: 'B2 da qotib qolmaslik uchun — aniqlik, ball keltiradigan grammatika, kohezi.',
+    });
+  }
+
+  steps.push(
+    {
+      href: '/mistakes',
+      title: 'Xatolar daftari',
+      body: 'AI shu urinishda topgan xatolar takrorlanish bo‘yicha guruhlangan.',
+    },
+    {
+      href: '/practice',
+      title: 'AI amaliyot',
+      body: 'Yangi mock kutmasdan, hoziroq yozing yoki gapiring — AI darhol baholaydi.',
+    },
+  );
+
+  return steps;
 }

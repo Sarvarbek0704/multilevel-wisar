@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
+  AlertIcon,
   BookIcon,
   CalendarIcon,
   FileIcon,
@@ -21,6 +22,7 @@ const ITEMS = [
   { href: '/vocabulary', label: 'Lug‘at', Icon: LayersIcon },
   { href: '/plan', label: 'O‘quv reja', Icon: CalendarIcon },
   { href: '/practice', label: 'AI amaliyot', Icon: MicIcon },
+  { href: '/mistakes', label: 'Xatolar daftari', Icon: AlertIcon },
 ];
 
 /** Desktopdagi yon navigatsiya — mobil tab-bar o'rniga (lg dan boshlab). */

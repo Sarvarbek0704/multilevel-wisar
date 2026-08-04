@@ -133,6 +133,13 @@ export const PhoneIcon = (props: IconProps) => (
   </Svg>
 );
 
+export const AlertIcon = (props: IconProps) => (
+  <Svg {...props}>
+    <path d="M12 4 3 20h18z" />
+    <path d="M12 10v5M12 17.5v.5" />
+  </Svg>
+);
+
 export const MicIcon = (props: IconProps) => (
   <Svg {...props}>
     <path d="M12 3a2.5 2.5 0 0 1 2.5 2.5v6a2.5 2.5 0 0 1-5 0v-6A2.5 2.5 0 0 1 12 3z" />

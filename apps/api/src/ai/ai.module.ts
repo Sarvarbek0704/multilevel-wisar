@@ -4,6 +4,7 @@ import { MocksModule } from '../mocks/mocks.module';
 import { TelegramModule } from '../telegram/telegram.module';
 import { AiController } from './ai.controller';
 import { AiService } from './ai.service';
+import { MistakesService } from './mistakes.service';
 import { AI_PROVIDER } from './providers/ai-provider.interface';
 import { AnthropicProvider } from './providers/anthropic.provider';
 import { GeminiProvider } from './providers/gemini.provider';
@@ -14,6 +15,7 @@ import { MockAiProvider } from './providers/mock.provider';
   controllers: [AiController],
   providers: [
     AiService,
+    MistakesService,
     GeminiProvider,
     AnthropicProvider,
     MockAiProvider,
@@ -37,6 +39,6 @@ import { MockAiProvider } from './providers/mock.provider';
       },
     },
   ],
-  exports: [AiService, AI_PROVIDER],
+  exports: [AiService, MistakesService, AI_PROVIDER],
 })
 export class AiModule {}

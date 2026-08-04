@@ -1,0 +1,577 @@
+{
+  "subject": "ENGLISH",
+  "kind": "FULL",
+  "slug": "english-full-mock-4",
+  "titleUz": "To'liq Mock Imtihon #4 (C1 darajasi)",
+  "titleEn": "Full Mock Exam #4 (C1 level)",
+  "descriptionUz": "C1 ga da'vogarlar uchun qiyinlashtirilgan variant. To'liq UzBMB multilevel format: Listening (35 savol, 45 daqiqa), Reading (35 savol, 60 daqiqa), Writing (3 task, 60 daqiqa), Speaking (3 qism, 15 daqiqa). Savollar ko'proq xulosa chiqarish (inference) va so'zlovchining munosabatini (attitude) tushunishga qaratilgan.",
+  "order": 13,
+  "isPublished": true,
+  "sections": [
+    {
+      "skill": "LISTENING",
+      "order": 0,
+      "durationMinutes": 45,
+      "instructionsUz": "Har bir yozuv IKKI marta eshittiriladi. Bu variantda so'zlovchilar fikrini boshqacha so'zlar bilan takrorlaydi, o'zini to'g'rilaydi va munosabat bildiradi — shuning uchun javob ko'pincha to'g'ridan-to'g'ri aytilmaydi, xulosa chiqarish kerak bo'ladi.",
+      "instructionsEn": "You will hear each recording twice. Speakers paraphrase, correct themselves and express attitude: several questions require inference rather than recall.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "1-qism: Qisqa suhbatlar (1-8)",
+          "titleEn": "Part 1: Short exchanges (Questions 1-8)",
+          "instructionsUz": "Sakkizta qisqa suhbatni eshitasiz. Har biri uchun to'g'ri javobni tanlang. Diqqat: ba'zi variantlar to'g'ri, lekin savolga javob bermaydi.",
+          "instructionsEn": "You will hear eight short exchanges. Choose the correct answer for each. Note: some options are true but do not answer the question.",
+          "context": {
+            "transcript": "PART 1 — EIGHT SHORT EXCHANGES\n\nExchange 1 — Returning a faulty laptop\nW: I bought this laptop six weeks ago and the screen keeps flickering. Well — not keeps. It comes and goes, which is almost worse, because when I brought it in your colleague couldn't reproduce it and more or less implied I'd imagined it.\nM: Right. I should say that under the returns policy I can only authorise an exchange within thirty days, so strictly speaking we're outside that window.\nW: I'm aware of that, and I'm not asking for my money back. I'd simply like it repaired without being told for a third time that there's nothing wrong with it.\nM: Then what I'll do is send it to the service centre with a note that the fault is intermittent. That flags it for a longer test, which should stop it coming straight back to you unfixed.\n\nExchange 2 — Booking a dentist\nM: The earliest routine appointment I have with Dr Osborne is the fourteenth, I'm afraid.\nW: The fourteenth. That's nearly three weeks. It isn't agony, exactly — it's more of a dull ache that flares up whenever I drink anything cold.\nM: If it were constant I'd class it as urgent and squeeze you in tomorrow morning. As it stands, what I can do is put you on the cancellation list. People do drop out, though it's usually at very short notice.\nW: Put me down, then. I'll take whatever comes, even if you ring me at half past eight and want me there at nine.\n\nExchange 3 — Negotiating a deadline with a tutor\nW: So you're asking for an extension on the literature review.\nM: Ten days, if that's at all possible. Two of my sources only arrived last week from the archive, and — honestly — I underestimated how long the coding would take.\nW: Let me be straight with you. I can approve five days myself, no paperwork, no questions. Ten means a formal mitigating-circumstances claim, and the panel tends to want documentation that, from what you've told me, you probably don't have.\nM: Five it is, then. I'd rather have something certain than gamble on a committee and lose three weeks finding out.\n\nExchange 4 — Gym induction\nM: So the induction covers all the machines, but between you and me, the machines are the least of it.\nW: Meaning what, exactly?\nM: Meaning the people who disappear in February don't disappear because they can't operate a rowing machine. They disappear because they came four times a week for a fortnight and then their knees told them exactly what they thought of that.\nW: So what you're saying is, start slower than I want to.\nM: I'm saying start slower than you think is even worth doing. Twice a week, for a month. Then come and find me and we'll talk about adding a third.\n\nExchange 5 — Reporting a lost passport\nW: And you're certain it was lost rather than stolen?\nM: Certain isn't the word I'd use. I last had it at the station, and I've been through the bag twice — but nothing else is missing, no cards, no cash, which is really why I haven't bothered the police with it.\nW: I'd go anyway. Not because we insist on it — we don't, for the emergency document — but because if that passport surfaces somewhere it shouldn't in six months' time, a report dated today is the thing that protects you.\nM: That genuinely hadn't occurred to me. Where's the nearest station?\n\nExchange 6 — Arranging a house move\nM: We can do the thirtieth, but I'll be honest with you: it's the last Friday of the month and on those days everything takes longer. Traffic, lifts, other crews in the same building.\nW: My tenancy ends on the thirty-first, so it's the thirtieth or nothing.\nM: Then take the eight o'clock slot rather than the midday one. It costs exactly the same. The difference is that by midday we're already running an hour behind somebody else's move, and you spend your afternoon watching two men apologise.\nW: Eight, then. I'll set two alarms.\n\nExchange 7 — Choosing a phone plan\nW: The unlimited plan is twelve pounds more a month, and I'll tell you now, nine out of ten customers who take it don't come anywhere near using it.\nM: But the cheaper one has that data cap, and if I go over it —\nW: You're charged, yes. But you'd have to go over by a fair amount, month after month, before it added up to twelve pounds. Look, I'm not trying to talk you out of it. I'm saying pay the twelve pounds if you want to stop thinking about it — not because it'll save you money, because it won't.\nM: Fair enough. On reflection, I think I'd quite like to stop thinking about it.\n\nExchange 8 — Complaining about noise\nM: It's the third night this week. I'm not asking for anyone to be thrown out — I'd just like to sleep.\nW: I understand. Have you spoken to them directly at all?\nM: Twice. And both times they were perfectly pleasant, apologised, said it wouldn't happen again. That's rather the problem, isn't it. If they'd been rude about it I'd at least know where I stood.\nW: Then I'll write to them formally. It creates a record, and having a record on file is what makes the next conversation a different sort of conversation."
+          },
+          "questions": [
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the woman mainly want from the shop?",
+              "promptUz": "Ayol do'kondan asosan nimani xohlaydi?",
+              "data": {
+                "text": "Exchange 1 — returning a faulty laptop",
+                "options": [
+                  "A full refund of the purchase price",
+                  "An immediate replacement machine",
+                  "The fault to be taken seriously rather than dismissed",
+                  "An apology from the member of staff she saw before"
+                ]
+              },
+              "answer": { "value": "The fault to be taken seriously rather than dismissed" },
+              "points": 1
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How does the woman respond to what the receptionist offers?",
+              "promptUz": "Ayol qabulxona xodimining taklifiga qanday munosabat bildiradi?",
+              "data": {
+                "text": "Exchange 2 — booking a dentist",
+                "options": [
+                  "She accepts an arrangement she cannot plan around",
+                  "She insists that her case be treated as urgent",
+                  "She decides to look for a different dentist",
+                  "She admits the pain is worse than she first said"
+                ]
+              },
+              "answer": { "value": "She accepts an arrangement she cannot plan around" },
+              "points": 1
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the tutor imply about the request for ten days?",
+              "promptUz": "O'qituvchi o'n kunlik so'rov haqida nimani nazarda tutadi?",
+              "data": {
+                "text": "Exchange 3 — negotiating a deadline",
+                "options": [
+                  "It would definitely be refused by the panel",
+                  "It is outside her authority to discuss at all",
+                  "It would trigger a process unlikely to end in his favour",
+                  "It would require a doctor's certificate specifically"
+                ]
+              },
+              "answer": { "value": "It would trigger a process unlikely to end in his favour" },
+              "points": 1
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the instructor's main point?",
+              "promptUz": "Murabbiyning asosiy fikri nima?",
+              "data": {
+                "text": "Exchange 4 — gym induction",
+                "options": [
+                  "The machines are harder to use correctly than they look",
+                  "Beginning too ambitiously is the usual reason people give up",
+                  "Beginners should avoid the rowing machine entirely",
+                  "The gym is unpleasantly crowded in January and February"
+                ]
+              },
+              "answer": { "value": "Beginning too ambitiously is the usual reason people give up" },
+              "points": 1
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does the official advise the man to contact the police?",
+              "promptUz": "Xodim nima uchun erkakka politsiyaga murojaat qilishni maslahat beradi?",
+              "data": {
+                "text": "Exchange 5 — reporting a lost passport",
+                "options": [
+                  "The embassy cannot issue a document without a crime number",
+                  "It will make the replacement process considerably faster",
+                  "It is a legal requirement for anyone who loses a passport",
+                  "It will protect him if the passport is misused later"
+                ]
+              },
+              "answer": { "value": "It will protect him if the passport is misused later" },
+              "points": 1
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does the man recommend the early slot?",
+              "promptUz": "Erkak nima uchun ertalabki vaqtni tavsiya qiladi?",
+              "data": {
+                "text": "Exchange 6 — arranging a house move",
+                "options": [
+                  "Delays build up as the day goes on",
+                  "The early slot is cheaper than the midday one",
+                  "Lifts in the building cannot be used after noon",
+                  "The thirty-first is already fully booked"
+                ]
+              },
+              "answer": { "value": "Delays build up as the day goes on" },
+              "points": 1
+            },
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the adviser's attitude towards the unlimited plan?",
+              "promptUz": "Maslahatchining cheklanmagan tarifga munosabati qanday?",
+              "data": {
+                "text": "Exchange 7 — choosing a phone plan",
+                "options": [
+                  "She regards it as poor value for almost every customer",
+                  "She recommends it because the overage charges are severe",
+                  "She thinks it is worth buying only for peace of mind",
+                  "She declines to express any opinion about it"
+                ]
+              },
+              "answer": { "value": "She thinks it is worth buying only for peace of mind" },
+              "points": 1
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the tenant find most frustrating?",
+              "promptUz": "Ijarachini eng ko'p nima bezovta qilmoqda?",
+              "data": {
+                "text": "Exchange 8 — complaining about noise",
+                "options": [
+                  "The neighbours refuse to discuss the problem with him",
+                  "The neighbours apologise sincerely but nothing changes",
+                  "The manager has ignored his earlier complaints",
+                  "He is afraid of being asked to leave himself"
+                ]
+              },
+              "answer": { "value": "The neighbours apologise sincerely but nothing changes" },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "2-qism: Muzey audio-gid va konferensiya e'loni (9-14)",
+          "titleEn": "Part 2: Museum audio guide and conference announcement (Questions 9-14)",
+          "instructionsUz": "Ikkita monologni eshitasiz. Qaydlardagi bo'sh joylarni to'ldiring. Har bir javob 1-3 so'zdan iborat bo'lishi kerak.",
+          "instructionsEn": "You will hear two monologues. Complete the notes. Write NO MORE THAN THREE WORDS for each answer.",
+          "context": {
+            "transcript": "PART 2 — TWO MONOLOGUES\n\nMonologue A — Museum audio guide, stop seven\n\nWelcome to stop seven of the audio guide: the Whitcombe Gallery. Now, almost every visitor assumes that the collection in this room was assembled by Sir Henry Whitcombe himself. In fact — and this is far and away the commonest misconception about the house — the greater part of it was bought by his daughter, Eleanor, who inherited both the estate and, rather more significantly, its debts. Instead of selling, which is what everyone expected her to do, she began buying, and by 1904 the gallery held over four hundred works.\n\nThe room you're standing in wasn't built as a gallery at all. It was the stables until 1912, which explains two things you may already have noticed: the unusually high ceiling, and the fact that all the windows face north. That last point was deliberate rather than accidental. North light doesn't shift as the day goes on, so the paintings are seen in more or less the same conditions at ten in the morning and four in the afternoon.\n\nOne word of warning before you move on. The large seascape on your right is a copy — a very good one, but a copy. The original was sold in 1936 to pay for the roof, and although the family always maintained they would buy it back, it hangs today in Melbourne. Photography without flash is permitted throughout the house, with one exception: the small side room containing the watercolours. Those fade, and they don't come back.\n\nMonologue B — Conference registration announcement\n\nGood morning, everybody, and welcome to the Institute. Just a few practical words about registration before we go through to the opening plenary.\n\nYour badge is in an envelope with your name on it, and you'll find those at desk B. Not desk A, despite what it says in your printed programme — desk A is for speakers only. The programme went to print before that arrangement changed, and I'm afraid we didn't catch it.\n\nLunch is included in your fee, but you will need the blue voucher, and the voucher is not in the envelope. You collect it at the door of the dining hall, and you can only collect it once, so please don't put it down somewhere and forget about it.\n\nIf you've booked the Thursday excursion, do note that the coach leaves from the rear car park, not from the main entrance where it stopped last year, and it leaves at half past eight sharp. And finally, the wifi password has changed since the pre-conference email went out. It is now harbour2026 — all one word, lower case, no space, no capital letter."
+          },
+          "questions": [
+            {
+              "number": 9,
+              "type": "GAP_FILL",
+              "promptEn": "NOTES — Whitcombe Gallery: Most of the collection was in fact bought by Sir Henry's ____________.",
+              "promptUz": "QAYDLAR — Whitcombe galereyasi: Kolleksiyaning katta qismini aslida Ser Genrining ____________ sotib olgan.",
+              "data": { "text": "Most of the collection was in fact bought by Sir Henry's ____________." },
+              "answer": { "accept": ["daughter", "his daughter", "daughter Eleanor", "Eleanor"] },
+              "points": 1
+            },
+            {
+              "number": 10,
+              "type": "GAP_FILL",
+              "promptEn": "NOTES — Whitcombe Gallery: Until 1912 the room was used as the ____________.",
+              "promptUz": "QAYDLAR — Whitcombe galereyasi: 1912-yilgacha bu xona ____________ sifatida ishlatilgan.",
+              "data": { "text": "Until 1912 the room was used as the ____________." },
+              "answer": { "accept": ["stables", "the stables", "stable"] },
+              "points": 1
+            },
+            {
+              "number": 11,
+              "type": "GAP_FILL",
+              "promptEn": "NOTES — Whitcombe Gallery: The original seascape was sold in 1936 in order to pay for the ____________.",
+              "promptUz": "QAYDLAR — Whitcombe galereyasi: Dengiz manzarasining asl nusxasi 1936-yilda ____________ uchun pul topish maqsadida sotilgan.",
+              "data": { "text": "The original seascape was sold in 1936 to pay for the ____________." },
+              "answer": { "accept": ["roof", "the roof", "new roof"] },
+              "points": 1
+            },
+            {
+              "number": 12,
+              "type": "GAP_FILL",
+              "promptEn": "NOTES — Conference: Delegates should collect their badge from ____________.",
+              "promptUz": "QAYDLAR — Konferensiya: Ishtirokchilar bejlarini ____________ dan olishlari kerak.",
+              "data": { "text": "Delegates should collect their badge from ____________." },
+              "answer": { "accept": ["desk B", "Desk B", "B"] },
+              "points": 1
+            },
+            {
+              "number": 13,
+              "type": "GAP_FILL",
+              "promptEn": "NOTES — Conference: The excursion coach departs from the ____________.",
+              "promptUz": "QAYDLAR — Konferensiya: Ekskursiya avtobusi ____________ dan jo'naydi.",
+              "data": { "text": "The excursion coach departs from the ____________." },
+              "answer": { "accept": ["rear car park", "the rear car park", "car park"] },
+              "points": 1
+            },
+            {
+              "number": 14,
+              "type": "GAP_FILL",
+              "promptEn": "NOTES — Conference: The new wifi password is ____________.",
+              "promptUz": "QAYDLAR — Konferensiya: Yangi wifi paroli — ____________.",
+              "data": { "text": "The new wifi password is ____________." },
+              "answer": { "accept": ["harbour2026", "harbour 2026", "Harbour2026"] },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "titleUz": "3-qism: Ikki tadqiqotchining so'rovnoma haqidagi suhbati (15-18)",
+          "titleEn": "Part 3: Two researchers discuss their survey (Questions 15-18)",
+          "instructionsUz": "Ikki tadqiqotchining suhbatini eshitasiz. To'g'ri javobni tanlang. Ular bir-birining fikriga qisman qo'shiladi — kim nimani aytayotganiga diqqat qiling.",
+          "instructionsEn": "Listen to two researchers discussing a survey. Choose the correct answer. They partly agree with each other: pay attention to who says what.",
+          "context": {
+            "transcript": "PART 3 — TWO RESEARCHERS DISCUSSING A SURVEY\n\nW: Right. Headline finding first: sixty-eight per cent said they would accept a pay cut in exchange for flexible hours.\nM: Which is the number everyone will quote on Friday, and it happens to be the number I trust least in the whole dataset.\nW: Go on.\nM: Because we asked it in the abstract. \"Would you accept less money for more flexibility?\" Well, of course people say yes — it costs nothing to say yes. When we put an actual figure in the follow-up item, and I mean a concrete one, eight per cent of gross salary, the proportion collapsed to nineteen.\nW: That's fair, and I'm not disputing the arithmetic. But I'd argue the abstract question still tells us something real. It measures how people want to see themselves — the sort of worker they'd like to be. That isn't nothing. It predicts, fairly well, what they'll say to their employer in a performance review.\nM: It predicts what they'll say. It doesn't predict what they'll sign.\nW: No. Agreed. Although my real worry is somewhere else entirely, if I'm honest. Our sample skewed badly towards people who were already working remotely. We recruited through professional networks because it was cheap and it was fast, and we've paid for that in representativeness.\nM: We did flag it.\nW: We flagged it in a footnote on page forty-one. If the press release doesn't put it in the first paragraph, nobody will ever read it — and then in eighteen months somebody replicates us properly, gets a different number, and it's our credibility that takes the damage, not theirs. That's what I want changed before Friday.\nM: Fine. Put it up front, I've no objection. Though I'd rather we didn't oversell the caveat either. The direction of the finding is almost certainly right, even if the magnitude isn't, and if we hedge every sentence nobody takes anything away from it at all.\nW: Nobody's suggesting we bury the finding. Just say the limitation earlier, and say it plainly.\nM: I can live with that."
+          },
+          "questions": [
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the man's main reservation about the 68% figure?",
+              "promptUz": "Erkakning 68 foizlik ko'rsatkich haqidagi asosiy shubhasi nimada?",
+              "data": {
+                "options": [
+                  "The question was hypothetical and attached no real cost",
+                  "The sample was far too small to be reliable",
+                  "Respondents appear to have misread the wording",
+                  "It flatly contradicts the follow-up item"
+                ]
+              },
+              "answer": { "value": "The question was hypothetical and attached no real cost" },
+              "points": 1
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How does the woman defend the abstract question?",
+              "promptUz": "Ayol umumiy (abstrakt) savolni qanday himoya qiladi?",
+              "data": {
+                "options": [
+                  "It produces more accurate figures than concrete questions do",
+                  "It reveals how respondents wish to present themselves",
+                  "It was the only item that every respondent completed",
+                  "It was specifically required by the project's funder"
+                ]
+              },
+              "answer": { "value": "It reveals how respondents wish to present themselves" },
+              "points": 1
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the woman consider the more serious problem?",
+              "promptUz": "Ayol qaysi muammoni jiddiyroq deb hisoblaydi?",
+              "data": {
+                "options": [
+                  "The follow-up question was asked at the wrong moment",
+                  "Page forty-one contains a factual error",
+                  "The way participants were recruited distorted the sample",
+                  "The press release has already gone out to journalists"
+                ]
+              },
+              "answer": { "value": "The way participants were recruited distorted the sample" },
+              "points": 1
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What do the two researchers finally agree to do?",
+              "promptUz": "Ikki tadqiqotchi oxir-oqibat nima qilishga kelishadi?",
+              "data": {
+                "options": [
+                  "Remove the 68% figure from the press release",
+                  "Delay publication until a better sample is obtained",
+                  "Commission a second, independent survey",
+                  "Give the sampling limitation greater prominence"
+                ]
+              },
+              "answer": { "value": "Give the sampling limitation greater prominence" },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "titleUz": "4-qism: Shaharsozlik mutaxassisi bilan intervyu (19-23)",
+          "titleEn": "Part 4: Interview with an urban planner (Questions 19-23)",
+          "instructionsUz": "Avtomobilsiz shahar markazlari haqidagi intervyuni eshitasiz. To'g'ri javobni tanlang.",
+          "instructionsEn": "Listen to an interview about car-free city centres and choose the correct answer.",
+          "context": {
+            "transcript": "PART 4 — INTERVIEW WITH AN URBAN PLANNER\n\nW: Dr Alvi, you've advised four cities on pedestrianisation over the last decade. Is the car-free city centre an idea whose time has finally come?\nM: It's an idea whose slogan has come, which isn't at all the same thing. \"Car-free\" is a wonderful phrase and a fairly terrible policy description, because almost nowhere is genuinely car-free. Deliveries still happen. Disabled residents drive. Ambulances exist. What we're actually talking about, in every scheme I've ever worked on, is reallocating road space from one use to another — and I accept that's a duller sentence, but it's the honest one.\nW: Does the terminology really matter that much?\nM: It matters enormously, because it determines who lines up against you before you've said anything else. Tell a shopkeeper the centre is going car-free and what he hears is \"my customers can no longer reach me\". Tell him instead that you're widening the pavement outside his door and removing eleven parking spaces on a street where the average parked car belongs to an office worker rather than a customer — and now you're having a completely different conversation. A factual one. And a factual conversation is one you can actually win.\nW: And can you win it? The evidence on retail impact is, after all, contested.\nM: Contested is fair, I won't pretend otherwise. What I'd say is that the evidence is reasonably good but the timeline is brutal. Footfall typically rises within, oh, eighteen months to two years. The difficulty is that traders don't experience eighteen months, they experience the first six — and the first six months are roadworks, dust and a hoarding across the front of the shop. Several perfectly sound schemes have been reversed by councils that were, in effect, judging a two-year policy on the basis of a six-month sample.\nW: So the failures are political rather than technical.\nM: Mostly, yes. Although I'd resist letting my own profession off quite that easily. We have been guilty, repeatedly, of designing very beautiful squares that nobody has the slightest reason to cross. If you close a street and put nothing in it — no market, no seating, no shade, no reason to linger — then you haven't created public space at all. You've created a gap. And the public notices the difference immediately, even if the awards jury doesn't.\nW: If you could change one thing about the way these schemes are introduced, what would it be?\nM: Do the boring part first. Before you lift a single paving stone, fix the bus frequency. Every scheme I've watched succeed had a transport alternative running properly, and visibly, six months before any restriction came in. Every scheme I've watched fail did it in the opposite order — imposed the restriction and then asked the public to have faith that the alternative would arrive. It's not a technical failing. It's an impatience problem."
+          },
+          "questions": [
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the planner's objection to the phrase \"car-free\"?",
+              "promptUz": "Mutaxassisning «avtomobilsiz» iborasiga e'tirozi nimada?",
+              "data": {
+                "options": [
+                  "It is generally unpopular with the public",
+                  "It was invented by campaigners rather than professionals",
+                  "It overstates a policy that always permits some vehicles",
+                  "It applies only to small historic city centres"
+                ]
+              },
+              "answer": { "value": "It overstates a policy that always permits some vehicles" },
+              "points": 1
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does he believe the wording is so important?",
+              "promptUz": "U nima uchun so'z tanlashni shunchalik muhim deb hisoblaydi?",
+              "data": {
+                "options": [
+                  "It shapes who objects and whether the dispute can be settled with facts",
+                  "Legal challenges usually turn on precise definitions",
+                  "Journalists routinely misreport technical language",
+                  "Shopkeepers rarely read the consultation documents"
+                ]
+              },
+              "answer": { "value": "It shapes who objects and whether the dispute can be settled with facts" },
+              "points": 1
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does he identify as the main obstacle to the retail benefits being realised?",
+              "promptUz": "Uning fikricha, savdo sohasidagi foyda ro'yobga chiqishiga asosiy to'siq nima?",
+              "data": {
+                "options": [
+                  "Research shows that footfall falls permanently",
+                  "Councils rarely have enough money to finish the works",
+                  "Traders are unwilling to change their opening hours",
+                  "Costs are felt long before the benefits appear"
+                ]
+              },
+              "answer": { "value": "Costs are felt long before the benefits appear" },
+              "points": 1
+            },
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What criticism does he make of planners themselves?",
+              "promptUz": "U o'z kasbdoshlariga qanday tanqid bildiradi?",
+              "data": {
+                "options": [
+                  "They consistently underestimate construction costs",
+                  "They design attractive spaces that give people no reason to use them",
+                  "They rely too heavily on examples from other countries",
+                  "They fail to consult disabled residents at an early stage"
+                ]
+              },
+              "answer": { "value": "They design attractive spaces that give people no reason to use them" },
+              "points": 1
+            },
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does he say must happen before any restrictions are imposed?",
+              "promptUz": "Uning aytishicha, cheklovlar joriy qilinishidan oldin nima bo'lishi shart?",
+              "data": {
+                "options": [
+                  "A public referendum should be held in the affected district",
+                  "Traders should be compensated for the disruption",
+                  "The public transport alternative must already be working",
+                  "The streets should be closed at weekends as a trial"
+                ]
+              },
+              "answer": { "value": "The public transport alternative must already be working" },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "titleUz": "5-qism: Karyera bo'yicha maslahatchi monologi (24-29)",
+          "titleEn": "Part 5: A career adviser on changing careers after 30 (Questions 24-29)",
+          "instructionsUz": "Monologni eshitib, gaplarni to'ldiring. Har bir javob 1-3 so'zdan iborat bo'lishi kerak.",
+          "instructionsEn": "Listen to the talk and complete the sentences. Write NO MORE THAN THREE WORDS for each answer.",
+          "context": {
+            "transcript": "PART 5 — CAREER ADVISER: CHANGING CAREERS AFTER THIRTY\n\nThank you. I want to talk about changing career after thirty, and I want to begin by dismantling the single most common piece of advice you will ever hear on the subject, which is \"follow your passion\". In fifteen years of advising people I have almost never seen that work as a starting point. It works beautifully as a description of where people eventually end up, and it works terribly as a method for getting there. Passion, in my experience, is far more often a consequence of competence than a cause of it. You get good at something, and then you love it. Very rarely the other way round.\n\nSo what does work? Three things, and I'm afraid none of them is glamorous.\n\nThe first is what I'd call the sideways step. People imagine a career change as a leap: you resign on Friday as an accountant and reappear on Monday as a graphic designer. The changes that actually succeed are almost always partial. You change either the industry or the function — but not both at once. Change both simultaneously and you throw away every scrap of leverage you have, and you find yourself competing against twenty-two-year-olds on their terms, which is a competition you will lose.\n\nThe second is evidence. Not enthusiasm — evidence. Before you spend money on retraining you need proof that you can do the work, and, much more importantly, proof that you can stand doing it on a wet Tuesday afternoon in February when nobody is watching. So take on one small paid project, however badly paid it is, before you commit to anything larger. Roughly a third of the people who sit in that chair discover at exactly that stage that what they wanted was the identity, not the job. That is not a failure. That is thirty thousand pounds saved.\n\nThe third is money, and here I'm going to be blunt with you. The realistic figure — and I've seen enough of these to be reasonably confident — is that you should expect your income to dip for about two years. Not two months. Two years. If your finances cannot absorb that, the plan isn't wrong, but the timing is, and what you need is a longer runway, not a braver decision.\n\nOne last thing, and then questions. Age is a smaller obstacle than most people believe, but it does change the argument you have to make. At twenty-five you are hired for your potential. At thirty-eight you are hired for your judgement — so stop apologising for the years you spent somewhere else and start pricing them properly. Those years are not baggage. They are the only asset you hold that the twenty-two-year-old cannot possibly have."
+          },
+          "questions": [
+            {
+              "number": 24,
+              "type": "GAP_FILL",
+              "promptEn": "The speaker argues that passion is usually a ____________ of competence rather than its cause.",
+              "promptUz": "Ma'ruzachining fikricha, ishtiyoq ko'pincha malakaning sababi emas, balki uning ____________ hisoblanadi.",
+              "data": { "text": "Passion is usually a ____________ of competence rather than its cause." },
+              "answer": { "accept": ["consequence", "result", "a consequence", "product"] },
+              "points": 1
+            },
+            {
+              "number": 25,
+              "type": "GAP_FILL",
+              "promptEn": "Successful changes alter either the industry or the ____________, but never both at the same time.",
+              "promptUz": "Muvaffaqiyatli o'zgarishlarda yo soha, yo ____________ o'zgaradi, lekin hech qachon ikkalasi birdan emas.",
+              "data": { "text": "Successful changes alter either the industry or the ____________, but not both at once." },
+              "answer": { "accept": ["function", "the function", "job function"] },
+              "points": 1
+            },
+            {
+              "number": 26,
+              "type": "GAP_FILL",
+              "promptEn": "Before retraining, you should take on one small ____________ as a test.",
+              "promptUz": "Qayta o'qishdan oldin sinov sifatida bitta kichik ____________ olish kerak.",
+              "data": { "text": "Before retraining, take on one small ____________ as a test." },
+              "answer": { "accept": ["paid project", "project", "a paid project"] },
+              "points": 1
+            },
+            {
+              "number": 27,
+              "type": "GAP_FILL",
+              "promptEn": "About a ____________ of the speaker's clients realise at that stage that they wanted the identity, not the job.",
+              "promptUz": "Ma'ruzachi mijozlarining taxminan ____________ qismi aynan shu bosqichda ular ishni emas, obrazni xohlaganini anglab yetadi.",
+              "data": { "text": "About a ____________ of clients realise they wanted the identity, not the job." },
+              "answer": { "accept": ["third", "a third", "one third"] },
+              "points": 1
+            },
+            {
+              "number": 28,
+              "type": "GAP_FILL",
+              "promptEn": "Career changers should expect their income to fall for approximately ____________.",
+              "promptUz": "Kasbini o'zgartiruvchilar daromadi taxminan ____________ davomida pasayishini kutishlari kerak.",
+              "data": { "text": "Expect your income to fall for approximately ____________." },
+              "answer": { "accept": ["two years", "2 years", "about two years"] },
+              "points": 1
+            },
+            {
+              "number": 29,
+              "type": "GAP_FILL",
+              "promptEn": "Older applicants, the speaker says, are hired for their ____________ rather than their potential.",
+              "promptUz": "Ma'ruzachining aytishicha, kattaroq yoshdagi nomzodlar salohiyati uchun emas, ____________ uchun ishga olinadi.",
+              "data": { "text": "Older applicants are hired for their ____________ rather than their potential." },
+              "answer": { "accept": ["judgement", "judgment", "their judgement"] },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "titleUz": "6-qism: Universitet ma'ruzasi — odat shakllanishi psixologiyasi (30-35)",
+          "titleEn": "Part 6: University lecture on the psychology of habit formation (Questions 30-35)",
+          "instructionsUz": "Ma'ruzani eshiting va to'g'ri javobni tanlang. Ma'ruzachi qayerda dalilga, qayerda o'z fikriga tayanayotganiga e'tibor bering.",
+          "instructionsEn": "Listen to the lecture and choose the correct answer. Note where the lecturer relies on evidence and where on his own opinion.",
+          "context": {
+            "transcript": "PART 6 — UNIVERSITY LECTURE: THE PSYCHOLOGY OF HABIT FORMATION\n\nRight, let's begin. Today, habit formation — and I want to spend most of this hour explaining why the popular account of it is wrong. Or rather, not wrong exactly, so much as wildly oversimplified in a way that has practical consequences.\n\nYou will all have encountered the claim that it takes twenty-one days to form a habit. That figure comes, indirectly, from a plastic surgeon writing in the nineteen-sixties about how long his patients took to adjust psychologically to their new appearance. It was, in essence, an observation about adjustment and grief, and it has been repeated ever since as though it were the result of a controlled experiment. It isn't. When Lally and colleagues actually went out and measured it in 2009, the median was sixty-six days — and this is the part that invariably gets left out of the magazine version — the range ran from eighteen days at one end to two hundred and fifty-four at the other. So the honest answer to \"how long does it take?\" is: it depends enormously, and it depends mostly on the behaviour rather than on you. Drinking a glass of water after breakfast automates very quickly indeed. Fifty sit-ups does not, and no amount of character will change that.\n\nNow, the mechanism. The standard model is cue, routine, reward, and I'd defend it as far as it goes. A habit is a learned association between a context and a response, and what shifts as the habit matures is not that you want the reward more. Quite the opposite, in fact. Once a behaviour is genuinely habitual, the reward matters less than it did at the beginning. This has been demonstrated fairly convincingly in the animal work: over-train a behaviour, then devalue the reward — make the food less appealing, or pair it with mild illness — and the animal carries on performing the behaviour anyway. Which tells us something rather uncomfortable, namely that mature habits are relatively insensitive to whether they are still doing us any good at all.\n\nWhich brings me to the practical implication — and here I want to be clear that I'm going somewhat beyond the strict evidence, so treat what follows as informed opinion rather than established finding. If habits are fundamentally context-driven, then the highest-leverage intervention available to you is not willpower. It's moving. Changing your environment, your route to work, the layout of your kitchen. The studies of people who relocate suggest that this is precisely when habits are most plastic — you get a window of a few weeks in which the old cues simply aren't there to trigger the old responses. And most people waste that window completely, because they're busy unpacking boxes.\n\nOne caveat before we finish, and it's an important one. Almost everything I've described this hour concerns the formation of simple, repeated, voluntary behaviours. Whether the same account extends to the persistence of, say, addiction is genuinely disputed within the field, and anyone who assures you that question has been settled is, I'd suggest, selling you something."
+          },
+          "questions": [
+            {
+              "number": 30,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the lecturer's main criticism of the twenty-one-day claim?",
+              "promptUz": "Ma'ruzachining «21 kun» da'vosiga asosiy tanqidi nima?",
+              "data": {
+                "options": [
+                  "It was based on a sample that was much too small",
+                  "It originated in an observation about psychological adjustment, not habits",
+                  "It applies only to physical exercise routines",
+                  "The original work was never actually published"
+                ]
+              },
+              "answer": { "value": "It originated in an observation about psychological adjustment, not habits" },
+              "points": 1
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the 2009 research chiefly show about the time required?",
+              "promptUz": "2009-yilgi tadqiqot kerakli vaqt haqida asosan nimani ko'rsatadi?",
+              "data": {
+                "options": [
+                  "Most people need almost exactly sixty-six days",
+                  "Simple habits take longer to establish than complex ones",
+                  "The twenty-one-day figure was broadly correct after all",
+                  "The variation between behaviours and people is enormous"
+                ]
+              },
+              "answer": { "value": "The variation between behaviours and people is enormous" },
+              "points": 1
+            },
+            {
+              "number": 32,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the lecturer, what changes as a behaviour becomes habitual?",
+              "promptUz": "Ma'ruzachining fikricha, xatti-harakat odatga aylanganda nima o'zgaradi?",
+              "data": {
+                "options": [
+                  "The reward becomes progressively more motivating",
+                  "The cue gradually loses its importance",
+                  "The behaviour depends less on the reward than before",
+                  "The routine begins to demand more conscious attention"
+                ]
+              },
+              "answer": { "value": "The behaviour depends less on the reward than before" },
+              "points": 1
+            },
+            {
+              "number": 33,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does the lecturer describe the animal findings as \"uncomfortable\"?",
+              "promptUz": "Ma'ruzachi hayvonlar ustidagi tadqiqot natijalarini nega «noqulay» deb ataydi?",
+              "data": {
+                "options": [
+                  "Habits can persist even when they no longer benefit us",
+                  "Animals appear to learn habits faster than humans do",
+                  "Rewards must be continually increased to remain effective",
+                  "Over-training seems to damage the capacity to learn"
+                ]
+              },
+              "answer": { "value": "Habits can persist even when they no longer benefit us" },
+              "points": 1
+            },
+            {
+              "number": 34,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How does the lecturer present his advice about changing your environment?",
+              "promptUz": "Ma'ruzachi muhitni o'zgartirish haqidagi maslahatini qanday taqdim etadi?",
+              "data": {
+                "options": [
+                  "As the best-established finding in the whole field",
+                  "As a conclusion drawn directly from Lally's data",
+                  "As a view that has recently been disproved",
+                  "As his own opinion, going beyond the strict evidence"
+                ]
+              },
+              "answer": { "value": "As his own opinion, going beyond the strict evidence" },
+              "points": 1
+            },
+            {
+              "number": 35,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the lecturer's final caveat?",
+              "promptUz": "Ma'ruzachining yakuniy ogohlantirishi nimada?",
+              "data": {
+                "options": [
+                  "The findings apply mainly to children and adolescents",
+                  "It is disputed whether this model explains addiction",
+                  "None of the studies described has yet been replicated",
+                  "Changing environment is impractical for most people"
+                ]
+              },
+              "answer": { "value": "It is disputed whether this model explains addiction" },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

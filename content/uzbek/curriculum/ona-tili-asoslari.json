@@ -1,0 +1,2766 @@
+{
+  "subject": "UZBEK",
+  "level": "B1",
+  "slug": "ona-tili-asoslari",
+  "titleUz": "Ona tili — Milliy sertifikatga tayyorlov",
+  "descriptionUz": "«Ona tili va adabiyot» fanidan MILLIY SERTIFIKAT imtihoniga (45 ta test + insho) tizimli tayyorgarlik. Kurs fonetika va imlo, morfologiya, sintaksis hamda leksikadan insho yozish mahoratigacha bo'lgan barcha bo'limlarni qamrab oladi: har bir darsda qisqa nazariya, jadval-namunalar va izohli mashqlar beriladi. Kursni tugatgach, test qismidagi qoidalarni ishonch bilan qo'llaysiz va insho uchun tayyor tuzilma hamda til boyligiga ega bo'lasiz.",
+  "icon": "📚",
+  "order": 0,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "fonetika-va-imlo",
+      "titleUz": "Fonetika va imlo",
+      "descriptionUz": "Nutq tovushlari, bo'g'in, urg'u, ko'chirish va imlo qoidalari — test savollarining doimiy mavzulari.",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "nutq-tovushlari",
+          "titleUz": "Nutq tovushlari: unlilar va undoshlar",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Tovush va harf farqini tushunish",
+            "6 unli va 23 undosh tovushni bilish",
+            "Undoshlarni jarangli va jarangsizga ajrata olish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Tovush va harf — bir narsa emas",
+              "bodyUz": "Fonetika nutq tovushlarini o'rganadi. **Tovush** — aytiladi va eshitiladi, **harf** — yoziladi va ko'riladi. Ba'zan bitta tovush ikki harf bilan yoziladi: *sh, ch, ng* harf birikmalari bittadan tovushni bildiradi. Masalan, «shashlik» so'zida 8 ta harf, ammo 6 ta tovush bor."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Unli tovushlar — 6 ta",
+              "bodyUz": "O'zbek tilida **6 ta unli tovush** bor: **a, o, u, e, i, o'**. Unlilar hosil bo'lishida o'pkadan chiqayotgan havo og'iz bo'shlig'ida to'siqqa uchramaydi va ular faqat ovozdan iborat bo'ladi. Unlilar bo'g'in hosil qiladi — bu keyingi darsda juda muhim bo'ladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Undosh tovushlar tasnifi (23 ta)",
+              "headers": [
+                "Turi",
+                "Tovushlar",
+                "Izoh"
+              ],
+              "rows": [
+                [
+                  "Jarangli",
+                  "b, v, g, g', d, j, z, y, l, m, n, ng, r",
+                  "Ovoz va shovqin ishtirokida hosil bo'ladi"
+                ],
+                [
+                  "Jarangsiz",
+                  "p, f, k, q, t, ch, s, sh, x, h",
+                  "Faqat shovqindan iborat"
+                ],
+                [
+                  "Sonorlar (jufti yo'q jaranglilar)",
+                  "m, n, ng, l, r, y",
+                  "Ovoz shovqindan ustun bo'ladi"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Jarangli–jarangsiz juftliklar",
+              "headers": [
+                "Jarangli",
+                "Jarangsiz",
+                "Misollar"
+              ],
+              "rows": [
+                [
+                  "b",
+                  "p",
+                  "bola — paxta"
+                ],
+                [
+                  "v",
+                  "f",
+                  "vatan — fasl"
+                ],
+                [
+                  "g",
+                  "k",
+                  "gul — kul"
+                ],
+                [
+                  "d",
+                  "t",
+                  "daftar — tosh"
+                ],
+                [
+                  "j",
+                  "ch",
+                  "jo'ja — choy"
+                ],
+                [
+                  "z",
+                  "s",
+                  "zamon — soat"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imlo uchun muhim: so'z oxirida jarangli undosh talaffuzda jarangsizlashadi (kitob → «kitop», maktab → «maktap» deb aytiladi), lekin yozuvda ASLIGA muvofiq yoziladi: **kitob, maktab, obod, ozod**. Testda shu holat tez-tez so'raladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "O'zbek tilida nechta unli tovush bor?",
+              "data": {
+                "options": [
+                  "5",
+                  "6",
+                  "7",
+                  "10"
+                ]
+              },
+              "answer": {
+                "value": "6"
+              },
+              "explanationUz": "O'zbek tilida 6 ta unli tovush bor: a, o, u, e, i, o'."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi qatorda faqat jarangli undoshlar berilgan?",
+              "data": {
+                "options": [
+                  "b, d, g, z",
+                  "p, t, k, s",
+                  "f, x, sh, ch",
+                  "s, q, h, p"
+                ]
+              },
+              "answer": {
+                "value": "b, d, g, z"
+              },
+              "explanationUz": "b, d, g, z — ovoz va shovqin ishtirokida hosil bo'ladigan jarangli undoshlar. Qolgan qatorlardagi tovushlar jarangsiz."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Jarangsiz undoshlarni belgilang:",
+              "data": {
+                "options": [
+                  "p",
+                  "b",
+                  "t",
+                  "d",
+                  "k"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "p",
+                  "t",
+                  "k"
+                ]
+              },
+              "explanationUz": "p, t, k — faqat shovqindan iborat jarangsiz undoshlar; b va d — ularning jarangli juftlari."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "O'zbek tilida unli tovushlar oltita: a, o, u, e, i, o'."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri. O'zbek tilida aynan 6 ta unli tovush mavjud."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Jarangli undoshni uning jarangsiz juftiga bog'lang:",
+              "data": {
+                "left": [
+                  "b",
+                  "d",
+                  "g",
+                  "z"
+                ],
+                "right": [
+                  "t",
+                  "s",
+                  "p",
+                  "k"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "b": "p",
+                  "d": "t",
+                  "g": "k",
+                  "z": "s"
+                }
+              },
+              "explanationUz": "Jarangli–jarangsiz juftliklar: b–p, d–t, g–k, z–s. Ular faqat ovoz ishtiroki bilan farqlanadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Gapni to'ldiring:",
+              "data": {
+                "text": "Hosil bo'lishida ovoz ishtirok etmaydigan, faqat shovqindan iborat undoshlar ___ undoshlar deyiladi."
+              },
+              "answer": {
+                "accept": [
+                  "jarangsiz"
+                ]
+              },
+              "explanationUz": "Faqat shovqindan iborat undoshlar jarangsiz undoshlar deyiladi: p, f, k, q, t, ch, s, sh, x, h."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«kitob» so'zida nechta unli tovush bor?",
+              "data": {
+                "options": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ]
+              },
+              "answer": {
+                "value": "2"
+              },
+              "explanationUz": "«kitob» so'zida 2 ta unli bor: i va o. Shuning uchun so'z 2 bo'g'inli: ki-tob."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "Javobni yozing:",
+              "data": {
+                "text": "«d» jarangli undoshining jarangsiz juftini yozing."
+              },
+              "answer": {
+                "accept": [
+                  "t"
+                ]
+              },
+              "explanationUz": "d–t juftlik: ular faqat ovoz ishtiroki bilan farq qiladi."
+            }
+          ]
+        },
+        {
+          "slug": "bogin-urgu-kochirish",
+          "titleUz": "Bo'g'in, urg'u va ko'chirish qoidalari",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Bo'g'in sonini aniqlash qoidasini bilish (unli soni = bo'g'in soni)",
+            "Urg'uning odatdagi o'rnini va istisnolarni bilish",
+            "So'zni satrdan satrga to'g'ri ko'chirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Bo'g'in nima?",
+              "bodyUz": "So'zning bir havo zarbi bilan aytiladigan qismi **bo'g'in** deyiladi. Oltin qoida: **so'zda nechta unli bo'lsa, bo'g'in ham shuncha bo'ladi**. Misollar: *non* (1 bo'g'in), *ki-tob* (2), *o'-qi-tuv-chi* (4). Bo'g'in faqat bitta unlidan ham iborat bo'lishi mumkin: *a-ka, o-ta*."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Ochiq va yopiq bo'g'in",
+              "bodyUz": "**Ochiq bo'g'in** unli bilan tugaydi: *bo-la, da-la*. **Yopiq bo'g'in** undosh bilan tugaydi: *mak-tab, daf-tar*. Testda «qaysi so'z faqat ochiq bo'g'inlardan iborat?» kabi savollar uchraydi: *bola* (bo-la) — ikkala bo'g'ini ham ochiq."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Urg'u",
+              "bodyUz": "O'zbek tilida urg'u odatda **so'zning oxirgi bo'g'iniga** tushadi: *kitób, bolá*. Qo'shimcha qo'shilsa, urg'u ham oxirga ko'chadi: *kitób → kitoblár → kitoblarimíz*. Ammo ayrim so'zlarda urg'u birinchi bo'g'inda bo'ladi: **álbatta, ámmo, lékin, hámma, dóim**."
+            },
+            {
+              "type": "table",
+              "titleUz": "Ko'chirish qoidalari",
+              "headers": [
+                "Qoida",
+                "To'g'ri",
+                "Noto'g'ri"
+              ],
+              "rows": [
+                [
+                  "So'z bo'g'inlab ko'chiriladi",
+                  "ki-tob, mak-tab",
+                  "kit-ob, ma-ktab"
+                ],
+                [
+                  "Bir harfdan iborat bo'g'in satrda yolg'iz qoldirilmaydi",
+                  "«aka», «olma» so'zlarida a- va o- ajratilmaydi",
+                  "a-ka, o-lma"
+                ],
+                [
+                  "sh, ch, ng birikmalari ajratilmaydi (bir tovush)",
+                  "ma-shi-na, si-ngil",
+                  "mas-hina, sin-gil"
+                ],
+                [
+                  "Tutuq belgisi oldingi bo'g'in bilan qoladi",
+                  "ma'-lum, ta'-lim",
+                  "ma-'lum"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Bo'g'in sonini tez topish usuli: so'zdagi unlilarni sanang. «O'qituvchilarimiz» — o', i, u, i, a, i, i = 7 unli, demak 7 bo'g'in. Testda vaqtni shu usul tejaydi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«o'qituvchi» so'zida nechta bo'g'in bor?",
+              "data": {
+                "options": [
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ]
+              },
+              "answer": {
+                "value": "4"
+              },
+              "explanationUz": "So'zda 4 ta unli bor (o', i, u, i), demak 4 bo'g'in: o'-qi-tuv-chi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "So'zdagi bo'g'inlar soni undagi unli tovushlar soniga teng bo'ladi."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri. Bo'g'inni unli tovush hosil qiladi, shuning uchun unli nechta bo'lsa, bo'g'in ham shuncha."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi qatorda so'z to'g'ri bo'g'inlab ko'chirilgan?",
+              "data": {
+                "options": [
+                  "si-ngil",
+                  "sin-gil",
+                  "sing-il",
+                  "singi-l"
+                ]
+              },
+              "answer": {
+                "value": "si-ngil"
+              },
+              "explanationUz": "ng harf birikmasi bitta tovushni bildiradi, shuning uchun ko'chirishda ajratilmaydi: si-ngil."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi so'zni satrdan satrga ko'chirib bo'lmaydi?",
+              "data": {
+                "options": [
+                  "aka",
+                  "olma",
+                  "daftar",
+                  "maktab"
+                ]
+              },
+              "answer": {
+                "value": "aka"
+              },
+              "explanationUz": "«aka» so'zi a-ka tarzida bo'g'inlanadi, ammo bir harfdan iborat bo'g'in satrda yolg'iz qoldirilmaydi, shuning uchun bu so'z ko'chirilmaydi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qoidani to'ldiring:",
+              "data": {
+                "text": "So'zda nechta unli bo'lsa, bo'g'in ham ___ bo'ladi."
+              },
+              "answer": {
+                "accept": [
+                  "shuncha",
+                  "o'shancha"
+                ]
+              },
+              "explanationUz": "Bu — bo'g'inning asosiy qoidasi: unli soni = bo'g'in soni."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'g'inlarni to'g'ri tartibda joylashtirib, «o'qituvchi» so'zini hosil qiling:",
+              "data": {
+                "items": [
+                  "tuv",
+                  "o'",
+                  "chi",
+                  "qi"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "o'",
+                  "qi",
+                  "tuv",
+                  "chi"
+                ]
+              },
+              "explanationUz": "O'-qi-tuv-chi — 4 bo'g'inli so'z."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Urg'u birinchi bo'g'inga tushadigan so'zlarni belgilang:",
+              "data": {
+                "options": [
+                  "albatta",
+                  "kitob",
+                  "hamma",
+                  "maktab"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "albatta",
+                  "hamma"
+                ]
+              },
+              "explanationUz": "Álbatta, hámma — urg'u birinchi bo'g'inda. Kitób, maktáb — odatdagidek oxirgi bo'g'inda."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "Javobni raqamda yozing:",
+              "data": {
+                "text": "«maktab» so'zi nechta bo'g'indan iborat?"
+              },
+              "answer": {
+                "accept": [
+                  "2",
+                  "ikki",
+                  "ikkita"
+                ]
+              },
+              "explanationUz": "Mak-tab: so'zda 2 ta unli (a, a) bor, demak 2 bo'g'in."
+            }
+          ]
+        },
+        {
+          "slug": "imlo-qoidalari",
+          "titleUz": "Imlo: tutuq belgisi, qo'shib, chiziqcha bilan va ajratib yozish",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Tutuq belgisi (') qo'llanadigan so'zlarni to'g'ri yozish",
+            "Qo'shib, chiziqcha bilan va ajratib yozish qoidalarini farqlash",
+            "Imtihonda eng ko'p so'raladigan imlo holatlarini o'zlashtirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Tutuq belgisi (') — ikki vazifasi",
+              "bodyUz": "1. **Unlidan keyin** kelib, uning cho'ziqroq talaffuz qilinishini bildiradi: *a'lo, ma'no, ma'lum, ta'lim, ta'til, e'lon, e'tibor, she'r, me'mor, ba'zi, da'vat*.\n2. **Undoshdan keyin** kelib, uni keyingi unlidan ajratib talaffuz qilinishini bildiradi: *san'at, in'om, mas'ul, jur'at*.\nTutuq belgisini tushirib qoldirish — imtihondagi eng ko'p imlo xatolaridan biri."
+            },
+            {
+              "type": "table",
+              "titleUz": "Qo'shib yoziladigan so'zlar",
+              "headers": [
+                "Holat",
+                "Misollar"
+              ],
+              "rows": [
+                [
+                  "Qo'shma otlar (bir tushuncha ifodalaydi)",
+                  "toshbaqa, asalari, kungaboqar, belbog', bilaguzuk"
+                ],
+                [
+                  "-xona qismi bilan tuzilgan so'zlar",
+                  "oshxona, darsxona, kutubxona, mehmonxona"
+                ],
+                [
+                  "-noma qismi bilan tuzilgan so'zlar",
+                  "tabriknoma, taklifnoma, ma'lumotnoma"
+                ],
+                [
+                  "Gumon olmoshlari (alla-, -dir bilan)",
+                  "kimdir, allakim, nimadir, qayerdadir"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Chiziqcha bilan yoziladigan holatlar",
+              "headers": [
+                "Holat",
+                "Misollar"
+              ],
+              "rows": [
+                [
+                  "Juft so'zlar",
+                  "ota-ona, aka-uka, katta-kichik, oldi-berdi"
+                ],
+                [
+                  "Takroriy so'zlar",
+                  "tez-tez, baland-baland, dona-dona"
+                ],
+                [
+                  "-chi, -ku, -da, -u (-yu) yuklamalari",
+                  "sen-chi, keldi-ku, yaxshi-da, kitob-u daftar"
+                ],
+                [
+                  "Raqam bilan yozilgan tartib sonlar",
+                  "5-sinf, 1-sentyabr, 2026-yil"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Ajratib yoziladigan holatlar",
+              "bodyUz": "1. **har** va **hech** so'zlari olmoshlar bilan ajratib yoziladi: *har kim, har bir, hech kim, hech qachon, hech narsa*.\n2. **Ko'makchilar** mustaqil so'zdan ajratib yoziladi: *do'stim bilan, Vatan uchun, kitob kabi*.\n3. **Qo'shma fe'llar** ajratib yoziladi: *his qilmoq, sarf qilmoq, javob bermoq*."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Adashtirmang: gumon olmoshlari QO'SHIB (kimdir, allakim), «har» va «hech» bilan kelgan olmoshlar AJRATIB (har kim, hech kim) yoziladi. Testda bu ikki qoida ko'pincha bitta savolda beriladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Tutuq belgisi to'g'ri qo'llangan so'zni toping:",
+              "data": {
+                "options": [
+                  "san'at",
+                  "sa'nat",
+                  "kito'b",
+                  "dafta'r"
+                ]
+              },
+              "answer": {
+                "value": "san'at"
+              },
+              "explanationUz": "«san'at» so'zida tutuq belgisi n undoshidan keyin kelib, uni keyingi unlidan ajratib talaffuz qilinishini bildiradi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Tutuq belgisi bilan yoziladigan so'zlarni belgilang:",
+              "data": {
+                "options": [
+                  "ma'no",
+                  "she'r",
+                  "shoir",
+                  "davlat",
+                  "e'lon"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "ma'no",
+                  "she'r",
+                  "e'lon"
+                ]
+              },
+              "explanationUz": "Ma'no, she'r, e'lon — tutuq belgisi bilan yoziladi. «Shoir» va «davlat» so'zlarida tutuq belgisi yo'q."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi so'z imloda QO'SHIB yoziladi?",
+              "data": {
+                "options": [
+                  "kungaboqar",
+                  "ota-ona",
+                  "har kim",
+                  "tez-tez"
+                ]
+              },
+              "answer": {
+                "value": "kungaboqar"
+              },
+              "explanationUz": "«Kungaboqar» — qo'shma ot, bir tushunchani bildiradi, shuning uchun qo'shib yoziladi. Qolganlari chiziqcha bilan yoki ajratib yoziladi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Chiziqcha bilan yoziladigan qatorni toping:",
+              "data": {
+                "options": [
+                  "tez-tez, ota-ona",
+                  "har kim, hech kim",
+                  "oshxona, darsxona",
+                  "san'at, ma'no"
+                ]
+              },
+              "answer": {
+                "value": "tez-tez, ota-ona"
+              },
+              "explanationUz": "Takroriy so'zlar (tez-tez) va juft so'zlar (ota-ona) chiziqcha bilan yoziladi. «Har kim» ajratib, «oshxona» qo'shib, «san'at» tutuq belgisi bilan yoziladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Raqam bilan yozilgan tartib sondan keyin chiziqcha qo'yiladi: 5-sinf, 2026-yil."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri. Tartib son raqam bilan yozilsa, -nchi qo'shimchasi o'rniga chiziqcha qo'yiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qoidani to'ldiring:",
+              "data": {
+                "text": "«har» va «hech» so'zlari olmoshlar bilan ___ yoziladi: har kim, hech narsa."
+              },
+              "answer": {
+                "accept": [
+                  "ajratib",
+                  "alohida"
+                ]
+              },
+              "explanationUz": "Har kim, har bir, hech kim, hech qachon — doimo ajratib yoziladi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zni tegishli imlo qoidasiga bog'lang:",
+              "data": {
+                "left": [
+                  "ota-ona",
+                  "oshxona",
+                  "har kim",
+                  "ma'no"
+                ],
+                "right": [
+                  "qo'shib yoziladi",
+                  "tutuq belgisi bilan yoziladi",
+                  "chiziqcha bilan yoziladi",
+                  "ajratib yoziladi"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "ota-ona": "chiziqcha bilan yoziladi",
+                  "oshxona": "qo'shib yoziladi",
+                  "har kim": "ajratib yoziladi",
+                  "ma'no": "tutuq belgisi bilan yoziladi"
+                }
+              },
+              "explanationUz": "Juft so'z — chiziqcha bilan; -xona qismli so'z — qo'shib; «har» olmosh bilan — ajratib; «ma'no» — tutuq belgisi bilan."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "Imloni tuzating:",
+              "data": {
+                "text": "«talim» so'zining to'g'ri imlosini yozing."
+              },
+              "answer": {
+                "accept": [
+                  "ta'lim",
+                  "taʼlim",
+                  "ta`lim"
+                ]
+              },
+              "explanationUz": "«Ta'lim» so'zida a unlisidan keyin tutuq belgisi yoziladi — u unlining cho'ziq talaffuzini bildiradi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "morfologiya",
+      "titleUz": "Morfologiya: so'z turkumlari",
+      "descriptionUz": "Ot, sifat, son, olmosh, fe'l va ravish — 45 talik testning eng katta qismi shu bo'limdan tuziladi.",
+      "order": 1,
+      "lessons": [
+        {
+          "slug": "soz-turkumlari-va-ot",
+          "titleUz": "So'z turkumlari tizimi va ot",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Mustaqil va yordamchi so'z turkumlarini farqlash",
+            "Otning turlarini va egalik qo'shimchalarini bilish",
+            "6 kelishikni qo'shimchalari va so'roqlari bilan yod olish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "So'z turkumlari tizimi",
+              "bodyUz": "So'zlar uch guruhga bo'linadi:\n1. **Mustaqil so'z turkumlari** (6 ta): ot, sifat, son, olmosh, fe'l, ravish — atash ma'nosiga ega, gap bo'lagi bo'la oladi.\n2. **Yordamchi so'z turkumlari**: ko'makchi (bilan, uchun), bog'lovchi (va, ammo, chunki), yuklama (faqat, hatto, -mi).\n3. **Alohida guruh**: undov so'zlar (eh, dod), taqlid so'zlar (taq-tuq, sharr), modal so'zlar (albatta, ehtimol)."
+            },
+            {
+              "type": "table",
+              "titleUz": "Mustaqil so'z turkumlari",
+              "headers": [
+                "Turkum",
+                "So'rog'i",
+                "Misol"
+              ],
+              "rows": [
+                [
+                  "Ot",
+                  "kim? nima? qayer?",
+                  "bola, kitob, Toshkent"
+                ],
+                [
+                  "Sifat",
+                  "qanday? qaysi?",
+                  "go'zal, keng, aqlli"
+                ],
+                [
+                  "Son",
+                  "necha? nechta? nechanchi?",
+                  "besh, beshta, beshinchi"
+                ],
+                [
+                  "Olmosh",
+                  "(o'rnida kelgan so'z so'rog'i)",
+                  "men, bu, kim, hamma"
+                ],
+                [
+                  "Fe'l",
+                  "nima qilmoq?",
+                  "o'qimoq, yozmoq, kelmoq"
+                ],
+                [
+                  "Ravish",
+                  "qanday? qachon? qayerda?",
+                  "tez, bugun, atayin"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Ot va uning turlari. Egalik qo'shimchalari",
+              "bodyUz": "**Atoqli otlar** — shaxs, joy, asar nomlari, bosh harf bilan yoziladi: *Alisher, Toshkent, «O'tkan kunlar»*. **Turdosh otlar** — umumiy nomlar: *bola, shahar, kitob*.\n\n**Egalik qo'shimchalari** predmetning kimga tegishliligini bildiradi:\n- kitob**im** (mening), kitob**ing** (sening), kitob**i** (uning)\n- kitob**imiz** (bizning), kitob**ingiz** (sizning), kitob**lari** (ularning)"
+            },
+            {
+              "type": "table",
+              "titleUz": "Kelishiklar jadvali (6 ta)",
+              "headers": [
+                "Kelishik",
+                "Qo'shimchasi",
+                "So'rog'i",
+                "Misol"
+              ],
+              "rows": [
+                [
+                  "Bosh kelishik",
+                  "—",
+                  "kim? nima?",
+                  "kitob (qiziqarli)"
+                ],
+                [
+                  "Qaratqich kelishigi",
+                  "-ning",
+                  "kimning? nimaning?",
+                  "kitobning (muqovasi)"
+                ],
+                [
+                  "Tushum kelishigi",
+                  "-ni",
+                  "kimni? nimani?",
+                  "kitobni (o'qidim)"
+                ],
+                [
+                  "Jo'nalish kelishigi",
+                  "-ga (-ka, -qa)",
+                  "kimga? nimaga? qayerga?",
+                  "kitobga (qaradim)"
+                ],
+                [
+                  "O'rin-payt kelishigi",
+                  "-da",
+                  "kimda? nimada? qayerda?",
+                  "kitobda (yozilgan)"
+                ],
+                [
+                  "Chiqish kelishigi",
+                  "-dan",
+                  "kimdan? nimadan? qayerdan?",
+                  "kitobdan (oldim)"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Ikki muhim nozik jihat: 1) Qaratqich (-ning: kimNING?) va tushum (-ni: nimaNI?) kelishiklarini adashtirmang. 2) Jo'nalish kelishigi k bilan tugagan so'zda -ka (terak → terakka), q bilan tugagan so'zda -qa (qishloq → qishloqqa) shaklini oladi — imlo testlarida shu holat tez-tez so'raladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "O'zbek tilida nechta kelishik bor?",
+              "data": {
+                "options": [
+                  "4",
+                  "5",
+                  "6",
+                  "7"
+                ]
+              },
+              "answer": {
+                "value": "6"
+              },
+              "explanationUz": "6 ta kelishik: bosh, qaratqich, tushum, jo'nalish, o'rin-payt, chiqish."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi qatorda faqat mustaqil so'z turkumlari berilgan?",
+              "data": {
+                "options": [
+                  "ot, sifat, fe'l",
+                  "ot, bog'lovchi, yuklama",
+                  "ko'makchi, son, undov",
+                  "yuklama, ravish, olmosh"
+                ]
+              },
+              "answer": {
+                "value": "ot, sifat, fe'l"
+              },
+              "explanationUz": "Ot, sifat, fe'l — mustaqil turkumlar. Bog'lovchi, yuklama, ko'makchi — yordamchi; undov — alohida guruh."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Kelishikni qo'shimchasiga bog'lang:",
+              "data": {
+                "left": [
+                  "qaratqich",
+                  "tushum",
+                  "jo'nalish",
+                  "chiqish"
+                ],
+                "right": [
+                  "-ni",
+                  "-dan",
+                  "-ning",
+                  "-ga"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "qaratqich": "-ning",
+                  "tushum": "-ni",
+                  "jo'nalish": "-ga",
+                  "chiqish": "-dan"
+                }
+              },
+              "explanationUz": "Qaratqich — -ning (kimning?), tushum — -ni (nimani?), jo'nalish — -ga (kimga?), chiqish — -dan (nimadan?)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«kitobni» so'zidagi -ni qaysi kelishik qo'shimchasi?",
+              "data": {
+                "options": [
+                  "qaratqich",
+                  "tushum",
+                  "jo'nalish",
+                  "chiqish"
+                ]
+              },
+              "answer": {
+                "value": "tushum"
+              },
+              "explanationUz": "-ni — tushum kelishigi qo'shimchasi, nimani? so'rog'iga javob beradi: kitobni o'qidim."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Jo'nalish kelishigi qo'shimchasini yozing:",
+              "data": {
+                "text": "Men har kuni maktab___ boraman."
+              },
+              "answer": {
+                "accept": [
+                  "ga",
+                  "-ga"
+                ]
+              },
+              "explanationUz": "Qayerga? — maktabga. Jo'nalish kelishigi -ga qo'shimchasi bilan yasaladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Atoqli otlar bosh harf bilan yoziladi."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri. Shaxs, joy, asar nomlari — atoqli otlar bosh harf bilan yoziladi: Navoiy, Samarqand."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«daftarim» so'zidagi -im qo'shimchasi nimani bildiradi?",
+              "data": {
+                "options": [
+                  "I shaxs birlik egalik",
+                  "II shaxs birlik egalik",
+                  "ko'plik",
+                  "kelishik"
+                ]
+              },
+              "answer": {
+                "value": "I shaxs birlik egalik"
+              },
+              "explanationUz": "-im — I shaxs birlik egalik qo'shimchasi: daftarim = mening daftarim."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zni turlang:",
+              "data": {
+                "text": "«uy» so'zini chiqish kelishigida yozing."
+              },
+              "answer": {
+                "accept": [
+                  "uydan"
+                ]
+              },
+              "explanationUz": "Chiqish kelishigi -dan qo'shimchasi bilan yasaladi: uy + dan = uydan (qayerdan?)."
+            }
+          ]
+        },
+        {
+          "slug": "sifat-son-olmosh",
+          "titleUz": "Sifat, son va olmosh",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Sifat darajalarini (oddiy, qiyosiy, orttirma) farqlash",
+            "Son ma'no turlarini qo'shimchalari bilan bilish",
+            "Olmoshning 7 turini misollar bilan ajratish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Sifat va uning darajalari",
+              "bodyUz": "Sifat predmetning belgisini bildiradi: *qanday? qaysi?*\n1. **Oddiy daraja**: belgi odatdagidek — *baland uy, shirin olma*.\n2. **Qiyosiy daraja**: -roq qo'shimchasi bilan — *balandroq, shirinroq*.\n3. **Orttirma daraja**: eng, juda, g'oyat so'zlari bilan — *eng baland, juda shirin*."
+            },
+            {
+              "type": "table",
+              "titleUz": "Son ma'no turlari",
+              "headers": [
+                "Turi",
+                "Qo'shimchasi/Shakli",
+                "Misol"
+              ],
+              "rows": [
+                [
+                  "Sanoq son",
+                  "—",
+                  "besh, o'n, yuz"
+                ],
+                [
+                  "Dona son",
+                  "-ta",
+                  "beshta, o'nta"
+                ],
+                [
+                  "Tartib son",
+                  "-inchi (-nchi)",
+                  "beshinchi, oltinchi"
+                ],
+                [
+                  "Jamlovchi son",
+                  "-ov, -ala",
+                  "beshov, uchala"
+                ],
+                [
+                  "Chama son",
+                  "-tacha, -lab",
+                  "o'ntacha, yuzlab"
+                ],
+                [
+                  "Taqsim son",
+                  "-tadan",
+                  "beshtadan, ikkitadan"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Olmosh va uning 7 turi",
+              "bodyUz": "Olmosh boshqa so'z turkumlari o'rnida qo'llanadi:\n1. **Kishilik**: men, sen, u, biz, siz, ular\n2. **Ko'rsatish**: bu, shu, o'sha, ana, mana\n3. **So'roq**: kim? nima? qanday? qancha?\n4. **Belgilash**: har, hamma, barcha, butun\n5. **Bo'lishsizlik**: hech kim, hech nima, hech qachon\n6. **Gumon**: kimdir, nimadir, allakim, ba'zi\n7. **O'zlik**: o'z (o'zim, o'zing, o'zi)"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Olmoshlar imlosi",
+              "bodyUz": "Gumon olmoshlari **qo'shib** yoziladi: *kimdir, allakim, nimadir*. «Har» va «hech» so'zlari bilan kelgan olmoshlar **ajratib** yoziladi: *har kim, har bir, hech kim, hech qachon*. Bu qoida imtihon testlarida muntazam so'raladi."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "«eng» so'zi sifatdan doim AJRATIB yoziladi: eng yaxshi, eng katta. -roq esa QO'SHIB yoziladi: kattaroq. Son testlarida qo'shimchaga qarang: -ta ko'rsangiz — dona son, -inchi — tartib son, -ov — jamlovchi son."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«kattaroq» so'zi sifatning qaysi darajasida?",
+              "data": {
+                "options": [
+                  "oddiy daraja",
+                  "qiyosiy daraja",
+                  "orttirma daraja",
+                  "bu sifat emas"
+                ]
+              },
+              "answer": {
+                "value": "qiyosiy daraja"
+              },
+              "explanationUz": "-roq qo'shimchasi sifatning qiyosiy darajasini yasaydi: katta → kattaroq."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Orttirma daraja hosil qiluvchi so'zni yozing:",
+              "data": {
+                "text": "Toshkent — O'zbekistonning ___ yirik shahri."
+              },
+              "answer": {
+                "accept": [
+                  "eng"
+                ]
+              },
+              "explanationUz": "«eng» so'zi sifatning orttirma darajasini hosil qiladi: eng yirik."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Sonni ma'no turiga bog'lang:",
+              "data": {
+                "left": [
+                  "beshta",
+                  "beshinchi",
+                  "beshov",
+                  "o'ntacha"
+                ],
+                "right": [
+                  "tartib son",
+                  "chama son",
+                  "dona son",
+                  "jamlovchi son"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "beshta": "dona son",
+                  "beshinchi": "tartib son",
+                  "beshov": "jamlovchi son",
+                  "o'ntacha": "chama son"
+                }
+              },
+              "explanationUz": "-ta — dona son, -inchi — tartib son, -ov — jamlovchi son, -tacha — chama son."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Tartib son qaysi qo'shimcha bilan yasaladi?",
+              "data": {
+                "options": [
+                  "-ta",
+                  "-inchi",
+                  "-ov",
+                  "-tacha"
+                ]
+              },
+              "answer": {
+                "value": "-inchi"
+              },
+              "explanationUz": "Tartib son -inchi (-nchi) qo'shimchasi bilan yasaladi: beshinchi, oltinchi. Nechanchi? so'rog'iga javob beradi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Kishilik olmoshlarini belgilang:",
+              "data": {
+                "options": [
+                  "men",
+                  "sen",
+                  "kimdir",
+                  "biz",
+                  "har kim"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "men",
+                  "sen",
+                  "biz"
+                ]
+              },
+              "explanationUz": "Men, sen, biz — kishilik olmoshlari. «Kimdir» — gumon, «har kim» — belgilash olmoshi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«hech kim» qaysi olmosh turiga kiradi?",
+              "data": {
+                "options": [
+                  "bo'lishsizlik olmoshi",
+                  "gumon olmoshi",
+                  "kishilik olmoshi",
+                  "ko'rsatish olmoshi"
+                ]
+              },
+              "answer": {
+                "value": "bo'lishsizlik olmoshi"
+              },
+              "explanationUz": "«Hech» so'zi bilan yasalgan olmoshlar bo'lishsizlik olmoshlaridir: hech kim, hech nima, hech qachon."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Sifatning qiyosiy darajasi -roq qo'shimchasi bilan yasaladi."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri: katta → kattaroq, shirin → shirinroq."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "Darajani yasang:",
+              "data": {
+                "text": "«yaxshi» sifatining qiyosiy darajasini yozing."
+              },
+              "answer": {
+                "accept": [
+                  "yaxshiroq"
+                ]
+              },
+              "explanationUz": "Qiyosiy daraja -roq bilan yasaladi: yaxshi + roq = yaxshiroq."
+            }
+          ]
+        },
+        {
+          "slug": "fel-va-ravish",
+          "titleUz": "Fe'l: zamon, nisbat, mayl. Ravish",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Fe'lning uch zamonini shakllari bilan farqlash",
+            "5 nisbat va 3 maylni misollarda aniqlash",
+            "Ravish turlarini bilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Fe'l zamonlari",
+              "bodyUz": "Fe'l ish-harakatni bildiradi va uch zamonga ega:\n1. **O'tgan zamon**: harakat nutqdan oldin bo'lgan — *yozdi, o'qigan, borgan edi*.\n2. **Hozirgi zamon**: harakat nutq paytida davom etmoqda — *yozyapti, o'qimoqda*.\n3. **Kelasi zamon**: harakat nutqdan keyin bo'ladi — *yozadi, yozmoqchi, o'qiajak*."
+            },
+            {
+              "type": "table",
+              "titleUz": "Fe'l nisbatlari (5 ta)",
+              "headers": [
+                "Nisbat",
+                "Qo'shimchasi",
+                "Misol"
+              ],
+              "rows": [
+                [
+                  "Aniq nisbat",
+                  "—",
+                  "yuvdi (o'zi bajardi)"
+                ],
+                [
+                  "O'zlik nisbati",
+                  "-(i)n",
+                  "yuvindi (o'ziga qaratilgan)"
+                ],
+                [
+                  "Majhul nisbat",
+                  "-(i)l",
+                  "yozildi (bajaruvchi noma'lum)"
+                ],
+                [
+                  "Birgalik nisbati",
+                  "-(i)sh",
+                  "yozishdi (birgalikda bajarildi)"
+                ],
+                [
+                  "Orttirma nisbat",
+                  "-dir, -giz, -t",
+                  "yozdirdi, o'qitdi (boshqaga bajartirildi)"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Fe'l mayllari",
+              "bodyUz": "1. **Xabar (ijro) mayli**: harakat haqida xabar beradi — *o'qiydi, o'qidi*.\n2. **Buyruq-istak mayli**: buyruq yoki istakni bildiradi — *o'qi! o'qisin! o'qiylik!*\n3. **Shart mayli**: -sa qo'shimchasi bilan shartni bildiradi — *o'qisa, borsa, kelsa*.\n\nFe'lning **bo'lishsiz shakli** -ma qo'shimchasi bilan yasaladi: *bordi → bormadi, o'qi → o'qima*."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Ravish va uning ma'no turlari",
+              "bodyUz": "Ravish harakatning belgisini bildiradi va o'zgarmaydi:\n1. **Holat ravishi** (qanday?): tez, sekin, piyoda, do'stona\n2. **Payt ravishi** (qachon?): bugun, kecha, hozir, erta\n3. **O'rin ravishi** (qayerda? qayerga?): ichkari, tashqari, olg'a\n4. **Miqdor-daraja ravishi** (qancha?): ko'p, oz, juda, sal\n5. **Maqsad ravishi** (nima maqsadda?): atayin, jo'rttaga"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Nisbatni topishning oson yo'li — «kim bajaryapti?» deb so'rang: o'zi bajarsa va o'ziga qaratilmasa — aniq; o'ziga qaratilgan bo'lsa (yuvindi, tarandi) — o'zlik; bajaruvchi ko'rsatilmasa (eshik ochildi) — majhul; birga bajarishsa (kulishdi) — birgalik; boshqaga bajartirsa (yozdirdi) — orttirma."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«yozyapti» fe'li qaysi zamonda?",
+              "data": {
+                "options": [
+                  "o'tgan zamon",
+                  "hozirgi zamon",
+                  "kelasi zamon",
+                  "shart mayli"
+                ]
+              },
+              "answer": {
+                "value": "hozirgi zamon"
+              },
+              "explanationUz": "-yapti qo'shimchasi hozirgi zamonni bildiradi: harakat nutq paytida davom etmoqda."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«borsa» fe'li qaysi maylda?",
+              "data": {
+                "options": [
+                  "xabar mayli",
+                  "buyruq-istak mayli",
+                  "shart mayli",
+                  "bu mayl emas"
+                ]
+              },
+              "answer": {
+                "value": "shart mayli"
+              },
+              "explanationUz": "-sa qo'shimchasi shart maylini yasaydi: borsa — «agar borsa» ma'nosida."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Fe'lni nisbatiga bog'lang:",
+              "data": {
+                "left": [
+                  "yuvindi",
+                  "yozildi",
+                  "yozishdi",
+                  "yozdirdi"
+                ],
+                "right": [
+                  "orttirma nisbat",
+                  "majhul nisbat",
+                  "o'zlik nisbati",
+                  "birgalik nisbati"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "yuvindi": "o'zlik nisbati",
+                  "yozildi": "majhul nisbat",
+                  "yozishdi": "birgalik nisbati",
+                  "yozdirdi": "orttirma nisbat"
+                }
+              },
+              "explanationUz": "-in — o'zlik (yuvindi), -il — majhul (yozildi), -ish — birgalik (yozishdi), -dir — orttirma (yozdirdi)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Fe'lni o'tgan zamon, I shaxs birlikda yozing:",
+              "data": {
+                "text": "Kecha men do'stimga xat ___ . (yozmoq)"
+              },
+              "answer": {
+                "accept": [
+                  "yozdim"
+                ]
+              },
+              "explanationUz": "O'tgan zamon -di + I shaxs -m: yoz + di + m = yozdim."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi so'zlar ravish? Belgilang:",
+              "data": {
+                "options": [
+                  "tez",
+                  "bugun",
+                  "kitob",
+                  "juda",
+                  "chiroyli"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "tez",
+                  "bugun",
+                  "juda"
+                ]
+              },
+              "explanationUz": "Tez (holat), bugun (payt), juda (daraja) — ravishlar. «Kitob» — ot, «chiroyli» — sifat."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Fe'lning bo'lishsiz shakli -ma qo'shimchasi bilan yasaladi."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri: bordi → bormadi, o'qi → o'qima, kelsa → kelmasa."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«o'qimoqchi» shakli qaysi zamonni bildiradi?",
+              "data": {
+                "options": [
+                  "o'tgan zamon",
+                  "hozirgi zamon",
+                  "kelasi zamon (maqsad)",
+                  "shart mayli"
+                ]
+              },
+              "answer": {
+                "value": "kelasi zamon (maqsad)"
+              },
+              "explanationUz": "-moqchi qo'shimchasi kelasi zamonda bajarish niyatini (maqsadini) bildiradi: o'qimoqchi = o'qish niyatida."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "Shaklni yasang:",
+              "data": {
+                "text": "«bordi» fe'lining bo'lishsiz shaklini yozing."
+              },
+              "answer": {
+                "accept": [
+                  "bormadi"
+                ]
+              },
+              "explanationUz": "Bo'lishsiz shakl -ma qo'shimchasi bilan: bor + ma + di = bormadi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sintaksis-va-leksika",
+      "titleUz": "Sintaksis va leksika",
+      "descriptionUz": "Gap bo'laklari, sodda va qo'shma gaplar, tinish belgilari hamda so'z boyligi: sinonim, antonim, omonim, paronim, iboralar.",
+      "order": 2,
+      "lessons": [
+        {
+          "slug": "gap-bolaklari",
+          "titleUz": "Gap bo'laklari: ega, kesim, aniqlovchi, to'ldiruvchi, hol",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Bosh va ikkinchi darajali bo'laklarni farqlash",
+            "Har bir bo'lakni so'rog'i yordamida topa olish",
+            "Gapdagi odatiy so'z tartibini bilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Gap bo'laklari tizimi",
+              "bodyUz": "Gap bo'laklari ikki guruhga bo'linadi:\n1. **Bosh bo'laklar**: **ega** (gapda kim yoki nima haqida gap ketayotganini bildiradi) va **kesim** (ega haqidagi xabarni bildiradi). Bosh bo'laklar gapning grammatik asosini tashkil qiladi.\n2. **Ikkinchi darajali bo'laklar**: **aniqlovchi**, **to'ldiruvchi**, **hol** — ular bosh bo'laklarni izohlab, to'ldirib keladi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Bo'laklar va ularning so'roqlari",
+              "headers": [
+                "Bo'lak",
+                "So'rog'i",
+                "Misol (bo'lak qalin)"
+              ],
+              "rows": [
+                [
+                  "Ega",
+                  "kim? nima?",
+                  "**Aziz** keldi."
+                ],
+                [
+                  "Kesim",
+                  "nima qildi? qanday? kim?",
+                  "Aziz **keldi**."
+                ],
+                [
+                  "Aniqlovchi",
+                  "qanday? qaysi? kimning?",
+                  "**qiziqarli** kitob, **Azizning** daftari"
+                ],
+                [
+                  "To'ldiruvchi",
+                  "kimni? nimani? kimga? kimdan?",
+                  "Kitob**ni** o'qidim, do'stim**ga** aytdim."
+                ],
+                [
+                  "Hol",
+                  "qachon? qayerda? qanday tarzda?",
+                  "**Bugun** keldi, **tez** yugurdi."
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Gapda so'z tartibi",
+              "bodyUz": "O'zbek tilida odatiy tartib: **ega — ikkinchi darajali bo'laklar — kesim**. Kesim odatda gap oxirida keladi.\n\nTahlil namunasi: *Ukam (ega) kecha (hol) qiziqarli (aniqlovchi) kitobni (to'ldiruvchi) o'qidi (kesim).*"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Bo'lakni topishning eng ishonchli usuli — SO'ROQ berish. Avval kesimni toping (odatda oxirda), keyin «kim? nima?» deb egani toping, so'ng qolgan so'zlarga so'roq bering: qanday/qaysi → aniqlovchi, kimni/nimaga → to'ldiruvchi, qachon/qayerda → hol."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Gapning bosh bo'laklari qaysilar?",
+              "data": {
+                "options": [
+                  "ega va kesim",
+                  "aniqlovchi va hol",
+                  "ega va to'ldiruvchi",
+                  "kesim va hol"
+                ]
+              },
+              "answer": {
+                "value": "ega va kesim"
+              },
+              "explanationUz": "Ega va kesim gapning grammatik asosini tashkil qiluvchi bosh bo'laklardir."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«Aziz kecha qiziqarli kitob o'qidi» gapida ega qaysi so'z?",
+              "data": {
+                "options": [
+                  "Aziz",
+                  "kecha",
+                  "kitob",
+                  "o'qidi"
+                ]
+              },
+              "answer": {
+                "value": "Aziz"
+              },
+              "explanationUz": "Kim o'qidi? — Aziz. Ega kim? nima? so'rog'iga javob beradi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Gap bo'lagini so'rog'iga bog'lang:",
+              "data": {
+                "left": [
+                  "ega",
+                  "aniqlovchi",
+                  "to'ldiruvchi",
+                  "hol"
+                ],
+                "right": [
+                  "qachon? qayerda?",
+                  "kim? nima?",
+                  "kimni? nimaga?",
+                  "qanday? qaysi? kimning?"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "ega": "kim? nima?",
+                  "aniqlovchi": "qanday? qaysi? kimning?",
+                  "to'ldiruvchi": "kimni? nimaga?",
+                  "hol": "qachon? qayerda?"
+                }
+              },
+              "explanationUz": "Har bir bo'lakning o'z so'rog'i bor — bo'lakni aniqlashning kaliti shu."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«Bugun havo juda sovuq» gapida «bugun» qaysi bo'lak?",
+              "data": {
+                "options": [
+                  "hol",
+                  "ega",
+                  "kesim",
+                  "aniqlovchi"
+                ]
+              },
+              "answer": {
+                "value": "hol"
+              },
+              "explanationUz": "Qachon? — bugun. Payt ma'nosini bildirgani uchun u payt holi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "O'zbek tilida kesim odatda gapning oxirida keladi."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri. Odatiy tartib: ega — ikkinchi darajali bo'laklar — kesim."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qoidani to'ldiring:",
+              "data": {
+                "text": "Qanday? qaysi? kimning? so'roqlariga javob bo'luvchi bo'lak ___ deyiladi."
+              },
+              "answer": {
+                "accept": [
+                  "aniqlovchi"
+                ]
+              },
+              "explanationUz": "Aniqlovchi predmetning belgisi yoki tegishliligini bildiradi: qiziqarli kitob, Azizning daftari."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«Men kitobni o'qidim» gapida to'ldiruvchi qaysi so'z?",
+              "data": {
+                "options": [
+                  "men",
+                  "kitobni",
+                  "o'qidim",
+                  "gapda to'ldiruvchi yo'q"
+                ]
+              },
+              "answer": {
+                "value": "kitobni"
+              },
+              "explanationUz": "Nimani o'qidim? — kitobni. Tushum kelishigidagi so'z to'ldiruvchi vazifasida kelgan."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "Gap bo'laklarini o'zbek tilidagi odatiy tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "kesim",
+                  "ega",
+                  "to'ldiruvchi"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "ega",
+                  "to'ldiruvchi",
+                  "kesim"
+                ]
+              },
+              "explanationUz": "Odatiy tartib: ega boshda, kesim oxirda, ikkinchi darajali bo'laklar o'rtada."
+            }
+          ]
+        },
+        {
+          "slug": "sodda-va-qoshma-gaplar",
+          "titleUz": "Sodda va qo'shma gaplar. Tinish belgilari",
+          "skill": "GRAMMAR",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Sodda va qo'shma gapni grammatik asos soniga ko'ra farqlash",
+            "Asosiy tinish belgilarining vazifalarini bilish",
+            "Undalma va uyushiq bo'laklarda vergulni to'g'ri qo'yish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Sodda va qo'shma gap",
+              "bodyUz": "**Grammatik asos** — ega va kesim birligi.\n\n**Sodda gap**da bitta grammatik asos bo'ladi: *Bahor keldi.*\n**Qo'shma gap**da ikki yoki undan ortiq grammatik asos bo'ladi: *Bahor keldi, gullar ochildi.* (1-asos: bahor keldi; 2-asos: gullar ochildi)"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Qo'shma gap turlari",
+              "bodyUz": "1. **Bog'langan qo'shma gap**: teng bog'lovchilar (va, ammo, lekin, yoki) bilan — *Kun isidi, ammo shamol esardi.*\n2. **Ergash gapli qo'shma gap**: biri ikkinchisiga tobe (-sa, -gani uchun, chunki) — *Yomg'ir yog'sa, ekinlar ko'karadi.*\n3. **Bog'lovchisiz qo'shma gap**: faqat ohang va vergul bilan — *Qor yog'di, hamma yoq oqardi.*"
+            },
+            {
+              "type": "table",
+              "titleUz": "Tinish belgilari va vazifalari",
+              "headers": [
+                "Belgi",
+                "Asosiy vazifasi",
+                "Misol"
+              ],
+              "rows": [
+                [
+                  "Nuqta (.)",
+                  "Darak gap oxirida",
+                  "Biz teatrga bordik."
+                ],
+                [
+                  "So'roq belgisi (?)",
+                  "So'roq gap oxirida",
+                  "Darsga tayyormisan?"
+                ],
+                [
+                  "Undov belgisi (!)",
+                  "His-hayajonli gap oxirida",
+                  "Bahor qanday go'zal!"
+                ],
+                [
+                  "Vergul (,)",
+                  "Uyushiq bo'laklar, undalma, qo'shma gap qismlari orasida",
+                  "Bozordan olma, uzum, anor oldik."
+                ],
+                [
+                  "Ikki nuqta (:)",
+                  "Umumlashtiruvchi so'zdan keyin",
+                  "Hammasi bor edi: olma, uzum, anor."
+                ],
+                [
+                  "Tire (—)",
+                  "Ot kesim bilan ega orasida",
+                  "Toshkent — O'zbekiston poytaxti."
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Undalma va uyushiq bo'laklar",
+              "bodyUz": "**Undalma** — so'zlovchi murojaat qilgan shaxsni bildiradi va doim vergul bilan ajratiladi: *Bolalar, darsni boshlaymiz. Kitobni, Aziza, stolga qo'y.*\n\n**Uyushiq bo'laklar** bir xil so'roqqa javob bo'lib, vergul bilan ajratiladi: *Bog'da olma, nok va gilos pishdi.* Diqqat: **va** bog'lovchisidan oldin vergul qo'yilmaydi."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Sodda yoki qo'shma gapligini aniqlash uchun kesimlarni sanang: nechta mustaqil kesim (grammatik asos) bo'lsa, gap o'shancha qismdan iborat. Ikki va undan ortiq asos — qo'shma gap."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qo'shma gap deb qanday gapga aytiladi?",
+              "data": {
+                "options": [
+                  "Ikki yoki undan ortiq grammatik asosli gapga",
+                  "Bitta grammatik asosli gapga",
+                  "Faqat undalmali gapga",
+                  "Faqat so'roq gapga"
+                ]
+              },
+              "answer": {
+                "value": "Ikki yoki undan ortiq grammatik asosli gapga"
+              },
+              "explanationUz": "Qo'shma gap ikki yoki undan ortiq sodda gapning (grammatik asosning) birikuvidan hosil bo'ladi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap qo'shma gap?",
+              "data": {
+                "options": [
+                  "Bahor keldi, gullar ochildi.",
+                  "Aziz maktabga bordi.",
+                  "Biz kecha teatrga bordik.",
+                  "Havo juda issiq."
+                ]
+              },
+              "answer": {
+                "value": "Bahor keldi, gullar ochildi."
+              },
+              "explanationUz": "Bu gapda ikkita grammatik asos bor: «bahor keldi» va «gullar ochildi». Qolganlari — sodda gaplar."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Undalma gapning boshqa bo'laklaridan vergul bilan ajratiladi."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri: «Bolalar, darsni boshlaymiz.» Undalma doim vergul bilan ajratiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qoidani to'ldiring:",
+              "data": {
+                "text": "His-hayajon bilan aytilgan gap oxiriga ___ belgisi qo'yiladi."
+              },
+              "answer": {
+                "accept": [
+                  "undov",
+                  "undov belgisi",
+                  "!"
+                ]
+              },
+              "explanationUz": "His-hayajonli gaplar oxiriga undov belgisi (!) qo'yiladi: Bahor qanday go'zal!"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Tinish belgisini vazifasiga bog'lang:",
+              "data": {
+                "left": [
+                  "nuqta",
+                  "so'roq belgisi",
+                  "undov belgisi",
+                  "vergul"
+                ],
+                "right": [
+                  "his-hayajonli gap oxirida",
+                  "darak gap oxirida",
+                  "uyushiq bo'laklar orasida",
+                  "so'roq gap oxirida"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "nuqta": "darak gap oxirida",
+                  "so'roq belgisi": "so'roq gap oxirida",
+                  "undov belgisi": "his-hayajonli gap oxirida",
+                  "vergul": "uyushiq bo'laklar orasida"
+                }
+              },
+              "explanationUz": "Har bir tinish belgisining o'z o'rni bor: nuqta — darak, so'roq — so'roq gap, undov — his-hayajon, vergul — uyushiq bo'laklar."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "«Aziza, kitobingni olib kel.» gapida vergul nima uchun qo'yilgan?",
+              "data": {
+                "options": [
+                  "Undalmani ajratish uchun",
+                  "Uyushiq bo'laklarni ajratish uchun",
+                  "Qo'shma gap qismlarini ajratish uchun",
+                  "Kirish so'zni ajratish uchun"
+                ]
+              },
+              "answer": {
+                "value": "Undalmani ajratish uchun"
+              },
+              "explanationUz": "«Aziza» — undalma (murojaat qilingan shaxs), shuning uchun vergul bilan ajratilgan."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Sodda gaplarni belgilang:",
+              "data": {
+                "options": [
+                  "Kuz keldi.",
+                  "Bolalar bog'da o'ynadi.",
+                  "Shamol esdi, barglar to'kildi.",
+                  "Yomg'ir yog'di, havo salqin bo'ldi."
+                ]
+              },
+              "answer": {
+                "values": [
+                  "Kuz keldi.",
+                  "Bolalar bog'da o'ynadi."
+                ]
+              },
+              "explanationUz": "Birinchi ikki gapda bittadan grammatik asos bor — sodda gaplar. Qolgan ikkitasida ikkitadan asos bor — qo'shma gaplar."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlardan odatiy tartibda gap tuzing:",
+              "data": {
+                "items": [
+                  "o'qidi",
+                  "Dilnoza",
+                  "kitobni",
+                  "qiziqarli"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Dilnoza",
+                  "qiziqarli",
+                  "kitobni",
+                  "o'qidi"
+                ]
+              },
+              "explanationUz": "Ega (Dilnoza) — aniqlovchi (qiziqarli) — to'ldiruvchi (kitobni) — kesim (o'qidi)."
+            }
+          ]
+        },
+        {
+          "slug": "leksikologiya",
+          "titleUz": "Leksikologiya: sinonim, antonim, omonim, paronim, iboralar",
+          "skill": "VOCABULARY",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Sinonim, antonim, omonim va paronimlarni farqlash",
+            "Iboralar (frazeologizmlar) ma'nosini tushunish",
+            "So'z boyligini inshoda qo'llashga tayyorlanish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Sinonim va antonim",
+              "bodyUz": "**Sinonimlar** (ma'nodosh so'zlar) — shakli har xil, ma'nosi bir-biriga yaqin so'zlar: *chiroyli — go'zal — ko'rkam; yuz — bet — chehra*.\n\n**Antonimlar** (zid ma'noli so'zlar) — ma'nosi bir-biriga qarama-qarshi so'zlar: *katta — kichik, issiq — sovuq, do'st — dushman, yaxshi — yomon*."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Omonim va paronim",
+              "bodyUz": "**Omonimlar** (shakldosh so'zlar) — shakli bir xil, ma'nosi har xil so'zlar: *ot* (hayvon) — *ot* (ism) — *ot(moq)* (harakat); *yuz* (son) — *yuz* (bet).\n\n**Paronimlar** — talaffuzi o'xshash, ammo ma'nosi boshqa so'zlar: *abzal* (ot-ulov anjomi) — *afzal* (yaxshiroq); *hush* (es, sezgi) — *xush* (yoqimli)."
+            },
+            {
+              "type": "table",
+              "titleUz": "Ko'p uchraydigan iboralar (frazeologizmlar)",
+              "headers": [
+                "Ibora",
+                "Ma'nosi"
+              ],
+              "rows": [
+                [
+                  "qo'li ochiq",
+                  "saxiy"
+                ],
+                [
+                  "og'zi qulog'ida",
+                  "juda xursand"
+                ],
+                [
+                  "ikki gapning birida",
+                  "tez-tez, qayta-qayta"
+                ],
+                [
+                  "tepa sochi tikka bo'ldi",
+                  "qattiq g'azablandi"
+                ],
+                [
+                  "ko'ngli bo'sh",
+                  "rahmdil, yumshoq tabiatli"
+                ],
+                [
+                  "burni ko'tarilgan",
+                  "manman, kibrli"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Sinonimlarning uslubiy roli",
+              "bodyUz": "Inshoda bitta so'zni qayta-qayta takrorlamaslik uchun sinonimlardan foydalaniladi: *«Vatanimiz go'zal. Uning tabiati ham chiroyli, shaharlari ham ko'rkam.»* Sinonimlar qatoridan eng mosini tanlash til boyligini ko'rsatadi va insho balini oshiradi."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Testda paronimlar tuzoq bo'ladi: «abzal/afzal», «hush/xush» juftlarini kontekstga qarab tanlang: «Kitob o'qish telefondan AFZAL», «XUSH kelibsiz!», «U HUSHidan ketdi». Iboralarni esa so'zma-so'z emas, ko'chma ma'noda tushuning."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Atamani ta'rifiga bog'lang:",
+              "data": {
+                "left": [
+                  "sinonim",
+                  "antonim",
+                  "omonim",
+                  "paronim"
+                ],
+                "right": [
+                  "shakli bir xil, ma'nosi har xil so'zlar",
+                  "talaffuzi o'xshash, ma'nosi boshqa so'zlar",
+                  "ma'nosi bir-biriga zid so'zlar",
+                  "ma'nosi bir-biriga yaqin so'zlar"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "sinonim": "ma'nosi bir-biriga yaqin so'zlar",
+                  "antonim": "ma'nosi bir-biriga zid so'zlar",
+                  "omonim": "shakli bir xil, ma'nosi har xil so'zlar",
+                  "paronim": "talaffuzi o'xshash, ma'nosi boshqa so'zlar"
+                }
+              },
+              "explanationUz": "Sinonim — ma'nodosh, antonim — zid ma'noli, omonim — shakldosh, paronim — talaffuzdosh so'zlar."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "«go'zal» so'zining sinonimi qaysi?",
+              "data": {
+                "options": [
+                  "chiroyli",
+                  "xunuk",
+                  "baland",
+                  "kichik"
+                ]
+              },
+              "answer": {
+                "value": "chiroyli"
+              },
+              "explanationUz": "Go'zal — chiroyli — ko'rkam: ma'nodosh so'zlar qatori."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "Antonimlar juftini toping:",
+              "data": {
+                "options": [
+                  "issiq — sovuq",
+                  "katta — ulkan",
+                  "chiroyli — go'zal",
+                  "tez — ildam"
+                ]
+              },
+              "answer": {
+                "value": "issiq — sovuq"
+              },
+              "explanationUz": "Issiq va sovuq — zid ma'noli so'zlar. Qolgan juftliklar sinonimlardir."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "VOCABULARY",
+              "promptUz": "Antonim juftliklarni belgilang:",
+              "data": {
+                "options": [
+                  "baland — past",
+                  "oq — qora",
+                  "keng — katta",
+                  "uzoq — yaqin"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "baland — past",
+                  "oq — qora",
+                  "uzoq — yaqin"
+                ]
+              },
+              "explanationUz": "Baland–past, oq–qora, uzoq–yaqin — zid ma'noli juftliklar. «Keng — katta» esa yaqin ma'noli so'zlar."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Omonimlar — shakli bir xil, ma'nosi har xil so'zlar."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri: ot (hayvon), ot (ism), ot(moq) (harakat) — shakli bir, ma'nosi har xil."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "«qo'li ochiq» iborasining ma'nosi nima?",
+              "data": {
+                "options": [
+                  "saxiy",
+                  "ishyoqmas",
+                  "xasis",
+                  "uyatchan"
+                ]
+              },
+              "answer": {
+                "value": "saxiy"
+              },
+              "explanationUz": "«Qo'li ochiq» iborasi ko'chma ma'noda saxiy, mard odamni bildiradi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Iborani to'ldiring:",
+              "data": {
+                "text": "Juda xursand odam haqida «og'zi ___» iborasi ishlatiladi."
+              },
+              "answer": {
+                "accept": [
+                  "qulog'ida",
+                  "qulogida"
+                ]
+              },
+              "explanationUz": "«Og'zi qulog'ida» — juda xursand ma'nosidagi ibora."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "Antonimni yozing:",
+              "data": {
+                "text": "«yaxshi» so'zining antonimini yozing."
+              },
+              "answer": {
+                "accept": [
+                  "yomon"
+                ]
+              },
+              "explanationUz": "Yaxshi — yomon: zid ma'noli so'zlar jufti."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "insho-mahorati",
+      "titleUz": "Insho mahorati",
+      "descriptionUz": "Milliy sertifikat imtihonining ikkinchi qismi — insho: tuzilishi, uslubi, til boyligi va tez-tez uchraydigan xatolar.",
+      "order": 3,
+      "lessons": [
+        {
+          "slug": "insho-turlari-va-tuzilishi",
+          "titleUz": "Insho turlari va tuzilishi: reja, kirish, asosiy qism, xulosa",
+          "skill": "WRITING",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Insho turlarini (bayon, tavsif, mulohaza) farqlash",
+            "Uch qismli tuzilma va reja tuzishni o'zlashtirish",
+            "Kirish va xulosa uchun tayyor shablonlarni bilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Imtihonda insho qanday baholanadi?",
+              "bodyUz": "Milliy sertifikat imtihoni ikki qismdan iborat: **45 ta test** va **insho**. Insho baholanishida asosan to'rt jihat hisobga olinadi:\n1. **Mavzuning ochib berilishi** — berilgan mavzudan chetga chiqmaslik;\n2. **Tuzilma va izchillik** — kirish, asosiy qism, xulosa mavjudligi;\n3. **Til boyligi** — sinonimlar, iboralar, maqollar;\n4. **Savodxonlik** — imlo va tinish belgilari xatolari."
+            },
+            {
+              "type": "table",
+              "titleUz": "Insho turlari",
+              "headers": [
+                "Turi",
+                "Maqsadi",
+                "Kalit savol"
+              ],
+              "rows": [
+                [
+                  "Bayon (hikoya)",
+                  "Voqeani izchil bayon qilish",
+                  "Nima bo'ldi? Qanday sodir bo'ldi?"
+                ],
+                [
+                  "Tavsif",
+                  "Predmet, manzara, shaxsni tasvirlash",
+                  "U qanday?"
+                ],
+                [
+                  "Mulohaza (fikr bayoni)",
+                  "Fikrni dalillar bilan isbotlash",
+                  "Nima uchun? Nima sababdan?"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Uch qismli tuzilma",
+              "bodyUz": "**1. Kirish (taxminan 15%)** — mavzuni tanishtirish, asosiy fikrni e'lon qilish. 2-3 gap yetarli.\n\n**2. Asosiy qism (taxminan 70%)** — 2-3 abzas. Har bir abzas: bitta fikr + dalil/misol + izoh. Misol sifatida hayotiy voqea, maqol yoki adabiy asardan parcha keltiriladi.\n\n**3. Xulosa (taxminan 15%)** — aytilganlarni umumlashtirish va yakuniy fikr. Xulosada yangi dalil keltirilmaydi."
+            },
+            {
+              "type": "example",
+              "titleUz": "«Kitob — bilim manbai» mavzusidagi reja namunasi",
+              "items": [
+                {
+                  "uz": "I. Kirish: Kitobning inson hayotidagi o'rni"
+                },
+                {
+                  "uz": "II. Asosiy qism: 1) Kitob bilim beradi; 2) Kitob tafakkur va nutqni o'stiradi; 3) Kitob tarbiyalaydi (misol: «Ilm — aql chirog'i» maqoli)"
+                },
+                {
+                  "uz": "III. Xulosa: Kitob o'qish odatini shakllantirish zarurligi"
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Tayyor iboralar (shablon)",
+              "headers": [
+                "Qism",
+                "Foydali iboralar"
+              ],
+              "rows": [
+                [
+                  "Kirish",
+                  "Insoniyat tarixida... alohida o'rin tutadi; Bu mavzu bugungi kunda ayniqsa dolzarbdir"
+                ],
+                [
+                  "Fikrni bog'lash",
+                  "Birinchidan, ...; Ikkinchidan, ...; Bundan tashqari, ...; Shu bilan birga, ..."
+                ],
+                [
+                  "Misol keltirish",
+                  "Masalan, ...; Buni ... misolida ko'rish mumkin; Xalqimizda «...» degan maqol bor"
+                ],
+                [
+                  "Xulosa",
+                  "Xulosa qilib aytganda, ...; Demak, ...; Yuqoridagilardan kelib chiqib aytish mumkinki, ..."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Yozishni boshlashdan oldin 3-5 daqiqa REJA tuzing. Rejasiz yozilgan insho ko'pincha mavzudan chetga chiqadi va xulosasi yarim qoladi. Reja — insho skeleti."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Insho necha qismdan iborat bo'lishi kerak?",
+              "data": {
+                "options": [
+                  "1",
+                  "2",
+                  "3",
+                  "5"
+                ]
+              },
+              "answer": {
+                "value": "3"
+              },
+              "explanationUz": "Insho uch qismdan iborat bo'ladi: kirish, asosiy qism va xulosa."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Insho qismlarini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "Xulosa",
+                  "Kirish",
+                  "Asosiy qism"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Kirish",
+                  "Asosiy qism",
+                  "Xulosa"
+                ]
+              },
+              "explanationUz": "Insho kirish bilan boshlanadi, asosiy qismda fikr dalillanadi, xulosa bilan yakunlanadi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Insho hajmining eng katta qismi qaysi bo'limga to'g'ri kelishi kerak?",
+              "data": {
+                "options": [
+                  "Kirish",
+                  "Asosiy qism",
+                  "Xulosa",
+                  "Reja"
+                ]
+              },
+              "answer": {
+                "value": "Asosiy qism"
+              },
+              "explanationUz": "Asosiy qism insho hajmining taxminan 70 foizini tashkil qiladi — fikr aynan shu yerda dalillanadi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Iborani insho qismiga bog'lang:",
+              "data": {
+                "left": [
+                  "Xulosa qilib aytganda",
+                  "Birinchidan",
+                  "Masalan",
+                  "Bu mavzu bugun dolzarbdir"
+                ],
+                "right": [
+                  "misol keltirish",
+                  "kirish",
+                  "fikrlarni sanash",
+                  "xulosa"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "Xulosa qilib aytganda": "xulosa",
+                  "Birinchidan": "fikrlarni sanash",
+                  "Masalan": "misol keltirish",
+                  "Bu mavzu bugun dolzarbdir": "kirish"
+                }
+              },
+              "explanationUz": "Har bir iboraning o'z o'rni bor: kirishda dolzarblik, asosiy qismda sanash va misol, oxirida xulosa iboralari."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Xulosa qismida yangi dalil va yangi mavzu kiritilmaydi."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri. Xulosada faqat aytilgan fikrlar umumlashtiriladi; yangi dalil kiritilsa, matn izchilligi buziladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Gapni to'ldiring:",
+              "data": {
+                "text": "Fikrni dalillar bilan isbotlashga qaratilgan insho turi ___ deyiladi."
+              },
+              "answer": {
+                "accept": [
+                  "mulohaza",
+                  "fikr bayoni",
+                  "mulohaza inshosi"
+                ]
+              },
+              "explanationUz": "Mulohaza (fikr bayoni) inshosi «nima uchun?» savoliga javob berib, fikrni dalillar bilan asoslaydi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Yozishni boshlashdan oldin birinchi navbatda nima qilinadi?",
+              "data": {
+                "options": [
+                  "Reja tuziladi",
+                  "Xulosa yoziladi",
+                  "So'zlar sanaladi",
+                  "Sarlavha bo'yaladi"
+                ]
+              },
+              "answer": {
+                "value": "Reja tuziladi"
+              },
+              "explanationUz": "Reja insho skeleti bo'lib, mavzudan chetga chiqmaslikni ta'minlaydi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "Atamani yozing:",
+              "data": {
+                "text": "Voqeani izchil bayon qilishga asoslangan insho turi qanday nomlanadi?"
+              },
+              "answer": {
+                "accept": [
+                  "bayon",
+                  "hikoya",
+                  "bayon inshosi"
+                ]
+              },
+              "explanationUz": "Bayon (hikoya) inshosi voqeani boshidan oxirigacha izchil bayon qiladi."
+            }
+          ]
+        },
+        {
+          "slug": "uslub-va-til-boyligi",
+          "titleUz": "Uslub va til boyligi: maqol, hikmatli so'z, adabiy misollar",
+          "skill": "WRITING",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Nutq uslublarini farqlash va inshoga mos uslubni tanlash",
+            "Maqol, hikmatli so'z va iboralardan o'rinli foydalanish",
+            "Adabiy misollar bilan fikrni dalillash"
+          ],
+          "content": [
+            {
+              "type": "table",
+              "titleUz": "Nutq uslublari",
+              "headers": [
+                "Uslub",
+                "Qo'llanish sohasi",
+                "Belgisi"
+              ],
+              "rows": [
+                [
+                  "So'zlashuv uslubi",
+                  "Kundalik muloqot",
+                  "Erkin, qisqa gaplar"
+                ],
+                [
+                  "Ilmiy uslub",
+                  "Darslik, maqola",
+                  "Atamalar, aniqlik"
+                ],
+                [
+                  "Rasmiy uslub",
+                  "Ariza, buyruq, hujjat",
+                  "Qat'iy shakl, andozaviy iboralar"
+                ],
+                [
+                  "Publitsistik uslub",
+                  "Gazeta, maqola, chiqish",
+                  "Ta'sirchanlik, murojaat"
+                ],
+                [
+                  "Badiiy uslub",
+                  "She'r, hikoya, roman",
+                  "Ko'chma ma'no, obrazlilik"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Inshoda qaysi uslub kerak?",
+              "bodyUz": "Imtihon inshosi ko'pincha **publitsistik va badiiy uslub oralig'ida** yoziladi: fikr aniq va dalillangan bo'lishi, ayni paytda til jonli va ta'sirchan bo'lishi kerak.\n\nInshoda **so'zlashuv uslubi** elementlaridan qochiladi: *«mana shunaqa», «juda zo'r», «nima bo'pti»* kabi iboralar insho balini tushiradi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Insho uchun foydali maqollar",
+              "headers": [
+                "Maqol",
+                "Qaysi mavzuga mos"
+              ],
+              "rows": [
+                [
+                  "Ilm — aql chirog'i",
+                  "Ilm, bilim, kitob"
+                ],
+                [
+                  "Bilimli mingni yengar, bilimsiz birni",
+                  "Ta'lim, bilimning kuchi"
+                ],
+                [
+                  "Mehnat — mehnatning tagi rohat",
+                  "Mehnat, mehnatsevarlik"
+                ],
+                [
+                  "Vatan — oltin beshik",
+                  "Vatan, ona yurt"
+                ],
+                [
+                  "Do'st boshga, dushman oyoqqa qarar",
+                  "Do'stlik, insoniy fazilat"
+                ],
+                [
+                  "Til — dil kaliti",
+                  "Ona tili, muomala odobi"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Adabiy misollardan foydalanish",
+              "bodyUz": "Fikrni dalillashda o'zbek adabiyoti namunalariga murojaat qilish inshoning qiymatini oshiradi:\n- **Alisher Navoiy** — ilm, ma'rifat, do'stlik, so'z qadri mavzulari («Xamsa», «Hayrat ul-abror»);\n- **Abdulla Qodiriy, «O'tkan kunlar»** — sadoqat, oila, jamiyat;\n- **Cho'lpon, Abdulla Oripov** — Vatan va ona tili mavzusi;\n- **Zulfiya, «Xulkar»** — ona, ayol, sadoqat mavzusi.\n\nMuhim qoida: misol mavzuga MOS bo'lishi va qisqa izohlanishi kerak."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Takrorni bartaraf etish",
+              "bodyUz": "Bitta so'zni qayta-qayta ishlatish — insho til boyligi balini tushiradi. Yechim — sinonimlar:\n- *yaxshi* → ajoyib, go'zal, mukammal, benazir;\n- *ko'p* → talay, ko'plab, son-sanoqsiz;\n- *dedi* → ta'kidladi, aytdi, izhor qildi;\n- *muhim* → ahamiyatli, zarur, dolzarb."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Bitta inshoda 1-2 ta maqol va 1 ta adabiy misol yetarli. Ularni haddan ziyod ishlatish matnni sun'iy qiladi. Maqol keltirganda uni izohlang: «Xalqimizda «Ilm — aql chirog'i» deyiladi. Darhaqiqat, bilim insonga yo'l ko'rsatadi.»"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Maqolni mos mavzuga bog'lang:",
+              "data": {
+                "left": [
+                  "Ilm — aql chirog'i",
+                  "Vatan — oltin beshik",
+                  "Mehnat — mehnatning tagi rohat",
+                  "Til — dil kaliti"
+                ],
+                "right": [
+                  "Vatan",
+                  "ona tili va muomala",
+                  "bilim",
+                  "mehnatsevarlik"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "Ilm — aql chirog'i": "bilim",
+                  "Vatan — oltin beshik": "Vatan",
+                  "Mehnat — mehnatning tagi rohat": "mehnatsevarlik",
+                  "Til — dil kaliti": "ona tili va muomala"
+                }
+              },
+              "explanationUz": "Maqol inshoning mavzusiga mos kelsagina dalil kuchini beradi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Ariza va rasmiy hujjatlar qaysi uslubda yoziladi?",
+              "data": {
+                "options": [
+                  "badiiy uslub",
+                  "rasmiy uslub",
+                  "so'zlashuv uslubi",
+                  "ilmiy uslub"
+                ]
+              },
+              "answer": {
+                "value": "rasmiy uslub"
+              },
+              "explanationUz": "Ariza, buyruq, tavsifnoma kabi hujjatlar rasmiy (rasmiy-idoraviy) uslubda yoziladi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Qaysi ibora imtihon inshosiga MOS EMAS?",
+              "data": {
+                "options": [
+                  "Xulosa qilib aytganda",
+                  "Bundan tashqari",
+                  "Mana shunaqa, juda zo'r",
+                  "Buni misolida ko'rish mumkin"
+                ]
+              },
+              "answer": {
+                "value": "Mana shunaqa, juda zo'r"
+              },
+              "explanationUz": "«Mana shunaqa, juda zo'r» — so'zlashuv uslubiga xos ibora; yozma inshoda ishlatilmaydi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "VOCABULARY",
+              "promptUz": "«yaxshi» so'zining inshoda ishlatsa bo'ladigan sinonimlarini belgilang:",
+              "data": {
+                "options": [
+                  "ajoyib",
+                  "go'zal",
+                  "yomon",
+                  "benazir"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "ajoyib",
+                  "go'zal",
+                  "benazir"
+                ]
+              },
+              "explanationUz": "Ajoyib, go'zal, benazir — «yaxshi» so'zining sinonimlari. «Yomon» esa antonim."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Inshoda bir xil so'zni takror ishlatish o'rniga sinonimlardan foydalanish tavsiya etiladi."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "explanationUz": "To'g'ri. Sinonimlardan foydalanish til boyligini ko'rsatadi va takrorni bartaraf etadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Maqolni to'ldiring:",
+              "data": {
+                "text": "Ilm — aql ___ ."
+              },
+              "answer": {
+                "accept": [
+                  "chirog'i",
+                  "chirogi"
+                ]
+              },
+              "explanationUz": "«Ilm — aql chirog'i» maqoli bilimning insonga yo'l ko'rsatishini bildiradi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«O'tkan kunlar» romani muallifi kim?",
+              "data": {
+                "options": [
+                  "Abdulla Qodiriy",
+                  "Alisher Navoiy",
+                  "Cho'lpon",
+                  "Zulfiya"
+                ]
+              },
+              "answer": {
+                "value": "Abdulla Qodiriy"
+              },
+              "explanationUz": "«O'tkan kunlar» — Abdulla Qodiriy qalamiga mansub, o'zbek adabiyotidagi ilk roman."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "Sinonim yozing:",
+              "data": {
+                "text": "«muhim» so'ziga bitta sinonim yozing."
+              },
+              "answer": {
+                "accept": [
+                  "ahamiyatli",
+                  "zarur",
+                  "dolzarb",
+                  "e'tiborli"
+                ]
+              },
+              "explanationUz": "Muhim — ahamiyatli — zarur — dolzarb: ma'nodosh so'zlar qatori."
+            }
+          ]
+        },
+        {
+          "slug": "insho-xatolari-va-amaliyot",
+          "titleUz": "Tez-tez uchraydigan insho xatolari va amaliy vazifa",
+          "skill": "WRITING",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Insho yozishda eng ko'p uchraydigan xatolarni bilish",
+            "Xatolarni o'z matnida topib tuzata olish",
+            "To'liq insho yozib, o'zini tekshirish"
+          ],
+          "content": [
+            {
+              "type": "table",
+              "titleUz": "Eng ko'p uchraydigan xatolar",
+              "headers": [
+                "Xato turi",
+                "Noto'g'ri",
+                "To'g'ri"
+              ],
+              "rows": [
+                [
+                  "Tutuq belgisi tushib qolishi",
+                  "talim, malum, san at",
+                  "ta'lim, ma'lum, san'at"
+                ],
+                [
+                  "«har/hech» ni qo'shib yozish",
+                  "harkim, hechqachon",
+                  "har kim, hech qachon"
+                ],
+                [
+                  "Undalmadan keyin vergul qo'ymaslik",
+                  "Do'stlar keling.",
+                  "Do'stlar, keling."
+                ],
+                [
+                  "So'z takrori",
+                  "Kitob yaxshi. Kitob foydali. Kitob kerak.",
+                  "Kitob — bilim manbai. U tafakkurni o'stiradi."
+                ],
+                [
+                  "Mavzudan chetga chiqish",
+                  "Mavzu «Vatan», matnda esa sport haqida",
+                  "Har bir abzas mavzuga bog'lanadi"
+                ],
+                [
+                  "Xulosaning yo'qligi",
+                  "Matn to'satdan tugaydi",
+                  "«Xulosa qilib aytganda, ...» bilan yakunlanadi"
+                ]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Mazmuniy xatolar",
+              "bodyUz": "1. **Rejasizlik** — fikrlar tartibsiz, abzaslar aralash.\n2. **Dalilsiz da'vo** — «Kitob foydali» deyiladi-yu, nima uchun foydali ekani ochilmaydi.\n3. **Haddan ortiq umumiy gaplar** — «Hamma narsa yaxshi bo'ladi» kabi mazmunsiz jumlalar.\n4. **Abzasga bo'lmaslik** — butun insho bitta blok holida yozilsa, izchillik bali tushadi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Grammatik va uslubiy xatolar",
+              "bodyUz": "1. **Kelishik xatosi**: *«Men kitobga o'qidim»* → to'g'risi *«Men kitobni o'qidim»* (tushum kelishigi).\n2. **Ega-kesim moslashmasligi**: *«Bolalar keldi»* o'rniga rasmiy matnda *«Bolalar kelishdi»* qo'llanadi.\n3. **Uslub aralashuvi**: badiiy matnda so'zlashuv iboralarini ishlatish.\n4. **Juda uzun gaplar**: bitta gapda 5-6 fikr — o'quvchi yo'qotadi. Uzun gapni ikkiga bo'ling."
+            },
+            {
+              "type": "example",
+              "titleUz": "Xatolarni tuzatish namunasi",
+              "items": [
+                {
+                  "uz": "Xato: «Menimcha kitob o'qish juda zo'r narsa chunki u odamga ko'p narsa beradi.»"
+                },
+                {
+                  "uz": "Tuzatilgan: «Mening fikrimcha, kitob o'qish — eng foydali mashg'ulotlardan biri. Chunki u insonga bilim beradi va tafakkurini o'stiradi.»"
+                },
+                {
+                  "uz": "Izoh: kirish so'zdan keyin vergul qo'yildi, so'zlashuv iborasi («zo'r narsa») adabiy shaklga almashtirildi, uzun gap ikkiga bo'lindi."
+                }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Yozib bo'lgach — o'z-o'zini tekshirish ro'yxati",
+              "bodyUz": "1. Kirish, asosiy qism va xulosa bormi?\n2. Har bir abzasda bitta asosiy fikr bormi va u dalillanganmi?\n3. Tutuq belgilari (ta'lim, ma'no, san'at) joyidami?\n4. Undalma va uyushiq bo'laklarda vergul qo'yilganmi?\n5. Bitta so'z ko'p takrorlanmadimi?\n6. So'z hajmi talabga mos keldimi?"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Oxirgi 3-5 daqiqani ALBATTA tekshirishga qoldiring. Amaliyot shuni ko'rsatadiki, oddiy imlo va vergul xatolarini tuzatishning o'ziyoq bir necha ball qo'shadi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gapda imlo xatosi bor?",
+              "data": {
+                "options": [
+                  "Men talim oldim.",
+                  "Men ta'lim oldim.",
+                  "Men bilim oldim.",
+                  "Men kasb o'rgandim."
+                ]
+              },
+              "answer": {
+                "value": "Men talim oldim."
+              },
+              "explanationUz": "«Ta'lim» so'zi tutuq belgisi bilan yoziladi; «talim» shakli xato."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gapda kelishik xatosi bor?",
+              "data": {
+                "options": [
+                  "Men kitobga o'qidim.",
+                  "Men kitobni o'qidim.",
+                  "Men kitobdan o'qidim.",
+                  "Men kitob o'qidim."
+                ]
+              },
+              "answer": {
+                "value": "Men kitobga o'qidim."
+              },
+              "explanationUz": "«O'qimoq» fe'li tushum kelishigini talab qiladi: nimani o'qidim? — kitobni. «Kitobga» (jo'nalish) bu yerda xato."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Hukm to'g'rimi?",
+              "data": {
+                "statement": "Butun inshoni abzaslarga bo'lmasdan, bir blok qilib yozish tavsiya etiladi."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "explanationUz": "Noto'g'ri. Insho abzaslarga bo'linishi shart: har bir abzas bitta fikrni ochadi, aks holda izchillik bali tushadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Undalmadan keyin qo'yiladigan tinish belgisini yozing:",
+              "data": {
+                "text": "Do'stlar___ bugungi mavzuni birga muhokama qilaylik."
+              },
+              "answer": {
+                "accept": [
+                  ",",
+                  "vergul"
+                ]
+              },
+              "explanationUz": "«Do'stlar» — undalma, undan keyin vergul qo'yiladi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Insho yozishdagi xatolarni belgilang:",
+              "data": {
+                "options": [
+                  "Mavzudan chetga chiqish",
+                  "Xulosani yozmaslik",
+                  "Reja tuzish",
+                  "Bir so'zni ko'p takrorlash"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "Mavzudan chetga chiqish",
+                  "Xulosani yozmaslik",
+                  "Bir so'zni ko'p takrorlash"
+                ]
+              },
+              "explanationUz": "Reja tuzish — xato emas, aksincha, tavsiya etiladigan usul. Qolgan uchtasi tipik xatolardir."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Noto'g'ri yozilgan shaklni to'g'risiga bog'lang:",
+              "data": {
+                "left": [
+                  "harkim",
+                  "malum",
+                  "hechqachon",
+                  "sanat"
+                ],
+                "right": [
+                  "ma'lum",
+                  "san'at",
+                  "har kim",
+                  "hech qachon"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "harkim": "har kim",
+                  "malum": "ma'lum",
+                  "hechqachon": "hech qachon",
+                  "sanat": "san'at"
+                }
+              },
+              "explanationUz": "«Har» va «hech» olmoshlar bilan ajratib yoziladi; «ma'lum» va «san'at» tutuq belgisi bilan yoziladi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "Gapni tuzating:",
+              "data": {
+                "text": "«Men kitobga o'qidim» gapidagi xatoni tuzatib, to'g'ri shaklini yozing."
+              },
+              "answer": {
+                "accept": [
+                  "Men kitobni o'qidim",
+                  "Men kitobni o'qidim.",
+                  "men kitobni o'qidim"
+                ]
+              },
+              "explanationUz": "«O'qimoq» fe'li tushum kelishigidagi to'ldiruvchini talab qiladi: kitobni o'qidim."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptUz": "«Kitob — bilim manbai» mavzusida insho yozing (150-300 so'z). Talablar: 1) kirishda mavzuning dolzarbligini ayting; 2) asosiy qismda kamida ikkita dalil keltiring va ulardan birini maqol yoki adabiy misol bilan asoslang; 3) xulosada fikringizni umumlashtiring; 4) matnni abzaslarga bo'ling va tutuq belgisi hamda vergullarga e'tibor bering.",
+              "data": {
+                "minWords": 150,
+                "maxWords": 300
+              },
+              "explanationUz": "Insho baholanishida to'rt jihat hisobga olinadi: mavzuning ochilishi, uch qismli tuzilma, til boyligi (sinonim, maqol, ibora) va savodxonlik (imlo, tinish belgilari)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

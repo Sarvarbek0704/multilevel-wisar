@@ -1,0 +1,878 @@
+{
+  "subject": "ENGLISH",
+  "level": "B1",
+  "slug": "english-speaking-mastery",
+  "titleUz": "Speaking — imtihon bo'limini zabt etish",
+  "titleEn": "Speaking — Mastering the Exam Section",
+  "descriptionUz": "Multilevel Speaking bo'limiga to'liq tayyorgarlik: Part 1 shaxsiy savollari uchun PRE formulasi va tayyor ramkalar, ravonlik va talaffuz sirlari, Part 2 monologi, Part 3 munozarasi va imtihon kuni strategiyasi. Har darsda ovozli mashq bor — mikrofoningizni tayyorlang!",
+  "icon": "🎤",
+  "order": 6,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "speaking-foundations",
+      "titleUz": "Speaking poydevori: Part 1 va ravonlik",
+      "descriptionUz": "Part 1 shaxsiy savollariga ishonchli javob berish, pauzalarni tabiiy to'ldirish va o'zbek tilida yo'q tovushlarni to'g'ri talaffuz qilish.",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "part1-pre-formula",
+          "titleUz": "Part 1 mahorati: PRE formulasi bilan javob berish",
+          "titleEn": "Part 1 mastery: the Point-Reason-Example formula",
+          "skill": "SPEAKING",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Part 1 formatini va baholash mantiqini tushunish",
+            "Har qanday shaxsiy savolga PRE (Point-Reason-Example) formulasi bilan 20-30 soniyalik javob qurish",
+            "PRE signal iboralarini avtomatizmgacha yodlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Part 1 imtihonda qanday bo'ladi?",
+              "bodyUz": "Multilevel Speaking kompyuterda topshiriladi: savol ekranda chiqadi va ovoz bilan o'qiladi, siz mikrofonga javob berasiz. **Part 1** — siz haqingizdagi oddiy savollar: oila, sevimli mashg'ulot, ona shahar, ob-havo, o'qish. Har savolga taxminan **30 soniya** vaqt beriladi. Xatoning eng katta turi — bir so'zli javob: *«Yes, I do»* deb jim qolish ballni keskin tushiradi, chunki baholovchi tilingizni ESHITISHI kerak."
+            },
+            {
+              "type": "theory",
+              "titleUz": "PRE formulasi — har qanday savolga tayyor qolip",
+              "bodyUz": "Har javobni 3 qadamda quring:\n\n1. **P — Point (fikr)**: savolga to'g'ridan-to'g'ri javob. *I'd say I really enjoy cooking.*\n2. **R — Reason (sabab)**: nega shunday? *The main reason is that it helps me relax.*\n3. **E — Example (misol)**: aniq hayotiy misol. *For example, last week I cooked plov for ten guests.*\n\n3 gap = 20-30 soniya = ideal Part 1 javobi. Formula miyangizga o'rnashsa, hech qaysi savol sizni dovdiratmaydi."
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Namunaviy javob (B2-C1 daraja)",
+              "turns": [
+                { "speaker": "Examiner", "en": "Do you like living in your hometown?", "uz": "O'z shahringizda yashash sizga yoqadimi?" },
+                { "speaker": "You", "en": "Yes, definitely. I really enjoy living in Samarkand because it offers a perfect mix of history and modern life. For example, after classes I often walk around Registan Square, and there are also plenty of cosy cafes where I meet my friends.", "uz": "Ha, albatta. Samarqandda yashash menga juda yoqadi, chunki bu yerda tarix va zamonaviy hayot uyg'unlashgan. Masalan, darslardan keyin men tez-tez Registon maydonini aylanaman, do'stlarim bilan uchrashadigan shinam kafelar ham ko'p." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namunani tahlil qilamiz",
+              "bodyUz": "Yuqoridagi javobda:\n\n- **Point**: *Yes, definitely. I really enjoy living in Samarkand* — savolga aniq javob.\n- **Reason**: *because it offers a perfect mix of history and modern life* — sabab.\n- **Example**: *For example, after classes I often walk around Registan Square...* — shaxsiy, aniq misol.\n\nE'tibor bering: javob atigi 3 gap, lekin unda bog'lovchi (*because*), yuqori daraja lug'ati (*a perfect mix of, plenty of, cosy*) va shaxsiy tafsilotlar bor."
+            },
+            {
+              "type": "example",
+              "titleUz": "PRE signal iboralari",
+              "items": [
+                { "en": "I'd say... / Personally, I...", "uz": "Aytishim mumkinki... / Shaxsan men... (Point)" },
+                { "en": "The main reason is that...", "uz": "Asosiy sabab shundaki... (Reason)" },
+                { "en": "...because / since / as...", "uz": "...chunki (Reason)" },
+                { "en": "For example, ... / For instance, ...", "uz": "Masalan, ... (Example)" },
+                { "en": "such as...", "uz": "...kabi (Example)" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Oltin qoida: Part 1 da javobingiz 2 gapdan qisqa va 5 gapdan uzun bo'lmasin. Juda uzun javobda mavzudan chiqib, xato qilish xavfi oshadi. PRE — 3 gap — 25 soniya. Shu ritmni tanangizga singdiring."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "PRE formulasida 'R' harfi nimani anglatadi?",
+              "data": { "options": ["Repeat — takrorlash", "Reason — sabab", "Reply — javob", "Remember — eslash"] },
+              "answer": { "value": "Reason — sabab" },
+              "explanationUz": "PRE = Point (fikr) + Reason (sabab) + Example (misol). Sabab javobingizga mantiq beradi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "PRE javob gaplarini to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["For example, last week I cooked plov for ten guests.", "I'd say I really enjoy cooking.", "The main reason is that it helps me relax after a long day."] },
+              "answer": { "order": ["I'd say I really enjoy cooking.", "The main reason is that it helps me relax after a long day.", "For example, last week I cooked plov for ten guests."] },
+              "explanationUz": "Avval fikr (Point), keyin sabab (Reason), oxirida misol (Example)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Sabab bildiruvchi so'z bilan to'ldiring:",
+              "data": { "text": "I love autumn ___ the weather is cool and the parks look golden." },
+              "answer": { "accept": ["because", "since", "as"] },
+              "explanationUz": "Reason qadami odatda because/since/as bilan kiritiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Part 1 da «Yes, I do.» kabi bir gapli javob yuqori ball olish uchun yetarli." },
+              "answer": { "value": "false" },
+              "explanationUz": "Bir gapli javob — yo'qotilgan imkoniyat. Baholovchi so'z boyligingiz va grammatikangizni eshitishi kerak: har savolga 2-4 gapli PRE javob bering."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Part 1 question: 'What do you usually do in your free time?' Answer in 2-4 sentences using the Point-Reason-Example formula.",
+              "promptUz": "Part 1 savoli: «Bo'sh vaqtingizda odatda nima qilasiz?» PRE formulasi bilan 2-4 gapli javob yozib oling.",
+              "data": { "preparationSeconds": 10, "recordSeconds": 30 },
+              "explanationUz": "Namuna skelet: I'm really into... (P) — It helps me... / because... (R) — For example, every Sunday... (E). O'zingizni tinglab, uch qadam ham borligini tekshiring."
+            }
+          ]
+        },
+        {
+          "slug": "fluency-fillers",
+          "titleUz": "Fluency sirlari: pauza to'ldirgichlar va o'zini tuzatish",
+          "titleEn": "Fluency secrets: fillers, self-correction and pace",
+          "skill": "SPEAKING",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Jim pauza o'rniga tabiiy to'ldirgich iboralarni ishlatish",
+            "Xatoni to'xtamasdan, tabiiy iboralar bilan tuzatish",
+            "Barqaror, tushunarli tempda gapirishni mashq qilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Fluency nima va nima emas?",
+              "bodyUz": "**Fluency (ravonlik)** — tez gapirish EMAS. Bu — uzun jim pauzalarsiz, tabiiy tempda, fikrni uzmasdan gapirish. Baholashda 3 soniyadan uzun jimlik xavfli signal sanaladi. Yaxshi yangilik: ona tilida so'zlashuvchilar ham doim o'ylab turadi — lekin ular jim turmaydi, **pauza to'ldirgichlar** ishlatadi. Shu kichik iboralar sizga o'ylash uchun 2-3 soniya sotib beradi va nutqingizni tabiiy qiladi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Pauza to'ldirgichlar (vaqt yutish uchun)",
+              "items": [
+                { "en": "Well, let me think...", "uz": "Xo'sh, o'ylab ko'ray..." },
+                { "en": "That's an interesting question.", "uz": "Qiziq savol ekan." },
+                { "en": "How can I put it...", "uz": "Buni qanday aytsam ekan..." },
+                { "en": "To be honest, ...", "uz": "Ochig'ini aytsam, ..." },
+                { "en": "You know, ...", "uz": "Bilasizmi, ..." },
+                { "en": "Actually, ...", "uz": "Aslida, ..." }
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "O'zini tuzatish iboralari",
+              "items": [
+                { "en": "Sorry, I mean...", "uz": "Kechirasiz, demoqchimanki..." },
+                { "en": "What I meant to say was...", "uz": "Aytmoqchi bo'lganim..." },
+                { "en": "Or rather, ...", "uz": "Aniqrog'i, ..." },
+                { "en": "Let me put it another way.", "uz": "Boshqacha qilib aytay." },
+                { "en": "Anyway, as I was saying, ...", "uz": "Xullas, aytayotganimdek, ... (mavzuga qaytish)" }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "To'ldirgich va tuzatish jonli javobda",
+              "turns": [
+                { "speaker": "Examiner", "en": "What kind of films do you enjoy watching?", "uz": "Qanday filmlarni ko'rishni yoqtirasiz?" },
+                { "speaker": "You", "en": "Well, let me think... I'd say I'm mostly into science fiction. I watch... sorry, I mean I've watched almost every Christopher Nolan film, and what I love about them is that they keep you thinking long after the film ends.", "uz": "Xo'sh, o'ylab ko'ray... Asosan ilmiy-fantastik filmlarga qiziqaman desam bo'ladi. Men ko'raman... kechirasiz, demoqchimanki, Kristofer Nolanning deyarli barcha filmlarini ko'rganman va ularda menga yoqadigani — film tugagandan keyin ham sizni o'ylantirib qo'yishi." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Tempni saqlash",
+              "bodyUz": "Ideal temp — soniyasiga taxminan **2 so'z**: na poyga, na sudralish. Tez gapirsangiz tovushlar yutilib, tushunarlilik yo'qoladi; sekin gapirsangiz fluency balingiz tushadi. Mashq usuli: 30 soniyalik javobni yozib oling va so'zlarni sanang — 50-65 so'z chiqsa, tempingiz joyida. Muhim: xato qilsangiz, TO'XTAMANG. Bitta tuzatish iborasi bilan tuzating va davom eting — imtihonda o'z-o'zini tuzata olish yuqori daraja belgisi sanaladi."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Ehtiyot bo'ling: bitta to'ldirgichni har gapda takrorlash (masalan, har gapda «you know») teskari ta'sir qiladi. 3-4 xil to'ldirgichni almashlab ishlating. Va «Errr... mmm...» cho'zish to'ldirgich emas — bu jimlikning boshqa turi xolos."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_MULTI",
+              "skill": "SPEAKING",
+              "promptUz": "Qaysi iboralar o'ylash uchun vaqt yutishga xizmat qiladi? (bir nechtasini belgilang)",
+              "data": { "options": ["Well, let me think...", "That's an interesting question.", "How can I put it...", "I don't know. Next question."] },
+              "answer": { "values": ["Well, let me think...", "That's an interesting question.", "How can I put it..."] },
+              "explanationUz": "«I don't know. Next question.» — javobdan voz kechish, ball yo'qotasiz. Qolgan uchtasi tabiiy pauza to'ldirgichlar."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Xatoni tuzatish uchun eng tabiiy iborani tanlang:",
+              "data": { "text": "My sister live... ___ , my sister lives in Tashkent.", "options": ["sorry, I mean", "and then", "by the way", "the end"] },
+              "answer": { "value": "sorry, I mean" },
+              "explanationUz": "«Sorry, I mean...» — xatoni sezib, to'xtamasdan tuzatishning standart yo'li."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Pauza to'ldirgichni yakunlang:",
+              "data": { "text": "That's an interesting ___ . Let me think for a second." },
+              "answer": { "accept": ["question"] },
+              "explanationUz": "«That's an interesting question» — savolni maqtab, o'zingizga 2-3 soniya vaqt sotib olasiz."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "Iborani vazifasiga bog'lang:",
+              "data": {
+                "left": ["Well, let me see...", "What I meant to say was...", "Anyway, as I was saying...", "Sort of / kind of"],
+                "right": ["fikrni yumshatish", "vaqt yutish", "mavzuga qaytish", "o'zini tuzatish"]
+              },
+              "answer": { "pairs": { "Well, let me see...": "vaqt yutish", "What I meant to say was...": "o'zini tuzatish", "Anyway, as I was saying...": "mavzuga qaytish", "Sort of / kind of": "fikrni yumshatish" } },
+              "explanationUz": "Har bir ibora o'z vazifasida ishlatilsa, nutqingiz ona tilidagidek tabiiy eshitiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Fluency (ravonlik) — imkon qadar tez gapirish demakdir." },
+              "answer": { "value": "false" },
+              "explanationUz": "Fluency — jim pauzalarsiz, barqaror tabiiy tempda gapirish. Haddan tashqari tezlik tushunarlilikni buzadi va talaffuz baliga zarar beradi."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Speak for 45 seconds about your typical day. Use at least two different fillers (e.g. 'well...', 'let me think...') and correct yourself once on purpose using 'sorry, I mean...'.",
+              "promptUz": "Oddiy kuningiz haqida 45 soniya gapiring. Kamida ikkita turli pauza to'ldirgich ishlating va bir marta ataylab «sorry, I mean...» bilan o'zingizni tuzating.",
+              "data": { "preparationSeconds": 10, "recordSeconds": 45 },
+              "explanationUz": "Yozuvni tinglang: 3 soniyadan uzun jimlik bo'ldimi? So'zlarni sanang — 45 soniyada 80-100 so'z bo'lsa, temp ideal."
+            }
+          ]
+        },
+        {
+          "slug": "pronunciation-basics",
+          "titleUz": "Talaffuz asoslari: o'zbek tilida yo'q tovushlar va so'z urg'usi",
+          "titleEn": "Pronunciation basics: th, w/v, ng and word stress",
+          "skill": "SPEAKING",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "O'zbek tilida yo'q /θ/, /ð/, /w/ va /ŋ/ tovushlarini to'g'ri hosil qilish",
+            "So'z urg'usining ma'noni o'zgartirishini bilish va urg'uni to'g'ri qo'yish",
+            "Minimal juftliklar bilan mustaqil mashq qilish usulini o'rganish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Aksent emas, tushunarlilik baholanadi",
+              "bodyUz": "Sizdan britancha aksent talab qilinmaydi! Baholanadigan narsa — **intelligibility**: aytganingiz qiyinchiliksiz tushuniladimi? Muammo shundaki, ayrim inglizcha tovushlar o'zbek tilida umuman yo'q, va biz ularni beixtiyor yaqin o'zbek tovushiga almashtiramiz: *think* → «sink», *water* → «vater». Ba'zan bu ma'noni butunlay o'zgartiradi — shuning uchun aynan shu 4 tovushni alohida mashq qilamiz."
+            },
+            {
+              "type": "table",
+              "titleUz": "Xavfli tovushlar xaritasi",
+              "headers": ["Tovush", "Misol so'zlar", "Keng tarqalgan xato"],
+              "rows": [
+                ["/θ/ — jarangsiz th (til uchi tishlar orasida)", "think, three, thank, month", "«s» yoki «t» deb aytish: *sink*, *tri*"],
+                ["/ð/ — jarangli th (xuddi shu holat, ovoz bilan)", "this, that, mother, weather", "«z» yoki «d» deb aytish: *zis*, *dat*"],
+                ["/w/ — lablar yumaloq, tishga TEGMAYDI", "water, well, window, one", "o'zbekcha «v» deb aytish: *vater* (lablar tishga tegib ketadi)"],
+                ["/ŋ/ — bitta burun tovushi", "singing, morning, going", "«n» + «g» deb ikkiga bo'lish yoki oddiy «n» deyish"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "So'z urg'usi — ikkinchi maxfiy qurol",
+              "bodyUz": "Inglizchada urg'u noto'g'ri qo'yilsa, so'z tanib bo'lmas holga keladi yoki ma'nosi o'zgaradi:\n\n- **PRE**sent (ot) = sovg'a, lekin pre**SENT** (fe'l) = taqdim etmoq\n- **PHO**tograph → pho**TO**grapher → photo**GRA**phic — o'zak bir xil, urg'u ko'chadi!\n- -tion bilan tugagan so'zlarda urg'u doim -tion dan OLDINGI bo'g'inda: educa**TION** emas, edu**CA**tion.\n\nYangi so'z yodlaganda doim urg'usi bilan yodlang: lug'atda urg'u belgisi (ˈ) urg'uli bo'g'in OLDIDAN qo'yiladi: /fəˈtɒɡrəfə/."
+            },
+            {
+              "type": "example",
+              "titleUz": "Minimal juftliklar — mashq materiali",
+              "items": [
+                { "en": "think — sink", "uz": "o'ylamoq — cho'kmoq: «th» da til uchi tishlar ORASIDA, «s» da tishlar ortida" },
+                { "en": "three — tree", "uz": "uch — daraxt: «th» ni «t» deb aytsangiz ma'no o'zgaradi" },
+                { "en": "west — vest", "uz": "g'arb — nimcha: /w/ da lablar yumaloq nayga o'xshaydi, tishga tegmaydi" },
+                { "en": "wine — vine", "uz": "vino — tok: oynada lablaringizni kuzatib mashq qiling" },
+                { "en": "thin — thing", "uz": "ozg'in — narsa: /ŋ/ da til orqasi yumshoq tanglayga ko'tariladi, /g/ eshitilmaydi" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "5 daqiqalik kunlik ritual: oynaga qarab minimal juftliklarni 5 martadan ayting — til va lablaringizni KO'RING. «th» uchun tilingiz uchi ko'rinishi shart; «w» uchun lablaringiz o'pich shakliga kelsin. Telefoningizga yozib, lug'at talaffuzi bilan solishtiring. 2 haftada natija eshitiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Qaysi so'zda /θ/ (jarangsiz th) tovushi bor?",
+              "data": { "options": ["this", "three", "tree", "sea"] },
+              "answer": { "value": "three" },
+              "explanationUz": "three /θriː/ — jarangsiz th. «this» — jarangli /ð/, «tree» va «sea» da th tovushi umuman yo'q."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "SPEAKING",
+              "promptUz": "Qaysi so'zlar /w/ (lablar yumaloq, tishga tegmaydi) bilan boshlanadi? (bir nechtasini belgilang)",
+              "data": { "options": ["window", "village", "water", "very", "one"] },
+              "answer": { "values": ["window", "water", "one"] },
+              "explanationUz": "«village» va «very» /v/ bilan — lablar tishga tegadi. Kutilmagan a'zo: «one» /wʌn/ deb o'qiladi!"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "So'zni urg'u tushadigan bo'g'iniga bog'lang:",
+              "data": {
+                "left": ["photograph", "photographer", "engineer"],
+                "right": ["urg'u 2-bo'g'inda", "urg'u oxirgi bo'g'inda", "urg'u 1-bo'g'inda"]
+              },
+              "answer": { "pairs": { "photograph": "urg'u 1-bo'g'inda", "photographer": "urg'u 2-bo'g'inda", "engineer": "urg'u oxirgi bo'g'inda" } },
+              "explanationUz": "PHO-to-graph → pho-TO-gra-pher → en-gi-NEER. Bir o'zakli so'zlarda ham urg'u ko'chishi mumkin."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "«singing» so'zidagi «ng» ikkita alohida tovush — /n/ va /g/ — sifatida aytiladi." },
+              "answer": { "value": "false" },
+              "explanationUz": "«ng» — bitta burun tovushi /ŋ/: til orqasi yumshoq tanglayga ko'tariladi, /g/ alohida eshitilmaydi. /ˈsɪŋɪŋ/, «sing-ging» emas."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Urg'u qoidasini to'ldiring (inglizcha so'z turkumini yozing):",
+              "data": { "text": "When the stress is on the second syllable, 'preSENT' is a ___ ." },
+              "answer": { "accept": ["verb"] },
+              "explanationUz": "PREsent (ot — sovg'a) urg'u 1-bo'g'inda; preSENT (fe'l — taqdim etmoq) urg'u 2-bo'g'inda. Ot-fe'l juftliklarida bu qoida tez-tez ishlaydi: REcord/reCORD, IMport/imPORT."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Read these three sentences aloud, slowly and clearly: 1) I think these three things are worth thirty dollars. 2) We went for a walk and watched the waves. 3) She was singing and bringing something interesting.",
+              "promptUz": "Uchala gapni sekin va aniq ovoz chiqarib o'qing: 1-gap «th», 2-gap «w», 3-gap «ng» tovushlariga qaratilgan.",
+              "data": { "preparationSeconds": 15, "recordSeconds": 40 },
+              "explanationUz": "Yozuvni tinglab tekshiring: th da til tishlar orasida bo'ldimi? w da lablar tishga tegmadimi? ng bitta tovush bo'lib chiqdimi? Xato joylarni belgilab, qayta yozing."
+            }
+          ]
+        },
+        {
+          "slug": "part1-topic-frames",
+          "titleUz": "Part 1: 10 mavzu uchun tayyor javob ramkalari",
+          "titleEn": "Part 1: ready-made frames for the 10 most common topics",
+          "skill": "SPEAKING",
+          "level": "B1",
+          "order": 3,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Part 1 ning eng ko'p uchraydigan 10 mavzusini bilish",
+            "Har mavzu uchun universal ramka (frame) yodlab, shaxsiy ma'lumot bilan to'ldirish",
+            "Ramkalarni PRE formulasi bilan birlashtirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Ramka nima va nega ishlaydi?",
+              "bodyUz": "Part 1 savollari yildan-yilga bir xil mavzular atrofida aylanadi: **oila, sevimli mashg'ulot, ona shahar, taom, ob-havo, o'qish/ish, do'stlar, sayohat, sport, kitob/kino**. Demak, imtihonga qadar har mavzu uchun **ramka** — boshlanishi tayyor, ichi bo'sh qolip — tayyorlab qo'yish mumkin. Imtihonda siz faqat bo'sh joylarni o'z hayotingizdan to'ldirasiz. Bu yodlangan matn emas: skelet sizniki, go'sht har safar yangi."
+            },
+            {
+              "type": "table",
+              "titleUz": "10 mavzu — 10 ramka",
+              "headers": ["Mavzu", "Ramka (boshlanishi)", "Tarjima"],
+              "rows": [
+                ["Family", "There are ... people in my family. The person I'm closest to is ... because ...", "Oilamiz ... kishidan iborat. Menga eng yaqini — ..., chunki ..."],
+                ["Hobbies", "In my free time I'm really into ... I got into it when ...", "Bo'sh vaqtimda ... bilan jiddiy shug'ullanaman. Bunga ... paytda qiziqib qolganman."],
+                ["Hometown", "I come from ..., which is famous for ... What I love most about it is ...", "Men ...danman, u ... bilan mashhur. Menga eng yoqadigani — ..."],
+                ["Food", "I'd say my favourite dish is ... because ...", "Eng sevimli taomim ... desam bo'ladi, chunki ..."],
+                ["Weather", "To be honest, I prefer ... weather, because I can ...", "Ochig'i, men ... havoni afzal ko'raman, chunki ..."],
+                ["Studies / Work", "At the moment I'm studying ... The subject I enjoy most is ...", "Hozirda ... o'qiyapman. Eng yoqtirgan fanim — ..."],
+                ["Friends", "My best friend is someone I've known for ... What I value about him/her is ...", "Eng yaqin do'stimni ... yildan beri bilaman. Undagi eng qadrli xislat — ..."],
+                ["Travel", "The most memorable place I've visited is ... What impressed me was ...", "Borgan eng esda qolarli joyim — ... Meni hayratga solgani — ..."],
+                ["Sport", "I'm quite keen on ... I do it ... times a week to stay fit.", "Men ...ga ancha qiziqaman. Formada bo'lish uchun haftasiga ... marta shug'ullanaman."],
+                ["Books / Films", "The last film that really impressed me was ... It's about ...", "Meni chindan hayratga solgan so'nggi film — ... U ... haqida."]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Ramkalar jonli javobda (B2-C1 daraja)",
+              "turns": [
+                { "speaker": "Examiner", "en": "Tell me about your family.", "uz": "Oilangiz haqida gapirib bering." },
+                { "speaker": "You", "en": "There are five of us in my family — my parents, my two younger sisters and me. The person I'm closest to is my father, because we share the same sense of humour. For instance, every Friday evening we watch comedy shows together.", "uz": "Oilamiz besh kishidan iborat — ota-onam, ikki singlim va men. Menga eng yaqini — dadam, chunki hazil tuyg'ularimiz bir xil. Masalan, har juma oqshomi birga komediya ko'rsatuvlarini tomosha qilamiz." },
+                { "speaker": "Examiner", "en": "What's the weather like in your country?", "uz": "Mamlakatingizda ob-havo qanday?" },
+                { "speaker": "You", "en": "To be honest, the weather in Uzbekistan is quite extreme — summers are boiling hot, while winters can be freezing. Personally, I prefer spring, because the whole city turns green and I can cycle to college every day.", "uz": "Ochig'i, O'zbekistonda ob-havo ancha keskin — yozlari jazirama issiq, qishlari esa qattiq sovuq bo'lishi mumkin. Shaxsan men bahorni afzal ko'raman, chunki butun shahar ko'kalamzorga aylanadi va kollejga har kuni velosipedda bora olaman." }
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Har qanday mavzuga mos universal iboralar",
+              "items": [
+                { "en": "To be honest, ...", "uz": "Ochig'ini aytsam, ..." },
+                { "en": "I'd say...", "uz": "Aytishim mumkinki..." },
+                { "en": "What I love most about ... is ...", "uz": "...da menga eng yoqadigani — ..." },
+                { "en": "It really depends, but usually...", "uz": "Vaziyatga bog'liq, lekin odatda..." },
+                { "en": "...which is famous for...", "uz": "...bilan mashhur bo'lgan..." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Ogohlantirish: ramkani so'zma-so'z yodlab, robotdek aytmang — baholovchilar yodlangan nutqni bir zumda sezadi va ball tushiradi. Ramka faqat BOSHLANISH; davomini har safar o'sha paytdagi haqiqiy hayotingizdan oling. Sinov: bitta ramkaga 3 xil to'ldiruv o'ylab toping — shunda u chindan sizniki bo'ladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "Savolni mos ramka boshlanishiga bog'lang:",
+              "data": {
+                "left": ["Tell me about your hometown.", "What do you do in your free time?", "What's your favourite food?", "Do you have a large family?"],
+                "right": ["In my free time I'm really into drawing...", "There are five people in my family...", "I come from Namangan, which is famous for...", "I'd say my favourite dish is lagman because..."]
+              },
+              "answer": { "pairs": { "Tell me about your hometown.": "I come from Namangan, which is famous for...", "What do you do in your free time?": "In my free time I'm really into drawing...", "What's your favourite food?": "I'd say my favourite dish is lagman because...", "Do you have a large family?": "There are five people in my family..." } },
+              "explanationUz": "Har savol o'z ramkasini chaqiradi — mashq qilaverib, bu bog'lanish avtomatik bo'lib qoladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Ramkani to'ldiring:",
+              "data": { "text": "I come from Bukhara, ___ is famous for its ancient architecture." },
+              "answer": { "accept": ["which"] },
+              "explanationUz": "«..., which is famous for...» — aniqlovchi ergash gap javobingizni darhol B2 darajaga ko'taradi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "«Do you like your hometown?» savoliga eng kuchli javobni tanlang:",
+              "data": { "options": ["Yes.", "Yes, I do — mostly because it's green and calm. For example, there's a lovely park just next to my house.", "Hometown is the place where a person was born.", "I like."] },
+              "answer": { "value": "Yes, I do — mostly because it's green and calm. For example, there's a lovely park just next to my house." },
+              "explanationUz": "Bu javobda PRE bor: fikr + sabab + misol. «Yes.» va «I like.» juda qisqa, uchinchi variant esa savolga javob emas, lug'aviy ta'rif."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Ramkalarni so'zma-so'z yodlab, imtihonda robotdek aytib berish — eng yaxshi strategiya." },
+              "answer": { "value": "false" },
+              "explanationUz": "Yodlangan nutq darhol seziladi va ballni tushiradi. Ramka — skelet; uni har safar yangi shaxsiy tafsilotlar bilan to'ldiring."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Answer these two Part 1 questions, about 25-30 seconds each: 1) 'Tell me about your family.' 2) 'What kind of weather do you like?' Use the lesson frames and the Point-Reason-Example formula.",
+              "promptUz": "Ikkita Part 1 savoliga javob bering (har biriga 25-30 soniya): 1) «Oilangiz haqida gapirib bering.» 2) «Qanday ob-havoni yoqtirasiz?» Dars ramkalari va PRE formulasidan foydalaning.",
+              "data": { "preparationSeconds": 15, "recordSeconds": 60 },
+              "explanationUz": "Tekshiruv: har javob ramka bilan boshlandimi? Sabab (because) va misol (for example) bormi? Ikkinchi javobga o'tishda uzun jimlik bo'lmadimi?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "speaking-advanced",
+      "titleUz": "Speaking yuqori bosqichi: Part 2, Part 3 va imtihon kuni",
+      "descriptionUz": "Uzun monolog qurish, abstrakt mavzuda muvozanatli munozara yuritish, o'z nutqini imtihonchi ko'zi bilan baholash va imtihon kunini g'alaba bilan yakunlash.",
+      "order": 1,
+      "lessons": [
+        {
+          "slug": "part2-monologue",
+          "titleUz": "Part 2 mahorati: monologni tuzish",
+          "titleEn": "Part 2 mastery: building a structured monologue",
+          "skill": "SPEAKING",
+          "level": "B1",
+          "order": 0,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Monologning 4 bosqichli tuzilmasini o'zlashtirish: tasvir → afzalliklar → kamchiliklar → shaxsiy tanlov",
+            "Har bosqich uchun signal iboralarni avtomatik ishlatish",
+            "1 daqiqalik tayyorgarlikda kalit so'zli reja tuzishni o'rganish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Part 2 imtihonda qanday bo'ladi?",
+              "bodyUz": "Part 2 da sizga vaziyat yoki ikki variantli mavzu beriladi (masalan: uyda o'qish yoki kutubxonada o'qish). Odatda **1 daqiqa tayyorgarlik** va **2 daqiqagacha gapirish** vaqti bo'ladi. Bu endi savol-javob emas — uzluksiz MONOLOG. Eng katta xavf: strukturasiz «oqib ketish» — 40 soniyadan keyin nima deyishni bilmay qolish. Yechim — har doim bir xil 4 bosqichli qolip."
+            },
+            {
+              "type": "table",
+              "titleUz": "Monologning 4 bosqichi",
+              "headers": ["Bosqich", "Signal iboralar", "Taxminiy vaqt"],
+              "rows": [
+                ["1. Kirish va vaziyat tasviri", "I'd like to talk about... / Nowadays many people...", "20-30 soniya"],
+                ["2. Afzalliklar", "One major advantage is... / Another plus is...", "35-40 soniya"],
+                ["3. Kamchiliklar", "On the downside, ... / However, one drawback is...", "35-40 soniya"],
+                ["4. Shaxsiy tanlov va yakun", "All things considered, I'd personally opt for... because...", "20-25 soniya"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Signal iboralar to'plami",
+              "items": [
+                { "en": "I'd like to talk about...", "uz": "Men ... haqida gapirmoqchiman (kirish)" },
+                { "en": "One major advantage of ... is that...", "uz": "...ning asosiy afzalligi shundaki... " },
+                { "en": "Another benefit is that...", "uz": "Yana bir foydali jihati..." },
+                { "en": "On the downside, ...", "uz": "Salbiy tomoni esa, ..." },
+                { "en": "One serious drawback is that...", "uz": "Jiddiy kamchiliklardan biri..." },
+                { "en": "All things considered, ...", "uz": "Hammasini hisobga olganda, ..." },
+                { "en": "If I had to choose, I would opt for...", "uz": "Tanlashim kerak bo'lsa, men ...ni tanlagan bo'lardim" }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Namunaviy monolog (B2-C1 daraja)",
+              "turns": [
+                { "speaker": "Examiner", "en": "Some students prefer studying at home, while others study at the library. Describe both options, talk about their advantages and disadvantages, and say which one you prefer.", "uz": "Ba'zi talabalar uyda o'qishni, boshqalari kutubxonada o'qishni afzal ko'radi. Ikkala variantni tasvirlab, afzallik va kamchiliklarini aytib, qaysi birini afzal ko'rishingizni ayting." },
+                { "speaker": "You", "en": "I'd like to talk about two popular ways of studying: at home and at the library. Nowadays both options are common among students in Uzbekistan.", "uz": "Men o'qishning ikki mashhur usuli — uyda va kutubxonada o'qish haqida gapirmoqchiman. Bugungi kunda O'zbekiston talabalari orasida ikkala usul ham keng tarqalgan." },
+                { "speaker": "You", "en": "One major advantage of studying at home is comfort — you can make tea, take a break whenever you like, and nobody limits your time. Another plus is that it is completely free.", "uz": "Uyda o'qishning asosiy afzalligi — qulaylik: choy damlab, istagan payt tanaffus qilasiz, hech kim vaqtingizni cheklamaydi. Yana bir plyusi — bu mutlaqo bepul." },
+                { "speaker": "You", "en": "On the downside, home is full of distractions: the TV, the fridge and, of course, the phone. The library, on the other hand, offers silence and a real working atmosphere, although its opening hours can be inconvenient.", "uz": "Salbiy tomoni, uy chalg'ituvchi narsalarga to'la: televizor, muzlatgich va albatta telefon. Kutubxona esa sukunat va chinakam ish muhitini beradi, garchi ish vaqti noqulay bo'lishi mumkin." },
+                { "speaker": "You", "en": "All things considered, I would personally opt for the library, because seeing other people study around me really motivates me to focus.", "uz": "Hammasini hisobga olganda, men shaxsan kutubxonani tanlagan bo'lardim, chunki atrofimda o'qiyotgan odamlarni ko'rish meni jiddiy diqqatni jamlashga undaydi." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "1 daqiqalik tayyorgarlikda GAP YOZMANG — ulgurmaysiz. Qog'ozga T-jadval chizing: chapga «+» (2-3 kalit so'z), o'ngga «−» (2-3 kalit so'z), pastga tanlovingiz. Masalan: «+ comfort, free | − distractions, noisy | → library». 15 soniya qolganda yakun bosqichiga o'ting — tugallanmagan monolog ball yo'qotadi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "Monolog bosqichlarini to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["Kamchiliklarni aytish", "Shaxsiy tanlov va yakun", "Vaziyat tasviri va kirish", "Afzalliklarni aytish"] },
+              "answer": { "order": ["Vaziyat tasviri va kirish", "Afzalliklarni aytish", "Kamchiliklarni aytish", "Shaxsiy tanlov va yakun"] },
+              "explanationUz": "Kirish → afzalliklar → kamchiliklar → tanlov. Doimo shu tartib — miyangiz hech qachon «endi nima?» deb qotib qolmaydi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Qaysi ibora KAMCHILIKNI boshlab beradi?",
+              "data": { "options": ["One major advantage is that...", "On the downside, ...", "To begin with, ...", "All things considered, ..."] },
+              "answer": { "value": "On the downside, ..." },
+              "explanationUz": "On the downside — «salbiy tomoni esa». Advantage — afzallik, to begin with — kirish, all things considered — yakun."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Yakunlovchi signal iborani to'ldiring:",
+              "data": { "text": "All things ___ , I would personally opt for studying at the library." },
+              "answer": { "accept": ["considered"] },
+              "explanationUz": "«All things considered» — hammasini hisobga olganda; monolog yakunining klassik boshlanishi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "Signal iborani monolog bosqichiga bog'lang:",
+              "data": {
+                "left": ["I'd like to talk about...", "Another benefit is that...", "One serious drawback is that...", "If I had to choose, I would..."],
+                "right": ["kamchilik", "shaxsiy tanlov", "kirish", "afzallik"]
+              },
+              "answer": { "pairs": { "I'd like to talk about...": "kirish", "Another benefit is that...": "afzallik", "One serious drawback is that...": "kamchilik", "If I had to choose, I would...": "shaxsiy tanlov" } },
+              "explanationUz": "Signal iboralar tinglovchiga (va baholovchiga!) qaysi bosqichda ekaningizni ko'rsatib turadi — bu coherence balini oshiradi."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Part 2 task: Some people prefer to exercise at a gym, while others do sport outdoors. Describe both options, talk about the advantages and disadvantages of each, and say which one you would choose and why. You have 1 minute to prepare and up to 2 minutes to speak.",
+              "promptUz": "Part 2 topshirig'i: Ba'zilar sport zalida shug'ullanishni, boshqalar ochiq havoda sport qilishni afzal ko'radi. Ikkala variantni tasvirlab, afzallik va kamchiliklarini ayting hamda qaysi birini tanlashingizni asoslang. 1 daqiqa tayyorgarlik, 2 daqiqagacha nutq.",
+              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "explanationUz": "Tayyorgarlikda T-jadval tuzing: + / − / tanlov. Har bosqichda kamida bitta signal ibora ishlating. Yozuvni tinglab tekshiring: 4 bosqich ham bormi? Yakunga ulgurdingizmi?"
+            }
+          ]
+        },
+        {
+          "slug": "part3-discussion",
+          "titleUz": "Part 3 mahorati: abstrakt mavzuda ikki tomonlama munozara",
+          "titleEn": "Part 3 mastery: balanced discussion and hedging",
+          "skill": "SPEAKING",
+          "level": "B1",
+          "order": 1,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Abstrakt savolga ikki tomonlama (balanced) javob qurish",
+            "On the one hand / on the other hand kabi kontrast iboralarni qo'llash",
+            "Hedging — fikrni yumshatish orqali C1 darajadagi munozara ohangini egallash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Part 3 — fikrlash sinovi",
+              "bodyUz": "Part 3 savollari endi siz haqingizda emas — **jamiyat, texnologiya, ta'lim** kabi abstrakt mavzular haqida: *«Do you think technology makes people less sociable?»* Bunday savolga faqat «men va telefonim» haqida gapirish yetarli emas. Kuchli javob formulasi: **umumiy fikr → bir tomon → ikkinchi tomon → shaxsiy xulosa**. Aynan shu muvozanat B1 nomzodni B2-C1 dan ajratib turadi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Kontrast (ikki tomon) iboralari",
+              "items": [
+                { "en": "On the one hand, ... On the other hand, ...", "uz": "Bir tomondan, ... Boshqa tomondan, ..." },
+                { "en": "While it's true that..., we shouldn't forget that...", "uz": "...ekani rost bo'lsa-da, ...ni unutmasligimiz kerak" },
+                { "en": "Some people argue that..., whereas others believe...", "uz": "Ba'zilar ... deb hisoblaydi, boshqalar esa ... deb biladi" },
+                { "en": "It's a double-edged sword.", "uz": "Bu ikki tomoni ham o'tkir qilich (har ikkala ta'siri bor)" }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Hedging — aqlli odamlar tili",
+              "bodyUz": "**Hedging** — qat'iy, mutlaq gaplardan qochib, fikrni yumshatish. Solishtiring:\n\n- ❌ *Technology is bad. Everyone is addicted.* — dag'al, isbotlab bo'lmaydigan da'vo\n- ✅ *Technology can sometimes have negative effects, and many people tend to overuse it.* — o'ylangan, akademik ohang\n\nHedging vositalari: *can, may, might, tend to, sometimes, to some extent, it seems that...* Ingliz akademik madaniyatida aynan yumshatilgan fikr kuchli hisoblanadi — bu C1 darajaning yashirin paroli."
+            },
+            {
+              "type": "example",
+              "titleUz": "Hedging iboralari",
+              "items": [
+                { "en": "It seems to me that...", "uz": "Nazarimda, ..." },
+                { "en": "Arguably, ...", "uz": "Aytish mumkinki (bahsli bo'lsa-da), ..." },
+                { "en": "To some extent, ...", "uz": "Ma'lum darajada, ..." },
+                { "en": "It largely depends on...", "uz": "Bu ko'p jihatdan ...ga bog'liq" },
+                { "en": "People tend to...", "uz": "Odamlar odatda ...ga moyil" },
+                { "en": "...may / might / can...", "uz": "...bo'lishi mumkin (qat'iy «is» o'rniga)" }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Namunaviy Part 3 javobi (C1 daraja)",
+              "turns": [
+                { "speaker": "Examiner", "en": "Do you think technology makes people less sociable?", "uz": "Sizningcha, texnologiya odamlarni kamroq muloqotchan qilyaptimi?" },
+                { "speaker": "You", "en": "That's a tricky question. On the one hand, it's true that many people, especially teenagers, tend to spend hours staring at their screens instead of talking face to face. On the other hand, technology arguably helps us stay in touch with people who live far away — I video-call my cousin in Korea every week, for instance. So it seems to me that technology itself is neutral: to some extent, it all depends on how each person chooses to use it.", "uz": "Murakkab savol ekan. Bir tomondan, ko'pchilik, ayniqsa o'smirlar, yuzma-yuz suhbat o'rniga soatlab ekranga tikilib o'tirishga moyilligi rost. Boshqa tomondan, texnologiya uzoqdagi yaqinlarimiz bilan aloqada bo'lishga yordam beradi — masalan, men Koreyadagi amakivachcham bilan har hafta video-qo'ng'iroqlashaman. Shuning uchun nazarimda texnologiyaning o'zi neytral: bu ma'lum darajada har bir inson undan qanday foydalanishiga bog'liq." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Part 3 formulasi: «In general, ...» bilan umumiy boshlang, ikki tomonni ko'rsating, faqat OXIRIDA «for instance» bilan bitta shaxsiy misol qo'shing. Shaxsiy misol — tortning ustidagi gilos, tortning o'zi emas. Va yodda tuting: «to'g'ri javob» yo'q — baholovchi fikringizga emas, uni QANDAY himoya qilganingizga qaraydi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Qarama-qarshi (ikkinchi) tomonni qaysi ibora kiritadi?",
+              "data": { "options": ["On the other hand, ...", "For example, ...", "In addition, ...", "To begin with, ..."] },
+              "answer": { "value": "On the other hand, ..." },
+              "explanationUz": "On the one hand → birinchi tomon; on the other hand → qarama-qarshi tomon. Bu juftlik doim birga yuradi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "SPEAKING",
+              "promptUz": "Hedging (fikrni yumshatish) iboralarini belgilang (bir nechtasini):",
+              "data": { "options": ["It seems to me that...", "This is 100% true for everyone.", "To some extent, ...", "Arguably, ...", "Everybody always does this."] },
+              "answer": { "values": ["It seems to me that...", "To some extent, ...", "Arguably, ..."] },
+              "explanationUz": "«100% true», «everybody always» — mutlaq da'volar; munozarada zaif eshitiladi. C1 nomzod ehtimollik tili bilan gapiradi: seems, arguably, to some extent."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Kontrast iborani to'ldiring:",
+              "data": { "text": "On the one hand, social media connects people; on the ___ hand, it can waste a lot of our time." },
+              "answer": { "accept": ["other"] },
+              "explanationUz": "On the one hand ... on the other hand ... — ikki tomonlama munozaraning asosiy skeleti."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "Qat'iy gapni yumshatilgan (hedged) variantiga bog'lang:",
+              "data": {
+                "left": ["Technology is bad.", "Everyone plays computer games.", "Printed books will disappear."],
+                "right": ["Printed books may become less popular.", "Technology can sometimes have negative effects.", "Many young people tend to play computer games."]
+              },
+              "answer": { "pairs": { "Technology is bad.": "Technology can sometimes have negative effects.", "Everyone plays computer games.": "Many young people tend to play computer games.", "Printed books will disappear.": "Printed books may become less popular." } },
+              "explanationUz": "can sometimes / tend to / may — uchta asosiy yumshatish vositasi. Mutlaq gapni topib, yumshating — bu mashqni o'z nutqingizda ham qiling."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Part 3 da abstrakt savolga faqat o'z hayotingizdan bitta misol aytib qo'yish yetarli." },
+              "answer": { "value": "false" },
+              "explanationUz": "Part 3 umumiy tahlil talab qiladi: umumiy fikr → ikki tomon → xulosa. Shaxsiy misol faqat bezak sifatida, oxirida qo'shiladi."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Part 3 question: 'Some people believe that social media does more harm than good. What is your opinion?' Discuss both sides using 'on the one hand / on the other hand', include at least two hedging phrases, and finish with your own conclusion.",
+              "promptUz": "Part 3 savoli: «Ba'zilar ijtimoiy tarmoqlar foydadan ko'ra ko'proq zarar keltiradi deb hisoblaydi. Sizning fikringiz qanday?» Ikkala tomonni «on the one hand / on the other hand» bilan yoriting, kamida ikkita hedging ibora ishlating va o'z xulosangiz bilan yakunlang.",
+              "data": { "preparationSeconds": 30, "recordSeconds": 90 },
+              "explanationUz": "Tekshiruv ro'yxati: umumiy boshlanish bormi? Ikki tomon ham yoritildimi? seems/tend to/to some extent eshitildimi? Xulosa aniq aytildimi?"
+            }
+          ]
+        },
+        {
+          "slug": "self-assessment",
+          "titleUz": "Baholash mezonlarini o'zingizga ishlating: yozib olib tahlil qilish",
+          "titleEn": "Use the assessment criteria on yourself: record and analyse",
+          "skill": "SPEAKING",
+          "level": "B1",
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Speaking baholanadigan 4 mezonni imtihonchi darajasida tushunish",
+            "O'z javobini yozib olib, 5 bosqichli metodika bilan tahlil qilish",
+            "Zaif mezonni aniqlab, mashg'ulotni aynan unga qaratish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Imtihonchi ko'zi bilan qarash",
+              "bodyUz": "Ko'pchilik «ko'proq gapirsam, o'sib boraveraman» deb o'ylaydi. Bu — xato. Maqsadsiz gapirish xatolarni mustahkamlaydi xolos. Professional sportchi o'z o'yinini videodan tahlil qilganidek, siz ham o'z nutqingizni **imtihonchi mezonlarida** tahlil qilishingiz kerak. Mezonlarni bilsangiz, qaysi «mushak» zaifligini aniq ko'rasiz va vaqtingizni aynan unga sarflaysiz."
+            },
+            {
+              "type": "table",
+              "titleUz": "Speaking baholanadigan 4 mezon",
+              "headers": ["Mezon", "Nimani o'lchaydi", "O'z-o'zini tekshirish savoli"],
+              "rows": [
+                ["Fluency & coherence", "Pauzalar, temp, fikrlar bog'liqligi va izchilligi", "3 soniyadan uzun jim pauzalarim bo'ldimi? Fikrdan fikrga bog'lovchi bilan o'tdimmi?"],
+                ["Lexical resource", "So'z boyligi, sinonimlar, mavzuga mos iboralar", "Bitta so'zni (good, nice, very) qayta-qayta ishlatdimmi?"],
+                ["Grammatical range & accuracy", "Turli zamonlar, murakkab gaplar, xatolar soni", "Faqat Present Simple ishlatdimmi? Qo'pol xatolarim nechta?"],
+                ["Pronunciation", "Tovushlar aniqligi, so'z urg'usi, intonatsiya", "th, w, ng tovushlarim to'g'ri chiqdimi? Urg'ularni to'g'ri qo'ydimmi?"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "5 bosqichli yozib olish-tahlil metodikasi",
+              "bodyUz": "1. **Yozing**: Part 1/2/3 dan savol tanlab, javobingizni telefon diktofoniga yozing.\n2. **Umumiy tinglang**: birinchi marta baho bermasdan, shunchaki eshiting — notanish odam sifatida tushunarlimi?\n3. **Sanang**: ikkinchi tinglashda jim pauzalarni va takrorlangan so'zlarni qog'ozga belgilang.\n4. **Transkript yozing**: eshitganingizni so'zma-so'z yozib chiqing va grammatik xatolarni qizil bilan belgilang. Bu og'ir, lekin eng samarali qadam!\n5. **Qayta yozing**: bir hafta o'tib, XUDDI SHU savolga qayta javob berib, ikki yozuvni solishtiring — o'sishni o'z qulog'ingiz bilan eshitasiz."
+            },
+            {
+              "type": "example",
+              "titleUz": "Tezkor o'z-o'zini tekshirish savollari",
+              "items": [
+                { "en": "Did I pause silently for more than three seconds?", "uz": "3 soniyadan ortiq jim pauza qildimmi?" },
+                { "en": "Did I repeat the same word again and again?", "uz": "Bitta so'zni qayta-qayta takrorladimmi?" },
+                { "en": "Did I use at least two different tenses?", "uz": "Kamida ikki xil zamon ishlatdimmi?" },
+                { "en": "Were my 'th', 'w' and 'ng' sounds clear?", "uz": "th, w, ng tovushlarim aniq chiqdimi?" },
+                { "en": "Did my answer have a clear beginning and ending?", "uz": "Javobimda aniq boshlanish va yakun bo'ldimi?" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Haftasiga 2 marta yozib oling va ESKI yozuvlarni o'chirmang — bir oydan keyin birinchi yozuvingizni eshitib, qanchalik o'sganingizni his qilasiz. Bu motivatsiyaning eng kuchli manbai. Yana bir sir: o'z ovozingiz yozuvda g'alati eshitilishi — normal fiziologik holat, talaffuz sifatiga aloqasi yo'q."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "Mezonni u o'lchaydigan narsaga bog'lang:",
+              "data": {
+                "left": ["Fluency & coherence", "Lexical resource", "Grammatical range & accuracy", "Pronunciation"],
+                "right": ["Tovushlar, urg'u va intonatsiya aniqligi", "Pauzalarsiz ravon va mantiqiy izchil gapirish", "So'z boyligi va sinonimlardan foydalanish", "Turli zamonlar va murakkab gaplarni xatosiz qo'llash"]
+              },
+              "answer": { "pairs": { "Fluency & coherence": "Pauzalarsiz ravon va mantiqiy izchil gapirish", "Lexical resource": "So'z boyligi va sinonimlardan foydalanish", "Grammatical range & accuracy": "Turli zamonlar va murakkab gaplarni xatosiz qo'llash", "Pronunciation": "Tovushlar, urg'u va intonatsiya aniqligi" } },
+              "explanationUz": "4 mezon — 4 alohida «mushak». Har mashg'ulotda qaysi birini chiniqtirayotganingizni aniq biling."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Yozuvingizni tinglab, «good» so'zini 6 marta ishlatganingizni sezdingiz. Bu qaysi mezonga zarar yetkazadi?",
+              "data": { "options": ["Fluency & coherence", "Lexical resource", "Grammatical range & accuracy", "Pronunciation"] },
+              "answer": { "value": "Lexical resource" },
+              "explanationUz": "Bir so'zni takrorlash so'z boyligi torligini ko'rsatadi. Sinonimlar tayyorlab qo'ying: great, impressive, enjoyable, decent, fascinating."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "O'z-o'zini tahlil qilish metodikasi bosqichlarini tartiblang:",
+              "data": { "items": ["Transkript yozib, grammatik xatolarni belgilang", "Savol tanlab, javobingizni diktofonga yozing", "Bir hafta o'tib, xuddi shu savolga qayta javob berib, taqqoslang", "Birinchi marta faqat umumiy taassurot uchun tinglang", "Ikkinchi tinglashda pauza va takrorlangan so'zlarni sanang"] },
+              "answer": { "order": ["Savol tanlab, javobingizni diktofonga yozing", "Birinchi marta faqat umumiy taassurot uchun tinglang", "Ikkinchi tinglashda pauza va takrorlangan so'zlarni sanang", "Transkript yozib, grammatik xatolarni belgilang", "Bir hafta o'tib, xuddi shu savolga qayta javob berib, taqqoslang"] },
+              "explanationUz": "Yozish → umumiy tinglash → sanash → transkript → qayta yozish. Har bosqich oldingisiga tayanadi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Yozuvda o'z ovozingiz g'alati eshitilsa, bu talaffuzingiz yomon degani." },
+              "answer": { "value": "false" },
+              "explanationUz": "Bu hammada bo'ladi: odatda ovozimizni suyak orqali ham eshitamiz, yozuvda esa faqat havo orqali. Talaffuzni tovushlar (th, w, ng) va urg'u bo'yicha baholang, ovoz tembri bo'yicha emas."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Record yourself answering: 'Describe a skill you would like to learn. Explain why you want to learn it and how you would use it.' Afterwards, listen to your recording and score yourself on all four criteria using the lesson checklist.",
+              "promptUz": "Savolga javobingizni yozib oling: «O'rganmoqchi bo'lgan ko'nikmangizni tasvirlab bering. Nega o'rganmoqchisiz va undan qanday foydalanasiz?» So'ng yozuvni tinglab, darsdagi tekshiruv ro'yxati bo'yicha o'zingizga 4 mezonda baho qo'ying.",
+              "data": { "preparationSeconds": 30, "recordSeconds": 120 },
+              "explanationUz": "Har mezonga 1-5 ball qo'ying va eng past ball olgan mezonni yozib qo'ying — keyingi haftadagi mashg'ulotlaringiz aynan shu mezonga qaratilsin."
+            }
+          ]
+        },
+        {
+          "slug": "exam-day",
+          "titleUz": "Imtihon kuni: vahima, vaqt hissi va tayyor formulalar",
+          "titleEn": "Exam day: managing panic, sensing time, opening and closing formulas",
+          "skill": "SPEAKING",
+          "level": "B1",
+          "order": 3,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Vahimani 4-4-4 nafas texnikasi va to'g'ri fikrlash bilan boshqarish",
+            "30 soniya va 2 daqiqa vaqtni ichki his qilishni o'rganish",
+            "Har qanday javobni ochilish va yakunlash formulalari bilan ramkalash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vahima bilan kurashish",
+              "bodyUz": "Speaking — kompyuterga gapirasiz: jonli imtihonchi yo'q, sizni faqat mikrofon «eshitadi». Bu aslida yaxshi yangilik: hech kim sizga qattiq qarab turmaydi! Hayajon boshlanganda **4-4-4 nafas texnikasi**ni qo'llang: 4 soniya nafas oling, 4 soniya ushlab turing, 4 soniya chiqaring — 3 marta takrorlang, yurak urishi tinchiydi. Fikrlashni ham o'zgartiring: «Xato qilsam hammasi tugaydi» emas, «Xato — nutqning tabiiy qismi, tuzataman va davom etaman». Esda tuting: baholovchilar mukammallikni emas, MULOQOTNI baholaydi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Vaqtni his qilish",
+              "bodyUz": "Imtihonda soatga qarab o'tirish — diqqatni o'ldiradi. Yaxshisi, vaqtni ICHKI his qilishni o'rganing:\n\n- **30 soniya** ≈ o'rtacha tempda 55-70 so'z ≈ PRE formulali 3 gap\n- **2 daqiqa** ≈ 220-260 so'z ≈ 4 bosqichli to'liq monolog\n\nMashq: uyda taymer qo'yib gapiring va tugagach taxmin qiling — necha soniya bo'ldi? 5-6 mashqdan keyin xatoingiz ±5 soniyagacha tushadi. Imtihonda vaqt tugashiga ozgina qolganda yakun formulasiga o'ting — chala qolgan gap yomon taassurot qoldiradi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Ochilish va yakunlash formulalari",
+              "items": [
+                { "en": "Well, that's an interesting question. I'd say...", "uz": "Xo'sh, qiziq savol ekan. Menimcha... (ochilish)" },
+                { "en": "Let me start by saying that...", "uz": "Gapni shundan boshlay: ... (ochilish)" },
+                { "en": "I'd like to talk about...", "uz": "Men ... haqida gapirmoqchiman (ochilish)" },
+                { "en": "So, all in all, ...", "uz": "Xullas, umuman olganda, ... (yakun)" },
+                { "en": "That's why I believe...", "uz": "Shuning uchun ham ... deb hisoblayman (yakun)" },
+                { "en": "...and that's basically my view on it.", "uz": "...mening bu boradagi fikrim shu (yakun)" }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Favqulodda vaziyatlar jadvali",
+              "headers": ["Muammo", "Yechim"],
+              "rows": [
+                ["Savolni to'liq tushunmadingiz", "Kalit so'zlarga tayanib, umumiy mavzu bo'yicha gapiring — jim qolishdan har qanday javob yaxshi"],
+                ["Kerakli so'z esdan chiqdi", "Boshqacha tushuntiring (paraphrase): «it's a thing you use for...», «it's similar to...»"],
+                ["Vaqt tugayapti, gap chala", "Darhol yakun formulasiga sakrang: «So, all in all, ...»"],
+                ["Vahima kuchayib ketdi", "4-4-4 nafas, yelkalarni tushiring, keyingi savolga toza varaqdan boshlang"]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Mini-simulyatsiya: formulalar ish ustida",
+              "turns": [
+                { "speaker": "Examiner", "en": "Describe a person who has influenced you.", "uz": "Sizga ta'sir ko'rsatgan insonni tasvirlab bering." },
+                { "speaker": "You", "en": "Well, that's an interesting question. Let me start by saying that the person who has influenced me most is my grandmother. She taught me that patience matters more than talent. For example, she learned to read and write properly only at the age of forty, yet she became the best storyteller in our neighbourhood. So, all in all, I'd say her example still guides me today — and that's basically my view on it.", "uz": "Xo'sh, qiziq savol ekan. Gapni shundan boshlay: menga eng katta ta'sir ko'rsatgan inson — buvim. U menga sabr iste'doddan muhimroq ekanini o'rgatgan. Masalan, u o'qish-yozishni bor-yo'g'i qirq yoshida to'liq o'rgangan, shunga qaramay mahallamizdagi eng zo'r hikoyachi bo'lib tanilgan. Xullas, umuman olganda, uning namunasi meni bugun ham yo'naltirib turadi — mening bu boradagi fikrim shu." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihon arafasi: yangi hech narsa o'rganmang, erta uxlang. Ertalab: 10 daqiqa ovoz chiqarib inglizcha gapiring (o'zingizga savol berib javob bering) — ovoz apparatingiz «qizib» oladi va birinchi savol karaxt qilmaydi. Markazga erta boring, mikrofon-quloqchinni sinab ko'ring. Va oxirgi sir: birinchi javobni ataylab sekinroq boshlang — tinch start butun imtihon ohangini belgilaydi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Gapirayotganda kerakli inglizcha so'z esingizdan chiqdi. Eng to'g'ri strategiya qaysi?",
+              "data": { "options": ["Jim bo'lib, so'zni eslashga urinish", "Boshqa so'zlar bilan tushuntirish: «it's a thing you use for...»", "Javobni shu yerda to'xtatish", "So'zni o'zbekcha aytib yuborish"] },
+              "answer": { "value": "Boshqa so'zlar bilan tushuntirish: «it's a thing you use for...»" },
+              "explanationUz": "Paraphrase — so'zni aylanib o'tish — aslida yuqori daraja ko'nikmasi sifatida baholanadi. Jimlik va o'zbekcha so'z esa ball yo'qotadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Yakunlash formulasini to'ldiring:",
+              "data": { "text": "So, all in ___ , I believe that learning English opens many doors." },
+              "answer": { "accept": ["all"] },
+              "explanationUz": "«So, all in all, ...» — xullas, umuman olganda. Har qanday javobni chiroyli yopadigan universal formula."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "SPEAKING",
+              "promptUz": "Imtihon kuni uchun TO'G'RI strategiyalarni belgilang (bir nechtasini):",
+              "data": { "options": ["4-4-4 usulida nafas olib, hayajonni pasaytirish", "Imtihon oldidagi tunni takrorlash bilan bedor o'tkazish", "Ertalab 10 daqiqa ovoz chiqarib inglizcha gapirib, «qizib olish»", "Ertalab 100 ta yangi so'z yodlash", "Xato qilsangiz ham to'xtamasdan davom etish"] },
+              "answer": { "values": ["4-4-4 usulida nafas olib, hayajonni pasaytirish", "Ertalab 10 daqiqa ovoz chiqarib inglizcha gapirib, «qizib olish»", "Xato qilsangiz ham to'xtamasdan davom etish"] },
+              "explanationUz": "Uyqusiz tun va ertalabki yangi materiallar miyani charchatib, mavjud bilimni ham bloklab qo'yadi. Dam olgan miya + qizigan ovoz = eng yaxshi natija."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "Imtihondagi har qanday javobning universal tartibini tuzing:",
+              "data": { "items": ["Misol yoki tafsilot keltiring", "Ochilish formulasi bilan boshlang («Well, that's an interesting question...»)", "Yakunlash formulasi bilan tugating («So, all in all...»)", "Asosiy fikringizni ayting"] },
+              "answer": { "order": ["Ochilish formulasi bilan boshlang («Well, that's an interesting question...»)", "Asosiy fikringizni ayting", "Misol yoki tafsilot keltiring", "Yakunlash formulasi bilan tugating («So, all in all...»)"] },
+              "explanationUz": "Ochilish → fikr → misol → yakun. Formulalar javobingizga professional ramka beradi va o'ylash uchun vaqt yutib beradi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri yoki noto'g'ri?",
+              "data": { "statement": "Ajratilgan vaqt tugamasidan javobingiz tugab qolsa, qolgan vaqtni jim o'tkazgan ma'qul." },
+              "answer": { "value": "false" },
+              "explanationUz": "Jimlik — yo'qotilgan ball. Qo'shimcha misol qo'shing («Another example is...») yoki xulosani kengaytiring — mikrofon yozayotgan har soniya sizning foydangizga ishlasin."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Full exam simulation. Topic: 'Some people think that teenagers should help their parents with household chores.' Describe the situation, discuss the advantages and disadvantages, and give your personal opinion. Start with an opening formula, finish with a closing formula, and keep speaking until the time is up.",
+              "promptUz": "To'liq imtihon simulyatsiyasi. Mavzu: «Ba'zilar o'smirlar ota-onasiga uy yumushlarida yordam berishi kerak deb hisoblaydi.» Vaziyatni tasvirlang, afzallik va kamchiliklarni muhokama qiling, shaxsiy fikringizni ayting. Ochilish formulasi bilan boshlang, yakunlash formulasi bilan tugating va vaqt tugaguncha gapiring.",
+              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "explanationUz": "Bu — haqiqiy imtihon rejimidagi yakuniy mashq. Yozuvni 7-darsdagi 4 mezon bo'yicha tahlil qiling: to'rttala bosqich, formulalar, hedging va yakun joyidami? Tabriklaymiz — siz imtihonga tayyorsiz!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

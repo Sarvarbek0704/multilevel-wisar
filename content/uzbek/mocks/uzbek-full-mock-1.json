@@ -1,0 +1,395 @@
+{
+  "subject": "UZBEK",
+  "kind": "FULL",
+  "slug": "uzbek-full-mock-1",
+  "titleUz": "Ona tili To'liq Mock #1 (45 test + insho)",
+  "descriptionUz": "Milliy sertifikat (ona tili va adabiyot) formatidagi to'liq sinov: 45 ta test savoli (fonetika va imlo, morfologiya, sintaksis, leksikologiya, adabiyot) hamda insho. Tuzilishi rasmiy imtihonga mos: 120 daqiqalik test qismi va 60 daqiqalik yozma ish. Insho AI tomonidan rasmiy mezonlarga yaqin tarzda baholanadi.",
+  "order": 10,
+  "isPublished": true,
+  "sections": [
+    {
+      "skill": "GRAMMAR",
+      "order": 0,
+      "durationMinutes": 120,
+      "instructionsUz": "Har bir savolga to'rtta variantdan eng to'g'ri javobni tanlang. Savollar milliy sertifikat imtihonidagi kabi fonetika, imlo, morfologiya, sintaksis, leksikologiya va adabiyot bo'limlarini qamrab oladi.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "Fonetika va imlo",
+          "questions": [
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Jarangli undoshlar berilgan qatorni toping.",
+              "data": { "options": ["p, t, k", "b, d, g", "s, sh, f", "ch, q, h"] },
+              "answer": { "value": "b, d, g" }
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«O'qituvchi» so'zi necha bo'g'indan iborat?",
+              "data": { "options": ["2", "3", "4", "5"] },
+              "answer": { "value": "4" }
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptUz": "O'zbek tilida urg'u odatda so'zning qaysi bo'g'iniga tushadi?",
+              "data": { "options": ["Birinchi bo'g'iniga", "Oxirgi bo'g'iniga", "O'rta bo'g'iniga", "Istalgan bo'g'iniga"] },
+              "answer": { "value": "Oxirgi bo'g'iniga" }
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Qaysi so'z tutuq belgisi (') bilan yoziladi?",
+              "data": { "options": ["san'at", "sanoat", "savol", "salom"] },
+              "answer": { "value": "san'at" }
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Qaysi qatordagi so'z imlo jihatdan to'g'ri yozilgan?",
+              "data": { "options": ["muvafaqiyat", "muvaffaqqiyat", "muvaffaqiyat", "muvofaqiyat"] },
+              "answer": { "value": "muvaffaqiyat" }
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Juft so'zlar (masalan: katta-kichik, oldi-berdi) imloda qanday yoziladi?",
+              "data": { "options": ["Qo'shib yoziladi", "Ajratib yoziladi", "Chiziqcha bilan yoziladi", "Qavs ichida yoziladi"] },
+              "answer": { "value": "Chiziqcha bilan yoziladi" }
+            },
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Burun tovushlari (nazal undoshlar) berilgan qatorni toping.",
+              "data": { "options": ["b, p, f", "m, n, ng", "l, r, y", "s, z, sh"] },
+              "answer": { "value": "m, n, ng" }
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Maktab» so'zining oxiridagi «b» undoshi talaffuzda qanday aytiladi?",
+              "data": { "options": ["«b» tarzida", "«p» tarzida", "«v» tarzida", "«m» tarzida"] },
+              "answer": { "value": "«p» tarzida" }
+            },
+            {
+              "number": 9,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Qaysi so'zni satrdan satrga bo'g'in ko'chirish mumkin emas?",
+              "data": { "options": ["baxt", "olma", "daraxt", "maktab"] },
+              "answer": { "value": "baxt" }
+            },
+            {
+              "number": 10,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Nutq tovushlari qanday ikki katta guruhga bo'linadi?",
+              "data": { "options": ["Unli va undosh tovushlar", "Jarangli va jarangsiz tovushlar", "Qattiq va yumshoq tovushlar", "Cho'ziq va qisqa tovushlar"] },
+              "answer": { "value": "Unli va undosh tovushlar" }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "Morfologiya",
+          "questions": [
+            {
+              "number": 11,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Hozir» so'zi qaysi so'z turkumiga mansub?",
+              "data": { "options": ["Ot", "Sifat", "Ravish", "Olmosh"] },
+              "answer": { "value": "Ravish" }
+            },
+            {
+              "number": 12,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Kitobni oldim» gapidagi «-ni» qaysi kelishik qo'shimchasi?",
+              "data": { "options": ["Bosh kelishik", "Qaratqich kelishigi", "Tushum kelishigi", "Jo'nalish kelishigi"] },
+              "answer": { "value": "Tushum kelishigi" }
+            },
+            {
+              "number": 13,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Chiqish kelishigining qo'shimchasi qaysi?",
+              "data": { "options": ["-ga", "-ni", "-da", "-dan"] },
+              "answer": { "value": "-dan" }
+            },
+            {
+              "number": 14,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Eng baland» birikmasida sifatning qaysi darajasi ifodalangan?",
+              "data": { "options": ["Oddiy daraja", "Qiyosiy daraja", "Orttirma daraja", "Ozaytirma daraja"] },
+              "answer": { "value": "Orttirma daraja" }
+            },
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Beshinchi» so'zi sonning qaysi turiga kiradi?",
+              "data": { "options": ["Sanoq son", "Tartib son", "Dona son", "Chama son"] },
+              "answer": { "value": "Tartib son" }
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Men», «sen», «u» so'zlari olmoshning qaysi turiga kiradi?",
+              "data": { "options": ["Kishilik olmoshlari", "Ko'rsatish olmoshlari", "So'roq olmoshlari", "Belgilash olmoshlari"] },
+              "answer": { "value": "Kishilik olmoshlari" }
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Yozdi» fe'li qaysi zamonda qo'llangan?",
+              "data": { "options": ["O'tgan zamon", "Hozirgi zamon", "Kelasi zamon", "Zamon ifodalamaydi"] },
+              "answer": { "value": "O'tgan zamon" }
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Yuvindi» fe'li qaysi nisbatda?",
+              "data": { "options": ["Aniq nisbat", "O'zlik nisbat", "Majhul nisbat", "Orttirma nisbat"] },
+              "answer": { "value": "O'zlik nisbat" }
+            },
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Kitobni o'qi!» gapidagi fe'l qaysi maylda qo'llangan?",
+              "data": { "options": ["Xabar mayli", "Buyruq-istak mayli", "Shart mayli", "Faraz mayli"] },
+              "answer": { "value": "Buyruq-istak mayli" }
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Bugun» so'zi ravishning qaysi turiga kiradi?",
+              "data": { "options": ["Payt ravishi", "O'rin ravishi", "Holat ravishi", "Miqdor-daraja ravishi"] },
+              "answer": { "value": "Payt ravishi" }
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Vatan uchun jonim fido» gapidagi «uchun» qaysi yordamchi so'z turkumiga kiradi?",
+              "data": { "options": ["Ko'makchi", "Bog'lovchi", "Yuklama", "Undov so'z"] },
+              "answer": { "value": "Ko'makchi" }
+            },
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«va», «hamda» bog'lovchilari qaysi turga kiradi?",
+              "data": { "options": ["Biriktiruv bog'lovchilari", "Zidlov bog'lovchilari", "Ayiruv bog'lovchilari", "Sabab bog'lovchilari"] },
+              "answer": { "value": "Biriktiruv bog'lovchilari" }
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "titleUz": "Sintaksis",
+          "questions": [
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Dilnoza ertalab maktabga bordi» gapida kesim qaysi so'z?",
+              "data": { "options": ["Dilnoza", "ertalab", "maktabga", "bordi"] },
+              "answer": { "value": "bordi" }
+            },
+            {
+              "number": 24,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Qizil olma pishdi» gapida «qizil» so'zi qaysi gap bo'lagi?",
+              "data": { "options": ["Ega", "Kesim", "Aniqlovchi", "Hol"] },
+              "answer": { "value": "Aniqlovchi" }
+            },
+            {
+              "number": 25,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Ukam kitobni o'qidi» gapida «kitobni» qaysi gap bo'lagi?",
+              "data": { "options": ["Ega", "To'ldiruvchi", "Aniqlovchi", "Hol"] },
+              "answer": { "value": "To'ldiruvchi" }
+            },
+            {
+              "number": 26,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Biz kecha teatrga bordik» gapida «kecha» so'zi qaysi gap bo'lagi?",
+              "data": { "options": ["Ega", "Kesim", "To'ldiruvchi", "Hol"] },
+              "answer": { "value": "Hol" }
+            },
+            {
+              "number": 27,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Sen qachon kelding?» gapi ifoda maqsadiga ko'ra qanday gap?",
+              "data": { "options": ["Darak gap", "So'roq gap", "Buyruq gap", "Istak gap"] },
+              "answer": { "value": "So'roq gap" }
+            },
+            {
+              "number": 28,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Bahor keldi va gullar ochildi» gapi tuzilishiga ko'ra qanday gap?",
+              "data": { "options": ["Sodda gap", "Bog'langan qo'shma gap", "Ergashgan qo'shma gap", "Bog'lovchisiz qo'shma gap"] },
+              "answer": { "value": "Bog'langan qo'shma gap" }
+            },
+            {
+              "number": 29,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Uyushiq bo'laklar orasida bog'lovchi bo'lmasa, qanday tinish belgisi qo'yiladi?",
+              "data": { "options": ["Nuqta", "Vergul", "Ikki nuqta", "Nuqtali vergul"] },
+              "answer": { "value": "Vergul" }
+            },
+            {
+              "number": 30,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Albatta, biz g'alaba qozonamiz» gapida «albatta» so'zi nima vazifasida kelgan?",
+              "data": { "options": ["Kirish so'z", "Undalma", "Ega", "Hol"] },
+              "answer": { "value": "Kirish so'z" }
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Bolalar, darsga tayyorlaning!» gapida «bolalar» so'zi nima vazifasida kelgan?",
+              "data": { "options": ["Ega", "Undalma", "Kirish so'z", "To'ldiruvchi"] },
+              "answer": { "value": "Undalma" }
+            },
+            {
+              "number": 32,
+              "type": "MCQ_SINGLE",
+              "promptUz": "His-hayajon bilan aytilgan gap oxiriga qanday tinish belgisi qo'yiladi?",
+              "data": { "options": ["Nuqta", "So'roq belgisi", "Undov belgisi", "Ko'p nuqta"] },
+              "answer": { "value": "Undov belgisi" }
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "titleUz": "Leksikologiya",
+          "questions": [
+            {
+              "number": 33,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Baxt» so'zining sinonimi qaysi?",
+              "data": { "options": ["kulfat", "saodat", "tashvish", "g'am"] },
+              "answer": { "value": "saodat" }
+            },
+            {
+              "number": 34,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Issiq» so'zining antonimi qaysi?",
+              "data": { "options": ["iliq", "qaynoq", "sovuq", "quruq"] },
+              "answer": { "value": "sovuq" }
+            },
+            {
+              "number": 35,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Tok» so'zi «uzum novdasi» va «elektr quvvati» ma'nolarida qo'llanadi. Bunday so'zlar qanday ataladi?",
+              "data": { "options": ["Sinonimlar", "Antonimlar", "Omonimlar", "Paronimlar"] },
+              "answer": { "value": "Omonimlar" }
+            },
+            {
+              "number": 36,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Asr» (yuz yillik) va «asir» (tutqun) so'zlari o'zaro qanday so'zlar hisoblanadi?",
+              "data": { "options": ["Sinonimlar", "Antonimlar", "Omonimlar", "Paronimlar"] },
+              "answer": { "value": "Paronimlar" }
+            },
+            {
+              "number": 37,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Og'zi qulog'ida» iborasining ma'nosi nima?",
+              "data": { "options": ["juda xafa", "juda xursand", "juda qo'rqqan", "juda charchagan"] },
+              "answer": { "value": "juda xursand" }
+            },
+            {
+              "number": 38,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Ilonning yog'ini yalagan» iborasi qanday odamga nisbatan qo'llanadi?",
+              "data": { "options": ["juda ayyor odamga", "juda sodda odamga", "juda mehnatkash odamga", "juda saxiy odamga"] },
+              "answer": { "value": "juda ayyor odamga" }
+            },
+            {
+              "number": 39,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Oltin kuz» birikmasida «oltin» so'zi qanday ma'noda qo'llangan?",
+              "data": { "options": ["O'z ma'nosida", "Ko'chma ma'noda", "Atama sifatida", "Sheva so'zi sifatida"] },
+              "answer": { "value": "Ko'chma ma'noda" }
+            },
+            {
+              "number": 40,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Ega», «kesim», «fonetika» kabi fanga oid maxsus so'zlar nima deb ataladi?",
+              "data": { "options": ["Iboralar", "Atamalar (terminlar)", "Eskirgan so'zlar", "Sheva so'zlari"] },
+              "answer": { "value": "Atamalar (terminlar)" }
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "titleUz": "Adabiyot",
+          "questions": [
+            {
+              "number": 41,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Besh dostondan iborat «Xamsa» asarining muallifi kim?",
+              "data": { "options": ["Alisher Navoiy", "Zahiriddin Muhammad Bobur", "Abdulla Qodiriy", "Cho'lpon"] },
+              "answer": { "value": "Alisher Navoiy" }
+            },
+            {
+              "number": 42,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Boburnoma» asarining muallifi kim?",
+              "data": { "options": ["Alisher Navoiy", "Zahiriddin Muhammad Bobur", "Abdulla Oripov", "Oybek"] },
+              "answer": { "value": "Zahiriddin Muhammad Bobur" }
+            },
+            {
+              "number": 43,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Birinchi o'zbek romani «O'tkan kunlar»ning muallifi kim?",
+              "data": { "options": ["Abdulla Qodiriy", "Abdulla Qahhor", "Cho'lpon", "G'afur G'ulom"] },
+              "answer": { "value": "Abdulla Qodiriy" }
+            },
+            {
+              "number": 44,
+              "type": "MCQ_SINGLE",
+              "promptUz": "«Kecha va kunduz» romanining muallifi kim?",
+              "data": { "options": ["Cho'lpon", "Oybek", "Fitrat", "Abdulla Qodiriy"] },
+              "answer": { "value": "Cho'lpon" }
+            },
+            {
+              "number": 45,
+              "type": "MCQ_SINGLE",
+              "promptUz": "Mashhur «O'zbegim» qasidasining muallifi kim?",
+              "data": { "options": ["Erkin Vohidov", "Abdulla Oripov", "Zulfiya", "Muhammad Yusuf"] },
+              "answer": { "value": "Erkin Vohidov" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "WRITING",
+      "order": 1,
+      "durationMinutes": 60,
+      "instructionsUz": "Berilgan mavzuda insho yozing. Reja tuzib, kirish, asosiy qism va xulosani aniq ajratgan holda, adabiy til me'yorlariga rioya qilib yozing.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "Insho",
+          "questions": [
+            {
+              "number": 1,
+              "type": "WRITING_TASK",
+              "promptUz": "Mavzu: «Vatan tuyg'usi — inson qalbining gavhari». Insho yozing (kamida 200 so'z). Talablar: (1) insho reja asosida yozilsin; (2) kirish, asosiy qism va xulosa aniq ajralib tursin; (3) fikringizni hayotiy yoki adabiy misol bilan asoslang; (4) adabiy til me'yorlariga, imlo va ishoraviy qoidalarga rioya qiling.",
+              "data": { "minWords": 200, "maxWords": 400 },
+              "points": 2,
+              "rubric": {
+                "criteria": [
+                  "Mavzuni ochib berish va mazmun to'liqligi",
+                  "Mantiqiy izchillik va kompozitsiya",
+                  "So'z boyligi va uslubiy rang-baranglik",
+                  "Imlo, ishoraviy va grammatik savodxonlik"
+                ],
+                "style": "adabiy insho",
+                "language": "uz"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

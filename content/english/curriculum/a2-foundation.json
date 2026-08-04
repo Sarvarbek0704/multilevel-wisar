@@ -460,6 +460,918 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "grammar-basics-2",
+      "titleUz": "Grammatika asoslari II: o'tgan va hozirgi davom zamon",
+      "order": 2,
+      "lessons": [
+        {
+          "slug": "present-continuous",
+          "titleUz": "Present Continuous: hozir bo'layotgan ish-harakat",
+          "titleEn": "Present Continuous",
+          "skill": "GRAMMAR",
+          "level": "A2",
+          "order": 0,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "am/is/are + -ing tuzilmasini to'g'ri qo'llash",
+            "Present Simple va Present Continuous farqini ajratish",
+            "-ing qo'shish qoidalarini bilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Present Continuous nima?",
+              "bodyUz": "Present Continuous — **hozir, shu daqiqada** bo'layotgan ish-harakat uchun ishlatiladi:\n\n**am/is/are + fe'l + -ing**\n\n- *I am reading now.* — Men hozir o'qiyapman.\n- *She is cooking.* — U ovqat pishiryapti.\n- *They are playing football.* — Ular futbol o'ynashyapti.\n\nSignal so'zlar: **now, right now, at the moment, Look!, Listen!**"
+            },
+            {
+              "type": "theory",
+              "titleUz": "-ing qo'shish qoidalari",
+              "bodyUz": "- Oddiy holat: work → work**ing**, play → play**ing**\n- Fe'l **-e** bilan tugasa, e tushib qoladi: make → mak**ing**, write → writ**ing**\n- Qisqa unli + undosh bo'lsa, undosh ikkilanadi: run → ru**nn**ing, sit → si**tt**ing, swim → swi**mm**ing\n- **-ie** bilan tugasa → **-ying**: lie → l**ying**"
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "Look! It is raining.", "uz": "Qarang! Yomg'ir yog'yapti." },
+                { "en": "I am doing my homework at the moment.", "uz": "Men hozir uy vazifamni bajaryapman." },
+                { "en": "My mother is making samsa in the kitchen.", "uz": "Onam oshxonada somsa pishiryapti." },
+                { "en": "They aren't watching TV, they are studying.", "uz": "Ular televizor ko'rishmayapti, ular o'qishyapti." }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Present Simple va Present Continuous farqi",
+              "headers": ["", "Present Simple", "Present Continuous"],
+              "rows": [
+                ["Qachon?", "odatiy, takrorlanadigan", "hozir, shu paytda"],
+                ["Formula", "V1 (+s)", "am/is/are + V-ing"],
+                ["Signal so'zlar", "every day, usually, often", "now, at the moment, Look!"],
+                ["Misol", "I drink tea every morning.", "I am drinking tea now."]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Holat fe'llari — like, love, want, know, understand, need — davom zamonida ISHLATILMAYDI: ❌ I am wanting → ✅ I want. Imtihonda bu tez-tez tekshiriladi!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "Look! The children ___ football in the yard.", "options": ["play", "plays", "are playing", "is playing"] },
+              "answer": { "value": "are playing" },
+              "explanationUz": "«Look!» — harakat hozir bo'lyapti → Present Continuous. «The children» ko'plik → are playing."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni Present Continuous shaklida yozing:",
+              "data": { "text": "She ___ (cook) dinner at the moment." },
+              "answer": { "accept": ["is cooking", "'s cooking"] },
+              "explanationUz": "She + is + cooking. «at the moment» — hozir bo'layotgan harakat."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["I am wanting an ice cream.", "I want an ice cream.", "I wanting an ice cream.", "I wants an ice cream."] },
+              "answer": { "value": "I want an ice cream." },
+              "explanationUz": "«want» — holat fe'li, davom zamonida ishlatilmaydi: I want."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu gap grammatik jihatdan to'g'rimi?",
+              "data": { "statement": "They is playing chess now." },
+              "answer": { "value": "false" },
+              "explanationUz": "«They» ko'plik → are kerak: They are playing chess now."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["is", "now", "my mother", "tea", "making"] },
+              "answer": { "order": ["my mother", "is", "making", "tea", "now"] },
+              "explanationUz": "To'g'ri tartib: My mother is making tea now. (Ega + am/is/are + V-ing)"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Egani mos davomiy shakl bilan bog'lang:",
+              "data": { "left": ["I", "The baby", "My friends", "It"], "right": ["is raining outside", "am writing a letter", "are playing football", "is sleeping in the room"] },
+              "answer": { "pairs": { "I": "am writing a letter", "The baby": "is sleeping in the room", "My friends": "are playing football", "It": "is raining outside" } },
+              "explanationUz": "I — am; the baby/it — is; my friends — are. Ma'noga ham e'tibor bering: It is raining — yomg'ir yog'yapti."
+            }
+          ]
+        },
+        {
+          "slug": "past-simple-regular",
+          "titleUz": "Past Simple: to'g'ri fe'llar (-ed) va was/were",
+          "titleEn": "Past Simple: regular verbs & was/were",
+          "skill": "GRAMMAR",
+          "level": "A2",
+          "order": 1,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "was/were ni to'g'ri tanlash",
+            "To'g'ri fe'llarga -ed qo'shish qoidalarini bilish",
+            "didn't va Did bilan inkor-so'roq gap tuzish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "O'tgan zamonda «to be»: was / were",
+              "bodyUz": "«To be» fe'lining o'tgan zamoni ikki shaklga ega:\n\n- **I/He/She/It + was**: *I was at home yesterday.* — Kecha uyda edim.\n- **We/You/They + were**: *They were tired.* — Ular charchagan edi.\n\nInkor: **wasn't / weren't**. So'roq: *Was he at school? Were you busy?*\n\nSignal so'zlar: **yesterday, last week, two days ago, in 2020**"
+            },
+            {
+              "type": "theory",
+              "titleUz": "To'g'ri fe'llar: -ed",
+              "bodyUz": "O'tgan zamonda to'g'ri fe'llarga **-ed** qo'shiladi va bu shakl BARCHA shaxslar uchun bir xil:\n\n*I worked. She worked. They worked.*\n\nDiqqat: o'tgan zamonda 3-shaxs uchun -s qo'shilmaydi!"
+            },
+            {
+              "type": "table",
+              "titleUz": "-ed qo'shish qoidalari",
+              "headers": ["Qoida", "Misol", "Tarjima"],
+              "rows": [
+                ["Oddiy holat: + -ed", "work → worked", "ishladi"],
+                ["-e bilan tugasa: + -d", "live → lived", "yashadi"],
+                ["undosh + y → -ied", "study → studied", "o'qidi"],
+                ["qisqa unli + undosh → ikkilanadi", "stop → stopped", "to'xtadi"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I watched an interesting film yesterday.", "uz": "Kecha qiziqarli film ko'rdim." },
+                { "en": "She was at home last night.", "uz": "U kecha kechqurun uyda edi." },
+                { "en": "We visited our grandparents last week.", "uz": "O'tgan hafta buvi-buvamiznikiga bordik." },
+                { "en": "They weren't at school two days ago.", "uz": "Ular ikki kun oldin maktabda emas edi." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Inkor va so'roq: didn't / Did",
+              "bodyUz": "- Inkor: **didn't + fe'l (asos shakl)**: *I didn't work yesterday.*\n- So'roq: **Did + ega + fe'l?**: *Did you watch the match?*\n\n⚠️ didn't/Did dan keyin fe'l ASOS shaklda qoladi:\n❌ *She didn't worked* → ✅ *She didn't work*"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "«yesterday», «last ...», «... ago» so'zlarini ko'rsangiz — bu Past Simple! «ago» doim davr oxirida turadi: two years ago (ikki yil oldin)."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "Where ___ you yesterday? — I ___ at home.", "options": ["was / was", "were / was", "were / were", "was / were"] },
+              "answer": { "value": "were / was" },
+              "explanationUz": "«you» bilan were, «I» bilan was ishlatiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni Past Simple shaklida yozing:",
+              "data": { "text": "We ___ (play) volleyball last Sunday." },
+              "answer": { "accept": ["played"] },
+              "explanationUz": "To'g'ri fe'l: play + -ed = played."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni Past Simple shaklida yozing:",
+              "data": { "text": "He ___ (study) for the test two days ago." },
+              "answer": { "accept": ["studied"] },
+              "explanationUz": "undosh + y → -ied: studied."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["She didn't watched the film.", "She didn't watch the film.", "She doesn't watched the film.", "She didn't watches the film."] },
+              "answer": { "value": "She didn't watch the film." },
+              "explanationUz": "didn't dan keyin fe'l asos shaklda: didn't watch (watched EMAS)."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu to'g'rimi?",
+              "data": { "statement": "The past form of 'stop' is 'stoped'." },
+              "answer": { "value": "false" },
+              "explanationUz": "Qisqa unli + undosh → undosh ikkilanadi: stopped."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["was", "the film", "interesting", "very"] },
+              "answer": { "order": ["the film", "was", "very", "interesting"] },
+              "explanationUz": "To'g'ri tartib: The film was very interesting."
+            }
+          ]
+        },
+        {
+          "slug": "past-simple-irregular",
+          "titleUz": "Past Simple: noto'g'ri fe'llar",
+          "titleEn": "Past Simple: irregular verbs",
+          "skill": "GRAMMAR",
+          "level": "A2",
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "25 ta eng muhim noto'g'ri fe'lning o'tgan shaklini yodlash",
+            "Noto'g'ri fe'llar bilan darak gap tuzish",
+            "Inkor va so'roqda asos shaklga qaytishni unutmaslik"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Noto'g'ri fe'llar nima?",
+              "bodyUz": "Ingliz tilidagi eng ko'p ishlatiladigan fe'llarning aksariyati **noto'g'ri**: ularga -ed qo'shilmaydi, shakli butunlay o'zgaradi:\n\n- go → **went** (bordi)\n- buy → **bought** (sotib oldi)\n\nUlarni yodlashdan boshqa yo'l yo'q — lekin xavotir olmang: quyidagi 25 tasi bilan kundalik gaplarning 90% ini qura olasiz."
+            },
+            {
+              "type": "table",
+              "titleUz": "25 ta eng muhim noto'g'ri fe'l",
+              "headers": ["V1 (hozirgi)", "V2 (o'tgan)", "Tarjima"],
+              "rows": [
+                ["be", "was / were", "bo'lmoq"],
+                ["go", "went", "bormoq"],
+                ["come", "came", "kelmoq"],
+                ["see", "saw", "ko'rmoq"],
+                ["say", "said", "aytmoq"],
+                ["get", "got", "olmoq, ega bo'lmoq"],
+                ["make", "made", "qilmoq, yasamoq"],
+                ["know", "knew", "bilmoq"],
+                ["take", "took", "olmoq, olib bormoq"],
+                ["give", "gave", "bermoq"],
+                ["find", "found", "topmoq"],
+                ["think", "thought", "o'ylamoq"],
+                ["tell", "told", "aytib bermoq"],
+                ["become", "became", "bo'lmoq, aylanmoq"],
+                ["leave", "left", "ketmoq, tark etmoq"],
+                ["put", "put", "qo'ymoq"],
+                ["read", "read [red]", "o'qimoq"],
+                ["buy", "bought", "sotib olmoq"],
+                ["eat", "ate", "yemoq"],
+                ["drink", "drank", "ichmoq"],
+                ["write", "wrote", "yozmoq"],
+                ["do", "did", "bajarmoq"],
+                ["have", "had", "ega bo'lmoq"],
+                ["speak", "spoke", "gapirmoq"],
+                ["meet", "met", "uchrashmoq"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I went to Samarkand last summer.", "uz": "O'tgan yozda Samarqandga bordim." },
+                { "en": "She bought a new phone yesterday.", "uz": "U kecha yangi telefon sotib oldi." },
+                { "en": "We ate plov at the wedding.", "uz": "Biz to'yda osh yedik." },
+                { "en": "He wrote a letter to his friend.", "uz": "U do'stiga xat yozdi." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Inkor va so'roqda — asos shakl!",
+              "bodyUz": "Noto'g'ri fe'llarda ham inkor va so'roq **did** bilan tuziladi, fe'l esa asos shaklga qaytadi:\n\n- ✅ *I didn't go to work.* ❌ *I didn't went*\n- ✅ *Did you see the match?* ❌ *Did you saw...?*\n\nV2 shakl faqat DARAK gapda ishlatiladi: *I went home.*"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Har kuni 5 tadan fe'l yodlang va ular bilan o'zingiz haqingizda gap tuzing: «Yesterday I got up at 7, drank tea, went to work...». Diqqat: «read» ning o'tgan shakli ham «read» deb yoziladi, lekin [red] deb o'qiladi!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "Yesterday I ___ my grandmother in the village.", "options": ["see", "saw", "seed", "sees"] },
+              "answer": { "value": "saw" },
+              "explanationUz": "see — noto'g'ri fe'l: see → saw. «Yesterday» → Past Simple."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni Past Simple shaklida yozing:",
+              "data": { "text": "She ___ (buy) bread and milk yesterday." },
+              "answer": { "accept": ["bought"] },
+              "explanationUz": "buy → bought (noto'g'ri fe'l)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Qavs ichidagi fe'lni Past Simple shaklida yozing:",
+              "data": { "text": "We ___ (eat) delicious plov at the wedding last week." },
+              "answer": { "accept": ["ate"] },
+              "explanationUz": "eat → ate (noto'g'ri fe'l)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["Did you went to school?", "Did you go to school?", "Did you goes to school?", "You did go to school?"] },
+              "answer": { "value": "Did you go to school?" },
+              "explanationUz": "Did dan keyin fe'l asos shaklda: Did you go...? (went EMAS)."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Fe'lni o'tgan zamon shakli bilan bog'lang:",
+              "data": { "left": ["go", "write", "drink", "think"], "right": ["thought", "went", "drank", "wrote"] },
+              "answer": { "pairs": { "go": "went", "write": "wrote", "drink": "drank", "think": "thought" } },
+              "explanationUz": "go → went, write → wrote, drink → drank, think → thought — hammasi noto'g'ri fe'llar."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu to'g'rimi?",
+              "data": { "statement": "The past form of 'put' is 'put'." },
+              "answer": { "value": "true" },
+              "explanationUz": "put — shakli o'zgarmaydigan fe'l: put → put."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Inkor shaklda to'ldiring (not/go):",
+              "data": { "text": "I ___ to work yesterday because I was ill." },
+              "answer": { "accept": ["didn't go", "did not go"] },
+              "explanationUz": "Inkor: didn't + asos shakl: didn't go (went EMAS)."
+            }
+          ]
+        },
+        {
+          "slug": "articles-a-an-the",
+          "titleUz": "Artikllar: a / an / the",
+          "titleEn": "Articles: a / an / the",
+          "skill": "GRAMMAR",
+          "level": "A2",
+          "order": 3,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "a va an ni talaffuzga qarab to'g'ri tanlash",
+            "The qachon ishlatilishini bilish",
+            "Artikl umuman kerak bo'lmagan holatlarni ajratish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Artikl nima va nega bizga qiyin?",
+              "bodyUz": "O'zbek tilida artikl YO'Q — shuning uchun bu mavzu bizga g'alati tuyuladi. Ingliz tilida esa deyarli har bir otning oldida artikl turadi:\n\n- **a/an** — noaniq artikl: «qandaydir bitta» — *a book* (bitta, qaysidir kitob)\n- **the** — aniq artikl: «o'sha, ma'lum» — *the book* (siz bilgan o'sha kitob)\n\nO'zbekchada «bitta» va «o'sha/haligi» so'zlari taxminan shu vazifani bajaradi: *Menga bitta kitob ber* (a book) / *Haligi kitobni ber* (the book)."
+            },
+            {
+              "type": "theory",
+              "titleUz": "a yoki an?",
+              "bodyUz": "Keyingi so'z qanday TOVUSH bilan boshlanishiga qarang (harfga emas!):\n\n- Undosh tovush → **a**: *a book, a table, a university* [yu — undosh tovush!]\n- Unli tovush → **an**: *an apple, an egg, an hour* [h o'qilmaydi!]\n\na/an faqat SANALADIGAN BIRLIK otlar bilan ishlatiladi: *a car* ✅, *a water* ❌, *a cars* ❌"
+            },
+            {
+              "type": "theory",
+              "titleUz": "The qachon ishlatiladi?",
+              "bodyUz": "**The** — suhbatdoshingiz QAYSI narsa haqida gap ketayotganini bilsa:\n\n1. Ikkinchi marta tilga olinganda: *I saw a cat. The cat was black.*\n2. Dunyoda yagona narsalar: *the sun, the moon, the Internet*\n3. Musiqa asboblari: *play the piano, play the guitar*\n4. Ikkalangiz ham biladigan narsa: *Open the window* (xonadagi o'sha deraza)"
+            },
+            {
+              "type": "table",
+              "titleUz": "Xarita: qachon a, qachon the, qachon hech narsa",
+              "headers": ["Holat", "Artikl", "Misol"],
+              "rows": [
+                ["Birinchi marta aytilgan birlik ot", "a / an", "I have a dog."],
+                ["Ikkinchi marta / ma'lum narsa", "the", "The dog is big."],
+                ["Dunyoda yagona narsalar", "the", "the sun, the moon"],
+                ["Ko'plik otlar umumiy ma'noda", "— (yo'q)", "I like apples."],
+                ["Sanalmaydigan otlar umumiy ma'noda", "— (yo'q)", "Water is important."],
+                ["Ovqat, shahar va mamlakat nomlari", "— (yo'q)", "breakfast, Tashkent, Uzbekistan"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Misollar",
+              "items": [
+                { "en": "I bought a phone. The phone is very fast.", "uz": "Telefon sotib oldim. (O'sha) telefon juda tez." },
+                { "en": "She plays the piano well.", "uz": "U pianinoni yaxshi chaladi." },
+                { "en": "We have breakfast at 7.", "uz": "Biz soat 7 da nonushta qilamiz. (ovqat nomi — artiklsiz)" },
+                { "en": "Life is beautiful.", "uz": "Hayot go'zal. (umumiy ma'no — artiklsiz)" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihonning sevimli tuzog'i: «an hour» (h o'qilmaydi), lekin «a university» (yu — undosh tovush). Harfga emas, TOVUSHGA qarang!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "I need ___ umbrella.", "options": ["a", "an", "the", "— (artiklsiz)"] },
+              "answer": { "value": "an" },
+              "explanationUz": "«umbrella» unli tovush bilan boshlanadi → an."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "She is ___ university student.", "options": ["a", "an", "the", "— (artiklsiz)"] },
+              "answer": { "value": "a" },
+              "explanationUz": "«university» [yu] undosh tovush bilan boshlanadi → a. Harf emas, tovush muhim!"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring (a/an/the):",
+              "data": { "text": "I saw a cat in the street. ___ cat was very small." },
+              "answer": { "accept": ["The", "the"] },
+              "explanationUz": "Ot ikkinchi marta tilga olinyapti → the."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "___ sun rises in the east.", "options": ["A", "An", "The", "— (artiklsiz)"] },
+              "answer": { "value": "The" },
+              "explanationUz": "Quyosh — dunyoda yagona narsa → the sun."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["I like the music very much.", "I like music very much.", "I like a music very much.", "I like an music very much."] },
+              "answer": { "value": "I like music very much." },
+              "explanationUz": "«music» — sanalmaydigan ot, umumiy ma'noda artiklsiz ishlatiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bu to'g'rimi?",
+              "data": { "statement": "We say 'an hour' because the letter 'h' is silent." },
+              "answer": { "value": "true" },
+              "explanationUz": "«hour» so'zida h o'qilmaydi, so'z unli tovush bilan boshlanadi → an hour."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "So'z birikmasini to'g'ri artikl bilan bog'lang:",
+              "data": { "left": ["___ apple", "___ house", "play ___ guitar", "I live in ___ Tashkent"], "right": ["the", "— (artiklsiz)", "an", "a"] },
+              "answer": { "pairs": { "___ apple": "an", "___ house": "a", "play ___ guitar": "the", "I live in ___ Tashkent": "— (artiklsiz)" } },
+              "explanationUz": "apple — unli tovush (an); house — undosh (a); musiqa asbobi — the; shahar nomi — artiklsiz."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "everyday-english-2",
+      "titleUz": "Kundalik ingliz tili II: shahar va xizmatlar",
+      "order": 3,
+      "lessons": [
+        {
+          "slug": "asking-directions",
+          "titleUz": "Yo'nalish so'rash va ko'rsatish",
+          "titleEn": "Asking for and giving directions",
+          "skill": "SPEAKING",
+          "level": "A2",
+          "order": 0,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "Yo'nalishni muloyim so'rashni o'rganish",
+            "turn left / go straight kabi ko'rsatmalarni tushunish va berish",
+            "Joy predloglarini (next to, opposite, between) ishlatish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Yo'nalish so'rash",
+              "bodyUz": "Notanish odamdan biror narsa so'rashdan oldin **Excuse me** (kechirasiz) deyiladi:\n\n- *Excuse me, where is the bank?* — Kechirasiz, bank qayerda?\n- *How can I get to the station?* — Vokzalga qanday borsam bo'ladi?\n- *Is there a pharmacy near here?* — Bu yaqin atrofda dorixona bormi?"
+            },
+            {
+              "type": "example",
+              "titleUz": "Yo'nalish ko'rsatish iboralari",
+              "items": [
+                { "en": "Turn left. / Turn right.", "uz": "Chapga buriling. / O'ngga buriling." },
+                { "en": "Go straight on.", "uz": "To'g'riga yuring." },
+                { "en": "Take the second street on the left.", "uz": "Chapdagi ikkinchi ko'chaga buriling." },
+                { "en": "It's on your right.", "uz": "U o'ng tomoningizda." },
+                { "en": "It's about five minutes on foot.", "uz": "Piyoda taxminan besh daqiqa." }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Joy predloglari",
+              "headers": ["English", "O'zbekcha", "Misol"],
+              "rows": [
+                ["next to", "yonida", "The bank is next to the school."],
+                ["opposite", "ro'parasida", "The park is opposite the hotel."],
+                ["between", "orasida", "The cafe is between the bank and the shop."],
+                ["behind", "orqasida", "The car park is behind the market."],
+                ["in front of", "oldida", "The bus stop is in front of the cinema."]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: ko'chada",
+              "lines": [
+                { "speaker": "A", "en": "Excuse me, how can I get to Chorsu market?", "uz": "Kechirasiz, Chorsu bozoriga qanday borsam bo'ladi?" },
+                { "speaker": "B", "en": "Go straight on, then turn left at the traffic lights.", "uz": "To'g'riga yuring, keyin svetoforda chapga buriling." },
+                { "speaker": "A", "en": "Is it far from here?", "uz": "Bu yerdan uzoqmi?" },
+                { "speaker": "B", "en": "No, it's about five minutes on foot. It's next to the big mosque.", "uz": "Yo'q, piyoda besh daqiqacha. U katta masjidning yonida." },
+                { "speaker": "A", "en": "Thank you very much!", "uz": "Katta rahmat!" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Javobni tushunmasangiz, xijolat bo'lmang: «Could you repeat that, please?» (Iltimos, qaytara olasizmi?) yoki «Could you speak more slowly?» deb so'rang. Bu imtihon speaking'ida ham foydali iboralar!"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Iborani tarjimasi bilan bog'lang:",
+              "data": { "left": ["turn left", "go straight on", "opposite", "next to"], "right": ["ro'parasida", "chapga burilmoq", "yonida", "to'g'riga yurmoq"] },
+              "answer": { "pairs": { "turn left": "chapga burilmoq", "go straight on": "to'g'riga yurmoq", "opposite": "ro'parasida", "next to": "yonida" } },
+              "explanationUz": "turn left — chapga burilmoq, go straight on — to'g'riga yurmoq, opposite — ro'parasida, next to — yonida."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "The pharmacy is ___ the bank and the school.", "options": ["between", "next", "straight", "turn"] },
+              "answer": { "value": "between" },
+              "explanationUz": "Ikki narsa ORASIDA → between ... and ..."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Iborani to'ldiring:",
+              "data": { "text": "Excuse me, how can I ___ to the railway station?" },
+              "answer": { "accept": ["get"] },
+              "explanationUz": "How can I get to...? — ...ga qanday borsam bo'ladi?"
+            },
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["me", "is", "excuse", "where", "the bank"] },
+              "answer": { "order": ["excuse", "me", "where", "is", "the bank"] },
+              "explanationUz": "To'g'ri tartib: Excuse me, where is the bank?"
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Yuqoridagi suhbatga ko'ra: Chorsu bozori qayerda?",
+              "data": { "options": ["Next to the big mosque.", "Opposite the bank.", "Behind the traffic lights.", "Between two shops."] },
+              "answer": { "value": "Next to the big mosque." },
+              "explanationUz": "Suhbatda: «It's next to the big mosque» — katta masjidning yonida."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "Bu to'g'rimi?",
+              "data": { "statement": "«Go straight on» means «o'ngga buriling»." },
+              "answer": { "value": "false" },
+              "explanationUz": "Go straight on — to'g'riga yuring. O'ngga buriling — turn right."
+            }
+          ]
+        },
+        {
+          "slug": "at-the-shop",
+          "titleUz": "Do'konda: narx, o'lcham va to'lov",
+          "titleEn": "At the shop: prices, sizes, payment",
+          "skill": "VOCABULARY",
+          "level": "A2",
+          "order": 1,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "How much...? bilan narx so'rashni o'rganish",
+            "Kiyim o'lchami va kiyib ko'rish iboralarini bilish",
+            "Naqd va karta bilan to'lov haqida gapirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Do'kondagi asosiy iboralar",
+              "bodyUz": "Narx so'rash:\n- *How much is it?* — Bu qancha turadi? (birlik)\n- *How much are these shoes?* — Bu poyabzal qancha? (ko'plik)\n\nSotuvchi sizga: *Can I help you?* (Yordam beraymi?) desa, javob:\n- *Yes, please. I'm looking for a T-shirt.* — Ha, futbolka qidiryapman.\n- *I'm just looking, thanks.* — Shunchaki ko'ryapman, rahmat."
+            },
+            {
+              "type": "example",
+              "titleUz": "Foydali iboralar",
+              "items": [
+                { "en": "How much is this shirt?", "uz": "Bu ko'ylak qancha turadi?" },
+                { "en": "Can I try it on?", "uz": "Kiyib ko'rsam bo'ladimi?" },
+                { "en": "Do you have it in a smaller size?", "uz": "Kichikroq o'lchami bormi?" },
+                { "en": "Can I pay by card?", "uz": "Karta bilan to'lasam bo'ladimi?" },
+                { "en": "Here's your change.", "uz": "Mana qaytimingiz." }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "O'lchamlar va to'lov so'zlari",
+              "headers": ["English", "O'zbekcha"],
+              "rows": [
+                ["size", "o'lcham"],
+                ["small (S) / medium (M) / large (L)", "kichik / o'rta / katta"],
+                ["fitting room", "kiyib ko'rish xonasi"],
+                ["cash", "naqd pul"],
+                ["(by) card", "karta bilan"],
+                ["receipt", "chek"],
+                ["change", "qaytim"],
+                ["discount", "chegirma"]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: kiyim do'konida",
+              "lines": [
+                { "speaker": "Sotuvchi", "en": "Hello! Can I help you?", "uz": "Assalomu alaykum! Yordam beraymi?" },
+                { "speaker": "Xaridor", "en": "Yes, please. How much is this T-shirt?", "uz": "Ha, iltimos. Bu futbolka qancha turadi?" },
+                { "speaker": "Sotuvchi", "en": "It's 90,000 soums.", "uz": "90 ming so'm." },
+                { "speaker": "Xaridor", "en": "Can I try it on?", "uz": "Kiyib ko'rsam bo'ladimi?" },
+                { "speaker": "Sotuvchi", "en": "Of course. The fitting room is over there.", "uz": "Albatta. Kiyib ko'rish xonasi ana u yerda." },
+                { "speaker": "Xaridor", "en": "It's a bit big. Do you have it in a medium?", "uz": "Biroz katta ekan. O'rta o'lchami bormi?" },
+                { "speaker": "Sotuvchi", "en": "Yes, here you are. That's 90,000 soums, please.", "uz": "Ha, marhamat. 90 ming so'm bo'ladi." },
+                { "speaker": "Xaridor", "en": "Can I pay by card?", "uz": "Karta bilan to'lasam bo'ladimi?" },
+                { "speaker": "Sotuvchi", "en": "Sure. Here's your receipt. Have a nice day!", "uz": "Albatta. Mana chekingiz. Yaxshi kun tilayman!" }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "«How much IS...?» — birlik bilan (How much is this jacket?), «How much ARE...?» — ko'plik bilan (How much are these shoes?). Narxni aytganda esa doim «It's...» ishlatiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "___ is this jacket? — It's 250,000 soums.", "options": ["How many", "How much", "How old", "How often"] },
+              "answer": { "value": "How much" },
+              "explanationUz": "Narx so'rash uchun How much ishlatiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Iborani to'ldiring (kiyib ko'rmoq):",
+              "data": { "text": "Can I ___ it on?" },
+              "answer": { "accept": ["try"] },
+              "explanationUz": "try on — kiyib ko'rmoq: Can I try it on?"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "So'zni tarjimasi bilan bog'lang:",
+              "data": { "left": ["fitting room", "change", "receipt", "discount"], "right": ["chek", "chegirma", "kiyib ko'rish xonasi", "qaytim"] },
+              "answer": { "pairs": { "fitting room": "kiyib ko'rish xonasi", "change": "qaytim", "receipt": "chek", "discount": "chegirma" } },
+              "explanationUz": "fitting room — kiyib ko'rish xonasi, change — qaytim, receipt — chek, discount — chegirma."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gap TO'G'RI?",
+              "data": { "options": ["How much are this shoes?", "How much is these shoes?", "How much are these shoes?", "How many are these shoes?"] },
+              "answer": { "value": "How much are these shoes?" },
+              "explanationUz": "«shoes» — ko'plik → these + are. Narx uchun How much (How many emas)."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["pay", "card", "I", "by", "can"] },
+              "answer": { "order": ["can", "I", "pay", "by", "card"] },
+              "explanationUz": "To'g'ri tartib: Can I pay by card?"
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "Bu to'g'rimi?",
+              "data": { "statement": "«I'm just looking, thanks» means «Menga yordam kerak»." },
+              "answer": { "value": "false" },
+              "explanationUz": "I'm just looking — «shunchaki ko'ryapman», ya'ni hozircha yordam kerak emas."
+            }
+          ]
+        },
+        {
+          "slug": "time-and-dates",
+          "titleUz": "Vaqt va sanalar: soat, kunlar, oylar",
+          "titleEn": "Time and dates",
+          "skill": "READING",
+          "level": "A2",
+          "order": 2,
+          "estimatedMinutes": 25,
+          "objectivesUz": [
+            "Soat va sanalarni inglizcha aytish",
+            "Hafta kunlari va oylarni bilish",
+            "Afisha va jadvallardan kerakli ma'lumotni topish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Soat nechada?",
+              "bodyUz": "*What time is it?* — Soat necha bo'ldi?\n\n- 3:00 — *It's three o'clock.*\n- 3:15 — *It's quarter past three.* (uchdan o'n besh daqiqa o'tdi)\n- 3:30 — *It's half past three.* (yarim to'rt)\n- 3:45 — *It's quarter to four.* (to'rtga chorak qoldi)\n\nOsonroq usul — raqamlab o'qish: 3:15 = *three fifteen*, 3:45 = *three forty-five*.\n\nVaqt bilan **at** predlogi ishlatiladi: *The lesson starts at 9:00.*"
+            },
+            {
+              "type": "table",
+              "titleUz": "Hafta kunlari va oylar",
+              "headers": ["Kunlar", "Tarjima", "Oylar", "Tarjima"],
+              "rows": [
+                ["Monday", "dushanba", "January / February", "yanvar / fevral"],
+                ["Tuesday", "seshanba", "March / April", "mart / aprel"],
+                ["Wednesday", "chorshanba", "May / June", "may / iyun"],
+                ["Thursday", "payshanba", "July / August", "iyul / avgust"],
+                ["Friday", "juma", "September / October", "sentabr / oktabr"],
+                ["Saturday", "shanba", "November / December", "noyabr / dekabr"],
+                ["Sunday", "yakshanba", "—", "Kun va oy nomlari doim bosh harf bilan!"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Sanalar va «When is...?»",
+              "bodyUz": "*When is your birthday?* — Tug'ilgan kuningiz qachon?\n*It's on the 5th of May.* / *It's on May 5th.*\n\nSanalarda tartib sonlar ishlatiladi: 1st (first), 2nd (second), 3rd (third), 4th (fourth), 21st (twenty-first)...\n\nPredloglar xaritasi:\n- **at** + soat: *at 6 o'clock*\n- **on** + kun/sana: *on Monday, on 21 March*\n- **in** + oy/yil: *in March, in 2026*"
+            },
+            {
+              "type": "theory",
+              "titleUz": "O'qish matni: Afisha",
+              "bodyUz": "**Yoshlik Culture Centre — March Programme**\n\n• **Navruz Holiday Concert** — Saturday, 21 March, 18:00. Main Hall. Tickets: 50,000 soums (students: 25,000 soums).\n\n• **English Film Club** — every Wednesday, 17:30. Room 14. Free entrance.\n\n• **Spring Book Fair** — 9–11 March, 10:00–19:00. Ground floor.\n\nThe ticket office is open Monday to Saturday, 9:00–18:00. It is closed on Sundays."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Afisha va jadval matnlarida avval SAVOLNI o'qing, keyin matndan raqam, kun va soatlarni skanerlang. «free» (bepul), «closed» (yopiq), «every» (har) kabi kichik so'zlar odatda javobni hal qiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "TRUE_FALSE",
+              "skill": "READING",
+              "promptUz": "Afisha bo'yicha: to'g'ri yoki noto'g'ri?",
+              "data": { "statement": "The Navruz concert starts at 8 o'clock in the evening." },
+              "answer": { "value": "false" },
+              "explanationUz": "Afishada: 18:00, ya'ni kechki 6 da boshlanadi (8 da emas)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Afisha bo'yicha: talaba uchun konsert chiptasi qancha?",
+              "data": { "options": ["50,000 soums", "25,000 soums", "Free", "10,000 soums"] },
+              "answer": { "value": "25,000 soums" },
+              "explanationUz": "Afishada: «Tickets: 50,000 soums (students: 25,000 soums)»."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Afisha bo'yicha: English Film Club qachon bo'ladi?",
+              "data": { "options": ["Every Monday", "Every Wednesday", "Every Saturday", "Every day"] },
+              "answer": { "value": "Every Wednesday" },
+              "explanationUz": "Afishada: «English Film Club — every Wednesday, 17:30»."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "READING",
+              "promptUz": "Afisha bo'yicha: to'g'ri yoki noto'g'ri?",
+              "data": { "statement": "You can buy a ticket on Sunday." },
+              "answer": { "value": "false" },
+              "explanationUz": "Afishada: «It is closed on Sundays» — kassa yakshanba kunlari yopiq."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "READING",
+              "promptUz": "Afisha bo'yicha: Spring Book Fair necha kun davom etadi? (raqam bilan yozing)",
+              "data": { "text": "The Spring Book Fair lasts ___ days." },
+              "answer": { "accept": ["3", "three"] },
+              "explanationUz": "9–11 mart = 9, 10 va 11 mart — jami 3 kun."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Soatni raqamli ko'rinishi bilan bog'lang:",
+              "data": { "left": ["half past two", "quarter past six", "quarter to ten", "five o'clock"], "right": ["6:15", "2:30", "5:00", "9:45"] },
+              "answer": { "pairs": { "half past two": "2:30", "quarter past six": "6:15", "quarter to ten": "9:45", "five o'clock": "5:00" } },
+              "explanationUz": "half past — yarim (30 daqiqa o'tdi), quarter past — 15 daqiqa o'tdi, quarter to — 15 daqiqa qoldi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri predlogni yozing (at/on/in):",
+              "data": { "text": "My birthday is ___ the 14th of June." },
+              "answer": { "accept": ["on"] },
+              "explanationUz": "Sanalar bilan «on» ishlatiladi: on the 14th of June."
+            }
+          ]
+        },
+        {
+          "slug": "at-the-cafe",
+          "titleUz": "Kafe va restoranda: buyurtma berish",
+          "titleEn": "At the cafe: ordering food",
+          "skill": "SPEAKING",
+          "level": "A2",
+          "order": 3,
+          "estimatedMinutes": 20,
+          "objectivesUz": [
+            "I'd like... / Can I have...? bilan muloyim buyurtma berish",
+            "Ofitsiant savollarini tushunish va javob berish",
+            "Sevimli taom haqida 5-6 gap ayta olish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Buyurtma berish iboralari",
+              "bodyUz": "Muloyim buyurtma uchun ikkita asosiy qolip:\n\n- **Can I have ..., please?** — ... berasizmi, iltimos?\n- **I'd like ...** (= I would like) — Men ... olmoqchiman.\n\n❌ *I want tea* — juda qo'pol eshitiladi. ✅ *I'd like some tea, please.*\n\nOfitsiant savollari:\n- *Are you ready to order?* — Buyurtma berishga tayyormisiz?\n- *Anything to drink?* — Ichishga biror narsa?\n- *Anything else?* — Yana biror narsa?"
+            },
+            {
+              "type": "example",
+              "titleUz": "Foydali iboralar",
+              "items": [
+                { "en": "Can I have a cup of green tea, please?", "uz": "Bir piyola ko'k choy berasizmi, iltimos?" },
+                { "en": "I'd like lagman soup, please.", "uz": "Lag'mon olmoqchiman, iltimos." },
+                { "en": "What would you like to drink?", "uz": "Nima ichasiz?" },
+                { "en": "No, that's all, thanks.", "uz": "Yo'q, shu yetarli, rahmat." },
+                { "en": "Can we have the bill, please?", "uz": "Hisobni keltirasizmi, iltimos?" }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Suhbat: restoranda",
+              "lines": [
+                { "speaker": "Ofitsiant", "en": "Good afternoon! Are you ready to order?", "uz": "Xayrli kun! Buyurtma berishga tayyormisiz?" },
+                { "speaker": "Mijoz", "en": "Yes. I'd like one lagman and a chicken salad, please.", "uz": "Ha. Bitta lag'mon va tovuqli salat olmoqchiman." },
+                { "speaker": "Ofitsiant", "en": "Anything to drink?", "uz": "Ichishga biror narsa?" },
+                { "speaker": "Mijoz", "en": "A bottle of still water, please.", "uz": "Bir shisha gazsiz suv, iltimos." },
+                { "speaker": "Ofitsiant", "en": "Anything else?", "uz": "Yana biror narsa?" },
+                { "speaker": "Mijoz", "en": "No, that's all, thanks.", "uz": "Yo'q, shu yetarli, rahmat." },
+                { "speaker": "Mijoz", "en": "Excuse me, can we have the bill, please?", "uz": "Kechirasiz, hisobni keltirasizmi?" },
+                { "speaker": "Ofitsiant", "en": "Of course. That's 65,000 soums.", "uz": "Albatta. 65 ming so'm bo'ldi." }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Foydali so'zlar",
+              "headers": ["English", "O'zbekcha"],
+              "rows": [
+                ["menu", "menyu"],
+                ["waiter / waitress", "ofitsiant"],
+                ["order", "buyurtma"],
+                ["main course", "asosiy taom"],
+                ["dessert", "shirinlik"],
+                ["bill", "hisob"],
+                ["delicious / tasty", "mazali"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Speaking imtihonida ovqat mavzusi tez-tez chiqadi: «What is your favourite food?». Javobni kengaytiring: taom nomi + nega yoqishi + qancha tez-tez yeyishingiz. «My favourite food is plov because... I usually eat it...»"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "To'g'ri variantni tanlang:",
+              "data": { "text": "___ I have a menu, please?", "options": ["Can", "Am", "Do", "Is"] },
+              "answer": { "value": "Can" },
+              "explanationUz": "Muloyim iltimos: Can I have..., please?"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Iborani to'ldiring:",
+              "data": { "text": "I'd ___ a cup of coffee, please." },
+              "answer": { "accept": ["like"] },
+              "explanationUz": "I'd like = I would like — men ... olmoqchiman."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "So'zlarni to'g'ri tartibda joylashtiring:",
+              "data": { "items": ["have", "please", "the bill,", "we", "can"] },
+              "answer": { "order": ["can", "we", "have", "the bill,", "please"] },
+              "explanationUz": "To'g'ri tartib: Can we have the bill, please?"
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "So'zni tarjimasi bilan bog'lang:",
+              "data": { "left": ["bill", "waiter", "dessert", "main course"], "right": ["asosiy taom", "hisob", "ofitsiant", "shirinlik"] },
+              "answer": { "pairs": { "bill": "hisob", "waiter": "ofitsiant", "dessert": "shirinlik", "main course": "asosiy taom" } },
+              "explanationUz": "bill — hisob, waiter — ofitsiant, dessert — shirinlik, main course — asosiy taom."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "READING",
+              "promptUz": "Yuqoridagi suhbatga ko'ra: mijoz nima ichadi?",
+              "data": { "options": ["Green tea", "Coffee", "Still water", "Lemonade"] },
+              "answer": { "value": "Still water" },
+              "explanationUz": "Suhbatda: «A bottle of still water, please» — bir shisha gazsiz suv."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Talk about your favourite food: what it is, why you like it, and how often you eat it. Speak for 45-60 seconds.",
+              "promptUz": "Sevimli taomingiz haqida gapiring: bu qanday taom, nega sizga yoqadi va uni qancha tez-tez yeysiz. 45-60 soniya gapiring.",
+              "data": { "preparationSeconds": 30, "recordSeconds": 60 }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

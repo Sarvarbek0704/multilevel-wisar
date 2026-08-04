@@ -1533,39 +1533,6 @@
     {
       "level": "B2",
       "topic": "Shahar va transport",
-      "word": "infrastructure",
-      "phonetic": "/ˈɪnfrəstrʌktʃə/",
-      "partOfSpeech": "noun",
-      "translation": "infratuzilma",
-      "definitionEn": "the basic systems of a place, such as roads, water and power",
-      "exampleEn": "The city cannot grow without serious investment in infrastructure.",
-      "exampleUz": "Shahar infratuzilmaga jiddiy sarmoya kiritmasdan o'sa olmaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Shahar va transport",
-      "word": "urban",
-      "phonetic": "/ˈɜːbən/",
-      "partOfSpeech": "adjective",
-      "translation": "shaharga oid",
-      "definitionEn": "connected with a town or city",
-      "exampleEn": "Urban families have much better access to hospitals.",
-      "exampleUz": "Shahar oilalari shifoxonalardan ancha yaxshi foydalana oladi."
-    },
-    {
-      "level": "B2",
-      "topic": "Shahar va transport",
-      "word": "rural",
-      "phonetic": "/ˈrʊərəl/",
-      "partOfSpeech": "adjective",
-      "translation": "qishloqqa oid",
-      "definitionEn": "connected with the countryside",
-      "exampleEn": "Rural areas are losing young people every year.",
-      "exampleUz": "Qishloq hududlari har yili yoshlarni yo'qotmoqda."
-    },
-    {
-      "level": "B2",
-      "topic": "Shahar va transport",
       "word": "suburb",
       "phonetic": "/ˈsʌbɜːb/",
       "partOfSpeech": "noun",
@@ -1727,17 +1694,6 @@
       "definitionEn": "an area where one car can be left",
       "exampleEn": "Drivers waste fuel searching for a parking space in the centre.",
       "exampleUz": "Haydovchilar markazda avtoturargoh joyi qidirib yoqilg'i behuda sarflaydi."
-    },
-    {
-      "level": "C1",
-      "topic": "Shahar va transport",
-      "word": "urbanisation",
-      "phonetic": "/ˌɜːbənaɪˈzeɪʃn/",
-      "partOfSpeech": "noun",
-      "translation": "urbanizatsiya, shaharlashuv",
-      "definitionEn": "the process by which more and more people come to live in cities",
-      "exampleEn": "Rapid urbanisation has put enormous pressure on water supplies.",
-      "exampleUz": "Tez shaharlashuv suv ta'minotiga ulkan bosim o'tkazdi."
     },
     {
       "level": "C1",
@@ -1984,17 +1940,6 @@
     {
       "level": "B2",
       "topic": "Ish va karyera",
-      "word": "workforce",
-      "phonetic": "/ˈwɜːkfɔːs/",
-      "partOfSpeech": "noun",
-      "translation": "ishchi kuchi",
-      "definitionEn": "all the people who work for a company or in a country",
-      "exampleEn": "Women make up nearly half of the national workforce.",
-      "exampleUz": "Ayollar mamlakat ishchi kuchining deyarli yarmini tashkil qiladi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
       "word": "freelance",
       "phonetic": "/ˈfriːlɑːns/",
       "partOfSpeech": "adjective",
@@ -2017,17 +1962,6 @@
     {
       "level": "B2",
       "topic": "Ish va karyera",
-      "word": "overtime",
-      "phonetic": "/ˈəʊvətaɪm/",
-      "partOfSpeech": "noun",
-      "translation": "qo'shimcha ish vaqti",
-      "definitionEn": "extra hours worked beyond normal working time",
-      "exampleEn": "He works overtime every weekend to support his family.",
-      "exampleUz": "U oilasini boqish uchun har dam olish kunlari qo'shimcha ishlaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
       "word": "shift",
       "phonetic": "/ʃɪft/",
       "partOfSpeech": "noun",
@@ -2035,17 +1969,6 @@
       "definitionEn": "a period of work in a place that operates day and night",
       "exampleEn": "Nurses on the night shift are paid extra.",
       "exampleUz": "Tungi smenadagi hamshiralarga qo'shimcha to'lanadi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "colleague",
-      "phonetic": "/ˈkɒliːɡ/",
-      "partOfSpeech": "noun",
-      "translation": "hamkasb",
-      "definitionEn": "a person you work with",
-      "exampleEn": "Good relations with colleagues make hard work much easier.",
-      "exampleUz": "Hamkasblar bilan yaxshi munosabat og'ir ishni ancha osonlashtiradi."
     },
     {
       "level": "B2",
@@ -2068,39 +1991,6 @@
       "definitionEn": "to officially leave your job",
       "exampleEn": "She resigned after a serious disagreement with the director.",
       "exampleUz": "U direktor bilan jiddiy kelishmovchilikdan so'ng iste'foga chiqdi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "retire",
-      "phonetic": "/rɪˈtaɪə/",
-      "partOfSpeech": "verb",
-      "translation": "nafaqaga chiqmoq",
-      "definitionEn": "to stop working permanently, usually because of age",
-      "exampleEn": "Most people here retire at sixty.",
-      "exampleUz": "Bu yerda ko'pchilik oltmish yoshda nafaqaga chiqadi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "internship",
-      "phonetic": "/ˈɪntɜːnʃɪp/",
-      "partOfSpeech": "noun",
-      "translation": "amaliyot, stajirovka",
-      "definitionEn": "a period of work experience, often short and unpaid",
-      "exampleEn": "A summer internship gave her real office experience.",
-      "exampleUz": "Yozgi amaliyot unga haqiqiy ofis tajribasini berdi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "entrepreneur",
-      "phonetic": "/ˌɒntrəprəˈnɜː/",
-      "partOfSpeech": "noun",
-      "translation": "tadbirkor",
-      "definitionEn": "a person who starts a business and accepts financial risk",
-      "exampleEn": "Young entrepreneurs need cheap loans, not just advice.",
-      "exampleUz": "Yosh tadbirkorlarga faqat maslahat emas, arzon kredit kerak."
     },
     {
       "level": "B2",
@@ -2156,17 +2046,6 @@
       "definitionEn": "to employ someone, or to accept extra work",
       "exampleEn": "The factory took on fifty new workers last month.",
       "exampleUz": "Zavod o'tgan oy ellikta yangi ishchini ishga oldi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "turn down",
-      "phonetic": "/tɜːn ˈdaʊn/",
-      "partOfSpeech": "phrasal verb",
-      "translation": "rad etmoq",
-      "definitionEn": "to refuse an offer or request",
-      "exampleEn": "He turned down the offer because of the long hours.",
-      "exampleUz": "U uzoq ish soatlari tufayli taklifni rad etdi."
     },
     {
       "level": "C1",
@@ -2244,17 +2123,6 @@
       "definitionEn": "the chances of future success in a job",
       "exampleEn": "The work is dull but the career prospects are excellent.",
       "exampleUz": "Ish zerikarli, lekin kasbiy istiqboli a'lo."
-    },
-    {
-      "level": "C1",
-      "topic": "Ish va karyera",
-      "word": "vacancy",
-      "phonetic": "/ˈveɪkənsi/",
-      "partOfSpeech": "noun",
-      "translation": "bo'sh ish o'rni",
-      "definitionEn": "a job that is available for someone to take",
-      "exampleEn": "There are three vacancies in the marketing department.",
-      "exampleUz": "Marketing bo'limida uchta bo'sh ish o'rni bor."
     },
     {
       "level": "C1",
@@ -2402,28 +2270,6 @@
     {
       "level": "B2",
       "topic": "Madaniyat va ommaviy axborot",
-      "word": "journalist",
-      "phonetic": "/ˈdʒɜːnəlɪst/",
-      "partOfSpeech": "noun",
-      "translation": "jurnalist",
-      "definitionEn": "a person who writes or reports news",
-      "exampleEn": "Journalists must check their sources very carefully.",
-      "exampleUz": "Jurnalistlar manbalarini juda sinchkovlik bilan tekshirishi kerak."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
-      "word": "documentary",
-      "phonetic": "/ˌdɒkjuˈmentri/",
-      "partOfSpeech": "noun",
-      "translation": "hujjatli film",
-      "definitionEn": "a film or programme that gives facts about a subject",
-      "exampleEn": "The documentary changed public attitudes to plastic waste.",
-      "exampleUz": "Hujjatli film jamoatchilikning plastik chiqindiga munosabatini o'zgartirdi."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
       "word": "subtitle",
       "phonetic": "/ˈsʌbtaɪtl/",
       "partOfSpeech": "noun",
@@ -2431,17 +2277,6 @@
       "definitionEn": "words on the screen that show what people are saying",
       "exampleEn": "Watching films with English subtitles improves your listening.",
       "exampleUz": "Ingliz subtitrlari bilan film ko'rish tinglash ko'nikmangizni yaxshilaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
-      "word": "celebrity",
-      "phonetic": "/səˈlebrəti/",
-      "partOfSpeech": "noun",
-      "translation": "mashhur shaxs",
-      "definitionEn": "a famous person, especially in entertainment or sport",
-      "exampleEn": "Teenagers copy the lifestyle of their favourite celebrities.",
-      "exampleUz": "O'smirlar sevimli mashhur shaxslarining turmush tarzini nusxalaydi."
     },
     {
       "level": "B2",
@@ -2523,17 +2358,6 @@
     {
       "level": "B2",
       "topic": "Madaniyat va ommaviy axborot",
-      "word": "subscriber",
-      "phonetic": "/səbˈskraɪbə/",
-      "partOfSpeech": "noun",
-      "translation": "obunachi",
-      "definitionEn": "a person who signs up or pays to receive content regularly",
-      "exampleEn": "The channel gained a million subscribers in a single year.",
-      "exampleUz": "Kanal bir yilning o'zida bir million obunachi to'pladi."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
       "word": "content creator",
       "phonetic": "/ˈkɒntent kriˌeɪtə/",
       "partOfSpeech": "noun",
@@ -2611,17 +2435,6 @@
     {
       "level": "C1",
       "topic": "Madaniyat va ommaviy axborot",
-      "word": "censorship",
-      "phonetic": "/ˈsensəʃɪp/",
-      "partOfSpeech": "noun",
-      "translation": "senzura",
-      "definitionEn": "official control of what may be published or said",
-      "exampleEn": "Censorship of the press limits open public debate.",
-      "exampleUz": "Matbuot senzurasi ochiq ommaviy muhokamani cheklaydi."
-    },
-    {
-      "level": "C1",
-      "topic": "Madaniyat va ommaviy axborot",
       "word": "stereotype",
       "phonetic": "/ˈsteriətaɪp/",
       "partOfSpeech": "noun",
@@ -2651,17 +2464,6 @@
       "definitionEn": "presenting news in a shocking way in order to attract attention",
       "exampleEn": "Sensationalism sells newspapers but distorts the truth.",
       "exampleUz": "Shov-shuvga o'chlik gazetani sotadi, lekin haqiqatni buzadi."
-    },
-    {
-      "level": "C1",
-      "topic": "Madaniyat va ommaviy axborot",
-      "word": "propaganda",
-      "phonetic": "/ˌprɒpəˈɡændə/",
-      "partOfSpeech": "noun",
-      "translation": "targ'ibot, propaganda",
-      "definitionEn": "information spread in order to make people support an idea",
-      "exampleEn": "Wartime propaganda presented only one side of the story.",
-      "exampleUz": "Urush davri propagandasi voqeaning faqat bir tomonini ko'rsatgan."
     },
     {
       "level": "C1",
@@ -2831,17 +2633,6 @@
     {
       "level": "B2",
       "topic": "Global muammolar",
-      "word": "globalisation",
-      "phonetic": "/ˌɡləʊbəlaɪˈzeɪʃn/",
-      "partOfSpeech": "noun",
-      "translation": "globallashuv",
-      "definitionEn": "the process by which countries become more closely connected",
-      "exampleEn": "Globalisation has brought cheaper goods but weaker local industry.",
-      "exampleUz": "Globallashuv arzonroq tovar keltirdi, lekin mahalliy sanoatni zaiflashtirdi."
-    },
-    {
-      "level": "B2",
-      "topic": "Global muammolar",
       "word": "refugee",
       "phonetic": "/ˌrefjuˈdʒiː/",
       "partOfSpeech": "noun",
@@ -2849,17 +2640,6 @@
       "definitionEn": "a person forced to leave their country because of war or danger",
       "exampleEn": "Neighbouring countries have accepted thousands of refugees.",
       "exampleUz": "Qo'shni davlatlar minglab qochqinni qabul qildi."
-    },
-    {
-      "level": "B2",
-      "topic": "Global muammolar",
-      "word": "migration",
-      "phonetic": "/maɪˈɡreɪʃn/",
-      "partOfSpeech": "noun",
-      "translation": "migratsiya, ko'chish",
-      "definitionEn": "the movement of people from one place to another to live or work",
-      "exampleEn": "Labour migration supports millions of families at home.",
-      "exampleUz": "Mehnat migratsiyasi vatandagi millionlab oilani boqadi."
     },
     {
       "level": "B2",
@@ -2904,17 +2684,6 @@
       "definitionEn": "the basic freedoms that every person should have",
       "exampleEn": "Access to education is a basic human right.",
       "exampleUz": "Ta'lim olish — asosiy inson huquqi."
-    },
-    {
-      "level": "B2",
-      "topic": "Global muammolar",
-      "word": "corruption",
-      "phonetic": "/kəˈrʌpʃn/",
-      "partOfSpeech": "noun",
-      "translation": "korrupsiya",
-      "definitionEn": "dishonest or illegal behaviour by people in power",
-      "exampleEn": "Corruption slows down every serious reform.",
-      "exampleUz": "Korrupsiya har qanday jiddiy islohotni sekinlashtiradi."
     },
     {
       "level": "B2",
@@ -2992,17 +2761,6 @@
       "definitionEn": "an event such as a flood or earthquake that causes great damage",
       "exampleEn": "The country was hit by three natural disasters in one year.",
       "exampleUz": "Mamlakat bir yilda uchta tabiiy ofatga duch keldi."
-    },
-    {
-      "level": "B2",
-      "topic": "Global muammolar",
-      "word": "charity",
-      "phonetic": "/ˈtʃærəti/",
-      "partOfSpeech": "noun",
-      "translation": "xayriya tashkiloti",
-      "definitionEn": "an organisation that helps people in need",
-      "exampleEn": "Local charities distributed food to the poorest families.",
-      "exampleUz": "Mahalliy xayriya tashkilotlari eng kambag'al oilalarga oziq-ovqat tarqatdi."
     },
     {
       "level": "B2",
@@ -3256,17 +3014,6 @@
       "definitionEn": "easily harmed and in need of special protection",
       "exampleEn": "Aid should reach the most vulnerable families first.",
       "exampleUz": "Yordam avvalo eng himoyasiz oilalarga yetib borishi kerak."
-    },
-    {
-      "level": "C1",
-      "topic": "Global muammolar",
-      "word": "stem from",
-      "phonetic": "/stem frɒm/",
-      "partOfSpeech": "phrasal verb",
-      "translation": "kelib chiqmoq",
-      "definitionEn": "to be caused by something",
-      "exampleEn": "Much of the unrest stems from youth unemployment.",
-      "exampleUz": "Notinchlikning ko'p qismi yoshlar ishsizligidan kelib chiqadi."
     }
   ]
 }

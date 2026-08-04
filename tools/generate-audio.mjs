@@ -67,11 +67,16 @@ async function synthesize(text, voice, outPath) {
   for (let attempt = 1; attempt <= MAX_TRIES; attempt++) {
     try {
       await synthesizeOnce(text, voice, outPath);
+      throttle.relax();
       return;
     } catch (error) {
       lastError = error;
-      console.log(`   ⚠ urinish ${attempt}/${MAX_TRIES}: ${error.message}`);
-      await new Promise((r) => setTimeout(r, 2000 * attempt));
+      throttle.penalise();
+      console.log(
+        `   ⚠ urinish ${attempt}/${MAX_TRIES}: ${error.message}` +
+          (throttle.extraMs ? ` (kutish +${throttle.extraMs / 1000}s)` : ''),
+      );
+      await pause(2000 * attempt + throttle.extraMs);
     }
   }
   throw lastError;
@@ -149,6 +154,24 @@ const PAUSE_AFTER_FAIL_MS = 15_000;
 
 const pause = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/**
+ * Edge TTS ketma-ket ko'p so'rovdan keyin ulanishlarni uza boshlaydi.
+ * Har muvaffaqiyatsizlikdan keyin kutish oynasini kengaytiramiz, muvaffaqiyatdan
+ * keyin asta qisqartiramiz — shunda skript o'zini xizmat tezligiga moslaydi.
+ */
+const throttle = {
+  extraMs: 0,
+  penalise() {
+    this.extraMs = Math.min(20_000, this.extraMs === 0 ? 2000 : this.extraMs * 2);
+  },
+  relax() {
+    this.extraMs = Math.max(0, Math.floor(this.extraMs / 2));
+  },
+  get waitMs() {
+    return PAUSE_BETWEEN_MS + this.extraMs;
+  },
+};
+
 /** Vaqtinchalik segment fayllarini o'chirish. */
 function cleanupSegments(baseName, count) {
   for (let i = 0; i < count; i++) {
@@ -190,7 +213,7 @@ async function main() {
               const tmpPath = join(AUDIO_DIR, `${baseName}.seg${i}.mp3`);
               await synthesize(seg.text, seg.voice, tmpPath);
               buffers.push(readFileSync(tmpPath));
-              await pause(PAUSE_BETWEEN_MS);
+              await pause(throttle.waitMs);
             }
             writeFileSync(outPath, Buffer.concat(buffers));
           }
@@ -210,7 +233,7 @@ async function main() {
 
         // Saqlash har qismdan keyin: uzilib qolsa ham progress yo'qolmaydi
         writeFileSync(filePath, JSON.stringify(mock, null, 2) + '\n', 'utf8');
-        await pause(PAUSE_BETWEEN_MS);
+        await pause(throttle.waitMs);
       }
     }
 

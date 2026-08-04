@@ -220,7 +220,7 @@
             {
               "type": "theory",
               "titleUz": "Namunaviy javob (C1 · 70/75)",
-              "bodyUz": "**146 so'z**\n\n*Dear Dr Whitfield,*\n\n*I am writing with regard to the two-week research placement in Environmental Science advertised on your department's website.*\n\n*I am currently in my third year of a Chemistry degree at the National University of Uzbekistan, where my coursework has focused on water quality in the Aral basin. The placement appears to build directly on that work, which is why I am keen to be considered.*\n\n*Before submitting an application, I would be grateful for clarification on two points. First, is accommodation arranged by the department, or are participants expected to make their own arrangements? Second, I understand that a limited number of bursaries are available; could you confirm whether international applicants are eligible?*\n\n*I would also appreciate it if you could tell me what documents the application requires.*\n\n*Thank you for your time. I look forward to hearing from you.*\n\n*Yours sincerely,*\n*Aziz Rahimov*"
+              "bodyUz": "**147 so'z**\n\n*Dear Dr Whitfield,*\n\n*I am writing with regard to the two-week research placement in Environmental Science advertised on your department's website.*\n\n*I am currently in my third year of a Chemistry degree at the National University of Uzbekistan, where my coursework has focused on water quality in the Aral basin. The placement appears to build directly on that work, which is why I am keen to be considered.*\n\n*Before submitting an application, I would be grateful for clarification on two points. First, is accommodation arranged by the department, or are participants expected to make their own arrangements? Second, I understand that a limited number of bursaries are available; could you confirm whether international applicants are eligible?*\n\n*I would also appreciate it if you could tell me what documents the application requires.*\n\n*Thank you for your time. I look forward to hearing from you.*\n\n*Yours sincerely,*\n*Aziz Rahimov*"
             },
             {
               "type": "example",
@@ -406,7 +406,7 @@
             {
               "type": "theory",
               "titleUz": "Namunaviy javob (C1 · 70/75)",
-              "bodyUz": "**148 so'z**\n\n*Dear Sir or Madam,*\n\n*I am writing to complain about a guided tour I booked through your website on 12 May (booking reference UZ-4471).*\n\n*According to the confirmation, an English-speaking guide was to meet our group at the Registan at 9 a.m. No one appeared. After forty minutes of phone calls, your office informed us that a replacement had been arranged; he eventually arrived at 11 a.m., without the promised transport.*\n\n*As a result, we missed two of the four sites listed in the itinerary and had to cancel a museum booking made for the afternoon. For a tour advertised as \"fully guided\", this fell well short of what we were entitled to expect.*\n\n*I would therefore ask you to refund half of the fee. If I do not receive a reply within ten working days, I will take the matter to the booking platform.*\n\n*Yours faithfully,*\n*Aziz Rahimov*"
+              "bodyUz": "**149 so'z**\n\n*Dear Sir or Madam,*\n\n*I am writing to complain about a guided tour I booked through your website on 12 May (booking reference UZ-4471).*\n\n*According to the confirmation, an English-speaking guide was to meet our group at the Registan at 9 a.m. No one appeared. After forty minutes of phone calls, your office informed us that a replacement had been arranged; he eventually arrived at 11 a.m., without the promised transport.*\n\n*As a result, we missed two of the four sites listed in the itinerary and had to cancel a museum booking made for the afternoon. For a tour advertised as \"fully guided\", this fell well short of what we were entitled to expect.*\n\n*I would therefore ask you to refund half of the fee. If I do not receive a reply within ten working days, I will take the matter to the booking platform.*\n\n*Yours faithfully,*\n*Aziz Rahimov*"
             },
             {
               "type": "example",
@@ -589,12 +589,12 @@
             },
             {
               "type": "theory",
-              "titleUz": "B1 javobi (≈60 so'z)",
+              "titleUz": "B1 javobi (58 so'z)",
               "bodyUz": "*Hi Mark,*\n\n*Thanks for your email. It is a difficult question.*\n\n*I think you should take the job. The money is better and you can find new friends there. Also you can visit your old friends at the weekend, because the city is not very far.*\n\n*But it is your decision. Think about it carefully.*\n\n*Good luck!*\n*Aziz*\n\n**Nega B1:** hamma gap bir xil uzunlikda va bir xil qurilishda (ega + kesim + to'ldiruvchi). Bog'lovchilar eng oddiylari: and, also, because, but. \"It is a difficult question\" — bo'sh gap, hech narsa qo'shmaydi. Maslahat berilgan, lekin **asoslanmagan**."
             },
             {
               "type": "theory",
-              "titleUz": "B2 javobi (≈75 so'z)",
+              "titleUz": "B2 javobi (75 so'z)",
               "bodyUz": "*Hi Mark,*\n\n*What a decision to be faced with! I can see why you are hesitating.*\n\n*If I were you, I would probably accept. A better salary now will give you more choice later, and friendships do not disappear the moment you move — you will just have to work a little harder at them.*\n\n*That said, do ask how much travelling the job involves before you say yes.*\n\n*Let me know what you decide!*\n*Aziz*\n\n**Nega B2, C1 emas:** struktura ancha yaxshi — shart mayli bor, \"That said\" bor, tire bor. Lekin ohang hali ham **maslahatchi** ohangi: \"you should / do ask\". Fikr aytilgan, lekin **qarshi tomon ko'rib chiqilmagan**. So'zlar to'g'ri, lekin kutilgan: better salary, more choice, work harder."
             },
             {
@@ -1506,6 +1506,759 @@
               "skill": "WRITING",
               "promptEn": "Write an essay of 250-280 words. In many countries, university lectures are now recorded and made available online, and attendance at live lectures has become optional. Do the advantages of this development outweigh the disadvantages? State your position in the introduction, give both sides equal depth, and make your conclusion conditional rather than absolute.",
               "promptUz": "250-280 so'zlik esse yozing. Ko'p mamlakatlarda universitet ma'ruzalari yozib olinib onlayn joylanmoqda va jonli ma'ruzaga borish ixtiyoriy bo'lib qoldi. Bu o'zgarishning afzalliklari kamchiliklaridan ustunmi? Pozitsiyangizni kirishda ayting, ikkala tomonni bir xil chuqurlikda oching va xulosani mutlaq emas, shartli qiling (\"ha, lekin faqat agar...\").",
+              "data": { "minWords": 250, "maxWords": 280 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "scoring-yourself",
+      "titleUz": "O'zingizni baholash",
+      "titleEn": "Scoring yourself",
+      "descriptionUz": "Ekspert ko'zi bilan qarashni o'rganish: mezonlarni amalda qo'llash, ball ko'taruvchi mikro-o'zgarishlar, C1 darajasida ham uchraydigan xatolar va yakuniy o'z-o'zini tekshirish tizimi.",
+      "order": 2,
+      "lessons": [
+        {
+          "slug": "criteria-in-action",
+          "titleUz": "Mezonlar amalda: esseni o'zingiz baholang",
+          "titleEn": "Criteria in action: score an essay yourself",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 0,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "4 mezonning har biri aynan nimani o'lchashini aniq bilish",
+            "Berilgan esseni mustaqil ravishda mezonlar bo'yicha baholash",
+            "O'z bahoingizni ekspert bahosi bilan solishtirib, ko'zni sozlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "To'rt mezon nimani o'lchaydi (va nimani o'lchamaydi)",
+              "bodyUz": "**1. Vazifani bajarish** — savolga to'liq javob berdingizmi, pozitsiya aniqmi, dalillar rivojlantirilganmi, so'z chegarasi hurmat qilinganmi.\n*O'lchamaydi:* fikringiz \"to'g'ri\" yoki \"noto'g'ri\" ekanini. Ekspert siz bilan rozi bo'lishi shart emas.\n\n**2. Izchillik va bog'lanish** — xatboshilar mantiqiy joylashganmi, o'tishlar tabiiymi, takrorlash substitution/ellipsis bilan yo'q qilinganmi.\n*O'lchamaydi:* bog'lovchilar **sonini**. 10 ta \"Firstly/Moreover/Furthermore\" balni ko'tarmaydi, aksincha tushiradi.\n\n**3. So'z boyligi** — so'zlar aniqmi, kollokatsiyalar tabiiymi, registr bir xilmi, takror yo'qmi.\n*O'lchamaydi:* so'zlarning \"qiyinligini\". Noto'g'ri ishlatilgan noyob so'z — bu minus, plus emas.\n\n**4. Grammatik xilma-xillik va aniqlik** — turli strukturalar bormi va ular xatosizmi.\n*O'lchamaydi:* faqat xatolarni. Xatosiz, lekin bir xil oddiy gaplardan iborat matn ham yuqori ball olmaydi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Daraja belgilari: B1 / B2 / C1",
+              "headers": ["Mezon", "B1 belgilari", "B2 belgilari", "C1 belgilari"],
+              "rows": [
+                ["Vazifani bajarish", "Savolga qisman javob; dalil asossiz; bo'sh gaplar", "To'liq javob; har fikr bitta misol bilan", "Javob + qarshi dalil + nozik farq; har fikr rivojlangan"],
+                ["Izchillik", "and / but / because / also", "Firstly, Moreover, In conclusion — to'g'ri, lekin mexanik", "Substitution, ellipsis, nominalizatsiya, gap ichidagi o'tishlar"],
+                ["So'z boyligi", "Umumiy so'zlar: good, bad, important, thing", "To'g'ri, lekin kutilgan: significant, essential, beneficial", "Aniq kollokatsiya: impose costs, thin out, fall short of"],
+                ["Grammatika", "Present Simple ustunlik qiladi; qisqa gaplar", "Shart mayli, passive, relative clause — bor lekin cheklangan", "Cleft, inversiya, qisqargan oborot, modal daraja, ellipsis"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Baholanadigan esse (o'zingiz baho qo'ying)",
+              "bodyUz": "> *Some people think that all museums should be free of charge. To what extent do you agree?*\n\n**Javob (242 so'z):**\n\n*Nowadays, museums are very important for every society. Some people think that all museums should be free of charge, but other people don't agree with this opinion. In this essay I will discuss this topic and give my opinion.*\n\n*Firstly, museums are free is good because everybody can visit them. If a family has not much money, they can't pay expensive tickets, so their children will never see the history of their country. This is not fair. Secondly, free museums attract more tourists and tourists spend money in restaurants and hotels, so the country gets benefit anyway.*\n\n*On the other hand, museums need money for salaries, electricity and repairing of old buildings. If there is no ticket, the government must pay everything, and maybe the government will reduce the budget for other important things like hospitals. In addition, when something is free, some people don't respect it and museums become very crowded.*\n\n*In addition, I think there is a middle way. Museums can be free for students, pensioners and children, and other visitors can pay a small price. Also there can be one free day in a week for everybody. This system works in many European countries and it is very effective.*\n\n*In conclusion, I agree that museums should be free but not for everybody and not always. Governments must support museums with the budget, and museums must find sponsors also. In my opinion, this is the best solution for this problem.*"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Baholash bosqichlari (avval o'zingiz, keyin javobni oching)",
+              "bodyUz": "Har bir mezon uchun **B1 / B2 / C1** dan birini tanlang va **bitta dalil** yozing — matndan aniq iqtibos bilan.\n\n1. **Vazifani bajarish:** savolga javob berilganmi? Pozitsiya qayerda? \"To what extent\" darajasi ko'rsatilganmi?\n2. **Izchillik:** bog'lovchilar to'g'ri ishlatilganmi? Bir xil bog'lovchi takrorlanmayaptimi?\n3. **So'z boyligi:** takrorlanuvchi so'zlarni sanang. Nechta aniq kollokatsiya bor?\n4. **Grammatika:** nechta xil struktura bor? Nechta xato topdingiz?\n\nBaho yozib bo'lgach, quyidagi jadval bilan solishtiring. Farq katta bo'lsa — bu yaxshi: aynan shu farq sizning \"ko'zingiz\" qayerda sozlanmaganini ko'rsatadi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Ekspert bahosi",
+              "headers": ["Mezon", "Baho", "Izoh"],
+              "rows": [
+                ["Vazifani bajarish", "B2 · 3/5", "Savolga javob bor va pozitsiya oxirida aniqlanadi, lekin kirishda \"In this essay I will discuss\" dan boshqa hech narsa yo'q. \"To what extent\" darajasi faqat xulosada paydo bo'ladi. 4-xatboshidagi \"middle way\" — yaxshi g'oya, lekin u yerda emas, kirishda turishi kerak edi."],
+                ["Izchillik va bog'lanish", "B1/B2 · 2.5/5", "\"In addition\" ketma-ket ikki marta, ikkinchisi noto'g'ri ma'noda (qo'shimcha emas, qarama-qarshilik/burilish kerak edi). Firstly/Secondly mexanik. Xatboshilar orasida haqiqiy o'tish yo'q."],
+                ["So'z boyligi", "B1/B2 · 2.5/5", "Umumiy so'zlar ustun: important, good, money, things, problem. \"Gets benefit\", \"a small price\", \"repairing of old buildings\" — noto'g'ri kollokatsiyalar. Aniq atama deyarli yo'q (subsidy, admission fee, endowment kabi)."],
+                ["Grammatik xilma-xillik va aniqlik", "B1 · 2/5", "\"Museums are free is good\" — jiddiy tuzilish xatosi. Qisqartmalar (don't, can't) akademik esseda o'rinsiz. Deyarli barcha gaplar Present Simple va bir xil qurilishda. Bitta shart mayli ham yo'q."],
+                ["Umumiy", "≈ B2 boshi (55/75 atrofida)", "G'oyalar bor va tushunarli, lekin ifoda darajasi ularni ko'tarmayapti. Eng tez ko'tariladigan mezon — grammatik xilma-xillik."]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Aynan qaysi gaplar ball yo'qotdi",
+              "items": [
+                {
+                  "en": "Nowadays, museums are very important for every society.",
+                  "uz": "BO'SH OCHILISH. Hech qanday ma'lumot yo'q va mavzuga xos emas — bu gapni istalgan esseda ishlatish mumkin. C1 varianti: aniq qarama-qarshilik yoki raqam bilan boshlash. 8 so'z behuda ketdi."
+                },
+                {
+                  "en": "In this essay I will discuss this topic and give my opinion.",
+                  "uz": "META-GAP. Ekspert nima qilishingizni biladi — aytish shart emas. Bu gap o'rniga **pozitsiyangizni** yozing. Vazifani bajarish mezoniga hech narsa qo'shmaydi, faqat so'z chegarasini yeydi."
+                },
+                {
+                  "en": "Firstly, museums are free is good because everybody can visit them.",
+                  "uz": "GRAMMATIK XATO. Ikkita gap bir-biriga urilgan. To'g'risi: *Making museums free is a good idea because...* yoki *Free admission is desirable because...*. Bu turdagi xato grammatika balini darhol B1 ga tushiradi."
+                },
+                {
+                  "en": "so the country gets benefit anyway",
+                  "uz": "KOLLOKATSIYA XATOSI. \"Get benefit\" ingliz tilida yo'q. To'g'risi: *benefits either way* yoki *the country gains regardless*. \"Anyway\" ham bu yerda og'zaki registr — akademik esseda \"regardless\" yoki \"either way\" kerak."
+                },
+                {
+                  "en": "In addition, I think there is a middle way.",
+                  "uz": "NOTO'G'RI BOG'LOVCHI. Oldingi xatboshi ham \"In addition\" bilan tugagan edi, endi bu xatboshi ham shu bilan boshlanyapti — takror. Bundan tashqari, bu yerda qo'shimcha emas, **burilish** bo'lyapti: *There is, however, a middle way.* kerak edi."
+                },
+                {
+                  "en": "This system works in many European countries and it is very effective.",
+                  "uz": "ASOSSIZ DA'VO. Qaysi mamlakatlar? Qanday ishlaydi? \"Very effective\" — o'lchanmagan. C1 varianti: *The Louvre, for instance, admits under-26s from the EU free of charge and still covers most of its costs.* Aniqlik dalilni kuchaytiradi."
+                },
+                {
+                  "en": "In my opinion, this is the best solution for this problem.",
+                  "uz": "BO'SH YAKUN. Yangi ma'lumot yo'q, oldingi gapni takrorlaydi. \"This... this...\" ko'rsatkichlari noaniq. Oxirgi gap — umumiy taassurot shakllanadigan joy; uni behuda sarflash kechirilmas yo'qotish."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Baholashni **doim mezon bo'yicha alohida** qiling, umumiy taassurot bilan emas. Ko'p o'quvchi \"yaxshi yozilgan\" deb umumiy baho beradi va nima qilish kerakligini bilmay qoladi. Mezon bo'yicha ajratsangiz, javob aniq bo'ladi: bu esseda eng past mezon — grammatik xilma-xillik, demak **birinchi navbatda shu ustida ishlash kerak**."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Baholanayotgan essede eng past ball olgan mezon qaysi?",
+              "data": {
+                "options": [
+                  "Grammatik xilma-xillik va aniqlik",
+                  "Vazifani bajarish",
+                  "Izchillik va bog'lanish",
+                  "So'z boyligi"
+                ]
+              },
+              "answer": { "value": "Grammatik xilma-xillik va aniqlik" },
+              "explanationUz": "2/5. Sabab: \"museums are free is good\" jiddiy tuzilish xatosi, qisqartmalar va deyarli faqat Present Simple bilan yozilgan bir xil gaplar. Boshqa mezonlar 2.5-3 oralig'ida."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "«Firstly, museums are free is good because...» gapidagi xatoni tuzating (gapning boshini yozing, 3-5 so'z):",
+              "data": { "text": "___ museums free is a good idea because everybody can visit them." },
+              "answer": { "accept": ["making", "Making", "making the", "Making the"] },
+              "explanationUz": "\"Making museums free is a good idea\" — gerund ega vazifasida. Asl gapda ikkita gap bir-biriga urilib, tuzilish buzilgan."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«In this essay I will discuss this topic and give my opinion» gapi nima uchun ball keltirmaydi?",
+              "data": {
+                "options": [
+                  "Meta-gap: ekspert biladigan narsani takrorlaydi va so'z chegarasini yeydi",
+                  "Grammatik xato bor",
+                  "Juda rasmiy",
+                  "Kelasi zamon ishlatilgan"
+                ]
+              },
+              "answer": { "value": "Meta-gap: ekspert biladigan narsani takrorlaydi va so'z chegarasini yeydi" },
+              "explanationUz": "250-280 so'z chegarasida 11 so'z — bu kirishning uchdan biri. O'sha joyga pozitsiyangizni yozsangiz, vazifani bajarish mezoni bir pog'ona ko'tariladi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir kamchilikni u ta'sir qiladigan mezonga bog'lang:",
+              "data": {
+                "left": [
+                  "\"In addition\" ketma-ket ikki marta, ikkinchisi noto'g'ri ma'noda",
+                  "\"the country gets benefit\"",
+                  "Deyarli barcha gaplar Present Simple va bir xil qurilishda",
+                  "Pozitsiya faqat xulosada aniq bo'ladi"
+                ],
+                "right": ["So'z boyligi (kollokatsiya)", "Izchillik va bog'lanish", "Vazifani bajarish", "Grammatik xilma-xillik"]
+              },
+              "answer": {
+                "pairs": {
+                  "\"In addition\" ketma-ket ikki marta, ikkinchisi noto'g'ri ma'noda": "Izchillik va bog'lanish",
+                  "\"the country gets benefit\"": "So'z boyligi (kollokatsiya)",
+                  "Deyarli barcha gaplar Present Simple va bir xil qurilishda": "Grammatik xilma-xillik",
+                  "Pozitsiya faqat xulosada aniq bo'ladi": "Vazifani bajarish"
+                }
+              },
+              "explanationUz": "Har bir kamchilikni aniq mezonga bog'lash — o'z-o'zini baholashning asosi. Shundagina nima ustida ishlash kerakligi ma'lum bo'ladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Ekspert sizning fikringizga qo'shilmasa, vazifani bajarish balingiz tushadi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Mezon fikringizning \"to'g'riligini\" emas, **qanday asoslanganini** o'lchaydi. Har qanday pozitsiya, agar izchil va dalillangan bo'lsa, eng yuqori ballni olishi mumkin."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Ushbu esseni B2 dan C1 ga ko'tarish uchun eng samarali qadamlarni belgilang (bir nechta):",
+              "data": {
+                "options": [
+                  "Kirishdagi ikki bo'sh gapni pozitsiya bilan almashtirish",
+                  "\"Middle way\" g'oyasini kirishga ko'chirib, uni essening o'qi qilish",
+                  "Kamida uch xil murakkab struktura qo'shish (shart mayli, cleft, qisqargan oborot)",
+                  "Asossiz da'voni aniq misol bilan almashtirish",
+                  "Har bir xatboshiga yangi bog'lovchi qo'shish"
+                ]
+              },
+              "answer": { "values": ["Kirishdagi ikki bo'sh gapni pozitsiya bilan almashtirish", "\"Middle way\" g'oyasini kirishga ko'chirib, uni essening o'qi qilish", "Kamida uch xil murakkab struktura qo'shish (shart mayli, cleft, qisqargan oborot)", "Asossiz da'voni aniq misol bilan almashtirish"] },
+              "explanationUz": "Bog'lovchi qo'shish bu esseda muammoni hal qilmaydi — bog'lovchilar allaqachon ortiqcha va noto'g'ri ishlatilgan. Muammo bog'lovchi sonida emas, matn mantiqida."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Noto'g'ri bog'lovchini to'g'risi bilan almashtiring (burilish ma'nosi kerak):",
+              "data": { "text": "In addition, I think there is a middle way. → There is, ___ , a middle way." },
+              "answer": { "accept": ["however", "though", "nevertheless"] },
+              "explanationUz": "Bu yerda qo'shimcha (in addition) emas, oldingi dalillardan **burilish** bo'lyapti. \"However\" gap o'rtasida, vergullar bilan — C1 uslubiga xos joylashuv."
+            }
+          ]
+        },
+        {
+          "slug": "twenty-micro-upgrades",
+          "titleUz": "Ball ko'taruvchi 20 ta mikro-o'zgarish",
+          "titleEn": "Twenty micro-upgrades that raise your score",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 1,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Imtihonda 30 soniyada bajarish mumkin bo'lgan 20 ta aniq o'zgarishni yodlash",
+            "Mikro-o'zgarish bilan \"so'z almashtirish\" ni farqlash",
+            "O'z matningizga shu o'zgarishlarni tizimli qo'llash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Mikro-o'zgarish nima va nima emas",
+              "bodyUz": "**Mikro-o'zgarish** — bu bir gapni qayta yozmasdan, uning **tuzilishini yoki aniqligini** kuchaytiruvchi kichik tahrir. U 10-30 soniya oladi, lekin mezonga bevosita ta'sir qiladi.\n\n**Bu mikro-o'zgarish EMAS:**\n- *important* → *paramount* (shunchaki katta so'z; ko'pincha noto'g'ri chiqadi)\n- *very good* → *extremely good* (kuchaytirgichni almashtirish hech narsa bermaydi)\n- gapga yana bitta \"Furthermore\" qo'shish\n\n**Bu mikro-o'zgarish:**\n- egani o'zgartirish (*People think that...* → *It is widely thought that...*)\n- ikki gapni bittaga bog'lash (*This is a problem. It affects families.* → *This is a problem which affects families most directly.*)\n- mavhum so'zni o'lchanadigan qilish (*a lot of money* → *roughly a third of the budget*)"
+            },
+            {
+              "type": "table",
+              "titleUz": "Task 1 (email) uchun 10 ta mikro-o'zgarish",
+              "headers": ["Zaif (before)", "Kuchli (after)", "Nima o'zgardi"],
+              "rows": [
+                ["I am writing about your advertisement.", "I am writing with regard to the position advertised on your website.", "Rasmiy ibora + manba aniqlashtirildi (vazifani bajarish)"],
+                ["Please tell me the price.", "Could you confirm how much the course costs?", "To'g'ridan-to'g'ri buyruq → bilvosita savol (registr)"],
+                ["I want to know if there is funding.", "I would be grateful if you could tell me whether funding is available.", "Xohish → hurmatli so'rov formulasi (registr + grammatika)"],
+                ["I am angry about the service.", "The service fell well short of what we were entitled to expect.", "His-tuyg'u → o'lchanadigan baho (so'z boyligi)"],
+                ["The guide came 2 hours late.", "The guide eventually arrived at 11 a.m., two hours behind schedule.", "Aniq vaqt + baholovchi ravish (aniqlik)"],
+                ["I hope you answer soon.", "I look forward to hearing from you.", "Umid → standart rasmiy yakun (registr)"],
+                ["Sorry for my late reply.", "Apologies for the delay in replying — it has been a hectic week.", "Uzr + qisqa sabab (norasmiy ohang, tabiiylik)"],
+                ["You should visit Bukhara.", "Do not skip Bukhara; it is the one people remember.", "Maslahat + asos (vazifani bajarish)"],
+                ["I have some questions.", "I would be grateful for clarification on two points.", "Signpost qo'shildi — tuzilish ko'rinadi (izchillik)"],
+                ["Tell me when you arrive.", "Let me know your dates and I'll sort out the trains.", "Harakatga chaqirish + registrga mos phrasal verb"]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Task 2 (esse) uchun 10 ta mikro-o'zgarish",
+              "headers": ["Zaif (before)", "Kuchli (after)", "Nima o'zgardi"],
+              "rows": [
+                ["Nowadays this is a very important topic.", "How a city spends its transport budget shapes daily life for decades.", "Bo'sh ochilish → aniq, mavzuga xos ochilish"],
+                ["In this essay I will discuss both sides.", "Both positions have a reasonable case, though I believe the second is stronger.", "Meta-gap → pozitsiya (vazifani bajarish)"],
+                ["Many people think that fees are bad.", "Opponents object that fees deter the poorest applicants.", "Noaniq \"many people\" → aniq guruh + aniq dalil"],
+                ["This is proved by science.", "Decades of evidence from several cities suggest that...", "Haddan tashqari qat'iy da'vo → hedging (yetuklik)"],
+                ["It costs a lot of money.", "It costs roughly a fifth of what new housing does.", "Mavhum → o'lchanadigan (dalil kuchi)"],
+                ["Secondly, there is another problem.", "There is also an equity dimension: not everyone can afford a car.", "Mexanik sanoq → mazmunli o'tish (izchillik)"],
+                ["Roads are good but public transport is also good.", "Roads answer today's congestion; public transport answers tomorrow's.", "Bo'sh muvozanat → parallel qarama-qarshilik"],
+                ["Governments should do something about it.", "Funding needs to be tied to standards.", "Umumiy chaqiriq → aniq, tekshiriladigan chora"],
+                ["I think free education is good. But quality is a problem.", "Free education that is not worth having helps nobody.", "Ikki bo'sh gap → bitta zich, esda qoladigan gap"],
+                ["In conclusion, there are advantages and disadvantages.", "Overall, the advantages do outweigh the disadvantages, but only where the change is managed deliberately.", "Javobsiz xulosa → shartli, aniq pozitsiya"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Mikro-o'zgarish amalda: bitta xatboshi, ikki holat",
+              "items": [
+                {
+                  "en": "BEFORE: Nowadays, remote work is very popular. Many people say it is good. But there are also problems. In this essay I will discuss both sides and give my opinion.",
+                  "uz": "34 so'z, nol ma'lumot. To'rt gapning to'rttasi ham bo'sh: mavzuga xos hech narsa aytilmagan, pozitsiya yo'q, meta-gap bor. Bu kirish B1 belgisi va u yolg'iz o'zi vazifani bajarish balini bir pog'ona tushiradi."
+                },
+                {
+                  "en": "AFTER: A decade ago, working from home was a concession granted to a handful of employees; today whole companies operate without an office at all. The shift brings clear gains, but they are unevenly distributed.",
+                  "uz": "35 so'z — deyarli bir xil uzunlik, lekin ichida: vaqt qarama-qarshiligi, aniq kontekst, nuqtali vergul, qisqargan oborot va pozitsiyaning boshlanishi. Bir xil joydan uch barobar ko'p ball."
+                },
+                {
+                  "en": "BEFORE: A lot of people can't afford a car. So public transport is important for them.",
+                  "uz": "Ikki qisqa gap, qisqartma (can't) akademik registrda o'rinsiz, \"important for them\" — o'lchanmagan. Bog'lovchi \"So\" gap boshida — norasmiy."
+                },
+                {
+                  "en": "AFTER: There is also an equity dimension: not everyone can afford a car, and a transport policy built around private vehicles quietly excludes those who cannot.",
+                  "uz": "Ikki gap bittaga jamlandi; \"equity dimension\" atamasi kiritildi; ikki nuqta tushuntirish uchun ishladi; \"quietly excludes\" aniq va kuchli; \"those who cannot\" ellipsis bilan takrorni yo'q qildi."
+                },
+                {
+                  "en": "BEFORE: I want to ask you about the price and also about the schedule.",
+                  "uz": "Ikki so'rov bitta zaif gapda; \"I want to ask\" — rasmiy emailda juda to'g'ridan-to'g'ri; \"also\" bog'lanishni kuchsiz qiladi."
+                },
+                {
+                  "en": "AFTER: I would be grateful for clarification on two points. First, could you confirm the total cost? Second, I would appreciate it if you could send the timetable.",
+                  "uz": "Signpost qo'shildi (\"two points\"), har savol alohida ajratildi, ikkalasi ham bilvosita shaklda. Uzunroq, lekin registr, izchillik va grammatika mezonlarining uchtasiga ham ball qo'shdi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Imtihonda oxirgi 5 daqiqada **faqat 3 ta joyni** tekshiring, chunki ular eng ko'p ball keltiradi:\n\n1. **Kirishning oxirgi gapi** — pozitsiya bormi?\n2. **Har xatboshining birinchi gapi** — o'sha xatboshi nima haqida ekani ma'lummi?\n3. **Oxirgi gap** — u yangi ma'lumot bermayaptimi va bo'sh emasmi?\n\nBu uch nuqta butun matnni qayta o'qishdan ko'ra ko'proq foyda beradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Qaysi biri HAQIQIY mikro-o'zgarish (ball keltiradigan)?",
+              "data": {
+                "options": [
+                  "\"It costs a lot of money\" → \"It costs roughly a fifth of what new housing does\"",
+                  "\"important\" → \"paramount\"",
+                  "\"very good\" → \"extremely good\"",
+                  "Xatboshi boshiga yana bitta \"Furthermore\" qo'shish"
+                ]
+              },
+              "answer": { "value": "\"It costs a lot of money\" → \"It costs roughly a fifth of what new housing does\"" },
+              "explanationUz": "Mavhum ifoda o'lchanadigan bo'ldi va qiyoslash strukturasi qo'shildi. Qolgan uch variant faqat so'z almashtiradi yoki matnni og'irlashtiradi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "\"Many people think that fees are bad\" gapini aniqlashtiring:",
+              "data": { "text": "___ object that fees deter the poorest applicants." },
+              "answer": { "accept": ["Opponents", "opponents", "Critics", "critics"] },
+              "explanationUz": "\"Many people\" — noaniq. \"Opponents / Critics\" aniq guruhni ko'rsatadi va keyingi qismda aniq dalil keladi. Bu bir so'zli o'zgarish so'z boyligi va vazifani bajarish mezonlariga ta'sir qiladi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir mikro-o'zgarishni u ko'taradigan mezonga bog'lang:",
+              "data": {
+                "left": [
+                  "\"Please tell me the price\" → \"Could you confirm how much the course costs?\"",
+                  "\"I have some questions\" → \"I would be grateful for clarification on two points\"",
+                  "\"a lot of money\" → \"roughly a fifth of the budget\"",
+                  "\"People think that\" → \"It is widely thought that\""
+                ],
+                "right": [
+                  "So'z boyligi (aniqlik / o'lchanadigan ifoda)",
+                  "Registr va hurmat darajasi",
+                  "Grammatik xilma-xillik (majhul nisbat)",
+                  "Izchillik (signpost)"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "\"Please tell me the price\" → \"Could you confirm how much the course costs?\"": "Registr va hurmat darajasi",
+                  "\"I have some questions\" → \"I would be grateful for clarification on two points\"": "Izchillik (signpost)",
+                  "\"a lot of money\" → \"roughly a fifth of the budget\"": "So'z boyligi (aniqlik / o'lchanadigan ifoda)",
+                  "\"People think that\" → \"It is widely thought that\"": "Grammatik xilma-xillik (majhul nisbat)"
+                }
+              },
+              "explanationUz": "Har mikro-o'zgarish aniq mezonga ishlaydi. Shuning uchun ularni tasodifiy emas, **eng past mezoningizga** qarab tanlang."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Oddiy so'zlarni noyob sinonimlar bilan almashtirish so'z boyligi balini eng tez ko'taradigan usul." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. So'z boyligi mezoni **aniqlikni** o'lchaydi, qiyinlikni emas. Noto'g'ri ishlatilgan noyob so'z ballni tushiradi; tabiiy kollokatsiya esa oddiy so'zlar bilan ham C1 beradi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Imtihonning oxirgi 5 daqiqasida tekshirish tartibini joylashtiring (eng ko'p ball keltiradiganidan boshlab):",
+              "data": {
+                "items": [
+                  "Oxirgi gap: yangi ma'lumot bermayaptimi, bo'sh emasmi?",
+                  "Kirishning oxirgi gapi: pozitsiya bormi?",
+                  "Har xatboshining birinchi gapi: mavzu ma'lummi?"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Kirishning oxirgi gapi: pozitsiya bormi?",
+                  "Har xatboshining birinchi gapi: mavzu ma'lummi?",
+                  "Oxirgi gap: yangi ma'lumot bermayaptimi, bo'sh emasmi?"
+                ]
+              },
+              "explanationUz": "Pozitsiya yo'qligi eng katta yo'qotish (vazifani bajarish), keyin xatboshi mavzulari (izchillik), so'ng yakun (umumiy taassurot)."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "\"This is proved by science\" da'vosini yumshating (bitta fe'l):",
+              "data": { "text": "Decades of evidence from several cities ___ that new roads fill up quickly." },
+              "answer": { "accept": ["suggest", "indicate", "imply", "show"] },
+              "explanationUz": "Hedging fe'llari (suggest, indicate) da'voni ehtiyotkor qiladi. \"Prove\" imtihon essesida deyarli har doim haddan tashqari kuchli hisoblanadi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi kirishni yaxshilash uchun qaysi mikro-o'zgarishlar kerak? «Nowadays, remote work is very popular. Many people say it is good. But there are also problems. In this essay I will discuss both sides.» (bir nechta)",
+              "data": {
+                "options": [
+                  "Bo'sh ochilishni aniq, mavzuga xos gap bilan almashtirish",
+                  "Meta-gapni pozitsiya bilan almashtirish",
+                  "Uch qisqa gapni bitta-ikkita zich gapga jamlash",
+                  "\"Very popular\" ni \"exceedingly popular\" ga o'zgartirish",
+                  "\"Nowadays\" o'rniga \"In today's modern world\" yozish"
+                ]
+              },
+              "answer": { "values": ["Bo'sh ochilishni aniq, mavzuga xos gap bilan almashtirish", "Meta-gapni pozitsiya bilan almashtirish", "Uch qisqa gapni bitta-ikkita zich gapga jamlash"] },
+              "explanationUz": "\"Exceedingly popular\" va \"In today's modern world\" — bo'sh gapni yanada bo'shroq qiladi. Muammo so'zlarning kattaligida emas, mazmunning yo'qligida."
+            }
+          ]
+        },
+        {
+          "slug": "c1-level-mistakes",
+          "titleUz": "C1 da ham uchraydigan xatolar",
+          "titleEn": "Mistakes that still appear at C1",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 2,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Ortiqcha murakkablikni nazorat ostidagi murakkablikdan farqlash",
+            "Sun'iy idioma va \"o'rnatilgan\" iboralarni topib, tabiiy variantga almashtirish",
+            "Bitta matn ichida registr birligini saqlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega kuchli o'quvchi ham ball yo'qotadi",
+              "bodyUz": "C1 darajaga yetgan o'quvchining xatolari boshqacha bo'ladi. Bu endi \"I go yesterday\" turidagi xatolar emas. Uchta asosiy tuzoq bor:\n\n1. **Ortiqcha murakkablik** — yozuvchi murakkab strukturani ko'rsatish uchun ishlatadi, ma'noni aniqlashtirish uchun emas. Natijada gap chalkash chiqadi va **aniqlik** balini tushiradi.\n2. **Sun'iy idioma** — imtihondan oldin yodlangan idiomalar kontekstga mos kelmasdan tiqishtiriladi. Ekspert buni darhol ko'radi va bu \"tabiiy so'z boyligi\" emas, \"o'rnatilgan material\" deb baholanadi.\n3. **Noto'g'ri registr** — rasmiy esse ichida og'zaki ibora yoki norasmiy emailda akademik konstruksiya. Ko'pincha bu **aralashish** bo'ladi: matnning 80% to'g'ri, 20% notekis.\n\nUchalasining umumiy sababi bir xil: **yozuvchi o'quvchi haqida emas, ekspert haqida o'ylayapti.**"
+            },
+            {
+              "type": "table",
+              "titleUz": "1. Ortiqcha murakkablik",
+              "headers": ["Ortiqcha murakkab (ball tushadi)", "Nazorat ostidagi C1", "Muammo nimada edi"],
+              "rows": [
+                ["It is not to be denied that the phenomenon in question, which has been the subject of considerable debate, is one which merits attention.", "The debate matters, and for a simple reason.", "22 so'zdan nol ma'lumot; ega uzoqda; o'quvchi charchaydi"],
+                ["Notwithstanding the aforementioned considerations, it could conceivably be argued that...", "That said, one could argue that...", "Uchta og'ir so'z birga; \"aforementioned\" akademik matnda ham kam ishlatiladi"],
+                ["The reason why people move is because of the fact that opportunities are lacking.", "People move because opportunities are lacking.", "\"The reason why... is because of the fact that\" — beshta ortiqcha so'z"],
+                ["There exists a considerable number of individuals who hold the view that...", "Many argue that...", "Bo'sh konstruksiya; \"individuals\" bu yerda \"people\" dan yaxshiroq emas"],
+                ["Having taken into consideration all of the factors which have been previously outlined, it is my contention that...", "On balance, I would argue that...", "Xulosani 18 so'z bilan boshlash — o'quvchining sabrini sinash"]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "2. Sun'iy idioma",
+              "headers": ["Sun'iy (ball tushadi)", "Nima uchun sun'iy", "Tabiiy variant"],
+              "rows": [
+                ["At the end of the day, every coin has two sides.", "Ikki klishe ketma-ket; hech qanday fikr yo'q", "Both positions have a reasonable case."],
+                ["This issue is a hot potato in our society nowadays.", "Og'zaki idioma akademik esseda; \"nowadays\" ortiqcha", "This remains a contested question."],
+                ["We should kill two birds with one stone by investing in transport.", "Idioma dalilni tushuntirmaydi, faqat bezaydi", "A single investment addresses both problems."],
+                ["The government must think outside the box.", "Korporativ klishe; aniq chora ko'rsatilmagan", "The government needs a different approach: funding tied to standards."],
+                ["Last but not least, education is the key to success.", "Ikkita klishe bitta gapda; \"key to success\" o'lchanmagan", "Finally, and most importantly, education determines who has a choice."],
+                ["It is raining cats and dogs in the job market.", "Idioma kontekstga umuman mos emas", "The job market has become unusually volatile."]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "3. Noto'g'ri registr",
+              "headers": ["Kontekst", "Registr buzilishi", "To'g'ri variant"],
+              "rows": [
+                ["Akademik esse", "Kids can't afford it, and that's a big problem.", "Younger applicants cannot afford it, which is a serious problem."],
+                ["Akademik esse", "So, what's the solution? Well, it's not simple.", "The solution is not straightforward."],
+                ["Rasmiy shikoyat", "This is totally unacceptable, guys.", "This falls well short of the standard advertised."],
+                ["Rasmiy so'rov", "Btw, how much does it cost?", "Could you also confirm the total cost?"],
+                ["Norasmiy email (do'stga)", "I am writing to inform you of my forthcoming visit.", "Just letting you know I'm coming over."],
+                ["Norasmiy email (do'stga)", "I would be grateful if you could meet me at the station.", "Any chance you could meet me at the station?"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Oraliq holatlar: qachon murakkablik oqlanadi",
+              "items": [
+                {
+                  "en": "It is consistently the poorest students who decide the risk is not worth taking.",
+                  "uz": "OQLANADI. Cleft struktura ishlatilgan, chunki urg'u aynan \"eng kambag'al talabalar\" ga tushishi kerak. Oddiy variant (\"The poorest students consistently decide...\") ma'noni beradi, lekin urg'uni yo'qotadi. Murakkablik **ma'no uchun** ishlayapti."
+                },
+                {
+                  "en": "Having taken into consideration all of the factors previously outlined, it is my contention that the advantages outweigh the drawbacks.",
+                  "uz": "OQLANMAYDI. Bir xil ma'no \"On balance, the advantages outweigh the drawbacks\" bilan 8 so'zda beriladi. Bu yerda murakkablik **ko'rsatish uchun**; ekspert buni \"mexanik\" deb belgilaydi va aniqlik balini tushiradi."
+                },
+                {
+                  "en": "None of this will reverse migration entirely, nor should it.",
+                  "uz": "OQLANADI. Inversiya (nor should it) matnni tejaydi va ohangga qat'iylik beradi. Oddiy variant uzunroq bo'lardi: \"and it should not reverse it entirely either\". Bu yerda murakkab struktura **iqtisodiy**."
+                },
+                {
+                  "en": "At the end of the day, we should think outside the box and kill two birds with one stone.",
+                  "uz": "OQLANMAYDI. Uchta klishe ketma-ket va bironta ham aniq fikr yo'q. Bu gapni o'chirsangiz, esse hech narsa yo'qotmaydi — ana shu, gap kerak emasligining eng aniq belgisi."
+                },
+                {
+                  "en": "Friendships survive distance far better than we expect; the ones that don't were probably on their way out anyway.",
+                  "uz": "OQLANADI (norasmiy kontekstda). \"On their way out\" — idioma, lekin u **kontekstdan o'sib chiqqan** va do'stga yozilgan xatning ohangiga mos. Butun xatda bitta idioma bor — bu me'yor."
+                },
+                {
+                  "en": "I am writing to inform you of my forthcoming visit to your residence.",
+                  "uz": "OQLANMAYDI (do'stga yozilgan emailda). Grammatika mukammal, lug'at aniq — lekin registr butunlay noto'g'ri. Do'stga yozilgan xatda bu gap kulgili chiqadi va register mezonidan jiddiy ball yo'qotadi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**O'chirish sinovi:** har bir \"chiroyli\" gapni o'qib, o'zingizdan so'rang — *agar bu gapni o'chirsam, esse nima yo'qotadi?* Javob \"hech narsa\" bo'lsa, gap ball keltirmayapti, faqat so'z chegarasini yeyapti. Bu sinov sun'iy idiomalarni topishning eng tez usuli."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Qaysi gapda murakkablik OQLANADI?",
+              "data": {
+                "options": [
+                  "It is consistently the poorest students who decide the risk is not worth taking.",
+                  "Having taken into consideration all of the factors previously outlined, it is my contention that...",
+                  "There exists a considerable number of individuals who hold the view that...",
+                  "Notwithstanding the aforementioned considerations, it could conceivably be argued that..."
+                ]
+              },
+              "answer": { "value": "It is consistently the poorest students who decide the risk is not worth taking." },
+              "explanationUz": "Cleft struktura urg'uni kerakli bo'lakka qaratadi — murakkablik ma'no uchun ishlayapti. Qolgan uch variantda esa oddiy fikr sun'iy og'irlashtirilgan."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "\"The reason why people move is because of the fact that opportunities are lacking\" gapini soddalashtiring (5-7 so'z):",
+              "data": { "text": "People ___ opportunities are lacking." },
+              "answer": { "accept": ["move because", "leave because", "migrate because", "move, because"] },
+              "explanationUz": "\"The reason why... is because of the fact that\" — beshta ortiqcha so'z. \"People move because opportunities are lacking\" bir xil ma'noni beradi va aniqroq."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Qaysi iboralar akademik esseda sun'iy chiqadi? (bir nechta)",
+              "data": {
+                "options": [
+                  "At the end of the day, every coin has two sides.",
+                  "This issue is a hot potato in our society.",
+                  "Both positions have a reasonable case.",
+                  "We should kill two birds with one stone.",
+                  "This remains a contested question."
+                ]
+              },
+              "answer": { "values": ["At the end of the day, every coin has two sides.", "This issue is a hot potato in our society.", "We should kill two birds with one stone."] },
+              "explanationUz": "Og'zaki idiomalar akademik registrga mos kelmaydi va ko'pincha hech qanday fikr qo'shmaydi. \"Both positions have a reasonable case\" va \"a contested question\" — tabiiy akademik ifodalar."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Do'stga yozilgan emailda \"I would be grateful if you could meet me at the station\" yozish registr xatosi hisoblanadi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Grammatika benuqson, lekin registr noto'g'ri. Do'stga: \"Any chance you could meet me at the station?\" Registr buzilishi C1 darajadagi eng ko'p uchraydigan yo'qotishlardan biri."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir muammoli gapni uning xato turiga bog'lang:",
+              "data": {
+                "left": [
+                  "There exists a considerable number of individuals who hold the view that...",
+                  "Last but not least, education is the key to success.",
+                  "Kids can't afford it, and that's a big problem. (akademik esseda)",
+                  "It is raining cats and dogs in the job market."
+                ],
+                "right": ["Noto'g'ri registr", "Ortiqcha murakkablik", "Sun'iy idioma (klishe)", "Sun'iy idioma (kontekstga mos emas)"]
+              },
+              "answer": {
+                "pairs": {
+                  "There exists a considerable number of individuals who hold the view that...": "Ortiqcha murakkablik",
+                  "Last but not least, education is the key to success.": "Sun'iy idioma (klishe)",
+                  "Kids can't afford it, and that's a big problem. (akademik esseda)": "Noto'g'ri registr",
+                  "It is raining cats and dogs in the job market.": "Sun'iy idioma (kontekstga mos emas)"
+                }
+              },
+              "explanationUz": "Uch xil xato — uch xil tuzatish yo'li. Xato turini aniqlash tuzatishning yarmi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Og'ir kirishni soddalashtiring (2 so'z):",
+              "data": { "text": "Having taken into consideration all of the factors previously outlined... → ___ ___ , I would argue that the advantages outweigh the drawbacks." },
+              "answer": { "accept": ["On balance", "on balance", "All told", "In sum"] },
+              "explanationUz": "\"On balance\" ikki so'z bilan bir xil vazifani bajaradi va tabiiy chiqadi. Xulosani og'ir konstruksiya bilan boshlash — C1 darajadagi eng ko'p uchraydigan ortiqcha murakkablik."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "\"O'chirish sinovi\" nima uchun ishlatiladi?",
+              "data": {
+                "options": [
+                  "Ball keltirmaydigan bo'sh gaplarni topish uchun",
+                  "Grammatik xatolarni topish uchun",
+                  "So'z sonini sanash uchun",
+                  "Bog'lovchilarni tekshirish uchun"
+                ]
+              },
+              "answer": { "value": "Ball keltirmaydigan bo'sh gaplarni topish uchun" },
+              "explanationUz": "Gapni o'chirganda esse hech narsa yo'qotmasa, u gap faqat so'z chegarasini yeyapti. Bu sinov sun'iy idioma va bo'sh klishelarni topishning eng tez usuli."
+            }
+          ]
+        },
+        {
+          "slug": "final-practice-checklist",
+          "titleUz": "Yakuniy amaliyot va o'z-o'zini tekshirish ro'yxati",
+          "titleEn": "Final practice and self-check list",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 3,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "To'liq Writing bo'limini imtihon sharoitida bajarish (Task 1 + Task 2)",
+            "16 bandli o'z-o'zini tekshirish ro'yxatini qo'llash",
+            "O'z javobingizga mezonlar bo'yicha asosli baho qo'yish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Yakuniy vazifa (imtihon sharoitida)",
+              "bodyUz": "Taymer qo'ying va **ikkala vazifani ham bir o'tirishda** bajaring. Lug'at, internet, tarjimon yo'q.\n\n**TASK 1 (20 daqiqa · 120-150 so'z)**\n\n> You recently attended a two-day professional training course organised by your employer. The course was cancelled halfway through the second day without explanation, and the promised certificate has not arrived. Write an email to the training provider: give the details of the course, explain what went wrong, describe how this affected you, and say what you expect them to do.\n\n**TASK 2 (40 daqiqa · 250-280 so'z)**\n\n> In many countries, people are living and working longer, and some governments have raised the official retirement age. What problems does this create, and what could be done to address them?\n\nJavobingizni yozib bo'lgach, **darhol baholamang**. Kamida 20 daqiqa tanaffus qiling — keyin ro'yxat bilan tekshiring. Yangi ko'z bilan qaraganda xatolar ancha yaxshi ko'rinadi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "60 daqiqani qanday taqsimlash kerak",
+              "bodyUz": "**TASK 1 — 20 daqiqa:**\n- 2 daqiqa: to'rt talabni belgilab chiqish (savolni tirnoqlang)\n- 14 daqiqa: yozish\n- 4 daqiqa: tekshirish (registr, so'z soni, imzo)\n\n**TASK 2 — 40 daqiqa:**\n- 6 daqiqa: reja. Pozitsiya + 3-4 xatboshi + har biriga bittadan asosiy fikr\n- 28 daqiqa: yozish (xatboshi boshiga qaytmang, oldinga yuring)\n- 6 daqiqa: tekshirish\n\n**Nega reja 6 daqiqa?** Rejasiz yozilgan esse deyarli har doim 3-xatboshida yo'ldan chiqadi va o'quvchi orqaga qaytib tuzatishga majbur bo'ladi — bu 6 daqiqadan ko'p vaqt oladi. Reja — bu vaqtni tejash, sarflash emas."
+            },
+            {
+              "type": "table",
+              "titleUz": "O'z-o'zini tekshirish ro'yxati (16 band)",
+              "headers": ["#", "Tekshiruv savoli", "Qaysi mezon"],
+              "rows": [
+                ["1", "Savoldagi HAR BIR talabga javob berdimmi? (belgilab sanang)", "Vazifani bajarish"],
+                ["2", "So'z soni chegarada turibdimi? (sanadingizmi?)", "Vazifani bajarish"],
+                ["3", "Pozitsiyam kirishning oxirgi gapida turibdimi?", "Vazifani bajarish"],
+                ["4", "Har bir asosiy fikr rivojlantirilganmi (sabab yoki misol bilan)?", "Vazifani bajarish"],
+                ["5", "Xulosada yangi dalil yo'qmi?", "Izchillik"],
+                ["6", "Har xatboshining birinchi gapi uning mavzusini aytadimi?", "Izchillik"],
+                ["7", "Bitta bog'lovchini ikki marta takrorlamadimmi?", "Izchillik"],
+                ["8", "Kamida ikki joyda substitution yoki ellipsis ishlatdimmi?", "Izchillik"],
+                ["9", "Bir xil ot yoki fe'l uch martadan ko'p takrorlanmadimi?", "So'z boyligi"],
+                ["10", "Kamida 5 ta aniq kollokatsiya bormi? (ularni belgilang)", "So'z boyligi"],
+                ["11", "Ishonchim komil bo'lmagan so'z ishlatdimmi? (bo'lsa — o'chiring)", "So'z boyligi"],
+                ["12", "Registr boshidan oxirigacha bir xilmi? (qisqartmalar, idiomalar)", "So'z boyligi"],
+                ["13", "Kamida 3 xil murakkab struktura bormi? (shart mayli, cleft, qisqargan oborot, inversiya)", "Grammatika"],
+                ["14", "Barcha egalar kesimga moslashadimi? (ayniqsa uzun gaplarda)", "Grammatika"],
+                ["15", "Artikllar (a/the) va ko'plik shakllari tekshirildimi?", "Grammatika"],
+                ["16", "Har bir gapni ovoz chiqarmasdan o'qib, nafas yetadimi? (yetmasa — bo'ling)", "Grammatika + izchillik"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Natijani qanday o'qish kerak",
+              "bodyUz": "**0-2 ta \"yo'q\":** javobingiz C1 hududida. Endi sifat ustida ishlang — asossiz da'volar va bo'sh gaplarni qidiring.\n\n**3-5 ta \"yo'q\":** B2 kuchli / C1 chegarasi. \"Yo'q\" javoblari qaysi mezonga to'plangan? O'sha mezonni **bitta** tanlab, keyingi 5 ta yozuvingizda faqat shunga e'tibor bering.\n\n**6+ ta \"yo'q\":** hozircha hamma narsani birdaniga tuzatishga urinmang. Faqat 1, 2, 3 va 13-bandlarni oling — ular eng ko'p ball keltiradi va eng tez o'rganiladi.\n\n**Muhim:** ro'yxatni **har safar** to'liq bajaring, hatto ishonchingiz komil bo'lsa ham. Ko'nikma o'z-o'zidan shakllanadi va bir necha haftadan keyin bu tekshiruv avtomatik bo'lib qoladi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Eng ko'p ball yo'qotiladigan 6 nuqta (yakuniy eslatma)",
+              "items": [
+                {
+                  "en": "Word count outside the limit",
+                  "uz": "So'z chegarasidan chiqish — eng oson oldini olinadigan yo'qotish. Kam bo'lsa, vazifa bajarilmagan deb hisoblanadi; ko'p bo'lsa, ortiqcha qism baholanmaydi va vaqtingiz behuda ketadi. Yozishdan oldin taxminiy so'z sonini rejaga yozib qo'ying."
+                },
+                {
+                  "en": "Position stated only in the conclusion",
+                  "uz": "Pozitsiya faqat xulosada paydo bo'lsa, ekspert butun esseni \"pozitsiyasiz\" deb o'qib chiqadi. Kirishning oxirgi gapi — pozitsiyaning to'g'ri joyi. Bu bitta gap butun mezonni ko'taradi."
+                },
+                {
+                  "en": "One argument repeated in different words",
+                  "uz": "Ko'p o'quvchi 3 ta xatboshi yozadi, lekin uchalasi ham bitta fikrni takrorlaydi. Rejada har xatboshiga **boshqa-boshqa** asosiy fikr yozing va yozayotib rejaga qarab turing."
+                },
+                {
+                  "en": "Register drift in the last paragraph",
+                  "uz": "Charchaganda registr sirg'aladi: akademik esse oxirida \"So, what should we do? Well...\" paydo bo'ladi. Oxirgi xatboshini alohida tekshirish odatini shakllantiring — u eng zaif joy."
+                },
+                {
+                  "en": "Three identical linking words",
+                  "uz": "\"Moreover... Moreover... Furthermore...\" — izchillik mezoni bu takrorni jazolaydi. Bitta bog'lovchini bir esseda faqat bir marta ishlating; o'tishlarning yarmi bog'lovchisiz, mazmun orqali bo'lsin."
+                },
+                {
+                  "en": "No complex structure at all",
+                  "uz": "Xatosiz, lekin butunlay oddiy gaplardan iborat matn C1 ololmaydi. Kamida uch xil murakkab struktura rejalashtiring — masalan, bitta shart mayli, bitta cleft va bitta qisqargan oborot. Ularni oldindan rejaga belgilab qo'ying."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Yakuniy maslahat: **namunalarni yodlamang, ularni qismlarga ajrating.** Bu kursdagi 7 ta model javobdan har biridan 2-3 ta struktura oling (masalan: *Not because... but because...*, *This has some force, but...*, *I would be grateful for clarification on two points*) va ularni **o'z mavzularingizda** qayta-qayta ishlating. Yodlangan esse imtihonda deyarli har doim mavzuga to'liq mos kelmaydi; yodlangan **struktura** esa har qanday mavzuda ishlaydi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Task 2 uchun 40 daqiqadan qancha vaqt rejaga ajratilishi tavsiya etiladi?",
+              "data": {
+                "options": ["6 daqiqa", "1 daqiqa", "15 daqiqa", "Umuman kerak emas — vaqtni yozishga sarflash kerak"]
+              },
+              "answer": { "value": "6 daqiqa" },
+              "explanationUz": "Rejasiz esse odatda 3-xatboshida yo'ldan chiqadi va orqaga qaytib tuzatish 6 daqiqadan ko'p vaqt oladi. Reja — vaqtni tejash usuli."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Tekshirish ro'yxatining qaysi bandlari VAZIFANI BAJARISH mezoniga tegishli? (bir nechta)",
+              "data": {
+                "options": [
+                  "Savoldagi har bir talabga javob berdimmi?",
+                  "So'z soni chegarada turibdimi?",
+                  "Pozitsiyam kirishning oxirgi gapida turibdimi?",
+                  "Artikllar tekshirildimi?",
+                  "Bitta bog'lovchini ikki marta takrorlamadimmi?"
+                ]
+              },
+              "answer": { "values": ["Savoldagi har bir talabga javob berdimmi?", "So'z soni chegarada turibdimi?", "Pozitsiyam kirishning oxirgi gapida turibdimi?"] },
+              "explanationUz": "Artikllar — grammatika, bog'lovchi takrori — izchillik. Vazifani bajarish savolga javob, so'z soni va pozitsiya bilan o'lchanadi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Yozib bo'lgach darhol tekshirgan ma'qul — vaqt o'tsa, xatolarni yomonroq ko'rasiz." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri, aksincha. Darhol tekshirganda miya o'zi yozgan narsani \"o'qiydi\", bor narsani emas. Amaliyot paytida 20 daqiqa tanaffus qiling; imtihonda esa hech bo'lmasa Task 2 ni yozib, Task 1 ga qaytib tekshiring."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Task 2 ni yozish bosqichlarini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "Yozish: xatboshi boshiga qaytmasdan oldinga yurish",
+                  "Savoldagi kalit so'zlarni belgilash va turini aniqlash",
+                  "Tekshirish ro'yxati bo'yicha ko'rib chiqish",
+                  "Reja: pozitsiya + har xatboshiga bittadan asosiy fikr"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Savoldagi kalit so'zlarni belgilash va turini aniqlash",
+                  "Reja: pozitsiya + har xatboshiga bittadan asosiy fikr",
+                  "Yozish: xatboshi boshiga qaytmasdan oldinga yurish",
+                  "Tekshirish ro'yxati bo'yicha ko'rib chiqish"
+                ]
+              },
+              "explanationUz": "Savol turini noto'g'ri aniqlash — eng qimmat xato: butun esse mos kelmay qoladi. Shuning uchun u birinchi qadam."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Namunaviy javoblardan qanday foydalanish tavsiya etiladi?",
+              "data": {
+                "options": [
+                  "Ulardan strukturalarni ajratib olib, o'z mavzularingizda ishlatish",
+                  "To'liq yodlab, imtihonda ko'chirish",
+                  "Faqat o'qib chiqish, hech narsa qilmaslik",
+                  "So'zlarini lug'atga yozib, hammasini yodlash"
+                ]
+              },
+              "answer": { "value": "Ulardan strukturalarni ajratib olib, o'z mavzularingizda ishlatish" },
+              "explanationUz": "Yodlangan esse imtihon mavzusiga deyarli hech qachon to'liq mos kelmaydi va ekspert buni sezadi. Yodlangan struktura esa (\"Not because... but because...\") har qanday mavzuda ishlaydi."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "TASK 1 (120-150 words). You recently attended a two-day professional training course organised by your employer. The course was cancelled halfway through the second day without explanation, and the promised certificate has not arrived. Write an email to the training provider: give the details of the course, explain what went wrong, describe how this affected you, and state what you expect them to do. Use formal register throughout, at least two indirect questions or polite requests, and no exclamation marks.",
+              "promptUz": "TASK 1 (120-150 so'z). Yaqinda ish beruvchingiz tashkil qilgan ikki kunlik kasbiy kursda qatnashdingiz. Kurs ikkinchi kunning yarmida sababsiz bekor qilindi va va'da qilingan sertifikat ham kelmadi. O'quv markaziga email yozing: kurs tafsilotlarini bering, nima noto'g'ri ketganini tushuntiring, bu sizga qanday ta'sir qilganini ayting va nima kutayotganingizni bildiring. Boshdan oxir rasmiy registr, kamida ikkita bilvosita savol yoki xushmuomala so'rov, undov belgisiz.",
+              "data": { "minWords": 120, "maxWords": 150 }
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "TASK 2 (250-280 words). In many countries, people are living and working longer, and some governments have raised the official retirement age. What problems does this create, and what could be done to address them? Plan first: state your framing in the introduction, match each measure to a specific problem, vary your modal verbs (should / could / needs to), and include at least three different complex structures.",
+              "promptUz": "TASK 2 (250-280 so'z). Ko'p mamlakatlarda odamlar uzoqroq yashab, uzoqroq ishlamoqda va ba'zi hukumatlar rasmiy nafaqa yoshini oshirdi. Bu qanday muammolar keltirib chiqaradi va ularni hal qilish uchun nima qilish mumkin? Avval reja tuzing: kirishda masalani ramkalang, har bir chorani aniq muammoga moslang, modal fe'llarni o'zgartiring (should / could / needs to) va kamida uchta har xil murakkab struktura ishlating.",
               "data": { "minWords": 250, "maxWords": 280 }
             }
           ]

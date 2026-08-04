@@ -2,9 +2,129 @@
 @tailwind components;
 @tailwind utilities;
 
+/**
+ * Semantik ranglar CSS o'zgaruvchilarida — tema almashganda Tailwind
+ * klasslarini o'zgartirmasdan butun interfeys moslashadi.
+ *
+ * MUHIM: `ink` — matn rangi (temada teskari bo'ladi), `panel` — doim to'q
+ * yuzalar (hero, imtihon sarlavhasi, natija kartasi). Ular alohida tokenlar.
+ */
 @layer base {
+  :root {
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --surface-alt: #f1efea;
+    --desk: #edeae4;
+
+    --panel: #14161a;
+
+    --ink: #14161a;
+    --ink-2: #22262c;
+    --ink-3: #4b5058;
+    --ink-4: #82878f;
+    --ink-5: #9a9791;
+
+    --line: #e4e1da;
+    --line-2: #edeae4;
+    --line-3: #d5d1c8;
+    --line-4: #c9c6c0;
+
+    --accent: #1b3c73;
+    --accent-dark: #12294f;
+    --accent-mid: #3e567f;
+    --accent-soft: #eef1f7;
+    --accent-border: #c7d2e3;
+    --accent-50: #6c87b0;
+
+    --success: #1e6b4f;
+    --success-bg: #f1f7f3;
+    --success-border: #a8c4b6;
+    --success-dark: #155540;
+
+    --error: #a32b2b;
+    --error-bg: #fcf1f1;
+    --error-mark: #fce9e9;
+    --error-border: #e8c9c9;
+
+    --warn: #8a5a2b;
+    --warn-bg: #fdf7ef;
+    --warn-border: #e6d6be;
+    --warn-text: #6b5334;
+    --warn-deep: #3c3629;
+
+    --gold: #9a7a20;
+    --gold-text: #7a5f14;
+    --purple: #6b5b8a;
+    --purple-text: #5b4c78;
+
+    --improved-bg: #f3f6f1;
+    --improved-border: #dce5d9;
+    --hatch-a: #f1efea;
+    --hatch-b: #fbfaf7;
+    --overlay: rgba(20, 22, 26, 0.55);
+  }
+
+  .dark {
+    --bg: #101215;
+    --surface: #1a1d22;
+    --surface-alt: #22262c;
+    --desk: #22262c;
+
+    --panel: #1a1d22;
+
+    --ink: #f6f4f0;
+    --ink-2: #e4e1da;
+    --ink-3: #c9c6c0;
+    --ink-4: #9a9791;
+    --ink-5: #82878f;
+
+    --line: #2c3038;
+    --line-2: #24282e;
+    --line-3: #3a3f47;
+    --line-4: #4b5058;
+
+    --accent: #4e6fa8;
+    --accent-dark: #a9c0e4;
+    --accent-mid: #8fa6cc;
+    --accent-soft: #1b2233;
+    --accent-border: #2e3e5c;
+    --accent-50: #6c87b0;
+
+    --success: #2e8663;
+    --success-bg: #16241e;
+    --success-border: #2a4a3b;
+    --success-dark: #7fcba8;
+
+    --error: #c74e4e;
+    --error-bg: #2a1717;
+    --error-mark: #4a2020;
+    --error-border: #4a2a2a;
+
+    --warn: #c08a4a;
+    --warn-bg: #241c12;
+    --warn-border: #4a3a22;
+    --warn-text: #d9b57f;
+    --warn-deep: #e8d5b8;
+
+    --gold: #c9a94e;
+    --gold-text: #e4c86a;
+    --purple: #9a87c4;
+    --purple-text: #b9a8dc;
+
+    --improved-bg: #172018;
+    --improved-border: #2a3a2c;
+    --hatch-a: #22262c;
+    --hatch-b: #1a1d22;
+    --overlay: rgba(0, 0, 0, 0.65);
+  }
+
   html {
     -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
   }
 
   body {
@@ -27,7 +147,6 @@
     color: inherit;
   }
 
-  /* Uzun o'quv matni uchun */
   .prose-lesson {
     @apply text-lg text-ink-2;
     line-height: 1.65;
@@ -52,12 +171,11 @@
 }
 
 @layer components {
-  /* Bo'sh holat illyustratsiyasi o'rniga chiziqli placeholder */
   .placeholder-hatch {
     background-image: repeating-linear-gradient(
       135deg,
-      #f1efea 0 8px,
-      #fbfaf7 8px 16px
+      var(--hatch-a) 0 8px,
+      var(--hatch-b) 8px 16px
     );
     @apply border border-line;
   }
@@ -65,11 +183,7 @@
   /* Tanlangan holat: layout siljimasligi uchun inset shadow */
   .is-selected {
     @apply border-ink;
-    box-shadow: inset 0 0 0 1px #14161a;
-  }
-
-  .focus-accent:focus {
-    @apply border-accent outline-none;
+    box-shadow: inset 0 0 0 1px var(--ink);
   }
 
   .hide-scrollbar {

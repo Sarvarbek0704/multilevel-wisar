@@ -151,7 +151,7 @@ function ExamRunner({ attempt }: { attempt: AttemptForTaking }) {
   return (
     <div className="flex flex-1 flex-col overflow-hidden">
       {/* Header */}
-      <header className="shrink-0 bg-ink px-4 pb-3 pt-2.5 text-on-dark">
+      <header className="shrink-0 bg-panel px-4 pb-3 pt-2.5 text-on-dark">
         <div className="flex items-end justify-between">
           <div>
             <p className="text-2xs tracking-label text-on-dark-4">
@@ -604,7 +604,7 @@ function ConfirmModal({
   onConfirm: () => void;
 }) {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[rgba(20,22,26,0.55)] px-6">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[var(--overlay)] px-6">
       <div className="w-full max-w-[350px] animate-popFast bg-bg p-5">
         <h2 className="font-display text-2xl font-bold tracking-tight">
           {last ? 'Imtihonni topshirasizmi?' : `${sectionName} bo‘limini yakunlaysizmi?`}

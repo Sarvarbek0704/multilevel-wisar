@@ -6,9 +6,10 @@ import { AppFrame } from '@/components/app-frame';
 import { OtpInput } from '@/components/auth/otp-input';
 import { Heatmap } from '@/components/heatmap';
 import { TelegramIcon } from '@/components/icons';
-import { Button, Field, SectionLabel, TextInput } from '@/components/ui';
+import { Button, Field, SectionLabel, Segmented, TextInput } from '@/components/ui';
 import { api } from '@/lib/api';
 import { useAuth } from '@/lib/auth-context';
+import { useTheme } from '@/lib/theme';
 import { formatDateFull, initials } from '@/lib/format';
 import type { DashboardResponse, HeatmapDay, OtpRequestResponse, User } from '@/lib/types';
 import { needsBotContact } from '@/lib/types';
@@ -23,6 +24,7 @@ export default function ProfilePage() {
 
 function ProfileContent() {
   const { user, signOut, setUser } = useAuth();
+  const { theme, setTheme } = useTheme();
 
   const dashboard = useQuery({
     queryKey: ['dashboard'],
@@ -150,6 +152,32 @@ function ProfileContent() {
             </div>
           )}
         </section>
+      )}
+
+      {/* Sozlamalar */}
+      <section className="mt-7">
+        <SectionLabel>SOZLAMALAR</SectionLabel>
+        <div className="mt-3 flex items-center justify-between border border-line bg-surface p-4">
+          <span className="text-ui text-ink-3">Tema</span>
+          <Segmented
+            options={[
+              { value: 'light', label: 'Light' },
+              { value: 'dark', label: 'Dark' },
+              { value: 'auto', label: 'Auto' },
+            ]}
+            value={theme}
+            onChange={setTheme}
+          />
+        </div>
+      </section>
+
+      {user.role === 'ADMIN' && (
+        <a
+          href="/admin"
+          className="mt-7 block border border-accent-border bg-accent-soft p-4 text-center text-ui font-semibold text-accent-dark"
+        >
+          Admin panel →
+        </a>
       )}
 
       <Button variant="danger" full className="mt-8" onClick={() => void signOut()}>

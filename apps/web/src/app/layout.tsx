@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Archivo, IBM_Plex_Mono, IBM_Plex_Sans } from 'next/font/google';
 import { Providers } from '@/components/providers';
+import { themeScript } from '@/lib/theme';
 import './globals.css';
 
 const archivo = Archivo({
@@ -47,11 +48,19 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="uz" className={`${archivo.variable} ${plexSans.variable} ${plexMono.variable}`}>
+    <html
+      lang="uz"
+      suppressHydrationWarning
+      className={`${archivo.variable} ${plexSans.variable} ${plexMono.variable}`}
+    >
+      <head>
+        {/* Tema klassi birinchi bo'yoqdan oldin qo'yiladi — miltillash bo'lmaydi */}
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body className="bg-desk">
         <Providers>
           {/* Dizayn 390px kenglikda chizilgan; kattaroq ekranda markazda ushlab turamiz */}
-          <div className="mx-auto flex min-h-dvh max-w-phone flex-col bg-bg sm:min-h-dvh sm:border-x sm:border-line-3">
+          <div className="mx-auto flex min-h-dvh max-w-phone flex-col bg-bg shadow-frame sm:my-0 sm:border-x sm:border-line-3">
             {children}
           </div>
         </Providers>

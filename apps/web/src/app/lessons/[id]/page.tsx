@@ -148,7 +148,7 @@ function FinishModal({
   const percent = total > 0 ? Math.round((correct / total) * 100) : 100;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-[rgba(20,22,26,0.55)]">
+    <div className="fixed inset-0 z-50 flex items-end justify-center bg-[var(--overlay)]">
       <div className="w-full max-w-phone animate-fadeUp bg-bg p-5 pb-7">
         <p className="text-2xs font-semibold tracking-label text-accent">DARS TUGALLANDI</p>
         <h2 className="mt-2 font-display text-4xl font-bold tracking-tighter">{title}</h2>

@@ -82,7 +82,7 @@ export function AiPanel({ result }: { result: EvaluationResult }) {
       {result.improvedVersion && (
         <div className="border-b border-line-2 px-4 py-3.5">
           <SectionLabel>YAXSHILANGAN VARIANT</SectionLabel>
-          <p className="mt-2 border border-[#DCE5D9] bg-[#F3F6F1] p-3 text-ui leading-relaxed text-ink-2">
+          <p className="mt-2 border border-improved-border bg-improved-bg p-3 text-ui leading-relaxed text-ink-2">
             {result.improvedVersion}
           </p>
         </div>

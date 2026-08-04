@@ -185,6 +185,17 @@ function DashboardContent() {
         </div>
       )}
 
+      {/* AI amaliyot */}
+      <Link href="/practice" className="mt-2.5 flex items-center gap-3 border border-line p-4">
+        <div className="flex-1">
+          <p className="text-ui font-semibold">AI amaliyot</p>
+          <p className="mt-1 text-base leading-relaxed text-ink-3">
+            Writing yozing yoki mikrofonga gapiring — AI darhol baholaydi.
+          </p>
+        </div>
+        <ArrowRight size={18} className="text-ink-4" />
+      </Link>
+
       {/* Oxirgi mock */}
       {data.lastMockResult && (
         <Link href="/mocks" className="mt-2.5 flex items-center gap-3 border border-line-3 p-4">

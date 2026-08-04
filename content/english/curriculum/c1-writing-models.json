@@ -1,0 +1,750 @@
+{
+  "subject": "ENGLISH",
+  "level": "C1",
+  "slug": "english-c1-writing-models",
+  "titleUz": "C1 Writing: namunaviy javoblar tahlili",
+  "titleEn": "C1 Writing: Annotated Model Answers",
+  "descriptionUz": "Har bir vazifa turi uchun to'liq namunaviy javob — gap-bagap izohlangan, mezonlar bo'yicha baholangan. O'quvchilar odatda 70/75 ga loyiq javob qanday ko'rinishini hech qachon ko'rmaydi; bu kurs aynan shuni ko'rsatadi: nima yozilgan, nega shunday yozilgan va qaysi mezonga qancha ball qo'shgan.",
+  "icon": "📝",
+  "order": 8,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "task1-models",
+      "titleUz": "Task 1: email namunalari",
+      "titleEn": "Task 1: model emails",
+      "descriptionUz": "Norasmiy, rasmiy so'rov va shikoyat emaillarining to'liq C1 namunalari — har biri gap-bagap izohlangan va 4 mezon bo'yicha baholangan.",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "informal-email-model",
+          "titleUz": "Norasmiy email: to'liq C1 namuna",
+          "titleEn": "Informal email: full C1 model",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 0,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "C1 darajadagi norasmiy emailning har bir gapi qanday ball keltirishini tushunish",
+            "Tabiiy norasmiy ohangni sun'iy \"kitobiy\" tildan farqlash",
+            "50-90 so'z chegarasida to'liq, izchil javob yozish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vazifa (Task 1 · norasmiy email)",
+              "bodyUz": "Sizga do'stingizdan email keldi. Unga javob yozing (**50-90 so'z**).\n\n> *Hi! I've finally decided to spend next summer abroad, and Uzbekistan is at the top of my list. What's the best month to come? And is there anything I should definitely see outside Tashkent?*\n> *Daniel*\n\n**Ekspert nimani qidiradi:**\n- ikkala savolga ham javob bormi (vazifani bajarish);\n- ohang do'stona va bir xilmi (register);\n- gaplar bir-biriga ulanganmi yoki ro'yxatdek turibdimi;\n- so'z chegarasi hurmat qilinganmi.\n\n**Eng ko'p uchraydigan yo'qotish:** o'quvchi 2 ta savolga javob beradi, lekin quruq — *\"May is good. You should see Samarkand.\"* Bu B1. C1 da javob **asoslanadi** va **shaxsiy ohang** qo'shiladi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namunaviy javob (C1 · 70/75)",
+              "bodyUz": "**82 so'z**\n\n*Hi Daniel,*\n\n*Great news — you have picked the right country!*\n\n*I'd avoid July if I were you: it gets brutally hot. Late April or September is far kinder, and the markets are full of fruit then.*\n\n*As for the rest of the country, Samarkand is the obvious one, but do not skip Bukhara; it is smaller, quieter and, honestly, the one people remember. Two nights each is plenty.*\n\n*Let me know your dates and I'll sort out the trains.*\n\n*Take care,*\n*Aziz*\n\nDiqqat qiling: bu yerda bironta ham \"katta\" so'z yo'q. C1 ni ko'rsatayotgan narsa — **gap tuzilishining xilma-xilligi** va **so'zlarning bir-biriga tabiiy yopishishi**, lug'atdan olingan noyob so'zlar emas."
+            },
+            {
+              "type": "example",
+              "titleUz": "Gap-bagap tahlil: har bir gap qanday ball keltirdi",
+              "items": [
+                {
+                  "en": "Great news — you have picked the right country!",
+                  "uz": "VAZIFANI BAJARISH + ohang. Xat darrov do'stning xabariga reaksiya bilan boshlanadi, shablon bilan emas. Tire (—) norasmiy yozuvda tabiiy pauza yaratadi — C1 punktuatsiya belgisi. \"Picked\" (choose emas) — og'zaki registrga mos."
+                },
+                {
+                  "en": "I'd avoid July if I were you: it gets brutally hot.",
+                  "uz": "GRAMMATIKA. Ikkinchi shart mayli (If I were you) qisqargan holda — maslahat buyruq emas, taklif bo'lib chiqadi. Ikki nuqta (:) sabab bog'lovchisi o'rnida ishlagan. \"Brutally hot\" — kuchli, tabiiy kollokatsiya; \"very hot\" bu yerda B1 bo'lardi."
+                },
+                {
+                  "en": "Late April or September is far kinder, and the markets are full of fruit then.",
+                  "uz": "SO'Z BOYLIGI. \"Kinder\" ob-havo haqida ko'chma ma'noda — C1 belgisi. \"Far + kinder\" — kuchaytirgich (very emas). Ikkinchi qism savolga qo'shimcha sabab beradi: javob shunchaki fakt emas, **asoslangan** javob."
+                },
+                {
+                  "en": "As for the rest of the country, Samarkand is the obvious one, but do not skip Bukhara; it is smaller, quieter and, honestly, the one people remember.",
+                  "uz": "IZCHILLIK. \"As for...\" — mavzuni ikkinchi savolga o'tkazuvchi signal (Secondly emas — bu tabiiyroq). \"The obvious one\" va \"the one people remember\" — takrorlashdan qochish uchun substitution. Nuqtali vergul ikki bog'liq fikrni ulaydi. \"Honestly\" — hedging: fikr shaxsiy ekanini yumshoq bildiradi."
+                },
+                {
+                  "en": "Two nights each is plenty.",
+                  "uz": "RITM + VAZIFANI BAJARISH. Uzun gaplardan keyin qisqa gap — matnga nafas beradi va maslahatni aniq qiladi. \"Each\" bitta so'z bilan ikkala shaharga ham tegishli ekanini bildiradi — iqtisodiy ifoda."
+                },
+                {
+                  "en": "Let me know your dates and I'll sort out the trains.",
+                  "uz": "VAZIFANI BAJARISH. Xat harakatga chaqirish bilan yakunlanadi — bu suhbatni davom ettiradi, ya'ni haqiqiy email vazifasini bajaradi. \"Sort out\" — norasmiy phrasal verb, registrga to'liq mos (\"arrange\" bu yerda biroz rasmiy bo'lardi)."
+                },
+                {
+                  "en": "Take care,",
+                  "uz": "REGISTR. Xayrlashuv salomlashish bilan bir xil darajada norasmiy. Agar \"Hi Daniel\" dan keyin \"Yours faithfully\" kelsa, register buziladi va ball tushadi — bu eng oson yo'qotiladigan ballardan biri."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Mezonlar bo'yicha baho",
+              "headers": ["Mezon", "Baho", "Nima uchun"],
+              "rows": [
+                ["Vazifani bajarish", "C1 · 5/5", "Ikkala savolga ham javob bor va har biri asoslangan; so'z chegarasi (82) ichida; javob suhbatni davom ettiradi."],
+                ["Izchillik va bog'lanish", "C1 · 5/5", "\"As for...\" bilan mavzu almashinuvi, substitution (the obvious one), nuqtali vergul va tire bilan tabiiy oqim. Bog'lovchilar sanoq shaklida emas."],
+                ["So'z boyligi", "C1 · 5/5", "brutally hot, far kinder, the one people remember, sort out — barchasi tabiiy kollokatsiya. Sun'iy \"imtihon so'zlari\" yo'q."],
+                ["Grammatik xilma-xillik va aniqlik", "C1 · 4.5/5", "Shart mayli, kelasi zamon (I'll), qiyoslash, sanoq sifatlar — xilma-xil va xatosiz. 5/5 uchun yana bitta murakkab struktura (masalan, relative clause) qo'shilishi mumkin edi."]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 → C1: bir xil fikr, boshqa ifoda",
+              "headers": ["B2 varianti", "C1 varianti", "Farqi nimada"],
+              "rows": [
+                ["I think July is very hot.", "I'd avoid July if I were you: it gets brutally hot.", "Shart mayli + kuchli kollokatsiya; maslahat yumshoq, til aniq"],
+                ["April and September are better.", "Late April or September is far kinder.", "\"far + comparative\" kuchaytirgichi va ko'chma ma'nodagi sifat"],
+                ["You must see Samarkand and Bukhara.", "Samarkand is the obvious one, but do not skip Bukhara.", "Buyruq o'rniga baholovchi ohang; takrorni substitution bilan yo'qotish"],
+                ["Two nights is enough.", "Two nights each is plenty.", "\"plenty\" tabiiyroq; \"each\" bitta so'z bilan aniqlik qo'shadi"],
+                ["Tell me when you come.", "Let me know your dates and I'll sort out the trains.", "Harakatga chaqirish + registrga mos phrasal verb"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "C1 norasmiy emailda **kamida bitta \"insoniy\" gap** bo'lsin — hazil, shaxsiy fikr yoki qisqa izoh (namunada: *honestly, the one people remember*). Ekspert shu yerda robot bilan odamni ajratadi. Lekin ehtiyot bo'ling: hazil qisqa bo'lsin, aks holda so'z chegarasini yeb qo'yadi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Namunadagi «I'd avoid July if I were you» gapi birinchi navbatda qaysi mezonga ball qo'shadi?",
+              "data": {
+                "options": [
+                  "Grammatik xilma-xillik va aniqlik",
+                  "Vazifani bajarish",
+                  "Izchillik va bog'lanish",
+                  "Imlo va tinish belgilari"
+                ]
+              },
+              "answer": { "value": "Grammatik xilma-xillik va aniqlik" },
+              "explanationUz": "Bu yerda ikkinchi shart mayli (If I were you) qisqargan holda ishlatilgan — bu murakkab grammatik struktura va u xatosiz. Ma'no oddiy, lekin qurilish C1 darajada."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«Samarkand is the obvious one» dagi «one» so'zi qanday vazifa bajaryapti?",
+              "data": {
+                "options": [
+                  "Takrorlanadigan otni almashtiryapti (substitution)",
+                  "Sonni bildiryapti",
+                  "Egani kuchaytiryapti",
+                  "Hech qanday vazifasi yo'q, to'ldiruvchi so'z"
+                ]
+              },
+              "answer": { "value": "Takrorlanadigan otni almashtiryapti (substitution)" },
+              "explanationUz": "\"One\" = \"city/place\". Substitution — izchillik mezonining muhim quroli: bir xil otni qayta-qayta yozmaslik matnni professional qiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Norasmiy emailda tire (—) va nuqtali vergul (;) ishlatish C1 darajada mumkin va hatto foydali." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Norasmiy demak — \"tinish belgilarisiz\" degani emas. Tire tabiiy pauza, nuqtali vergul esa ikki bog'liq fikrni ulash uchun ishlaydi; ikkalasi ham nazorat ostidagi yozuv belgisi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Namunadagi phrasal verbni tiklang:",
+              "data": { "text": "Let me know your dates and I'll ___ out the trains." },
+              "answer": { "accept": ["sort"] },
+              "explanationUz": "\"Sort out\" — norasmiy registrda \"hal qilib qo'yaman\" degani. Rasmiy variant \"arrange\" bo'lardi, lekin do'stga yozilgan xatda \"sort out\" tabiiyroq."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Norasmiy emailning REGISTRIGA mos iboralarni belgilang (bir nechta):",
+              "data": {
+                "options": [
+                  "Take care,",
+                  "Let me know your dates.",
+                  "I look forward to hearing from you.",
+                  "Yours faithfully,",
+                  "Guess what — I'd avoid July."
+                ]
+              },
+              "answer": { "values": ["Take care,", "Let me know your dates.", "Guess what — I'd avoid July."] },
+              "explanationUz": "\"I look forward to hearing from you\" va \"Yours faithfully\" — rasmiy xat elementlari. Do'stga yozilgan xatda ular registrni buzadi va ball tushiradi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "C1 namunaning qismlarini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "As for the rest of the country, Samarkand is the obvious one, but do not skip Bukhara.",
+                  "Hi Daniel,",
+                  "Let me know your dates and I'll sort out the trains.",
+                  "Great news — you have picked the right country!",
+                  "I'd avoid July if I were you: it gets brutally hot."
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Hi Daniel,",
+                  "Great news — you have picked the right country!",
+                  "I'd avoid July if I were you: it gets brutally hot.",
+                  "As for the rest of the country, Samarkand is the obvious one, but do not skip Bukhara.",
+                  "Let me know your dates and I'll sort out the trains."
+                ]
+              },
+              "explanationUz": "Salomlashish → reaksiya → 1-savolga javob → 2-savolga javob (\"As for...\" bilan o'tish) → harakatga chaqirish."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Your friend Chloe writes: \"I'm thinking of taking a year out before university — travelling, maybe working somewhere. My parents hate the idea. What do you think, and what would you do with a year like that?\" Write a reply (50-90 words). Answer both questions, give a reason for your view, and end by keeping the conversation going.",
+              "promptUz": "Do'stingiz Chloe yozdi: universitetdan oldin bir yil tanaffus olmoqchi, lekin ota-onasi qarshi. Javob email yozing (50-90 so'z): ikkala savolga ham javob bering, fikringizni asoslang va suhbatni davom ettiruvchi gap bilan yakunlang. Kamida bitta shart mayli va bitta phrasal verb ishlating.",
+              "data": { "minWords": 50, "maxWords": 90 }
+            }
+          ]
+        },
+        {
+          "slug": "formal-request-model",
+          "titleUz": "Rasmiy so'rov emaili: to'liq C1 namuna",
+          "titleEn": "Formal request email: full C1 model",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 1,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "120-150 so'zlik rasmiy so'rovning funksional bloklarini ajrata olish",
+            "Bilvosita savol (indirect question) va hedging orqali hurmat darajasini boshqarish",
+            "Rasmiy registrda \"sovuq\" emas, \"aniq\" yozishni o'rganish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vazifa (Task 1 · rasmiy so'rov)",
+              "bodyUz": "Siz Britaniya universitetida ikki haftalik yozgi tadqiqot amaliyoti haqidagi e'lonni ko'rdingiz. Koordinatorga rasmiy email yozing (**120-150 so'z**):\n\n- nima uchun yozayotganingizni tushuntiring;\n- o'zingiz haqingizda tegishli ma'lumot bering;\n- turar joy va moliyaviy yordam haqida so'rang;\n- ariza topshirish tartibini so'rang.\n\n**Ekspert nimani qidiradi:** rasmiy so'rov emaili — bu **savol berish san'ati**. Savollar to'g'ridan-to'g'ri emas, bilvosita berilishi kerak; har bir savol alohida ajratilgan bo'lsa, o'quvchiga ham, ekspertga ham oson bo'ladi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namunaviy javob (C1 · 70/75)",
+              "bodyUz": "**146 so'z**\n\n*Dear Dr Whitfield,*\n\n*I am writing with regard to the two-week research placement in Environmental Science advertised on your department's website.*\n\n*I am currently in my third year of a Chemistry degree at the National University of Uzbekistan, where my coursework has focused on water quality in the Aral basin. The placement appears to build directly on that work, which is why I am keen to be considered.*\n\n*Before submitting an application, I would be grateful for clarification on two points. First, is accommodation arranged by the department, or are participants expected to make their own arrangements? Second, I understand that a limited number of bursaries are available; could you confirm whether international applicants are eligible?*\n\n*I would also appreciate it if you could tell me what documents the application requires.*\n\n*Thank you for your time. I look forward to hearing from you.*\n\n*Yours sincerely,*\n*Aziz Rahimov*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Gap-bagap tahlil: har bir gap qanday ball keltirdi",
+              "items": [
+                {
+                  "en": "I am writing with regard to the two-week research placement in Environmental Science advertised on your department's website.",
+                  "uz": "VAZIFANI BAJARISH. Birinchi gap uchta savolga bir yo'la javob beradi: kim yozyapti, nima haqida, qayerdan bilgan. \"With regard to\" — \"about\" ning rasmiy varianti. \"Advertised on...\" — qisqargan sifatdosh oborot (which was advertised o'rniga): iqtisodiy va rasmiy."
+                },
+                {
+                  "en": "I am currently in my third year of a Chemistry degree at the National University of Uzbekistan, where my coursework has focused on water quality in the Aral basin.",
+                  "uz": "GRAMMATIKA + VAZIFA. \"Where\" bilan boshlangan relative clause ikkita fikrni bitta gapga jamlaydi. Present Perfect (\"has focused\") davom etayotgan tajribani bildiradi. Ma'lumot **tegishli** — vazifaga bog'liq, umumiy tarjimai hol emas."
+                },
+                {
+                  "en": "The placement appears to build directly on that work, which is why I am keen to be considered.",
+                  "uz": "IZCHILLIK + HEDGING. \"Appears to\" — ehtiyotkor bahо (\"is\" deyish o'zini haddan tashqari ishonchli qilib ko'rsatardi). \"Which is why\" — oldingi butun gapga ishora qiluvchi bog'lovchi: bu C1 darajadagi izchillik quroli."
+                },
+                {
+                  "en": "Before submitting an application, I would be grateful for clarification on two points.",
+                  "uz": "IZCHILLIK. Bu gap **signpost** — o'quvchini ogohlantiradi: hozir ikkita savol keladi. Ekspert bunday gaplarni juda qadrlaydi, chunki matn tuzilishi ko'rinib turadi. \"Before + -ing\" — qisqargan ergash gap."
+                },
+                {
+                  "en": "First, is accommodation arranged by the department, or are participants expected to make their own arrangements?",
+                  "uz": "GRAMMATIKA. Ikkita majhul nisbat (passive) bitta savolda — rasmiy registrning tabiiy belgisi. Muqobil savol (\"or\") bitta so'rov bilan ikki variantni qamrab oladi: iqtisodiy va aniq."
+                },
+                {
+                  "en": "Second, I understand that a limited number of bursaries are available; could you confirm whether international applicants are eligible?",
+                  "uz": "SO'Z BOYLIGI + ohang. \"I understand that...\" — ma'lumotni ehtiyotkorlik bilan tekshirish shakli; agar noto'g'ri bo'lsa ham, yozuvchi qo'pol ko'rinmaydi. \"Could you confirm whether...\" — bilvosita savol, \"Are they eligible?\" dan ancha hurmatliroq."
+                },
+                {
+                  "en": "I would also appreciate it if you could tell me what documents the application requires.",
+                  "uz": "GRAMMATIKA. \"I would appreciate it if you could...\" — eng foydali rasmiy so'rov formulasi, ichida bilvosita savol (\"what documents the application requires\" — so'z tartibi to'g'ri, \"what documents does...\" emas). Bu yerda ko'p o'quvchi xato qiladi."
+                },
+                {
+                  "en": "Thank you for your time. I look forward to hearing from you.",
+                  "uz": "REGISTR. Ikki qismli yakun: minnatdorchilik + kutish. \"Look forward to\" dan keyin -ing shakli (hearing) — klassik tuzoq, namunada to'g'ri. \"Dear Dr Whitfield\" ism ma'lum bo'lgani uchun \"Yours sincerely\" bilan yakunlangan."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Mezonlar bo'yicha baho",
+              "headers": ["Mezon", "Baho", "Nima uchun"],
+              "rows": [
+                ["Vazifani bajarish", "C1 · 5/5", "To'rt talabning barchasi bajarilgan, har biri alohida ajratilgan; ma'lumot vazifaga tegishli; 146 so'z — chegara ichida."],
+                ["Izchillik va bog'lanish", "C1 · 5/5", "\"Before submitting...\" signposti, First/Second sanoqlari, \"which is why\" bilan orqaga ishora — matn tuzilishi birinchi o'qishdayoq ko'rinadi."],
+                ["So'z boyligi", "C1 · 4.5/5", "with regard to, clarification, bursaries, eligible, make their own arrangements — aniq va sohaga mos. Takrorlanish yo'q."],
+                ["Grammatik xilma-xillik va aniqlik", "C1 · 5/5", "Relative clause, ikki passive, ikki bilvosita savol, qisqargan oborotlar, \"I would appreciate it if...\" — xilma-xil va xatosiz."]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Rasmiy so'rovning 5 funksional bloki",
+              "headers": ["Blok", "Vazifasi", "Namunadagi ifoda"],
+              "rows": [
+                ["1. Maqsad", "Nima haqida yozayotganingiz + manba", "I am writing with regard to... advertised on your department's website."],
+                ["2. Kontekst", "Nega aynan siz — tegishli ma'lumot", "I am currently in my third year..., where my coursework has focused on..."],
+                ["3. Signpost", "Nechta savol borligini oldindan aytish", "I would be grateful for clarification on two points."],
+                ["4. Savollar", "Bilvosita, ajratilgan, hurmatli", "First, is accommodation arranged...? Second, could you confirm whether...?"],
+                ["5. Yakun", "Minnatdorchilik + kutish + to'g'ri imzo", "Thank you for your time. I look forward to hearing from you. Yours sincerely,"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Rasmiy emailda **savol berish** ballning yarmini olib keladi. Uchta formulani yodlab qo'ying va imtihonda faqat ichini almashtiring:\n\n1. *Could you confirm whether...?*\n2. *I would be grateful if you could...*\n3. *I would also appreciate it if you could tell me what/how/when...*\n\nMuhim: ulardan keyin **to'g'ri gap tartibi** keladi — *what documents the application requires* (emas: *what documents does the application require*)."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Qaysi variant to'g'ri bilvosita savol?",
+              "data": {
+                "options": [
+                  "Could you tell me what the deadline is?",
+                  "Could you tell me what is the deadline?",
+                  "Could you tell me what does the deadline?",
+                  "Could you tell me the deadline is what?"
+                ]
+              },
+              "answer": { "value": "Could you tell me what the deadline is?" },
+              "explanationUz": "Bilvosita savolda gap tartibi darak gapdek bo'ladi: what + ega + kesim. \"What is the deadline\" faqat mustaqil savol sifatida to'g'ri."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Rasmiy so'rov formulasini to'ldiring:",
+              "data": { "text": "I would be ___ for clarification on two points." },
+              "answer": { "accept": ["grateful", "thankful"] },
+              "explanationUz": "\"I would be grateful for/if...\" — rasmiy so'rovning eng ishonchli shakli. \"Grateful\" bu kontekstda \"thankful\" dan tabiiyroq."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir gapni u bajarayotgan funksional blokka bog'lang:",
+              "data": {
+                "left": [
+                  "I am writing with regard to the placement advertised on your website.",
+                  "My coursework has focused on water quality in the Aral basin.",
+                  "I would be grateful for clarification on two points.",
+                  "I look forward to hearing from you."
+                ],
+                "right": ["Kontekst (nega aynan men)", "Maqsad va manba", "Yakun va kutish", "Signpost (savollarni e'lon qilish)"]
+              },
+              "answer": {
+                "pairs": {
+                  "I am writing with regard to the placement advertised on your website.": "Maqsad va manba",
+                  "My coursework has focused on water quality in the Aral basin.": "Kontekst (nega aynan men)",
+                  "I would be grateful for clarification on two points.": "Signpost (savollarni e'lon qilish)",
+                  "I look forward to hearing from you.": "Yakun va kutish"
+                }
+              },
+              "explanationUz": "Rasmiy emailda har bir xatboshi aniq vazifa bajaradi. Vazifasiz gap — yo'qotilgan so'z."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "\"Dear Dr Whitfield\" bilan boshlangan xat \"Yours faithfully\" bilan tugashi kerak." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Ism ma'lum bo'lsa — \"Yours sincerely\". \"Yours faithfully\" faqat \"Dear Sir or Madam\" bilan juftlashadi. Bu juftlikni adashtirish register mezonidan ball yo'qotadi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Namunadagi «The placement appears to build directly on that work» gapida «appears to» nima uchun ishlatilgan?",
+              "data": {
+                "options": [
+                  "Ehtiyotkor baho berish uchun (hedging) — yozuvchi o'zini haddan tashqari ishonchli ko'rsatmaydi",
+                  "Grammatik jihatdan \"is\" ishlatib bo'lmaydi",
+                  "So'z sonini oshirish uchun",
+                  "Bu majhul nisbat talabi"
+                ]
+              },
+              "answer": { "value": "Ehtiyotkor baho berish uchun (hedging) — yozuvchi o'zini haddan tashqari ishonchli ko'rsatmaydi" },
+              "explanationUz": "Hedging (appears to, would seem, tends to) C1 ning muhim belgisi: yozuvchi boshqa odamning dasturi haqida qat'iy hukm chiqarmaydi. Bu ohangni hurmatli qiladi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "«About the placement...» iborasini rasmiy variantiga aylantiring (2-4 so'z, «...the placement» dan oldingi qismi):",
+              "data": { "text": "___ the placement advertised on your website" },
+              "answer": { "accept": ["with regard to", "with reference to", "regarding", "in relation to", "concerning"] },
+              "explanationUz": "With regard to / with reference to / regarding — \"about\" ning rasmiy ekvivalentlari. Rasmiy emailning birinchi gapida ular deyarli har doim mos keladi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Rasmiy emailda MOS KELMAYDIGAN elementlarni belgilang (bir nechta):",
+              "data": {
+                "options": [
+                  "I'm really keen to join, so let me know ASAP!",
+                  "Could you confirm whether international applicants are eligible?",
+                  "Thanks a million for your help!",
+                  "I would appreciate it if you could send further details.",
+                  "Btw, is there any funding?"
+                ]
+              },
+              "answer": { "values": ["I'm really keen to join, so let me know ASAP!", "Thanks a million for your help!", "Btw, is there any funding?"] },
+              "explanationUz": "Qisqartmalar (I'm, btw, ASAP) va norasmiy iboralar (thanks a million) rasmiy registrni buzadi. C1 da register buzilishi so'z boyligi va vazifani bajarish mezonlarining ikkalasiga ham urib ketadi."
+            }
+          ]
+        },
+        {
+          "slug": "complaint-email-model",
+          "titleUz": "Shikoyat emaili: to'liq C1 namuna",
+          "titleEn": "Complaint email: full C1 model",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 2,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Shikoyatning 4 bosqichli mantiqini o'zlashtirish: fakt → nosozlik → oqibat → talab",
+            "Qattiq, lekin xushmuomala ohangni saqlash (qo'pollik ham, kuchsizlik ham ball tushiradi)",
+            "Aniq detallar orqali \"vazifani bajarish\" mezonini to'ldirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vazifa (Task 1 · shikoyat)",
+              "bodyUz": "Siz onlayn agentlik orqali ekskursiya bron qildingiz. Gid kelmadi, o'rniga yuborilgani esa ikki soat kechikdi. Agentlikka shikoyat emaili yozing (**120-150 so'z**):\n\n- nima bron qilganingizni ayting;\n- nima noto'g'ri ketganini tushuntiring;\n- bu sizga qanday ta'sir qilganini ayting;\n- nima kutayotganingizni bildiring.\n\n**Shikoyatning oltin mantig'i:** FAKT → NOSOZLIK → OQIBAT → TALAB. Ko'p o'quvchi \"oqibat\" bosqichini tashlab ketadi va shikoyat zaif chiqadi — aynan oqibat sizning talabingizni asoslaydi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namunaviy javob (C1 · 70/75)",
+              "bodyUz": "**148 so'z**\n\n*Dear Sir or Madam,*\n\n*I am writing to complain about a guided tour I booked through your website on 12 May (booking reference UZ-4471).*\n\n*According to the confirmation, an English-speaking guide was to meet our group at the Registan at 9 a.m. No one appeared. After forty minutes of phone calls, your office informed us that a replacement had been arranged; he eventually arrived at 11 a.m., without the promised transport.*\n\n*As a result, we missed two of the four sites listed in the itinerary and had to cancel a museum booking made for the afternoon. For a tour advertised as \"fully guided\", this fell well short of what we were entitled to expect.*\n\n*I would therefore ask you to refund half of the fee. If I do not receive a reply within ten working days, I will take the matter to the booking platform.*\n\n*Yours faithfully,*\n*Aziz Rahimov*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Gap-bagap tahlil: har bir gap qanday ball keltirdi",
+              "items": [
+                {
+                  "en": "I am writing to complain about a guided tour I booked through your website on 12 May (booking reference UZ-4471).",
+                  "uz": "VAZIFANI BAJARISH. Birinchi gapda maqsad, mahsulot, sana va bron raqami bor. Qavs ichidagi raqam — real hayotdagi shikoyatning belgisi; ekspert buni \"vazifa kontekstini to'liq egallash\" deb baholaydi. Relative clause \"that\" tushirilgan holda (a tour I booked) — tabiiy va iqtisodiy."
+                },
+                {
+                  "en": "According to the confirmation, an English-speaking guide was to meet our group at the Registan at 9 a.m.",
+                  "uz": "GRAMMATIKA. \"Was to meet\" — kelishilgan, lekin bajarilmagan reja uchun ishlatiladigan struktura. Bu juda kuchli tanlov: shartnoma buzilganini grammatikaning o'zi aytib turibdi. \"According to the confirmation\" — dalilga havola."
+                },
+                {
+                  "en": "No one appeared.",
+                  "uz": "USLUB. Uch so'zli gap uzun gapdan keyin — zarba effekti. C1 yozuvchi gap uzunligini **maqsadli** o'zgartiradi; bu izchillik va uslub nazoratining belgisi. Ohang qo'pol emas, lekin qat'iy."
+                },
+                {
+                  "en": "After forty minutes of phone calls, your office informed us that a replacement had been arranged; he eventually arrived at 11 a.m., without the promised transport.",
+                  "uz": "GRAMMATIKA. Past Perfect Passive (\"had been arranged\") voqealar ketma-ketligini aniq ko'rsatadi. \"Eventually\" — kechikishga baho beruvchi ravish. Nuqtali vergul ikki bosqichni bitta voqea sifatida bog'laydi."
+                },
+                {
+                  "en": "As a result, we missed two of the four sites listed in the itinerary and had to cancel a museum booking made for the afternoon.",
+                  "uz": "VAZIFANI BAJARISH — OQIBAT bosqichi. \"As a result\" bilan aniq bog'lanish. Raqamlar (\"two of the four\") zararni o'lchanadigan qiladi. Ikkita qisqargan sifatdosh oborot (listed..., made...) matnni ixcham saqlaydi."
+                },
+                {
+                  "en": "For a tour advertised as \"fully guided\", this fell well short of what we were entitled to expect.",
+                  "uz": "SO'Z BOYLIGI. \"Fall well short of\" — kuchli idiomatik kollokatsiya; \"be entitled to\" huquqiy ohang qo'shadi. E'londagi so'zni qo'shtirnoqda keltirish — dalilni ularning o'z tili bilan qaytarish usuli. Baqirmasdan bosim o'tkazish shu."
+                },
+                {
+                  "en": "I would therefore ask you to refund half of the fee.",
+                  "uz": "TALAB bosqichi. \"I would therefore ask you to...\" — qat'iy, lekin xushmuomala. \"I want my money back\" qo'pol, \"Maybe you could refund something\" esa kuchsiz bo'lardi. Talab **aniq va o'lchanadigan**: yarmi, hammasi emas — bu ishonchlilik qo'shadi."
+                },
+                {
+                  "en": "If I do not receive a reply within ten working days, I will take the matter to the booking platform.",
+                  "uz": "GRAMMATIKA + strategiya. Birinchi shart mayli bilan keyingi qadam belgilanadi. Qisqartma yo'q (do not) — rasmiy registr saqlangan. Muddat aniq (\"ten working days\") — shikoyat kuchli bo'ladi."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Mezonlar bo'yicha baho",
+              "headers": ["Mezon", "Baho", "Nima uchun"],
+              "rows": [
+                ["Vazifani bajarish", "C1 · 5/5", "To'rt talab (bron / nosozlik / oqibat / talab) to'liq bajarilgan; detallar aniq va ishonarli; 148 so'z."],
+                ["Izchillik va bog'lanish", "C1 · 5/5", "Har xatboshi bir bosqich. \"According to...\", \"As a result...\", \"therefore\" — bog'lanish tabiiy, sanoq shaklida emas."],
+                ["So'z boyligi", "C1 · 5/5", "fall well short of, be entitled to, itinerary, replacement, refund — sohaga aniq mos. Kuchli ohang so'z tanlash orqali berilgan, undov belgilari orqali emas."],
+                ["Grammatik xilma-xillik va aniqlik", "C1 · 4.5/5", "was to meet, past perfect passive, qisqargan oborotlar, first conditional — xilma-xil va aniq. 5/5 uchun bitta murakkab qo'shma gap ko'proq bo'lishi mumkin edi."]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Shikoyat ohangi shkalasi",
+              "headers": ["Juda kuchsiz (ball tushadi)", "C1 me'yori", "Juda qo'pol (ball tushadi)"],
+              "rows": [
+                ["I was a bit sad about the tour.", "This fell well short of what we were entitled to expect.", "Your company is a total disgrace."],
+                ["Maybe you could give something back?", "I would therefore ask you to refund half of the fee.", "I demand my money back immediately!!!"],
+                ["Please answer when you can.", "If I do not receive a reply within ten working days, I will take the matter to the booking platform.", "Answer me now or I will destroy your reputation."],
+                ["The guide was a little late.", "He eventually arrived at 11 a.m., without the promised transport.", "The guide was completely useless and lazy."]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Shikoyatda **undov belgisi ishlatmang**. C1 da kuchli ohang faktlar, raqamlar va aniq kollokatsiyalar orqali beriladi: *fell well short of*, *were entitled to*, *within ten working days*. Undov belgisi va bosh harflar (VERY BAD!) darhol registrni B1 ga tushiradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Shikoyatning 4 bosqichini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "OQIBAT: bu sizga qanday zarar keltirdi",
+                  "FAKT: nima, qachon, qaysi raqam bilan bron qilingan",
+                  "TALAB: nima kutayotganingiz va keyingi qadam",
+                  "NOSOZLIK: aslida nima sodir bo'ldi"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "FAKT: nima, qachon, qaysi raqam bilan bron qilingan",
+                  "NOSOZLIK: aslida nima sodir bo'ldi",
+                  "OQIBAT: bu sizga qanday zarar keltirdi",
+                  "TALAB: nima kutayotganingiz va keyingi qadam"
+                ]
+              },
+              "explanationUz": "Bu tartib majburiy: talab faqat oqibat ko'rsatilgandan keyin asoslangan bo'ladi. Oqibatsiz talab — kuchsiz shikoyat."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«An English-speaking guide was to meet our group at 9 a.m.» — bu yerda «was to meet» nimani bildiradi?",
+              "data": {
+                "options": [
+                  "Kelishilgan, lekin bajarilmagan rejani",
+                  "Takrorlanuvchi o'tmish odatini",
+                  "Hozirgi majburiyatni",
+                  "Kelasi zamondagi ehtimolni"
+                ]
+              },
+              "answer": { "value": "Kelishilgan, lekin bajarilmagan rejani" },
+              "explanationUz": "\"Was/were to + infinitive\" rasmiy uslubda oldindan kelishilgan reja uchun ishlatiladi. Shikoyatda u shartnoma buzilganini grammatikaning o'zi bilan ko'rsatadi — juda kuchli tanlov."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Kuchli shikoyat kollokatsiyasini to'ldiring:",
+              "data": { "text": "For a tour advertised as \"fully guided\", this fell well ___ of what we were entitled to expect." },
+              "answer": { "accept": ["short"] },
+              "explanationUz": "\"Fall short of (expectations/standards)\" — \"kutilgan darajaga yetmaslik\". \"Well\" kuchaytirgichi bilan birga bu C1 shikoyatining eng foydali iborasi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Qaysi iboralar shikoyatning ohangini BUZADI? (bir nechta)",
+              "data": {
+                "options": [
+                  "This is absolutely unacceptable!!!",
+                  "I would therefore ask you to refund half of the fee.",
+                  "Your staff were completely useless.",
+                  "As a result, we missed two of the four sites.",
+                  "I am really really angry about this situation."
+                ]
+              },
+              "answer": { "values": ["This is absolutely unacceptable!!!", "Your staff were completely useless.", "I am really really angry about this situation."] },
+              "explanationUz": "Undov belgilari, shaxsga qaratilgan haqorat va takrorlangan kuchaytirgich (really really) — hammasi registrni tushiradi. C1 da g'azab faktlar orqali beriladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Shikoyatda aniq raqam va sana keltirish (12 May, UZ-4471, ten working days) vazifani bajarish balini oshiradi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Aniq detallar shikoyatni ishonarli qiladi va ekspertga \"kontekstni to'liq egallagan\" degan signal beradi. Umumiy gaplar (\"some days ago\", \"a lot of money\") esa balni tushiradi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "«We had the right to expect more» iborasini namunadagi rasmiy variantiga aylantiring: «what we were ___ to expect»",
+              "data": { "text": "this fell well short of what we were ___ to expect" },
+              "answer": { "accept": ["entitled"] },
+              "explanationUz": "\"Be entitled to\" — \"haqli bo'lmoq\". Huquqiy ohangdagi bu ibora shikoyatga og'irlik qo'shadi va C1 so'z boyligini ko'rsatadi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Namunada talab nima uchun «half of the fee» (yarmi), «all of the fee» (hammasi) emas?",
+              "data": {
+                "options": [
+                  "Talab mutanosib bo'lsa, ishonarli va bajarilishi mumkin ko'rinadi",
+                  "Grammatik jihatdan \"all\" ishlatib bo'lmaydi",
+                  "So'z chegarasi uchun",
+                  "Rasmiy xatlarda pul so'rash taqiqlanadi"
+                ]
+              },
+              "answer": { "value": "Talab mutanosib bo'lsa, ishonarli va bajarilishi mumkin ko'rinadi" },
+              "explanationUz": "Ekskursiyaning bir qismi baribir bo'lib o'tdi, shuning uchun yarim pul so'rash mantiqiy. Mutanosib talab — yetuk yozuvchining belgisi va vazifani bajarish mezoniga ijobiy ta'sir qiladi."
+            }
+          ]
+        },
+        {
+          "slug": "three-levels-compared",
+          "titleUz": "Bir xil vazifa, uch daraja: B1 / B2 / C1",
+          "titleEn": "One task, three levels: B1 / B2 / C1",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 3,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "Bir xil vazifaga yozilgan B1, B2 va C1 javoblarni yonma-yon solishtirish",
+            "Darajani ko'taradigan aniq lingvistik farqlarni nomlash",
+            "O'z yozuvingiz qaysi darajada ekanini aniqlay olish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vazifa (barcha uch javob uchun bir xil)",
+              "bodyUz": "Do'stingiz Mark yozdi:\n\n> *I've been offered a job in another city. Better pay, but I'd be leaving all my friends. What would you do?*\n\nJavob email yozing (**50-90 so'z**).\n\nQuyida bir xil vazifaga yozilgan **uchta** javob bor. Ular bir xil g'oyani aytadi — \"ishni qabul qil, lekin o'ylab ko'r\". Farq **g'oyada emas, ifodada**. Ekspert ham aynan shuni baholaydi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "B1 javobi (≈60 so'z)",
+              "bodyUz": "*Hi Mark,*\n\n*Thanks for your email. It is a difficult question.*\n\n*I think you should take the job. The money is better and you can find new friends there. Also you can visit your old friends at the weekend, because the city is not very far.*\n\n*But it is your decision. Think about it carefully.*\n\n*Good luck!*\n*Aziz*\n\n**Nega B1:** hamma gap bir xil uzunlikda va bir xil qurilishda (ega + kesim + to'ldiruvchi). Bog'lovchilar eng oddiylari: and, also, because, but. \"It is a difficult question\" — bo'sh gap, hech narsa qo'shmaydi. Maslahat berilgan, lekin **asoslanmagan**."
+            },
+            {
+              "type": "theory",
+              "titleUz": "B2 javobi (≈75 so'z)",
+              "bodyUz": "*Hi Mark,*\n\n*What a decision to be faced with! I can see why you are hesitating.*\n\n*If I were you, I would probably accept. A better salary now will give you more choice later, and friendships do not disappear the moment you move — you will just have to work a little harder at them.*\n\n*That said, do ask how much travelling the job involves before you say yes.*\n\n*Let me know what you decide!*\n*Aziz*\n\n**Nega B2, C1 emas:** struktura ancha yaxshi — shart mayli bor, \"That said\" bor, tire bor. Lekin ohang hali ham **maslahatchi** ohangi: \"you should / do ask\". Fikr aytilgan, lekin **qarshi tomon ko'rib chiqilmagan**. So'zlar to'g'ri, lekin kutilgan: better salary, more choice, work harder."
+            },
+            {
+              "type": "theory",
+              "titleUz": "C1 javobi (81 so'z · 70/75)",
+              "bodyUz": "*Hi Mark,*\n\n*Honestly? I'd take it.*\n\n*Not because the money settles the argument — it rarely does — but because you can always move back, whereas an offer like this may not come round twice. Friendships survive distance far better than we expect; the ones that don't were probably on their way out anyway.*\n\n*The one thing I would check is whether the role actually involves the work you enjoy, or just more of it.*\n\n*Either way, you'll land on your feet.*\n*Aziz*\n\n**Nega C1:** javob birinchi qatorda beriladi, keyin **asoslanadi**; qarshi dalil (\"not because the money...\") ichkariga singdirilgan; gap uzunligi maqsadli o'zgaradi (2 so'z → 30 so'z → 5 so'z); ohang do'stona, lekin fikri bor odamning ohangi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Uch daraja — 4 mezon bo'yicha",
+              "headers": ["Mezon", "B1 javobi", "B2 javobi", "C1 javobi"],
+              "rows": [
+                ["Vazifani bajarish", "Savolga javob bor, lekin asossiz; bo'sh gaplar bor", "Javob + bitta asos + bitta ogohlantirish", "Javob + asos + qarshi dalil + amaliy tekshiruv nuqtasi"],
+                ["Izchillik va bog'lanish", "and / also / because / but — sanoq", "That said, tire, \"the moment you move\"", "Not because... but because..., whereas, nuqtali vergul, orqaga ishora (\"it rarely does\")"],
+                ["So'z boyligi", "difficult question, better money, new friends", "hesitating, salary, work harder at them", "settles the argument, come round twice, on their way out, land on your feet"],
+                ["Grammatik xilma-xillik", "Oddiy gaplar; deyarli hammasi Present Simple", "Second conditional, kelasi zamon, buyruq (do ask)", "Ellipsis (Honestly?), whereas bilan qarama-qarshilik, relative clause (the ones that don't), murakkab kesim (is whether...)"],
+                ["Umumiy taassurot", "Tushunarli, lekin sodda", "Ishonchli, lekin oldindan aytsa bo'ladigan", "Tabiiy, aniq, shaxsiy ovoz eshitiladi"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "C1 javobining gap-bagap tahlili",
+              "items": [
+                {
+                  "en": "Honestly? I'd take it.",
+                  "uz": "USLUB + VAZIFA. Ellipsis (to'liq bo'lmagan gap) — og'zaki nutqning yozuvdagi nazorat ostidagi ko'rinishi. Savol darhol javob oladi: ekspert birinchi qatordanoq \"vazifa bajarildi\" deb belgilaydi."
+                },
+                {
+                  "en": "Not because the money settles the argument — it rarely does — but because you can always move back, whereas an offer like this may not come round twice.",
+                  "uz": "IZCHILLIK + GRAMMATIKA. \"Not because... but because...\" — qarshi dalilni ichkariga singdirish tuzilmasi; bu C1 ning eng kuchli quroli. \"It rarely does\" — orqaga ishora qiluvchi ellipsis (does = settles the argument). \"Whereas\" rasmiy qarama-qarshilikni norasmiy matnga tabiiy qo'shadi."
+                },
+                {
+                  "en": "Friendships survive distance far better than we expect; the ones that don't were probably on their way out anyway.",
+                  "uz": "SO'Z BOYLIGI. \"Survive distance\" — kutilmagan, lekin aniq kollokatsiya. \"On their way out\" — tabiiy idioma (sun'iy emas, chunki kontekstga mos). Nuqtali vergul ikkinchi, achchiqroq fikrni birinchisiga bog'laydi."
+                },
+                {
+                  "en": "The one thing I would check is whether the role actually involves the work you enjoy, or just more of it.",
+                  "uz": "GRAMMATIKA. Cleft-ga yaqin struktura (\"The one thing I would check is whether...\") — muhim fikrni oldinga chiqaradi. \"Whether... or just more of it\" — nozik farq: ko'proq ish ≠ yoqadigan ish. Ana shu **nozik fikr** C1 ni B2 dan ajratadi."
+                },
+                {
+                  "en": "Either way, you'll land on your feet.",
+                  "uz": "OHANG. Qisqa, iliq yakun. \"Land on your feet\" — kontekstga mukammal mos idioma. Diqqat: butun xatda **bittagina** idioma bor. Bir nechta idiomani tiqishtirish sun'iy chiqadi va ballni tushiradi."
+                },
+                {
+                  "en": "an offer like this may not come round twice",
+                  "uz": "HEDGING. \"May not\" — qat'iy \"will not\" emas. C1 yozuvchi kelajak haqida qat'iy hukm chiqarmaydi; modal fe'l bilan ehtimolni o'lchaydi. Bu grammatik xilma-xillik va yetuklik belgisi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**O'zingizni tekshirishning eng tez usuli:** yozgan xatingizdagi gaplarning so'z sonini sanang. Agar hammasi 8-14 so'z oralig'ida bo'lsa — bu B1/B2 ritmi. C1 matnida uzunliklar sakraydi: 3 so'z, 28 so'z, 6 so'z. Bu bezak emas — bu fikr tuzilishining tabiiy natijasi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "B1 javobidagi «It is a difficult question» gapi nima uchun ball keltirmaydi?",
+              "data": {
+                "options": [
+                  "Bo'sh gap: vazifaga hech qanday yangi ma'lumot yoki fikr qo'shmaydi",
+                  "Grammatik xato bor",
+                  "Juda rasmiy",
+                  "Juda uzun"
+                ]
+              },
+              "answer": { "value": "Bo'sh gap: vazifaga hech qanday yangi ma'lumot yoki fikr qo'shmaydi" },
+              "explanationUz": "50-90 so'z chegarasida har bir gap ishlashi kerak. \"It is a difficult question\", \"Nowadays this is an important topic\" kabi gaplar joyni egallaydi, lekin ball keltirmaydi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«Not because the money settles the argument — it rarely does — but because you can always move back» tuzilmasi nimani ko'rsatadi?",
+              "data": {
+                "options": [
+                  "Yozuvchi qarshi dalilni ko'rib chiqib, keyin uni rad etayotganini",
+                  "Yozuvchi fikrini o'zgartirayotganini",
+                  "Yozuvchi pul haqida gapirishni istamasligini",
+                  "Grammatik xato borligini"
+                ]
+              },
+              "answer": { "value": "Yozuvchi qarshi dalilni ko'rib chiqib, keyin uni rad etayotganini" },
+              "explanationUz": "\"Not because X but because Y\" — bir gapda ikki tomonni ko'rsatish usuli. Bu vazifani bajarish (fikr chuqurligi) va izchillik (mantiqiy bog'lanish) mezonlarining ikkalasiga ham ball qo'shadi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir iborani u tegishli bo'lgan darajaga bog'lang:",
+              "data": {
+                "left": [
+                  "The money is better and you can find new friends there.",
+                  "If I were you, I would probably accept.",
+                  "Friendships survive distance far better than we expect.",
+                  "It is a difficult question."
+                ],
+                "right": ["B2 — shart mayli, to'g'ri lekin kutilgan", "C1 — kutilmagan kollokatsiya va nozik fikr", "B1 — oddiy sanoq bog'lovchi", "B1 — bo'sh gap"]
+              },
+              "answer": {
+                "pairs": {
+                  "The money is better and you can find new friends there.": "B1 — oddiy sanoq bog'lovchi",
+                  "If I were you, I would probably accept.": "B2 — shart mayli, to'g'ri lekin kutilgan",
+                  "Friendships survive distance far better than we expect.": "C1 — kutilmagan kollokatsiya va nozik fikr",
+                  "It is a difficult question.": "B1 — bo'sh gap"
+                }
+              },
+              "explanationUz": "Daraja g'oyada emas, ifodada. Bir xil fikrni uch xil darajada aytish mumkin — mashq shuni ko'rsatadi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "C1 javobi B1 javobidan uzunroq bo'lgani uchun yuqori baholangan." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. B1 — 60 so'z, C1 — 81 so'z, farq katta emas va ikkalasi ham chegara ichida. Farq **sifatda**: gap tuzilishining xilma-xilligi, kollokatsiya aniqligi va fikr chuqurligida."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "C1 javobidagi qarama-qarshilik bog'lovchisini tiklang:",
+              "data": { "text": "You can always move back, ___ an offer like this may not come round twice." },
+              "answer": { "accept": ["whereas", "while", "whilst"] },
+              "explanationUz": "\"Whereas\" ikki holatni bevosita qarama-qarshi qo'yadi. Norasmiy matnda ham ishlaydi va \"but\" dan ancha aniqroq bog'lanish beradi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "B2 javobini C1 ga ko'tarish uchun nimalar qilinishi kerak? (bir nechta)",
+              "data": {
+                "options": [
+                  "Qarshi dalilni fikr ichiga singdirish (Not because... but because...)",
+                  "Gap uzunliklarini maqsadli o'zgartirish",
+                  "Kutilmagan, lekin aniq kollokatsiya qo'shish",
+                  "Iloji boricha ko'proq idioma tiqishtirish",
+                  "Barcha oddiy so'zlarni sinonimlar bilan almashtirish"
+                ]
+              },
+              "answer": { "values": ["Qarshi dalilni fikr ichiga singdirish (Not because... but because...)", "Gap uzunliklarini maqsadli o'zgartirish", "Kutilmagan, lekin aniq kollokatsiya qo'shish"] },
+              "explanationUz": "Idioma to'plami va zo'rma-zo'raki sinonimlar aksincha ballni tushiradi — bu 3-modulning 3-darsidagi \"C1 da ham uchraydigan xatolar\" mavzusi."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Your friend Sam writes: \"I've been offered a place on a two-year course abroad, fully funded. My family want me to stay. Honestly, what would you do?\" Write a reply (50-90 words) at C1 level. Give your answer in the first two lines, support it with one reason, acknowledge the opposite view inside your argument, and vary your sentence lengths deliberately.",
+              "promptUz": "Do'stingiz Sam chet elda ikki yillik to'liq moliyalashtiriladigan o'quv kursiga taklif oldi, lekin oilasi qarshi. C1 darajada javob yozing (50-90 so'z): javobingizni dastlabki ikki qatorda ayting, bitta asos keltiring, qarshi fikrni dalilingiz ichiga singdiring va gap uzunliklarini maqsadli o'zgartiring (qisqa — uzun — qisqa).",
+              "data": { "minWords": 50, "maxWords": 90 }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

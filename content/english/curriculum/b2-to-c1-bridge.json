@@ -1,0 +1,1675 @@
+{
+  "subject": "ENGLISH",
+  "level": "C1",
+  "slug": "english-b2-to-c1-bridge",
+  "titleUz": "B2 dan C1 ga: farqni yopish",
+  "titleEn": "English B2 to C1 — Closing the Gap",
+  "descriptionUz": "B2 da qotib qolganlar uchun — C1 ni B2 dan ajratib turadigan aniq ko'nikmalar va ularni mashq qilish. 51-64 balldan 65-75 ballga o'tish uchun kerak bo'lgan aniq leksika, ball keltiradigan grammatika, matn bog'lanishi va imtihonda bajarish texnikasi.",
+  "descriptionEn": "For learners stuck at B2: the concrete skills that separate C1 from B2, and drills to build them.",
+  "icon": "🌉",
+  "order": 7,
+  "isPublished": true,
+  "modules": [
+    {
+      "slug": "range-and-precision",
+      "titleUz": "Aniqlik va boylik: C1 farqi",
+      "titleEn": "Range and precision",
+      "descriptionUz": "C1 so'z boyligi — ko'p so'z bilish emas, kerakli so'zni tanlash. Bu modulda B2 va C1 ifodalarini yonma-yon ko'rasiz, umumiy fe'llardan aniq fe'llarga o'tasiz va kollokatsiya aniqligini mustahkamlaysiz.",
+      "order": 0,
+      "lessons": [
+        {
+          "slug": "b2-vs-c1-side-by-side",
+          "titleUz": "B2 va C1 yonma-yon: bir xil g'oya, ikki daraja",
+          "titleEn": "B2 vs C1 side by side",
+          "skill": "VOCABULARY",
+          "level": "C1",
+          "order": 0,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "B2 va C1 ifodalarini yonma-yon taqqoslab, farqni ko'z bilan ko'rish",
+            "20 ta asosiy B2 -> C1 upgrade juftligini va ularning sababini o'zlashtirish",
+            "Ortiqcha upgrade va registr adashishi kabi tipik xatolardan qochish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega aynan shu yerda qotib qolasiz?",
+              "bodyUz": "B2 (51-64) va C1 (65-75) o'rtasidagi farq — bilgan so'zlaringiz **soni** emas. B2 talaba fikrni **yetkazadi**; C1 talaba fikrni **boshqaradi**.\n\nBaholovchi javobingizni o'qiganda uchta savolga javob izlaydi:\n\n1. Bu odam eng aniq so'zni tanladimi, yoki eng birinchi esiga kelganini ishlatdimi?\n2. Bitta fikrni ifodalash uchun qancha so'z sarfladi?\n3. Ohangni (rasmiy/norasmiy, qat'iy/ehtiyotkor) o'zi tanladimi, yoki tasodifan shunday chiqdimi?\n\nB2 da uchala savolga javob — «yo'q». C1 da — «ha». Shu kurs aynan mana shu uchta «ha» ni yasaydi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "C1 ning uch belgisi: aniqlik, zichlik, nazorat",
+              "bodyUz": "**1. Aniqlik (precision).** *very important* emas — **pivotal**. Bitta so'z uch so'zning ishini bajaradi.\n\n**2. Zichlik (density).** *Because the costs were rising, the company decided to stop hiring* emas — **With costs rising, the company froze recruitment**.\n\n**3. Nazorat (control).** *This is bad* emas — **This is arguably counterproductive**. Siz qanchalik qat'iy gapirayotganingizni o'zingiz belgilaysiz.\n\nDiqqat: uchalasi ham «so'z boyligini ko'rsatish» emas. Ular — fikrni aniqroq yetkazish **vositasi**. Bu farqni unutgan talaba C1 emas, **sun'iy B2** yozadi."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: bir xil g'oya, ikki daraja (20 juftlik)",
+              "headers": ["B2 ifoda", "C1 ifoda", "Nega bu C1?"],
+              "rows": [
+                ["very important", "pivotal / crucial", "Bitta sifat «very + adjective» ni almashtiradi — kuchaytirgich kerak emas, ma'no so'zning o'zida"],
+                ["a lot of problems", "a host of challenges", "«a host of» aniq miqdor ohangini beradi; «challenges» yechim nazarda tutilgan, rasmiyroq ot"],
+                ["a very big increase", "a dramatic surge", "«surge» o'zida «tez va katta o'sish» ma'nosini saqlaydi — uch so'z bitta otga siqiladi"],
+                ["get worse", "deteriorate", "Umumiy fe'l o'rniga bitta aniq fe'l — akademik registr belgisi"],
+                ["a very bad effect on health", "a detrimental impact on health", "«detrimental impact» — kuchli kollokatsiya; «bad effect» neytral va zaif"],
+                ["a lot of people think that", "there is a widespread belief that", "Fikr manbasini shaxssizlashtirish — akademik yozuvda talab qilinadigan ohang"],
+                ["think about the problem carefully", "weigh up the implications", "Aniq fe'l + aniq ot: «nimani o'ylash» degan savolga ham javob beradi"],
+                ["make something better", "enhance / refine", "«make + adjective» konstruksiyasi B2 belgisi; bitta fe'l C1 belgisi"],
+                ["in the end", "ultimately", "Bir so'zli diskurs markeri — rasmiy matnda tabiiyroq"],
+                ["because of this, ...", "consequently, ...", "Sabab-natijani bir so'zda bog'laydi; «because of this» og'zaki ohangda"],
+                ["it is very difficult to solve", "it poses a formidable challenge", "Fikr shunchaki «qiyin» emas — QANDAY qiyinligi aniqlanadi"],
+                ["talk about the issue", "address the issue", "«talk about» og'zaki; «address» = masalani ko'tarib, unga javob berish"],
+                ["more and more people", "an increasing number of people", "Takroriy konstruksiya o'rniga aniq miqdoriy ifoda"],
+                ["this happens a lot", "this is a recurrent phenomenon", "Chastota nominalizatsiya orqali ifodalanadi — zichlik ortadi"],
+                ["very useful", "invaluable", "«invaluable» = shunchalik foydaliki, bahosini belgilab bo'lmaydi — kuchliroq va aniqroq"],
+                ["it is clear that", "it is evident that / arguably", "Registrni tanlash: «evident» rasmiy, «arguably» esa ehtiyotkorlik qo'shadi"],
+                ["big companies", "major corporations", "«big» — o'lcham; «major» — ahamiyat. C1 da sifat ma'noni aniqlaydi"],
+                ["the government gives money to farmers", "the government subsidises farmers", "Bitta fe'l butun iborani almashtiradi — nominal zichlik"],
+                ["stop the spread of the disease", "curb the spread of the disease", "«curb» = jilovlash, to'liq to'xtatish emas; ma'no aniqroq"],
+                ["nowadays technology is used a lot", "technology has become ubiquitous", "«a lot» o'rniga bitta sifat; «nowadays» ni present perfect o'zi ifodalaydi"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Gap darajasida upgrade: oldin va keyin",
+              "items": [
+                {
+                  "en": "B2: Pollution is a very big problem in cities and it causes a lot of health problems. -> C1: Urban pollution poses a serious threat to public health.",
+                  "uz": "20 so'z 9 so'zga siqildi, ma'no esa aniqlashdi. «poses a threat» — xavf haqidagi eng tabiiy juftlik."
+                },
+                {
+                  "en": "B2: A lot of young people cannot find a job after university. -> C1: Graduate unemployment remains stubbornly high.",
+                  "uz": "«Graduate unemployment» — nominal ibora; «stubbornly high» muammoning davomiyligini bir so'zda ko'rsatadi."
+                },
+                {
+                  "en": "B2: The internet has changed our life very much. -> C1: The internet has fundamentally reshaped daily life.",
+                  "uz": "«very much» o'rniga «fundamentally», «changed» o'rniga «reshaped» — ikkalasi ham aniqroq va kuchliroq."
+                },
+                {
+                  "en": "B2: Governments should do something about climate change. -> C1: Governments must take decisive action on climate change.",
+                  "uz": "«do something» — B2 ning eng ko'p uchraydigan bo'shlig'i. «take decisive action» aniq va qat'iy."
+                },
+                {
+                  "en": "B2: It is not good for children to watch TV a lot. -> C1: Excessive screen time is detrimental to children's development.",
+                  "uz": "«not good» — inkor orqali berilgan zaif baho; «detrimental to» to'g'ridan-to'g'ri va aniq."
+                },
+                {
+                  "en": "B2: Many companies make a lot of money but they do not pay enough tax. -> C1: Highly profitable corporations frequently underpay tax.",
+                  "uz": "Ikki gap bittaga birlashdi; «underpay» bitta fe'lda «yetarlicha to'lamaydi» ma'nosini saqlaydi."
+                }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Upgrade qilishda uchta halokatli xato",
+              "bodyUz": "**1-xato: ortiqcha upgrade.** Har bir oddiy so'zni «chiroyli» so'zga almashtirsangiz, matn sun'iy chiqadi. *I ameliorated my English* — noto'g'ri. *I improved my English* — to'g'ri. C1 = **kerakli joyda** aniq so'z, hamma joyda kam uchraydigan so'z emas.\n\n**2-xato: registr adashishi.** Speaking da «Consequently, one must ascertain whether...» deb gapirsangiz, baholovchi buni yodlangan matn deb hisoblaydi va ball tushadi. Yozma registr ≠ og'zaki registr.\n\n**3-xato: kollokatsiyani buzish.** *make a research*, *do a mistake*, *say me* — bularni C1 talaba qilmaydi. Bitta buzilgan juftlik butun xatboshi taassurotini yo'q qiladi. (Bu haqda shu modulning 3-darsida batafsil.)"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Lexical Resource.** B2 tavsifi — «umumiy mavzularda yetarli so'z boyligi, ba'zan noaniq so'z tanlash». C1 tavsifi — «so'zni aniq va moslashuvchan tanlaydi, kam uchraydigan iboralarni tabiiy ishlatadi».\n\nAmaliy mezon: yozgan essengizdan 5 ta «very + sifat» va 5 ta «a lot of» ni toping. Har birini bitta aniq so'zga almashtiring. Faqat shu bitta harakat sizni Lexical Resource bo'yicha B2 ning yuqori chegarasidan C1 ga olib chiqadi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "Ajratilgan B2 iborasining eng aniq C1 muqobilini tanlang:",
+              "data": {
+                "text": "The new policy had **a very bad effect on** small businesses.",
+                "options": ["a detrimental impact on", "a very negative effect on", "a bad influence to", "a really terrible effect on"]
+              },
+              "answer": { "value": "a detrimental impact on" },
+              "explanationUz": "«detrimental impact on» — akademik matnning standart kuchli juftligi. Qolgan uchtasi shunchaki «very/really» qo'shadi yoki predlogni buzadi («influence to» ✗, «influence on» ✓)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "«a lot of problems» ni C1 darajada qanday ifodalaysiz?",
+              "data": {
+                "options": ["a host of challenges", "a many problems", "a lot of difficulties", "very much problems"]
+              },
+              "answer": { "value": "a host of challenges" },
+              "explanationUz": "«a host of» — «juda ko'p va turli-tuman» ma'nosini beruvchi C1 iborasi. «a lot of difficulties» faqat otni almashtiradi, konstruksiya B2 darajasida qoladi; qolgan ikkitasi grammatik jihatdan xato."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "VOCABULARY",
+              "promptUz": "Rasmiy akademik matnda C1 belgisi bo'lgan variantlarni belgilang (bir nechta):",
+              "data": {
+                "options": ["ultimately", "in the end", "consequently", "because of this", "an increasing number of"]
+              },
+              "answer": { "values": ["ultimately", "consequently", "an increasing number of"] },
+              "explanationUz": "«in the end» va «because of this» — og'zaki, ko'p so'zli variantlar. «ultimately» va «consequently» ularning bir so'zli rasmiy muqobili, «an increasing number of» esa «more and more» ning aniq shakli."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Har bir B2 iborasini uning C1 muqobiliga bog'lang:",
+              "data": {
+                "left": ["get worse", "think about carefully", "make better", "give money to"],
+                "right": ["enhance", "deteriorate", "subsidise", "weigh up"]
+              },
+              "answer": {
+                "pairs": {
+                  "get worse": "deteriorate",
+                  "think about carefully": "weigh up",
+                  "make better": "enhance",
+                  "give money to": "subsidise"
+                }
+              },
+              "explanationUz": "To'rttala C1 varianti ham bitta so'zda B2 ning ikki-uch so'zli iborasini qamrab oladi: deteriorate (bosqichma-bosqich yomonlashuv), weigh up (variantlarni taroziga solish), enhance (sifatini oshirish), subsidise (davlat mablag'i bilan qo'llab-quvvatlash)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Bo'sh joyni bitta C1 sifati bilan to'ldiring («hamma joyda mavjud» ma'nosida):",
+              "data": { "text": "Smartphones have become ___ in the modern workplace — almost no task is now completed without one." },
+              "answer": { "accept": ["ubiquitous", "pervasive", "omnipresent", "indispensable"] },
+              "explanationUz": "«ubiquitous» / «pervasive» — «hamma joyda uchraydigan». Bu bitta sifat «are used a lot everywhere» degan besh so'zni almashtiradi — aynan C1 zichligi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "Ajratilgan umumiy fe'lni aniqroq C1 fe'liga almashtiring (faqat bitta so'z yozing):",
+              "data": { "text": "The government introduced strict measures to **stop** the spread of the disease." },
+              "answer": { "accept": ["curb", "contain", "stem", "check", "curbing", "containing"] },
+              "explanationUz": "«curb / contain / stem the spread» — kasallik tarqalishi haqidagi standart C1 kollokatsiyalari. «stop» grammatik jihatdan to'g'ri, lekin u to'liq to'xtatishni bildiradi; aslida gap cheklash haqida — shuning uchun «curb» aniqroq."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "C1 darajaga chiqish uchun matndagi har bir oddiy so'zni imkon qadar kam uchraydigan so'z bilan almashtirish kerak." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Bu «ortiqcha upgrade» xatosi. C1 mezoni — so'zni ANIQ tanlash, kam uchraydigan so'zni ko'rsatish emas. *I ameliorated my English* kabi gaplar ballni ko'taradi emas, tushiradi."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Rewrite the following B2 paragraph at C1 level (60-90 words). Keep the meaning identical, but remove every 'very', every 'a lot of', and every general verb (get / make / do / have). Use at least three items from the B2 -> C1 table.\n\n'Nowadays a lot of young people move to big cities. This is because there are a lot of jobs there. But it makes a lot of problems, for example the traffic gets very bad and houses become very expensive.'",
+              "promptUz": "Quyidagi B2 xatboshisini C1 darajada qayta yozing (60-90 so'z). Ma'noni aynan saqlang, lekin har bir «very», har bir «a lot of» va har bir umumiy fe'lni (get / make / do / have) olib tashlang. Jadvaldagi kamida uchta B2 -> C1 juftligidan foydalaning.\n\n«Nowadays a lot of young people move to big cities. This is because there are a lot of jobs there. But it makes a lot of problems, for example the traffic gets very bad and houses become very expensive.»",
+              "data": { "minWords": 60, "maxWords": 90 }
+            }
+          ]
+        },
+        {
+          "slug": "precise-verbs-and-nominalisation",
+          "titleUz": "Aniq fe'l tanlash va nominalizatsiya",
+          "titleEn": "Precise verbs and nominalisation",
+          "skill": "VOCABULARY",
+          "level": "C1",
+          "order": 1,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "get / make / do / have o'rniga aniq fe'l tanlashni avtomatlashtirish",
+            "Nominalizatsiya orqali ikki-uch gapni bitta zich gapga aylantirish",
+            "Nominalizatsiyani qachon ISHLATMASLIK kerakligini bilish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "get, make, do, have — B2 ning to'rt tayanchi",
+              "bodyUz": "Har qanday B2 matnini oling: fe'llarining qariyb yarmi shu to'rttasi bo'ladi. Sababi oddiy — bu fe'llar **hamma narsaga** yaraydi. Aynan shuning uchun ular hech narsani **aniq** ifodalamaydi.\n\n*I got a job.* — Topdingizmi, yutdingizmi, tasodifanmi? Noma'lum.\n*I secured a job.* — Raqobat bor edi va siz uddaladingiz.\n*I landed a job.* — Kutilmagan omad (norasmiy).\n*I was offered a job.* — Tashabbus ularniki.\n\nBir xil vaziyat, to'rt xil ma'no. C1 talaba to'rttasidan **keraklisini** tanlaydi; B2 talaba faqat *got* ni biladi. Baholovchi uchun bu farq bir qarashda ko'rinadi."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: umumiy fe'ldan aniq fe'lga (18 juftlik)",
+              "headers": ["B2 (umumiy fe'l)", "C1 (aniq fe'l)", "Qo'shilgan ma'no"],
+              "rows": [
+                ["get a job", "secure / obtain a job", "Raqobatda erishish; rasmiy registr"],
+                ["get an award", "receive / be awarded a prize", "Kim berganiga urg'u tushadi"],
+                ["get worse", "deteriorate / decline", "Bosqichma-bosqich yomonlashuv jarayoni"],
+                ["get better (after illness)", "recover / make a full recovery", "Tiklanish jarayoni sifatida ifodalanadi"],
+                ["make a decision", "reach / arrive at a decision", "Muhokamadan keyin qabul qilingan qaror"],
+                ["make a plan", "devise / draw up a plan", "Rejani ishlab chiqishdagi mehnat ko'rinadi"],
+                ["make money", "generate revenue / turn a profit", "Biznes va iqtisod registri"],
+                ["make a law", "enact / pass legislation", "Huquqiy registr; jarayon aniq"],
+                ["do research", "conduct / carry out research", "Standart akademik kollokatsiya"],
+                ["do a test (teacher)", "administer a test", "Kim o'tkazayotgani aniqlashadi"],
+                ["do damage", "inflict / cause damage", "Zarar yetkazuvchi tomon ko'rinadi"],
+                ["have an effect on", "exert an influence on / have an impact on", "Ta'sirning kuchi va yo'nalishi ko'rsatiladi"],
+                ["have a meeting", "hold / convene a meeting", "Rasmiy tadbir ohangi"],
+                ["have a problem with", "encounter / face a problem", "Muammoga duch kelish jarayoni"],
+                ["give information", "provide / supply information", "Rasmiy xizmat ko'rsatish registri"],
+                ["give money to", "fund / finance / subsidise", "Moliyalashtirish turi aniqlashadi"],
+                ["say something about", "comment on / remark on", "Izoh berish harakati sifatida"],
+                ["put a rule in place", "implement / introduce a rule", "Rasmiy joriy etish"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Nominalizatsiya: fe'lni otga aylantirish",
+              "bodyUz": "Nominalizatsiya — harakatni **ot** ko'rinishida ifodalash. Bu C1 akademik yozuvining asosiy zichlashtirish quroli.\n\n*The government decided to raise taxes. This angered many voters.* (13 so'z, 2 gap)\n*The government's decision to raise taxes angered many voters.* (10 so'z, 1 gap)\n\nNima o'zgardi? Birinchi variantdagi butun harakat ikkinchisida **ega** bo'lib qoldi. Endi unga sifat qo'sha olasiz, uni boshqa gapga ulay olasiz, u haqida gapira olasiz:\n\n*The government's **controversial** decision to raise taxes, **announced without consultation**, angered many voters.*\n\nB2 talaba buni uch gapda aytadi. C1 talaba — bittada, va yo'l-yo'lakay ikkita baho beradi."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: fe'lli gapdan nominal iboraga (12 juftlik)",
+              "headers": ["B2 (fe'lli gap)", "C1 (nominalizatsiya)", "Nima yutdingiz?"],
+              "rows": [
+                ["The company decided to expand.", "the company's decision to expand", "Harakat ega bo'ladi va davom ettiriladi"],
+                ["Prices increased sharply.", "a sharp increase in prices", "Sifat + ot ko'proq ma'lumot sig'diradi"],
+                ["The policy failed.", "the failure of the policy", "Boshqa gapga ega yoki to'ldiruvchi bo'lib ulanadi"],
+                ["Students are performing better.", "improved student performance", "Uch so'zda butun tendensiya"],
+                ["The population is growing rapidly.", "rapid population growth", "Uzun gap zich iboraga aylanadi"],
+                ["Technology is developing fast.", "rapid technological development", "Sifatlar zanjiri — C1 belgisi"],
+                ["People are becoming more aware of the issue.", "growing public awareness of the issue", "Sakkiz so'z besh so'zga siqiladi"],
+                ["The government invested in railways.", "government investment in railways", "Rasmiy hisobot registri"],
+                ["Fewer people are reading books.", "a decline in book readership", "O'zgarishning o'zi otga aylanadi"],
+                ["Cities are becoming overcrowded.", "urban overcrowding", "Ikki so'zda butun muammo"],
+                ["Employees are not motivated.", "low employee motivation", "Inkor o'rniga baholovchi sifat"],
+                ["He was appointed director, and this surprised everyone.", "his appointment as director came as a surprise", "Ikki gap bitta gapga birlashadi"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Amalda: bir xatboshi, ikki daraja",
+              "items": [
+                {
+                  "en": "B2: The city built a new metro line. This reduced traffic. People were happy about it.",
+                  "uz": "Uchta qisqa gap, uchalasi ham «ega + fe'l + to'ldiruvchi» qolipida. Baholovchi bunday ritmni bir zumda B2 deb belgilaydi."
+                },
+                {
+                  "en": "C1: The construction of a new metro line significantly reduced congestion, a development warmly welcomed by residents.",
+                  "uz": "Nominalizatsiya (the construction of), aniq ot (congestion) va ilova ibora (a development welcomed by...). Bitta gapda uch xil vosita ishlaydi."
+                },
+                {
+                  "en": "B2: Many people are worried because the price of food is rising. The government did not do anything.",
+                  "uz": "Ikki gap, ikkalasi ham bo'sh: «are worried», «did not do anything»."
+                },
+                {
+                  "en": "C1: Rising food prices have provoked widespread public anxiety, compounded by government inaction.",
+                  "uz": "«Rising food prices» va «government inaction» — ikkita nominalizatsiya. «did not do anything» bitta otga (inaction) aylandi."
+                }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Qachon nominalizatsiya QILMASLIK kerak",
+              "bodyUz": "Nominalizatsiya — qurol, dogma emas. Uni noto'g'ri ishlatsangiz, ball tushadi.\n\n**Speaking da ehtiyot bo'ling.** *The implementation of the reduction of expenditure...* — bu og'zaki nutqda tushunarsiz. Gapirganda kuchli fe'l ishlating: *They cut spending, and that backfired.*\n\n**Ketma-ket ikkitadan ko'p nominalizatsiya qilmang.** *The consideration of the implementation of the modification of the policy...* — baholovchi bu gapni ikki marta o'qishga majbur bo'ladi. Bu **Coherence** balini tushiradi, ko'tarmaydi.\n\n**Oltin nisbat:** akademik xatboshida 2-3 ta nominalizatsiya yetarli. Qolgan gaplar kuchli fe'l bilan ishlasin. Zichlik — vosita, maqsad emas."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Lexical Resource + Grammatical Range.** Nominalizatsiya ikkala mezonga birdan ishlaydi: aniq ot tanlash — leksika, murakkab nominal iborani gapga to'g'ri ulash — grammatika.\n\nAmaliy tekshiruv: essengizni yozib bo'lgach, *get / make / do / have* so'zlarini sanang. Agar ular 250 so'zli matnda 6 martadan ko'p uchrasa, kamida yarmini jadvaldagi aniq fe'lga almashtiring — bu 5 daqiqalik ish, lekin Lexical Resource bo'yicha butun bir pog'ona."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "Akademik matn uchun eng to'g'ri fe'lni tanlang:",
+              "data": {
+                "text": "The institute has ___ research on air quality for over a decade.",
+                "options": ["conducted", "made", "done", "taken"]
+              },
+              "answer": { "value": "conducted" },
+              "explanationUz": "«conduct research» — akademik ingliz tilining standart juftligi. «make a research» butunlay xato; «do research» og'zaki nutqda qabul qilinadi, lekin yozma imtihonda zaif ko'rinadi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "«Prices increased sharply last year» gapining to'g'ri nominal shaklini tanlang:",
+              "data": {
+                "options": ["a sharp increase in prices", "a sharply increase of prices", "an increasing sharp of prices", "the price sharply increase"]
+              },
+              "answer": { "value": "a sharp increase in prices" },
+              "explanationUz": "Nominalizatsiyada ravish (sharply) sifatga (sharp) aylanadi, fe'l (increased) otga (increase) aylanadi, predlog esa «in» bo'ladi: an increase IN prices, a decline IN readership, a rise IN temperature."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Umumiy iborani uning aniq C1 muqobiliga bog'lang:",
+              "data": {
+                "left": ["make a decision", "have a meeting", "give money to a project", "have a bad effect on"],
+                "right": ["convene a meeting", "exert a negative influence on", "reach a decision", "fund a project"]
+              },
+              "answer": {
+                "pairs": {
+                  "make a decision": "reach a decision",
+                  "have a meeting": "convene a meeting",
+                  "give money to a project": "fund a project",
+                  "have a bad effect on": "exert a negative influence on"
+                }
+              },
+              "explanationUz": "Har bir aniq fe'l qo'shimcha ma'no olib keladi: reach (muhokamadan keyin), convene (rasmiy chaqirish), fund (moliyalashtirish), exert (ta'sir o'tkazish)."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Bo'sh joyni «make» dan ko'ra aniqroq fe'l bilan to'ldiring:",
+              "data": { "text": "After months of negotiation, the two sides finally ___ an agreement." },
+              "answer": { "accept": ["reached", "concluded", "brokered", "arrived at"] },
+              "explanationUz": "«reach an agreement» — muzokara natijasini bildiruvchi standart kollokatsiya. «make an agreement» grammatik jihatdan mumkin, lekin muzokara konteksti uchun «reach» ancha tabiiy va C1 darajaga mos."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "Nominalizatsiyani to'ldiring (fe'l «decided» dan yasalgan ot):",
+              "data": { "text": "The government's ___ to cut fuel subsidies provoked nationwide protests." },
+              "answer": { "accept": ["decision"] },
+              "explanationUz": "«The government decided to...» -> «The government's decision to...». Fe'l otga aylandi va endi u gapning egasi bo'lib, o'ziga sifat va ergash gap qabul qila oladi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "Quyidagi gapni uch so'zli nominal iboraga aylantiring:",
+              "data": { "text": "The population is growing rapidly. -> ___ (3 so'z)" },
+              "answer": { "accept": ["rapid population growth", "rapid growth of population", "the rapid population growth"] },
+              "explanationUz": "rapidly -> rapid (ravish sifatga), is growing -> growth (fe'l otga), population esa aniqlovchi ot bo'lib qoladi: rapid population growth. Bu qolip juda mahsuldor: rapid technological development, sharp price increase, growing public awareness."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "VOCABULARY",
+              "promptUz": "Bo'laklardan zich C1 gapini tuzing:",
+              "data": {
+                "items": ["a development welcomed by local residents", "significantly reduced", "The construction of a new metro line", "traffic congestion in the city centre,"]
+              },
+              "answer": {
+                "order": ["The construction of a new metro line", "significantly reduced", "traffic congestion in the city centre,", "a development welcomed by local residents"]
+              },
+              "explanationUz": "Nominalizatsiya (The construction of...) ega bo'ladi, keyin fe'l va to'ldiruvchi keladi, oxirida esa butun gapga izoh beruvchi ilova ibora (a development welcomed by...) turadi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Speaking Part 3 da imkon qadar ko'p nominalizatsiya ishlatish C1 ball keltiradi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Og'zaki nutqda zich nominal iboralar tushunarsiz va sun'iy eshitiladi — baholovchi buni yodlangan matn deb baholaydi. Gapirganda kuchli fe'l ishlating, nominalizatsiyani esa yozma matnga qoldiring."
+            }
+          ]
+        },
+        {
+          "slug": "collocation-precision",
+          "titleUz": "Kollokatsiya aniqligi: C1 xatosi boshqacha bo'ladi",
+          "titleEn": "Collocation precision",
+          "skill": "VOCABULARY",
+          "level": "C1",
+          "order": 2,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "C1 darajadagi xato turini tanib olish: grammatika emas, noto'g'ri so'z juftligi",
+            "Eng ko'p buziladigan 28 ta kollokatsiyani to'g'ri shaklda o'zlashtirish",
+            "Zaif lekin to'g'ri juftlikni kuchli C1 juftligiga ko'tarish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "C1 da xatoning turi o'zgaradi",
+              "bodyUz": "A2 da xato — *He go to school*.\nB1 da xato — *I am agree with you*.\nB2 da xato — *I have visited Samarkand last year*.\n\nC1 chegarasida esa grammatikangiz allaqachon to'g'ri. Endi xato butunlay boshqa joyda: **so'zlar bir-biriga to'g'ri kelmaydi**.\n\n*I made a research about pollution.*\n\nBu gapda birorta grammatik xato yo'q. Zamon to'g'ri, artikl to'g'ri, so'z tartibi to'g'ri. Lekin ingliz tilida so'zlashuvchi buni **hech qachon** aytmaydi. To'g'risi: *I conducted research on pollution.*\n\nBaholovchi buni darhol payqaydi va Lexical Resource ni C1 dan B2 ga tushiradi. Sababi C1 tavsifida aynan shunday yozilgan: «kollokatsiyalarni tabiiy va aniq ishlatadi»."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Kollokatsiyaning to'rt turi",
+              "bodyUz": "**1. Fe'l + ot:** conduct research, meet a deadline, raise awareness, pose a threat, draw a conclusion\n**2. Sifat + ot:** heavy traffic, a strong argument, a widespread belief, a pressing concern\n**3. Ravish + sifat:** highly effective, deeply concerned, bitterly disappointed, widely regarded\n**4. Fe'l + predlog:** result in, account for, contribute to, refrain from, comply with\n\nB2 talaba asosan to'rtinchi turda xato qiladi (*discuss about*, *depend of*). C1 chegarasidagi talaba esa **birinchi va uchinchi** turda qoqiladi: *do a mistake* o'rniga *make a mistake*, *very concerned* o'rniga *deeply concerned*.\n\nDiqqat: uchinchi turdagi xato «xato» ham emas — shunchaki zaif. Aynan shu zaiflik B2 va C1 orasidagi chegarani belgilaydi."
+            },
+            {
+              "type": "table",
+              "titleUz": "Eng ko'p buziladigan 28 kollokatsiya",
+              "headers": ["Xato yoki zaif (✗)", "Tabiiy C1 (✓)", "Izoh"],
+              "rows": [
+                ["make a research", "conduct research / carry out research", "«research» sanalmaydigan ot va «make» bilan yurmaydi"],
+                ["do a mistake", "make a mistake", "«make» — yaratish; «do» — bajarish"],
+                ["say me the truth", "tell me the truth", "«say» shaxs-to'ldiruvchini to'g'ridan-to'g'ri olmaydi"],
+                ["discuss about the issue", "discuss the issue", "«discuss» o'timli fe'l — predlog kerak emas"],
+                ["make an exam", "take / sit an exam", "Talaba imtihonni «oladi», yasamaydi"],
+                ["do a decision", "make / reach a decision", "Qaror «yasaladi» yoki «unga kelinadi»"],
+                ["make attention", "pay attention to", "Diqqat «to'lanadi»"],
+                ["do a party", "hold / throw a party", "Tadbir «o'tkaziladi»"],
+                ["strong rain", "heavy rain", "Yomg'ir, trafik, sanoat — doim «heavy»"],
+                ["big traffic", "heavy traffic", "«big» o'lchamni, «heavy» zichlikni bildiradi"],
+                ["make a photo", "take a photo", "Rasm «olinadi»"],
+                ["do a crime", "commit a crime", "Jinoyat, xato va o'z joniga qasd — «commit»"],
+                ["make damage", "cause / inflict damage", "Zarar «keltiriladi»"],
+                ["do progress", "make progress", "Taraqqiyot «yasaladi»"],
+                ["make homework", "do homework", "Vazifa «bajariladi» — bu yerda aksincha"],
+                ["make a risk", "take a risk / run a risk", "Tavakkal «olinadi»"],
+                ["give a suggestion", "make a suggestion / put forward a proposal", "Taklif «yasaladi» yoki «ilgari suriladi»"],
+                ["arrive a goal", "achieve / attain a goal", "Maqsadga «erishiladi»"],
+                ["reach to a conclusion", "reach a conclusion / draw a conclusion", "«reach» dan keyin predlog qo'yilmaydi"],
+                ["fulfil a deadline", "meet a deadline", "Muddat «bajariladi» emas, «uchratiladi»"],
+                ["rise awareness", "raise awareness of", "«rise» o'timsiz, «raise» o'timli fe'l"],
+                ["do an effort", "make an effort", "Harakat «yasaladi»"],
+                ["do a contribution", "make a contribution to", "Hissa «qo'shiladi» = make"],
+                ["do an impact", "have / exert an impact on", "Ta'sir «bo'ladi» yoki «o'tkaziladi»"],
+                ["take a benefit from", "reap the benefits of / derive benefit from", "Foyda «o'riladi» — idiomatik C1 juftligi"],
+                ["carry a responsibility", "bear / assume responsibility", "Mas'uliyat «ko'tariladi» = bear"],
+                ["make a role", "play a role in", "Rol «o'ynaladi»"],
+                ["give a problem", "pose a problem / pose a threat", "Muammo va xavf «qo'yiladi» = pose"]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: kollokatsiya kuchini oshirish",
+              "headers": ["B2 (grammatik to'g'ri, zaif)", "C1 (kuchli kollokatsiya)", "Nega bu C1?"],
+              "rows": [
+                ["have a big effect on", "exert a profound influence on", "«exert influence» — akademik matnning standart juftligi"],
+                ["a very important role", "a pivotal role", "«pivotal» bitta so'zda «hal qiluvchi» ma'nosini beradi"],
+                ["give a solution", "offer a viable solution", "«viable» yechimning amalga oshirilishini baholaydi"],
+                ["be very worried about", "be deeply concerned about", "«deeply» aynan «concerned» bilan yuradigan ravish"],
+                ["make people know about", "raise public awareness of", "Ijtimoiy-siyosiy matnning standart iborasi"],
+                ["be a big danger for", "pose a serious threat to", "Xavf haqidagi eng tabiiy juftlik"],
+                ["do the work on time", "meet the deadline", "Bitta ibora butun ma'noni qamrab oladi"],
+                ["think of a plan", "devise a strategy", "«devise» rejalashtirish mehnatini ko'rsatadi"],
+                ["get advantages from", "reap the benefits of", "Idiomatik va C1 ro'yxatidagi ibora"],
+                ["say the same thing again", "reiterate the point", "Bitta fe'l takrorlashni ifodalaydi"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Bitta buzilgan juftlik butun xatboshini yiqitadi",
+              "items": [
+                {
+                  "en": "✗ Many researchers have made a research about this topic and did important discoveries.",
+                  "uz": "Grammatika benuqson, lekin ikkita buzilgan juftlik bor: «made a research» va «did discoveries». Baholovchi uchun bu — B2."
+                },
+                {
+                  "en": "✓ Many researchers have conducted research on this topic and made important discoveries.",
+                  "uz": "Bir xil gap, bir xil so'zlar — faqat juftliklar to'g'rilandi. Endi bu C1."
+                },
+                {
+                  "en": "✗ The pandemic gave a big problem for schools and had a bad impact to students.",
+                  "uz": "«gave a problem» va «impact to» — ikkalasi ham buzilgan. Predlog xatosi (to/on) ayniqsa ko'zga tashlanadi."
+                },
+                {
+                  "en": "✓ The pandemic posed a serious problem for schools and had a detrimental impact on students.",
+                  "uz": "pose a problem, a detrimental impact ON — ikkita to'g'ri juftlik butun gapning darajasini ko'taradi."
+                }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Kollokatsiyani qanday o'rganish kerak",
+              "bodyUz": "**Yolg'iz so'z yodlamang — juftlik yodlang.** «Threat» so'zining tarjimasini bilish foydasiz. Foydalisi: *pose a threat / a serious threat / under threat / a threat to*.\n\n**Uch ustunli daftar yuriting:** [FE'L yoki SIFAT] + [OT] + [o'zingiz yozgan misol gap]. Haftasiga 15 juftlik — bu yiliga 780 ta juftlik.\n\n**10 soniyalik tekshiruv:** iborani qo'shtirnoq ichida qidiring. «conduct research» — millionlab natija; «make a research» — deyarli yo'q yoki faqat xato manbalarda. Shu oddiy test sizni o'nlab xatolardan saqlaydi.\n\n**Eng muhimi:** kollokatsiyalarni tayyor ro'yxatdan emas, **o'z matningizdan** yig'ing. Boshqalarning xatosi emas, sizniki takrorlanadi. (Bu haqda 4-modulning 3-darsida to'liq metodika bor.)"
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Lexical Resource — «uses collocation naturally».** Amaliy hisob: baholovchi bitta buzilgan kollokatsiyani kechiradi; ikkitasi — shubha uyg'otadi; uchtasi — bal B2 ga tushadi.\n\nImtihon oldidan oxirgi hafta yangi so'z o'rganmang. O'zingiz allaqachon biladigan 50 ta so'zning **to'g'ri juftliklarini** mustahkamlang. Bu yangi 200 ta so'z yodlashdan ko'ra ancha ko'proq ball keltiradi — chunki baholovchi siz bilmagan so'zni ko'ra olmaydi, lekin buzilgan juftlikni albatta ko'radi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "To'g'ri kollokatsiyani tanlang:",
+              "data": {
+                "text": "The team ___ a series of experiments to test the hypothesis.",
+                "options": ["carried out", "made", "did up", "took out"]
+              },
+              "answer": { "value": "carried out" },
+              "explanationUz": "«carry out an experiment / research / a study» — akademik matnning standart juftligi. «make an experiment» buzilgan kollokatsiya, «take out» esa butunlay boshqa ma'no (chiqarib olmoq)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "VOCABULARY",
+              "promptUz": "Qaysi juftlik TABIIY emas?",
+              "data": {
+                "options": ["strong traffic", "heavy traffic", "strong coffee", "heavy rain"]
+              },
+              "answer": { "value": "strong traffic" },
+              "explanationUz": "Transport oqimi uchun faqat «heavy traffic» ishlatiladi. «strong» ichimlik, dalil va ta'm bilan yuradi (strong coffee, a strong argument), «heavy» esa zichlik va og'irlik bilan (heavy rain, heavy traffic, heavy industry)."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "VOCABULARY",
+              "promptUz": "«threat» so'zi bilan tabiiy yuradigan variantlarni belgilang (bir nechta):",
+              "data": {
+                "options": ["pose a threat", "a serious threat", "under threat", "do a threat", "give a threat"]
+              },
+              "answer": { "values": ["pose a threat", "a serious threat", "under threat"] },
+              "explanationUz": "pose a threat (xavf tug'dirmoq), a serious threat (jiddiy xavf), under threat (xavf ostida) — uchalasi ham standart. «do a threat» va «give a threat» ingliz tilida mavjud emas."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "VOCABULARY",
+              "promptUz": "Har bir otga mos fe'lni bog'lang:",
+              "data": {
+                "left": ["___ a deadline", "___ awareness", "___ a crime", "___ responsibility"],
+                "right": ["raise", "bear", "meet", "commit"]
+              },
+              "answer": {
+                "pairs": {
+                  "___ a deadline": "meet",
+                  "___ awareness": "raise",
+                  "___ a crime": "commit",
+                  "___ responsibility": "bear"
+                }
+              },
+              "explanationUz": "meet a deadline (muddatga ulgurmoq), raise awareness (xabardorlikni oshirmoq), commit a crime (jinoyat sodir etmoq), bear responsibility (mas'uliyatni ko'tarmoq). Bu to'rttasi imtihon matnlarida eng ko'p uchraydigan juftliklar."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "To'g'ri fe'l bilan to'ldiring:",
+              "data": { "text": "Campaigners are working to ___ awareness of the dangers of air pollution among young people." },
+              "answer": { "accept": ["raise", "heighten", "increase"] },
+              "explanationUz": "«raise awareness» — standart juftlik. «rise» bu yerda ishlamaydi, chunki u o'timsiz fe'l (to'ldiruvchi olmaydi): prices rise, but campaigns raise awareness."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "VOCABULARY",
+              "promptUz": "To'g'ri fe'l bilan to'ldiring:",
+              "data": { "text": "The proposed tax would ___ a serious threat to small independent businesses." },
+              "answer": { "accept": ["pose", "present", "constitute"] },
+              "explanationUz": "«pose a threat to» — xavf haqidagi eng tabiiy C1 juftligi. «give a threat» yoki «do a threat» ingliz tilida mavjud emas."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "VOCABULARY",
+              "promptUz": "Ajratilgan zaif iborani kuchliroq C1 juftligiga almashtiring (ikki-uch so'z yozing):",
+              "data": { "text": "The committee will **make a decision** on the proposal next week." },
+              "answer": { "accept": ["reach a decision", "arrive at a decision", "come to a decision"] },
+              "explanationUz": "«make a decision» xato emas, lekin neytral. «reach / arrive at a decision» qaror muhokamadan keyin qabul qilinganini bildiradi — rasmiy kontekstda ancha aniq va C1 darajaga mos."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "VOCABULARY",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Agar gapda grammatik xato bo'lmasa, kollokatsiya buzilgan bo'lsa ham Lexical Resource bali tushmaydi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Kollokatsiya Lexical Resource mezonining bevosita qismi. *I made a research* gapida grammatik xato yo'q, lekin baholovchi uni B2 belgisi sifatida qayd etadi va bal tushadi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "grammar-that-scores",
+      "titleUz": "Ball keltiradigan grammatika",
+      "titleEn": "Grammar that scores",
+      "descriptionUz": "C1 grammatikasi — murakkab qurilma emas, boshqariladigan qurilma. Inversiya, participle va absolute clause, hamda hedging orqali fikrni urg'ulash, zichlashtirish va kalibrlashni o'rganasiz.",
+      "order": 1,
+      "lessons": [
+        {
+          "slug": "inversion-and-emphasis",
+          "titleUz": "Inversiya va emfatik tuzilmalar: qachon tabiiy, qachon sun'iy",
+          "titleEn": "Inversion and emphatic structures",
+          "skill": "GRAMMAR",
+          "level": "C1",
+          "order": 0,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Inkor-cheklov inversiyasini xatosiz yasash (Not only, Rarely, Under no circumstances, Only after)",
+            "Cleft va pseudo-cleft tuzilmalari bilan urg'uni boshqarish",
+            "Inversiyani qachon ishlatish va qachon ishlatmaslikni farqlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega inversiya ball keltiradi?",
+              "bodyUz": "C1 grammatika tavsifi shunday yozilgan: «a wide range of complex structures used with **flexibility**» — murakkab tuzilmalarning keng doirasi, **moslashuvchan** ishlatilgan.\n\nDiqqat: «keng doira» emas, «moslashuvchan» so'zi kalit. Baholovchi sizda murakkab tuzilma borligini emas, uni **kerakli joyda** ishlatganingizni tekshiradi.\n\nInversiya — bu bo'yicha eng ko'rinadigan belgi. Sababi: inversiya faqat siz biror fikrni **maxsus ta'kidlamoqchi** bo'lganingizda ishlatiladi. Agar u tasodifiy joyda tursa, baholovchi darhol tushunadi: bu yodlangan.\n\nShuning uchun bu darsda ikkita narsani birga o'rganamiz — **qanday yasash** va **qayerga qo'yish**."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: neytral gapdan emfatik gapga",
+              "headers": ["B2 (neytral)", "C1 (emfatik)", "Qanday ta'sir?"],
+              "rows": [
+                ["He is not only talented, he also works hard.", "Not only is he talented, but he also works extremely hard.", "Ega va yordamchi fe'l almashadi; iste'dodga urg'u tushadi"],
+                ["I have rarely seen such a clear example.", "Rarely have I seen such a clear example.", "Kamdan-kamlik gap boshiga chiqadi va kuchayadi"],
+                ["We should not underestimate this risk under any circumstances.", "Under no circumstances should we underestimate this risk.", "Qat'iy ogohlantirish ohangi paydo bo'ladi"],
+                ["I understood the real problem only after the meeting.", "Only after the meeting did I understand the real problem.", "Vaqt shartiga urg'u; kutilganlik hissi"],
+                ["The government is responsible, not the companies.", "It is the government, not the companies, that bears responsibility.", "Cleft: aybdorni ajratib ko'rsatadi"],
+                ["We need better teacher training.", "What we need is better teacher training.", "Pseudo-cleft: yechimga urg'u tushadi"],
+                ["He did not apologise at all.", "At no point did he apologise.", "Inkor kuchayadi va rasmiylashadi"],
+                ["If I had known, I would have helped.", "Had I known, I would have helped.", "Rasmiy shartli inversiya; «if» tushib qoladi"],
+                ["The problem is complex and the solution is expensive too.", "Not only is the problem complex, but the solution is also prohibitively expensive.", "Ikki fikr bog'lanib, ikkalasi ham kuchayadi"],
+                ["As soon as the report was published, the minister resigned.", "No sooner had the report been published than the minister resigned.", "Ketma-ketlikning tezligi ta'kidlanadi"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Mexanika: inversiyani qanday yasash",
+              "bodyUz": "**Qadam 1.** Gap boshiga inkor yoki cheklov ma'nosidagi ibora qo'yiladi:\n*Not only, Never, Rarely, Seldom, Little, Hardly ... when, No sooner ... than, Under no circumstances, At no point, On no account, Not until, Only after / when / by / if*\n\n**Qadam 2.** Keyin **savol tartibi** keladi: yordamchi fe'l + ega + asosiy fe'l.\n*Rarely **have I** seen...* / *Never **had she** imagined...*\n\n**Qadam 3.** Agar yordamchi fe'l yo'q bo'lsa, **do / does / did** qo'shiladi:\n✗ *Rarely he complains.* → ✓ *Rarely **does he** complain.*\n✗ *Only then I understood.* → ✓ *Only then **did I** understand.*\n\n**Muhim nozik nuqta:** «Only when / Only after» bilan boshlanganda inversiya **ergash gapda emas, bosh gapda** bo'ladi:\n✓ *Only when the results arrived **did we realise** how serious it was.*\n✗ *Only when **did the results arrive**, we realised...*"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Qachon inversiya SUN'IY bo'ladi",
+              "bodyUz": "**Bitta essede maksimum 2 ta inversiya.** Uchtadan ko'p bo'lsa, baholovchi yodlangan qolipni ko'radi va Grammatical Range balini oshirmaydi.\n\n**Faqat haqiqatan urg'u kerak bo'lgan joyda.** Odatda ikki joy ideal: (1) kirish qismida tezisni e'lon qilganda, (2) asosiy qismda qarshi fikrni rad etganda.\n\n**Speaking da yanada tejamkor bo'ling.** Part 3 da butun suhbat davomida bitta *Not only...* tabiiy eshitiladi. Har javobda ishlatsangiz — sun'iy.\n\n**Yarim eslangan struktura — xato.** Bu eng ko'p uchraydigan holat:\n✗ *Not only I think that...* (yordamchi fe'l yo'q)\n✗ *Rarely, I go to the cinema.* (vergul qo'yilgan, inversiya yo'q)\n✗ *Never I have seen...*\n\nBunday gap ballni ko'tarmaydi — **tushiradi**, chunki u aniqlik (accuracy) xatosi sifatida hisoblanadi. Qoida oddiy: ishonchingiz komil bo'lmasa, oddiy gap yozing."
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Speaking Part 3 da tabiiy inversiya",
+              "lines": [
+                {
+                  "speaker": "Examiner",
+                  "en": "Should governments invest more in public transport?",
+                  "uz": "Hukumatlar jamoat transportiga ko'proq sarmoya kiritishi kerakmi?"
+                },
+                {
+                  "speaker": "Candidate",
+                  "en": "Almost certainly, yes. Not only is it cheaper than expanding road networks, it also cuts emissions almost immediately.",
+                  "uz": "Deyarli aniq, ha. Bu yo'l tarmog'ini kengaytirishdan arzonroq bo'libgina qolmay, chiqindilarni ham deyarli darhol kamaytiradi."
+                },
+                {
+                  "speaker": "Examiner",
+                  "en": "Are there any drawbacks?",
+                  "uz": "Kamchiliklari bormi?"
+                },
+                {
+                  "speaker": "Candidate",
+                  "en": "There are. Only when the network genuinely reaches the suburbs does it begin to change people's habits — otherwise you are subsidising a service that nobody actually uses.",
+                  "uz": "Bor. Tarmoq chindan ham chekka tumanlarga yetib borgandagina odamlarning odatini o'zgartira boshlaydi — aks holda hech kim foydalanmaydigan xizmatni subsidiyalagan bo'lasiz."
+                },
+                {
+                  "speaker": "Examiner",
+                  "en": "So it depends on scale?",
+                  "uz": "Demak, ko'lamga bog'liqmi?"
+                },
+                {
+                  "speaker": "Candidate",
+                  "en": "Precisely. What matters is not how much is spent, but where it is spent.",
+                  "uz": "Aynan. Muhimi qancha sarflanishi emas, qayerga sarflanishi. (Bu — pseudo-cleft: «What matters is...»)"
+                }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Cleft: urg'uni istalgan bo'lakka ko'chirish",
+              "bodyUz": "Inversiya — bitta qurol. Ikkinchisi — **cleft** (gapni ikkiga «yorish»). U inversiyadan xavfsizroq, chunki xato qilish qiyinroq.\n\n**It-cleft:** *It is **X** that/who ...*\n*It is poor management, not a lack of funding, that lies behind the failure.*\n\n**Pseudo-cleft (wh-cleft):** *What ... is/was **X***\n*What the system needs is transparency, not more regulation.*\n\n**All-cleft:** *All (that) ... is **X***\n*All they need is a clear timetable.*\n\nCleft ning kuchi shundaki, u nafaqat urg'u beradi, balki **qarama-qarshilik** o'rnatadi: X, Y emas. Bu esa argumentli essede aynan kerak bo'ladigan narsa."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Grammatical Range and Accuracy.** Bu mezon ikki qismdan iborat — doira VA aniqlik. Inversiya doirani kengaytiradi, lekin xato qilsangiz aniqlikni buzadi, ya'ni bir qo'lingiz bilan bergan ballni ikkinchi qo'lingiz bilan olib qo'yasiz.\n\nImtihon strategiyasi: essengizga **oldindan tayyorlangan ikkita** tuzilmani joylang — bitta inversiya (kirish yoki qarshi fikr qismida) va bitta cleft (xulosada). Ikkalasini uyda 20 marta mashq qiling. Imtihonda o'ylab o'tirmaysiz, lekin baholovchi C1 belgisini ko'radi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "To'g'ri inversiyani tanlang:",
+              "data": {
+                "text": "___ such a badly designed survey in a peer-reviewed journal.",
+                "options": ["Rarely have I seen", "Rarely I have seen", "Rarely did I saw", "Rarely, I saw"]
+              },
+              "answer": { "value": "Rarely have I seen" },
+              "explanationUz": "Cheklov ravishi (Rarely) gap boshiga chiqqach, savol tartibi kerak: yordamchi fe'l (have) + ega (I) + asosiy fe'l (seen). «Rarely I have seen» — inversiyasiz, ya'ni xato."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring:",
+              "data": {
+                "text": "Not only ___ the policy extremely expensive, but it also failed to reduce congestion.",
+                "options": ["was", "it was", "did", "has"]
+              },
+              "answer": { "value": "was" },
+              "explanationUz": "«Not only» dan keyin yordamchi fe'l egadan OLDIN keladi: Not only WAS the policy... Agar «it was» yozsangiz, inversiya yo'qoladi va tuzilma xato bo'ladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni modal fe'l bilan to'ldiring:",
+              "data": { "text": "Under no circumstances ___ candidates be allowed to bring mobile phones into the examination hall." },
+              "answer": { "accept": ["should", "must", "may"] },
+              "explanationUz": "«Under no circumstances» — inkor ma'nosidagi ibora, shuning uchun undan keyin modal fe'l egadan oldin turadi: should candidates be allowed. Bu — rasmiy qoidalar tilining tipik tuzilmasi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Shartli gapni «if» siz, inversiya bilan to'ldiring:",
+              "data": { "text": "___ I known about the deadline earlier, I would have submitted the report on time." },
+              "answer": { "accept": ["Had", "had"] },
+              "explanationUz": "Third conditional da «If I had known» -> «Had I known». «if» tushadi va «had» gap boshiga chiqadi. Bu rasmiy yozma uslubning kuchli C1 belgisi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'laklardan to'g'ri inversiyali gap tuzing:",
+              "data": {
+                "items": ["did the government", "agree to review the legislation", "Only after the protests had spread nationwide"]
+              },
+              "answer": {
+                "order": ["Only after the protests had spread nationwide", "did the government", "agree to review the legislation"]
+              },
+              "explanationUz": "«Only after ...» bilan boshlanganda inversiya ERGASH gapda emas, BOSH gapda bo'ladi: ergash gap normal tartibda (the protests had spread), bosh gap esa inversiyada (did the government agree)."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Cleft tuzilmasi ishlatilgan gaplarni belgilang (bir nechta):",
+              "data": {
+                "options": [
+                  "It is poor management, not a lack of funding, that explains the failure.",
+                  "What the system needs is transparency.",
+                  "The system needs transparency very much.",
+                  "All they require is a clear timetable."
+                ]
+              },
+              "answer": {
+                "values": [
+                  "It is poor management, not a lack of funding, that explains the failure.",
+                  "What the system needs is transparency.",
+                  "All they require is a clear timetable."
+                ]
+              },
+              "explanationUz": "It-cleft (It is X that...), pseudo-cleft (What ... is X) va all-cleft (All ... is X) — uchalasi ham urg'uni ma'lum bo'lakka ko'chiradi. Uchinchi variant esa oddiy gap, urg'u faqat «very much» bilan berilgan — bu B2 usuli."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "Quyidagi gapdagi xatoni tuzating va tuzatilgan gapning FAQAT BIRINCHI TO'RT SO'ZINI yozing: «Not only he speaks English, he also speaks French.»",
+              "data": { "text": "Not only he speaks English, he also speaks French. -> ___ (birinchi 4 so'z)" },
+              "answer": { "accept": ["Not only does he", "not only does he"] },
+              "explanationUz": "«speaks» da yordamchi fe'l yo'q, shuning uchun «does» qo'shiladi va ega undan keyin keladi: Not only DOES HE speak English... E'tibor bering — «speaks» ham «speak» ga aylanadi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Har bir xatboshida kamida bitta inversiya ishlatish C1 uchun ideal strategiya." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Bitta essede 2 tadan ko'p inversiya sun'iy ko'rinadi va baholovchi buni yodlangan qolip deb baholaydi. C1 mezoni «moslashuvchanlik» — ya'ni tuzilmani KERAKLI joyda ishlatish, hamma joyda emas."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Speaking Part 3 question: 'Some people say that free university education benefits society as a whole. Do you agree?' Speak for about 60 seconds. Your answer must contain exactly ONE inversion (Not only... / Only when... / Rarely...) and ONE cleft (It is... that... / What... is...). Do not use more than one of each.",
+              "promptUz": "Speaking Part 3 savoli: «Ba'zilar bepul oliy ta'lim butun jamiyatga foyda keltiradi, deyishadi. Rozimisiz?» Taxminan 60 soniya gapiring. Javobingizda ANIQ BITTA inversiya (Not only... / Only when... / Rarely...) va BITTA cleft (It is... that... / What... is...) bo'lishi shart. Har biridan bittadan ortiq ishlatmang — maqsad ko'p ishlatish emas, o'rinli ishlatish.",
+              "data": { "preparationSeconds": 30, "recordSeconds": 60 }
+            }
+          ]
+        },
+        {
+          "slug": "participle-and-absolute-clauses",
+          "titleUz": "Gaplarni zichlashtirish: participle va absolute clause",
+          "titleEn": "Participle and absolute clauses",
+          "skill": "GRAMMAR",
+          "level": "C1",
+          "order": 1,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "Uch xil participle clause ni (V-ing, having + V3, V3) to'g'ri yasash",
+            "Absolute clause (With costs rising, ...) bilan ikki gapni bittaga birlashtirish",
+            "Dangling modifier xatosini tanib olish va oldini olish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Zichlik nima va nega baholanadi?",
+              "bodyUz": "B2 talabaning yozuvi qanday ko'rinadi? Uchta mustaqil gap, «and», «because», «so» bilan ulangan:\n\n*The board studied the data. Then they rejected the proposal. This surprised the shareholders.*\n\nC1 talabaning yozuvi: bitta **bosh gap** va uning atrofida aylanuvchi ikkita **yordamchi tuzilma**:\n\n*Having studied the data, the board rejected the proposal, a decision that took shareholders by surprise.*\n\nSo'zlar soni deyarli bir xil (15 va 17), lekin farq katta. Birinchi variantda uchta teng huquqli gap bor — o'quvchi qaysi biri asosiy ekanini bilmaydi. Ikkinchisida esa **ierarxiya** bor: asosiy voqea — taklifning rad etilishi; qolgani unga izoh.\n\nBaholovchi aynan shu ierarxiyani qidiradi. C1 tavsifida bu «information is organised and signposted» deb yozilgan."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Participle clause: uch shakl",
+              "bodyUz": "**1. -ing (present participle)** — bir vaqtda sodir bo'ladigan yoki sabab bo'luvchi harakat, aniq nisbat:\n*Realising that the deadline had passed, she called the office immediately.*\n*Acting on legal advice, the company withdrew the product.*\n\n**2. having + V3 (perfect participle)** — oldinroq tugagan harakat:\n*Having considered all the options, the board approved the merger.*\n*Having been rejected twice, he decided to apply elsewhere.* (majhul shakl)\n\n**3. V3 (past participle)** — majhul nisbat:\n*Written in 1890, the novel still feels startlingly modern.*\n*Faced with mounting criticism, the minister resigned.*\n\n**Temir qoida:** participle clause ning **yashirin egasi** bosh gapning egasi bilan **bir xil** bo'lishi shart.\n✓ *Having finished the report, **I** noticed that the printer had broken.* (men tugatdim, men payqadim)\n✗ *Having finished the report, **the printer** broke down.* (printer hisobotni tugatmagan!)"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Absolute clause: o'z egasi bilan",
+              "bodyUz": "Participle clause da ega yashirin bo'ladi. **Absolute clause** da esa ega **ochiq aytiladi** — va aynan shuning uchun u bosh gap egasidan **farq qilishi mumkin**.\n\n**Eng ishlatiladigan shakl: with + ot + -ing / -ed**\n*With costs rising and demand falling, the airline suspended half of its routes.*\n*With no budget left, the project was quietly cancelled.*\n\n**«with» siz shakl (yanada rasmiy):**\n*Costs rising sharply, the airline suspended half of its routes.*\n*The negotiations having collapsed, both sides returned to court.*\n\n**Nima uchun bu C1 quroli?** Chunki u sizga sabab, shart yoki fon ma'lumotini **butun bir ergash gap yozmasdan** berish imkonini beradi. «Because costs were rising and demand was falling» — 9 so'z. «With costs rising and demand falling» — 6 so'z, va u bosh gapga bo'ysunadi, u bilan raqobatlashmaydi.\n\n**Ogohlantirish:** bitta gapda ikkitadan ko'p absolute clause ishlatmang. Aks holda gap markazini yo'qotadi."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: bog'lovchidan participle va absolute clause ga",
+              "headers": ["B2 (bog'lovchi bilan)", "C1 (zichlashtirilgan)", "Ishlatilgan vosita"],
+              "rows": [
+                ["Because he had studied the data, he rejected the proposal.", "Having studied the data, he rejected the proposal.", "Perfect participle (having + V3)"],
+                ["When she saw the results, she changed her method.", "Seeing the results, she changed her method.", "Present participle (-ing)"],
+                ["The law was passed in 2019 and it is still controversial.", "Passed in 2019, the law remains deeply controversial.", "Past participle (majhul)"],
+                ["Because costs are rising, firms are cutting staff.", "With costs rising, firms are cutting staff.", "Absolute clause (with + ot + -ing)"],
+                ["The talks failed, so the two sides went to court.", "The talks having failed, both sides returned to court.", "Absolute clause (perfect)"],
+                ["If we assume that the data is accurate, the trend is clear.", "Assuming the data is accurate, the trend is unmistakable.", "Shart ma'nosidagi participle"],
+                ["Although he was warned several times, he ignored the rules.", "Warned several times, he nonetheless ignored the rules.", "Past participle + qarama-qarshilik"],
+                ["The report was published last week and it caused a scandal.", "Published last week, the report triggered a political scandal.", "Past participle (majhul)"],
+                ["Since there was no budget left, the project was cancelled.", "With no budget left, the project was quietly cancelled.", "Absolute clause (with + ot + ibora)"],
+                ["He finished his degree and then he moved abroad.", "Having finished his degree, he moved abroad.", "Perfect participle — ketma-ketlik"],
+                ["The city was hit by floods twice, so it built new defences.", "Hit by floods twice in a decade, the city invested heavily in new defences.", "Past participle + sabab"],
+                ["Sales were falling and staff were leaving, so the CEO resigned.", "With sales falling and staff leaving, the CEO resigned.", "Ikki fikrli absolute clause"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Eng ko'p uchraydigan xato: dangling modifier",
+              "bodyUz": "«Dangling modifier» — egasi bosh gapga to'g'ri kelmaydigan participle clause. Bu C1 chegarasidagi talabalarning **birinchi raqamli** grammatik xatosi, chunki tuzilma to'g'ri, lekin mantiq buzilgan.\n\n✗ *Walking through the park, the trees looked beautiful.*\n(Daraxtlar parkda sayr qilyaptimi?)\n✓ *Walking through the park, **I** thought the trees looked beautiful.*\n\n✗ *Having lived in London for years, the accent was easy to understand.*\n(Aksent Londonda yashaganmi?)\n✓ *Having lived in London for years, **she** found the accent easy to understand.*\n\n✗ *Being underfunded, the government closed several clinics.*\n(Hukumat moliyalanmaganmi yoki klinikalarmi?)\n✓ ***Underfunded** for years, several clinics were closed.*\n\n**30 soniyalik tekshiruv:** participle clause yozganingizdan keyin bosh gapning egasini toping va o'zingizga savol bering: «Bu ega chindan ham shu harakatni bajarganmi?» Agar javob «yo'q» bo'lsa — yoki egani almashtiring, yoki absolute clause ga o'ting (with + ot + ...)."
+            },
+            {
+              "type": "example",
+              "titleUz": "Bir xatboshi: B2 va C1 varianti",
+              "items": [
+                {
+                  "en": "B2: The company lost money for three years. So it decided to close 20 shops. This made 400 people lose their jobs. The unions were angry about this.",
+                  "uz": "To'rt gap, to'rttasi ham qisqa va teng. «So», «this» bilan ulangan — B2 ritmi."
+                },
+                {
+                  "en": "C1: Having posted losses for three consecutive years, the company closed 20 outlets, a decision that cost 400 jobs and provoked fierce union opposition.",
+                  "uz": "Perfect participle (Having posted...) + bosh gap + ilova ibora (a decision that...). To'rt gap bittaga siqildi, lekin hech qanday ma'lumot yo'qolmadi."
+                },
+                {
+                  "en": "C1 (variant): With losses mounting for a third year, the company closed 20 outlets — a move that cost 400 jobs and drew fierce criticism from unions.",
+                  "uz": "Xuddi shu ma'no absolute clause bilan. «With + ot + -ing» varianti ko'proq fon-sabab ohangini beradi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Grammatical Range and Accuracy + Coherence and Cohesion.** Participle clause ikkala mezonga ishlaydi: u murakkab tuzilma sifatida doirani kengaytiradi va ayni paytda gaplar orasidagi mantiqiy bog'lanishni bog'lovchisiz ko'rsatadi.\n\nImtihon amaliyoti: 250 so'zli essede **2-3 ta** participle yoki absolute clause yetarli. Ideal joylashuv — har bir asosiy xatboshining birinchi yoki oxirgi gapida. Lekin har bir yozganingizdan keyin dangling tekshiruvini o'tkazing: agar ega mos kelmasa, bu ball qo'shmaydi, aksincha aniqlik xatosi sifatida qayd etiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'sh joyni to'ldiring:",
+              "data": {
+                "text": "___ all the available evidence, the committee dismissed the complaint as unfounded.",
+                "options": ["Having reviewed", "Reviewing having", "Have reviewed", "Being reviewed"]
+              },
+              "answer": { "value": "Having reviewed" },
+              "explanationUz": "Ko'rib chiqish rad etishdan OLDIN sodir bo'lgan, shuning uchun perfect participle (having + V3) kerak. «Being reviewed» majhul shakl bo'lib, qo'mita ko'rib chiqilgan degan ma'no beradi — bu mantiqan noto'g'ri."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi gapda dangling modifier xatosi bor?",
+              "data": {
+                "options": [
+                  "Having read the article, its conclusion seemed weak to me.",
+                  "Having read the article, I found its conclusion weak.",
+                  "Written in haste, the email contained several errors.",
+                  "With prices falling, consumers began to spend again."
+                ]
+              },
+              "answer": { "value": "Having read the article, its conclusion seemed weak to me." },
+              "explanationUz": "Bosh gapning egasi «its conclusion» — lekin maqolani xulosa o'qimagan, balki men o'qiganman. Ega mos kelmagani uchun bu dangling modifier. To'g'ri variant: «Having read the article, I found its conclusion weak.»"
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Absolute clause ni to'ldiring (bitta so'z):",
+              "data": { "text": "___ costs rising and passenger numbers falling, the airline suspended half of its routes." },
+              "answer": { "accept": ["With", "with"] },
+              "explanationUz": "«With + ot + -ing» — absolute clause ning eng ishlatiladigan shakli. U «Because costs were rising and passenger numbers were falling» degan uzun ergash gapni olti so'zga siqadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Past participle bilan to'ldiring:",
+              "data": { "text": "___ in 1998, the treaty is now widely regarded as a turning point in the region's history." },
+              "answer": { "accept": ["Signed", "signed", "Concluded", "concluded", "Adopted", "adopted"] },
+              "explanationUz": "Shartnoma imzolanadi (majhul), shuning uchun V3 shakli kerak: Signed in 1998 = Because it was signed in 1998. Bu «The treaty was signed in 1998 and it is now regarded...» degan ikki gapni bittaga birlashtiradi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "GRAMMAR",
+              "promptUz": "Bo'laklardan zich C1 gapini tuzing:",
+              "data": {
+                "items": ["the board approved the merger", "without further debate", "Having weighed the financial risks"]
+              },
+              "answer": {
+                "order": ["Having weighed the financial risks", "the board approved the merger", "without further debate"]
+              },
+              "explanationUz": "Perfect participle clause oldin keladi (avvalgi harakat), keyin bosh gap (ega + fe'l + to'ldiruvchi), oxirida holat ibora. Ega mos: kengash risklarni tortdi va kengash tasdiqladi — dangling xatosi yo'q."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Har bir B2 ergash gapini uning zichlashtirilgan C1 shakliga bog'lang:",
+              "data": {
+                "left": [
+                  "Because he had finished his degree, ...",
+                  "Although it was written in 1890, ...",
+                  "Because costs are rising, ...",
+                  "When she saw the results, ..."
+                ],
+                "right": ["Seeing the results, ...", "Having finished his degree, ...", "With costs rising, ...", "Written in 1890, ..."]
+              },
+              "answer": {
+                "pairs": {
+                  "Because he had finished his degree, ...": "Having finished his degree, ...",
+                  "Although it was written in 1890, ...": "Written in 1890, ...",
+                  "Because costs are rising, ...": "With costs rising, ...",
+                  "When she saw the results, ...": "Seeing the results, ..."
+                }
+              },
+              "explanationUz": "Har bir bog'lovchi o'ziga xos participle shakliga aylanadi: «because he had» -> having + V3; «although it was written» -> V3; «because costs are» (ega boshqa) -> with + ot + -ing; «when she saw» (ega bir xil) -> -ing."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Participle clause ning yashirin egasi bosh gapning egasi bilan bir xil bo'lishi shart." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Bu qoida buzilsa dangling modifier xatosi yuzaga keladi. Agar ega boshqa bo'lishi kerak bo'lsa, participle clause emas, absolute clause ishlating: «With costs rising, the firm cut staff» — bu yerda ega ochiq aytilgani uchun farq qilishi mumkin."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Rewrite the following five B2 sentence pairs as five dense C1 sentences (80-120 words in total). Use each structure at least once: present participle (-ing), perfect participle (having + V3), past participle (V3), and an absolute clause (with + noun + -ing). Check every sentence for dangling modifiers.\n\n1. The council studied the traffic data. Then it introduced a congestion charge.\n2. The novel was published in 1925. It is still on school reading lists.\n3. Fuel prices were rising fast. Many families cut back on driving.\n4. She was warned about the risks several times. She still invested her savings.\n5. The negotiations collapsed. Both governments recalled their ambassadors.",
+              "promptUz": "Quyidagi beshta B2 gap juftligini beshta zich C1 gapiga aylantiring (jami 80-120 so'z). Har bir tuzilmadan kamida bir marta foydalaning: present participle (-ing), perfect participle (having + V3), past participle (V3) va absolute clause (with + ot + -ing). Har bir gapni dangling modifier uchun tekshiring — ega mos kelyaptimi?\n\n1. The council studied the traffic data. Then it introduced a congestion charge.\n2. The novel was published in 1925. It is still on school reading lists.\n3. Fuel prices were rising fast. Many families cut back on driving.\n4. She was warned about the risks several times. She still invested her savings.\n5. The negotiations collapsed. Both governments recalled their ambassadors.",
+              "data": { "minWords": 80, "maxWords": 130 }
+            }
+          ]
+        },
+        {
+          "slug": "hedging-and-boosting",
+          "titleUz": "Hedging va boosting: ehtimollikni boshqarish",
+          "titleEn": "Hedging and boosting",
+          "skill": "GRAMMAR",
+          "level": "C1",
+          "order": 2,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Haddan tashqari umumlashtirilgan da'voni C1 darajada kalibrlash",
+            "Hedging arsenalini (modal, fe'l, ravish, miqdor) faol ishlata olish",
+            "Booster va hedge ni to'g'ri ritmda almashtirib, ishonchli argument qurish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega baholovchi aynan shuni qidiradi?",
+              "bodyUz": "C1 tavsifidagi eng ko'p e'tibordan chetda qoladigan jumla: «can express shades of meaning precisely» — **ma'no nozikliklarini aniq ifodalay oladi**.\n\nNoziklik nima? Bu — o'z fikringizga qanchalik ishonchingiz borligini ko'rsatish.\n\n*Social media causes depression.*\nBu — 100% li da'vo. Uni isbotlay olasizmi? Yo'q. Baholovchi buni **haddan tashqari umumlashtirish** deb belgilaydi va Task Response balini tushiradi.\n\n*Social media use appears to be linked to higher rates of depression, particularly among adolescents.*\nBu — C1. Siz ehtiyotkorsiz, aniqsiz va aynan qancha da'vo qilayotganingizni bilasiz.\n\nB2 talaba ikki rejimda gapiradi: «ha» va «yo'q». C1 talabada oraliqda o'nlab pog'ona bor. Aynan shu pog'onalar — «shades of meaning»."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: da'voni kalibrlash",
+              "headers": ["B2 (haddan tashqari qat'iy)", "C1 (kalibrlangan)", "Nima o'zgardi?"],
+              "rows": [
+                ["Technology makes people lazy.", "Technology may well encourage more sedentary habits.", "«may well» — ehtimol yuqori, lekin bu isbotlanmagan da'vo emas"],
+                ["All students hate exams.", "Students tend to view exams as stressful rather than useful.", "«tend to» umumiy tendensiyani beradi va istisnoga joy qoldiradi"],
+                ["This will solve the problem.", "This is likely to alleviate, though not eliminate, the problem.", "Ikki bosqichli aniqlik: yengillashtiradi, lekin yo'q qilmaydi"],
+                ["Money is the most important thing for workers.", "Pay is arguably the single most decisive factor for most workers.", "«arguably» da'vo bahsli ekanini tan oladi"],
+                ["Poor people always suffer more.", "Low-income households are invariably hit hardest.", "«invariably» — booster: doimiylikni rasmiy tilda tasdiqlaydi"],
+                ["Everyone knows that exercise is good.", "There is broad consensus that regular exercise is beneficial.", "Da'vo manbasi jamoaviy fikrga o'tkaziladi"],
+                ["The government must ban cars in cities.", "There is a strong case for restricting car use in city centres.", "Buyruq emas, argument sifatida taqdim etiladi"],
+                ["It is impossible to fix this.", "A complete solution appears unattainable, at least in the short term.", "Vaqt chegarasi qo'shiladi — da'vo aniqlashadi"],
+                ["Online learning is worse than classroom learning.", "Online learning is, on balance, less effective for younger learners.", "Kim uchun va qay darajada — ikkalasi aniqlashtirildi"],
+                ["Nobody uses libraries any more.", "Library use has declined sharply, though it has by no means disappeared.", "Mubolag'a o'rniga aniq fakt va cheklov"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Hedging arsenali: to'rt qatlam",
+              "bodyUz": "**1. Modal fe'llar:** may, might, could, would, may well, would appear to\n*Higher taxes **may** discourage investment.*\n\n**2. Fe'llar:** appear to, seem to, suggest, indicate, imply, be thought to, tend to\n*The data **suggests** a correlation rather than a cause.*\n\n**3. Ravishlar:** arguably, apparently, seemingly, largely, broadly, relatively, to some extent, in part\n*The policy was **largely** successful.*\n\n**4. Miqdor va chegara:** many, most, a significant proportion, in most cases, particularly in developed countries, at least in the short term\n*In most industrialised countries, the trend is clear.*\n\n**Qora ro'yxat:** *all, every, always, never, nobody, everyone, completely, totally* — bu so'zlarni faqat siz ularni isbotlay olsangiz ishlating. Aks holda ular Task Response balini tushiradi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Boosting: qachon KUCHLI gapirish kerak",
+              "bodyUz": "Agar faqat hedging ishlatsangiz, matn **ishonchsiz** bo'ladi — bu ham C1 emas. Baholovchi «bu odam o'z pozitsiyasini bilmaydi» deb yozadi.\n\nC1 talaba **o'z tezisida** kuchli gapiradi, **dalillarda** ehtiyotkor bo'ladi.\n\n**Booster arsenali:** clearly, undoubtedly, undeniably, invariably, without question, overwhelmingly, there is little doubt that, it is beyond dispute that, all the evidence points to\n\n**Oltin ritm (essede):**\n- Kirish tezisi → **booster**: *There is little doubt that urban air quality has become a public health emergency.*\n- Asosiy dalillar → **hedge**: *This may partly explain the sharp rise in childhood asthma.*\n- Qarshi fikr → **hedge**: *Critics arguably overstate the economic cost.*\n- Xulosa → **booster**: *The evidence points overwhelmingly towards stricter regulation.*\n\nAgar teskarisini qilsangiz — tezisda «maybe», dalilda «definitely» — baholovchi mantiqiy nomuvofiqlikni ko'radi va Coherence bali tushadi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Bir fikr, uch daraja ishonch",
+              "items": [
+                {
+                  "en": "Weak claim: Remote work might, in certain sectors, reduce commuting time.",
+                  "uz": "Ikki qavat hedge (might + in certain sectors). Bu — dalil bosqichi uchun ideal."
+                },
+                {
+                  "en": "Balanced claim: Remote work tends to reduce commuting time, particularly in service industries.",
+                  "uz": "Bitta hedge (tends to) + bitta chegara (particularly in...). Bu — eng ko'p ishlatiladigan C1 registri."
+                },
+                {
+                  "en": "Strong claim: There is little doubt that remote work has permanently altered commuting patterns in major cities.",
+                  "uz": "Booster (There is little doubt that) + aniq chegara (in major cities). Tezis va xulosa uchun."
+                },
+                {
+                  "en": "✗ Overclaim: Remote work has completely eliminated commuting for everyone.",
+                  "uz": "«completely», «everyone» — isbotlab bo'lmaydigan da'vo. Baholovchi buni haddan tashqari umumlashtirish deb belgilaydi."
+                },
+                {
+                  "en": "✗ Underclaim: Maybe remote work is possibly quite good for some people sometimes.",
+                  "uz": "To'rt qavat hedge. Bu ham C1 emas — bu pozitsiyasizlik. Task Response bali tushadi."
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "Speaking Part 3: hedging og'zaki nutqda",
+              "lines": [
+                {
+                  "speaker": "Examiner",
+                  "en": "Do you think social media has damaged young people's mental health?",
+                  "uz": "Sizningcha, ijtimoiy tarmoqlar yoshlarning ruhiy salomatligiga zarar yetkazdimi?"
+                },
+                {
+                  "speaker": "Candidate",
+                  "en": "There is certainly a link, though I would stop short of calling it a direct cause. What the research seems to show is a correlation between heavy use and anxiety, particularly among teenage girls.",
+                  "uz": "Bog'liqlik borligi aniq, lekin uni to'g'ridan-to'g'ri sabab deb atashdan tiyilgan bo'lardim. Tadqiqotlar ko'rsatayotgan narsa — ko'p foydalanish va xavotir o'rtasidagi korrelyatsiya, ayniqsa o'smir qizlar orasida."
+                },
+                {
+                  "speaker": "Examiner",
+                  "en": "So should it be regulated?",
+                  "uz": "Demak, uni tartibga solish kerakmi?"
+                },
+                {
+                  "speaker": "Candidate",
+                  "en": "Arguably, yes — but regulation alone is unlikely to be enough. The more decisive factor is probably digital literacy: children who understand how the algorithms work tend to use the platforms far more selectively.",
+                  "uz": "Ehtimol, ha — lekin faqat tartibga solish yetarli bo'lmasa kerak. Hal qiluvchiroq omil, ehtimol, raqamli savodxonlik: algoritmlar qanday ishlashini tushunadigan bolalar platformalardan ancha tanlab foydalanadi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Task Response (Task Achievement).** Bu mezonda C1 tavsifi shunday: «presents a well-developed response with relevant, extended and **supported** ideas». Isbotlanmagan mutlaq da'vo — «supported» emas.\n\nImtihon qoidasi: essengizni tekshirayotganda **all, every, always, never, everyone, nobody** so'zlarini qidiring. Har birini yo isbotlang, yo yumshating (most, in most cases, tend to). Bu 2 daqiqalik ish, lekin u Task Response bo'yicha to'g'ridan-to'g'ri bir pog'ona beradi — chunki baholovchi haddan tashqari umumlashtirishni B2 belgisi sifatida qayd etadi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "GRAMMAR",
+              "promptUz": "Qaysi variant C1 darajadagi kalibrlangan da'vo?",
+              "data": {
+                "options": [
+                  "Prolonged exposure to violent games may contribute to aggressive behaviour in some children.",
+                  "Video games always make children violent.",
+                  "Video games make all children violent.",
+                  "Video games are very bad for children, everybody knows it."
+                ]
+              },
+              "answer": { "value": "Prolonged exposure to violent games may contribute to aggressive behaviour in some children." },
+              "explanationUz": "Bu variantda uchta kalibrlash bor: «may» (modal hedge), «contribute to» (sabab emas, hissa), «in some children» (chegara). Qolgan uchtasi isbotlab bo'lmaydigan mutlaq da'vo — always, all, everybody."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "GRAMMAR",
+              "promptUz": "Hedging (yumshatuvchi) vositalarni belgilang (bir nechta):",
+              "data": {
+                "options": ["tends to", "undoubtedly", "appears to", "to some extent", "without question"]
+              },
+              "answer": { "values": ["tends to", "appears to", "to some extent"] },
+              "explanationUz": "tends to, appears to, to some extent — da'voni yumshatadi. «undoubtedly» va «without question» esa booster, ya'ni da'voni kuchaytiradi. Ikkalasi ham C1 uchun kerak, lekin turli o'rinlarda."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Da'voni yumshatuvchi fe'l bilan to'ldiring:",
+              "data": { "text": "Remote work ___ to improve employee satisfaction, though the evidence remains far from conclusive." },
+              "answer": { "accept": ["appears", "seems", "tends"] },
+              "explanationUz": "«appears to / seems to / tends to» — da'voni kuzatuv darajasiga tushiradi. Gapning ikkinchi qismi («evidence remains far from conclusive») allaqachon ehtiyotkorlik bildirgani uchun, birinchi qism ham hedge bo'lishi mantiqan zarur."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "GRAMMAR",
+              "promptUz": "Booster (kuchaytiruvchi ravish) bilan to'ldiring:",
+              "data": { "text": "When fuel prices rise, the poorest households are ___ the hardest hit." },
+              "answer": { "accept": ["invariably", "consistently", "undoubtedly", "always"] },
+              "explanationUz": "«invariably» — «istisnosiz, har doim» degan rasmiy booster. Bu yerda u o'rinli, chunki iqtisodiy ma'lumot buni tasdiqlaydi. Booster faqat isbotlanadigan joyda ishlatiladi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "GRAMMAR",
+              "promptUz": "Har bir ifodani uning vazifasiga bog'lang:",
+              "data": {
+                "left": ["arguably", "invariably", "to some extent", "it is beyond dispute that"],
+                "right": [
+                  "kuchli tasdiq: bahsga o'rin yo'q (booster)",
+                  "qisman rozilik: to'liq emas (hedge)",
+                  "doimiylikni tasdiqlash: istisnosiz (booster)",
+                  "bahsli ekanini tan olish (hedge)"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "arguably": "bahsli ekanini tan olish (hedge)",
+                  "invariably": "doimiylikni tasdiqlash: istisnosiz (booster)",
+                  "to some extent": "qisman rozilik: to'liq emas (hedge)",
+                  "it is beyond dispute that": "kuchli tasdiq: bahsga o'rin yo'q (booster)"
+                }
+              },
+              "explanationUz": "Ikkita hedge (arguably, to some extent) va ikkita booster (invariably, it is beyond dispute that). C1 essede ular navbatma-navbat ishlatiladi: tezis — booster, dalillar — hedge, xulosa — booster."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "GRAMMAR",
+              "promptUz": "«All teenagers are addicted to their phones» — bu da'vo haddan tashqari qat'iy. «All» o'rniga qanday miqdor ifodasini qo'yasiz? (bir-to'rt so'z)",
+              "data": { "text": "___ teenagers are heavily dependent on their phones." },
+              "answer": { "accept": ["Many", "Most", "A significant proportion of", "A large proportion of", "many", "most"] },
+              "explanationUz": "«All» — isbotlab bo'lmaydigan miqdor. «Many / Most / A significant proportion of» esa da'voni himoya qilinadigan darajaga tushiradi. Bu bitta so'zli o'zgarish Task Response bo'yicha real ball farqini beradi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "GRAMMAR",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "C1 essede iloji boricha ko'p hedging ishlatish har doim foydali — qanchalik ehtiyotkor bo'lsangiz, shunchalik yaxshi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Faqat hedging ishlatilgan matn pozitsiyasiz ko'rinadi: «Maybe it is possibly quite good sometimes» — bu ham C1 emas. C1 ritmi: tezisda booster, dalilda hedge, xulosada booster."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Speaking Part 3 question: 'Do you think social media is harmful to young people?' Speak for about 90 seconds. Requirements: start with a booster to state your position, use at least three different hedging devices (may / tends to / appears to / arguably / in most cases) when giving your evidence, and finish with a booster. Do not use 'all', 'always', 'never' or 'everyone'.",
+              "promptUz": "Speaking Part 3 savoli: «Sizningcha, ijtimoiy tarmoqlar yoshlarga zararlimi?» Taxminan 90 soniya gapiring. Talablar: pozitsiyangizni booster bilan boshlang, dalil keltirayotganda kamida uchta turli hedging vositasidan foydalaning (may / tends to / appears to / arguably / in most cases), va yana booster bilan yakunlang. «all», «always», «never», «everyone» so'zlarini ishlatmang.",
+              "data": { "preparationSeconds": 30, "recordSeconds": 90 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cohesion-mastery",
+      "titleUz": "Matnni bog'lash mahorati",
+      "titleEn": "Cohesion mastery",
+      "descriptionUz": "C1 matni bog'lovchilar bilan emas, ichki tuzilma bilan bog'lanadi. Referencing va substitution, xatboshi arxitekturasi va bog'lovchidan tashqari bog'lanish vositalarini o'zlashtirasiz.",
+      "order": 2,
+      "lessons": [
+        {
+          "slug": "referencing-and-substitution",
+          "titleUz": "Referencing va substitution: takrorlanishni yo'q qilish",
+          "titleEn": "Referencing and substitution",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 0,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "«this + umumlashtiruvchi ot» qolipini avtomatik ishlatish",
+            "the former / the latter, do so, one/ones va ellipsis bilan takrorni bartaraf etish",
+            "Noaniq «this» va «it» xatosini tanib olish va tuzatish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Takrorlanish — B2 ning eng ko'rinadigan imzosi",
+              "bodyUz": "Baholovchi matningizni o'qiyotganda bir narsani beixtiyor sanaydi: bir xil so'z necha marta qaytdi.\n\n*The government introduced a carbon tax. The carbon tax was very unpopular. Many people protested against the carbon tax.*\n\nBu gaplarda grammatik xato yo'q. Lekin «carbon tax» uch marta qaytdi va matn bir joyda depsinayotgandek tuyuladi. Coherence and Cohesion bo'yicha bu — aniq B2.\n\nC1 varianti:\n\n*The government introduced a carbon tax. **This measure** proved deeply unpopular, **provoking** protests in a dozen cities.*\n\nNima o'zgardi? «The carbon tax» o'rniga «this measure» keldi — va bu shunchaki sinonim emas. «Measure» so'zi soliqni **tasniflaydi**: bu chora ekan. Ya'ni siz takrorni yo'q qilib, bir vaqtda **yangi ma'lumot** qo'shdingiz.\n\nMana shu — C1 referencing ning butun mohiyati: **takrorlamang, umumlashtiring va baho bering.**"
+            },
+            {
+              "type": "theory",
+              "titleUz": "To'rt vosita",
+              "bodyUz": "**1. this / these / such + umumlashtiruvchi ot**\nOldingi gapning butun mazmunini bitta ot ostiga yig'adi:\n*...prices rose by 40%. **This increase** hit low-income families hardest.*\n*...they cut wages and froze hiring. **Such measures** rarely improve morale.*\n\n**2. the former / the latter**\nIkki narsa aytilgandan keyin ularni qayta yozmaslik uchun:\n*We can expand the road network or improve public transport. **The former** is expensive; **the latter** is far more sustainable.*\n\n**3. do so / doing so / do this**\nButun fe'l bandini almashtiradi:\n*Companies should reduce packaging waste; **in doing so**, they also cut costs.*\n\n**4. one / ones va ellipsis**\nOtni yoki gap bo'lagini tushirib qoldirish:\n*I have an old laptop and I want a new **one**.*\n*Some students prefer group work; **others** prefer working alone.* (students takrorlanmaydi)\n*He said he would resign, and he duly **did**.* (resign takrorlanmaydi)"
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: takrordan referencing ga",
+              "headers": ["B2 (takrorlanadi)", "C1 (bog'langan)", "Qaysi vosita?"],
+              "rows": [
+                ["The government introduced a carbon tax. The carbon tax was unpopular.", "The government introduced a carbon tax. This measure proved deeply unpopular.", "this + umumlashtiruvchi ot"],
+                ["Many people moved to cities. Moving to cities created housing shortages.", "Many people moved to cities. This migration created acute housing shortages.", "this + tasniflovchi ot"],
+                ["We can build more roads or improve public transport. Building roads is expensive.", "We can build more roads or improve public transport. The former is expensive; the latter is far more sustainable.", "the former / the latter"],
+                ["Companies should reduce waste. If companies reduce waste, they save money.", "Companies should reduce waste; in doing so, they also cut costs.", "in doing so"],
+                ["I have an old laptop and I want a new laptop.", "I have an old laptop and I want a new one.", "one (substitution)"],
+                ["Some students prefer group work. Other students prefer working alone.", "Some students prefer group work; others prefer working alone.", "ellipsis"],
+                ["The results were surprising. The results changed our approach.", "The results were surprising. These findings prompted a change of approach.", "these + sinonim ot"],
+                ["The company refused to comment. The refusal to comment made things worse.", "The company refused to comment. This reluctance only fuelled speculation.", "this + baholovchi ot"],
+                ["Taxes should rise and spending should be cut. Raising taxes and cutting spending would be unpopular.", "Taxes should rise and spending should be cut. Such measures would, however, be politically costly.", "such + umumlashtiruvchi ot"],
+                ["He said he would resign. Then he resigned.", "He said he would resign, and he duly did.", "fe'l substitutsiyasi (did)"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Umumlashtiruvchi otlar xazinasi",
+              "items": [
+                { "en": "this shift / this trend / this development", "uz": "O'zgarish yoki tendensiyani umumlashtiradi: «...more people now work from home. This shift has emptied city centres.»" },
+                { "en": "this approach / this strategy / such measures", "uz": "Harakat yoki siyosatni umumlashtiradi: «...they raised taxes and cut subsidies. Such measures rarely win elections.»" },
+                { "en": "this phenomenon / this pattern", "uz": "Takrorlanuvchi hodisani nomlaydi: «...young graduates are leaving. This phenomenon is not unique to Uzbekistan.»" },
+                { "en": "these findings / this evidence / this discrepancy", "uz": "Tadqiqot natijasiga ishora: «...two studies reached opposite conclusions. This discrepancy needs explaining.»" },
+                { "en": "this reluctance / this failure / this refusal", "uz": "Baho beruvchi otlar — siz bir vaqtda umumlashtirasiz VA fikr bildirasiz." },
+                { "en": "this argument / this claim / this assumption", "uz": "Boshqa tomonning fikriga ishora qilib, uni rad etishga tayyorlanish uchun ideal." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Xavfli «this»: eng ko'p uchraydigan cohesion xatosi",
+              "bodyUz": "Yolg'iz «this» yoki «it» — noaniqlik manbayi. Bu Coherence and Cohesion balini tushiradigan asosiy sabab.\n\n✗ *The company cut wages and the union called a strike. **This** damaged the firm's reputation.*\n\nSavol: nima zarar yetkazdi — maosh kesilishimi, ish tashlashmi, yoki ikkalasimi? O'quvchi bilmaydi. Baholovchi buni «unclear reference» deb belgilaydi.\n\n✓ *The company cut wages and the union called a strike. **This dispute** damaged the firm's reputation.*\n✓ *...**The stoppage** cost the firm an estimated $2m.*\n\n**Temir qoida:** rasmiy yozuvda **hech qachon yolg'iz «this» bilan gap boshlamang**. Har doim ot qo'shing: this measure, this shift, this reluctance, this discrepancy.\n\nBu bitta qoida — imtihon yozuvida eng arzon ball. Uni bajarish uchun yangi so'z ham, yangi grammatika ham kerak emas."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Coherence and Cohesion.** C1 tavsifi: «uses cohesion in such a way that it attracts no attention» — bog'lanish shu qadar tabiiyki, u **e'tiborni tortmaydi**.\n\nBu jumlani diqqat bilan o'qing: baholovchi bog'lovchini ko'rmasligi kerak. «Moreover... Furthermore... In addition...» ketma-ket kelsa, u ko'rinadi — bu B2. «This measure... The former... in doing so...» ko'rinmaydi — bu C1.\n\nAmaliy tekshiruv: essengizdagi har bir «this» va «it» ni toping. Har birining oldiga aniq ot qo'yish mumkinmi? Agar ha — qo'ying."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Takrorni yo'q qilish uchun eng yaxshi variantni tanlang:",
+              "data": {
+                "text": "The city banned diesel cars from the centre. ___ cut nitrogen dioxide levels by a fifth within a year.",
+                "options": ["This measure", "This", "The ban of the diesel cars", "It"]
+              },
+              "answer": { "value": "This measure" },
+              "explanationUz": "«This measure» ham takrorni yo'q qiladi, ham taqiqni tasniflaydi (bu — chora). Yolg'iz «This» va «It» noaniq; «The ban of the diesel cars» esa takror va predlogi ham noto'g'ri (ban ON)."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Bo'sh joylarni to'ldiring:",
+              "data": {
+                "text": "Governments can either raise taxes or cut public spending. ___ is politically risky; ___ is economically dangerous.",
+                "options": ["The former ... the latter", "The latter ... the former", "The first ... the second one", "This ... that"]
+              },
+              "answer": { "value": "The former ... the latter" },
+              "explanationUz": "«The former» — birinchi aytilgani (raise taxes), «the latter» — oxirgi aytilgani (cut spending). Tartib qat'iy: former har doim birinchi, latter har doim ikkinchi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi kontekst uchun mos umumlashtiruvchi otlarni belgilang (bir nechta): «Over the last decade, thousands of young graduates have left the country. ___ ...»",
+              "data": {
+                "options": ["This exodus", "This trend", "This phenomenon", "This reluctance", "This apology"]
+              },
+              "answer": { "values": ["This exodus", "This trend", "This phenomenon"] },
+              "explanationUz": "exodus (ommaviy ketish), trend (tendensiya), phenomenon (hodisa) — uchalasi ham ketish jarayonini to'g'ri tasniflaydi. «Reluctance» (istamaslik) va «apology» (uzr) kontekstga umuman mos emas — noto'g'ri umumlashtiruvchi ot noaniq «this» dan ham yomonroq."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Fe'l bandini almashtiruvchi ibora bilan to'ldiring (uch so'z):",
+              "data": { "text": "Firms should invest in staff training; in ___ ___, they also reduce turnover costs." },
+              "answer": { "accept": ["doing so", "doing so,"] },
+              "explanationUz": "«in doing so» butun «investing in staff training» bandini almashtiradi. Bu C1 yozuvining eng tejamkor vositalaridan biri — bir vaqtda takrorni yo'q qiladi va sabab-natija bog'lanishini ko'rsatadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Otni takrorlamasdan to'ldiring (bitta so'z):",
+              "data": { "text": "Some employees thrive under pressure; ___ perform far better in a calm environment." },
+              "answer": { "accept": ["others", "some"] },
+              "explanationUz": "«others» = «other employees» — ot ellipsis orqali tushirilgan. «Other employees» yozish grammatik jihatdan to'g'ri, lekin C1 da ortiqcha takror hisoblanadi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir kontekstni unga eng mos umumlashtiruvchi otga bog'lang:",
+              "data": {
+                "left": [
+                  "They raised taxes, cut subsidies and froze wages.",
+                  "Two studies reached opposite conclusions.",
+                  "The minister refused to answer any questions.",
+                  "More people now work from home than in offices."
+                ],
+                "right": ["This shift", "Such measures", "This reluctance", "This discrepancy"]
+              },
+              "answer": {
+                "pairs": {
+                  "They raised taxes, cut subsidies and froze wages.": "Such measures",
+                  "Two studies reached opposite conclusions.": "This discrepancy",
+                  "The minister refused to answer any questions.": "This reluctance",
+                  "More people now work from home than in offices.": "This shift"
+                }
+              },
+              "explanationUz": "Umumlashtiruvchi ot oldingi mazmunni to'g'ri TASNIFLASHI kerak: uchta siyosiy chora — measures; ikki qarama-qarshi natija — discrepancy; javob berishdan bosh tortish — reluctance; ish joyining o'zgarishi — shift."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "Noaniq «This» ni aniqlashtiring. «The company cut wages and the union called a strike. This damaged the firm's reputation.» — «This» dan keyin qanday ot qo'shasiz? (bir-ikki so'z)",
+              "data": { "text": "... This ___ damaged the firm's reputation." },
+              "answer": { "accept": ["dispute", "conflict", "confrontation", "row", "standoff"] },
+              "explanationUz": "Yolg'iz «This» noaniq — o'quvchi maosh kesilishini, ish tashlashni yoki ikkalasini tushunishi mumkin. «This dispute» ikkala voqeani bitta ot ostida birlashtiradi va noaniqlikni yo'q qiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Rasmiy akademik yozuvda gapni yolg'iz «This» so'zi bilan boshlash tavsiya etiladi, chunki u matnni ixchamlashtiradi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Yolg'iz «This» noaniq havola (unclear reference) yaratadi va Coherence and Cohesion balini tushiradi. Har doim ot qo'shing: this measure, this shift, this phenomenon."
+            }
+          ]
+        },
+        {
+          "slug": "paragraph-architecture",
+          "titleUz": "Xatboshi arxitekturasi: C1 essening skeleti",
+          "titleEn": "Paragraph architecture",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 1,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "T-D-E-L modelini (topic sentence, development, exemplification, link) qo'llash",
+            "Kuchli topic sentence yozish: da'vo + boshqaruvchi g'oya",
+            "Xatboshini keyingisiga bog'laydigan link gap yozish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega xatboshi tuzilishi ball keltiradi?",
+              "bodyUz": "Baholovchi sizning essengizni 3-4 daqiqada o'qiydi. U har bir gapni bir xil diqqat bilan o'qimaydi — u **xatboshilarning birinchi gaplarini** o'qib, matn tuzilishini bir zumda tushunishga harakat qiladi.\n\nAgar birinchi gaplar sizning argumentingiz skeletini bersa, baholovchi «bu odam matnni boshqaryapti» deb xulosa qiladi.\nAgar birinchi gaplar fakt yoki misol bo'lsa, u skeletni topa olmaydi — va Coherence bali tushadi.\n\nB2 talaba xatboshini shunday boshlaydi: *For example, in my country many students study abroad.*\nC1 talaba shunday boshlaydi: *The most compelling argument for studying abroad is economic rather than academic.*\n\nBirinchisi — misol. Ikkinchisi — **da'vo**. Va da'vodan keyin misol keladi, aksincha emas."
+            },
+            {
+              "type": "theory",
+              "titleUz": "T-D-E-L: to'rt bosqichli xatboshi",
+              "bodyUz": "**T — Topic sentence (da'vo).** Xatboshining butun mazmunini bitta gapda e'lon qiladi. Fakt emas, savol emas, misol emas — **da'vo**.\n*The most compelling argument for free university education is economic rather than moral.*\n\n**D — Development (kengaytirish).** Da'voni tushuntiradi: nima uchun shunday? Mexanizmni ko'rsatadi.\n*Graduates earn more, pay more tax over a lifetime, and are less likely to rely on state support, which means the initial outlay is recovered several times over.*\n\n**E — Exemplification (misol yoki dalil).** Aniq holat, raqam yoki qiyoslash.\n*Germany, which abolished tuition fees in 2014, has seen no decline in the quality of its universities and a measurable rise in graduate numbers.*\n\n**L — Link (bog'lash).** Xatboshini yakunlaydi va keyingisiga ko'prik tashlaydi.\n*The financial case, then, is stronger than critics allow — though it rests on one assumption that deserves closer scrutiny.*\n\nUzunlik: 4-6 gap, 70-100 so'z. Ikkita asosiy xatboshi — 250 so'zli essening yuragi."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: bir xatboshining har bosqichi",
+              "headers": ["Bosqich", "B2 xatboshisi", "C1 xatboshisi"],
+              "rows": [
+                ["Topic sentence", "«Firstly, education is very important for our future.»", "«The strongest case for public investment in education is economic rather than moral.»"],
+                ["Development", "«If we study, we can get a good job and earn money.»", "«Graduates pay more tax over a lifetime and draw less on state support, which means the initial outlay is recovered several times over.»"],
+                ["Exemplification", "«For example, my brother studied IT and now he has a good salary.»", "«Germany, which abolished tuition fees in 2014, has seen a measurable rise in graduate numbers with no decline in standards.»"],
+                ["Link", "«So education is very important.» (takror)", "«The financial case, then, is stronger than critics allow — though it rests on one assumption worth examining.» (keyingi xatboshiga ko'prik)"],
+                ["Ohang", "Shaxsiy tajriba, umumiy da'volar", "Kalibrlangan da'vo + tekshiriladigan dalil"],
+                ["Uzunlik", "3 qisqa gap, 40-50 so'z", "4-6 gap, 70-100 so'z"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Kuchli topic sentence qanday yoziladi?",
+              "bodyUz": "Topic sentence da ikkita element bo'lishi shart:\n\n**1. Mavzu (topic)** — nima haqida gapiryapsiz.\n**2. Boshqaruvchi g'oya (controlling idea)** — bu mavzu haqida nima **da'vo** qilyapsiz.\n\n*The strongest case for public investment in education* [mavzu] *is economic rather than moral* [boshqaruvchi g'oya].\n\n**Uchta yomon topic sentence:**\n\n✗ *Education is important.* — Da'vo yo'q, hech kim buni inkor qilmaydi.\n✗ *In this paragraph I will talk about education.* — Meta-izoh; imtihonda ball tushiradi.\n✗ *In 2014 Germany abolished tuition fees.* — Bu fakt, da'vo emas. Faktlar E bosqichida keladi.\n\n**Tekshiruv savoli:** «Bu gap bilan kimdir bahslasha oladimi?» Agar **yo'q** bo'lsa, bu topic sentence emas. Agar **ha** bo'lsa — kerakli gap topildi.\n\n**Zaxira qolip:** *The most/least [sifat] aspect of X is Y rather than Z.* — Bu qolip sizga avtomatik ravishda bahsli da'vo yasaydi."
+            },
+            {
+              "type": "example",
+              "titleUz": "To'liq C1 xatboshisi, bosqichlarga ajratilgan",
+              "items": [
+                {
+                  "en": "[T] Remote work has been sold as a lifestyle improvement, but its most significant effect has been on urban economies rather than on individual wellbeing.",
+                  "uz": "Topic sentence: da'vo + qarama-qarshilik (X emas, Y). Bahslashish mumkin — demak, kuchli."
+                },
+                {
+                  "en": "[D] When several hundred thousand office workers stop commuting, the small businesses that depend on their daily spending — cafes, dry cleaners, sandwich shops — lose their entire customer base almost overnight.",
+                  "uz": "Development: mexanizmni ko'rsatadi. «Nega shunday?» degan savolga javob beradi."
+                },
+                {
+                  "en": "[E] In central London, footfall in 2023 remained roughly a fifth below pre-pandemic levels, and a comparable pattern has been recorded in Manhattan and central Tokyo.",
+                  "uz": "Exemplification: aniq raqam va uchta shahar. Umumiy «for example» emas — tekshiriladigan dalil."
+                },
+                {
+                  "en": "[L] The costs of remote work, then, fall largely on people who never had the option of working remotely in the first place — a point its advocates rarely address.",
+                  "uz": "Link: xulosani chiqaradi VA keyingi xatboshiga (tarafdorlarning e'tirozlari) ko'prik tashlaydi."
+                }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Link gapning uch turi",
+              "bodyUz": "Ko'pchilik xatboshini shunchaki topic sentence ni takrorlab yakunlaydi: *So, as I said, education is very important.* Bu — bo'sh gap, u ball qo'shmaydi.\n\nC1 da uch xil link ishlaydi:\n\n**1. Baholovchi link** — da'voning kuchini o'lchaydi:\n*The financial case, then, is stronger than critics allow.*\n\n**2. Oldinga ko'prik** — keyingi xatboshini e'lon qiladi:\n*This assumption, however, only holds while unemployment remains low.*\n\n**3. Chegaralovchi link** — da'voning chegarasini belgilaydi:\n*This applies, of course, only to countries with an established tax base.*\n\nUchalasi ham bir vaqtda ikkita ishni bajaradi: xatboshini yopadi va matnni oldinga suradi. Aynan shu narsa Coherence and Cohesion bo'yicha C1 belgisi hisoblanadi."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Coherence and Cohesion — «presents a clear central topic within each paragraph».** Bu jumla to'g'ridan-to'g'ri topic sentence haqida.\n\nImtihonda 30 soniyalik tekshiruv: yozib bo'lgach, faqat xatboshilarning **birinchi gaplarini** ketma-ket o'qing. Agar shu 3-4 gap o'zi mustaqil, mantiqiy argument hosil qilsa — tuzilma C1 darajada. Agar ular fakt yoki misol bo'lsa — birinchi gaplarni qayta yozing. Bu butun essede eng yuqori foyda beradigan tuzatish."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Qaysi variant kuchli C1 topic sentence?",
+              "data": {
+                "options": [
+                  "The strongest argument against banning cars in city centres is economic, not practical.",
+                  "In this paragraph I will discuss banning cars in city centres.",
+                  "In 2019, Oslo removed almost all parking from its city centre.",
+                  "Traffic is a big problem in many cities today."
+                ]
+              },
+              "answer": { "value": "The strongest argument against banning cars in city centres is economic, not practical." },
+              "explanationUz": "Faqat birinchi variantda da'vo (bahslashish mumkin) va boshqaruvchi g'oya (economic, not practical) bor. Ikkinchisi — meta-izoh, uchinchisi — fakt (E bosqichiga tegishli), to'rtinchisi — hech kim inkor qilmaydigan umumiy gap."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Xatboshi gaplarini T-D-E-L tartibida joylashtiring:",
+              "data": {
+                "items": [
+                  "In central London, footfall in 2023 remained roughly a fifth below pre-pandemic levels.",
+                  "The costs of remote work, then, fall largely on those who never had the option of working remotely at all.",
+                  "Remote work has been sold as a lifestyle improvement, but its most significant effect has been on urban economies.",
+                  "When hundreds of thousands of office workers stop commuting, the small businesses that depend on their daily spending lose their customer base almost overnight."
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Remote work has been sold as a lifestyle improvement, but its most significant effect has been on urban economies.",
+                  "When hundreds of thousands of office workers stop commuting, the small businesses that depend on their daily spending lose their customer base almost overnight.",
+                  "In central London, footfall in 2023 remained roughly a fifth below pre-pandemic levels.",
+                  "The costs of remote work, then, fall largely on those who never had the option of working remotely at all."
+                ]
+              },
+              "explanationUz": "T (da'vo) -> D (mexanizmni tushuntirish) -> E (aniq raqamli dalil) -> L (xulosa va ko'prik). Misolni da'vodan oldin qo'yish — B2 ning tipik tuzilma xatosi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Qaysi link gap C1 darajada?",
+              "data": {
+                "options": [
+                  "This assumption, however, only holds while unemployment remains low.",
+                  "So, as I said before, this topic is very important.",
+                  "In conclusion, I think education is good for everybody.",
+                  "That is all about this paragraph."
+                ]
+              },
+              "answer": { "value": "This assumption, however, only holds while unemployment remains low." },
+              "explanationUz": "Bu link ikki ish qiladi: xatboshining da'vosiga chegara qo'yadi va keyingi xatboshini (ishsizlik masalasi) e'lon qiladi. Qolgan uchtasi takror yoki meta-izoh — ular ball qo'shmaydi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir gapni u bajaradigan bosqichga bog'lang:",
+              "data": {
+                "left": [
+                  "The strongest case for free tuition is economic rather than moral.",
+                  "Graduates pay more tax over a lifetime and draw less on state support.",
+                  "Germany abolished tuition fees in 2014 with no decline in standards.",
+                  "The financial case, then, is stronger than critics allow."
+                ],
+                "right": ["Exemplification (E)", "Topic sentence (T)", "Link (L)", "Development (D)"]
+              },
+              "answer": {
+                "pairs": {
+                  "The strongest case for free tuition is economic rather than moral.": "Topic sentence (T)",
+                  "Graduates pay more tax over a lifetime and draw less on state support.": "Development (D)",
+                  "Germany abolished tuition fees in 2014 with no decline in standards.": "Exemplification (E)",
+                  "The financial case, then, is stronger than critics allow.": "Link (L)"
+                }
+              },
+              "explanationUz": "T — bahslashish mumkin bo'lgan da'vo; D — mexanizm («nega shunday?»); E — tekshiriladigan aniq holat; L — baho va keyingisiga ko'prik."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Misolni kiritish uchun C1 iborasi bilan to'ldiring (bitta so'z, «masalan» ma'nosida, rasmiy):",
+              "data": { "text": "Several European capitals have reduced car access to their centres. Oslo, for ___ , removed almost all central parking in 2019." },
+              "answer": { "accept": ["instance", "example"] },
+              "explanationUz": "«for instance» va «for example» ikkalasi ham to'g'ri, lekin «for instance» rasmiy matnda biroz tabiiyroq eshitiladi. Muhimi — misol gap O'RTASIGA joylashtirilgan, bu C1 ritmi (B2 doim gap boshiga qo'yadi)."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Kuchsiz topic sentence larni belgilang (bir nechta):",
+              "data": {
+                "options": [
+                  "Pollution is a serious problem nowadays.",
+                  "In this essay I will explain the causes of pollution.",
+                  "The principal driver of urban pollution is not industry but domestic heating.",
+                  "There are many opinions about pollution."
+                ]
+              },
+              "answer": {
+                "values": [
+                  "Pollution is a serious problem nowadays.",
+                  "In this essay I will explain the causes of pollution.",
+                  "There are many opinions about pollution."
+                ]
+              },
+              "explanationUz": "Birinchi va to'rtinchisi — hech kim bahslashmaydigan umumiy gaplar; ikkinchisi — meta-izoh. Faqat uchinchi variantda tekshiriladigan da'vo bor (sanoat emas, uy isitish)."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Xatboshini aniq misol bilan boshlash o'quvchining diqqatini tortadi va C1 uchun tavsiya etiladi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Akademik essede misol da'voni QO'LLAB-QUVVATLASH uchun keladi, uni almashtirish uchun emas. Xatboshi da'vo bilan boshlanadi (T), misol esa uchinchi bosqichda (E) turadi."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Write ONE body paragraph (90-120 words) on this statement: 'Public transport should be free in all large cities.' Follow T-D-E-L strictly: (T) an arguable topic sentence containing a claim and a controlling idea; (D) two sentences explaining the mechanism behind your claim; (E) one concrete example, figure or comparison; (L) a link sentence that evaluates the claim and points forward to the next paragraph. Do not begin with 'Firstly' or 'In this paragraph'.",
+              "promptUz": "Quyidagi mavzu bo'yicha BITTA asosiy xatboshi yozing (90-120 so'z): «Barcha yirik shaharlarda jamoat transporti bepul bo'lishi kerak.» T-D-E-L ni qat'iy bajaring: (T) bahslashish mumkin bo'lgan topic sentence — da'vo va boshqaruvchi g'oya bilan; (D) da'vo mexanizmini tushuntiruvchi ikki gap; (E) bitta aniq misol, raqam yoki qiyoslash; (L) da'voni baholovchi va keyingi xatboshiga ko'prik tashlovchi link gap. «Firstly» yoki «In this paragraph» bilan boshlamang.",
+              "data": { "minWords": 90, "maxWords": 130 }
+            }
+          ]
+        },
+        {
+          "slug": "cohesion-beyond-connectors",
+          "titleUz": "Bog'lovchidan tashqari bog'lanish: leksik zanjir, parallellik, ma'lumot oqimi",
+          "titleEn": "Cohesion beyond connectors",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 2,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Leksik zanjir orqali mavzu birligini bog'lovchisiz saqlash",
+            "Parallel tuzilma bilan ro'yxat va qiyoslashni tekislash",
+            "Given -> new (ma'lumot oqimi) qoidasi bilan gaplarni ulash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Bog'lovchi kasalligi",
+              "bodyUz": "B1-B2 darslarida bizga «bog'lovchi ishlating» deb o'rgatishadi — va bu to'g'ri maslahat. Muammo shundaki, ko'pchilik shu yerda to'xtab qoladi.\n\nNatija shunday matn bo'ladi:\n\n*Moreover, cities are becoming crowded. Furthermore, house prices are rising. In addition, traffic is getting worse. However, some people like city life. Therefore, the problem is complex.*\n\nHar bir gap bog'lovchi bilan boshlangan. Baholovchi buni **formulaic** deb belgilaydi va Coherence bali B2 da qoladi. Sababi C1 tavsifida aniq yozilgan: «uses cohesion in such a way that it **attracts no attention**».\n\nBog'lovchi — ko'rinadigan bog'lanish. C1 esa **ko'rinmaydigan** bog'lanishni talab qiladi. Uchta asosiy vosita bor: leksik zanjir, parallel tuzilma va ma'lumot oqimi.\n\n**Amaliy norma:** 250 so'zli essede 4-5 ta bog'lovchi yetarli. Qolgan bog'lanish shu uchta vosita bilan ta'minlanadi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "1. Leksik zanjir (lexical chains)",
+              "bodyUz": "Leksik zanjir — bir mavzuga oid so'zlarning matn bo'ylab uzluksiz tarqalishi. Ular bir-birini takrorlamaydi, lekin bir maydonga tegishli bo'lgani uchun o'quvchi mavzu o'zgarmaganini his qiladi.\n\n*The **drought** has entered its third year. **Reservoirs** in the south are at a quarter of capacity, and **irrigation** quotas have been cut twice since spring. Farmers who once grew cotton are switching to crops that need less **water** — or leaving the land altogether.*\n\nZanjir: drought → reservoirs → irrigation → water. Birorta bog'lovchi yo'q, lekin matn mustahkam bog'langan.\n\n**Qanday qurish kerak:** yozishdan oldin mavzuga oid 6-8 so'zni ro'yxat qiling. Masalan, ta'lim uchun: tuition, enrolment, curriculum, graduates, attainment, dropout rates, funding. Keyin ularni matn bo'ylab tarqating.\n\nBu bir vaqtda ikkita mezonga ishlaydi: **Cohesion** (bog'lanish) va **Lexical Resource** (so'z boyligi)."
+            },
+            {
+              "type": "theory",
+              "titleUz": "2. Parallel tuzilma (parallelism)",
+              "bodyUz": "Bir xil mantiqiy maqomdagi elementlar bir xil grammatik shaklda bo'lishi kerak. Buzilsa — o'quvchi qoqiladi.\n\n✗ *The scheme aims to reduce waste, improving recycling and to educate consumers.*\n(uch xil shakl: reduce / improving / to educate)\n✓ *The scheme aims **to reduce** waste, **to improve** recycling and **to educate** consumers.*\n\n✗ *He was criticised for his arrogance and because he refused to listen.*\n✓ *He was criticised for **his arrogance** and **his refusal to listen**.*\n\n**Parallellik nafaqat tozalik uchun.** U qiyoslashni ham kuchaytiradi:\n\n*The first policy **rewarded** investment; the second **punished** it.*\n*Where the government **saw** an opportunity, the unions **saw** a threat.*\n\nBu — ritorik parallellik. Xulosa qismida bitta shunday gap butun essening taassurotini ko'taradi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "3. Ma'lumot oqimi: given -> new",
+              "bodyUz": "Bu qoida eng kam o'rgatiladigan, lekin eng kuchli ta'sir qiladigan vosita.\n\n**Qoida:** har bir gap **tanish** ma'lumot bilan boshlanadi va **yangi** ma'lumot bilan tugaydi. Keyingi gap esa o'sha yangi ma'lumotni olib, uni tanish qiladi.\n\n✗ **Yomon oqim:**\n*A new metro line was opened in 2021. Congestion in the centre fell by 18%. Air quality also improved. The city council was praised for this.*\n(Har bir gap noldan boshlanadi; o'quvchi bog'lanishni o'zi tiklashi kerak.)\n\n✓ **Yaxshi oqim:**\n*In 2021 the city opened a new metro line. **The line** now carries 400,000 passengers a day, a shift that has cut central congestion by 18%. **That reduction** has in turn improved air quality to a degree nobody predicted.*\n(line → the line; cut congestion → that reduction. Har bir gap oldingisining oxiridan boshlanadi.)\n\n**Amaliy natija:** gaplaringiz «Moreover» siz ham bog'langan bo'ladi. Bu — aynan «cohesion that attracts no attention»."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: bog'lovchidan ichki bog'lanishga",
+              "headers": ["B2 (bog'lovchiga tayangan)", "C1 (ichki bog'lanish)", "Qaysi vosita?"],
+              "rows": [
+                ["Moreover, house prices are rising. Furthermore, rents are rising too.", "Housing costs have risen across the board: prices in the centre are up 12%, rents by nearly a fifth.", "Leksik zanjir (housing costs / prices / rents)"],
+                ["The plan aims to reduce waste. Moreover, it will improve recycling.", "The plan aims to reduce waste, to improve recycling and to educate consumers.", "Parallel tuzilma"],
+                ["A metro line opened in 2021. In addition, congestion fell by 18%.", "In 2021 the city opened a metro line. The line now carries 400,000 passengers a day, cutting central congestion by 18%.", "Given -> new oqimi"],
+                ["However, some people disagree. Nevertheless, the evidence is strong.", "Critics dispute these figures. Their objection, however, rests on a single outdated study.", "Referencing + given -> new"],
+                ["Firstly, it is expensive. Secondly, it is slow. Thirdly, it is unpopular.", "The scheme is expensive, slow and — predictably — unpopular.", "Parallellik (uch sifat bir gapda)"],
+                ["Therefore, the government must act. In conclusion, action is needed.", "The case for intervention, then, is difficult to dismiss.", "Bir gap ikkita ishni bajaradi"],
+                ["The drought continues. Also, there is not enough water.", "The drought has entered its third year, and reservoirs in the south are at a quarter of capacity.", "Leksik zanjir (drought / reservoirs / capacity)"],
+                ["The first policy was good. The second policy was bad.", "The first policy rewarded investment; the second punished it.", "Ritorik parallellik + substitution (it)"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Bitta xatboshi: bog'lovchisiz, lekin to'liq bog'langan",
+              "items": [
+                {
+                  "en": "The drought has entered its third year. Reservoirs in the south are at a quarter of capacity, and irrigation quotas have been cut twice since spring. Farmers who once grew cotton are switching to crops that need far less water — or leaving the land altogether. That exodus is now visible in the census figures.",
+                  "uz": "Bitta ham «moreover», «furthermore», «in addition» yo'q. Bog'lanish leksik zanjir (drought-reservoirs-irrigation-water), given->new oqimi (leaving the land -> that exodus) va referencing orqali ta'minlangan. Bu — C1."
+                },
+                {
+                  "en": "Where the previous government saw a cost, the current one sees an investment.",
+                  "uz": "Ritorik parallellik: «Where X saw A, Y sees B». Xulosa qismida bitta shunday gap butun essening darajasini ko'taradi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Coherence and Cohesion — «uses cohesion in such a way that it attracts no attention» va «does not overuse cohesive devices».** Ikkinchi jumla ayniqsa muhim: bog'lovchini **ortiqcha ishlatish** alohida jazolanadi.\n\nImtihon tekshiruvi (1 daqiqa): essengizdagi gap boshidagi bog'lovchilarni sanang (Moreover, Furthermore, In addition, However, Therefore). Agar ular 5 tadan ko'p bo'lsa, yarmini o'chiring va o'rniga given -> new oqimini tiklang — ya'ni keyingi gapni oldingisining oxirgi tushunchasidan boshlang. Matn qisqarmaydi, lekin daraja ko'tariladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Given -> new oqimiga eng mos davomni tanlang: «In 2021 the city opened a new metro line.»",
+              "data": {
+                "options": [
+                  "The line now carries 400,000 passengers a day, cutting central congestion by nearly a fifth.",
+                  "Moreover, air quality in the city has improved considerably.",
+                  "In addition, the city council received a national award.",
+                  "Furthermore, traffic is a serious problem in many countries."
+                ]
+              },
+              "answer": { "value": "The line now carries 400,000 passengers a day, cutting central congestion by nearly a fifth." },
+              "explanationUz": "Ikkinchi gap birinchisining OXIRGI tushunchasidan («a new metro line» -> «The line») boshlanadi va yangi ma'lumot bilan tugaydi. Qolgan uchtasi bog'lovchi qo'shadi, lekin mantiqiy ko'prik qurmaydi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Qaysi gapda parallellik BUZILGAN?",
+              "data": {
+                "options": [
+                  "The scheme aims to reduce waste, improving recycling and to educate consumers.",
+                  "The scheme aims to reduce waste, to improve recycling and to educate consumers.",
+                  "He was criticised for his arrogance and his refusal to listen.",
+                  "The first policy rewarded investment; the second punished it."
+                ]
+              },
+              "answer": { "value": "The scheme aims to reduce waste, improving recycling and to educate consumers." },
+              "explanationUz": "Ro'yxatdagi uch element uch xil shaklda: «to reduce» (infinitiv), «improving» (gerundiy), «to educate» (infinitiv). Bir xil maqomdagi elementlar bir xil grammatik shaklda bo'lishi shart."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "«urban housing» mavzusi uchun leksik zanjirga kiradigan so'zlarni belgilang (bir nechta):",
+              "data": {
+                "options": ["rents", "affordability", "tenants", "photosynthesis", "harvest"]
+              },
+              "answer": { "values": ["rents", "affordability", "tenants"] },
+              "explanationUz": "rents, affordability, tenants — uy-joy maydoniga tegishli va zanjirni davom ettiradi. Photosynthesis va harvest boshqa maydonga tegishli; ular zanjirni uzadi va o'quvchini chalg'itadi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Gaplarni given -> new oqimi bo'yicha tartiblang:",
+              "data": {
+                "items": [
+                  "That reduction has in turn improved air quality to a degree few analysts predicted.",
+                  "In 2021 the city opened a new metro line.",
+                  "The line now carries 400,000 passengers a day, a shift that has cut central congestion by 18%.",
+                  "Such gains, however, have not been evenly distributed across the suburbs."
+                ]
+              },
+              "answer": {
+                "order": [
+                  "In 2021 the city opened a new metro line.",
+                  "The line now carries 400,000 passengers a day, a shift that has cut central congestion by 18%.",
+                  "That reduction has in turn improved air quality to a degree few analysts predicted.",
+                  "Such gains, however, have not been evenly distributed across the suburbs."
+                ]
+              },
+              "explanationUz": "Zanjir: «a new metro line» -> «The line»; «cut congestion» -> «That reduction»; «improved air quality» -> «Such gains». Har bir gap oldingisining oxirida paydo bo'lgan tushunchadan boshlanadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Parallellikni tiklang (bitta so'z):",
+              "data": { "text": "The programme was designed to raise standards, ___ reduce inequality and to widen access." },
+              "answer": { "accept": ["to"] },
+              "explanationUz": "Ro'yxatdagi uchala element ham «to + fe'l» shaklida bo'lishi kerak: to raise, to reduce, to widen. Bitta «to» ni tushirib qoldirish parallellikni buzadi va o'quvchini qoqiltiradi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir C1 texnikasini u hal qiladigan muammoga bog'lang:",
+              "data": {
+                "left": ["Leksik zanjir", "Parallel tuzilma", "Given -> new oqimi", "Umumlashtiruvchi ot (this shift)"],
+                "right": [
+                  "Gaplar bir-biriga ulanmaydi, har biri noldan boshlanadi",
+                  "Ro'yxatdagi elementlar turli grammatik shaklda",
+                  "Oldingi gap mazmuniga havola noaniq qolmoqda",
+                  "Mavzu birligi yo'qoladi, bir xil so'z qayta-qayta takrorlanadi"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "Leksik zanjir": "Mavzu birligi yo'qoladi, bir xil so'z qayta-qayta takrorlanadi",
+                  "Parallel tuzilma": "Ro'yxatdagi elementlar turli grammatik shaklda",
+                  "Given -> new oqimi": "Gaplar bir-biriga ulanmaydi, har biri noldan boshlanadi",
+                  "Umumlashtiruvchi ot (this shift)": "Oldingi gap mazmuniga havola noaniq qolmoqda"
+                }
+              },
+              "explanationUz": "To'rt vosita — to'rt xil muammo uchun. Ularning umumiy jihati: hech biri bog'lovchi ishlatmaydi, ya'ni bog'lanish «e'tiborni tortmaydi» — bu aynan C1 tavsifidagi talab."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "Bog'lovchini olib tashlab, given -> new oqimini tiklang. «Air quality improved. Moreover, hospital admissions for asthma fell.» — ikkinchi gapni «That improvement» bilan boshlang va davom ettiring (faqat birinchi uch so'zni yozing):",
+              "data": { "text": "Air quality improved. ___ ___ ___ hospital admissions for asthma." },
+              "answer": { "accept": ["That improvement cut", "That improvement reduced", "That improvement halved", "That improvement lowered"] },
+              "explanationUz": "«Moreover» o'rniga oldingi gapning yangi tushunchasini («improved») umumlashtiruvchi ot qilib olamiz («That improvement») va uni yangi gapning egasi qilamiz. Bog'lovchi kerak emas — bog'lanish mazmun orqali ta'minlandi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Har bir gapni «Moreover», «Furthermore» yoki «In addition» bilan boshlash Coherence and Cohesion balini oshiradi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Bandda aniq yozilgan: «does not overuse cohesive devices» — bog'lovchini ortiqcha ishlatish alohida jazolanadi. 250 so'zli essede 4-5 ta bog'lovchi yetarli; qolgan bog'lanish leksik zanjir, parallellik va given -> new oqimi orqali quriladi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

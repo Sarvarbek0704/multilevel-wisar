@@ -215,7 +215,7 @@
               "promptEn": "NOTES — Conference: The excursion coach departs from the ____________.",
               "promptUz": "QAYDLAR — Konferensiya: Ekskursiya avtobusi ____________ dan jo'naydi.",
               "data": { "text": "The excursion coach departs from the ____________." },
-              "answer": { "accept": ["rear car park", "the rear car park", "car park"] },
+              "answer": { "accept": ["rear car park", "car park", "the car park"] },
               "points": 1
             },
             {
@@ -568,6 +568,762 @@
               },
               "answer": { "value": "It is disputed whether this model explains addiction" },
               "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "READING",
+      "order": 1,
+      "durationMinutes": 60,
+      "instructionsUz": "Beshta matn va 35 ta savol. Javoblar faqat matnga asoslanishi kerak. Diqqat: chalg'ituvchi variantlar ko'pincha «to'g'ri, lekin matnda aytilmagan» yoki «g'oya to'g'ri, ko'lami noto'g'ri» tipida bo'ladi.",
+      "instructionsEn": "Five texts, 35 questions. Base your answers only on the texts. Distractors are often true-but-not-stated, or right-idea-wrong-scope.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "1-qism: Sarlavhalarni moslashtirish (1-6)",
+          "titleEn": "Part 1: Matching headings (Questions 1-6)",
+          "instructionsUz": "A-F xatboshilarga mos sarlavhani tanlang. Bitta sarlavha ortiqcha.",
+          "instructionsEn": "Match each paragraph (A-F) with the correct heading. There is one extra heading you do not need to use.",
+          "passageText": "Why cities are rethinking the office\n\nA. The vacancy figures, striking as they are, understate what has actually happened. Occupancy — the proportion of desks in use on an ordinary Tuesday — has fallen further and faster than the leasing data suggests, because companies have gone on paying for floors they no longer fill, waiting patiently for agreements signed in a quite different decade to run their course. The reckoning, in other words, has been deferred rather than avoided, and the deferral has flattered every quarterly report published since.\n\nB. What draws people back, where anything does, is rarely the desk itself. Surveys of returning staff place collaboration, mentoring and what one respondent memorably called \"overhearing\" at the top of the list — the incidental learning that occurs when a junior colleague half-listens to a senior one handling a difficult client. Firms that have succeeded in filling their buildings have generally done so by making them worth the journey rather than by issuing instructions about attendance, which tend to be complied with narrowly and resented broadly.\n\nC. Conversion is the obvious answer and by some distance the hardest one. A tower built in the 1970s typically has a floor plate too deep for residential use: bedrooms require windows, and the middle of such a building is a very long way from one. Add to that plumbing risers sized for two lavatories per floor rather than forty bathrooms, and the arithmetic that looks so persuasive in a newspaper column has a habit of collapsing in a structural engineer's spreadsheet.\n\nD. The consequences reach a good deal further than landlords and their lenders. The sandwich shop, the dry cleaner and the bus route were all sized for a population that turned up five days a week. Municipal budgets, too, lean heavily on commercial property taxes; a number of American cities now face a shortfall in precisely the revenue that funds the services — transit, policing, street cleaning — which make a downtown worth travelling to in the first place.\n\nE. Not every city is experiencing the same shock, and the pattern of who suffers is instructive. Districts laid out before the car, with narrow streets, mixed uses and flats above the shops, have proved noticeably more resilient than purpose-built financial quarters, which empty at six o'clock by design rather than by accident. The lesson is arguably less about remote work than about monoculture: a district that does one thing is fragile the moment that one thing changes.\n\nF. Where reinvention has worked, it has usually been slow, subsidised and thoroughly unglamorous — tax abatements, relaxed zoning, a university faculty persuaded to take three floors on a long lease. Officials hoping for a single transformative project would do better to study the cities that spent a decade making a hundred small permissions marginally easier to obtain. That is not a policy that attracts ribbon-cutting or photographers, but it appears, on the available evidence, to be the one that works.",
+          "context": {
+            "headingsPool": [
+              "Mixed neighbourhoods weather the change better",
+              "A crisis postponed by long contracts",
+              "Employers tighten the rules on attendance",
+              "The wider economic ripple effects",
+              "Why turning offices into flats is harder than it looks",
+              "Incremental measures outperform grand projects",
+              "The reasons people still choose to come in"
+            ]
+          },
+          "questions": [
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph A",
+              "promptUz": "A xatboshi",
+              "data": {
+                "options": [
+                  "Mixed neighbourhoods weather the change better",
+                  "A crisis postponed by long contracts",
+                  "Employers tighten the rules on attendance",
+                  "The wider economic ripple effects",
+                  "Why turning offices into flats is harder than it looks",
+                  "Incremental measures outperform grand projects",
+                  "The reasons people still choose to come in"
+                ]
+              },
+              "answer": { "value": "A crisis postponed by long contracts" },
+              "points": 1
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph B",
+              "promptUz": "B xatboshi",
+              "data": {
+                "options": [
+                  "Mixed neighbourhoods weather the change better",
+                  "A crisis postponed by long contracts",
+                  "Employers tighten the rules on attendance",
+                  "The wider economic ripple effects",
+                  "Why turning offices into flats is harder than it looks",
+                  "Incremental measures outperform grand projects",
+                  "The reasons people still choose to come in"
+                ]
+              },
+              "answer": { "value": "The reasons people still choose to come in" },
+              "points": 1
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph C",
+              "promptUz": "C xatboshi",
+              "data": {
+                "options": [
+                  "Mixed neighbourhoods weather the change better",
+                  "A crisis postponed by long contracts",
+                  "Employers tighten the rules on attendance",
+                  "The wider economic ripple effects",
+                  "Why turning offices into flats is harder than it looks",
+                  "Incremental measures outperform grand projects",
+                  "The reasons people still choose to come in"
+                ]
+              },
+              "answer": { "value": "Why turning offices into flats is harder than it looks" },
+              "points": 1
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph D",
+              "promptUz": "D xatboshi",
+              "data": {
+                "options": [
+                  "Mixed neighbourhoods weather the change better",
+                  "A crisis postponed by long contracts",
+                  "Employers tighten the rules on attendance",
+                  "The wider economic ripple effects",
+                  "Why turning offices into flats is harder than it looks",
+                  "Incremental measures outperform grand projects",
+                  "The reasons people still choose to come in"
+                ]
+              },
+              "answer": { "value": "The wider economic ripple effects" },
+              "points": 1
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph E",
+              "promptUz": "E xatboshi",
+              "data": {
+                "options": [
+                  "Mixed neighbourhoods weather the change better",
+                  "A crisis postponed by long contracts",
+                  "Employers tighten the rules on attendance",
+                  "The wider economic ripple effects",
+                  "Why turning offices into flats is harder than it looks",
+                  "Incremental measures outperform grand projects",
+                  "The reasons people still choose to come in"
+                ]
+              },
+              "answer": { "value": "Mixed neighbourhoods weather the change better" },
+              "points": 1
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph F",
+              "promptUz": "F xatboshi",
+              "data": {
+                "options": [
+                  "Mixed neighbourhoods weather the change better",
+                  "A crisis postponed by long contracts",
+                  "Employers tighten the rules on attendance",
+                  "The wider economic ripple effects",
+                  "Why turning offices into flats is harder than it looks",
+                  "Incremental measures outperform grand projects",
+                  "The reasons people still choose to come in"
+                ]
+              },
+              "answer": { "value": "Incremental measures outperform grand projects" },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "2-qism: «Uyqu qarzi ilmi» (7-14)",
+          "titleEn": "Part 2: The science of sleep debt (Questions 7-14)",
+          "instructionsUz": "Matnni o'qib, 7-14-savollarga javob bering.",
+          "instructionsEn": "Read the text and answer questions 7-14.",
+          "passageText": "The science of sleep debt\n\nThe metaphor of debt is seductive and, like most seductive metaphors, only partly accurate. It implies a ledger: lose two hours on Monday, repay them on Saturday, return to zero. Two decades of research suggest something a good deal less tidy. Some of what is lost can indeed be recovered, some of it apparently cannot, and the body proves markedly worse at settling the account than the metaphor leads us to expect.\n\nThe clearest demonstration remains a set of laboratory studies in which volunteers were restricted to six hours in bed for two consecutive weeks. Their performance on tests of sustained attention declined steadily throughout, and by the end of the fortnight it was comparable to that of people who had gone entirely without sleep for two nights. What made the finding genuinely unsettling, however, was not the impairment itself but the participants' assessment of it. Their subjective ratings of sleepiness plateaued after only a few days, while their objective performance carried on deteriorating. They felt, in short, that they had adapted. They had not. They had merely lost the capacity to notice that they hadn't.\n\nRecovery is possible but asymmetric. A single long weekend restores alertness to something close to baseline on most measures, which is precisely why the practice of sleeping late at weekends persists: it works, up to a point. Metabolic markers, however, appear to be considerably more stubborn. In one frequently cited trial, participants whose alertness had returned after a weekend of extended sleep nonetheless showed insulin sensitivity that had not come back to its starting value, and the mismatch widened when the cycle of restriction and catch-up was repeated over several weeks. The uncomfortable implication is that feeling restored and being restored are separable states.\n\nThere is also the prior question of what counts as debt at all. Individual sleep need is more variable than public-health messaging tends to admit; the familiar eight-hour figure is a population average, and a genuine minority of adults function well on appreciably less with no measurable cost. The difficulty is that self-assessment is least reliable in exactly those people who most confidently claim to need the least. Researchers who have brought self-described short sleepers into the laboratory typically find that a large majority of them perform like everybody else — that is to say, badly — once they are deprived under controlled conditions.\n\nWhat, then, is the practical advice? Sleep researchers are usually rather more modest than the popular literature written about them. Regularity of timing, they suggest, may matter as much as total duration: going to bed and waking at consistent hours produces better outcomes across several cohort studies than simply adding hours on an erratic schedule. Beyond that, the honest position is that the mechanisms linking chronic short sleep to cardiovascular and metabolic disease are well established as associations and remain, in several important respects, incompletely explained.",
+          "questions": [
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the writer's main reservation about the metaphor of debt?",
+              "promptUz": "Muallifning «qarz» metaforasi haqidagi asosiy e'tirozi nima?",
+              "data": {
+                "options": [
+                  "It underestimates how much sleep most people actually lose",
+                  "It suggests a repayment process far more exact than reality allows",
+                  "It was popularised by companies selling sleep products",
+                  "It applies only to shift workers and night staff"
+                ]
+              },
+              "answer": { "value": "It suggests a repayment process far more exact than reality allows" },
+              "points": 1
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptEn": "In the two-week restriction study, what does the writer find most striking?",
+              "promptUz": "Ikki haftalik cheklov tadqiqotida muallifni eng ko'p nima hayratlantiradi?",
+              "data": {
+                "options": [
+                  "Participants eventually performed as badly as after two sleepless nights",
+                  "Performance began to improve again after the first few days",
+                  "The gap between how impaired participants felt and how impaired they were",
+                  "Sustained attention was unaffected until the very last days"
+                ]
+              },
+              "answer": { "value": "The gap between how impaired participants felt and how impaired they were" },
+              "points": 1
+            },
+            {
+              "number": 9,
+              "type": "TRUE_FALSE",
+              "promptEn": "According to the text, sleeping late at weekends has no effect on alertness.",
+              "promptUz": "Matnga ko'ra, dam olish kunlari uzoq uxlash hushyorlikka hech qanday ta'sir qilmaydi.",
+              "data": { "statement": "According to the text, sleeping late at weekends has no effect on alertness." },
+              "answer": { "value": "false" },
+              "points": 1
+            },
+            {
+              "number": 10,
+              "type": "TRUE_FALSE",
+              "promptEn": "According to the text, metabolic measures recover more slowly than alertness does.",
+              "promptUz": "Matnga ko'ra, metabolik ko'rsatkichlar hushyorlikka qaraganda sekinroq tiklanadi.",
+              "data": { "statement": "According to the text, metabolic measures recover more slowly than alertness does." },
+              "answer": { "value": "true" },
+              "points": 1
+            },
+            {
+              "number": 11,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the writer say about the eight-hour recommendation?",
+              "promptUz": "Muallif sakkiz soatlik tavsiya haqida nima deydi?",
+              "data": {
+                "options": [
+                  "It is an average that conceals real variation between individuals",
+                  "It is too low a target for the great majority of adults",
+                  "It has been decisively disproved by recent laboratory work",
+                  "It was intended to apply only to young people"
+                ]
+              },
+              "answer": { "value": "It is an average that conceals real variation between individuals" },
+              "points": 1
+            },
+            {
+              "number": 12,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What do laboratory studies of self-described short sleepers show?",
+              "promptUz": "O'zini «kam uxlaydigan» deb hisoblovchilar ustidagi laboratoriya tadqiqotlari nimani ko'rsatadi?",
+              "data": {
+                "options": [
+                  "Most of them are genuinely unaffected by reduced sleep",
+                  "They tend to sleep considerably longer than they report",
+                  "They assess their own alertness more accurately than average",
+                  "Most of them are impaired despite believing otherwise"
+                ]
+              },
+              "answer": { "value": "Most of them are impaired despite believing otherwise" },
+              "points": 1
+            },
+            {
+              "number": 13,
+              "type": "TRUE_FALSE",
+              "promptEn": "The writer claims that the biological link between short sleep and heart disease is now fully understood.",
+              "promptUz": "Muallif kam uyqu va yurak kasalliklari o'rtasidagi biologik bog'liqlik endi to'liq tushuntirilgan deb da'vo qiladi.",
+              "data": { "statement": "The writer claims that the biological link between short sleep and heart disease is now fully understood." },
+              "answer": { "value": "false" },
+              "points": 1
+            },
+            {
+              "number": 14,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What do sleep researchers themselves tend to emphasise?",
+              "promptUz": "Uyqu tadqiqotchilarining o'zlari nimaga urg'u berishadi?",
+              "data": {
+                "options": [
+                  "Increasing total sleep hours by any means available",
+                  "Keeping bedtimes and waking times consistent",
+                  "Avoiding recovery sleep at weekends altogether",
+                  "Taking a short nap during the working day"
+                ]
+              },
+              "answer": { "value": "Keeping bedtimes and waking times consistent" },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "titleUz": "3-qism: Bo'shliqli matn — kichik davlat maktablarni qanday isloh qildi (15-21)",
+          "titleEn": "Part 3: Gapped text — How a small country reformed its schools (Questions 15-21)",
+          "instructionsUz": "Matndan yettita gap olib tashlangan. Har bir bo'shliq (15-21) uchun eng mos gapni tanlang.",
+          "instructionsEn": "Seven sentences have been removed from the text. Choose the sentence that best fits each gap (15-21).",
+          "passageText": "How a small country reformed its schools\n\nThirty years ago the country's schools were unremarkable by any international measure. Today they are visited by delegations from four continents. [15] ____________ That story, however, is told a great deal more often than it is understood, and the details that get omitted in the telling are usually the ones that matter.\n\nThe reform did not begin in the classroom. It began in the universities. [16] ____________ The consequence was that within a decade teaching had become a genuinely competitive profession: places on training courses were harder to obtain than places in law, and applicants who were turned away did not simply apply somewhere else, because there was nowhere else to apply.\n\nCuriously, the reform involved doing rather less of several things that other systems were busy doing more of. National testing was reduced rather than expanded. [17] ____________ Inspectors were withdrawn altogether, and the money saved was redirected into the professional development of the teachers who remained.\n\nCritics predicted at the time that standards would fall in the absence of external monitoring. [18] ____________ What replaced inspection was not nothing, but it was something considerably harder to export: a dense set of professional norms, sustained by the fact that every adult in the staffroom had been through the same demanding training and could be assumed to have.\n\nThe results, when they eventually arrived, were widely misread. [19] ____________ Commentators concentrated almost exclusively on the country's average score, which was indeed high; the more remarkable figure was the unusually narrow gap between its strongest and weakest schools — a measure of equity rather than of excellence.\n\nAttempts to copy the model abroad have had decidedly mixed success. [20] ____________ The obvious explanation is that visiting officials tend to import the visible features — shorter days, later starting ages, fewer examinations — while leaving behind the invisible one, which took fifteen years and a good deal of political courage to construct.\n\nThere is also a less comfortable possibility, which the country's own researchers raise more readily than its admirers do. [21] ____________ Whether a reform that depended on a small, wealthy and socially cohesive population can be reproduced in larger and more divided societies remains, after three decades of admiring visits, an entirely open question.",
+          "questions": [
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 15",
+              "promptUz": "15-bo'shliq",
+              "data": {
+                "options": [
+                  "The transformation is usually attributed to a single decision: to make teaching an elite career.",
+                  "Most of these visitors go home disappointed by what they have seen.",
+                  "Class sizes were cut dramatically over the same period.",
+                  "Spending per pupil rose faster than in any comparable country."
+                ]
+              },
+              "answer": { "value": "The transformation is usually attributed to a single decision: to make teaching an elite career." },
+              "points": 1
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 16",
+              "promptUz": "16-bo'shliq",
+              "data": {
+                "options": [
+                  "New universities were opened in rural regions in order to widen access.",
+                  "Teacher training was moved into research-intensive universities and made a five-year master's degree.",
+                  "Student teachers began to receive a full salary from their first year of study.",
+                  "University funding was tied directly to the employment rates of graduates."
+                ]
+              },
+              "answer": { "value": "Teacher training was moved into research-intensive universities and made a five-year master's degree." },
+              "points": 1
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 17",
+              "promptUz": "17-bo'shliq",
+              "data": {
+                "options": [
+                  "Standardised examinations were introduced at three separate ages.",
+                  "Schools were publicly ranked in league tables for the first time.",
+                  "Homework was cut, the school day shortened and the list of compulsory subjects trimmed.",
+                  "A national curriculum was written in unprecedented detail."
+                ]
+              },
+              "answer": { "value": "Homework was cut, the school day shortened and the list of compulsory subjects trimmed." },
+              "points": 1
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 18",
+              "promptUz": "18-bo'shliq",
+              "data": {
+                "options": [
+                  "They were proved right within five years of the change.",
+                  "They did not fall, though nobody has satisfactorily explained why not.",
+                  "The government responded by quietly reinstating the inspectorate.",
+                  "Parents shared the concern and began withdrawing their children."
+                ]
+              },
+              "answer": { "value": "They did not fall, though nobody has satisfactorily explained why not." },
+              "points": 1
+            },
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 19",
+              "promptUz": "19-bo'shliq",
+              "data": {
+                "options": [
+                  "The scores were later found to contain a serious statistical error.",
+                  "Only a small proportion of schools took part in the assessments.",
+                  "The country declined to publish its results for several years.",
+                  "The international assessments that made the country famous measure something narrower than the headlines implied."
+                ]
+              },
+              "answer": { "value": "The international assessments that made the country famous measure something narrower than the headlines implied." },
+              "points": 1
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 20",
+              "promptUz": "20-bo'shliq",
+              "data": {
+                "options": [
+                  "Districts that adopted the timetable have rarely reproduced the outcomes.",
+                  "No country has yet attempted an imitation on any serious scale.",
+                  "The exported version has consistently outperformed the original.",
+                  "Most imitators abandoned the reforms within two academic years."
+                ]
+              },
+              "answer": { "value": "Districts that adopted the timetable have rarely reproduced the outcomes." },
+              "points": 1
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap 21",
+              "promptUz": "21-bo'shliq",
+              "data": {
+                "options": [
+                  "The reforms may have cost considerably more than official figures suggest.",
+                  "Teachers may have been rather less enthusiastic than the official account allows.",
+                  "Some of what worked may not have been the policy at all.",
+                  "The country's own results have slipped slightly in recent assessments."
+                ]
+              },
+              "answer": { "value": "Some of what worked may not have been the policy at all." },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "titleUz": "4-qism: Fikr maqolasi — masofaviy ish tengsizlikni kengaytiryaptimi? (22-28)",
+          "titleEn": "Part 4: Opinion piece — Is remote work widening inequality? (Questions 22-28)",
+          "instructionsUz": "Muallifning munosabati va bilvosita xulosalariga e'tibor bering. Ba'zi variantlar matnda aytilgan, lekin savolga javob bermaydi.",
+          "instructionsEn": "Pay attention to the writer's attitude and implied meaning. Some options are stated in the text but do not answer the question.",
+          "passageText": "Is remote work widening inequality?\n\nThere is a version of the remote-work story in which everybody wins, and it is worth stating plainly before taking it apart. In this account the office was always a somewhat arbitrary constraint; freed from it, workers reclaim their commuting hours, firms recruit from a far wider pool, and prosperity finally leaks out of the expensive cities and into the towns that have spent forty years watching their graduates leave. Some of this has genuinely happened. That is precisely what makes the rest of the argument difficult, and why the sceptics who dismiss the whole thing as a fad are no more persuasive than the enthusiasts.\n\nBegin with who is eligible. Roughly a third of jobs in advanced economies can be performed from home, and that third is not distributed at random. It is concentrated among the highly educated, the well paid and the already secure. The nurse, the warehouse picker and the bus driver did not gain two hours a day; a good number of them gained a manager who now supervises them by video and understands their work rather less well than before. To describe as a universal liberation a benefit flowing overwhelmingly to the top third of the income distribution requires a certain agility.\n\nEven within the eligible group the gains are unevenly claimed. Early evidence suggests that the employees most likely to be at home five days a week are those with the least bargaining power in their organisations, while those most reliably present on the days that matter are the ones already marked out for advancement. If physical proximity to decision-makers continues to influence promotion — and there is very little sign that it has stopped doing so — then a norm of flexible attendance may quietly harden into a two-tier workforce, the visible on one track and the invisible on another. The mechanism here is not malice. It is the ordinary, unremarkable tendency of managers to think first of the people they have seen most recently.\n\nThe geographical argument deserves rather more sympathy than it usually receives from urbanists. House prices in a number of mid-sized towns have risen sharply, which is unwelcome news for the people who already lived there and excellent news for nobody in particular; but local spending has risen too, and several of these places are demonstrably livelier than they were a decade ago. Whether this amounts to a transfer of prosperity or merely to its redistribution within the same professional class is the real question, and the honest answer is that it is still too early to say. What can be said with confidence is that the towns doing best are not the cheapest ones. They are the ones with a station.\n\nNone of this makes remote work a mistake. The commuting hours were real, the carbon savings are real, and for parents and disabled workers the change has been transformative in a way that decades of well-meaning policy conspicuously failed to achieve. The point being made here is narrower. A reform that helps a third of workers substantially and the remainder not at all is, by definition, a widening of the distance between them, however welcome its effects on those it does reach. Calling that progress is entirely defensible. Calling it inclusion is not.",
+          "questions": [
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does the writer set out the optimistic account first?",
+              "promptUz": "Muallif nima uchun avval optimistik qarashni bayon qiladi?",
+              "data": {
+                "options": [
+                  "To demonstrate that it is entirely without foundation",
+                  "Because it is the view held by most of his readers",
+                  "To acknowledge that parts of it are true, which complicates his criticism",
+                  "To summarise the findings of the research literature"
+                ]
+              },
+              "answer": { "value": "To acknowledge that parts of it are true, which complicates his criticism" },
+              "points": 1
+            },
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the writer suggest has happened to workers who cannot work remotely?",
+              "promptUz": "Muallifning fikricha, masofadan ishlay olmaydigan xodimlar bilan nima sodir bo'ldi?",
+              "data": {
+                "options": [
+                  "They have been compensated in other, less obvious ways",
+                  "Some are now managed by people with a weaker grasp of their jobs",
+                  "They are for the most part employed in the public sector",
+                  "They have benefited from shorter and quieter commutes"
+                ]
+              },
+              "answer": { "value": "Some are now managed by people with a weaker grasp of their jobs" },
+              "points": 1
+            },
+            {
+              "number": 24,
+              "type": "MCQ_SINGLE",
+              "promptEn": "The phrase \"requires a certain agility\" suggests that the writer regards the claim as",
+              "promptUz": "«Requires a certain agility» iborasi muallif bu da'voni qanday baholayotganini ko'rsatadi:",
+              "data": {
+                "options": [
+                  "technically complicated",
+                  "statistically unproven",
+                  "somewhat dishonest",
+                  "recently outdated"
+                ]
+              },
+              "answer": { "value": "somewhat dishonest" },
+              "points": 1
+            },
+            {
+              "number": 25,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What risk does the writer identify within the group who can work remotely?",
+              "promptUz": "Muallif masofadan ishlay oladigan guruh ichida qanday xavfni ko'radi?",
+              "data": {
+                "options": [
+                  "Deliberate discrimination on the part of managers",
+                  "An informal division between visible and invisible employees",
+                  "A measurable decline in overall productivity",
+                  "The abandonment of formal promotion criteria"
+                ]
+              },
+              "answer": { "value": "An informal division between visible and invisible employees" },
+              "points": 1
+            },
+            {
+              "number": 26,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the writer's view of rising house prices in mid-sized towns?",
+              "promptUz": "Muallif o'rta shaharlardagi uy narxlarining o'sishiga qanday qaraydi?",
+              "data": {
+                "options": [
+                  "The rises have chiefly benefited long-standing local residents",
+                  "The rises have produced few identifiable local winners",
+                  "Prices have in fact fallen wherever remote workers arrived",
+                  "Price rises are the principal cause of increased local spending"
+                ]
+              },
+              "answer": { "value": "The rises have produced few identifiable local winners" },
+              "points": 1
+            },
+            {
+              "number": 27,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is implied by the sentence \"They are the ones with a station\"?",
+              "promptUz": "«They are the ones with a station» gapi nimani anglatadi?",
+              "data": {
+                "options": [
+                  "Rail investment ought to be the government's first priority",
+                  "Cheap housing is what attracts remote workers to a town",
+                  "Commuting has not in reality declined at all",
+                  "Towns still depend on remaining connected to the cities"
+                ]
+              },
+              "answer": { "value": "Towns still depend on remaining connected to the cities" },
+              "points": 1
+            },
+            {
+              "number": 28,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Which best summarises the writer's overall position?",
+              "promptUz": "Muallifning umumiy pozitsiyasini eng yaxshi ifodalovchi javob qaysi?",
+              "data": {
+                "options": [
+                  "Remote work is beneficial but should not be described as inclusive",
+                  "Remote work should be reversed wherever it is practical to do so",
+                  "The effects of remote work are at present entirely unknown",
+                  "Remote work has done most harm to parents and disabled workers"
+                ]
+              },
+              "answer": { "value": "Remote work is beneficial but should not be described as inclusive" },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "titleUz": "5-qism: Akademik matn — tillarning yo'qolishi (29-35)",
+          "titleEn": "Part 5: Academic text — Language death and what is lost with it (Questions 29-35)",
+          "instructionsUz": "Matnni o'qing. Ba'zi savollarga variantlardan tanlab, ba'zilariga esa matndan olingan 1-3 so'z bilan javob bering.",
+          "instructionsEn": "Read the text. Answer some questions by choosing an option and others with NO MORE THAN THREE WORDS from the text.",
+          "passageText": "Language death and what is lost with it\n\nOf the roughly seven thousand languages currently spoken, a widely cited estimate holds that between half and ninety per cent will have ceased to be spoken by the end of this century. The sheer width of that interval is itself informative: it reflects genuine disagreement about what counts as a distinct language, what counts as a speaker, and at what point a language should be described as dead rather than merely dormant. Linguists distinguish, for example, between a language that has lost its last fluent speaker and one that retains a community of partial speakers who understand it but no longer produce it — a state that has occasionally proved reversible, though only under conditions that are difficult to engineer deliberately.\n\nThe mechanism of loss is rarely dramatic. Languages are seldom banned outright, though that has certainly happened; far more often they are abandoned, in a sequence remarkably consistent across continents. A community becomes bilingual, typically for economic reasons. Parents, acting rationally and often at considerable emotional cost, begin speaking the majority language to their children in the belief — usually a correct one — that it will improve their prospects. Within two generations the ancestral language is confined to ceremony and to the elderly. Fishman's model of graded intergenerational disruption describes this progression in eight stages, and its central claim is that the decisive threshold is intergenerational transmission: once children stop acquiring a language in the home, formal instruction on its own has almost never proved sufficient to reverse the decline.\n\nWhat, precisely, is lost? The strongest version of the argument — that each language encodes a unique worldview, and that its disappearance therefore diminishes the range of human thought itself — rests on a linguistic relativity hypothesis that most contemporary researchers regard as, at best, weakly supported. Grammatical structure appears to influence cognition at the margins rather than to determine it. Advocates of documentation have accordingly shifted their emphasis, and the contemporary case is now made on narrower but distinctly firmer ground.\n\nThree claims survive scrutiny reasonably well. The first is empirical: linguistic diversity constitutes the evidence base for the science of language itself, and a theory of what human grammars are capable of is only as good as the sample on which it was built. Rare structures — evidentials, which oblige a speaker to mark how they know what they assert, or numeral systems with no exact word for four — are disproportionately found in small and endangered languages. The second is ecological: a great deal of traditional knowledge concerning local species, seasonal patterns and medicinal plants exists only in oral form and is not straightforwardly translatable, since the underlying taxonomies themselves differ from those of the incoming language. The third claim is social, and is arguably the most important: communities that have undergone language shift report consequences for wellbeing and cohesion that are hard to quantify but harder still to dismiss, and revitalisation programmes in several countries have been associated with measurable improvements in educational attainment and, in at least one much-discussed study, with reduced rates of youth suicide.\n\nRevitalisation, where it has worked at all, has depended a good deal less on technology than its enthusiasts assume. Digital archives preserve records; they do not create speakers. The cases usually held up as successes — Hebrew, Welsh, Maori — share a rather different feature: in each, a domain existed in which the language became necessary rather than merely available, whether the state, the school or the workplace. Necessity, not sentiment, appears to be the operative variable, which is an uncomfortable conclusion for campaigns built on affection alone.",
+          "questions": [
+            {
+              "number": 29,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the width of the extinction estimate reflect, according to the writer?",
+              "promptUz": "Muallifga ko'ra, yo'qolish bo'yicha bahoning shunchalik keng oralig'i nimadan dalolat beradi?",
+              "data": {
+                "options": [
+                  "Disagreement about the basic definitions involved",
+                  "Poor data collection in the most remote regions",
+                  "Political disputes between the governments concerned",
+                  "How rapidly the situation has changed in recent years"
+                ]
+              },
+              "answer": { "value": "Disagreement about the basic definitions involved" },
+              "points": 1
+            },
+            {
+              "number": 30,
+              "type": "SHORT_ANSWER",
+              "promptEn": "According to Fishman's model, what is the decisive threshold in language loss? (NO MORE THAN THREE WORDS)",
+              "promptUz": "Fishman modeliga ko'ra, til yo'qolishidagi hal qiluvchi chegara nima? (KO'PI BILAN UCH SO'Z)",
+              "data": { "text": "Fishman's decisive threshold: ____________" },
+              "answer": { "accept": ["intergenerational transmission", "the intergenerational transmission", "transmission"] },
+              "points": 1
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the writer's view of the \"unique worldview\" argument?",
+              "promptUz": "Muallif «har bir til noyob dunyoqarashni ifodalaydi» degan dalilga qanday qaraydi?",
+              "data": {
+                "options": [
+                  "It remains the strongest case for preservation",
+                  "It depends on a hypothesis that is only weakly supported",
+                  "It has been conclusively disproved by recent work",
+                  "It applies only to very small language communities"
+                ]
+              },
+              "answer": { "value": "It depends on a hypothesis that is only weakly supported" },
+              "points": 1
+            },
+            {
+              "number": 32,
+              "type": "SHORT_ANSWER",
+              "promptEn": "What is the name of the grammatical markers that oblige speakers to indicate how they know what they assert? (ONE WORD)",
+              "promptUz": "So'zlovchini aytayotgan ma'lumotini qayerdan bilishini ko'rsatishga majbur qiladigan grammatik ko'rsatkichlar nima deb ataladi? (BIR SO'Z)",
+              "data": { "text": "Markers of source of knowledge: ____________" },
+              "answer": { "accept": ["evidentials", "evidential", "evidential markers"] },
+              "points": 1
+            },
+            {
+              "number": 33,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why, according to the text, is traditional ecological knowledge hard to translate?",
+              "promptUz": "Matnga ko'ra, an'anaviy ekologik bilimni tarjima qilish nega qiyin?",
+              "data": {
+                "options": [
+                  "It is deliberately kept secret from outsiders",
+                  "It survives only in obsolete written scripts",
+                  "The systems of classification themselves differ",
+                  "Very few linguists have any training in biology"
+                ]
+              },
+              "answer": { "value": "The systems of classification themselves differ" },
+              "points": 1
+            },
+            {
+              "number": 34,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the writer suggest about digital archives?",
+              "promptUz": "Muallif raqamli arxivlar haqida nima deydi?",
+              "data": {
+                "options": [
+                  "They have become the most effective revitalisation tool available",
+                  "They preserve a record without producing new speakers",
+                  "They are too expensive for most small communities",
+                  "They have largely replaced traditional fieldwork"
+                ]
+              },
+              "answer": { "value": "They preserve a record without producing new speakers" },
+              "points": 1
+            },
+            {
+              "number": 35,
+              "type": "SHORT_ANSWER",
+              "promptEn": "According to the final paragraph, which factor rather than sentiment appears to determine successful revitalisation? (ONE WORD)",
+              "promptUz": "Oxirgi xatboshiga ko'ra, tilni tiklashda muvaffaqiyatni his-tuyg'u emas, qaysi omil belgilaydi? (BIR SO'Z)",
+              "data": { "text": "The operative variable is ____________, not sentiment." },
+              "answer": { "accept": ["necessity", "need", "necessity not sentiment"] },
+              "points": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "WRITING",
+      "order": 2,
+      "durationMinutes": 60,
+      "instructionsUz": "Uchala vazifani ham bajaring. Tavsiya etilgan vaqt: Task 1 — 10 daqiqa, Task 2 — 20 daqiqa, Task 3 — 30 daqiqa. So'z sonidan kam yozsangiz ball pasayadi. C1 darajasida uslub (registr) mosligi, murakkab grammatika va aniq leksika alohida baholanadi.",
+      "instructionsEn": "Complete all three tasks. Suggested timing: Task 1 — 10 minutes, Task 2 — 20 minutes, Task 3 — 30 minutes. At C1 level, register control, complex structures and precise lexis are assessed explicitly.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "1-qism: Elektron xatlar (Task 1 va Task 2)",
+          "titleEn": "Part 1: Emails (Tasks 1 and 2)",
+          "instructionsUz": "Ikkita xat yozing: birinchisi norasmiy, ikkinchisi rasmiy uslubda. Uslublar farqiga alohida e'tibor bering.",
+          "instructionsEn": "Write two emails: the first informal, the second formal. Register control is assessed.",
+          "questions": [
+            {
+              "number": 1,
+              "type": "WRITING_TASK",
+              "promptEn": "You have received this email from your friend Dilnoza:\n\n\"Hi! I need to think out loud at someone, and you're the person whose judgement I trust. I've been offered a two-year contract in Warsaw — better money, better title, but I'd be leaving my parents, my flat and basically everyone I know. Part of me thinks I'd regret not going. Part of me thinks I'm romanticising it. Would you go? What would worry you most? And be honest — you're the only person who hasn't just told me what I want to hear. Dilnoza\"\n\nWrite a reply to Dilnoza. Answer all three of her questions and give her a clear recommendation. Write at least 50 words.",
+              "promptUz": "Do'stingiz Dilnozadan xat keldi (yuqorida): unga Varshavada ikki yillik shartnoma taklif qilishgan, lekin u ikkilanmoqda. Javob xat yozing: uning uchala savoliga ham javob bering va aniq maslahat bering. Kamida 50 so'z. Norasmiy uslub.",
+              "data": { "minWords": 50, "maxWords": 120, "register": "informal" },
+              "points": 1,
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "informal email to a close friend: contractions, phrasal verbs, direct address, personal tone; all three questions answered plus a clear recommendation"
+              }
+            },
+            {
+              "number": 2,
+              "type": "WRITING_TASK",
+              "promptEn": "You work for an educational organisation. You have decided to approach Bright Path Language School with a proposal for a partnership.\n\nWrite a formal email to the Director of Bright Path Language School. In your email you should:\n- introduce your organisation briefly and explain why you are writing;\n- outline what the proposed partnership would involve and what each side would contribute;\n- explain the specific benefits for the language school;\n- propose a concrete next step.\n\nWrite 120-150 words in an appropriate formal register.",
+              "promptUz": "Siz ta'lim tashkilotida ishlaysiz va «Bright Path» til maktabiga hamkorlik taklif qilmoqchisiz.\n\nMaktab direktoriga rasmiy elektron xat yozing. Xatda:\n- tashkilotingizni qisqacha tanishtiring va murojaat sababini yozing;\n- hamkorlik nimani o'z ichiga olishini va har bir tomon nima qo'shishini bayon qiling;\n- til maktabi uchun aniq foydani tushuntiring;\n- keyingi aniq qadamni taklif qiling.\n\n120-150 so'z, rasmiy uslubda.",
+              "data": { "minWords": 120, "maxWords": 150, "register": "formal" },
+              "points": 1,
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "formal business email: appropriate salutation and sign-off, no contractions, hedged and diplomatic phrasing, all four content points covered within 120-150 words"
+              }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "2-qism: Esse (Task 3)",
+          "titleEn": "Part 2: Essay (Task 3)",
+          "instructionsUz": "Ikkala qarashni ham muhokama qiling va o'z fikringizni aniq bildiring. Kamida 250 so'z.",
+          "instructionsEn": "Discuss both views and give your own opinion. Write at least 250 words.",
+          "questions": [
+            {
+              "number": 3,
+              "type": "WRITING_TASK",
+              "promptEn": "Write an essay on the following topic:\n\n\"Some argue that governments should prioritise economic growth over environmental protection. Others believe the opposite. Discuss both views and give your own opinion.\"\n\nSupport your argument with reasons and relevant examples. Write at least 250 words.",
+              "promptUz": "Quyidagi mavzuda esse yozing:\n\n«Ba'zilar hukumatlar atrof-muhitni muhofaza qilishdan ko'ra iqtisodiy o'sishni ustuvor qilishi kerak deb hisoblaydi. Boshqalar esa aksincha fikrda. Ikkala qarashni ham muhokama qiling va o'z fikringizni bildiring.»\n\nFikringizni sabab va misollar bilan asoslang. Kamida 250 so'z.",
+              "data": { "minWords": 250, "maxWords": 350, "register": "formal academic" },
+              "points": 2,
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "formal discursive essay: both views developed with reasons and examples, a clearly stated and consistently maintained personal position, paragraphing with a distinct introduction and conclusion, and C1 features such as hedging, concession and nominalisation"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "SPEAKING",
+      "order": 3,
+      "durationMinutes": 15,
+      "instructionsUz": "Uchta qismda mikrofonga javob yozib qoldiring. Tayyorgarlik vaqti tugagach yozuv avtomatik boshlanadi. AI javobingizni transkripsiya qilib, rasmiy mezonlar bo'yicha baholaydi va o'zbekcha tahlil beradi.",
+      "instructionsEn": "Record your answer for each of the three parts. Recording starts automatically when preparation time ends.",
+      "parts": [
+        {
+          "order": 0,
+          "titleUz": "Part 1: Ish/o'qish va bo'sh vaqt (B1-B2)",
+          "titleEn": "Part 1: Work, study and free time (B1-B2)",
+          "instructionsUz": "Tayyorgarlik 10 soniya, javob 60 soniya. Har bir savolga javob berishga harakat qiling.",
+          "instructionsEn": "10 seconds to prepare, 60 seconds to speak. Try to address every question.",
+          "questions": [
+            {
+              "number": 1,
+              "type": "SPEAKING_TASK",
+              "promptEn": "Let's talk about your work or studies and your free time. What do you do at the moment — do you work or are you a student? What is the most interesting part of it, and what is the least? And when you finish for the day, how do you usually switch off?",
+              "promptUz": "Ish yoki o'qishingiz va bo'sh vaqtingiz haqida gaplashamiz. Hozir nima bilan shug'ullanasiz — ishlaysizmi yoki o'qiysizmi? Undagi eng qiziqarli va eng zerikarli jihat nima? Kun tugagach, odatda qanday dam olasiz?",
+              "data": { "preparationSeconds": 10, "recordSeconds": 60 },
+              "points": 1,
+              "rubric": {
+                "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"],
+                "level": "B1-B2: answers all parts of the question, extends beyond one-sentence replies, uses a range of present and past tenses accurately"
+              }
+            }
+          ]
+        },
+        {
+          "order": 1,
+          "titleUz": "Part 2: Monolog — umrbod ta'lim (B2-C1)",
+          "titleEn": "Part 2: Individual long turn — lifelong learning (B2-C1)",
+          "instructionsUz": "Tayyorgarlik 60 soniya, javob 120 soniya. Ijobiy va salbiy tomonlarni muvozanatli yoriting, so'ng o'z tanlovingizni aytib, asoslang.",
+          "instructionsEn": "60 seconds to prepare, 120 seconds to speak. Balance advantages and disadvantages, then state and justify your own choice.",
+          "questions": [
+            {
+              "number": 2,
+              "type": "SPEAKING_TASK",
+              "promptEn": "More and more adults are returning to study in their thirties, forties and beyond — retraining, taking online courses, or doing a second degree. Describe the advantages and disadvantages of continuing to learn formally throughout your working life. Then say what you personally would choose: to keep retraining every few years, or to build deep expertise in one field and stay there. Explain your reasoning.",
+              "promptUz": "Tobora ko'proq kattalar 30, 40 va undan keyingi yoshda yana o'qishga qaytmoqda — qayta tayyorlanish, onlayn kurslar yoki ikkinchi oliy ta'lim. Butun mehnat faoliyati davomida rasmiy o'qishni davom ettirishning afzalliklari va kamchiliklarini tasvirlab bering. So'ng siz shaxsan nimani tanlashingizni ayting: har necha yilda qayta o'qishnimi yoki bitta sohada chuqur mutaxassis bo'lib qolishnimi. Sababini tushuntiring.",
+              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "points": 1,
+              "rubric": {
+                "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"],
+                "level": "B2-C1: clearly structured long turn, both sides covered before the personal choice, topic-specific lexis (retraining, obsolescence, transferable skills), accurate conditionals and comparison"
+              }
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "titleUz": "Part 3: Munozara — texnologiya va yaqinlik (C1)",
+          "titleEn": "Part 3: Discussion — technology and closeness (C1)",
+          "instructionsUz": "Tayyorgarlik 60 soniya, javob 120 soniya. Ikkala tomonni ham ko'rib chiqing, qarama-qarshi dalilni tan oling va aniq xulosaga keling.",
+          "instructionsEn": "60 seconds to prepare, 120 seconds to speak. Address both sides, concede a counter-argument, and reach a clear conclusion.",
+          "questions": [
+            {
+              "number": 3,
+              "type": "SPEAKING_TASK",
+              "promptEn": "\"Technology has made us more connected but less close.\" Discuss both sides of this statement. Consider what digital communication has genuinely made possible, as well as what it may have replaced or weakened, and make it clear where you finally stand and why.",
+              "promptUz": "«Texnologiya bizni ko'proq bog'lab qo'ydi, lekin bir-birimizga yaqinligimizni kamaytirdi». Bu fikrning ikkala tomonini ham muhokama qiling. Raqamli muloqot haqiqatan nimani mumkin qilganini va nimaning o'rnini egallab, nimani zaiflashtirgan bo'lishi mumkinligini ko'rib chiqing, so'ng o'z pozitsiyangizni aniq bildiring va asoslang.",
+              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "points": 1,
+              "rubric": {
+                "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"],
+                "level": "C1: sustained abstract argument, explicit concession and rebuttal, precise and idiomatic lexis, wide grammatical range with only occasional slips, natural stress and intonation"
+              }
             }
           ]
         }

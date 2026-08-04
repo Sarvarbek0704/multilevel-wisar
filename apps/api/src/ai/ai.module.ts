@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module, forwardRef } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { MocksModule } from '../mocks/mocks.module';
 import { TelegramModule } from '../telegram/telegram.module';
@@ -10,7 +10,7 @@ import { GeminiProvider } from './providers/gemini.provider';
 import { MockAiProvider } from './providers/mock.provider';
 
 @Module({
-  imports: [MocksModule, TelegramModule],
+  imports: [MocksModule, forwardRef(() => TelegramModule)],
   controllers: [AiController],
   providers: [
     AiService,

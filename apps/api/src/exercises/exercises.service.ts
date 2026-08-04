@@ -11,19 +11,22 @@ export class ExercisesService {
     private readonly progressService: ProgressService,
   ) {}
 
-  /** Random practice set filtered by subject/skill/level. */
+  /** Random practice set filtered by subject/skill/level (optionally by type). */
   async practiceSet(params: {
     subject: Subject;
     skill?: Skill;
     level?: CefrLevel;
     count: number;
+    types?: ExerciseType[];
   }) {
     const where: Prisma.ExerciseWhereInput = {
       isPublished: true,
       subject: params.subject,
       ...(params.skill ? { skill: params.skill } : {}),
       ...(params.level ? { level: params.level } : {}),
-      type: { notIn: [ExerciseType.WRITING_TASK, ExerciseType.SPEAKING_TASK] },
+      type: params.types?.length
+        ? { in: params.types }
+        : { notIn: [ExerciseType.WRITING_TASK, ExerciseType.SPEAKING_TASK] },
     };
     const total = await this.prisma.exercise.count({ where });
     if (total === 0) return [];
@@ -45,6 +48,23 @@ export class ExercisesService {
       },
     });
     return exercises;
+  }
+
+  /** Single exercise without the answer key (used by the Telegram quiz flow). */
+  async getExercise(exerciseId: string) {
+    return this.prisma.exercise.findFirst({
+      where: { id: exerciseId, isPublished: true },
+      select: {
+        id: true,
+        type: true,
+        skill: true,
+        level: true,
+        promptUz: true,
+        promptEn: true,
+        dataJson: true,
+        points: true,
+      },
+    });
   }
 
   async submitAnswer(userId: string, exerciseId: string, answer: Record<string, unknown>) {

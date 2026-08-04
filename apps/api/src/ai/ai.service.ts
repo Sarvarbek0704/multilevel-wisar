@@ -5,13 +5,16 @@ import {
   Injectable,
   Logger,
   NotFoundException,
+  forwardRef,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Interval } from '@nestjs/schedule';
 import { EvalStatus, Prisma, Skill, Subject } from '@prisma/client';
 import { promises as fs } from 'fs';
+import { InlineKeyboard } from 'grammy';
 import { join } from 'path';
 import { PrismaService } from '../prisma/prisma.service';
+import { esc as escapeHtml } from '../telegram/telegram.ui';
 import { ScoringService } from '../mocks/scoring.service';
 import { TelegramService } from '../telegram/telegram.service';
 import {
@@ -43,6 +46,7 @@ export class AiService {
     private readonly prisma: PrismaService,
     private readonly configService: ConfigService,
     private readonly scoringService: ScoringService,
+    @Inject(forwardRef(() => TelegramService))
     private readonly telegramService: TelegramService,
     @Inject(AI_PROVIDER) private readonly provider: AiProvider,
   ) {}
@@ -146,9 +150,16 @@ export class AiService {
       include: { exam: { select: { titleUz: true } } },
     });
     if (!attempt) return;
+
+    const webUrl = this.configService.get<string>('WEB_URL') ?? 'https://multilevel.wisar.uz';
     await this.telegramService.notifyUser(
       userId,
-      `📊 Natijangiz tayyor!\n\n${attempt.exam.titleUz}\nUmumiy ball: ${attempt.overallScore}/75\nTaxminiy daraja: ${attempt.estimatedLevel ?? 'B1 dan past'}\n\nBatafsil tahlil saytda sizni kutmoqda.`,
+      `📊 <b>Natijangiz tayyor!</b>\n\n` +
+        `${escapeHtml(attempt.exam.titleUz)}\n\n` +
+        `🏆 <b>Umumiy ball:</b> ${attempt.overallScore}/75\n` +
+        `🎯 <b>Taxminiy daraja:</b> ${attempt.estimatedLevel ?? 'B1 dan past'}\n\n` +
+        `Writing va Speaking bo‘yicha batafsil AI tahlili saytda sizni kutmoqda.`,
+      new InlineKeyboard().url('📄 Batafsil natija', `${webUrl}/mocks/attempts/${attemptId}/result`),
     );
   }
 

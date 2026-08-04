@@ -90,6 +90,16 @@ export class VocabularyService {
     });
   }
 
+  /** Single card with its word — used by the Telegram flashcard flow. */
+  async getCard(userId: string, cardId: string) {
+    const card = await this.prisma.userVocabCard.findFirst({
+      where: { id: cardId, userId },
+      include: { word: true },
+    });
+    if (!card) throw new NotFoundException('Kartochka topilmadi');
+    return card;
+  }
+
   async review(userId: string, cardId: string, grade: number) {
     const card = await this.prisma.userVocabCard.findFirst({
       where: { id: cardId, userId },

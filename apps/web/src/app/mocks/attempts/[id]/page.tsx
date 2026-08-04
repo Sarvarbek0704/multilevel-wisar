@@ -9,9 +9,17 @@ import { PlayIcon } from '@/components/icons';
 import { Button, Spinner, TextArea } from '@/components/ui';
 import { api } from '@/lib/api';
 import { SKILL_LABEL, countWords, formatLongClock } from '@/lib/format';
-import type { AttemptForTaking, ExamPart, ExamSection, QuestionPublic } from '@/lib/types';
+import type { AttemptForTaking, ExamPart, QuestionPublic, Skill } from '@/lib/types';
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+/** Alohida ko'rinishga ega bo'limlar; qolganlari oddiy savol ro'yxati sifatida chiqadi */
+const MEDIA_SKILLS: Skill[] = ['LISTENING', 'READING', 'WRITING', 'SPEAKING'];
+
+/** Birinchi bo'sh bo'lmagan matnni tanlaydi (null ham, '' ham o'tkazib yuboriladi) */
+function firstText(...values: Array<string | null | undefined>): string | null {
+  return values.find((value) => typeof value === 'string' && value.trim() !== '') ?? null;
+}
 
 interface StoredTiming {
   [sectionId: string]: number; // boshlangan vaqt (ms)
@@ -243,6 +251,18 @@ function ExamRunner({ attempt }: { attempt: AttemptForTaking }) {
             onUploaded={(url) => answerAudio(current.question.id, url)}
           />
         )}
+
+        {/* Grammatika/leksika bo'limlari (placement va ona tili mocklari) */}
+        {!MEDIA_SKILLS.includes(section.skill) && current && (
+          <PlainQuestionView
+            part={current.part}
+            question={current.question}
+            value={answers[current.question.id]}
+            onAnswer={(value) => answer(current.question.id, value)}
+            flagged={flags.has(current.question.id)}
+            onToggleFlag={() => toggleFlag(flags, setFlags, current.question.id)}
+          />
+        )}
       </div>
 
       {/* Footer */}
@@ -372,6 +392,48 @@ function ListeningView({
 
       <QuestionBody question={question} value={value} onAnswer={onAnswer} />
     </>
+  );
+}
+
+/** Grammatika / leksika savoli — audio va matnsiz, faqat savol va variantlar */
+function PlainQuestionView({
+  part,
+  question,
+  value,
+  onAnswer,
+  flagged,
+  onToggleFlag,
+}: {
+  part: ExamPart;
+  question: QuestionPublic;
+  value: unknown;
+  onAnswer: (value: Record<string, unknown>) => void;
+  flagged: boolean;
+  onToggleFlag: () => void;
+}) {
+  return (
+    <div className="mx-auto w-full max-w-[680px]">
+      {part.titleUz && (
+        <p className="text-2xs font-semibold tracking-label text-ink-4">
+          {part.titleUz.toUpperCase()}
+        </p>
+      )}
+      {part.instructionsUz && (
+        <p className="mt-2 text-base leading-relaxed text-ink-3">{part.instructionsUz}</p>
+      )}
+
+      <div className="mt-4 flex items-center justify-between">
+        <p className="font-mono text-sm text-accent">SAVOL {question.number}</p>
+        <button
+          onClick={onToggleFlag}
+          className={clsx('text-sm', flagged ? 'text-warn' : 'text-ink-4')}
+        >
+          {flagged ? 'Belgi olindi' : 'Belgilash'}
+        </button>
+      </div>
+
+      <QuestionBody question={question} value={value} onAnswer={onAnswer} />
+    </div>
   );
 }
 
@@ -547,13 +609,15 @@ function QuestionBody({
           ]
         : (data.options ?? []).map((option) => ({ label: option, value: option }));
 
+    // Ona tili savollarida matn promptUz'da, inglizchada promptEn yoki data.text'da
+    const text = firstText(data.statement, data.text, question.promptUz, question.promptEn);
+    const lead =
+      data.statement || data.text ? firstText(question.promptUz, question.promptEn) : null;
+
     return (
       <>
-        {(data.text || data.statement || question.promptEn) && (
-          <p className="mt-3 text-xl font-medium leading-snug">
-            {data.statement ?? data.text ?? question.promptEn}
-          </p>
-        )}
+        {lead && <p className="mt-3 text-base leading-relaxed text-ink-3">{lead}</p>}
+        {text && <p className="mt-3 text-xl font-medium leading-snug">{text}</p>}
         <div className="mt-3.5 flex flex-col gap-2">
           {options.map((option, index) => (
             <button
@@ -576,11 +640,11 @@ function QuestionBody({
   }
 
   // GAP_FILL / SHORT_ANSWER
+  const prompt = firstText(question.promptUz, question.promptEn);
   return (
     <>
-      {(data.text || question.promptEn) && (
-        <p className="mt-3 text-lg leading-relaxed">{data.text ?? question.promptEn}</p>
-      )}
+      {prompt && <p className="mt-3 text-base leading-relaxed text-ink-3">{prompt}</p>}
+      {data.text && <p className="mt-2 text-lg leading-relaxed">{data.text}</p>}
       <input
         value={selected ?? ''}
         onChange={(event) => onAnswer({ value: event.target.value })}

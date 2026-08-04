@@ -125,6 +125,7 @@ export class SettingsHandler implements TelegramHandler {
       '<b>⚙️ Sozlamalar</b>',
       '',
       `👤 <b>Hisob:</b> ${esc(user.firstName)}${user.email ? ` (${esc(user.email)})` : ''}`,
+      `📱 <b>Telefon:</b> ${user.phone ? `${esc(user.phone)} ✅` : 'ulanmagan'}`,
       `🎯 <b>Maqsad daraja:</b> ${user.targetLevel ?? '—'}`,
       '',
       `${remindersOn ? '🔔' : '🔕'} <b>Eslatmalar:</b> ${remindersOn ? 'yoqilgan' : 'o‘chirilgan'}`,
@@ -135,6 +136,8 @@ export class SettingsHandler implements TelegramHandler {
     ].join('\n');
 
     const keyboard = new InlineKeyboard()
+      .text(user.phone ? '📱 Raqamni almashtirish' : '📱 Telefon raqamni ulash', 'contact:request')
+      .row()
       .text(remindersOn ? '🔕 Eslatmalarni o‘chirish' : '🔔 Eslatmalarni yoqish', 'set:toggle:reminders')
       .row()
       .text('⏰ Eslatma vaqti', 'set:time')

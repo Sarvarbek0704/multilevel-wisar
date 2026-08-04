@@ -4,6 +4,7 @@ import { ExercisesModule } from '../exercises/exercises.module';
 import { ProgressModule } from '../progress/progress.module';
 import { StudyPlanModule } from '../study-plan/study-plan.module';
 import { VocabularyModule } from '../vocabulary/vocabulary.module';
+import { ContactHandler } from './handlers/contact.handler';
 import { MenuHandler } from './handlers/menu.handler';
 import { PlanHandler } from './handlers/plan.handler';
 import { QuizHandler } from './handlers/quiz.handler';
@@ -29,6 +30,7 @@ import { TelegramUserService } from './telegram-user.service';
     TelegramService,
     TelegramUserService,
     MenuHandler,
+    ContactHandler,
     PlanHandler,
     VocabularyHandler,
     QuizHandler,

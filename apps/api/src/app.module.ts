@@ -5,6 +5,7 @@ import { ScheduleModule } from '@nestjs/schedule';
 import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
 import { validateEnv } from './config/env.validation';
 import { PrismaModule } from './prisma/prisma.module';
+import { MailModule } from './mail/mail.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { CoursesModule } from './courses/courses.module';
@@ -29,6 +30,7 @@ import { RolesGuard } from './common/guards/roles.guard';
       throttlers: [{ ttl: 60_000, limit: 120 }],
     }),
     PrismaModule,
+    MailModule,
     AuthModule,
     UsersModule,
     CoursesModule,

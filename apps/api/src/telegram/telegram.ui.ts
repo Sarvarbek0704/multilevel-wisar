@@ -1,5 +1,17 @@
-import { InlineKeyboard } from 'grammy';
+import { InlineKeyboard, Keyboard } from 'grammy';
 import { EvaluationResult } from '../ai/providers/ai-provider.interface';
+
+/** Reply keyboard asking Telegram to share the user's verified phone number. */
+export function contactRequestKeyboard(): Keyboard {
+  return new Keyboard().requestContact('📱 Telefon raqamni yuborish').resized().oneTime();
+}
+
+export const CONTACT_PROMPT =
+  '<b>📱 Telefon raqamni ulash</b>\n\n' +
+  'Raqamingizni ulasangiz, saytga <b>telefon + kod</b> orqali ham kira olasiz — ' +
+  'kod shu chatga keladi.\n\n' +
+  'Pastdagi <b>«📱 Telefon raqamni yuborish»</b> tugmasini bosing. ' +
+  'Telegram raqamni o‘zi tasdiqlaydi — qo‘lda yozish shart emas.';
 
 /** Telegram HTML parse mode escaping. */
 export function esc(text: unknown): string {

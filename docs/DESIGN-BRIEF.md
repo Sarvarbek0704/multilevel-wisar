@@ -45,12 +45,47 @@ Maqsad: ro'yxatdan o'tkazish. Bloklar:
 5. Mock natija namunasi (screenshot-karta: ball + AI feedback ko'rinishi)
 6. FAQ + Footer (Wisar.uz havolasi)
 
-### 3.2 Auth sahifalari — `/login`, `/register`
-- 3 usul: Telegram (asosiy, katta tugma), Google, Email+parol
-- Register: ism, email, parol (min 8). Login: email+parol
-- Telegram Login Widget rasmiy ko'rinishda
-- Xato holatlari: noto'g'ri parol, band email
-- Parolni tiklash: keyingi bosqichda (dizaynda "unutdingizmi?" havola qoldirilsin)
+### 3.2 Auth sahifalari — `/login`, `/register`, `/forgot`, `/reset`
+
+Backend **5 xil kirish usulini** qo'llab-quvvatlaydi. Login sahifasida ular tanlanadigan bo'lsin
+(tab yoki tugmalar): dizayner ierarxiyani belgilaydi, lekin **Telegram va telefon usuli birinchi
+o'rinda** turishi kerak (auditoriya asosan Telegramda).
+
+**A) Google** — bitta tugma (rasmiy Google branding). API: `POST /api/auth/google` {idToken}
+
+**B) Telegram Login Widget** — rasmiy vidjet. API: `POST /api/auth/telegram`
+
+**C) Email + tasdiqlash kodi (parolsiz)** — 2 qadamli:
+   1. Email kiritish → `POST /api/auth/otp/email/request` → javob: `{sent, target: "a***z@gmail.com", expiresInSeconds: 300}`
+   2. **Kod kiritish ekrani**: 6 xonali kod (6 ta alohida katak yoki bitta input), taymer
+      (5:00 dan teskari sanoq), «Qayta yuborish» tugmasi (60 soniya bloklangan holda ko'rsatiladi),
+      «Emailni o'zgartirish» havolasi.
+      API: `POST /api/auth/otp/email/verify` {email, code, firstName?}
+      Xato holatlari: «Kod noto'g'ri. Qolgan urinishlar: 4», «Kod muddati tugagan», «60 soniya kuting»
+   - Hisob yo'q bo'lsa avtomatik yaratiladi → shu holatda **ism so'raladigan qadam** qo'shilsin.
+
+**D) Telefon raqam + kod (kod Telegram botga keladi)** — 2 qadamli:
+   1. Raqam kiritish (`+998 __ ___ __ __` maskasi) → `POST /api/auth/otp/phone/request`
+   2. Ikki xil javob bo'lishi mumkin — **ikkalasi ham chizilishi kerak**:
+      - `{sent: true, target: "+998901***67"}` → kod kiritish ekrani (C dagidek)
+      - `{needsBotContact: true, botUrl}` → **maxsus ekran**: «Bu raqam botga ulanmagan» +
+        3 qadamli qisqa yo'riqnoma (botni oching → «📱 Telefon raqamni yuborish» tugmasini bosing →
+        shu yerga qayting) + katta «Telegram botni ochish» tugmasi (botUrl) + «Qayta urinish» tugmasi
+   3. `POST /api/auth/otp/phone/verify` {phone, code, firstName?}
+
+**E) Email + parol** — klassik. `POST /api/auth/login`, ro'yxat: `POST /api/auth/register`
+
+**Parolni tiklash** — `/forgot` va `/reset`:
+   1. `/forgot`: email kiritish → `POST /api/auth/password/forgot` → **doim bir xil javob**
+      («Agar bu email ro'yxatdan o'tgan bo'lsa, kod yuborildi») — dizaynda ham xuddi shunday
+      neytral xabar bo'lsin
+   2. `/reset`: kod + yangi parol (+ takror) → `POST /api/auth/password/reset` → avtomatik kirish.
+      Ogohlantirish ko'rsatilsin: «Barcha qurilmalardagi sessiyalar yakunlanadi»
+   - Parol kuchi indikatori (min 8 belgi)
+
+**Umumiy komponent — OTP kod kiritish** (C, D va reset uchun bir xil ishlatiladi):
+6 katakli kod input (avtomatik keyingi katakka o'tish, paste qo'llab-quvvatlash), teskari taymer,
+«Qayta yuborish» (60s cooldown), xato matni, yuklanish holati.
 
 ### 3.3 Onboarding (birinchi kirishdan keyin) — `/onboarding`
 3-4 qadamli wizard:
@@ -173,7 +208,17 @@ API: `POST /api/ai/writing/practice`, `POST /api/ai/speaking/practice`, `GET /ap
 ### 3.16 Profil va sozlamalar — `/profile`
 API: `GET /api/auth/me`, `PATCH /api/users/me`, `POST /api/telegram/link`
 - Profil: avatar, ism, email, joriy daraja / maqsad daraja, imtihon sanasi, kunlik maqsad
-- **Telegram ulash kartasi**: ulangan (username ko'rsatiladi) / ulanmagan ("Botni ulash" → deep link ochiladi)
+- **Bog'langan hisoblar kartasi** (muhim blok — har biri ulangan/ulanmagan holatda chizilsin):
+  | Element | Ulangan holat | Ulanmagan holat |
+  |---|---|---|
+  | Email | `a***z@gmail.com` ✅ tasdiqlangan | «Email biriktirish» → kod so'rash → 6 katakli kod modali |
+  | Telefon | `+998 90 ***67` ✅ | «Telefon biriktirish» → agar bot bilmasa, botga yo'naltirish ekrani (3.2-D dagidek) |
+  | Google | ulangan ✅ | «Google ulash» |
+  | Telegram | @username ✅ | «Botni ulash» → deep link |
+  | Parol | «Parolni almashtirish» | «Parol o'rnatish» (Google/Telegram orqali kirganlarda parol yo'q) |
+  API: `POST /api/auth/attach/email/request|verify`, `POST /api/auth/attach/phone/request|verify`,
+  `POST /api/auth/password/change`
+- Xato holatlari: «Bu email boshqa hisobga biriktirilgan», «Bu raqam bot orqali boshqa hisobga bog'langan»
 - Sozlamalar: interfeys tili (UZ/EN), tema (light/dark/auto)
 - Statistika: umumiy XP, jami daqiqalar, tugallangan darslar, heatmap (katta)
 - Chiqish tugmasi
@@ -205,7 +250,10 @@ Oddiy, funksional dizayn (foydalanuvchi-sahifalardek jilolangan bo'lishi shart e
 
 Desktop + Mobil har biri uchun:
 1. Landing
-2. Login / Register (+ xato holatlari)
+2. Login (5 usul tanlash) / Register (+ xato holatlari)
+2a. OTP kod kiritish ekrani (6 katak + taymer + qayta yuborish) — email va telefon uchun
+2b. «Raqam botga ulanmagan» yo'riqnoma ekrani (botga yo'naltirish)
+2c. Parolni unutdim → kod → yangi parol (3 ekran)
 3. Onboarding 4 qadam
 4. Dashboard (to'liq holat + yangi foydalanuvchi bo'sh holati)
 5. Kurslar ro'yxati
@@ -220,7 +268,7 @@ Desktop + Mobil har biri uchun:
 14. Lug'at: statistika + flashcard sessiyasi (old/orqa + 4 baho) + mavzular + so'zlar
 15. O'quv reja: bo'sh + wizard + faol reja (kun/hafta/oy)
 16. AI amaliyot: Writing + Speaking + tarix
-17. Profil + sozlamalar + Telegram ulash
+17. Profil + sozlamalar + bog'langan hisoblar (email/telefon/Google/Telegram/parol)
 18. Admin: dashboard + kontent + import + foydalanuvchilar
 19. 404 / umumiy xato sahifasi
 20. Email tasdiqlash/parol tiklash (kelajak uchun placeholder)

@@ -21,7 +21,18 @@ const envSchema = z.object({
   ANTHROPIC_MODEL: z.string().default('claude-sonnet-5'),
 
   TELEGRAM_BOT_TOKEN: z.string().optional().default(''),
+  /** Used to build t.me deep links (e.g. the "share your contact" flow) */
+  TELEGRAM_BOT_USERNAME: z.string().optional().default(''),
   TELEGRAM_WEBHOOK_SECRET: z.string().default('change-me-webhook-secret'),
+
+  // OTP delivery by email — without SMTP_HOST codes are logged (dev only)
+  SMTP_HOST: z.string().optional().default(''),
+  SMTP_PORT: z.coerce.number().default(587),
+  SMTP_USER: z.string().optional().default(''),
+  SMTP_PASS: z.string().optional().default(''),
+  SMTP_FROM: z.string().optional().default(''),
+  /** Separate secret for hashing OTP codes; falls back to JWT_ACCESS_SECRET */
+  OTP_SECRET: z.string().optional().default(''),
 
   UPLOAD_DIR: z.string().default('uploads'),
   MAX_UPLOAD_MB: z.coerce.number().default(25),

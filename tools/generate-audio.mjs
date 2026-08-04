@@ -26,16 +26,47 @@ const VOICE_MALE = 'en-US-GuyNeural';
 const VOICE_FEMALE = 'en-US-AriaNeural';
 const VOICE_NARRATOR = 'en-GB-RyanNeural';
 
-async function synthesize(text, voice, outPath) {
+const SEGMENT_TIMEOUT_MS = 90_000;
+const MAX_TRIES = 3;
+
+/** Bitta matn bo'lagini ovozga aylantirish (timeout va qayta urinish bilan). */
+async function synthesizeOnce(text, voice, outPath) {
   const tts = new MsEdgeTTS();
-  await tts.setMetadata(voice, OUTPUT_FORMAT.AUDIO_24KHZ_96KBITRATE_MONO_MP3);
-  const { audioStream } = await tts.toStream(text);
-  await new Promise((resolveDone, reject) => {
-    const out = createWriteStream(outPath);
-    audioStream.pipe(out);
-    out.on('finish', resolveDone);
-    out.on('error', reject);
-  });
+  let timer;
+  try {
+    await tts.setMetadata(voice, OUTPUT_FORMAT.AUDIO_24KHZ_96KBITRATE_MONO_MP3);
+    const { audioStream } = await tts.toStream(text);
+    await new Promise((resolveDone, reject) => {
+      const out = createWriteStream(outPath);
+      timer = setTimeout(() => {
+        out.destroy();
+        reject(new Error(`TTS timeout (${SEGMENT_TIMEOUT_MS / 1000}s)`));
+      }, SEGMENT_TIMEOUT_MS);
+      audioStream.on('error', reject);
+      out.on('error', reject);
+      out.on('finish', resolveDone);
+      audioStream.pipe(out);
+    });
+  } finally {
+    clearTimeout(timer);
+    // Ulanishni yopamiz — aks holda soketlar to'planib qoladi
+    try { tts.close?.(); } catch { /* ignore */ }
+  }
+}
+
+async function synthesize(text, voice, outPath) {
+  let lastError;
+  for (let attempt = 1; attempt <= MAX_TRIES; attempt++) {
+    try {
+      await synthesizeOnce(text, voice, outPath);
+      return;
+    } catch (error) {
+      lastError = error;
+      console.log(`   ⚠ urinish ${attempt}/${MAX_TRIES}: ${error.message}`);
+      await new Promise((r) => setTimeout(r, 2000 * attempt));
+    }
+  }
+  throw lastError;
 }
 
 /** Dialog transkriptni [{voice, text}] segmentlarga bo'lish. */
@@ -54,6 +85,7 @@ function segmentTranscript(transcript) {
   // Ketma-ket bir xil ovozdagi segmentlarni birlashtirish
   const merged = [];
   for (const seg of segments) {
+    if (!seg.text.trim()) continue;
     const last = merged[merged.length - 1];
     if (last && last.voice === seg.voice) last.text += ' ' + seg.text;
     else merged.push({ ...seg });
@@ -104,11 +136,13 @@ async function main() {
         part.audioUrl = `/uploads/audio/listening/${baseName}.mp3`;
         changed = true;
         generated++;
+
+        // Saqlash har qismdan keyin: uzilib qolsa ham progress yo'qolmaydi
+        writeFileSync(filePath, JSON.stringify(mock, null, 2) + '\n', 'utf8');
       }
     }
 
-    if (changed && !DRY) {
-      writeFileSync(filePath, JSON.stringify(mock, null, 2) + '\n', 'utf8');
+    if (changed) {
       console.log(`✓ ${fileName} yangilandi (audioUrl qo'shildi)`);
     }
   }

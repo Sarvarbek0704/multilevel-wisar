@@ -13,6 +13,7 @@ import { Bot, InlineKeyboard, session } from 'grammy';
 import { PrismaService } from '../prisma/prisma.service';
 import { ProgressService, tashkentToday } from '../progress/progress.service';
 import { VocabularyService } from '../vocabulary/vocabulary.service';
+import { ContactHandler } from './handlers/contact.handler';
 import { MenuHandler } from './handlers/menu.handler';
 import { PlanHandler } from './handlers/plan.handler';
 import { QuizHandler } from './handlers/quiz.handler';
@@ -30,6 +31,7 @@ const BOT_COMMANDS = [
   { command: 'words', description: '📚 So‘zlarni takrorlash' },
   { command: 'quiz', description: '🎯 Tezkor test' },
   { command: 'writing', description: '✍️ Writing mashqi (AI baholaydi)' },
+  { command: 'phone', description: '📱 Telefon raqamni ulash' },
   { command: 'stats', description: '📊 Statistikam va streak' },
   { command: 'settings', description: '⚙️ Sozlamalar' },
   { command: 'help', description: 'ℹ️ Yordam' },
@@ -47,6 +49,7 @@ export class TelegramService implements OnModuleInit, OnModuleDestroy {
     private readonly progressService: ProgressService,
     private readonly vocabularyService: VocabularyService,
     private readonly menuHandler: MenuHandler,
+    private readonly contactHandler: ContactHandler,
     private readonly planHandler: PlanHandler,
     private readonly vocabularyHandler: VocabularyHandler,
     private readonly quizHandler: QuizHandler,
@@ -80,6 +83,7 @@ export class TelegramService implements OnModuleInit, OnModuleDestroy {
     // Feature handlers — order matters: commands and callbacks first,
     // free-text (writing flow) next, unknown-input fallback last.
     this.menuHandler.register(bot);
+    this.contactHandler.register(bot);
     this.planHandler.register(bot);
     this.vocabularyHandler.register(bot);
     this.quizHandler.register(bot);
@@ -156,18 +160,24 @@ export class TelegramService implements OnModuleInit, OnModuleDestroy {
     return { linkUrl: `https://t.me/${this.botUsername}?start=${token}` };
   }
 
-  /** Send a message to a linked user; silently no-ops when impossible. */
-  async notifyUser(userId: string, text: string, keyboard?: InlineKeyboard) {
-    if (!this.bot) return;
+  /**
+   * Send a message to a linked user.
+   * @returns true when Telegram accepted the message (false if the bot is off,
+   * the user isn't linked, or the chat is unreachable — e.g. the bot is blocked).
+   */
+  async notifyUser(userId: string, text: string, keyboard?: InlineKeyboard): Promise<boolean> {
+    if (!this.bot) return false;
     const profile = await this.prisma.telegramProfile.findUnique({ where: { userId } });
-    if (!profile) return;
+    if (!profile) return false;
     try {
       await this.bot.api.sendMessage(profile.chatId.toString(), text, {
         parse_mode: 'HTML',
         reply_markup: keyboard,
       });
+      return true;
     } catch (error) {
       this.logger.warn(`notifyUser(${userId}) failed: ${(error as Error).message}`);
+      return false;
     }
   }
 

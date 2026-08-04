@@ -95,11 +95,24 @@ enum PlanTaskStatus {
   SKIPPED
 }
 
+enum OtpChannel {
+  EMAIL
+  TELEGRAM
+}
+
+enum OtpPurpose {
+  LOGIN
+  ATTACH_EMAIL
+  ATTACH_PHONE
+  PASSWORD_RESET
+}
+
 // ---------- Users & auth ----------
 
 model User {
   id           String    @id @default(cuid())
   email        String?   @unique
+  phone        String?   @unique
   passwordHash String?
   googleId     String?   @unique
   telegramId   BigInt?   @unique
@@ -108,6 +121,10 @@ model User {
   avatarUrl    String?
   role         Role      @default(USER)
   uiLanguage   String    @default("uz")
+
+  // Contact verification (OTP flows)
+  emailVerifiedAt DateTime?
+  phoneVerifiedAt DateTime?
 
   // Learning profile
   targetLevel      CefrLevel?
@@ -128,6 +145,28 @@ model User {
   dailyActivity    DailyActivity[]
   telegramProfile  TelegramProfile?
   linkTokens       TelegramLinkToken[]
+  otpCodes         OtpCode[]
+}
+
+/// One-time codes for passwordless login, contact verification and password reset.
+model OtpCode {
+  id         String     @id @default(cuid())
+  channel    OtpChannel
+  purpose    OtpPurpose
+  /// Normalized email (lowercase) or phone in E.164
+  identifier String
+  codeHash   String
+  /// Set for flows tied to a known account (attach/reset)
+  userId     String?
+  user       User?      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attempts   Int        @default(0)
+  expiresAt  DateTime
+  consumedAt DateTime?
+  createdAt  DateTime   @default(now())
+
+  @@index([identifier, purpose, consumedAt])
+  @@index([expiresAt])
+  @@index([userId])
 }
 
 model RefreshToken {
@@ -535,6 +574,8 @@ model TelegramProfile {
   telegramId        BigInt   @unique
   chatId            BigInt
   username          String?
+  /// Captured when the user shares their contact with the bot — routes phone OTPs
+  phone             String?  @unique
   remindersEnabled  Boolean  @default(true)
   reminderTime      String   @default("19:00")
   dailyWordsEnabled Boolean  @default(true)

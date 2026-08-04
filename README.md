@@ -51,8 +51,34 @@ pnpm start:dev
 | `AI_PROVIDER` | `gemini` (bepul) / `anthropic` (Claude, pullik) / `mock` (dev) |
 | `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/apikey) dan bepul olinadi |
 | `TELEGRAM_BOT_TOKEN` | @BotFather dan |
+| `TELEGRAM_BOT_USERNAME` | Bot username (@ siz) — telefon OTP havolalari uchun |
+| `SMTP_*` | Email OTP va parol tiklash uchun (Gmail App Password mos keladi). Bo'sh bo'lsa kodlar konsolga yoziladi |
 | `GOOGLE_CLIENT_ID` | Google OAuth (ixtiyoriy) |
 | `ADMIN_EMAIL/PASSWORD` | Seed'da admin yaratish uchun |
+
+## Autentifikatsiya
+
+5 xil kirish usuli, hammasi bitta hisobga olib keladi:
+
+| Usul | Endpoint | Izoh |
+|---|---|---|
+| Google | `POST /api/auth/google` | ID token frontendda olinadi |
+| Telegram Login Widget | `POST /api/auth/telegram` | HMAC imzo tekshiriladi |
+| Email + kod (parolsiz) | `POST /api/auth/otp/email/request` → `.../verify` | Hisob yo'q bo'lsa avtomatik yaratiladi |
+| Telefon + kod | `POST /api/auth/otp/phone/request` → `.../verify` | Kod **Telegram botga** yuboriladi |
+| Email + parol | `POST /api/auth/login` / `register` | Klassik |
+
+Qo'shimcha: `password/forgot` → `password/reset` (kod bilan, barcha sessiyalar bekor qilinadi),
+`password/change`, hamda kirgan holatda `attach/email/*` va `attach/phone/*` — hisobga email yoki
+telefon biriktirish.
+
+**Telefon OTP qanday ishlaydi:** foydalanuvchi botda «📱 Telefon raqamni yuborish» tugmasini bosadi
+(Telegram raqamni o'zi tasdiqlaydi) → raqam hisobga bog'lanadi → saytda raqamni kiritganda kod
+o'sha Telegram chatga keladi. Raqam hali ulanmagan bo'lsa API `{needsBotContact: true, botUrl}`
+qaytaradi va frontend foydalanuvchini botga yo'naltiradi.
+
+OTP xavfsizligi: 6 xonali kod, HMAC-SHA256 bilan xeshlanadi, 5 daqiqa amal qiladi, 5 ta noto'g'ri
+urinishdan keyin kuyadi, qayta yuborish 60 soniya kutadi, soatiga 5 tadan ko'p emas.
 
 ## Kontent qo'shish
 

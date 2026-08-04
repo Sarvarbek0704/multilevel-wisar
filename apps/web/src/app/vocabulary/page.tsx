@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { AppFrame } from '@/components/app-frame';
 import { Button, LevelBadge, SectionLabel, Skeleton } from '@/components/ui';
 import { api } from '@/lib/api';
-import type { VocabStats, VocabTopic } from '@/lib/types';
+import type { CefrLevel, VocabStats, VocabTopic } from '@/lib/types';
 
 export default function VocabularyPage() {
   return (
@@ -16,10 +16,13 @@ export default function VocabularyPage() {
   );
 }
 
+const LEVELS: Array<CefrLevel | 'ALL'> = ['ALL', 'A2', 'B1', 'B2', 'C1'];
+
 function VocabularyContent() {
   const router = useRouter();
   const queryClient = useQueryClient();
   const [added, setAdded] = useState<string | null>(null);
+  const [level, setLevel] = useState<CefrLevel | 'ALL'>('ALL');
 
   const stats = useQuery({
     queryKey: ['vocab', 'stats'],
@@ -27,8 +30,24 @@ function VocabularyContent() {
   });
 
   const topics = useQuery({
-    queryKey: ['vocab', 'topics'],
-    queryFn: () => api<VocabTopic[]>('/vocabulary/topics?subject=ENGLISH'),
+    queryKey: ['vocab', 'topics', level],
+    queryFn: () =>
+      api<VocabTopic[]>(
+        `/vocabulary/topics?subject=ENGLISH${level === 'ALL' ? '' : `&level=${level}`}`,
+      ),
+  });
+
+  const addLevel = useMutation({
+    mutationFn: (target: CefrLevel) =>
+      api<{ added: number }>('/vocabulary/learn', {
+        method: 'POST',
+        body: { subject: 'ENGLISH', level: target, count: 100 },
+      }),
+    onSuccess: (result) => {
+      setAdded(`+${result.added}`);
+      queryClient.invalidateQueries({ queryKey: ['vocab'] });
+      queryClient.invalidateQueries({ queryKey: ['dashboard'] });
+    },
   });
 
   const addTopic = useMutation({
@@ -96,9 +115,38 @@ function VocabularyContent() {
       ) : null}
 
       <section className="mt-8">
-        <SectionLabel>MAVZULAR</SectionLabel>
+        <div className="flex items-baseline justify-between">
+          <SectionLabel>MAVZULAR</SectionLabel>
+          {level !== 'ALL' && (
+            <button
+              onClick={() => addLevel.mutate(level)}
+              disabled={addLevel.isPending}
+              className="text-sm font-semibold text-accent disabled:text-ink-5"
+            >
+              {addLevel.isPending ? 'Qo‘shilmoqda…' : `${level} to‘plamini qo‘shish`}
+            </button>
+          )}
+        </div>
+
+        {/* Daraja filtri — 1000+ so'z bo'lgani uchun mavzular darajaga bo'linadi */}
+        <div className="hide-scrollbar mt-3 flex gap-2 overflow-x-auto">
+          {LEVELS.map((item) => (
+            <button
+              key={item}
+              onClick={() => setLevel(item)}
+              className={`shrink-0 border px-3.5 py-1.5 text-sm font-medium ${
+                level === item ? 'border-ink bg-ink text-bg' : 'border-line-4 text-ink-3'
+              }`}
+            >
+              {item === 'ALL' ? 'Hammasi' : item}
+            </button>
+          ))}
+        </div>
+
         {topics.isLoading ? (
           <Skeleton className="mt-3 h-40 w-full" />
+        ) : (topics.data ?? []).filter((topic) => topic.topic).length === 0 ? (
+          <p className="mt-3 text-ui text-ink-4">Bu darajada mavzular hali yo‘q.</p>
         ) : (
           <div className="mt-3 border border-line">
             {(topics.data ?? [])

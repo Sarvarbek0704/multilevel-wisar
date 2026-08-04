@@ -9,7 +9,9 @@
     "api:seed": "pnpm --filter @multilevel/api seed",
     "db:up": "docker compose up -d postgres",
     "db:migrate": "pnpm --filter @multilevel/api prisma:migrate",
-    "db:studio": "pnpm --filter @multilevel/api prisma:studio"
+    "db:studio": "pnpm --filter @multilevel/api prisma:studio",
+    "check:content": "node tools/check-content.mjs",
+    "audio": "node tools/generate-audio.mjs"
   },
   "engines": {
     "node": ">=20"

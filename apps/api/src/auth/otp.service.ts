@@ -2,6 +2,7 @@ import {
   BadRequestException,
   Injectable,
   Logger,
+  ServiceUnavailableException,
   UnauthorizedException,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
@@ -101,7 +102,7 @@ export class OtpService {
     });
 
     const code = String(randomInt(0, 1_000_000)).padStart(6, '0');
-    await this.prisma.otpCode.create({
+    const created = await this.prisma.otpCode.create({
       data: {
         channel,
         purpose,
@@ -114,13 +115,21 @@ export class OtpService {
 
     const delivered = await this.deliver(channel, identifier, code, purpose);
 
-    return {
-      sent: true,
-      channel,
-      expiresInSeconds: CODE_TTL_MS / 1000,
-      // Without a configured channel the code would be unreachable — expose it in dev only
-      ...(delivered ? {} : { devCode: this.isProduction ? undefined : code }),
-    };
+    if (!delivered) {
+      if (this.isProduction) {
+        // Nobody can read this code — drop it so the user may retry at once
+        await this.prisma.otpCode.delete({ where: { id: created.id } });
+        throw new ServiceUnavailableException(
+          channel === OtpChannel.EMAIL
+            ? 'Kodni emailga yuborib bo‘lmadi. Biroz keyinroq urinib ko‘ring.'
+            : 'Kodni Telegramga yuborib bo‘lmadi. Botni bloklamaganingizni tekshiring.',
+        );
+      }
+      // Dev: no real channel configured — hand the code back so flows stay testable
+      return { sent: true, channel, expiresInSeconds: CODE_TTL_MS / 1000, devCode: code };
+    }
+
+    return { sent: true, channel, expiresInSeconds: CODE_TTL_MS / 1000 };
   }
 
   private get isProduction(): boolean {
@@ -135,7 +144,12 @@ export class OtpService {
     purpose: OtpPurpose,
   ): Promise<boolean> {
     if (channel === OtpChannel.EMAIL) {
-      await this.mailService.sendOtp(identifier, code, PURPOSE_UZ[purpose]);
+      try {
+        await this.mailService.sendOtp(identifier, code, PURPOSE_UZ[purpose]);
+      } catch (error) {
+        this.logger.error(`Email yuborilmadi (${identifier}): ${(error as Error).message}`);
+        return false;
+      }
       return this.mailService.isConfigured;
     }
 

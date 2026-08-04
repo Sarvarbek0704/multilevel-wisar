@@ -90,7 +90,50 @@ function segmentTranscript(transcript) {
     if (last && last.voice === seg.voice) last.text += ' ' + seg.text;
     else merged.push({ ...seg });
   }
-  return merged;
+
+  // Edge TTS uzun matnda ulanishni uzadi — gaplar chegarasida bo'laklarga ajratamiz
+  return merged.flatMap((seg) =>
+    splitIntoChunks(seg.text, MAX_CHUNK_CHARS).map((text) => ({ voice: seg.voice, text })),
+  );
+}
+
+const MAX_CHUNK_CHARS = 800;
+
+/** Matnni gap (yoki so'z) chegarasida ~maxLen belgili bo'laklarga bo'lish. */
+function splitIntoChunks(text, maxLen) {
+  const trimmed = text.trim();
+  if (trimmed.length <= maxLen) return [trimmed];
+
+  const sentences = trimmed.match(/[^.!?]+[.!?]*\s*/g) ?? [trimmed];
+  const chunks = [];
+  let current = '';
+
+  for (const sentence of sentences) {
+    // Bitta gap ham juda uzun bo'lsa — so'zlar bo'yicha kesamiz
+    if (sentence.length > maxLen) {
+      if (current.trim()) { chunks.push(current.trim()); current = ''; }
+      let words = '';
+      for (const word of sentence.split(/\s+/)) {
+        if ((words + ' ' + word).trim().length > maxLen) {
+          if (words.trim()) chunks.push(words.trim());
+          words = word;
+        } else {
+          words = `${words} ${word}`;
+        }
+      }
+      if (words.trim()) current = `${words.trim()} `;
+      continue;
+    }
+
+    if ((current + sentence).length > maxLen) {
+      chunks.push(current.trim());
+      current = sentence;
+    } else {
+      current += sentence;
+    }
+  }
+  if (current.trim()) chunks.push(current.trim());
+  return chunks.filter(Boolean);
 }
 
 async function main() {

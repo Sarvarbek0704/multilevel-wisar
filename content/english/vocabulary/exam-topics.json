@@ -180,17 +180,6 @@
     {
       "level": "B2",
       "topic": "Atrof-muhit",
-      "word": "incentive",
-      "phonetic": "/ɪnˈsentɪv/",
-      "partOfSpeech": "noun",
-      "translation": "rag'bat, moddiy turtki",
-      "definitionEn": "something that encourages people to behave in a certain way",
-      "exampleEn": "Tax incentives could persuade factories to install filters.",
-      "exampleUz": "Soliq rag'batlari zavodlarni filtr o'rnatishga ko'ndirishi mumkin."
-    },
-    {
-      "level": "B2",
-      "topic": "Atrof-muhit",
       "word": "ban",
       "phonetic": "/bæn/",
       "partOfSpeech": "verb",
@@ -200,48 +189,48 @@
       "exampleUz": "Shahar eski dizel avtobuslarining markazga kirishini taqiqladi."
     },
     {
-      "level": "C1",
+      "level": "B2",
       "topic": "Atrof-muhit",
-      "word": "mitigate",
-      "phonetic": "/ˈmɪtɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "translation": "yumshatmoq, ta'sirini kamaytirmoq",
-      "definitionEn": "to make something bad less serious or harmful",
-      "exampleEn": "Planting trees can mitigate the effects of increasingly hot summers.",
-      "exampleUz": "Daraxt ekish tobora issiq bo'layotgan yozlarning ta'sirini yumshatishi mumkin."
-    },
-    {
-      "level": "C1",
-      "topic": "Atrof-muhit",
-      "word": "offset",
-      "phonetic": "/ˈɒfset/",
-      "partOfSpeech": "verb",
-      "translation": "qoplamoq, muvozanatlamoq",
-      "definitionEn": "to balance a harmful effect with an equal positive one",
-      "exampleEn": "Airlines now let passengers offset their carbon emissions.",
-      "exampleUz": "Aviakompaniyalar endi yo'lovchilarga uglerod chiqindilarini qoplash imkonini beradi."
-    },
-    {
-      "level": "C1",
-      "topic": "Atrof-muhit",
-      "word": "depletion",
-      "phonetic": "/dɪˈpliːʃn/",
+      "word": "smog",
+      "phonetic": "/smɒɡ/",
       "partOfSpeech": "noun",
-      "translation": "kamayib ketishi, tugab borishi",
-      "definitionEn": "the reduction of a resource until very little is left",
-      "exampleEn": "The depletion of groundwater threatens local farming.",
-      "exampleUz": "Yer osti suvlarining kamayib ketishi mahalliy dehqonchilikka tahdid soladi."
+      "translation": "smog, tutun-tuman",
+      "definitionEn": "dirty air caused by smoke and fog hanging over a city",
+      "exampleEn": "Winter smog in the capital often exceeds safe limits.",
+      "exampleUz": "Poytaxtdagi qishki smog ko'pincha xavfsiz me'yordan oshadi."
     },
     {
-      "level": "C1",
+      "level": "B2",
       "topic": "Atrof-muhit",
-      "word": "scarcity",
-      "phonetic": "/ˈskeəsəti/",
+      "word": "sewage",
+      "phonetic": "/ˈsuːɪdʒ/",
       "partOfSpeech": "noun",
-      "translation": "taqchillik",
-      "definitionEn": "a situation in which something needed is difficult to obtain",
-      "exampleEn": "Water scarcity is the main environmental issue in Central Asia.",
-      "exampleUz": "Suv taqchilligi Markaziy Osiyodagi asosiy ekologik muammo."
+      "translation": "oqova suv, kanalizatsiya chiqindisi",
+      "definitionEn": "waste water and human waste carried away in pipes",
+      "exampleEn": "Untreated sewage flows straight into the canal.",
+      "exampleUz": "Tozalanmagan oqova suv to'g'ri kanalga oqadi."
+    },
+    {
+      "level": "B2",
+      "topic": "Atrof-muhit",
+      "word": "litter",
+      "phonetic": "/ˈlɪtə/",
+      "partOfSpeech": "noun",
+      "translation": "axlat (ko'chadagi)",
+      "definitionEn": "rubbish left lying in a public place",
+      "exampleEn": "Volunteers collected two tonnes of litter from the riverbank.",
+      "exampleUz": "Ko'ngillilar daryo bo'yidan ikki tonna axlat yig'di."
+    },
+    {
+      "level": "B2",
+      "topic": "Atrof-muhit",
+      "word": "extinction",
+      "phonetic": "/ɪkˈstɪŋkʃn/",
+      "partOfSpeech": "noun",
+      "translation": "yo'q bo'lib ketish",
+      "definitionEn": "the situation in which a type of animal or plant no longer exists",
+      "exampleEn": "Several fish species have been driven to extinction.",
+      "exampleUz": "Bir necha baliq turi yo'q bo'lib ketishga mahkum etildi."
     },
     {
       "level": "C1",
@@ -297,17 +286,6 @@
       "definitionEn": "limited in amount and certain to run out one day",
       "exampleEn": "Oil and gas are finite resources that will not last for ever.",
       "exampleUz": "Neft va gaz — abadiy yetmaydigan chekli resurslar."
-    },
-    {
-      "level": "C1",
-      "topic": "Atrof-muhit",
-      "word": "detrimental",
-      "phonetic": "/ˌdetrɪˈmentl/",
-      "partOfSpeech": "adjective",
-      "translation": "zararli",
-      "definitionEn": "causing harm or damage to something",
-      "exampleEn": "Burning coal is detrimental to public health as well as the climate.",
-      "exampleUz": "Ko'mir yoqish iqlim kabi aholi salomatligiga ham zararli."
     },
     {
       "level": "C1",
@@ -376,6 +354,94 @@
       "exampleUz": "Tog' tumanlarida katta o'rmonlarni qayta tiklash dasturi boshlandi."
     },
     {
+      "level": "C1",
+      "topic": "Atrof-muhit",
+      "word": "salinity",
+      "phonetic": "/səˈlɪnəti/",
+      "partOfSpeech": "noun",
+      "translation": "sho'rlanish darajasi",
+      "definitionEn": "the amount of salt contained in water or soil",
+      "exampleEn": "Rising salinity has made much of the land useless for crops.",
+      "exampleUz": "Sho'rlanishning ortishi yerning katta qismini ekin uchun yaroqsiz qildi."
+    },
+    {
+      "level": "C1",
+      "topic": "Atrof-muhit",
+      "word": "arable land",
+      "phonetic": "/ˌærəbl ˈlænd/",
+      "partOfSpeech": "noun",
+      "translation": "ekin ekiladigan yer",
+      "definitionEn": "land that is suitable for growing crops",
+      "exampleEn": "The country is losing arable land to the desert every year.",
+      "exampleUz": "Mamlakat har yili cho'lga ekin ekiladigan yerni boy bermoqda."
+    },
+    {
+      "level": "C1",
+      "topic": "Atrof-muhit",
+      "word": "overfishing",
+      "phonetic": "/ˌəʊvəˈfɪʃɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "haddan ortiq baliq ovlash",
+      "definitionEn": "catching so many fish that stocks cannot recover",
+      "exampleEn": "Overfishing has emptied the lake within a single decade.",
+      "exampleUz": "Haddan ortiq baliq ovlash bor-yo'g'i o'n yil ichida ko'lni bo'shatdi."
+    },
+    {
+      "level": "C1",
+      "topic": "Atrof-muhit",
+      "word": "poaching",
+      "phonetic": "/ˈpəʊtʃɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "brakonyerlik",
+      "definitionEn": "the illegal hunting of protected animals",
+      "exampleEn": "Poaching remains the biggest threat to the saiga antelope.",
+      "exampleUz": "Brakonyerlik sayg'oq uchun eng katta tahdid bo'lib qolmoqda."
+    },
+    {
+      "level": "C1",
+      "topic": "Atrof-muhit",
+      "word": "carbon-neutral",
+      "phonetic": "/ˌkɑːbən ˈnjuːtrəl/",
+      "partOfSpeech": "adjective",
+      "translation": "uglerod jihatidan neytral",
+      "definitionEn": "not adding to the total amount of carbon dioxide in the air",
+      "exampleEn": "The airport aims to become carbon-neutral by 2035.",
+      "exampleUz": "Aeroport 2035-yilgacha uglerod jihatidan neytral bo'lishni maqsad qilgan."
+    },
+    {
+      "level": "C1",
+      "topic": "Atrof-muhit",
+      "word": "counteract",
+      "phonetic": "/ˌkaʊntərˈækt/",
+      "partOfSpeech": "verb",
+      "translation": "qarshi ta'sir ko'rsatmoq, zararini yo'qotmoq",
+      "definitionEn": "to reduce the bad effect of something by acting against it",
+      "exampleEn": "Planting shelter belts helps counteract soil erosion.",
+      "exampleUz": "Ihota daraxtzorlarini ekish tuproq eroziyasiga qarshi ta'sir ko'rsatadi."
+    },
+    {
+      "level": "C1",
+      "topic": "Atrof-muhit",
+      "word": "hazardous",
+      "phonetic": "/ˈhæzədəs/",
+      "partOfSpeech": "adjective",
+      "translation": "xavfli, zararli",
+      "definitionEn": "dangerous to people's health or to the environment",
+      "exampleEn": "Hazardous waste must be stored separately from ordinary rubbish.",
+      "exampleUz": "Xavfli chiqindi oddiy axlatdan alohida saqlanishi shart."
+    },
+    {
+      "level": "C1",
+      "topic": "Atrof-muhit",
+      "word": "incineration",
+      "phonetic": "/ɪnˌsɪnəˈreɪʃn/",
+      "partOfSpeech": "noun",
+      "translation": "chiqindini yoqib yuborish",
+      "definitionEn": "the burning of waste at very high temperatures",
+      "exampleEn": "Incineration reduces the volume of waste but pollutes the air.",
+      "exampleUz": "Chiqindini yoqib yuborish uning hajmini kamaytiradi, lekin havoni ifloslantiradi."
+    },
+    {
       "level": "B2",
       "topic": "Texnologiya va AI",
       "word": "hacker",
@@ -389,17 +455,6 @@
     {
       "level": "B2",
       "topic": "Texnologiya va AI",
-      "word": "upgrade",
-      "phonetic": "/ˌʌpˈɡreɪd/",
-      "partOfSpeech": "verb",
-      "translation": "takomillashtirmoq, quvvatini oshirmoq",
-      "definitionEn": "to make equipment better or more powerful",
-      "exampleEn": "The company upgraded its servers to handle more users.",
-      "exampleUz": "Kompaniya ko'proq foydalanuvchini qo'llab-quvvatlash uchun serverlarini takomillashtirdi."
-    },
-    {
-      "level": "B2",
-      "topic": "Texnologiya va AI",
       "word": "user-friendly",
       "phonetic": "/ˌjuːzə ˈfrendli/",
       "partOfSpeech": "adjective",
@@ -407,17 +462,6 @@
       "definitionEn": "easy for ordinary people to use",
       "exampleEn": "The app succeeded because its design is user-friendly.",
       "exampleUz": "Ilova muvaffaqiyat qozondi, chunki uning dizayni qulay."
-    },
-    {
-      "level": "B2",
-      "topic": "Texnologiya va AI",
-      "word": "replace",
-      "phonetic": "/rɪˈpleɪs/",
-      "partOfSpeech": "verb",
-      "translation": "o'rnini bosmoq, almashtirmoq",
-      "definitionEn": "to take the place of someone or something",
-      "exampleEn": "Machines are unlikely to replace teachers completely.",
-      "exampleUz": "Mashinalar o'qituvchilarning o'rnini butunlay bosishi dargumon."
     },
     {
       "level": "B2",
@@ -455,13 +499,167 @@
     {
       "level": "B2",
       "topic": "Texnologiya va AI",
-      "word": "keep up with",
-      "phonetic": "/kiːp ˈʌp wɪð/",
-      "partOfSpeech": "phrasal verb",
-      "translation": "hamqadam bo'lmoq, ortda qolmaslik",
-      "definitionEn": "to stay at the same level as something that changes quickly",
-      "exampleEn": "Older workers find it hard to keep up with new technology.",
-      "exampleUz": "Keksa xodimlar yangi texnologiyalarga hamqadam bo'lishga qiynaladi."
+      "word": "gadget",
+      "phonetic": "/ˈɡædʒɪt/",
+      "partOfSpeech": "noun",
+      "translation": "gadjet, kichik qurilma",
+      "definitionEn": "a small useful electronic tool",
+      "exampleEn": "Teenagers spend most of their money on new gadgets.",
+      "exampleUz": "O'smirlar pulining ko'p qismini yangi gadjetlarga sarflaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "browser",
+      "phonetic": "/ˈbraʊzə/",
+      "partOfSpeech": "noun",
+      "translation": "brauzer",
+      "definitionEn": "a program used to look at pages on the internet",
+      "exampleEn": "Your browser stores a record of every site you visit.",
+      "exampleUz": "Brauzeringiz siz kirgan har bir saytning yozuvini saqlaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "search engine",
+      "phonetic": "/ˈsɜːtʃ ˌendʒɪn/",
+      "partOfSpeech": "noun",
+      "translation": "qidiruv tizimi",
+      "definitionEn": "a program that finds information for you on the internet",
+      "exampleEn": "Students rely on a search engine instead of the library.",
+      "exampleUz": "Talabalar kutubxona o'rniga qidiruv tizimiga tayanadi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "cloud storage",
+      "phonetic": "/ˈklaʊd ˌstɔːrɪdʒ/",
+      "partOfSpeech": "noun",
+      "translation": "bulutli saqlash",
+      "definitionEn": "keeping files on the internet rather than on your own device",
+      "exampleEn": "Cloud storage lets you open your files from any device.",
+      "exampleUz": "Bulutli saqlash fayllaringizni istalgan qurilmadan ochish imkonini beradi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "coding",
+      "phonetic": "/ˈkəʊdɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "dasturlash",
+      "definitionEn": "the activity of writing computer programs",
+      "exampleEn": "Coding is now taught in some primary schools.",
+      "exampleUz": "Dasturlash endi ba'zi boshlang'ich maktablarda o'rgatilmoqda."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "smart device",
+      "phonetic": "/ˌsmɑːt dɪˈvaɪs/",
+      "partOfSpeech": "noun",
+      "translation": "aqlli qurilma",
+      "definitionEn": "a machine that connects to the internet and works partly by itself",
+      "exampleEn": "A modern kitchen may contain a dozen smart devices.",
+      "exampleUz": "Zamonaviy oshxonada o'nlab aqlli qurilma bo'lishi mumkin."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "e-commerce",
+      "phonetic": "/ˈiː ˌkɒmɜːs/",
+      "partOfSpeech": "noun",
+      "translation": "elektron tijorat",
+      "definitionEn": "the buying and selling of goods over the internet",
+      "exampleEn": "E-commerce has changed the way small shops survive.",
+      "exampleUz": "Elektron tijorat kichik do'konlarning omon qolish tarzini o'zgartirdi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "touchscreen",
+      "phonetic": "/ˈtʌtʃskriːn/",
+      "partOfSpeech": "noun",
+      "translation": "sensorli ekran",
+      "definitionEn": "a screen that you control by touching it",
+      "exampleEn": "Even young children can use a touchscreen easily.",
+      "exampleUz": "Hatto yosh bolalar ham sensorli ekrandan bemalol foydalana oladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "notification",
+      "phonetic": "/ˌnəʊtɪfɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "translation": "bildirishnoma",
+      "definitionEn": "a short message from an app telling you that something has happened",
+      "exampleEn": "Constant notifications make deep concentration almost impossible.",
+      "exampleUz": "Doimiy bildirishnomalar chuqur diqqatni deyarli imkonsiz qiladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "video call",
+      "phonetic": "/ˈvɪdiəʊ kɔːl/",
+      "partOfSpeech": "noun",
+      "translation": "video qo'ng'iroq",
+      "definitionEn": "a phone call in which you can also see the other person",
+      "exampleEn": "Families abroad stay close through weekly video calls.",
+      "exampleUz": "Chet eldagi oilalar haftalik video qo'ng'iroqlar orqali yaqin qoladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "convenience",
+      "phonetic": "/kənˈviːniəns/",
+      "partOfSpeech": "noun",
+      "translation": "qulaylik",
+      "definitionEn": "the quality of being easy and of saving time or effort",
+      "exampleEn": "People accept less privacy in exchange for convenience.",
+      "exampleUz": "Odamlar qulaylik evaziga kamroq maxfiylikka rozi bo'ladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "distraction",
+      "phonetic": "/dɪˈstrækʃn/",
+      "partOfSpeech": "noun",
+      "translation": "chalg'ituvchi narsa",
+      "definitionEn": "something that stops you giving your attention to a task",
+      "exampleEn": "The phone on the desk is the biggest distraction in class.",
+      "exampleUz": "Partadagi telefon — darsdagi eng katta chalg'ituvchi narsa."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "misuse",
+      "phonetic": "/ˌmɪsˈjuːs/",
+      "partOfSpeech": "noun",
+      "translation": "noto'g'ri ishlatish, suiiste'mol",
+      "definitionEn": "the use of something in a wrong or harmful way",
+      "exampleEn": "The misuse of personal data has damaged public trust.",
+      "exampleUz": "Shaxsiy ma'lumotlarni noto'g'ri ishlatish jamoatchilik ishonchiga putur yetkazdi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "accessible",
+      "phonetic": "/əkˈsesəbl/",
+      "partOfSpeech": "adjective",
+      "translation": "qulay, foydalanish mumkin bo'lgan",
+      "definitionEn": "easy to reach, use or understand",
+      "exampleEn": "Technology has made education accessible to remote villages.",
+      "exampleUz": "Texnologiya ta'limni chekka qishloqlar uchun qulay qildi."
+    },
+    {
+      "level": "B2",
+      "topic": "Texnologiya va AI",
+      "word": "tech-savvy",
+      "phonetic": "/ˌtek ˈsævi/",
+      "partOfSpeech": "adjective",
+      "translation": "texnikani yaxshi biladigan",
+      "definitionEn": "good at understanding and using technology",
+      "exampleEn": "Tech-savvy students often end up helping their own teachers.",
+      "exampleUz": "Texnikani yaxshi biladigan o'quvchilar ko'pincha o'qituvchilariga yordam berib qoladi."
     },
     {
       "level": "C1",
@@ -598,28 +796,6 @@
     {
       "level": "C1",
       "topic": "Texnologiya va AI",
-      "word": "transparency",
-      "phonetic": "/trænsˈpærənsi/",
-      "partOfSpeech": "noun",
-      "translation": "shaffoflik",
-      "definitionEn": "the quality of being open about how decisions are made",
-      "exampleEn": "Users are demanding transparency about how their data is used.",
-      "exampleUz": "Foydalanuvchilar ma'lumotlari qanday ishlatilishi haqida shaffoflik talab qilmoqda."
-    },
-    {
-      "level": "C1",
-      "topic": "Texnologiya va AI",
-      "word": "bias",
-      "phonetic": "/ˈbaɪəs/",
-      "partOfSpeech": "noun",
-      "translation": "yon bosish, xolis emaslik",
-      "definitionEn": "an unfair preference built into a system or an opinion",
-      "exampleEn": "Facial recognition systems can show clear racial bias.",
-      "exampleUz": "Yuzni tanish tizimlari aniq irqiy yon bosishni namoyon qilishi mumkin."
-    },
-    {
-      "level": "C1",
-      "topic": "Texnologiya va AI",
       "word": "exponential",
       "phonetic": "/ˌekspəˈnenʃl/",
       "partOfSpeech": "adjective",
@@ -673,26 +849,37 @@
       "exampleUz": "Bashoratli matn ba'zan xabar ma'nosini o'zgartirib yuboradi."
     },
     {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
-      "word": "enrol",
-      "phonetic": "/ɪnˈrəʊl/",
-      "partOfSpeech": "verb",
-      "translation": "ro'yxatdan o'tmoq, o'qishga kirmoq",
-      "definitionEn": "to officially join a course or school",
-      "exampleEn": "Over five hundred students enrolled on the new IT course.",
-      "exampleUz": "Yangi IT kursiga besh yuzdan ortiq talaba o'qishga kirdi."
+      "level": "C1",
+      "topic": "Texnologiya va AI",
+      "word": "wearable",
+      "phonetic": "/ˈweərəbl/",
+      "partOfSpeech": "noun",
+      "translation": "kiyiladigan qurilma",
+      "definitionEn": "a small computer worn on the body, such as a smart watch",
+      "exampleEn": "Wearables can warn users about heart problems.",
+      "exampleUz": "Kiyiladigan qurilmalar foydalanuvchini yurak muammolaridan ogohlantira oladi."
     },
     {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
-      "word": "graduate",
-      "phonetic": "/ˈɡrædʒueɪt/",
-      "partOfSpeech": "verb",
-      "translation": "bitirmoq",
-      "definitionEn": "to complete a university course successfully",
-      "exampleEn": "She graduated from university with honours last summer.",
-      "exampleUz": "U o'tgan yozda universitetni imtiyozli diplom bilan bitirdi."
+      "level": "C1",
+      "topic": "Texnologiya va AI",
+      "word": "facial recognition",
+      "phonetic": "/ˌfeɪʃl ˌrekəɡˈnɪʃn/",
+      "partOfSpeech": "noun",
+      "translation": "yuzni tanish texnologiyasi",
+      "definitionEn": "technology that identifies a person from an image of their face",
+      "exampleEn": "Facial recognition at stadiums worries civil rights groups.",
+      "exampleUz": "Stadionlardagi yuzni tanish texnologiyasi huquq himoyachilarini tashvishga solmoqda."
+    },
+    {
+      "level": "C1",
+      "topic": "Texnologiya va AI",
+      "word": "digital footprint",
+      "phonetic": "/ˌdɪdʒɪtl ˈfʊtprɪnt/",
+      "partOfSpeech": "noun",
+      "translation": "raqamli iz",
+      "definitionEn": "the trail of information a person leaves behind online",
+      "exampleEn": "Employers increasingly examine an applicant's digital footprint.",
+      "exampleUz": "Ish beruvchilar nomzodning raqamli izini tobora ko'proq o'rganmoqda."
     },
     {
       "level": "B2",
@@ -730,50 +917,6 @@
     {
       "level": "B2",
       "topic": "Ta'lim tizimi",
-      "word": "deadline",
-      "phonetic": "/ˈdedlaɪn/",
-      "partOfSpeech": "noun",
-      "translation": "muddat",
-      "definitionEn": "the time by which something must be finished",
-      "exampleEn": "The deadline for submitting the essay is Friday evening.",
-      "exampleUz": "Inshoni topshirish muddati — juma kuni kechqurun."
-    },
-    {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
-      "word": "memorise",
-      "phonetic": "/ˈmeməraɪz/",
-      "partOfSpeech": "verb",
-      "translation": "yodlamoq",
-      "definitionEn": "to learn something so that you remember it exactly",
-      "exampleEn": "Memorising grammar rules is not enough to speak fluently.",
-      "exampleUz": "Ravon gapirish uchun grammatika qoidalarini yodlash yetarli emas."
-    },
-    {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
-      "word": "feedback",
-      "phonetic": "/ˈfiːdbæk/",
-      "partOfSpeech": "noun",
-      "translation": "izoh, fikr-mulohaza",
-      "definitionEn": "advice about how well or badly someone is doing something",
-      "exampleEn": "Detailed feedback helps learners correct their own mistakes.",
-      "exampleUz": "Batafsil izoh o'quvchilarga o'z xatolarini tuzatishga yordam beradi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
-      "word": "workload",
-      "phonetic": "/ˈwɜːkləʊd/",
-      "partOfSpeech": "noun",
-      "translation": "yuklama, ish hajmi",
-      "definitionEn": "the amount of work a person has to do",
-      "exampleEn": "A heavy workload leaves pupils no time for sport.",
-      "exampleUz": "Og'ir yuklama o'quvchilarga sport uchun vaqt qoldirmaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
       "word": "lecture",
       "phonetic": "/ˈlektʃə/",
       "partOfSpeech": "noun",
@@ -792,28 +935,6 @@
       "definitionEn": "a teacher who works with one student or a small group",
       "exampleEn": "Most parents hire a private tutor before the entrance exam.",
       "exampleUz": "Ko'pchilik ota-onalar kirish imtihonidan oldin xususiy repetitor yollaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
-      "word": "motivation",
-      "phonetic": "/ˌməʊtɪˈveɪʃn/",
-      "partOfSpeech": "noun",
-      "translation": "motivatsiya, ishtiyoq",
-      "definitionEn": "the reason or desire that makes someone work at something",
-      "exampleEn": "Clear goals increase students' motivation to study.",
-      "exampleUz": "Aniq maqsadlar talabalarning o'qishga bo'lgan motivatsiyasini oshiradi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
-      "word": "discipline",
-      "phonetic": "/ˈdɪsəplɪn/",
-      "partOfSpeech": "noun",
-      "translation": "intizom",
-      "definitionEn": "controlled behaviour and obedience to rules",
-      "exampleEn": "Strict discipline does not always produce better results.",
-      "exampleUz": "Qattiq intizom har doim ham yaxshi natija bermaydi."
     },
     {
       "level": "B2",
@@ -851,17 +972,6 @@
     {
       "level": "B2",
       "topic": "Ta'lim tizimi",
-      "word": "qualification",
-      "phonetic": "/ˌkwɒlɪfɪˈkeɪʃn/",
-      "partOfSpeech": "noun",
-      "translation": "malaka, diplom yoki sertifikat",
-      "definitionEn": "an official certificate showing that you have passed a course",
-      "exampleEn": "Employers now ask for practical skills as well as qualifications.",
-      "exampleUz": "Ish beruvchilar endi diplomdan tashqari amaliy ko'nikmalarni ham so'raydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ta'lim tizimi",
       "word": "entrance exam",
       "phonetic": "/ˈentrəns ɪɡˌzæm/",
       "partOfSpeech": "noun",
@@ -880,6 +990,116 @@
       "definitionEn": "the way in which a subject is taught",
       "exampleEn": "Modern teaching methods focus on communication, not memorising.",
       "exampleUz": "Zamonaviy o'qitish uslublari yodlashga emas, muloqotga qaratilgan."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "textbook",
+      "phonetic": "/ˈtekstbʊk/",
+      "partOfSpeech": "noun",
+      "translation": "darslik",
+      "definitionEn": "a book used for studying a subject at school",
+      "exampleEn": "The textbooks still in use were printed fifteen years ago.",
+      "exampleUz": "Hamon foydalanilayotgan darsliklar o'n besh yil oldin chop etilgan."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "timetable",
+      "phonetic": "/ˈtaɪmteɪbl/",
+      "partOfSpeech": "noun",
+      "translation": "dars jadvali",
+      "definitionEn": "a list showing when lessons take place",
+      "exampleEn": "A crowded timetable leaves no room for sport or art.",
+      "exampleUz": "Zich dars jadvali sport yoki san'atga joy qoldirmaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "class size",
+      "phonetic": "/ˈklɑːs saɪz/",
+      "partOfSpeech": "noun",
+      "translation": "sinfdagi o'quvchilar soni",
+      "definitionEn": "the number of pupils taught together in one room",
+      "exampleEn": "Smaller class sizes allow teachers to help every child.",
+      "exampleUz": "Sinfdagi o'quvchilar sonining kamayishi o'qituvchiga har bir bolaga yordam berish imkonini beradi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "attendance",
+      "phonetic": "/əˈtendəns/",
+      "partOfSpeech": "noun",
+      "translation": "davomat",
+      "definitionEn": "the fact of being present at lessons",
+      "exampleEn": "Attendance drops sharply during the harvest season.",
+      "exampleUz": "Hosil yig'im mavsumida davomat keskin pasayadi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "pass rate",
+      "phonetic": "/ˈpɑːs reɪt/",
+      "partOfSpeech": "noun",
+      "translation": "o'tish ko'rsatkichi",
+      "definitionEn": "the percentage of people who succeed in an exam",
+      "exampleEn": "The school boasts a ninety percent pass rate.",
+      "exampleUz": "Maktab to'qson foizlik o'tish ko'rsatkichi bilan faxrlanadi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "state school",
+      "phonetic": "/ˈsteɪt skuːl/",
+      "partOfSpeech": "noun",
+      "translation": "davlat maktabi",
+      "definitionEn": "a school that is paid for by the government",
+      "exampleEn": "State schools are free but often badly overcrowded.",
+      "exampleUz": "Davlat maktablari bepul, lekin ko'pincha juda to'lib ketgan."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "private school",
+      "phonetic": "/ˌpraɪvət ˈskuːl/",
+      "partOfSpeech": "noun",
+      "translation": "xususiy maktab",
+      "definitionEn": "a school that parents have to pay for",
+      "exampleEn": "Only wealthy families can afford a private school.",
+      "exampleUz": "Faqat badavlat oilalar xususiy maktabni ko'tara oladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "school leaver",
+      "phonetic": "/ˈskuːl ˌliːvə/",
+      "partOfSpeech": "noun",
+      "translation": "maktab bitiruvchisi",
+      "definitionEn": "a young person who has just finished school",
+      "exampleEn": "Many school leavers have no idea what to study next.",
+      "exampleUz": "Ko'p maktab bitiruvchilari keyin nima o'qishni bilmaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "cheat",
+      "phonetic": "/tʃiːt/",
+      "partOfSpeech": "verb",
+      "translation": "aldamoq, ko'chirmoq",
+      "definitionEn": "to act dishonestly in an exam in order to succeed",
+      "exampleEn": "Students who cheat in exams learn nothing at all.",
+      "exampleUz": "Imtihonda ko'chiradigan o'quvchilar mutlaqo hech nima o'rganmaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ta'lim tizimi",
+      "word": "self-study",
+      "phonetic": "/ˈself ˌstʌdi/",
+      "partOfSpeech": "noun",
+      "translation": "mustaqil o'rganish",
+      "definitionEn": "learning on your own without a teacher",
+      "exampleEn": "Free online courses have made self-study realistic for everyone.",
+      "exampleUz": "Bepul onlayn kurslar mustaqil o'rganishni hamma uchun real qildi."
     },
     {
       "level": "C1",
@@ -902,17 +1122,6 @@
       "definitionEn": "not part of the normal course of study",
       "exampleEn": "Extracurricular activities develop teamwork and confidence.",
       "exampleUz": "Darsdan tashqari mashg'ulotlar jamoada ishlash va o'ziga ishonchni rivojlantiradi."
-    },
-    {
-      "level": "C1",
-      "topic": "Ta'lim tizimi",
-      "word": "syllabus",
-      "phonetic": "/ˈsɪləbəs/",
-      "partOfSpeech": "noun",
-      "translation": "fan dasturi",
-      "definitionEn": "a list of the topics to be studied in a course",
-      "exampleEn": "The syllabus has not been revised for a decade.",
-      "exampleUz": "Fan dasturi o'n yildan beri qayta ko'rib chiqilmagan."
     },
     {
       "level": "C1",
@@ -1080,6 +1289,39 @@
       "exampleUz": "Ta'limga yaxlit yondashuv sog'liq va his-tuyg'ularni ham qamrab oladi."
     },
     {
+      "level": "C1",
+      "topic": "Ta'lim tizimi",
+      "word": "homeschooling",
+      "phonetic": "/ˈhəʊmskuːlɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "uyda ta'lim berish",
+      "definitionEn": "the practice of teaching children at home instead of at school",
+      "exampleEn": "Homeschooling suits some children but limits social contact.",
+      "exampleUz": "Uyda ta'lim ba'zi bolalarga mos keladi, lekin ijtimoiy muloqotni cheklaydi."
+    },
+    {
+      "level": "C1",
+      "topic": "Ta'lim tizimi",
+      "word": "cramming",
+      "phonetic": "/ˈkræmɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "imtihon oldidan shoshib yodlash",
+      "definitionEn": "learning a lot of facts quickly just before an exam",
+      "exampleEn": "Cramming the night before rarely leads to lasting knowledge.",
+      "exampleUz": "Imtihon arafasida tunda shoshib yodlash kamdan-kam mustahkam bilim beradi."
+    },
+    {
+      "level": "C1",
+      "topic": "Ta'lim tizimi",
+      "word": "spoon-feed",
+      "phonetic": "/ˈspuːn fiːd/",
+      "partOfSpeech": "verb",
+      "translation": "tayyor holda berib qo'ymoq",
+      "definitionEn": "to give learners information without making them think for themselves",
+      "exampleEn": "Teachers who spoon-feed answers produce passive students.",
+      "exampleUz": "Javoblarni tayyor holda berib qo'yadigan o'qituvchilar sust o'quvchi yetishtiradi."
+    },
+    {
       "level": "B2",
       "topic": "Salomatlik va turmush",
       "word": "obesity",
@@ -1100,17 +1342,6 @@
       "definitionEn": "the condition of a person's mind and emotions",
       "exampleEn": "Universities should offer free mental health support.",
       "exampleUz": "Universitetlar bepul ruhiy salomatlik yordamini taklif qilishi kerak."
-    },
-    {
-      "level": "B2",
-      "topic": "Salomatlik va turmush",
-      "word": "wellbeing",
-      "phonetic": "/ˌwelˈbiːɪŋ/",
-      "partOfSpeech": "noun",
-      "translation": "farovonlik, yaxshi ahvol",
-      "definitionEn": "the state of being comfortable, healthy and happy",
-      "exampleEn": "Employers are finally paying attention to staff wellbeing.",
-      "exampleUz": "Ish beruvchilar nihoyat xodimlar farovonligiga e'tibor qaratmoqda."
     },
     {
       "level": "B2",
@@ -1225,17 +1456,6 @@
     {
       "level": "B2",
       "topic": "Salomatlik va turmush",
-      "word": "take up",
-      "phonetic": "/teɪk ˈʌp/",
-      "partOfSpeech": "phrasal verb",
-      "translation": "boshlamoq (mashg'ulotni)",
-      "definitionEn": "to start doing an activity regularly",
-      "exampleEn": "He took up swimming to strengthen his back.",
-      "exampleUz": "U belini mustahkamlash uchun suzishni boshladi."
-    },
-    {
-      "level": "B2",
-      "topic": "Salomatlik va turmush",
       "word": "cut out",
       "phonetic": "/kʌt ˈaʊt/",
       "partOfSpeech": "phrasal verb",
@@ -1287,6 +1507,39 @@
       "definitionEn": "a medical examination to check that you are healthy",
       "exampleEn": "A yearly check-up can detect problems at an early stage.",
       "exampleUz": "Yillik tibbiy ko'rik muammolarni erta bosqichda aniqlashi mumkin."
+    },
+    {
+      "level": "B2",
+      "topic": "Salomatlik va turmush",
+      "word": "junk food",
+      "phonetic": "/ˈdʒʌŋk fuːd/",
+      "partOfSpeech": "noun",
+      "translation": "zararli tez tayyor ovqat",
+      "definitionEn": "food that is quick to prepare but bad for your health",
+      "exampleEn": "Advertising junk food to children should be restricted.",
+      "exampleUz": "Bolalarga zararli tez ovqat reklamasini cheklash kerak."
+    },
+    {
+      "level": "B2",
+      "topic": "Salomatlik va turmush",
+      "word": "overweight",
+      "phonetic": "/ˌəʊvəˈweɪt/",
+      "partOfSpeech": "adjective",
+      "translation": "ortiqcha vaznli",
+      "definitionEn": "heavier than is healthy",
+      "exampleEn": "One in three adults in the city is now overweight.",
+      "exampleUz": "Shahardagi har uch kattadan biri endi ortiqcha vaznli."
+    },
+    {
+      "level": "B2",
+      "topic": "Salomatlik va turmush",
+      "word": "calorie",
+      "phonetic": "/ˈkæləri/",
+      "partOfSpeech": "noun",
+      "translation": "kaloriya",
+      "definitionEn": "a unit for measuring the energy contained in food",
+      "exampleEn": "A single sweet drink can contain two hundred calories.",
+      "exampleUz": "Bitta shirin ichimlikda ikki yuz kaloriya bo'lishi mumkin."
     },
     {
       "level": "C1",
@@ -1412,17 +1665,6 @@
     {
       "level": "C1",
       "topic": "Salomatlik va turmush",
-      "word": "stigma",
-      "phonetic": "/ˈstɪɡmə/",
-      "partOfSpeech": "noun",
-      "translation": "nomaqbul qarash, tamg'a",
-      "definitionEn": "strong social disapproval attached to a condition or situation",
-      "exampleEn": "There is still a stigma around seeing a psychologist.",
-      "exampleUz": "Psixologga borishga nisbatan hamon nomaqbul qarash mavjud."
-    },
-    {
-      "level": "C1",
-      "topic": "Salomatlik va turmush",
       "word": "cognitive",
       "phonetic": "/ˈkɒɡnətɪv/",
       "partOfSpeech": "adjective",
@@ -1478,17 +1720,6 @@
     {
       "level": "C1",
       "topic": "Salomatlik va turmush",
-      "word": "underlying",
-      "phonetic": "/ˌʌndəˈlaɪɪŋ/",
-      "partOfSpeech": "adjective",
-      "translation": "tub, asosiy (sabab)",
-      "definitionEn": "existing beneath the surface as the real cause of something",
-      "exampleEn": "Stress is often the underlying cause of poor sleep.",
-      "exampleUz": "Stress ko'pincha yomon uyquning tub sababi bo'ladi."
-    },
-    {
-      "level": "C1",
-      "topic": "Salomatlik va turmush",
       "word": "screening",
       "phonetic": "/ˈskriːnɪŋ/",
       "partOfSpeech": "noun",
@@ -1509,6 +1740,28 @@
       "exampleUz": "To'yib ovqatlanmaslik hamon eng kambag'al hududlardagi bolalarga ta'sir qiladi."
     },
     {
+      "level": "C1",
+      "topic": "Salomatlik va turmush",
+      "word": "sugar tax",
+      "phonetic": "/ˈʃʊɡə tæks/",
+      "partOfSpeech": "noun",
+      "translation": "shakar solig'i",
+      "definitionEn": "an extra tax on sweet drinks intended to reduce consumption",
+      "exampleEn": "A sugar tax cut sales of fizzy drinks by a fifth.",
+      "exampleUz": "Shakar solig'i gazli ichimliklar savdosini beshdan biriga kamaytirdi."
+    },
+    {
+      "level": "C1",
+      "topic": "Salomatlik va turmush",
+      "word": "self-care",
+      "phonetic": "/ˈself keə/",
+      "partOfSpeech": "noun",
+      "translation": "o'ziga g'amxo'rlik qilish",
+      "definitionEn": "the practice of looking after your own health and state of mind",
+      "exampleEn": "Self-care is not selfishness; it prevents complete collapse.",
+      "exampleUz": "O'ziga g'amxo'rlik qilish xudbinlik emas; u butunlay holdan toyishning oldini oladi."
+    },
+    {
       "level": "B2",
       "topic": "Shahar va transport",
       "word": "congestion",
@@ -1518,17 +1771,6 @@
       "definitionEn": "a situation in which roads are too full of vehicles",
       "exampleEn": "Traffic congestion costs the city millions of working hours a year.",
       "exampleUz": "Yo'l tirbandligi shaharga yiliga millionlab ish soatiga tushadi."
-    },
-    {
-      "level": "B2",
-      "topic": "Shahar va transport",
-      "word": "commute",
-      "phonetic": "/kəˈmjuːt/",
-      "partOfSpeech": "verb",
-      "translation": "qatnamoq (ishga)",
-      "definitionEn": "to travel regularly between home and work",
-      "exampleEn": "Thousands of people commute into Tashkent every morning.",
-      "exampleUz": "Har kuni ertalab minglab odam Toshkentga qatnaydi."
     },
     {
       "level": "B2",
@@ -1694,6 +1936,50 @@
       "definitionEn": "an area where one car can be left",
       "exampleEn": "Drivers waste fuel searching for a parking space in the centre.",
       "exampleUz": "Haydovchilar markazda avtoturargoh joyi qidirib yoqilg'i behuda sarflaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Shahar va transport",
+      "word": "bus lane",
+      "phonetic": "/ˈbʌs leɪn/",
+      "partOfSpeech": "noun",
+      "translation": "avtobus yo'lagi",
+      "definitionEn": "a part of the road that only buses may use",
+      "exampleEn": "A dedicated bus lane cut journey times by half.",
+      "exampleUz": "Alohida avtobus yo'lagi safar vaqtini yarmiga qisqartirdi."
+    },
+    {
+      "level": "B2",
+      "topic": "Shahar va transport",
+      "word": "ring road",
+      "phonetic": "/ˈrɪŋ rəʊd/",
+      "partOfSpeech": "noun",
+      "translation": "halqa yo'l",
+      "definitionEn": "a road built around a town to keep traffic out of the centre",
+      "exampleEn": "Lorries must use the ring road instead of the narrow old streets.",
+      "exampleUz": "Yuk mashinalari tor eski ko'chalar o'rniga halqa yo'ldan yurishi shart."
+    },
+    {
+      "level": "B2",
+      "topic": "Shahar va transport",
+      "word": "green space",
+      "phonetic": "/ˌɡriːn ˈspeɪs/",
+      "partOfSpeech": "noun",
+      "translation": "yashil hudud",
+      "definitionEn": "an area of grass and trees inside a city",
+      "exampleEn": "Every new district should include real green space.",
+      "exampleUz": "Har bir yangi tuman haqiqiy yashil hududga ega bo'lishi kerak."
+    },
+    {
+      "level": "B2",
+      "topic": "Shahar va transport",
+      "word": "outskirts",
+      "phonetic": "/ˈaʊtskɜːts/",
+      "partOfSpeech": "noun",
+      "translation": "shahar chekkasi",
+      "definitionEn": "the outer parts of a town, far from the centre",
+      "exampleEn": "The new hospital was built on the outskirts of the city.",
+      "exampleUz": "Yangi shifoxona shahar chekkasida qurildi."
     },
     {
       "level": "C1",
@@ -1863,17 +2149,6 @@
     {
       "level": "C1",
       "topic": "Shahar va transport",
-      "word": "viable",
-      "phonetic": "/ˈvaɪəbl/",
-      "partOfSpeech": "adjective",
-      "translation": "amalga oshsa bo'ladigan, hayotiy",
-      "definitionEn": "able to work successfully in practice",
-      "exampleEn": "Cycling is only a viable option if the roads are safe.",
-      "exampleUz": "Velosipedda yurish yo'llar xavfsiz bo'lsagina hayotiy variant bo'ladi."
-    },
-    {
-      "level": "C1",
-      "topic": "Shahar va transport",
       "word": "levy",
       "phonetic": "/ˈlevi/",
       "partOfSpeech": "verb",
@@ -1905,26 +2180,26 @@
       "exampleUz": "Vokzal mintaqa uchun yirik transport uzeliga aylandi."
     },
     {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "recruit",
-      "phonetic": "/rɪˈkruːt/",
-      "partOfSpeech": "verb",
-      "translation": "ishga olmoq, yollamoq",
-      "definitionEn": "to find new people to work for a company",
-      "exampleEn": "The company is recruiting graduates with strong English.",
-      "exampleUz": "Kompaniya ingliz tilini yaxshi biladigan bitiruvchilarni ishga olmoqda."
+      "level": "C1",
+      "topic": "Shahar va transport",
+      "word": "toll",
+      "phonetic": "/təʊl/",
+      "partOfSpeech": "noun",
+      "translation": "yo'l haqi",
+      "definitionEn": "money that you pay to use a particular road or bridge",
+      "exampleEn": "A toll on the motorway would help fund public transport.",
+      "exampleUz": "Avtomagistraldagi yo'l haqi jamoat transportini moliyalashtirishga yordam berardi."
     },
     {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "applicant",
-      "phonetic": "/ˈæplɪkənt/",
+      "level": "C1",
+      "topic": "Shahar va transport",
+      "word": "car-free zone",
+      "phonetic": "/ˌkɑː friː ˈzəʊn/",
       "partOfSpeech": "noun",
-      "translation": "nomzod, ariza beruvchi",
-      "definitionEn": "a person who applies for a job or a place",
-      "exampleEn": "Only three of the fifty applicants were invited to interview.",
-      "exampleUz": "Ellik nomzoddan atigi uchtasi suhbatga taklif qilindi."
+      "translation": "avtomobilsiz zona",
+      "definitionEn": "an area of a city where cars are not allowed",
+      "exampleEn": "The car-free zone brought shoppers back to the old market.",
+      "exampleUz": "Avtomobilsiz zona xaridorlarni eski bozorga qaytardi."
     },
     {
       "level": "B2",
@@ -1940,17 +2215,6 @@
     {
       "level": "B2",
       "topic": "Ish va karyera",
-      "word": "freelance",
-      "phonetic": "/ˈfriːlɑːns/",
-      "partOfSpeech": "adjective",
-      "translation": "erkin, shartnoma asosida ishlaydigan",
-      "definitionEn": "working for different companies rather than for one employer",
-      "exampleEn": "She has been a freelance translator for five years.",
-      "exampleUz": "U besh yildan beri erkin tarjimon bo'lib ishlaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
       "word": "remote work",
       "phonetic": "/rɪˌməʊt ˈwɜːk/",
       "partOfSpeech": "noun",
@@ -1958,39 +2222,6 @@
       "definitionEn": "working from home instead of going to an office",
       "exampleEn": "Remote work saves employees hours of commuting every week.",
       "exampleUz": "Masofaviy ish xodimlarga har hafta soatlab qatnovni tejaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "shift",
-      "phonetic": "/ʃɪft/",
-      "partOfSpeech": "noun",
-      "translation": "smena",
-      "definitionEn": "a period of work in a place that operates day and night",
-      "exampleEn": "Nurses on the night shift are paid extra.",
-      "exampleUz": "Tungi smenadagi hamshiralarga qo'shimcha to'lanadi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "wage",
-      "phonetic": "/weɪdʒ/",
-      "partOfSpeech": "noun",
-      "translation": "ish haqi (soatlik yoki haftalik)",
-      "definitionEn": "money paid for work, usually by the hour or week",
-      "exampleEn": "The government has raised the minimum wage again.",
-      "exampleUz": "Hukumat eng kam ish haqini yana oshirdi."
-    },
-    {
-      "level": "B2",
-      "topic": "Ish va karyera",
-      "word": "resign",
-      "phonetic": "/rɪˈzaɪn/",
-      "partOfSpeech": "verb",
-      "translation": "iste'foga chiqmoq",
-      "definitionEn": "to officially leave your job",
-      "exampleEn": "She resigned after a serious disagreement with the director.",
-      "exampleUz": "U direktor bilan jiddiy kelishmovchilikdan so'ng iste'foga chiqdi."
     },
     {
       "level": "B2",
@@ -2039,35 +2270,156 @@
     {
       "level": "B2",
       "topic": "Ish va karyera",
-      "word": "take on",
-      "phonetic": "/teɪk ˈɒn/",
-      "partOfSpeech": "phrasal verb",
-      "translation": "ishga olmoq; zimmasiga olmoq",
-      "definitionEn": "to employ someone, or to accept extra work",
-      "exampleEn": "The factory took on fifty new workers last month.",
-      "exampleUz": "Zavod o'tgan oy ellikta yangi ishchini ishga oldi."
+      "word": "part-time",
+      "phonetic": "/ˌpɑːt ˈtaɪm/",
+      "partOfSpeech": "adjective",
+      "translation": "yarim stavka",
+      "definitionEn": "working fewer hours than a full working week",
+      "exampleEn": "She took a part-time job while finishing her studies.",
+      "exampleUz": "U o'qishini tugatayotib yarim stavka ishga joylashdi."
     },
     {
-      "level": "C1",
+      "level": "B2",
       "topic": "Ish va karyera",
-      "word": "lay off",
-      "phonetic": "/leɪ ˈɒf/",
-      "partOfSpeech": "phrasal verb",
-      "translation": "qisqartirib ishdan bo'shatmoq",
-      "definitionEn": "to dismiss workers because there is not enough work for them",
-      "exampleEn": "The firm laid off two hundred staff during the crisis.",
-      "exampleUz": "Firma inqiroz paytida ikki yuz xodimni qisqartirib ishdan bo'shatdi."
+      "word": "full-time",
+      "phonetic": "/ˌfʊl ˈtaɪm/",
+      "partOfSpeech": "adjective",
+      "translation": "to'liq stavka",
+      "definitionEn": "working the whole of a normal working week",
+      "exampleEn": "He was offered a full-time position after the internship.",
+      "exampleUz": "Amaliyotdan so'ng unga to'liq stavka lavozim taklif qilindi."
     },
     {
-      "level": "C1",
+      "level": "B2",
       "topic": "Ish va karyera",
-      "word": "outsource",
-      "phonetic": "/ˈaʊtsɔːs/",
+      "word": "cover letter",
+      "phonetic": "/ˈkʌvə ˌletə/",
+      "partOfSpeech": "noun",
+      "translation": "motivatsion xat",
+      "definitionEn": "a letter sent with a job application explaining why you are suitable",
+      "exampleEn": "A short, specific cover letter beats a long, general one.",
+      "exampleUz": "Qisqa va aniq motivatsion xat uzun, umumiy xatdan afzal."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "boss",
+      "phonetic": "/bɒs/",
+      "partOfSpeech": "noun",
+      "translation": "boshliq",
+      "definitionEn": "the person who is in charge of you at work",
+      "exampleEn": "A supportive boss matters more than a modern office.",
+      "exampleUz": "Qo'llab-quvvatlaydigan boshliq zamonaviy ofisdan muhimroq."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "teamwork",
+      "phonetic": "/ˈtiːmwɜːk/",
+      "partOfSpeech": "noun",
+      "translation": "jamoada ishlash",
+      "definitionEn": "the ability of a group to work well together",
+      "exampleEn": "Modern employers value teamwork above technical skill.",
+      "exampleUz": "Zamonaviy ish beruvchilar jamoada ishlashni texnik ko'nikmadan yuqori qo'yadi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "time management",
+      "phonetic": "/ˈtaɪm ˌmænɪdʒmənt/",
+      "partOfSpeech": "noun",
+      "translation": "vaqtni boshqarish",
+      "definitionEn": "the skill of using your working time well",
+      "exampleEn": "Poor time management, not laziness, causes missed targets.",
+      "exampleUz": "Maqsadlarga yetmaslikka dangasalik emas, vaqtni yomon boshqarish sabab bo'ladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "leadership",
+      "phonetic": "/ˈliːdəʃɪp/",
+      "partOfSpeech": "noun",
+      "translation": "rahbarlik, yetakchilik",
+      "definitionEn": "the ability to guide and direct other people",
+      "exampleEn": "Strong leadership can save a struggling company.",
+      "exampleUz": "Kuchli rahbarlik qiynalayotgan kompaniyani saqlab qolishi mumkin."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "multitask",
+      "phonetic": "/ˌmʌltiˈtɑːsk/",
       "partOfSpeech": "verb",
-      "translation": "tashqi ijrochiga bermoq",
-      "definitionEn": "to give work to an outside company, often in another country",
-      "exampleEn": "Many banks outsource their IT support to cut costs.",
-      "exampleUz": "Ko'p banklar xarajatni kamaytirish uchun IT yordamini tashqi ijrochiga beradi."
+      "translation": "bir vaqtda bir necha ish qilmoq",
+      "definitionEn": "to do several things at the same time",
+      "exampleEn": "Trying to multitask actually lowers the quality of your work.",
+      "exampleUz": "Bir vaqtda bir necha ish qilishga urinish aslida ish sifatini pasaytiradi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "punctual",
+      "phonetic": "/ˈpʌŋktʃuəl/",
+      "partOfSpeech": "adjective",
+      "translation": "vaqtida keladigan",
+      "definitionEn": "arriving or doing things at exactly the right time",
+      "exampleEn": "Being punctual creates trust in a new workplace.",
+      "exampleUz": "Vaqtida kelish yangi ish joyida ishonch uyg'otadi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "ambition",
+      "phonetic": "/æmˈbɪʃn/",
+      "partOfSpeech": "noun",
+      "translation": "orzu, intilish",
+      "definitionEn": "a strong wish to achieve something important",
+      "exampleEn": "Her ambition is to open a language school in her home town.",
+      "exampleUz": "Uning orzusi — o'z shahrida til maktabi ochish."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "job satisfaction",
+      "phonetic": "/ˈdʒɒb ˌsætɪsˈfækʃn/",
+      "partOfSpeech": "noun",
+      "translation": "ishdan qoniqish",
+      "definitionEn": "the pleasure you get from doing your work",
+      "exampleEn": "Job satisfaction often matters more than a high salary.",
+      "exampleUz": "Ishdan qoniqish ko'pincha yuqori maoshdan muhimroq."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "sick leave",
+      "phonetic": "/ˈsɪk liːv/",
+      "partOfSpeech": "noun",
+      "translation": "kasallik ta'tili",
+      "definitionEn": "time away from work because you are ill",
+      "exampleEn": "Workers without contracts get no paid sick leave.",
+      "exampleUz": "Shartnomasiz ishchilar haq to'lanadigan kasallik ta'tilini olmaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "annual leave",
+      "phonetic": "/ˌænjuəl ˈliːv/",
+      "partOfSpeech": "noun",
+      "translation": "yillik mehnat ta'tili",
+      "definitionEn": "the paid holiday a worker is allowed each year",
+      "exampleEn": "Most staff take their annual leave in August.",
+      "exampleUz": "Ko'p xodimlar yillik mehnat ta'tilini avgustda oladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Ish va karyera",
+      "word": "overworked",
+      "phonetic": "/ˌəʊvəˈwɜːkt/",
+      "partOfSpeech": "adjective",
+      "translation": "haddan ortiq ishlab charchagan",
+      "definitionEn": "made to work too much",
+      "exampleEn": "Overworked teachers cannot give pupils real attention.",
+      "exampleUz": "Haddan ortiq ishlab charchagan o'qituvchilar o'quvchilarga haqiqiy e'tibor bera olmaydi."
     },
     {
       "level": "C1",
@@ -2090,28 +2442,6 @@
       "definitionEn": "a formal meeting to judge how well an employee is working",
       "exampleEn": "Annual appraisals decide who gets a pay rise.",
       "exampleUz": "Yillik baholash kimga maosh oshirilishini hal qiladi."
-    },
-    {
-      "level": "C1",
-      "topic": "Ish va karyera",
-      "word": "hierarchy",
-      "phonetic": "/ˈhaɪərɑːki/",
-      "partOfSpeech": "noun",
-      "translation": "iyerarxiya, bosqichli tuzilma",
-      "definitionEn": "a system in which people are ranked by level of importance",
-      "exampleEn": "A flat hierarchy lets junior staff share their ideas.",
-      "exampleUz": "Yassi iyerarxiya yosh xodimlarga g'oyalarini ulashish imkonini beradi."
-    },
-    {
-      "level": "C1",
-      "topic": "Ish va karyera",
-      "word": "delegate",
-      "phonetic": "/ˈdelɪɡeɪt/",
-      "partOfSpeech": "verb",
-      "translation": "vazifani topshirmoq, vakolat bermoq",
-      "definitionEn": "to give a task or responsibility to someone else",
-      "exampleEn": "Good managers delegate routine tasks and focus on strategy.",
-      "exampleUz": "Yaxshi menejerlar kundalik vazifalarni topshirib, strategiyaga e'tibor qaratadi."
     },
     {
       "level": "C1",
@@ -2182,17 +2512,6 @@
     {
       "level": "C1",
       "topic": "Ish va karyera",
-      "word": "productivity",
-      "phonetic": "/ˌprɒdʌkˈtɪvəti/",
-      "partOfSpeech": "noun",
-      "translation": "unumdorlik",
-      "definitionEn": "the rate at which useful work is produced",
-      "exampleEn": "A four-day week can actually raise productivity.",
-      "exampleUz": "To'rt kunlik ish haftasi aslida unumdorlikni oshirishi mumkin."
-    },
-    {
-      "level": "C1",
-      "topic": "Ish va karyera",
       "word": "morale",
       "phonetic": "/məˈrɑːl/",
       "partOfSpeech": "noun",
@@ -2257,6 +2576,72 @@
       "exampleUz": "Ish beruvchilar malaka hujjatlarini avvalgidan ancha sinchkovlik bilan tekshiradi."
     },
     {
+      "level": "C1",
+      "topic": "Ish va karyera",
+      "word": "blue-collar",
+      "phonetic": "/ˌbluː ˈkɒlə/",
+      "partOfSpeech": "adjective",
+      "translation": "ishchi kasbiga oid",
+      "definitionEn": "connected with work that involves physical labour",
+      "exampleEn": "Automation threatens blue-collar jobs first.",
+      "exampleUz": "Avtomatlashtirish avvalo ishchi kasblariga tahdid soladi."
+    },
+    {
+      "level": "C1",
+      "topic": "Ish va karyera",
+      "word": "white-collar",
+      "phonetic": "/ˌwaɪt ˈkɒlə/",
+      "partOfSpeech": "adjective",
+      "translation": "ofis xodimiga oid",
+      "definitionEn": "connected with office work rather than physical labour",
+      "exampleEn": "White-collar workers are now affected by AI as well.",
+      "exampleUz": "Endi ofis xodimlariga ham sun'iy intellekt ta'sir qilmoqda."
+    },
+    {
+      "level": "C1",
+      "topic": "Ish va karyera",
+      "word": "underpaid",
+      "phonetic": "/ˌʌndəˈpeɪd/",
+      "partOfSpeech": "adjective",
+      "translation": "kam haq to'lanadigan",
+      "definitionEn": "not paid enough for the work that is done",
+      "exampleEn": "Nurses remain overworked and badly underpaid.",
+      "exampleUz": "Hamshiralar hamon ortiqcha ishlaydi va juda kam haq oladi."
+    },
+    {
+      "level": "C1",
+      "topic": "Ish va karyera",
+      "word": "retrain",
+      "phonetic": "/ˌriːˈtreɪn/",
+      "partOfSpeech": "verb",
+      "translation": "qayta tayyorlamoq, qayta o'qitmoq",
+      "definitionEn": "to learn or teach new skills for a different kind of job",
+      "exampleEn": "Governments must help older workers retrain for new industries.",
+      "exampleUz": "Hukumatlar keksa ishchilarga yangi tarmoqlar uchun qayta tayyorlanishda yordam berishi kerak."
+    },
+    {
+      "level": "C1",
+      "topic": "Ish va karyera",
+      "word": "upskill",
+      "phonetic": "/ˈʌpskɪl/",
+      "partOfSpeech": "verb",
+      "translation": "malakasini oshirmoq",
+      "definitionEn": "to learn additional skills for the job you already have",
+      "exampleEn": "Employees who upskill regularly are rarely replaced.",
+      "exampleUz": "Muntazam malakasini oshiradigan xodimlar kamdan-kam almashtiriladi."
+    },
+    {
+      "level": "C1",
+      "topic": "Ish va karyera",
+      "word": "nepotism",
+      "phonetic": "/ˈnepətɪzəm/",
+      "partOfSpeech": "noun",
+      "translation": "qarindosh-urug'chilik",
+      "definitionEn": "the practice of giving jobs to relatives rather than to the best candidate",
+      "exampleEn": "Nepotism discourages talented young people from applying.",
+      "exampleUz": "Qarindosh-urug'chilik iqtidorli yoshlarni ariza berishdan qaytaradi."
+    },
+    {
       "level": "B2",
       "topic": "Madaniyat va ommaviy axborot",
       "word": "media",
@@ -2277,17 +2662,6 @@
       "definitionEn": "words on the screen that show what people are saying",
       "exampleEn": "Watching films with English subtitles improves your listening.",
       "exampleUz": "Ingliz subtitrlari bilan film ko'rish tinglash ko'nikmangizni yaxshilaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
-      "word": "heritage",
-      "phonetic": "/ˈherɪtɪdʒ/",
-      "partOfSpeech": "noun",
-      "translation": "meros",
-      "definitionEn": "the traditions, buildings and art passed down from the past",
-      "exampleEn": "Samarkand's cultural heritage attracts visitors from all over the world.",
-      "exampleUz": "Samarqandning madaniy merosi butun dunyodan tashrif buyuruvchilarni jalb qiladi."
     },
     {
       "level": "B2",
@@ -2325,17 +2699,6 @@
     {
       "level": "B2",
       "topic": "Madaniyat va ommaviy axborot",
-      "word": "identity",
-      "phonetic": "/aɪˈdentəti/",
-      "partOfSpeech": "noun",
-      "translation": "o'ziga xoslik, milliy qiyofa",
-      "definitionEn": "the qualities that make a person or group who they are",
-      "exampleEn": "Language lies at the heart of national identity.",
-      "exampleUz": "Til — milliy o'ziga xoslikning markazida turadi."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
       "word": "social media",
       "phonetic": "/ˌsəʊʃl ˈmiːdiə/",
       "partOfSpeech": "noun",
@@ -2343,17 +2706,6 @@
       "definitionEn": "websites and apps where people share content and messages",
       "exampleEn": "Social media spreads news far faster than television.",
       "exampleUz": "Ijtimoiy tarmoqlar yangiliklarni televidenidan ancha tez tarqatadi."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
-      "word": "viral",
-      "phonetic": "/ˈvaɪrəl/",
-      "partOfSpeech": "adjective",
-      "translation": "viral, tez tarqalgan",
-      "definitionEn": "spreading very quickly on the internet",
-      "exampleEn": "The video went viral within a few hours.",
-      "exampleUz": "Video bir necha soat ichida viral bo'lib ketdi."
     },
     {
       "level": "B2",
@@ -2376,28 +2728,6 @@
       "definitionEn": "watching or listening online without downloading a file",
       "exampleEn": "Streaming services have replaced the cinema for many families.",
       "exampleUz": "Onlayn efir xizmatlari ko'p oilalar uchun kinoteatr o'rnini bosdi."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
-      "word": "entertainment",
-      "phonetic": "/ˌentəˈteɪnmənt/",
-      "partOfSpeech": "noun",
-      "translation": "ko'ngilochar soha, o'yin-kulgi",
-      "definitionEn": "films, music and shows that people watch for enjoyment",
-      "exampleEn": "The entertainment industry employs thousands of young people.",
-      "exampleUz": "Ko'ngilochar soha minglab yoshni ish bilan ta'minlaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Madaniyat va ommaviy axborot",
-      "word": "publish",
-      "phonetic": "/ˈpʌblɪʃ/",
-      "partOfSpeech": "verb",
-      "translation": "chop etmoq, e'lon qilmoq",
-      "definitionEn": "to make information available to the public",
-      "exampleEn": "The newspaper published the story without checking it.",
-      "exampleUz": "Gazeta xabarni tekshirmasdan chop etdi."
     },
     {
       "level": "B2",
@@ -2433,26 +2763,103 @@
       "exampleUz": "Blogerlar ko'p o'smirlar uchun namunaga aylandi."
     },
     {
-      "level": "C1",
+      "level": "B2",
       "topic": "Madaniyat va ommaviy axborot",
-      "word": "stereotype",
-      "phonetic": "/ˈsteriətaɪp/",
+      "word": "influencer",
+      "phonetic": "/ˈɪnfluənsə/",
       "partOfSpeech": "noun",
-      "translation": "qolip, stereotip",
-      "definitionEn": "a fixed and often unfair idea about a group of people",
-      "exampleEn": "Films still reproduce old stereotypes about village life.",
-      "exampleUz": "Filmlar hamon qishloq hayoti haqidagi eski qoliplarni takrorlaydi."
+      "translation": "influenser, ta'sir ko'rsatuvchi bloger",
+      "definitionEn": "a person with many online followers who affects their choices",
+      "exampleEn": "Influencers now sell more than television advertising does.",
+      "exampleUz": "Influenserlar endi televizion reklamadan ko'proq sotadi."
     },
     {
-      "level": "C1",
+      "level": "B2",
       "topic": "Madaniyat va ommaviy axborot",
-      "word": "coverage",
-      "phonetic": "/ˈkʌvərɪdʒ/",
+      "word": "podcast",
+      "phonetic": "/ˈpɒdkɑːst/",
       "partOfSpeech": "noun",
-      "translation": "yoritilishi (matbuotda)",
-      "definitionEn": "the reporting of an event by newspapers or television",
-      "exampleEn": "The election received round-the-clock media coverage.",
-      "exampleUz": "Saylov ommaviy axborotda kechayu kunduz yoritildi."
+      "translation": "podkast",
+      "definitionEn": "a recorded programme you can listen to online",
+      "exampleEn": "Listening to podcasts on the bus improves your English.",
+      "exampleUz": "Avtobusda podkast tinglash ingliz tilingizni yaxshilaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "channel",
+      "phonetic": "/ˈtʃænl/",
+      "partOfSpeech": "noun",
+      "translation": "kanal",
+      "definitionEn": "a television station, or an account that publishes videos online",
+      "exampleEn": "The channel changed its style to attract younger viewers.",
+      "exampleUz": "Kanal yoshroq tomoshabinlarni jalb qilish uchun uslubini o'zgartirdi."
+    },
+    {
+      "level": "B2",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "series",
+      "phonetic": "/ˈsɪəriːz/",
+      "partOfSpeech": "noun",
+      "translation": "serial",
+      "definitionEn": "a set of television programmes with the same characters",
+      "exampleEn": "The historical series made young people read about the era.",
+      "exampleUz": "Tarixiy serial yoshlarni o'sha davr haqida o'qishga undadi."
+    },
+    {
+      "level": "B2",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "folk music",
+      "phonetic": "/ˈfəʊk ˌmjuːzɪk/",
+      "partOfSpeech": "noun",
+      "translation": "xalq musiqasi",
+      "definitionEn": "the traditional music of a particular people",
+      "exampleEn": "Folk music is being rediscovered by young musicians.",
+      "exampleUz": "Xalq musiqasini yosh musiqachilar qayta kashf qilmoqda."
+    },
+    {
+      "level": "B2",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "handicraft",
+      "phonetic": "/ˈhændikrɑːft/",
+      "partOfSpeech": "noun",
+      "translation": "hunarmandchilik buyumi",
+      "definitionEn": "an object made skilfully by hand",
+      "exampleEn": "Tourists buy handicrafts that support whole families.",
+      "exampleUz": "Sayyohlar butun oilalarni boqadigan hunarmandchilik buyumlarini sotib oladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "monument",
+      "phonetic": "/ˈmɒnjumənt/",
+      "partOfSpeech": "noun",
+      "translation": "yodgorlik",
+      "definitionEn": "an old building or statue of historical importance",
+      "exampleEn": "The monument was restored with international funding.",
+      "exampleUz": "Yodgorlik xalqaro mablag' hisobidan ta'mirlandi."
+    },
+    {
+      "level": "B2",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "generation gap",
+      "phonetic": "/ˌdʒenəˈreɪʃn ɡæp/",
+      "partOfSpeech": "noun",
+      "translation": "avlodlar farqi",
+      "definitionEn": "the difference in attitudes between older and younger people",
+      "exampleEn": "Social media has widened the generation gap in many families.",
+      "exampleUz": "Ijtimoiy tarmoqlar ko'p oilalarda avlodlar farqini kengaytirdi."
+    },
+    {
+      "level": "B2",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "cultural exchange",
+      "phonetic": "/ˌkʌltʃərəl ɪksˈtʃeɪndʒ/",
+      "partOfSpeech": "noun",
+      "translation": "madaniy almashinuv",
+      "definitionEn": "a programme in which people from different countries share their cultures",
+      "exampleEn": "Cultural exchange programmes break down old prejudices.",
+      "exampleUz": "Madaniy almashinuv dasturlari eski xurofotlarni yo'qotadi."
     },
     {
       "level": "C1",
@@ -2512,17 +2919,6 @@
     {
       "level": "C1",
       "topic": "Madaniyat va ommaviy axborot",
-      "word": "portray",
-      "phonetic": "/pɔːˈtreɪ/",
-      "partOfSpeech": "verb",
-      "translation": "tasvirlamoq",
-      "definitionEn": "to describe or show someone or something in a particular way",
-      "exampleEn": "Advertising portrays women in a very narrow way.",
-      "exampleUz": "Reklama ayollarni juda tor doirada tasvirlaydi."
-    },
-    {
-      "level": "C1",
-      "topic": "Madaniyat va ommaviy axborot",
       "word": "manipulate",
       "phonetic": "/məˈnɪpjuleɪt/",
       "partOfSpeech": "verb",
@@ -2567,17 +2963,6 @@
     {
       "level": "C1",
       "topic": "Madaniyat va ommaviy axborot",
-      "word": "mainstream",
-      "phonetic": "/ˈmeɪnstriːm/",
-      "partOfSpeech": "adjective",
-      "translation": "asosiy oqimga oid, ommabop",
-      "definitionEn": "accepted by or belonging to the majority of people",
-      "exampleEn": "Mainstream media ignored the protest for several days.",
-      "exampleUz": "Asosiy oqim ommaviy axboroti norozilikni bir necha kun e'tiborsiz qoldirdi."
-    },
-    {
-      "level": "C1",
-      "topic": "Madaniyat va ommaviy axborot",
       "word": "niche",
       "phonetic": "/niːʃ/",
       "partOfSpeech": "adjective",
@@ -2585,17 +2970,6 @@
       "definitionEn": "aimed at a small, specialised group of people",
       "exampleEn": "Streaming platforms have made niche content profitable.",
       "exampleUz": "Strim platformalari tor doiradagi kontentni foydali qildi."
-    },
-    {
-      "level": "C1",
-      "topic": "Madaniyat va ommaviy axborot",
-      "word": "endorse",
-      "phonetic": "/ɪnˈdɔːs/",
-      "partOfSpeech": "verb",
-      "translation": "ochiq qo'llab-quvvatlamoq, reklama qilmoq",
-      "definitionEn": "to say publicly that you support a product, person or idea",
-      "exampleEn": "Famous athletes endorse products they never use themselves.",
-      "exampleUz": "Mashhur sportchilar o'zlari hech ishlatmaydigan mahsulotlarni reklama qiladi."
     },
     {
       "level": "C1",
@@ -2629,6 +3003,83 @@
       "definitionEn": "to make something popular or active again",
       "exampleEn": "The festival has revived interest in traditional crafts.",
       "exampleUz": "Festival an'anaviy hunarlarga qiziqishni qayta jonlantirdi."
+    },
+    {
+      "level": "C1",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "clickbait",
+      "phonetic": "/ˈklɪkbeɪt/",
+      "partOfSpeech": "noun",
+      "translation": "chalg'ituvchi sarlavha",
+      "definitionEn": "an exaggerated headline written only to make people click on it",
+      "exampleEn": "Clickbait headlines rarely match the actual story.",
+      "exampleUz": "Chalg'ituvchi sarlavhalar kamdan-kam haqiqiy xabarga mos keladi."
+    },
+    {
+      "level": "C1",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "ritual",
+      "phonetic": "/ˈrɪtʃuəl/",
+      "partOfSpeech": "noun",
+      "translation": "marosim, an'anaviy odat",
+      "definitionEn": "a set of actions always performed in the same way on a special occasion",
+      "exampleEn": "Wedding rituals differ greatly between regions.",
+      "exampleUz": "To'y marosimlari mintaqalar o'rtasida keskin farq qiladi."
+    },
+    {
+      "level": "C1",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "multicultural",
+      "phonetic": "/ˌmʌltiˈkʌltʃərəl/",
+      "partOfSpeech": "adjective",
+      "translation": "ko'p madaniyatli",
+      "definitionEn": "including people of several different cultures",
+      "exampleEn": "A multicultural city needs schools that reflect its diversity.",
+      "exampleUz": "Ko'p madaniyatli shahar o'z rang-barangligini aks ettiradigan maktablarga muhtoj."
+    },
+    {
+      "level": "C1",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "westernisation",
+      "phonetic": "/ˌwestənaɪˈzeɪʃn/",
+      "partOfSpeech": "noun",
+      "translation": "g'arblashuv",
+      "definitionEn": "the process of becoming more like Western countries in culture",
+      "exampleEn": "Older people see westernisation as a threat to tradition.",
+      "exampleUz": "Keksalar g'arblashuvni an'anaga tahdid deb biladi."
+    },
+    {
+      "level": "C1",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "dubbing",
+      "phonetic": "/ˈdʌbɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "dublyaj",
+      "definitionEn": "the replacing of the original voices in a film with another language",
+      "exampleEn": "Poor dubbing spoils even the best film.",
+      "exampleUz": "Yomon dublyaj hatto eng yaxshi filmni ham buzadi."
+    },
+    {
+      "level": "C1",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "hype",
+      "phonetic": "/haɪp/",
+      "partOfSpeech": "noun",
+      "translation": "shov-shuvli reklama",
+      "definitionEn": "exaggerated publicity intended to create excitement",
+      "exampleEn": "The film failed to live up to the hype.",
+      "exampleUz": "Film shov-shuvli reklamani oqlay olmadi."
+    },
+    {
+      "level": "C1",
+      "topic": "Madaniyat va ommaviy axborot",
+      "word": "trivialise",
+      "phonetic": "/ˈtrɪviəlaɪz/",
+      "partOfSpeech": "verb",
+      "translation": "arzimas qilib ko'rsatmoq",
+      "definitionEn": "to make something seem less serious or important than it really is",
+      "exampleEn": "Short videos trivialise complex political issues.",
+      "exampleUz": "Qisqa videolar murakkab siyosiy masalalarni arzimas qilib ko'rsatadi."
     },
     {
       "level": "B2",
@@ -2765,28 +3216,6 @@
     {
       "level": "B2",
       "topic": "Global muammolar",
-      "word": "donate",
-      "phonetic": "/dəʊˈneɪt/",
-      "partOfSpeech": "verb",
-      "translation": "ehson qilmoq, xayriya qilmoq",
-      "definitionEn": "to give money or goods in order to help others",
-      "exampleEn": "Local companies donated money to rebuild the school.",
-      "exampleUz": "Mahalliy kompaniyalar maktabni qayta qurish uchun pul ehson qildi."
-    },
-    {
-      "level": "B2",
-      "topic": "Global muammolar",
-      "word": "tackle",
-      "phonetic": "/ˈtækl/",
-      "partOfSpeech": "verb",
-      "translation": "hal qilishga kirishmoq, kurashmoq",
-      "definitionEn": "to make a determined effort to deal with a problem",
-      "exampleEn": "No single country can tackle climate change alone.",
-      "exampleUz": "Hech bir davlat iqlim o'zgarishi bilan yolg'iz kurasha olmaydi."
-    },
-    {
-      "level": "B2",
-      "topic": "Global muammolar",
       "word": "cooperation",
       "phonetic": "/kəʊˌɒpəˈreɪʃn/",
       "partOfSpeech": "noun",
@@ -2794,6 +3223,83 @@
       "definitionEn": "the act of working together towards the same goal",
       "exampleEn": "International cooperation is essential for sharing water fairly.",
       "exampleUz": "Suvni adolatli taqsimlash uchun xalqaro hamkorlik zarur."
+    },
+    {
+      "level": "B2",
+      "topic": "Global muammolar",
+      "word": "starvation",
+      "phonetic": "/stɑːˈveɪʃn/",
+      "partOfSpeech": "noun",
+      "translation": "ochlikdan azob chekish",
+      "definitionEn": "suffering or death caused by having no food",
+      "exampleEn": "Thousands died of starvation before aid finally arrived.",
+      "exampleUz": "Yordam nihoyat yetib kelguncha minglab odam ochlikdan halok bo'ldi."
+    },
+    {
+      "level": "B2",
+      "topic": "Global muammolar",
+      "word": "homeless",
+      "phonetic": "/ˈhəʊmləs/",
+      "partOfSpeech": "adjective",
+      "translation": "uy-joysiz",
+      "definitionEn": "having nowhere to live",
+      "exampleEn": "The earthquake left forty thousand people homeless.",
+      "exampleUz": "Zilzila qirq ming kishini uy-joysiz qoldirdi."
+    },
+    {
+      "level": "B2",
+      "topic": "Global muammolar",
+      "word": "slum",
+      "phonetic": "/slʌm/",
+      "partOfSpeech": "noun",
+      "translation": "qashshoq mahalla",
+      "definitionEn": "a very poor and crowded area of a city",
+      "exampleEn": "A billion people worldwide still live in slums.",
+      "exampleUz": "Dunyoda bir milliard odam hamon qashshoq mahallalarda yashaydi."
+    },
+    {
+      "level": "B2",
+      "topic": "Global muammolar",
+      "word": "child labour",
+      "phonetic": "/ˌtʃaɪld ˈleɪbə/",
+      "partOfSpeech": "noun",
+      "translation": "bolalar mehnati",
+      "definitionEn": "the use of children as workers",
+      "exampleEn": "Cheap clothes are often produced using child labour.",
+      "exampleUz": "Arzon kiyimlar ko'pincha bolalar mehnati yordamida ishlab chiqariladi."
+    },
+    {
+      "level": "B2",
+      "topic": "Global muammolar",
+      "word": "developed country",
+      "phonetic": "/dɪˌveləpt ˈkʌntri/",
+      "partOfSpeech": "noun",
+      "translation": "rivojlangan mamlakat",
+      "definitionEn": "a rich country with an advanced economy",
+      "exampleEn": "Developed countries produced most of the historic emissions.",
+      "exampleUz": "Rivojlangan mamlakatlar tarixiy chiqindilarning ko'p qismini ishlab chiqargan."
+    },
+    {
+      "level": "B2",
+      "topic": "Global muammolar",
+      "word": "border",
+      "phonetic": "/ˈbɔːdə/",
+      "partOfSpeech": "noun",
+      "translation": "chegara",
+      "definitionEn": "the line that divides two countries",
+      "exampleEn": "Closing the border hurt traders on both sides.",
+      "exampleUz": "Chegarani yopish ikkala tomondagi savdogarlarga zarar keltirdi."
+    },
+    {
+      "level": "B2",
+      "topic": "Global muammolar",
+      "word": "gender equality",
+      "phonetic": "/ˌdʒendər ɪˈkwɒləti/",
+      "partOfSpeech": "noun",
+      "translation": "gender tengligi",
+      "definitionEn": "the state of men and women having the same rights and chances",
+      "exampleEn": "Gender equality in employment is still a long way off.",
+      "exampleUz": "Bandlikda gender tengligi hali ancha uzoqda."
     },
     {
       "level": "C1",
@@ -2838,17 +3344,6 @@
       "definitionEn": "the loss of skilled people who move abroad to work",
       "exampleEn": "The brain drain has left hospitals short of surgeons.",
       "exampleUz": "Miyalar oqimi shifoxonalarni jarrohsiz qoldirdi."
-    },
-    {
-      "level": "C1",
-      "topic": "Global muammolar",
-      "word": "disparity",
-      "phonetic": "/dɪˈspærəti/",
-      "partOfSpeech": "noun",
-      "translation": "tafovut, keskin farq",
-      "definitionEn": "a great difference between two things, especially an unfair one",
-      "exampleEn": "There is a huge disparity in income between the regions.",
-      "exampleUz": "Mintaqalar o'rtasida daromadda ulkan tafovut bor."
     },
     {
       "level": "C1",
@@ -2952,17 +3447,6 @@
     {
       "level": "C1",
       "topic": "Global muammolar",
-      "word": "consensus",
-      "phonetic": "/kənˈsensəs/",
-      "partOfSpeech": "noun",
-      "translation": "umumiy kelishuv, yakdillik",
-      "definitionEn": "general agreement among the members of a group",
-      "exampleEn": "There is a clear scientific consensus on human-made warming.",
-      "exampleUz": "Inson keltirib chiqargan isish bo'yicha aniq ilmiy yakdillik mavjud."
-    },
-    {
-      "level": "C1",
-      "topic": "Global muammolar",
       "word": "grassroots",
       "phonetic": "/ˌɡrɑːsˈruːts/",
       "partOfSpeech": "adjective",
@@ -2970,17 +3454,6 @@
       "definitionEn": "involving ordinary people rather than leaders or officials",
       "exampleEn": "Grassroots movements often achieve what governments cannot.",
       "exampleUz": "Quyi bo'g'indagi harakatlar ko'pincha hukumatlar qo'lidan kelmaganini uddalaydi."
-    },
-    {
-      "level": "C1",
-      "topic": "Global muammolar",
-      "word": "exacerbate",
-      "phonetic": "/ɪɡˈzæsəbeɪt/",
-      "partOfSpeech": "verb",
-      "translation": "battar qilmoq, keskinlashtirmoq",
-      "definitionEn": "to make a bad situation even worse",
-      "exampleEn": "Rising prices exacerbate existing inequality.",
-      "exampleUz": "Narxlarning oshishi mavjud tengsizlikni battar qiladi."
     },
     {
       "level": "C1",
@@ -2996,17 +3469,6 @@
     {
       "level": "C1",
       "topic": "Global muammolar",
-      "word": "trade-off",
-      "phonetic": "/ˈtreɪd ɒf/",
-      "partOfSpeech": "noun",
-      "translation": "murosa, birini boshqasi hisobiga yo'qotish",
-      "definitionEn": "a balance between two things that you cannot have fully at the same time",
-      "exampleEn": "There is always a trade-off between economic growth and the environment.",
-      "exampleUz": "Iqtisodiy o'sish va atrof-muhit o'rtasida doim murosa bo'ladi."
-    },
-    {
-      "level": "C1",
-      "topic": "Global muammolar",
       "word": "vulnerable",
       "phonetic": "/ˈvʌlnərəbl/",
       "partOfSpeech": "adjective",
@@ -3014,6 +3476,50 @@
       "definitionEn": "easily harmed and in need of special protection",
       "exampleEn": "Aid should reach the most vulnerable families first.",
       "exampleUz": "Yordam avvalo eng himoyasiz oilalarga yetib borishi kerak."
+    },
+    {
+      "level": "C1",
+      "topic": "Global muammolar",
+      "word": "peacekeeping",
+      "phonetic": "/ˈpiːskiːpɪŋ/",
+      "partOfSpeech": "noun",
+      "translation": "tinchlikni saqlash",
+      "definitionEn": "the work of preventing fighting between countries or groups",
+      "exampleEn": "A peacekeeping force was sent to the border region.",
+      "exampleUz": "Chegara mintaqasiga tinchlikni saqlash kuchlari yuborildi."
+    },
+    {
+      "level": "C1",
+      "topic": "Global muammolar",
+      "word": "asylum",
+      "phonetic": "/əˈsaɪləm/",
+      "partOfSpeech": "noun",
+      "translation": "boshpana (siyosiy)",
+      "definitionEn": "protection given by a country to someone who has fled danger",
+      "exampleEn": "Families who flee war may apply for asylum.",
+      "exampleUz": "Urushdan qochgan oilalar boshpana so'rab murojaat qilishi mumkin."
+    },
+    {
+      "level": "C1",
+      "topic": "Global muammolar",
+      "word": "protectionism",
+      "phonetic": "/prəˈtekʃənɪzəm/",
+      "partOfSpeech": "noun",
+      "translation": "proteksionizm",
+      "definitionEn": "the policy of protecting home industry by taxing goods from abroad",
+      "exampleEn": "Protectionism saves some jobs but raises prices for everyone.",
+      "exampleUz": "Proteksionizm ba'zi ish o'rinlarini saqlaydi, lekin hamma uchun narxni oshiradi."
+    },
+    {
+      "level": "C1",
+      "topic": "Global muammolar",
+      "word": "interdependence",
+      "phonetic": "/ˌɪntədɪˈpendəns/",
+      "partOfSpeech": "noun",
+      "translation": "o'zaro bog'liqlik",
+      "definitionEn": "a situation in which countries or people depend on each other",
+      "exampleEn": "The pandemic revealed the interdependence of world supply chains.",
+      "exampleUz": "Pandemiya jahon ta'minot zanjirlarining o'zaro bog'liqligini ko'rsatdi."
     }
   ]
 }

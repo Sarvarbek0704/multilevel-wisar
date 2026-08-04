@@ -110,7 +110,12 @@ function segmentTranscript(transcript) {
   );
 }
 
-const MAX_CHUNK_CHARS = 800;
+/**
+ * Edge TTS uzun so'rovlarda oqimni yarmida uzib qo'yadi ("no turn.end received").
+ * 450 belgi — ishonchli ishlaydigan hajm; ko'proq so'rov ketadi, lekin har biri
+ * oxirigacha yetadi.
+ */
+const MAX_CHUNK_CHARS = 450;
 
 /** Matnni gap (yoki so'z) chegarasida ~maxLen belgili bo'laklarga bo'lish. */
 function splitIntoChunks(text, maxLen) {

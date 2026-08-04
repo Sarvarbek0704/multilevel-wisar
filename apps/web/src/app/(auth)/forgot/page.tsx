@@ -76,7 +76,7 @@ export default function ForgotPasswordPage() {
   };
 
   return (
-    <div className="flex flex-1 flex-col px-5 pb-8 pt-6">
+    <div className="mx-auto flex w-full max-w-[430px] flex-1 flex-col px-5 pb-8 pt-6 lg:justify-center lg:pt-0">
       {step === 'email' && (
         <>
           <h1 className="font-display text-5xl font-bold tracking-tighter">Parolni tiklash</h1>

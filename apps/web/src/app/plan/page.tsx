@@ -12,7 +12,7 @@ import type { ActivePlan, PlanTask } from '@/lib/types';
 
 export default function PlanPage() {
   return (
-    <AppFrame>
+    <AppFrame width="wide">
       <PlanContent />
     </AppFrame>
   );
@@ -49,7 +49,7 @@ function PlanContent() {
 
   if (!data) {
     return (
-      <div className="px-5 pb-8 pt-4">
+      <div className="px-5 pb-8 pt-4 lg:px-8 lg:pt-8">
         <h1 className="font-display text-4xl font-bold tracking-tighter">O‘quv reja</h1>
         <div className="mt-6 border border-line-3 bg-surface p-5">
           <HatchPlaceholder />
@@ -83,7 +83,7 @@ function PlanContent() {
   });
 
   return (
-    <div className="px-5 pb-8 pt-4">
+    <div className="px-5 pb-8 pt-4 lg:px-8 lg:pt-8">
       <h1 className="font-display text-4xl font-bold tracking-tighter">O‘quv reja</h1>
       <p className="mt-1.5 text-base text-ink-3">
         {data.plan.startLevel} → {data.plan.targetLevel}

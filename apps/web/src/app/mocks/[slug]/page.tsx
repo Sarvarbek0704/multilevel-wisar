@@ -66,7 +66,7 @@ function MockStartContent() {
   const totalMinutes = data.sections.reduce((sum, section) => sum + section.durationMinutes, 0);
 
   return (
-    <div className="px-5 pb-8 pt-4">
+    <div className="mx-auto w-full max-w-[680px] px-5 pb-8 pt-4 lg:pt-8">
       <button onClick={() => router.push('/mocks')} className="flex items-center gap-2 text-ink-4">
         <ArrowLeft size={18} />
         <span className="text-base">Mocklar</span>

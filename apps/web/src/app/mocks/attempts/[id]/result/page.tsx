@@ -57,7 +57,7 @@ export default function ResultPage() {
     data.evaluations.find((evaluation) => evaluation.questionId === questionId);
 
   return (
-    <div className="pb-10">
+    <div className="mx-auto w-full max-w-[900px] pb-10">
       <header className="flex items-center gap-3 px-5 pt-4">
         <button onClick={() => router.push('/mocks')} aria-label="Orqaga">
           <ArrowLeft size={20} />
@@ -71,7 +71,7 @@ export default function ResultPage() {
       </header>
 
       {/* Katta natija kartasi */}
-      <div className="mx-5 mt-4 bg-panel p-5 text-on-dark">
+      <div className="mx-5 mt-4 bg-panel p-5 text-on-dark lg:mx-8 lg:p-8">
         <p className="text-2xs tracking-label text-on-dark-4">UMUMIY BALL</p>
         <div className="mt-1.5 flex items-end justify-between gap-3">
           <p className="font-display text-8xl font-bold tracking-tightest">

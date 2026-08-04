@@ -35,10 +35,18 @@ export function SocialButtons({
   const telegramSlot = useRef<HTMLDivElement>(null);
   const googleSlot = useRef<HTMLDivElement>(null);
   const [googleReady, setGoogleReady] = useState(false);
+  // Vidjet faqat @BotFather'da /setdomain qilingan domenda ishlaydi.
+  // localhost'da u "Bot domain invalid" chiqaradi — shuning uchun tugmaga tushamiz.
+  const [widgetUsable, setWidgetUsable] = useState(false);
+
+  useEffect(() => {
+    const host = window.location.hostname;
+    setWidgetUsable(host !== 'localhost' && host !== '127.0.0.1' && !host.endsWith('.local'));
+  }, []);
 
   // Telegram Login Widget — rasmiy skript, callback global funksiyaga keladi
   useEffect(() => {
-    if (!BOT_USERNAME || !telegramSlot.current) return;
+    if (!BOT_USERNAME || !widgetUsable || !telegramSlot.current) return;
 
     window.onTelegramAuth = async (user) => {
       try {
@@ -63,7 +71,7 @@ export function SocialButtons({
     return () => {
       delete window.onTelegramAuth;
     };
-  }, [signIn, onSuccess, onError]);
+  }, [signIn, onSuccess, onError, widgetUsable]);
 
   useEffect(() => {
     if (!googleReady || !GOOGLE_CLIENT_ID || !googleSlot.current || !window.google) return;
@@ -91,15 +99,17 @@ export function SocialButtons({
 
   return (
     <div className="flex flex-col gap-2.5">
-      {BOT_USERNAME ? (
-        <div ref={telegramSlot} className="[&>iframe]:!w-full" />
+      {BOT_USERNAME && widgetUsable ? (
+        <div ref={telegramSlot} className="flex justify-center [&>iframe]:!w-full" />
       ) : (
         <a
-          href="https://t.me/sf_multilevel_bot"
+          href={`https://t.me/${BOT_USERNAME || 'sf_multilevel_bot'}`}
+          target="_blank"
+          rel="noreferrer"
           className="flex items-center justify-center gap-2.5 bg-telegram py-3.5 font-display text-md font-semibold text-white"
         >
           <TelegramIcon size={18} />
-          Telegram bilan davom etish
+          Telegram bot orqali boshlash
         </a>
       )}
 

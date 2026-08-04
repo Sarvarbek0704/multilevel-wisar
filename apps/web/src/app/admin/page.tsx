@@ -39,7 +39,7 @@ interface AdminUser {
 
 export default function AdminPage() {
   return (
-    <AppFrame>
+    <AppFrame width="wide">
       <AdminContent />
     </AppFrame>
   );
@@ -57,7 +57,7 @@ function AdminContent() {
   if (!user || user.role !== 'ADMIN') return null;
 
   return (
-    <div className="px-5 pb-8 pt-4">
+    <div className="px-5 pb-8 pt-4 lg:px-8 lg:pt-8">
       <h1 className="font-display text-4xl font-bold tracking-tighter">Admin</h1>
       <p className="mt-1.5 text-base text-ink-3">Kontent, foydalanuvchilar va AI navbati.</p>
 

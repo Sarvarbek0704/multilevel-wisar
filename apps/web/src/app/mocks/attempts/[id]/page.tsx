@@ -151,8 +151,8 @@ function ExamRunner({ attempt }: { attempt: AttemptForTaking }) {
   return (
     <div className="flex flex-1 flex-col overflow-hidden">
       {/* Header */}
-      <header className="shrink-0 bg-panel px-4 pb-3 pt-2.5 text-on-dark">
-        <div className="flex items-end justify-between">
+      <header className="shrink-0 bg-panel px-4 pb-3 pt-2.5 text-on-dark lg:px-8 lg:py-4">
+        <div className="mx-auto flex max-w-[1100px] items-end justify-between">
           <div>
             <p className="text-2xs tracking-label text-on-dark-4">
               BO‘LIM {sectionIndex + 1} / {sections.length}
@@ -176,7 +176,7 @@ function ExamRunner({ attempt }: { attempt: AttemptForTaking }) {
       </header>
 
       {/* Savol navigatsiyasi */}
-      <div className="flex shrink-0 flex-wrap gap-1 border-b border-line px-3 py-2.5">
+      <div className="mx-auto flex w-full max-w-[1100px] shrink-0 flex-wrap gap-1 border-b border-line px-3 py-2.5 lg:px-8">
         {questions.map(({ question }, index) => {
           const answered = answers[question.id] !== undefined;
           const flagged = flags.has(question.id);
@@ -202,7 +202,7 @@ function ExamRunner({ attempt }: { attempt: AttemptForTaking }) {
       </div>
 
       {/* Kontent */}
-      <div className="flex-1 overflow-y-auto px-5 pb-6 pt-4">
+      <div className="mx-auto w-full max-w-[1100px] flex-1 overflow-y-auto px-5 pb-6 pt-4 lg:px-8">
         {section.skill === 'LISTENING' && current && (
           <ListeningView
             part={current.part}
@@ -246,8 +246,8 @@ function ExamRunner({ attempt }: { attempt: AttemptForTaking }) {
       </div>
 
       {/* Footer */}
-      <div className="shrink-0 border-t border-line px-4 pb-4 pt-3">
-        <div className="flex gap-2">
+      <div className="shrink-0 border-t border-line px-4 pb-4 pt-3 lg:px-8">
+        <div className="mx-auto flex max-w-[1100px] gap-2">
           {questionIndex > 0 && (
             <Button
               variant="secondary"
@@ -388,32 +388,33 @@ function ReadingView({
 }) {
   const [open, setOpen] = useState(true);
 
+  // Desktopda chapda matn, o'ngda savollar — imtihondagi split-view
   return (
-    <>
+    <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
       {part.passageText && (
-        <div className="border border-line">
+        <div className="border border-line lg:sticky lg:top-0 lg:max-h-[calc(100dvh-260px)] lg:overflow-hidden">
           <button
             onClick={() => setOpen(!open)}
-            className="flex w-full items-center justify-between bg-surface-alt px-4 py-2.5"
+            className="flex w-full items-center justify-between bg-surface-alt px-4 py-2.5 lg:cursor-default"
           >
             <span className="text-sm font-semibold uppercase tracking-wide text-ink-3">
               {part.titleUz ?? part.titleEn ?? 'PASSAGE'}
             </span>
-            <span className="text-lg text-ink-4">{open ? '−' : '+'}</span>
+            <span className="text-lg text-ink-4 lg:hidden">{open ? '−' : '+'}</span>
           </button>
-          {open && (
-            <div className="max-h-[40vh] overflow-y-auto bg-surface p-4">
-              {part.passageText.split(/\n{2,}/).map((paragraph, index) => (
-                <p key={index} className="mt-3 text-md leading-relaxed text-ink-2 first:mt-0">
-                  {paragraph}
-                </p>
-              ))}
-            </div>
-          )}
+          <div
+            className={`${open ? 'block' : 'hidden'} max-h-[40vh] overflow-y-auto bg-surface p-4 lg:block lg:max-h-[calc(100dvh-320px)]`}
+          >
+            {part.passageText.split(/\n{2,}/).map((paragraph, index) => (
+              <p key={index} className="mt-3 text-md leading-relaxed text-ink-2 first:mt-0">
+                {paragraph}
+              </p>
+            ))}
+          </div>
         </div>
       )}
 
-      <div className="mt-5 flex flex-col gap-6">
+      <div className="mt-5 flex flex-col gap-6 lg:mt-0">
         {part.questions.map((question) => (
           <div
             key={question.id}
@@ -430,7 +431,7 @@ function ReadingView({
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

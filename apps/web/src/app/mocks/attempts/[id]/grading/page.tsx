@@ -53,7 +53,7 @@ export default function GradingPage() {
   );
 
   return (
-    <div className="flex flex-1 flex-col items-center px-6 pb-10 pt-20 text-center">
+    <div className="mx-auto flex w-full max-w-[520px] flex-1 flex-col items-center px-6 pb-10 pt-20 text-center">
       <h1 className="font-display text-3xl font-bold tracking-tight">
         Natijalar hisoblanmoqda
       </h1>

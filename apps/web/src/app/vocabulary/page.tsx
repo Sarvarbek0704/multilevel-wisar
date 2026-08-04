@@ -10,7 +10,7 @@ import type { VocabStats, VocabTopic } from '@/lib/types';
 
 export default function VocabularyPage() {
   return (
-    <AppFrame>
+    <AppFrame width="wide">
       <VocabularyContent />
     </AppFrame>
   );
@@ -47,7 +47,7 @@ function VocabularyContent() {
   const data = stats.data;
 
   return (
-    <div className="px-5 pb-6 pt-4">
+    <div className="px-5 pb-6 pt-4 lg:px-8 lg:pt-8">
       <h1 className="font-display text-4xl font-bold tracking-tighter">Lug‘at</h1>
       <p className="mt-1.5 text-base text-ink-3">
         Har so‘z unutilishga yaqin paytda qaytadan chiqadi.

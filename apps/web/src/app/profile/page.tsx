@@ -45,7 +45,7 @@ function ProfileContent() {
   if (!user) return null;
 
   return (
-    <div className="px-5 pb-8 pt-5">
+    <div className="px-5 pb-8 pt-5 lg:px-8 lg:pt-8">
       <div className="flex items-center gap-3.5">
         <span className="flex h-[52px] w-[52px] items-center justify-center bg-ink font-display text-2xl font-semibold text-bg">
           {initials(user.firstName, user.lastName)}

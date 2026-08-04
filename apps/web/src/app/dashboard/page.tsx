@@ -22,7 +22,7 @@ import type { ActivePlan, DashboardResponse, HeatmapDay, PlanTask } from '@/lib/
 
 export default function DashboardPage() {
   return (
-    <AppFrame>
+    <AppFrame width="wide">
       <DashboardContent />
     </AppFrame>
   );
@@ -63,7 +63,7 @@ function DashboardContent() {
   const hasPlan = todayTasks.length > 0;
 
   return (
-    <div className="px-5 pb-6 pt-2">
+    <div className="px-5 pb-6 pt-2 lg:px-8 lg:pt-8">
       {/* Salomlashish */}
       <div className="flex items-start justify-between">
         <div>
@@ -91,6 +91,9 @@ function DashboardContent() {
         </Link>
       </div>
 
+      {/* Desktopda ikki ustun: chapda kunlik holat, o'ngda reja va CTA'lar */}
+      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start lg:gap-6">
+      <div>
       {/* Streak + kunlik maqsad */}
       <div className="mt-6 flex border border-line">
         <div className="w-[118px] border-r border-line p-4">
@@ -136,9 +139,22 @@ function DashboardContent() {
         </div>
       </Card>
 
+      {/* Faollik */}
+      {heatmap.data && heatmap.data.length > 0 && (
+        <section className="mt-7">
+          <SectionLabel>FAOLLIK</SectionLabel>
+          <div className="mt-3">
+            <Heatmap days={heatmap.data} />
+          </div>
+        </section>
+      )}
+      </div>
+
+      {/* O'ng ustun (desktop) */}
+      <div className="lg:sticky lg:top-8">
       {/* Bugungi reja */}
       {hasPlan ? (
-        <section className="mt-7">
+        <section className="mt-7 lg:mt-6">
           <div className="flex items-baseline justify-between">
             <SectionLabel>BUGUNGI REJA</SectionLabel>
             <span className="text-sm text-ink-4">
@@ -214,15 +230,8 @@ function DashboardContent() {
         </Link>
       )}
 
-      {/* Faollik */}
-      {heatmap.data && heatmap.data.length > 0 && (
-        <section className="mt-7">
-          <SectionLabel>FAOLLIK</SectionLabel>
-          <div className="mt-3">
-            <Heatmap days={heatmap.data} />
-          </div>
-        </section>
-      )}
+      </div>
+      </div>
     </div>
   );
 }

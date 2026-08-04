@@ -12,7 +12,7 @@ const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
 export default function CoursesPage() {
   return (
-    <AppFrame>
+    <AppFrame width="wide">
       <CoursesContent />
     </AppFrame>
   );
@@ -34,7 +34,7 @@ function CoursesContent() {
     .sort((a, b) => LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level));
 
   return (
-    <div className="px-5 pb-6 pt-4">
+    <div className="px-5 pb-6 pt-4 lg:px-8 lg:pt-8">
       <h1 className="font-display text-4xl font-bold tracking-tighter">Kurslar</h1>
       <p className="mt-1.5 text-base text-ink-3">Hammasi ochiq — istagan joydan boshlang.</p>
 
@@ -49,7 +49,7 @@ function CoursesContent() {
       />
 
       {courses.isLoading ? (
-        <div className="mt-5 flex flex-col gap-2">
+        <div className="mt-5 grid gap-2 sm:grid-cols-2">
           <Skeleton className="h-24 w-full" />
           <Skeleton className="h-24 w-full" />
           <Skeleton className="h-24 w-full" />
@@ -58,7 +58,7 @@ function CoursesContent() {
         <p className="mt-8 text-ui text-ink-4">Bu fan uchun kurslar hali qo‘shilmagan.</p>
       ) : (
         <>
-          <div className="mt-5 flex flex-col gap-2">
+          <div className="mt-5 grid gap-2 sm:grid-cols-2">
             {ladder.map((course) => (
               <CourseCard key={course.id} course={course} />
             ))}
@@ -67,7 +67,7 @@ function CoursesContent() {
           {special.length > 0 && (
             <section className="mt-7">
               <SectionLabel>ALOHIDA</SectionLabel>
-              <div className="mt-3 flex flex-col gap-2">
+              <div className="mt-3 grid gap-2 sm:grid-cols-2">
                 {special.map((course) => (
                   <CourseCard key={course.id} course={course} accent />
                 ))}

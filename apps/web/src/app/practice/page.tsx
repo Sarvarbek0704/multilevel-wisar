@@ -34,7 +34,7 @@ function PracticeContent() {
   const [tab, setTab] = useState<Tab>('writing');
 
   return (
-    <div className="px-5 pb-8 pt-4">
+    <div className="px-5 pb-8 pt-4 lg:px-8 lg:pt-8">
       <h1 className="font-display text-4xl font-bold tracking-tighter">AI amaliyot</h1>
       <p className="mt-1.5 text-base leading-relaxed text-ink-3">
         Writing yoki Speaking javobingizni yuboring — AI rasmiy mezonlar bo‘yicha baholab,

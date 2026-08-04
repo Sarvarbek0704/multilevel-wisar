@@ -76,7 +76,7 @@ export default function OnboardingPage() {
   };
 
   return (
-    <div className="flex flex-1 flex-col">
+    <div className="mx-auto flex w-full max-w-[480px] flex-1 flex-col">
       <header className="flex items-center gap-3 px-5 pt-4">
         <button
           onClick={() => (step === 0 ? router.push('/dashboard') : setStep(step - 1))}

@@ -106,7 +106,7 @@ export function AuthScreen({ mode }: { mode: 'login' | 'register' }) {
 
   if (step === 'otp' && sent) {
     return (
-      <div className="flex flex-1 flex-col px-5 pb-8 pt-6">
+      <div className="mx-auto flex w-full max-w-[430px] flex-1 flex-col px-5 pb-8 pt-6 lg:justify-center lg:pt-0">
         <OtpStep
           sent={sent}
           onVerify={verifyOtp}
@@ -125,7 +125,7 @@ export function AuthScreen({ mode }: { mode: 'login' | 'register' }) {
 
   if (step === 'botContact' && botContact) {
     return (
-      <div className="flex flex-1 flex-col px-5 pb-8 pt-6">
+      <div className="mx-auto flex w-full max-w-[430px] flex-1 flex-col px-5 pb-8 pt-6 lg:justify-center lg:pt-0">
         <h1 className="font-display text-4xl font-bold tracking-tighter">
           Raqamni Telegram bot orqali tasdiqlaymiz
         </h1>
@@ -175,7 +175,7 @@ export function AuthScreen({ mode }: { mode: 'login' | 'register' }) {
   const isRegister = mode === 'register';
 
   return (
-    <div className="flex flex-1 flex-col px-5 pb-8 pt-6">
+    <div className="mx-auto flex w-full max-w-[430px] flex-1 flex-col px-5 pb-8 pt-6 lg:justify-center lg:pt-0">
       <Link href="/" className="mb-9 flex items-baseline gap-1">
         <span className="font-display text-[17px] font-bold tracking-tight">multilevel</span>
         <span className="text-sm text-ink-4">.wisar.uz</span>

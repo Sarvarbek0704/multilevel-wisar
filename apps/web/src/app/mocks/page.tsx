@@ -18,7 +18,7 @@ const KINDS: Array<{ value: MockKind | 'ALL'; label: string }> = [
 
 export default function MocksPage() {
   return (
-    <AppFrame>
+    <AppFrame width="wide">
       <MocksContent />
     </AppFrame>
   );
@@ -45,7 +45,7 @@ function MocksContent() {
   const scored = (attempts.data ?? []).filter((attempt) => attempt.status === 'SCORED');
 
   return (
-    <div className="px-5 pb-6 pt-4">
+    <div className="px-5 pb-6 pt-4 lg:px-8 lg:pt-8">
       <h1 className="font-display text-4xl font-bold tracking-tighter">Mock imtihonlar</h1>
       <p className="mt-1.5 text-base text-ink-3">Haqiqiy format, haqiqiy vaqt, AI baholash.</p>
 
@@ -90,14 +90,14 @@ function MocksContent() {
       )}
 
       {mocks.isLoading ? (
-        <div className="mt-5 flex flex-col gap-2">
+        <div className="mt-5 grid gap-2 sm:grid-cols-2">
           <Skeleton className="h-24 w-full" />
           <Skeleton className="h-24 w-full" />
         </div>
       ) : (mocks.data ?? []).length === 0 ? (
         <p className="mt-8 text-ui text-ink-4">Bu bo‘limda imtihonlar hali yo‘q.</p>
       ) : (
-        <div className="mt-5 flex flex-col gap-2">
+        <div className="mt-5 grid gap-2 sm:grid-cols-2">
           {mocks.data?.map((mock) => (
             <MockCard key={mock.id} mock={mock} />
           ))}

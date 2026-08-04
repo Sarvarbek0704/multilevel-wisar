@@ -59,8 +59,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-desk">
         <Providers>
-          {/* Dizayn 390px kenglikda chizilgan; kattaroq ekranda markazda ushlab turamiz */}
-          <div className="mx-auto flex min-h-dvh max-w-phone flex-col bg-bg shadow-frame sm:my-0 sm:border-x sm:border-line-3">
+          {/*
+            Dizayn 390px da chizilgan. Planshetgacha shu ramkani markazda ushlaymiz,
+            lg dan boshlab esa to'liq kenglikka chiqamiz — desktopda yon panel bilan
+            haqiqiy layout ishlaydi.
+          */}
+          <div className="mx-auto flex min-h-dvh max-w-phone flex-col bg-bg shadow-frame sm:border-x sm:border-line-3 lg:max-w-none lg:border-x-0 lg:shadow-none">
             {children}
           </div>
         </Providers>

@@ -66,7 +66,7 @@ export default function LessonPage() {
     <div className="flex flex-1 flex-col overflow-hidden">
       {/* Sticky header */}
       <header className="shrink-0 border-b border-line bg-bg">
-        <div className="flex items-center gap-3 px-4 py-2.5">
+        <div className="mx-auto flex w-full max-w-[720px] items-center gap-3 px-4 py-2.5">
           <button
             onClick={() => (stepIndex === 0 ? router.back() : setStepIndex(stepIndex - 1))}
             aria-label="Orqaga"
@@ -93,7 +93,7 @@ export default function LessonPage() {
       </header>
 
       {/* Kontent */}
-      <div className="flex-1 overflow-y-auto px-5 pb-8 pt-6">
+      <div className="mx-auto w-full max-w-[720px] flex-1 overflow-y-auto px-5 pb-8 pt-6 lg:pt-10">
         {step?.kind === 'content' && (
           <LessonContentBlock block={data.contentJson[step.index]} />
         )}
@@ -109,7 +109,7 @@ export default function LessonPage() {
       </div>
 
       {/* Footer */}
-      <div className="shrink-0 border-t border-line px-4 pb-4 pt-3.5">
+      <div className="shrink-0 border-t border-line px-4 pb-4 pt-3.5"><div className="mx-auto w-full max-w-[720px]">
         <Button
           full
           disabled={!canAdvance || complete.isPending}
@@ -117,7 +117,7 @@ export default function LessonPage() {
         >
           {isLast ? 'Darsni yakunlash' : 'Davom etish'}
         </Button>
-      </div>
+      </div></div>
 
       {showFinish && (
         <FinishModal

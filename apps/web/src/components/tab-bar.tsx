@@ -13,11 +13,13 @@ const TABS = [
   { href: '/plan', label: 'Reja', Icon: CalendarIcon },
 ];
 
-export function TabBar() {
+export function TabBar({ className }: { className?: string }) {
   const pathname = usePathname();
 
   return (
-    <nav className="grid shrink-0 grid-cols-5 border-t border-line bg-bg pb-3 pt-2">
+    <nav
+      className={`grid shrink-0 grid-cols-5 border-t border-line bg-bg pb-3 pt-2 ${className ?? ''}`}
+    >
       {TABS.map(({ href, label, Icon }) => {
         const active = pathname === href || pathname.startsWith(`${href}/`);
         return (

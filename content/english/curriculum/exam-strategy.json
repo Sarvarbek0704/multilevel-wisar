@@ -6,7 +6,7 @@
   "titleEn": "Multilevel Exam Strategy",
   "descriptionUz": "Imtihonning o'zini o'rganing: format, ball tizimi, har bo'lim taktikasi, vaqt boshqaruvi va eng ko'p uchraydigan tuzoqlar. Bu kurs darajangizdan qat'i nazar birinchi bo'lib o'qilishi kerak.",
   "icon": "🎯",
-  "order": 9,
+  "order": 20,
   "isPublished": true,
   "modules": [
     {
@@ -35,12 +35,32 @@
             {
               "type": "table",
               "titleUz": "Ball → Daraja",
-              "headers": ["Daraja", "Ball oralig'i", "Nima beradi"],
+              "headers": [
+                "Daraja",
+                "Ball oralig'i",
+                "Nima beradi"
+              ],
               "rows": [
-                ["C1", "65 – 75", "Oliy ta'limda eng yuqori imtiyozlar, ko'p universitetlarda chet tili fanidan maksimal ball"],
-                ["B2", "51 – 64", "Ko'plab OTMlar va ish o'rinlari uchun yetarli"],
-                ["B1", "38 – 50", "Boshlang'ich sertifikat darajasi"],
-                ["B1 dan past", "0 – 37", "Sertifikat berilmaydi — tayyorgarlikni davom ettiring"]
+                [
+                  "C1",
+                  "65 – 75",
+                  "Oliy ta'limda eng yuqori imtiyozlar, ko'p universitetlarda chet tili fanidan maksimal ball"
+                ],
+                [
+                  "B2",
+                  "51 – 64",
+                  "Ko'plab OTMlar va ish o'rinlari uchun yetarli"
+                ],
+                [
+                  "B1",
+                  "38 – 50",
+                  "Boshlang'ich sertifikat darajasi"
+                ],
+                [
+                  "B1 dan past",
+                  "0 – 37",
+                  "Sertifikat berilmaydi — tayyorgarlikni davom ettiring"
+                ]
               ]
             },
             {
@@ -53,24 +73,46 @@
               "type": "MCQ_SINGLE",
               "skill": "READING",
               "promptUz": "C1 daraja olish uchun umumiy ball kamida necha bo'lishi kerak?",
-              "data": { "options": ["51", "60", "65", "70"] },
-              "answer": { "value": "65" },
+              "data": {
+                "options": [
+                  "51",
+                  "60",
+                  "65",
+                  "70"
+                ]
+              },
+              "answer": {
+                "value": "65"
+              },
               "explanationUz": "C1: 65-75 ball oralig'i."
             },
             {
               "type": "MCQ_SINGLE",
               "skill": "READING",
               "promptUz": "Listening bo'limida nechta savol bor?",
-              "data": { "options": ["30", "35", "40", "45"] },
-              "answer": { "value": "35" },
+              "data": {
+                "options": [
+                  "30",
+                  "35",
+                  "40",
+                  "45"
+                ]
+              },
+              "answer": {
+                "value": "35"
+              },
               "explanationUz": "Listening: 6 qism, 35 savol."
             },
             {
               "type": "TRUE_FALSE",
               "skill": "READING",
               "promptUz": "To'g'ri yoki noto'g'ri?",
-              "data": { "statement": "Umumiy ball to'rt bo'lim ballarining o'rtachasi sifatida hisoblanadi." },
-              "answer": { "value": "true" },
+              "data": {
+                "statement": "Umumiy ball to'rt bo'lim ballarining o'rtachasi sifatida hisoblanadi."
+              },
+              "answer": {
+                "value": "true"
+              },
               "explanationUz": "Ha — shuning uchun barcha 4 ko'nikma muvozanatli rivojlanishi kerak."
             }
           ]
@@ -97,9 +139,18 @@
               "type": "example",
               "titleUz": "Parafraz misollari",
               "items": [
-                { "en": "Savolda: What time does the museum open?", "uz": "Audioda: «Doors open at half past nine» → javob: 9:30" },
-                { "en": "Savolda: How much is the ticket?", "uz": "Audioda: «It'll set you back twenty dollars» → javob: $20" },
-                { "en": "Savolda: Where will they meet?", "uz": "Audioda: «Let's not meet at the station — the café is better» → javob: café (station EMAS!)" }
+                {
+                  "en": "Savolda: What time does the museum open?",
+                  "uz": "Audioda: «Doors open at half past nine» → javob: 9:30"
+                },
+                {
+                  "en": "Savolda: How much is the ticket?",
+                  "uz": "Audioda: «It'll set you back twenty dollars» → javob: $20"
+                },
+                {
+                  "en": "Savolda: Where will they meet?",
+                  "uz": "Audioda: «Let's not meet at the station — the café is better» → javob: café (station EMAS!)"
+                }
               ]
             },
             {
@@ -112,24 +163,46 @@
               "type": "MCQ_SINGLE",
               "skill": "LISTENING",
               "promptUz": "Audioda: «I was going to take the bus, but John offered me a lift in his car». Qanday borgan?",
-              "data": { "options": ["Avtobusda", "Mashinada", "Piyoda", "Taksida"] },
-              "answer": { "value": "Mashinada" },
+              "data": {
+                "options": [
+                  "Avtobusda",
+                  "Mashinada",
+                  "Piyoda",
+                  "Taksida"
+                ]
+              },
+              "answer": {
+                "value": "Mashinada"
+              },
               "explanationUz": "«was going to» — reja edi, lekin «but» dan keyingi ma'lumot haqiqiy: John mashinasida."
             },
             {
               "type": "MCQ_SINGLE",
               "skill": "LISTENING",
               "promptUz": "Savolni o'tkazib yubordingiz. Eng to'g'ri harakat qaysi?",
-              "data": { "options": ["Audio qaytarilishini kutish", "Belgilab, keyingi savolga o'tish", "Yonidagidan so'rash", "O'sha savolni o'ylab o'tirish"] },
-              "answer": { "value": "Belgilab, keyingi savolga o'tish" },
+              "data": {
+                "options": [
+                  "Audio qaytarilishini kutish",
+                  "Belgilab, keyingi savolga o'tish",
+                  "Yonidagidan so'rash",
+                  "O'sha savolni o'ylab o'tirish"
+                ]
+              },
+              "answer": {
+                "value": "Belgilab, keyingi savolga o'tish"
+              },
               "explanationUz": "Audio faqat BIR marta eshittiriladi. Bitta savolga yopishish — 2-3 savolni yo'qotish demak."
             },
             {
               "type": "TRUE_FALSE",
               "skill": "LISTENING",
               "promptUz": "To'g'ri yoki noto'g'ri?",
-              "data": { "statement": "Gap-fill savollarida so'z ma'nosi to'g'ri bo'lsa, imlo xatosi ball yo'qotmaydi." },
-              "answer": { "value": "false" },
+              "data": {
+                "statement": "Gap-fill savollarida so'z ma'nosi to'g'ri bo'lsa, imlo xatosi ball yo'qotmaydi."
+              },
+              "answer": {
+                "value": "false"
+              },
               "explanationUz": "Imlo xato = javob noto'g'ri hisoblanadi. Imloni mashq qiling!"
             }
           ]
@@ -167,24 +240,49 @@
               "type": "MCQ_SINGLE",
               "skill": "READING",
               "promptUz": "Xatboshiga sarlavha tanlash uchun qaysi texnika eng samarali?",
-              "data": { "options": ["Har so'zni lug'at bilan o'qish", "Skimming — asosiy g'oyani ushlash", "Faqat birinchi so'zni o'qish", "Savollarni o'qimaslik"] },
-              "answer": { "value": "Skimming — asosiy g'oyani ushlash" },
+              "data": {
+                "options": [
+                  "Har so'zni lug'at bilan o'qish",
+                  "Skimming — asosiy g'oyani ushlash",
+                  "Faqat birinchi so'zni o'qish",
+                  "Savollarni o'qimaslik"
+                ]
+              },
+              "answer": {
+                "value": "Skimming — asosiy g'oyani ushlash"
+              },
               "explanationUz": "Sarlavha = xatboshining asosiy g'oyasi. Skimming aynan shuni topadi."
             },
             {
               "type": "MCQ_SINGLE",
               "skill": "READING",
               "promptUz": "Qaysi turdagi variant ko'pincha TUZOQ bo'ladi?",
-              "data": { "options": ["Matndagi so'zlar ishlatilgan, lekin ma'nosi boshqa variant", "Qisqa variant", "Birinchi variant", "Inglizcha variant"] },
-              "answer": { "value": "Matndagi so'zlar ishlatilgan, lekin ma'nosi boshqa variant" },
+              "data": {
+                "options": [
+                  "Matndagi so'zlar ishlatilgan, lekin ma'nosi boshqa variant",
+                  "Qisqa variant",
+                  "Birinchi variant",
+                  "Inglizcha variant"
+                ]
+              },
+              "answer": {
+                "value": "Matndagi so'zlar ishlatilgan, lekin ma'nosi boshqa variant"
+              },
               "explanationUz": "Tanish so'zlar ishonch uyg'otadi — lekin ma'noni tekshiring!"
             },
             {
               "type": "GAP_FILL",
               "skill": "READING",
               "promptUz": "Aniq faktni (sana, raqam) tez topish texnikasi qanday ataladi? (inglizcha)",
-              "data": { "text": "___" },
-              "answer": { "accept": ["scanning", "skanning"] },
+              "data": {
+                "text": "___"
+              },
+              "answer": {
+                "accept": [
+                  "scanning",
+                  "skanning"
+                ]
+              },
               "explanationUz": "Scanning — matndan aniq ma'lumotni izlab topish."
             }
           ]
@@ -210,14 +308,42 @@
             {
               "type": "table",
               "titleUz": "Tez-tez ball yo'qotish sabablari",
-              "headers": ["Xato", "Qaysi mezon jabr ko'radi", "Yechim"],
+              "headers": [
+                "Xato",
+                "Qaysi mezon jabr ko'radi",
+                "Yechim"
+              ],
               "rows": [
-                ["So'z soni yetmadi", "Task fulfillment", "Yozgach sanang; shablonlar vaqt tejaydi"],
-                ["Savolning bir qismiga javob yo'q", "Task fulfillment", "Rejada har savolga 1 band ajrating"],
-                ["Xatboshi yo'q, bitta blok matn", "Coherence", "Kirish + 2 tana + xulosa"],
-                ["Faqat 'and' va 'but'", "Coherence", "however, therefore, in addition..."],
-                ["good/bad/big/nice takrori", "Lexical resource", "Sinonimlar: beneficial, significant..."],
-                ["Faqat Present Simple", "Grammar range", "Shart gaplar, passiv, perfect qo'shing"]
+                [
+                  "So'z soni yetmadi",
+                  "Task fulfillment",
+                  "Yozgach sanang; shablonlar vaqt tejaydi"
+                ],
+                [
+                  "Savolning bir qismiga javob yo'q",
+                  "Task fulfillment",
+                  "Rejada har savolga 1 band ajrating"
+                ],
+                [
+                  "Xatboshi yo'q, bitta blok matn",
+                  "Coherence",
+                  "Kirish + 2 tana + xulosa"
+                ],
+                [
+                  "Faqat 'and' va 'but'",
+                  "Coherence",
+                  "however, therefore, in addition..."
+                ],
+                [
+                  "good/bad/big/nice takrori",
+                  "Lexical resource",
+                  "Sinonimlar: beneficial, significant..."
+                ],
+                [
+                  "Faqat Present Simple",
+                  "Grammar range",
+                  "Shart gaplar, passiv, perfect qo'shing"
+                ]
               ]
             },
             {
@@ -230,16 +356,37 @@
               "type": "MCQ_SINGLE",
               "skill": "WRITING",
               "promptUz": "Esse 200 so'z o'rniga 120 so'z yozildi. Qaysi mezon eng ko'p jabr ko'radi?",
-              "data": { "options": ["Task fulfillment", "Pronunciation", "Lexical resource", "Hech qaysi"] },
-              "answer": { "value": "Task fulfillment" },
+              "data": {
+                "options": [
+                  "Task fulfillment",
+                  "Pronunciation",
+                  "Lexical resource",
+                  "Hech qaysi"
+                ]
+              },
+              "answer": {
+                "value": "Task fulfillment"
+              },
               "explanationUz": "So'z soni — vazifa talabining bir qismi. Yetmasa, Task fulfillment keskin tushadi."
             },
             {
               "type": "MCQ_MULTI",
               "skill": "WRITING",
               "promptUz": "Qaysi ikkisi Coherence & cohesion balini oshiradi? (2 ta tanlang)",
-              "data": { "options": ["Aniq xatboshilarga bo'lish", "Bog'lovchi so'zlar (however, therefore)", "Uzun so'zlar ishlatish", "Tez yozish"] },
-              "answer": { "values": ["Aniq xatboshilarga bo'lish", "Bog'lovchi so'zlar (however, therefore)"] },
+              "data": {
+                "options": [
+                  "Aniq xatboshilarga bo'lish",
+                  "Bog'lovchi so'zlar (however, therefore)",
+                  "Uzun so'zlar ishlatish",
+                  "Tez yozish"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "Aniq xatboshilarga bo'lish",
+                  "Bog'lovchi so'zlar (however, therefore)"
+                ]
+              },
               "explanationUz": "Coherence = tuzilma (xatboshilar) + bog'lanish (linkerlar)."
             },
             {
@@ -247,10 +394,27 @@
               "skill": "WRITING",
               "promptUz": "Xatoni jabr ko'radigan mezonga bog'lang:",
               "data": {
-                "left": ["Savolning yarmiga javob yo'q", "'nice' so'zi 6 marta", "Xatboshisiz yaxlit matn", "Faqat oddiy gaplar"],
-                "right": ["Grammar range", "Coherence & cohesion", "Task fulfillment", "Lexical resource"]
+                "left": [
+                  "Savolning yarmiga javob yo'q",
+                  "'nice' so'zi 6 marta",
+                  "Xatboshisiz yaxlit matn",
+                  "Faqat oddiy gaplar"
+                ],
+                "right": [
+                  "Grammar range",
+                  "Coherence & cohesion",
+                  "Task fulfillment",
+                  "Lexical resource"
+                ]
               },
-              "answer": { "pairs": { "Savolning yarmiga javob yo'q": "Task fulfillment", "'nice' so'zi 6 marta": "Lexical resource", "Xatboshisiz yaxlit matn": "Coherence & cohesion", "Faqat oddiy gaplar": "Grammar range" } },
+              "answer": {
+                "pairs": {
+                  "Savolning yarmiga javob yo'q": "Task fulfillment",
+                  "'nice' so'zi 6 marta": "Lexical resource",
+                  "Xatboshisiz yaxlit matn": "Coherence & cohesion",
+                  "Faqat oddiy gaplar": "Grammar range"
+                }
+              },
               "explanationUz": "Har xato o'z mezoniga zarba beradi — kuchli javob to'rttasini ham qamrab oladi."
             }
           ]

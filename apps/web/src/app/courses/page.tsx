@@ -9,6 +9,8 @@ import { api } from '@/lib/api';
 import type { CourseSummary, Subject } from '@/lib/types';
 
 const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+/** Shu qiymatdan boshlab kurslar "Alohida" bo'limida ko'rsatiladi */
+const SPECIAL_ORDER_FROM = 20;
 
 export default function CoursesPage() {
   return (
@@ -27,11 +29,14 @@ function CoursesContent() {
   });
 
   const all = courses.data ?? [];
-  // "Alohida" — daraja ketma-ketligiga kirmaydigan yordamchi kurslar
-  const special = all.filter((course) => course.order >= 6);
+  // order 0-19 — daraja zinapoyasi, 20+ — ko'nikma va strategiya kurslari
+  const special = all.filter((course) => course.order >= SPECIAL_ORDER_FROM);
   const ladder = all
-    .filter((course) => course.order < 6)
-    .sort((a, b) => LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level));
+    .filter((course) => course.order < SPECIAL_ORDER_FROM)
+    .sort(
+      (a, b) =>
+        LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level) || a.order - b.order,
+    );
 
   return (
     <div className="px-5 pb-6 pt-4 lg:px-8 lg:pt-8">

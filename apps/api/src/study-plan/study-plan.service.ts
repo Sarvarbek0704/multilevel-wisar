@@ -44,7 +44,9 @@ export class StudyPlanService {
     // Course lessons on the ladder, ordered by course level → module → lesson
     const courses = await this.prisma.course.findMany({
       where: { subject: params.subject, isPublished: true },
-      orderBy: { level: 'asc' },
+      // Daraja ichida ham tartib muhim: bir xil darajada bir nechta kurs bor
+      // (masalan C1: mahorat -> ko'prik -> writing namunalari -> speaking namunalari)
+      orderBy: [{ level: 'asc' }, { order: 'asc' }],
       include: {
         modules: {
           orderBy: { order: 'asc' },

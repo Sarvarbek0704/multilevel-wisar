@@ -187,7 +187,8 @@
               "skill": "WRITING",
               "promptEn": "Rewrite the following B2 paragraph at C1 level (60-90 words). Keep the meaning identical, but remove every 'very', every 'a lot of', and every general verb (get / make / do / have). Use at least three items from the B2 -> C1 table.\n\n'Nowadays a lot of young people move to big cities. This is because there are a lot of jobs there. But it makes a lot of problems, for example the traffic gets very bad and houses become very expensive.'",
               "promptUz": "Quyidagi B2 xatboshisini C1 darajada qayta yozing (60-90 so'z). Ma'noni aynan saqlang, lekin har bir «very», har bir «a lot of» va har bir umumiy fe'lni (get / make / do / have) olib tashlang. Jadvaldagi kamida uchta B2 -> C1 juftligidan foydalaning.\n\n«Nowadays a lot of young people move to big cities. This is because there are a lot of jobs there. But it makes a lot of problems, for example the traffic gets very bad and houses become very expensive.»",
-              "data": { "minWords": 60, "maxWords": 90 }
+              "data": { "minWords": 60, "maxWords": 90 },
+              "explanationUz": "O'z-o'zini tekshirish: qayta yozgan matningizda birorta «very», «a lot of», «get/make/do/have» qolmaganiga ishonch hosil qiling. Kutilgan yo'nalish: «a lot of young people» -> «an increasing number of young people», «there are a lot of jobs» -> «employment opportunities are concentrated there», «the traffic gets very bad» -> «congestion deteriorates», «houses become very expensive» -> «housing becomes prohibitively expensive». Baholanadi: Lexical Resource."
             }
           ]
         },
@@ -752,7 +753,8 @@
               "skill": "SPEAKING",
               "promptEn": "Speaking Part 3 question: 'Some people say that free university education benefits society as a whole. Do you agree?' Speak for about 60 seconds. Your answer must contain exactly ONE inversion (Not only... / Only when... / Rarely...) and ONE cleft (It is... that... / What... is...). Do not use more than one of each.",
               "promptUz": "Speaking Part 3 savoli: «Ba'zilar bepul oliy ta'lim butun jamiyatga foyda keltiradi, deyishadi. Rozimisiz?» Taxminan 60 soniya gapiring. Javobingizda ANIQ BITTA inversiya (Not only... / Only when... / Rarely...) va BITTA cleft (It is... that... / What... is...) bo'lishi shart. Har biridan bittadan ortiq ishlatmang — maqsad ko'p ishlatish emas, o'rinli ishlatish.",
-              "data": { "preparationSeconds": 30, "recordSeconds": 60 }
+              "data": { "preparationSeconds": 30, "recordSeconds": 60 },
+              "explanationUz": "O'z-o'zini tekshirish: yozuvingizni eshiting va inversiyani sanang. Bittadan ko'p bo'lsa — ortiqcha. Inversiya tabiiy eshitildimi yoki gap o'rtasida to'xtab, uni «eslab» qo'ydingizmi? Ikkinchisi bo'lsa, uyda yana 20 marta takrorlang: imtihonda tuzilma o'ylamasdan chiqishi kerak. Baholanadi: Grammatical Range and Accuracy."
             }
           ]
         },
@@ -923,7 +925,8 @@
               "skill": "WRITING",
               "promptEn": "Rewrite the following five B2 sentence pairs as five dense C1 sentences (80-120 words in total). Use each structure at least once: present participle (-ing), perfect participle (having + V3), past participle (V3), and an absolute clause (with + noun + -ing). Check every sentence for dangling modifiers.\n\n1. The council studied the traffic data. Then it introduced a congestion charge.\n2. The novel was published in 1925. It is still on school reading lists.\n3. Fuel prices were rising fast. Many families cut back on driving.\n4. She was warned about the risks several times. She still invested her savings.\n5. The negotiations collapsed. Both governments recalled their ambassadors.",
               "promptUz": "Quyidagi beshta B2 gap juftligini beshta zich C1 gapiga aylantiring (jami 80-120 so'z). Har bir tuzilmadan kamida bir marta foydalaning: present participle (-ing), perfect participle (having + V3), past participle (V3) va absolute clause (with + ot + -ing). Har bir gapni dangling modifier uchun tekshiring — ega mos kelyaptimi?\n\n1. The council studied the traffic data. Then it introduced a congestion charge.\n2. The novel was published in 1925. It is still on school reading lists.\n3. Fuel prices were rising fast. Many families cut back on driving.\n4. She was warned about the risks several times. She still invested her savings.\n5. The negotiations collapsed. Both governments recalled their ambassadors.",
-              "data": { "minWords": 80, "maxWords": 130 }
+              "data": { "minWords": 80, "maxWords": 130 },
+              "explanationUz": "O'z-o'zini tekshirish: har bir gapni yozgach, participle clause ning yashirin egasini toping va u bosh gap egasi bilan bir xilligini tasdiqlang — aks holda dangling modifier bo'ladi. Kutilgan yo'nalish: 1) Having studied the traffic data, the council introduced a congestion charge. 2) Published in 1925, the novel remains on school reading lists. 3) With fuel prices rising sharply, many families cut back on driving. 4) Warned repeatedly about the risks, she nonetheless invested her savings. 5) The negotiations having collapsed, both governments recalled their ambassadors. Baholanadi: Grammatical Range and Accuracy."
             }
           ]
         },
@@ -1116,7 +1119,8 @@
               "skill": "SPEAKING",
               "promptEn": "Speaking Part 3 question: 'Do you think social media is harmful to young people?' Speak for about 90 seconds. Requirements: start with a booster to state your position, use at least three different hedging devices (may / tends to / appears to / arguably / in most cases) when giving your evidence, and finish with a booster. Do not use 'all', 'always', 'never' or 'everyone'.",
               "promptUz": "Speaking Part 3 savoli: «Sizningcha, ijtimoiy tarmoqlar yoshlarga zararlimi?» Taxminan 90 soniya gapiring. Talablar: pozitsiyangizni booster bilan boshlang, dalil keltirayotganda kamida uchta turli hedging vositasidan foydalaning (may / tends to / appears to / arguably / in most cases), va yana booster bilan yakunlang. «all», «always», «never», «everyone» so'zlarini ishlatmang.",
-              "data": { "preparationSeconds": 30, "recordSeconds": 90 }
+              "data": { "preparationSeconds": 30, "recordSeconds": 90 },
+              "explanationUz": "O'z-o'zini tekshirish: yozuvingizni eshitib uchta narsani sanang — (1) boshida booster bormi, (2) nechta turli hedge ishlatdingiz, (3) «all/always/never/everyone» chiqib ketdimi. Agar butun javob faqat hedge dan iborat bo'lsa, bu ham C1 emas: pozitsiyangiz eshitilmay qoladi. Baholanadi: Lexical Resource va Fluency and Coherence."
             }
           ]
         }
@@ -1474,7 +1478,8 @@
               "skill": "WRITING",
               "promptEn": "Write ONE body paragraph (90-120 words) on this statement: 'Public transport should be free in all large cities.' Follow T-D-E-L strictly: (T) an arguable topic sentence containing a claim and a controlling idea; (D) two sentences explaining the mechanism behind your claim; (E) one concrete example, figure or comparison; (L) a link sentence that evaluates the claim and points forward to the next paragraph. Do not begin with 'Firstly' or 'In this paragraph'.",
               "promptUz": "Quyidagi mavzu bo'yicha BITTA asosiy xatboshi yozing (90-120 so'z): «Barcha yirik shaharlarda jamoat transporti bepul bo'lishi kerak.» T-D-E-L ni qat'iy bajaring: (T) bahslashish mumkin bo'lgan topic sentence — da'vo va boshqaruvchi g'oya bilan; (D) da'vo mexanizmini tushuntiruvchi ikki gap; (E) bitta aniq misol, raqam yoki qiyoslash; (L) da'voni baholovchi va keyingi xatboshiga ko'prik tashlovchi link gap. «Firstly» yoki «In this paragraph» bilan boshlamang.",
-              "data": { "minWords": 90, "maxWords": 130 }
+              "data": { "minWords": 90, "maxWords": 130 },
+              "explanationUz": "O'z-o'zini tekshirish: birinchi gapingizni yolg'iz o'qing va o'zingizga savol bering — «kimdir bu bilan bahslasha oladimi?» Agar yo'q bo'lsa, bu topic sentence emas, uni qayta yozing. Keyin oxirgi gapni tekshiring: u shunchaki birinchi gapni takrorlayaptimi yoki baho beryaptimi/oldinga ko'prik tashlayaptimi? Baholanadi: Coherence and Cohesion."
             }
           ]
         },
@@ -1846,7 +1851,8 @@
               "skill": "WRITING",
               "promptEn": "Timed exam simulation. Set a timer for 40 minutes and follow the 5-30-5 plan.\n\nTask: 'Some people believe that governments should invest heavily in public transport rather than in building new roads. To what extent do you agree?'\n\nWrite 250-300 words. Requirements: (1) a clear thesis in the introduction; (2) two body paragraphs following T-D-E-L, each with one concrete example; (3) a counter-argument that you concede and then rebut; (4) a conclusion that restates the thesis in new words and adds a condition; (5) no 'all', 'always', 'never', 'everyone'; (6) at least one participle or absolute clause and one inversion or cleft.",
               "promptUz": "Vaqt cheklangan imtihon simulyatsiyasi. Taymerni 40 daqiqaga qo'ying va 5-30-5 sxemasini bajaring.\n\nVazifa: «Ba'zilar hukumatlar yangi yo'llar qurishdan ko'ra jamoat transportiga katta sarmoya kiritishi kerak deb hisoblaydi. Bunga qay darajada qo'shilasiz?»\n\n250-300 so'z yozing. Talablar: (1) kirishda aniq tezis; (2) T-D-E-L bo'yicha ikkita asosiy xatboshi, har birida bitta aniq misol; (3) tan olinib, keyin rad etilgan qarshi fikr; (4) tezisni yangi so'zlar bilan tasdiqlovchi va shart qo'shuvchi xulosa; (5) «all», «always», «never», «everyone» ishlatilmasin; (6) kamida bitta participle yoki absolute clause va bitta inversiya yoki cleft.",
-              "data": { "minWords": 250, "maxWords": 320 }
+              "data": { "minWords": 250, "maxWords": 320 },
+              "explanationUz": "O'z-o'zini tekshirish: taymer to'xtagach, 6 punktli ro'yxatni bajaring — mutlaq da'volar, «very»/«a lot of», yolg'iz «This», uchinchi shaxs -s, artikllar, xulosa bormi. So'ng faqat xatboshilarning birinchi gaplarini ketma-ket o'qing: ular o'zi mustaqil argument hosil qilyaptimi? Agar yo'q bo'lsa, tuzilma hali B2 darajasida. Baholanadi: Task Response (asosiy), Coherence and Cohesion."
             }
           ]
         },
@@ -2047,14 +2053,16 @@
               "skill": "SPEAKING",
               "promptEn": "Speaking Part 3 question: 'Do you think working from home will eventually replace the traditional office?' Speak for about 60 seconds using all four moves in order: POSITION (answer directly), MECHANISM (explain why), CONCESSION (acknowledge the opposing view and respond to it), EXAMPLE (one concrete case). Do not use 'In today's modern world' or 'It is a well-known fact that'.",
               "promptUz": "Speaking Part 3 savoli: «Sizningcha, uydan ishlash oxir-oqibat an'anaviy ofisning o'rnini bosadimi?» Taxminan 60 soniya gapiring va to'rt harakatni tartib bilan bajaring: POSITION (savolga to'g'ridan-to'g'ri javob), MECHANISM (nega shunday), CONCESSION (qarshi fikrni tan oling va javob bering), EXAMPLE (bitta aniq holat). «In today's modern world» va «It is a well-known fact that» iboralarini ishlatmang.",
-              "data": { "preparationSeconds": 30, "recordSeconds": 60 }
+              "data": { "preparationSeconds": 30, "recordSeconds": 60 },
+              "explanationUz": "O'z-o'zini tekshirish: yozuvni eshitib to'rt harakatni belgilang. POSITION birinchi 5 soniyada eshitildimi? CONCESSION da qarshi fikrni chindan tan oldingizmi yoki darhol rad etdingizmi? Misol aniq (mamlakat, sana, raqam) edimi yoki umumiy («my friend...»)? Uchtadan kam qatlam bo'lsa, javobni qayta qiling. Baholanadi: Fluency and Coherence."
             },
             {
               "type": "SPEAKING_TASK",
               "skill": "SPEAKING",
               "promptEn": "Speaking Part 3 question: 'Some people argue that international tourism does more harm than good to local communities. What is your view?' Speak for about 75 seconds. This time the CONCESSION move must come first: begin by stating the strongest version of the view you disagree with, then dismantle it, then give your own position with one example.",
               "promptUz": "Speaking Part 3 savoli: «Ba'zilar xalqaro turizm mahalliy jamoalarga foydadan ko'ra ko'proq zarar keltiradi deb hisoblaydi. Sizning fikringiz qanday?» Taxminan 75 soniya gapiring. Bu safar CONCESSION harakati BIRINCHI bo'lsin: o'zingiz qo'shilmaydigan fikrning eng kuchli variantini aytib bering, keyin uni asosli rad eting, so'ng o'z pozitsiyangizni bitta misol bilan bayon qiling.",
-              "data": { "preparationSeconds": 45, "recordSeconds": 75 }
+              "data": { "preparationSeconds": 45, "recordSeconds": 75 },
+              "explanationUz": "O'z-o'zini tekshirish: qarshi fikrdan boshlash qiyinroq, lekin baholovchida kuchli taassurot qoldiradi — u sizning boshqa nuqtai nazarni tushuna olishingizni ko'rsatadi. Yozuvni eshitib tekshiring: qarshi fikrni ADOLATLI, eng kuchli variantida bayon qildingizmi, yoki uni ataylab zaiflashtirib, keyin osongina yiqitdingizmi? Ikkinchisi C1 emas. Baholanadi: Fluency and Coherence, Lexical Resource."
             }
           ]
         },

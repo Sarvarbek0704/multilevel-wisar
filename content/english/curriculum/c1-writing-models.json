@@ -745,6 +745,772 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "task2-models",
+      "titleUz": "Task 2: esse namunalari",
+      "titleEn": "Task 2: model essays",
+      "descriptionUz": "To'rt esse turining har biri uchun to'liq C1 namuna (250-280 so'z) — xatboshi-bagap va gap-bagap izohlangan, 4 mezon bo'yicha baholangan.",
+      "order": 1,
+      "lessons": [
+        {
+          "slug": "discuss-both-views-model",
+          "titleUz": "Discuss both views + opinion: to'liq namuna",
+          "titleEn": "Discuss both views and give your opinion: full model",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 0,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "\"Ikkala fikrni muhokama qiling\" essesining 5 xatboshili tuzilishini o'zlashtirish",
+            "O'z fikrini qarama-qarshi qarashlar orasida aniq joylashtirish",
+            "250-280 so'z chegarasida chuqur dalil keltirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vazifa (Task 2 · discuss both views)",
+              "bodyUz": "> *Some people believe that governments should invest primarily in public transport, while others think that money is better spent on building new roads. Discuss both views and give your own opinion.*\n\n**Talab:** 250-280 so'z, ~50 daqiqa.\n\n**Eng ko'p uchraydigan xato:** o'quvchi ikkala fikrni bayon qiladi, lekin **o'z fikrini aytmaydi** yoki uni faqat oxirgi gapda eslatib o'tadi. Vazifada uchta talab bor: 1-fikr, 2-fikr, **va** o'z pozitsiyangiz. Uchtasidan biri yetishmasa, vazifani bajarish mezoni darhol tushadi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namunaviy javob (C1 · 70/75)",
+              "bodyUz": "**268 so'z**\n\n*How a city spends its transport budget shapes daily life for decades, so the choice between expanding public transport and building new roads is far from technical. Both positions have a reasonable case, though I believe investment should favour public networks.*\n\n*The argument for new roads rests on immediate relief. Congestion imposes real costs — hours lost, fuel wasted, emergency vehicles delayed — and additional lanes can ease pressure quickly, particularly on routes into industrial zones where goods, not commuters, are the priority. Supporters also point out that road building is politically straightforward: the results are visible within a single term of office.*\n\n*The case for public transport is longer-term but, to my mind, more persuasive. Decades of evidence from cities such as Seoul and Bogotá suggest that new roads tend to fill up almost as soon as they open, a phenomenon known as induced demand. A metro line or a segregated bus corridor, by contrast, moves far more people per square metre of city and continues to do so as the population grows. There is also an equity dimension: not everyone can afford a car, and a transport policy built around private vehicles quietly excludes those who cannot.*\n\n*That said, the two are not mutually exclusive, and the strongest systems combine them. My own view is that new road capacity should be justified case by case, whereas public transport deserves sustained, predictable funding rather than whatever remains at the end of the budget.*\n\n*In conclusion, while roads answer today's congestion, public transport answers tomorrow's, and it is the second question that a serious transport policy has to get right.*"
+            },
+            {
+              "type": "table",
+              "titleUz": "Xatboshi xaritasi: qaysi xatboshi nima qilyapti",
+              "headers": ["Xatboshi", "Vazifasi", "So'z soni"],
+              "rows": [
+                ["1. Kirish", "Mavzuni nega muhimligi bilan ochish + pozitsiyani darhol e'lon qilish", "41"],
+                ["2. Birinchi qarash", "Yo'l qurish tarafdorlarining eng kuchli dalili (adolatli bayon)", "60"],
+                ["3. Ikkinchi qarash", "Jamoat transporti tarafdorlarining dalili + dalilga havola", "96"],
+                ["4. O'z fikri", "Ikki qarashni yarashtirish va aniq shaxsiy pozitsiya", "45"],
+                ["5. Xulosa", "Yangi dalil emas — pozitsiyani boshqa rakursda takrorlash", "26"]
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Gap-bagap tahlil: har bir gap qanday ball keltirdi",
+              "items": [
+                {
+                  "en": "How a city spends its transport budget shapes daily life for decades, so the choice between expanding public transport and building new roads is far from technical.",
+                  "uz": "KIRISH. Diqqat qiling: \"Nowadays transport is very important\" yo'q. Gap **nominal ergash gap** bilan boshlanadi (How a city spends... = ega). \"Far from technical\" — mavzuni siyosiy/insoniy masala sifatida ramkalaydi. Bir gapda savol qayta ifodalangan va nega muhimligi ko'rsatilgan."
+                },
+                {
+                  "en": "Both positions have a reasonable case, though I believe investment should favour public networks.",
+                  "uz": "VAZIFANI BAJARISH. Pozitsiya **kirishning oxirgi gapida** e'lon qilingan — ekspert uni birinchi 40 so'zdayoq topadi. \"Though\" bilan muvozanat: ikkala tomonni hurmat qilgan holda tanlov qilinadi. Bu \"discuss both views\" turining ideal kirishi."
+                },
+                {
+                  "en": "Congestion imposes real costs — hours lost, fuel wasted, emergency vehicles delayed — and additional lanes can ease pressure quickly, particularly on routes into industrial zones where goods, not commuters, are the priority.",
+                  "uz": "SO'Z BOYLIGI + GRAMMATIKA. Tire ichidagi uchta qisqargan oborot (hours lost, fuel wasted, vehicles delayed) — parallel struktura, juda iqtisodiy. \"Impose costs\", \"ease pressure\" — aniq kollokatsiyalar. \"Goods, not commuters\" — qarama-qarshilikni ikki so'z bilan berish."
+                },
+                {
+                  "en": "Supporters also point out that road building is politically straightforward: the results are visible within a single term of office.",
+                  "uz": "VAZIFANI BAJARISH. Qarshi tomonning dalili **adolatli va kuchli** qilib berilgan — bu C1 belgisi. Zaif o'quvchi qarshi fikrni ataylab kuchsiz ko'rsatadi. \"Within a single term of office\" — siyosiy kontekstga aniq mos ibora."
+                },
+                {
+                  "en": "Decades of evidence from cities such as Seoul and Bogotá suggest that new roads tend to fill up almost as soon as they open, a phenomenon known as induced demand.",
+                  "uz": "DALIL + HEDGING. Aniq misollar (Seoul, Bogotá) dalilga og'irlik beradi. \"Suggest\" va \"tend to\" — ikki qatlamli hedging: yozuvchi \"isbot\" demaydi. \"A phenomenon known as induced demand\" — appozitsiya bilan atama kiritish: bilim ko'rsatiladi, lekin gapni cho'zmasdan."
+                },
+                {
+                  "en": "A metro line or a segregated bus corridor, by contrast, moves far more people per square metre of city and continues to do so as the population grows.",
+                  "uz": "IZCHILLIK. \"By contrast\" gap o'rtasiga qo'yilgan — boshiga emas; bu ritmni tabiiy qiladi. \"Continues to do so\" — takrorlashdan qochish (do so = moves more people). \"Per square metre of city\" — mavhum dalilni o'lchanadigan qiladi."
+                },
+                {
+                  "en": "There is also an equity dimension: not everyone can afford a car, and a transport policy built around private vehicles quietly excludes those who cannot.",
+                  "uz": "FIKR CHUQURLIGI. Yangi o'lcham (adolat) kiritiladi — esse faqat iqtisod haqida qolmaydi. \"Quietly excludes\" — kutilmagan, kuchli ravish+fe'l birikmasi. \"Those who cannot\" — ellipsis (cannot afford a car takrorlanmaydi)."
+                },
+                {
+                  "en": "My own view is that new road capacity should be justified case by case, whereas public transport deserves sustained, predictable funding rather than whatever remains at the end of the budget.",
+                  "uz": "POZITSIYA. Fikr **aniq va amaliy**: \"men jamoat transportini yoqtiraman\" emas, balki qanday siyosat kerakligi. \"Whereas\" bilan ikki yondashuv qarama-qarshi qo'yilgan. \"Whatever remains at the end of the budget\" — achchiq, esda qoladigan ifoda."
+                },
+                {
+                  "en": "In conclusion, while roads answer today's congestion, public transport answers tomorrow's, and it is the second question that a serious transport policy has to get right.",
+                  "uz": "XULOSA. Yangi dalil yo'q — pozitsiya **vaqt o'qi** orqali qayta ifodalangan. \"Tomorrow's\" — ellipsis (tomorrow's congestion). \"It is the second question that...\" — cleft struktura, oxirgi urg'uni to'g'ri joyga qo'yadi."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Mezonlar bo'yicha baho",
+              "headers": ["Mezon", "Baho", "Nima uchun"],
+              "rows": [
+                ["Vazifani bajarish", "C1 · 5/5", "Ikkala qarash ham adolatli va kuchli bayon qilingan; shaxsiy pozitsiya kirishda e'lon qilinib, 4-xatboshida rivojlantirilgan; 268 so'z — chegara ichida."],
+                ["Izchillik va bog'lanish", "C1 · 5/5", "Har xatboshi bitta vazifa bajaradi; o'tishlar tabiiy (by contrast, That said, whereas); substitution va ellipsis takrorni yo'q qiladi."],
+                ["So'z boyligi", "C1 · 5/5", "impose costs, ease pressure, induced demand, equity dimension, sustained funding — sohaga aniq mos. Sun'iy \"katta so'zlar\" yo'q."],
+                ["Grammatik xilma-xillik va aniqlik", "C1 · 4.5/5", "Nominal ergash gap, cleft, appozitsiya, qisqargan oborotlar, majhul nisbat. Xato yo'q; 5/5 uchun bitta shart mayli qo'shilishi mumkin edi."]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "\"Discuss both views\" da eng katta xavf — **muvozanatning buzilishi**. Agar 2-xatboshi 40 so'z, 3-xatboshi 100 so'z bo'lsa, ekspert \"bir tomonlama\" deb belgilaydi. Namunada 3-xatboshi uzunroq (96 vs 60), lekin bu **qasddan**: yozuvchi shu tomonni qo'llab-quvvatlaydi va uni chuqurroq asoslaydi. Muvozanatsizlik **fikrni qo'llab-quvvatlash uchun** bo'lsa — bu kuch, e'tiborsizlik natijasi bo'lsa — bu xato."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«Discuss both views and give your own opinion» vazifasida o'z fikringizni qayerda aytish eng xavfsiz?",
+              "data": {
+                "options": [
+                  "Kirishda e'lon qilib, alohida xatboshida rivojlantirish",
+                  "Faqat oxirgi gapda",
+                  "Har bir xatboshida qayta-qayta",
+                  "Umuman aytmaslik — bu obyektivlik belgisi"
+                ]
+              },
+              "answer": { "value": "Kirishda e'lon qilib, alohida xatboshida rivojlantirish" },
+              "explanationUz": "Ekspert pozitsiyangizni kirishdayoq ko'rishi kerak, keyin esa u rivojlantirilganini. Faqat oxirgi gapda aytilgan fikr \"o'ylanmagan\" deb baholanadi va vazifani bajarish balini tushiradi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Namunadagi hedging fe'lini tiklang (qat'iy \"prove\" emas):",
+              "data": { "text": "Decades of evidence from cities such as Seoul and Bogotá ___ that new roads tend to fill up almost as soon as they open." },
+              "answer": { "accept": ["suggest", "indicate", "imply"] },
+              "explanationUz": "\"Suggest / indicate\" — dalilni ehtiyotkorlik bilan taqdim etish. \"Prove\" imtihon essesida deyarli har doim haddan tashqari kuchli va tanqid qilinadi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«A metro line ... continues to do so as the population grows» — bu yerda «do so» nima vazifani bajaryapti?",
+              "data": {
+                "options": [
+                  "Oldingi fe'l birikmasini takrorlamasdan almashtiryapti (substitution)",
+                  "Buyruq mayli yasayapti",
+                  "Kelasi zamon yasayapti",
+                  "Ta'kid qo'shyapti"
+                ]
+              },
+              "answer": { "value": "Oldingi fe'l birikmasini takrorlamasdan almashtiryapti (substitution)" },
+              "explanationUz": "\"Do so\" = \"moves far more people per square metre\". Fe'l substitution — izchillik mezonining eng nozik quroli va C1 matnida deyarli har doim uchraydi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Xulosa xatboshisida yangi dalil keltirish essening balini oshiradi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Xulosada yangi dalil paydo bo'lsa, u rivojlantirilmagan bo'lib qoladi va izchillikni buzadi. Xulosa — pozitsiyani boshqa rakursda qayta ifodalash uchun."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir iborani u bajarayotgan funksiyaga bog'lang:",
+              "data": {
+                "left": ["by contrast", "That said", "In conclusion", "a phenomenon known as"],
+                "right": ["Yon berish / muvozanat", "Xulosaga o'tish", "Qarama-qarshi qo'yish", "Atama kiritish (appozitsiya)"]
+              },
+              "answer": {
+                "pairs": {
+                  "by contrast": "Qarama-qarshi qo'yish",
+                  "That said": "Yon berish / muvozanat",
+                  "In conclusion": "Xulosaga o'tish",
+                  "a phenomenon known as": "Atama kiritish (appozitsiya)"
+                }
+              },
+              "explanationUz": "Har bir bog'lovchi aniq mantiqiy vazifa bajaradi. Noto'g'ri bog'lovchi — izchillik mezonidan ball yo'qotishning eng tez yo'li."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Namunaviy kirishning qaysi xususiyatlari uni C1 qiladi? (bir nechta)",
+              "data": {
+                "options": [
+                  "Savol o'z so'zlari bilan qayta ifodalangan, ko'chirilmagan",
+                  "Pozitsiya kirishning oxirida aniq e'lon qilingan",
+                  "Mavzuning nega muhimligi bir gapda ko'rsatilgan",
+                  "\"Nowadays\" bilan boshlangan",
+                  "Barcha dalillar kirishda sanab o'tilgan"
+                ]
+              },
+              "answer": { "values": ["Savol o'z so'zlari bilan qayta ifodalangan, ko'chirilmagan", "Pozitsiya kirishning oxirida aniq e'lon qilingan", "Mavzuning nega muhimligi bir gapda ko'rsatilgan"] },
+              "explanationUz": "\"Nowadays...\" ochilishi va dalillarni kirishda sanash — B1/B2 odati. C1 kirishi qisqa, aniq va pozitsiyani e'lon qiladi."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Write an essay of 250-280 words. Some people argue that secondary schools should teach practical life skills such as budgeting and cooking, while others believe school time is better spent on traditional academic subjects. Discuss both views and give your own opinion. Announce your position in the introduction, present each view fairly in its own paragraph, and devote one paragraph to developing your own view.",
+              "promptUz": "250-280 so'zlik esse yozing. Ba'zilar maktabda amaliy hayotiy ko'nikmalar (byudjet tuzish, ovqat pishirish) o'qitilishi kerak deb hisoblaydi, boshqalar esa maktab vaqti an'anaviy fanlarga sarflanishi kerak deydi. Ikkala fikrni muhokama qiling va o'z fikringizni bildiring. Pozitsiyangizni kirishda e'lon qiling, har bir qarashni alohida xatboshida adolatli bayon qiling va o'z fikringizga alohida xatboshi ajrating.",
+              "data": { "minWords": 250, "maxWords": 280 }
+            }
+          ]
+        },
+        {
+          "slug": "agree-disagree-model",
+          "titleUz": "Agree or disagree: to'liq namuna",
+          "titleEn": "To what extent do you agree or disagree: full model",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 1,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "\"To what extent\" savoliga to'liq emas, balki shartli rozilik bilan javob berishni o'rganish",
+            "Qarshi dalilni ko'rib chiqib, uni asosli rad etish (counter-argument)",
+            "Pozitsiyani esse davomida bir xil saqlash"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vazifa (Task 2 · agree or disagree)",
+              "bodyUz": "> *Some people think that university education should be free for everyone. To what extent do you agree or disagree?*\n\n**Talab:** 250-280 so'z.\n\n**\"To what extent\" nima degani:** savol sizdan **darajani** so'rayapti, ha/yo'q emas. Uch xil javob mumkin:\n\n1. **To'liq roziman** — barcha xatboshilar bir tomonda;\n2. **Umuman rozi emasman** — teskarisi;\n3. **Asosan roziman, bitta shart bilan** — eng kuchli va eng tabiiy variant.\n\nNamunada uchinchi yo'l tanlangan. U C1 uchun eng qulay, chunki qarshi dalilni ko'rib chiqishga imkon beradi va fikr yetuk ko'rinadi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namunaviy javob (C1 · 70/75)",
+              "bodyUz": "**261 so'z**\n\n*The question of who should pay for a degree — the student or the taxpayer — resurfaces in almost every election. I largely agree that university education should be free at the point of use, though not without conditions.*\n\n*The strongest argument is economic rather than sentimental. Graduates pay more tax over a lifetime, are less likely to claim benefits and staff the professions a country cannot function without. Seen this way, tuition fees are not a saving but a delay: the state either invests early or pays later for the shortage of teachers, engineers and doctors it failed to train. Countries such as Germany and Norway, which charge little or nothing, have not collapsed under the cost.*\n\n*Fairness points in the same direction. Where fees are high, the decision to study is made not on ability but on how comfortable a family is with debt, and it is consistently the poorest students who decide the risk is not worth taking. Free tuition removes that filter.*\n\n*Opponents object that free provision is regressive, since the taxpayer funds degrees for the wealthy as well. This has some force, but it is an argument for a progressive tax system, not for fees. A more serious concern is quality: unlimited free places can leave universities underfunded and overcrowded, which is why funding needs to be tied to standards.*\n\n*On balance, then, I agree, with one qualification. Tuition should be free, but places should be allocated strictly on merit and institutions held to account for what they deliver. Free education that is not worth having helps nobody.*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Gap-bagap tahlil: har bir gap qanday ball keltirdi",
+              "items": [
+                {
+                  "en": "The question of who should pay for a degree — the student or the taxpayer — resurfaces in almost every election.",
+                  "uz": "KIRISH. Tire ichidagi izoh savolni ikki tomonga bo'lib beradi — bir gapda kontekst tayyor. \"Resurfaces\" — kutilmagan, aniq fe'l (\"is discussed\" o'rniga). \"In almost every election\" — hedging: \"har doim\" emas."
+                },
+                {
+                  "en": "I largely agree that university education should be free at the point of use, though not without conditions.",
+                  "uz": "POZITSIYA. \"To what extent\" savoliga **daraja bilan** javob: \"largely\" (asosan), \"though not without conditions\" (shart bilan). Bu bitta gapda butun essening yo'l xaritasi. \"Free at the point of use\" — soha atamasi: bepul ≠ hech kim to'lamaydi."
+                },
+                {
+                  "en": "Graduates pay more tax over a lifetime, are less likely to claim benefits and staff the professions a country cannot function without.",
+                  "uz": "GRAMMATIKA. Uchta kesim bitta egaga (pay / are / staff) — parallel struktura, so'zni tejaydi. \"Staff\" fe'l sifatida ishlatilgan (ot emas) — bu nozik so'z boyligi belgisi. \"A country cannot function without\" — old ko'makchi oxirida, tabiiy."
+                },
+                {
+                  "en": "Seen this way, tuition fees are not a saving but a delay: the state either invests early or pays later for the shortage of teachers, engineers and doctors it failed to train.",
+                  "uz": "FIKR CHUQURLIGI. \"Seen this way\" — qisqargan oborot bilan rakursni belgilash. \"Not a saving but a delay\" — fikrni qayta ramkalash: bu esseni yodlangan dalillardan ajratadi. \"Either... or...\" korrelyativ bog'lovchisi tanlovni keskin qo'yadi."
+                },
+                {
+                  "en": "Where fees are high, the decision to study is made not on ability but on how comfortable a family is with debt, and it is consistently the poorest students who decide the risk is not worth taking.",
+                  "uz": "IZCHILLIK + GRAMMATIKA. \"Not on X but on Y\" — parallel qarama-qarshilik. \"It is consistently the poorest students who...\" — cleft struktura, urg'uni aynan kerakli guruhga qaratadi. Bu gap uzun, lekin nazorat ostida."
+                },
+                {
+                  "en": "This has some force, but it is an argument for a progressive tax system, not for fees.",
+                  "uz": "QARSHI DALIL BILAN ISHLASH. \"This has some force\" — qarshi tomonga chinakam yon berish (ekspert buni juda qadrlaydi). Keyin dalil **rad etilmaydi, qayta yo'naltiriladi**: muammo bor, lekin yechim boshqa joyda. Bu C1 mulohaza yuritishi."
+                },
+                {
+                  "en": "A more serious concern is quality: unlimited free places can leave universities underfunded and overcrowded, which is why funding needs to be tied to standards.",
+                  "uz": "HALOLLIK. Yozuvchi **o'z pozitsiyasiga qarshi kuchliroq dalilni o'zi keltiradi** va uni hisobga oladi. \"Which is why\" oldingi butun gapga ishora qiladi. \"Tied to standards\" — keyingi xatboshidagi shartni tayyorlaydi."
+                },
+                {
+                  "en": "On balance, then, I agree, with one qualification.",
+                  "uz": "XULOSA. Qisqa gap uzun xatboshilardan keyin — aniqlik. \"With one qualification\" kirishdagi \"though not without conditions\" ga bog'lanadi: esse **halqa** bo'lib yopiladi. Pozitsiya boshidan oxirigacha o'zgarmagan."
+                },
+                {
+                  "en": "Free education that is not worth having helps nobody.",
+                  "uz": "OXIRGI GAP. Sakkiz so'z, esda qoladi, yangi dalil emas. Relative clause (\"that is not worth having\") shartni bir gapga siqib beradi. Kuchli yakun — umumiy taassurotga sezilarli ta'sir qiladi."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Mezonlar bo'yicha baho",
+              "headers": ["Mezon", "Baho", "Nima uchun"],
+              "rows": [
+                ["Vazifani bajarish", "C1 · 5/5", "\"To what extent\" savoliga daraja bilan javob berilgan (largely + one qualification); pozitsiya izchil; qarshi dalil ko'rib chiqilgan; 261 so'z."],
+                ["Izchillik va bog'lanish", "C1 · 5/5", "Kirishdagi \"conditions\" xulosadagi \"qualification\" bilan halqa yasaydi; Seen this way, On balance, which is why — tabiiy o'tishlar."],
+                ["So'z boyligi", "C1 · 5/5", "resurfaces, at the point of use, regressive, has some force, tied to standards, held to account — aniq va sohaga mos."],
+                ["Grammatik xilma-xillik va aniqlik", "C1 · 5/5", "Ikkita cleft, parallel kesimlar, either...or, not X but Y, qisqargan oborotlar, majhul nisbat — xilma-xil va xatosiz."]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "\"To what extent\" ga javob berishning uch yo'li",
+              "headers": ["Pozitsiya", "Kirishdagi ifoda", "Xavf"],
+              "rows": [
+                ["To'liq rozilik", "I fully agree that...", "Qarshi dalil yo'q bo'lsa, esse bir tomonlama ko'rinadi"],
+                ["To'liq rad etish", "I would strongly dispute the claim that...", "Kuchli dalil topilmasa, ohang qat'iy, mazmun bo'sh chiqadi"],
+                ["Shartli rozilik (tavsiya etiladi)", "I largely agree..., though not without conditions.", "Shart aniq ko'rsatilmasa, pozitsiya noaniq ko'rinadi"],
+                ["Muvozanat (\"ikkalasi ham to'g'ri\")", "There is truth on both sides.", "Eng xavfli: ko'pincha \"fikr yo'q\" deb baholanadi"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Qarshi dalil xatboshisi uchun uch qadamli formula:\n\n1. **Bayon:** *Opponents object that...*\n2. **Yon berish:** *This has some force, but...*\n3. **Qayta yo'naltirish:** *...it is an argument for X, not for Y.*\n\nBu formulani bir marta yodlab olsangiz, har qanday \"agree or disagree\" essesida ishlaydi va u yolg'iz o'zi vazifani bajarish balini bir pog'ona ko'taradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«To what extent do you agree?» savoliga eng kuchli C1 javobi qaysi?",
+              "data": {
+                "options": [
+                  "I largely agree, though not without conditions.",
+                  "There is truth on both sides of this argument.",
+                  "Yes, I agree with this statement 100%.",
+                  "It depends on the situation."
+                ]
+              },
+              "answer": { "value": "I largely agree, though not without conditions." },
+              "explanationUz": "Savol darajani so'rayapti. \"Largely + conditions\" darajani ham, shartni ham beradi. \"There is truth on both sides\" va \"It depends\" — pozitsiyasizlik, bu vazifani bajarish balini tushiradi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Qarshi dalilga yon berish iborasini to'ldiring:",
+              "data": { "text": "This has some ___, but it is an argument for a progressive tax system, not for fees." },
+              "answer": { "accept": ["force", "merit", "validity", "weight"] },
+              "explanationUz": "\"Have some force / merit / weight\" — qarshi dalilning kuchini tan olish iboralari. Yon berish qilmasdan rad etish esseni bir tomonlama qiladi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«It is consistently the poorest students who decide the risk is not worth taking» — bu qanday struktura?",
+              "data": {
+                "options": [
+                  "Cleft (bo'lingan gap) — urg'uni ma'lum bo'lakka qaratadi",
+                  "Majhul nisbat",
+                  "Shart mayli",
+                  "Bilvosita nutq"
+                ]
+              },
+              "answer": { "value": "Cleft (bo'lingan gap) — urg'uni ma'lum bo'lakka qaratadi" },
+              "explanationUz": "\"It is X who/that...\" — cleft struktura. Oddiy variant \"The poorest students consistently decide...\" bo'lardi; cleft esa aynan \"eng kambag'al talabalar\" ga urg'u beradi. C1 grammatikasining tipik quroli."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "O'z pozitsiyangizga qarshi kuchli dalilni essening o'zida keltirish — bu zaiflik va ball tushiradi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri, aksincha. Kuchli qarshi dalilni keltirib, keyin unga javob berish — yetuk mulohaza belgisi. Namunada \"A more serious concern is quality\" aynan shunday qilingan va u ballni ko'targan."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Qarshi dalil xatboshisining uch qadamini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "Qayta yo'naltirish: ...it is an argument for X, not for Y.",
+                  "Bayon: Opponents object that...",
+                  "Yon berish: This has some force, but..."
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Bayon: Opponents object that...",
+                  "Yon berish: This has some force, but...",
+                  "Qayta yo'naltirish: ...it is an argument for X, not for Y."
+                ]
+              },
+              "explanationUz": "Avval qarshi fikrni halol bayon qiling, keyin uning kuchini tan oling, so'ng nima uchun u sizning xulosangizni o'zgartirmasligini ko'rsating."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "Kirishdagi «though not without conditions» iborasi xulosada qaysi so'z bilan halqa yasaydi? (bitta so'z)",
+              "data": { "text": "On balance, then, I agree, with one ___." },
+              "answer": { "accept": ["qualification"] },
+              "explanationUz": "\"Qualification\" = shart, cheklov. Kirishdagi va'da xulosada bajariladi — bu halqa izchillik mezoniga sezilarli ball qo'shadi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Namunadagi qaysi elementlar \"fikr chuqurligi\" ni ko'rsatadi? (bir nechta)",
+              "data": {
+                "options": [
+                  "Tuition fees are not a saving but a delay — masalani qayta ramkalash",
+                  "Qarshi dalilni qayta yo'naltirish (progressive tax, not fees)",
+                  "O'z pozitsiyasiga qarshi kuchliroq dalilni o'zi keltirish (quality)",
+                  "Germaniya va Norvegiya misollari",
+                  "Ko'p sonli bog'lovchilar (Firstly, Secondly, Thirdly)"
+                ]
+              },
+              "answer": { "values": ["Tuition fees are not a saving but a delay — masalani qayta ramkalash", "Qarshi dalilni qayta yo'naltirish (progressive tax, not fees)", "O'z pozitsiyasiga qarshi kuchliroq dalilni o'zi keltirish (quality)", "Germaniya va Norvegiya misollari"] },
+              "explanationUz": "Firstly/Secondly/Thirdly sanog'i — chuqurlik emas, tuzilish belgisi, va C1 da u ko'pincha mexanik ko'rinadi. Qolgan to'rttasi esa haqiqiy mulohaza belgilaridir."
+            }
+          ]
+        },
+        {
+          "slug": "problem-solution-model",
+          "titleUz": "Problem and solution: to'liq namuna",
+          "titleEn": "Problem and solution: full model",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 2,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "Muammo va yechimni bir-biriga aniq moslashtirish (har yechim o'z muammosiga)",
+            "Yechimlarni realistik va amalga oshirilishi mumkin qilib taqdim etish",
+            "Mahalliy (O'zbekiston) kontekstidan ishonchli misol keltirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vazifa (Task 2 · problem and solution)",
+              "bodyUz": "> *In many countries, young people are leaving rural areas to work in the capital. What problems does this cause, and what measures could be taken to address them?*\n\n**Talab:** 250-280 so'z.\n\n**Ushbu turdagi asosiy tuzoq — moslashmaslik.** O'quvchi 3 ta muammoni sanaydi, keyin 3 ta yechimni sanaydi, lekin ular bir-biriga bog'lanmaydi. Ekspert buni darhol ko'radi.\n\n**Yechim:** kamroq nuqta, lekin har biri **chuqur**. Namunada 2 ta muammo maydoni (qishloq / poytaxt) va 3 ta yechim bor, ularning har biri aniq muammoga javob beradi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namunaviy javob (C1 · 70/75)",
+              "bodyUz": "**261 so'z**\n\n*Every year, a further wave of young Uzbeks boards the train to Tashkent, and the villages they leave behind grow a little quieter. The trend is understandable, but it creates difficulties at both ends of the journey, and these can be reduced if the right measures are taken.*\n\n*Rural areas suffer first. When those aged eighteen to thirty leave, the working population thins out, schools close for lack of pupils and small farms are left in the hands of people who can no longer manage them. What remains is a community that depends heavily on remittances and has little capacity to renew itself. The capital, meanwhile, absorbs more arrivals than its housing and transport were designed for, which pushes rents up and forces newcomers into insecure work.*\n\n*The obvious response — restricting movement — would be neither fair nor effective. A more realistic approach is to reduce the reasons for leaving. Regional universities and vocational colleges should be funded to a standard that makes staying a genuine choice rather than a compromise, and tax incentives could be offered to firms that establish production outside the capital, as Turkey has done with some success.*\n\n*Digital infrastructure deserves particular attention. Reliable high-speed internet allows programmers, designers and accountants to earn city salaries without moving, and it costs a fraction of what new urban housing does.*\n\n*None of this will reverse migration entirely, nor should it: mobility is a sign of a functioning economy. The aim should be to ensure that young people move because they want to, not because their home region offers them nothing.*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Gap-bagap tahlil: har bir gap qanday ball keltirdi",
+              "items": [
+                {
+                  "en": "Every year, a further wave of young Uzbeks boards the train to Tashkent, and the villages they leave behind grow a little quieter.",
+                  "uz": "KIRISH. Umumiy gap o'rniga **aniq manzara**. \"Grow a little quieter\" — kam gapirib ko'p aytish (understatement): butun demografik muammo bir ibora bilan berilgan. \"A further wave\" — jarayon davom etayotganini bildiradi."
+                },
+                {
+                  "en": "The trend is understandable, but it creates difficulties at both ends of the journey, and these can be reduced if the right measures are taken.",
+                  "uz": "YO'L XARITASI. Bir gapda: muammo tan olinadi, ikki tomonlama ekani aytiladi (\"both ends of the journey\" — chiroyli metafora) va yechim bo'lishi va'da qilinadi. Ekspert bu gapdan essening tuzilishini oldindan biladi."
+                },
+                {
+                  "en": "When those aged eighteen to thirty leave, the working population thins out, schools close for lack of pupils and small farms are left in the hands of people who can no longer manage them.",
+                  "uz": "MUAMMO 1 — ZANJIR. Uchta oqibat **ketma-ket** beriladi: ishchi kuchi → maktablar → fermalar. Bu sanoq emas, sabab-oqibat zanjiri. \"Thin out\", \"for lack of\", \"be left in the hands of\" — uchta aniq kollokatsiya."
+                },
+                {
+                  "en": "What remains is a community that depends heavily on remittances and has little capacity to renew itself.",
+                  "uz": "GRAMMATIKA. \"What remains is...\" — nominal ergash gap bilan boshlangan gap (pseudo-cleft). \"Remittances\" — mavzuga aniq mos atama. \"Capacity to renew itself\" — mavhum, lekin aniq ifodalangan fikr."
+                },
+                {
+                  "en": "The capital, meanwhile, absorbs more arrivals than its housing and transport were designed for, which pushes rents up and forces newcomers into insecure work.",
+                  "uz": "MUAMMO 2. \"Meanwhile\" bilan ikkinchi maydonga o'tish. \"More... than its housing was designed for\" — qiyoslash orqali muammoni o'lchash. \"Which\" oldingi butun gapga ishora qiladi va ikkita oqibatni ulaydi."
+                },
+                {
+                  "en": "The obvious response — restricting movement — would be neither fair nor effective.",
+                  "uz": "YECHIMGA O'TISH. Yozuvchi avval **noto'g'ri yechimni** rad etadi — bu esseni ancha yetuk qiladi. \"Neither... nor...\" korrelyativ bog'lovchisi. Ikkinchi shart mayli (\"would be\") faraziy holatni ko'rsatadi."
+                },
+                {
+                  "en": "Regional universities and vocational colleges should be funded to a standard that makes staying a genuine choice rather than a compromise, and tax incentives could be offered to firms that establish production outside the capital, as Turkey has done with some success.",
+                  "uz": "YECHIM 1-2. Ikkita modal daraja: \"should be\" (kuchli tavsiya) va \"could be\" (yumshoqroq) — bu nozik farq C1 belgisi. \"A genuine choice rather than a compromise\" — yechim nima uchun ishlashini tushuntiradi. Turkiya misoli + \"with some success\" hedgingi."
+                },
+                {
+                  "en": "Reliable high-speed internet allows programmers, designers and accountants to earn city salaries without moving, and it costs a fraction of what new urban housing does.",
+                  "uz": "YECHIM 3 — ENG KUCHLISI. Yechim **aniq** (kimga, nima beradi) va **asoslangan** (arzonroq). \"A fraction of what... does\" — qiyoslashning nozik shakli. Bu gap yechimning amaliyligini isbotlaydi, shunchaki taklif qilmaydi."
+                },
+                {
+                  "en": "None of this will reverse migration entirely, nor should it: mobility is a sign of a functioning economy.",
+                  "uz": "XULOSA. \"Nor should it\" — inversiya (nor + modal + ega) bilan kuchli grammatik nuqta. Yozuvchi o'z yechimlarining chegarasini tan oladi — bu zaiflik emas, halollik. Ikki nuqtadan keyin sabab beriladi."
+                },
+                {
+                  "en": "The aim should be to ensure that young people move because they want to, not because their home region offers them nothing.",
+                  "uz": "OXIRGI GAP. Butun esseni bitta mezonga siqadi. \"Because they want to\" — ellipsis (want to move). \"Not because... offers them nothing\" — parallel qarama-qarshilik. Esda qoladigan, umumlashtiruvchi yakun."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Mezonlar bo'yicha baho",
+              "headers": ["Mezon", "Baho", "Nima uchun"],
+              "rows": [
+                ["Vazifani bajarish", "C1 · 5/5", "Ikkala savol (muammolar + choralar) to'liq javob olgan; har yechim aniq muammoga bog'langan; noto'g'ri yechim ham ko'rib chiqilgan; 261 so'z."],
+                ["Izchillik va bog'lanish", "C1 · 5/5", "Muammo → muammo → yechimlar → chegara. \"Meanwhile\", \"which\", \"nor should it\" bilan tabiiy oqim; ro'yxat ohangi yo'q."],
+                ["So'z boyligi", "C1 · 5/5", "thin out, remittances, insecure work, tax incentives, a fraction of — aniq va sohaga mos. Mahalliy kontekst (Tashkent) ishonarli ishlatilgan."],
+                ["Grammatik xilma-xillik va aniqlik", "C1 · 5/5", "Pseudo-cleft, inversiya (nor should it), neither...nor, ikkinchi shart mayli, modal daraja farqi (should/could), ellipsis — juda keng va xatosiz."]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Muammo ↔ yechim moslashuvi (namunadan)",
+              "headers": ["Muammo", "Unga javob beruvchi yechim", "Nega mos"],
+              "rows": [
+                ["Yoshlar ta'lim uchun ketadi", "Mintaqaviy universitet va kollejlarni moliyalash", "Ketish sababini bevosita yo'q qiladi"],
+                ["Mintaqada ish o'rni yo'q", "Poytaxtdan tashqarida ishlab chiqarishga soliq imtiyozlari", "Ish o'rnini muammo joyiga olib boradi"],
+                ["Poytaxtda uy-joy va transport yetishmaydi", "Yuqori tezlikdagi internet — masofadan ishlash", "Ko'chishning o'ziga bo'lgan ehtiyojni kamaytiradi"],
+                ["(rad etilgan) Migratsiyaning o'zi", "Harakatni cheklash", "Adolatsiz va samarasiz — shuning uchun rad etilgan"]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "Yechim xatboshisida **modal fe'llar darajasi bilan o'ynang**: *should be funded* (qat'iy tavsiya) → *could be offered* (yumshoqroq taklif) → *deserves particular attention* (urg'u). Hammasini \"should\" bilan yozish matnni bir ohangli va B2 qiladi. Bu bir daqiqalik o'zgarish, lekin grammatik xilma-xillik mezoniga bevosita ta'sir qiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Problem-solution essesida eng ko'p uchraydigan tuzilish xatosi qaysi?",
+              "data": {
+                "options": [
+                  "Muammolar va yechimlar bir-biriga bog'lanmaydi",
+                  "Kirish juda qisqa bo'ladi",
+                  "Xulosada pozitsiya takrorlanadi",
+                  "Misollar mahalliy kontekstdan olinadi"
+                ]
+              },
+              "answer": { "value": "Muammolar va yechimlar bir-biriga bog'lanmaydi" },
+              "explanationUz": "3 ta muammo + 3 ta bog'lanmagan yechim = past ball. Kamroq nuqta, lekin har bir yechim aniq muammoga javob bersin — bu vazifani bajarish balini keskin ko'taradi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«None of this will reverse migration entirely, nor should it» — «nor should it» dagi so'z tartibi nima deb ataladi?",
+              "data": {
+                "options": [
+                  "Inversiya (ko'makchi fe'l egadan oldin keladi)",
+                  "Majhul nisbat",
+                  "Ellipsis",
+                  "Cleft struktura"
+                ]
+              },
+              "answer": { "value": "Inversiya (ko'makchi fe'l egadan oldin keladi)" },
+              "explanationUz": "Inkor ma'noli \"nor\" dan keyin inversiya majburiy: nor + should + it. Bu C1 grammatikasining aniq belgisi va ekspert uni darhol qayd etadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Namunadagi kollokatsiyani tiklang:",
+              "data": { "text": "When those aged eighteen to thirty leave, the working population ___ out." },
+              "answer": { "accept": ["thins"] },
+              "explanationUz": "\"Thin out\" — \"siyraklashmoq\". Demografik kontekstda juda aniq phrasal verb; \"becomes smaller\" o'rniga ishlatilsa, so'z boyligi mezoniga ball qo'shadi."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir muammoni unga mos yechimga bog'lang (namunadagidek):",
+              "data": {
+                "left": [
+                  "Yoshlar ta'lim uchun poytaxtga ketadi",
+                  "Mintaqada munosib ish o'rni yo'q",
+                  "Poytaxtda uy-joy va transport yetishmaydi"
+                ],
+                "right": [
+                  "Poytaxtdan tashqaridagi firmalarga soliq imtiyozlari",
+                  "Mintaqaviy universitet va kollejlarni to'liq moliyalash",
+                  "Ishonchli yuqori tezlikdagi internet (masofadan ishlash)"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "Yoshlar ta'lim uchun poytaxtga ketadi": "Mintaqaviy universitet va kollejlarni to'liq moliyalash",
+                  "Mintaqada munosib ish o'rni yo'q": "Poytaxtdan tashqaridagi firmalarga soliq imtiyozlari",
+                  "Poytaxtda uy-joy va transport yetishmaydi": "Ishonchli yuqori tezlikdagi internet (masofadan ishlash)"
+                }
+              },
+              "explanationUz": "Har bir yechim aniq bitta muammoning sababiga tegadi. Shu moslik ko'rinib tursa, vazifani bajarish mezoni to'liq yopiladi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Yechimlaringizning chegarasini tan olish (\"None of this will reverse migration entirely\") esseni zaiflashtiradi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Chegarani tan olish — yetuk mulohaza belgisi. Hamma muammoni butunlay hal qiladigan yechim va'da qilish esse ishonchliligini pasaytiradi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Yechimni ishonarli qiladigan elementlarni belgilang (bir nechta):",
+              "data": {
+                "options": [
+                  "Kim uchun va nima beradi — aniq ko'rsatilgan",
+                  "Boshqa mamlakat tajribasiga havola (as Turkey has done)",
+                  "Xarajat bo'yicha qiyoslash (a fraction of what new housing does)",
+                  "Modal fe'llar darajasi o'zgartirilgan (should / could)",
+                  "Yechim iloji boricha umumiy va keng bayon qilingan"
+                ]
+              },
+              "answer": { "values": ["Kim uchun va nima beradi — aniq ko'rsatilgan", "Boshqa mamlakat tajribasiga havola (as Turkey has done)", "Xarajat bo'yicha qiyoslash (a fraction of what new housing does)", "Modal fe'llar darajasi o'zgartirilgan (should / could)"] },
+              "explanationUz": "Umumiy bayon (\"the government should do something about it\") — eng zaif yechim shakli. Aniqlik, dalil va xarajat mulohazasi ballni ko'taradi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "\"Neither fair nor effective\" iborasidagi ikkinchi bog'lovchini yozing (bitta so'z):",
+              "data": { "text": "The obvious response — restricting movement — would be neither fair ___ effective." },
+              "answer": { "accept": ["nor"] },
+              "explanationUz": "\"Neither X nor Y\" — korrelyativ bog'lovchi. Ikki inkorni bitta ixcham strukturaga jamlaydi va grammatik xilma-xillikka ball qo'shadi."
+            }
+          ]
+        },
+        {
+          "slug": "advantages-disadvantages-model",
+          "titleUz": "Advantages and disadvantages: to'liq namuna",
+          "titleEn": "Do the advantages outweigh the disadvantages: full model",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 3,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "\"Outweigh\" savoliga oddiy sanoq emas, tarozili javob berish",
+            "Afzallik va kamchiliklarni bir xil chuqurlikda ochish",
+            "Shartli xulosa yozish (\"ha, lekin faqat agar...\")"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Vazifa (Task 2 · advantages and disadvantages)",
+              "bodyUz": "> *An increasing number of companies allow their employees to work entirely from home. Do the advantages of this development outweigh the disadvantages?*\n\n**Talab:** 250-280 so'z.\n\n**Savolni diqqat bilan o'qing:** \"Do the advantages **outweigh** the disadvantages?\" — bu **tarozi** savoli. Faqat ro'yxat berish yetarli emas; siz **qaysi tomon og'irroq** ekanini aytishingiz kerak.\n\nEng kuchli C1 javobi ko'pincha **shartli** bo'ladi: \"ha, og'irroq — **lekin faqat agar** ...\". Bu esseni oddiy \"plus/minus\" ro'yxatidan chiqaradi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Namunaviy javob (C1 · 70/75)",
+              "bodyUz": "**263 so'z**\n\n*A decade ago, working from home was a concession granted to a handful of employees; today whole companies operate without an office at all. The shift brings clear gains, but they are unevenly distributed, and on balance I would say the advantages outweigh the drawbacks only where the arrangement is managed deliberately.*\n\n*The benefits to the individual are easy to state. A commute of an hour each way returns roughly ten hours a week to the person who no longer makes it, and that time tends to go to family, sleep or study. Employers benefit too: office space is expensive, and recruiting without a fifty-kilometre radius opens up a far wider pool of candidates. For parents, and for people with disabilities in particular, remote work can be the difference between employment and none.*\n\n*The costs, however, are subtler and take longer to appear. Junior staff learn a great deal by overhearing experienced colleagues, and that informal training largely disappears on video calls. Teams that never meet tend to lose the loose social ties that make difficult conversations possible. There is also the boundary problem: when the desk is in the bedroom, the working day quietly expands, and the hours saved on commuting are absorbed by the job.*\n\n*Much depends, then, on implementation. Companies that keep occasional in-person meetings, protect people's evenings and invest in structured mentoring capture most of the benefit and avoid the worst of the harm.*\n\n*Overall, I believe the advantages do outweigh the disadvantages, but only for organisations willing to rebuild deliberately what an office used to provide by accident.*"
+            },
+            {
+              "type": "example",
+              "titleUz": "Gap-bagap tahlil: har bir gap qanday ball keltirdi",
+              "items": [
+                {
+                  "en": "A decade ago, working from home was a concession granted to a handful of employees; today whole companies operate without an office at all.",
+                  "uz": "KIRISH. \"Nowadays\" o'rniga **vaqt qarama-qarshiligi**: o'n yil oldin ↔ bugun. Nuqtali vergul ikki davrni bitta gapda taqqoslaydi. \"A concession granted to a handful\" — aniq va tejamkor (qisqargan sifatdosh oborot)."
+                },
+                {
+                  "en": "The shift brings clear gains, but they are unevenly distributed, and on balance I would say the advantages outweigh the drawbacks only where the arrangement is managed deliberately.",
+                  "uz": "POZITSIYA. Savolning fe'li (\"outweigh\") to'g'ridan-to'g'ri ishlatilgan — ekspert javobni aniq ko'radi. \"Only where...\" — shart darhol qo'yiladi, ya'ni esse oddiy plus/minus emas. \"Unevenly distributed\" — nozik fikr: foyda bor, lekin hammaga emas."
+                },
+                {
+                  "en": "A commute of an hour each way returns roughly ten hours a week to the person who no longer makes it, and that time tends to go to family, sleep or study.",
+                  "uz": "AFZALLIK — O'LCHANGAN. Mavhum \"vaqt tejaladi\" o'rniga **hisob**: 10 soat. \"Roughly\" hedgingi aniqlikni haddan tashqari qat'iy qilib qo'ymaydi. Ikkinchi qism vaqt qayerga ketishini ko'rsatadi — dalil to'liq bo'ladi."
+                },
+                {
+                  "en": "Employers benefit too: office space is expensive, and recruiting without a fifty-kilometre radius opens up a far wider pool of candidates.",
+                  "uz": "PERSPEKTIVA ALMASHUVI. Ikki nuqta bilan tushuntirish. Yozuvchi bir tomondan (xodim) ikkinchi tomonga (ish beruvchi) o'tadi — bu esseni ko'p qirrali qiladi. \"A far wider pool of candidates\" — aniq HR kollokatsiyasi."
+                },
+                {
+                  "en": "For parents, and for people with disabilities in particular, remote work can be the difference between employment and none.",
+                  "uz": "FIKR CHUQURLIGI. Adolat o'lchami kiritiladi. \"The difference between employment and none\" — ellipsis (none = no employment) va kuchli, esda qoladigan ifoda. \"In particular\" urg'uni to'g'ri joyga qo'yadi."
+                },
+                {
+                  "en": "The costs, however, are subtler and take longer to appear.",
+                  "uz": "O'TISH. \"However\" gap o'rtasida — vergullar bilan ajratilgan; bu tabiiyroq ko'rinadi. \"Subtler\" — kamchiliklar nima uchun ko'rinmasligini bir so'z bilan tushuntiradi va keyingi gaplarni tayyorlaydi."
+                },
+                {
+                  "en": "Junior staff learn a great deal by overhearing experienced colleagues, and that informal training largely disappears on video calls.",
+                  "uz": "KAMCHILIK — ORIGINAL. Bu standart \"lonely at home\" dalili emas. \"Overhearing\" — aniq va kutilmagan fe'l. \"That informal training\" — oldingi fikrni ot bilan umumlashtirish (nominalizatsiya): kuchli izchillik quroli."
+                },
+                {
+                  "en": "There is also the boundary problem: when the desk is in the bedroom, the working day quietly expands, and the hours saved on commuting are absorbed by the job.",
+                  "uz": "HALQA. Bu gap 2-xatboshidagi \"ten hours a week\" ga qaytadi va uni bekor qiladi — dalil bilan qarshi dalil bir-biriga ulanadi. \"Quietly expands\" va \"are absorbed by\" — ikkita nozik, aniq ifoda."
+                },
+                {
+                  "en": "Companies that keep occasional in-person meetings, protect people's evenings and invest in structured mentoring capture most of the benefit and avoid the worst of the harm.",
+                  "uz": "SHARTNI OCHISH. Uchta parallel fe'l (keep / protect / invest) bitta relative clause ichida. Gap uzun, lekin tuzilishi shaffof. Bu \"only where it is managed deliberately\" shartining **amaliy mazmuni**."
+                },
+                {
+                  "en": "Overall, I believe the advantages do outweigh the disadvantages, but only for organisations willing to rebuild deliberately what an office used to provide by accident.",
+                  "uz": "XULOSA. Ta'kidlovchi \"do\" (do outweigh) — grammatik urg'u. Oxirgi ibora (\"rebuild deliberately what an office used to provide by accident\") — butun essening g'oyasini bitta antitezaga siqadi. Aynan shunday yakunlar 70/75 keltiradi."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Mezonlar bo'yicha baho",
+              "headers": ["Mezon", "Baho", "Nima uchun"],
+              "rows": [
+                ["Vazifani bajarish", "C1 · 5/5", "\"Outweigh\" savoliga to'g'ridan-to'g'ri javob berilgan va shart bilan aniqlashtirilgan; ikki tomon ham bir xil chuqurlikda; 263 so'z."],
+                ["Izchillik va bog'lanish", "C1 · 5/5", "Kirishdagi shart 4-xatboshida ochiladi va xulosada takrorlanadi; \"boundary problem\" 2-xatboshiga qaytadi — matn zich to'qilgan."],
+                ["So'z boyligi", "C1 · 5/5", "concession, unevenly distributed, pool of candidates, subtler, boundary problem, structured mentoring — aniq va takrorsiz."],
+                ["Grammatik xilma-xillik va aniqlik", "C1 · 4.5/5", "Ta'kidlovchi do, ellipsis, parallel fe'llar, qisqargan oborotlar, relative clause zanjiri. Xato yo'q; shart mayli bo'lsa 5/5 bo'lardi."]
+              ]
+            },
+            {
+              "type": "table",
+              "titleUz": "Zaif vs kuchli \"outweigh\" xulosasi",
+              "headers": ["Zaif xulosa", "Nega zaif", "C1 varianti"],
+              "rows": [
+                ["In conclusion, there are many advantages and disadvantages of working from home.", "Savolga javob yo'q — tarozi ko'rsatilmagan", "Overall, I believe the advantages do outweigh the disadvantages, but only for organisations..."],
+                ["In my opinion, it depends on the person.", "Pozitsiyadan qochish", "Much depends, then, on implementation."],
+                ["To sum up, working from home is good but also bad.", "Takror va mazmunsiz", "The costs, however, are subtler and take longer to appear."],
+                ["In conclusion, I think companies should think about this problem seriously.", "Umumiy va harakatsiz", "...willing to rebuild deliberately what an office used to provide by accident."]
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "\"Outweigh\" essesida **kamchiliklar xatboshisi afzalliklar xatboshisidan zaif bo'lmasin**. Ko'p o'quvchi o'zi qo'llab-quvvatlaydigan tomonni chuqur yozadi, ikkinchisini esa yuzaki. Ekspert buni \"bir tomonlama\" deb belgilaydi. Namunada ikkala xatboshi ham 74-81 so'z va ikkalasida ham original dalil bor."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«Do the advantages outweigh the disadvantages?» savoliga eng kuchli C1 javobi qaysi?",
+              "data": {
+                "options": [
+                  "The advantages do outweigh the disadvantages, but only where the arrangement is managed deliberately.",
+                  "There are many advantages and disadvantages of this development.",
+                  "It depends on the person and the company.",
+                  "Both sides are equally important in modern life."
+                ]
+              },
+              "answer": { "value": "The advantages do outweigh the disadvantages, but only where the arrangement is managed deliberately." },
+              "explanationUz": "Savolning fe'li (\"outweigh\") ishlatilgan, tarozi ko'rsatilgan va shart qo'yilgan. Qolgan uch variant pozitsiyadan qochadi — bu vazifani bajarish mezonining eng katta yo'qotishi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Ta'kidlovchi ko'makchi fe'lni qo'ying:",
+              "data": { "text": "Overall, I believe the advantages ___ outweigh the disadvantages, but only for organisations willing to change." },
+              "answer": { "accept": ["do"] },
+              "explanationUz": "\"Do + fe'l\" — emfatik (ta'kidlovchi) qurilish. Xulosada u pozitsiyani kuchaytiradi va grammatik xilma-xillikka ball qo'shadi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "«That informal training largely disappears on video calls» — bu yerdagi «that informal training» qanday izchillik quroli?",
+              "data": {
+                "options": [
+                  "Nominalizatsiya: oldingi fikrni ot birikmasi bilan umumlashtirish",
+                  "Ellipsis",
+                  "Inversiya",
+                  "Cleft struktura"
+                ]
+              },
+              "answer": { "value": "Nominalizatsiya: oldingi fikrni ot birikmasi bilan umumlashtirish" },
+              "explanationUz": "Oldingi gapdagi butun g'oya (\"learn by overhearing colleagues\") ikki so'zga siqilib, keyingi gapning egasi bo'ldi. Bu C1 akademik yozuvining eng kuchli bog'lash usullaridan biri."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Afzalliklar xatboshisi kamchiliklar xatboshisidan ikki barobar uzun bo'lishi normal, chunki siz shu tomonni qo'llab-quvvatlaysiz." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. \"Outweigh\" savolida ikkala tomon ham jiddiy ochilishi kerak; keskin nomutanosiblik \"bir tomonlama\" deb baholanadi. Namunada ikkala xatboshi ham 74-81 so'z."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir dalilni u tegishli bo'lgan tomonga bog'lang:",
+              "data": {
+                "left": [
+                  "Junior staff lose informal training",
+                  "Recruiting opens up a far wider pool of candidates",
+                  "The working day quietly expands",
+                  "Remote work can be the difference between employment and none"
+                ],
+                "right": ["Afzallik (ish beruvchi uchun)", "Kamchilik (yosh xodimlar uchun)", "Afzallik (adolat o'lchami)", "Kamchilik (chegara muammosi)"]
+              },
+              "answer": {
+                "pairs": {
+                  "Junior staff lose informal training": "Kamchilik (yosh xodimlar uchun)",
+                  "Recruiting opens up a far wider pool of candidates": "Afzallik (ish beruvchi uchun)",
+                  "The working day quietly expands": "Kamchilik (chegara muammosi)",
+                  "Remote work can be the difference between employment and none": "Afzallik (adolat o'lchami)"
+                }
+              },
+              "explanationUz": "Diqqat qiling: dalillar turli perspektivalardan olingan (xodim, ish beruvchi, yosh xodim, nogironligi bor odam). Perspektiva xilma-xilligi vazifani bajarish balini ko'taradi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Namunadagi qaysi usullar dalilni \"o'lchanadigan\" qiladi? (bir nechta)",
+              "data": {
+                "options": [
+                  "Raqam keltirish (roughly ten hours a week)",
+                  "Masofa ko'rsatish (a fifty-kilometre radius)",
+                  "Vaqt qiyoslash (a decade ago ... today)",
+                  "Undov belgisi qo'shish",
+                  "\"Very\" va \"really\" bilan kuchaytirish"
+                ]
+              },
+              "answer": { "values": ["Raqam keltirish (roughly ten hours a week)", "Masofa ko'rsatish (a fifty-kilometre radius)", "Vaqt qiyoslash (a decade ago ... today)"] },
+              "explanationUz": "Kuchaytirgichlar (very, really) va undov belgilari dalilni kuchaytirmaydi — ular faqat ohangni ko'taradi. Aniq o'lchov esa haqiqiy og'irlik beradi."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Write an essay of 250-280 words. In many countries, university lectures are now recorded and made available online, and attendance at live lectures has become optional. Do the advantages of this development outweigh the disadvantages? State your position in the introduction, give both sides equal depth, and make your conclusion conditional rather than absolute.",
+              "promptUz": "250-280 so'zlik esse yozing. Ko'p mamlakatlarda universitet ma'ruzalari yozib olinib onlayn joylanmoqda va jonli ma'ruzaga borish ixtiyoriy bo'lib qoldi. Bu o'zgarishning afzalliklari kamchiliklaridan ustunmi? Pozitsiyangizni kirishda ayting, ikkala tomonni bir xil chuqurlikda oching va xulosani mutlaq emas, shartli qiling (\"ha, lekin faqat agar...\").",
+              "data": { "minWords": 250, "maxWords": 280 }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

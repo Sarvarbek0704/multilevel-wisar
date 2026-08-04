@@ -683,17 +683,6 @@
               "explanationUz": "Cheklov ravishi (Rarely) gap boshiga chiqqach, savol tartibi kerak: yordamchi fe'l (have) + ega (I) + asosiy fe'l (seen). «Rarely I have seen» — inversiyasiz, ya'ni xato."
             },
             {
-              "type": "MCQ_SINGLE",
-              "skill": "GRAMMAR",
-              "promptUz": "Bo'sh joyni to'ldiring:",
-              "data": {
-                "text": "Not only ___ the policy extremely expensive, but it also failed to reduce congestion.",
-                "options": ["was", "it was", "did", "has"]
-              },
-              "answer": { "value": "was" },
-              "explanationUz": "«Not only» dan keyin yordamchi fe'l egadan OLDIN keladi: Not only WAS the policy... Agar «it was» yozsangiz, inversiya yo'qoladi va tuzilma xato bo'ladi."
-            },
-            {
               "type": "GAP_FILL",
               "skill": "GRAMMAR",
               "promptUz": "Bo'sh joyni modal fe'l bilan to'ldiring:",
@@ -1666,6 +1655,599 @@
               "data": { "statement": "Har bir gapni «Moreover», «Furthermore» yoki «In addition» bilan boshlash Coherence and Cohesion balini oshiradi." },
               "answer": { "value": "false" },
               "explanationUz": "Noto'g'ri. Bandda aniq yozilgan: «does not overuse cohesive devices» — bog'lovchini ortiqcha ishlatish alohida jazolanadi. 250 so'zli essede 4-5 ta bog'lovchi yetarli; qolgan bog'lanish leksik zanjir, parallellik va given -> new oqimi orqali quriladi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "exam-execution",
+      "titleUz": "Imtihonda bajarish",
+      "titleEn": "Exam execution",
+      "descriptionUz": "Bilim va ball ikki xil narsa. Bu modulda Writing Task 2 ni 40 daqiqada C1 darajada yozish, Speaking Part 3 da javobni qurish va o'z xatolaringizni tizimli yo'q qilish metodikasini o'rganasiz.",
+      "order": 3,
+      "lessons": [
+        {
+          "slug": "writing-task-2-in-40-minutes",
+          "titleUz": "Writing Task 2 ni 40 daqiqada C1 darajada yozish",
+          "titleEn": "Writing Task 2 in 40 minutes",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 0,
+          "estimatedMinutes": 40,
+          "objectivesUz": [
+            "40 daqiqani 5-30-5 sxemasi bo'yicha taqsimlash",
+            "5 daqiqada ishlaydigan essе skeletini tuzish",
+            "Oxirgi 5 daqiqada eng ko'p ball qaytaradigan tekshiruv ro'yxatini bajarish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega bilimingiz balga aylanmayapti?",
+              "bodyUz": "Ko'pchilik B2 da qotib qolgan talaba aslida C1 darajadagi gap tuza oladi. Muammo bilimda emas — **bajarishda**.\n\nTipik imtihon holati: 40 daqiqa bor. Talaba darhol yozishni boshlaydi. 25-daqiqada u ikkinchi asosiy xatboshining o'rtasida ekanini va rejasi yo'qligini tushunadi. Vahima boshlanadi. Oxirgi 10 daqiqada u shoshib yozadi, xulosani yarim qoldiradi, tekshirishga vaqt qolmaydi.\n\nNatija: leksikasi C1, tuzilishi B1.\n\n**Yechim — vaqtni oldindan taqsimlash:**\n\n| Bosqich | Vaqt | Nima qilinadi |\n|---|---|---|\n| Reja | 5 daq | Skelet: tezis + 2 da'vo + 2 misol |\n| Yozish | 30 daq | Tanaffussiz, orqaga qaramasdan |\n| Tekshirish | 5 daq | Belgilangan ro'yxat bo'yicha |\n\nBu taqsimot bahsli emas — u yuzlab imtihonlarda sinalgan. Reja uchun 5 daqiqa «yo'qotilgan vaqt» emas: u yozish tezligini kamida ikki barobar oshiradi, chunki siz nima yozishni bilib turasiz."
+            },
+            {
+              "type": "theory",
+              "titleUz": "5 daqiqalik reja: aniq nima yoziladi",
+              "bodyUz": "Rejani to'liq gaplar bilan yozmang — bu vaqtni yeydi. Faqat quyidagi 6 qatorni yozing (30-40 so'z, o'zbekcha ham bo'ladi):\n\n```\nTEZIS: ___ (mening pozitsiyam, bitta jumla)\nDA'VO 1: ___\n  misol 1: ___ (raqam / mamlakat / holat)\nDA'VO 2: ___\n  misol 2: ___\nQARSHI FIKR: ___ -> javobim: ___\n```\n\n**Uchta qat'iy qoida:**\n\n**1. Tezisni birinchi yozing.** Agar pozitsiyangiz aniq bo'lmasa, butun esse chayqaladi va Task Response bali tushadi.\n\n**2. Misolni rejada belgilang.** Yozayotganda misol o'ylash — vaqt yo'qotishning eng katta manbayi. Rejada «Germany 2014 tuition» deb yozib qo'ysangiz, yetadi.\n\n**3. Qarshi fikrni majburiy qiling.** C1 tavsifi: «presents a balanced discussion». Qarshi fikrsiz esse B2 ga tushadi, leksikasi qanday bo'lishidan qat'i nazar.\n\nSkelet tayyor bo'lgach, yozish paytida hech qachon «endi nima yozaman?» degan savol tug'ilmaydi."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: har bosqichda yondashuv farqi",
+              "headers": ["Bosqich", "B2 yondashuvi", "C1 yondashuvi"],
+              "rows": [
+                ["Savolni o'qish", "Mavzuni ko'radi va shu haqda yoza boshlaydi", "Savolning aniq turini aniqlaydi (discuss both views / to what extent / advantages) va shunga mos tuzilma tanlaydi"],
+                ["Reja", "Rejasiz yoki 3 ta so'z", "5 daqiqa: tezis + 2 da'vo + 2 aniq misol + qarshi fikr"],
+                ["Kirish", "Savolni boshqa so'zlar bilan takrorlaydi", "Kontekst gapi + aniq tezis (pozitsiya birinchi xatboshidayoq ma'lum)"],
+                ["Asosiy qism", "3-4 qisqa xatboshi, har birida bitta fikr", "2 ta to'la xatboshi, T-D-E-L bo'yicha, 70-100 so'zdan"],
+                ["Misol", "«For example, my friend...»", "Aniq holat, raqam yoki mamlakat: tekshiriladigan dalil"],
+                ["Qarshi fikr", "Yo'q yoki bitta «However, some people disagree»", "To'la tan olish + asosli rad etish (concede and rebut)"],
+                ["Xulosa", "Kirishni takrorlaydi", "Tezisni yangi ifodada tasdiqlaydi + oqibat yoki shart qo'shadi"],
+                ["Tekshirish", "Vaqt qolmaydi", "5 daqiqa: aniq 6 punktli ro'yxat"],
+                ["So'z hisobi", "Yozayotganda sanaydi", "Xat qatorlarini oldindan biladi (o'z qo'lyozmasi: ~10 so'z / qator)"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "30 daqiqalik yozish: taqiqlangan harakatlar",
+              "bodyUz": "Yozish bosqichida uchta narsa **qat'iyan taqiqlanadi**, chunki ular vaqtning yarmini yeydi:\n\n**1. Orqaga qaytib o'qish.** Yozgan xatboshingizni qayta o'qish — bu tekshirish bosqichining ishi. Hozir yozing, keyin tekshirasiz.\n\n**2. So'z izlab to'xtash.** Kerakli C1 so'zi esingizga kelmasa, oddiy so'zni yozib, ustiga nuqta qo'ying va davom eting. Tekshirish paytida qaytasiz.\n\n**3. Kirishni qayta yozish.** Kirishga 4 daqiqadan ko'p vaqt ketsa, siz allaqachon orqadasiz. Kirish 40-50 so'z: bitta kontekst gapi + bitta tezis. Tamom.\n\n**Vaqt nazorati (30 daqiqa ichida):**\n- 0-4 daq: Kirish (40-50 so'z)\n- 4-15 daq: 1-asosiy xatboshi (80-100 so'z)\n- 15-26 daq: 2-asosiy xatboshi + qarshi fikr (80-100 so'z)\n- 26-30 daq: Xulosa (40-50 so'z)\n\nSoatga 15-daqiqada bir marta qarang. Agar 1-xatboshi hali tugamagan bo'lsa — qisqartiring va oldinga o'ting. **Tugallanmagan esse har doim zaif essedan past baholanadi.**"
+            },
+            {
+              "type": "theory",
+              "titleUz": "Oxirgi 5 daqiqa: 6 punktli tekshiruv ro'yxati",
+              "bodyUz": "Bu ro'yxat aynan shu tartibda bajariladi — u eng ko'p ball qaytaradigan xatolardan boshlanadi:\n\n**1. Mutlaq da'volar (40 soniya).** *all, every, always, never, everyone, nobody* — toping va yumshating (most, tend to, in most cases).\n\n**2. «very» va «a lot of» (40 soniya).** Har birini aniq so'zga almashtiring: very important -> pivotal; a lot of -> a host of / a significant number of.\n\n**3. Yolg'iz «This» (30 soniya).** Gap boshidagi har bir «This» ga ot qo'shing: this measure, this shift, this discrepancy.\n\n**4. Uchinchi shaxs -s (40 soniya).** Bu C1 chegarasidagi talabalarning eng ko'p qiladigan beparvo xatosi: *the government **decide*** -> *decides*. Shoshib yozganda deyarli har doim uchraydi.\n\n**5. Artikllar (40 soniya).** Umumlashtirishda: *the pollution is a problem* -> *pollution is a problem*. Aniq narsada: *government* -> *the government*.\n\n**6. Xulosa bormi? (20 soniya).** Xulosasiz esse Task Response bo'yicha avtomatik pasayadi. Agar vaqt tugayotgan bo'lsa, bitta gapli xulosa ham yo'qdan yaxshi.\n\nQolgan 30 soniya — so'zlar sonini chamalash. Yangi gap **qo'shmang**: bu bosqichda qo'shilgan gap deyarli har doim xato bilan chiqadi."
+            },
+            {
+              "type": "example",
+              "titleUz": "Tayyor iboralar: har bosqich uchun bittadan",
+              "items": [
+                { "en": "Whether X should be Y has become a matter of increasing public debate.", "uz": "Kirish, kontekst gapi. Savolni takrorlamaydi, kontekst beradi." },
+                { "en": "This essay will argue that, while X carries genuine risks, the case for Y remains the stronger one.", "uz": "Kirish, tezis. Pozitsiya aniq VA qarshi tomon tan olingan — bu Task Response uchun ideal." },
+                { "en": "The most compelling argument for X is economic rather than moral.", "uz": "1-asosiy xatboshi, topic sentence. Bahslashish mumkin bo'lgan da'vo." },
+                { "en": "Critics of this view point to Z, and the objection is not without foundation.", "uz": "Qarshi fikrni TAN OLISH — «concede». C1 muvozanatining birinchi yarmi." },
+                { "en": "This objection, however, rests on the assumption that ___ , which the evidence does not support.", "uz": "Qarshi fikrni RAD ETISH — «rebut». Ikkinchi yarmi. Ikkalasi birga C1 belgisi." },
+                { "en": "On balance, then, the arguments for X outweigh the reservations — provided that ___ .", "uz": "Xulosa. «provided that» shart qo'shadi va xulosani takrordan saqlaydi." }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Task Response — bu Writing dagi eng og'ir mezon.** U so'z boyligingizga umuman qaramaydi. U faqat uchta narsani tekshiradi: savolga to'liq javob berdingizmi, pozitsiyangiz aniqmi, fikrlaringiz dalillangan va rivojlantirilganmi.\n\nAmaliy xulosa: mukammal C1 leksikasi bilan yozilgan, lekin savolning yarmiga javob bermagan esse — B2. Oddiyroq til bilan yozilgan, lekin to'liq va muvozanatli esse — C1.\n\nShuning uchun 5 daqiqalik rejani hech qachon tashlamang. U aynan Task Response ni himoya qiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "40 daqiqalik Writing Task 2 bosqichlarini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "30 daqiqa: orqaga qaramasdan yozish",
+                  "5 daqiqa: tezis, ikki da'vo va ikki misolni belgilash",
+                  "5 daqiqa: 6 punktli tekshiruv ro'yxati",
+                  "1 daqiqa: savol turini aniqlash (discuss both views / to what extent)"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "1 daqiqa: savol turini aniqlash (discuss both views / to what extent)",
+                  "5 daqiqa: tezis, ikki da'vo va ikki misolni belgilash",
+                  "30 daqiqa: orqaga qaramasdan yozish",
+                  "5 daqiqa: 6 punktli tekshiruv ro'yxati"
+                ]
+              },
+              "explanationUz": "Savol turini aniqlash birinchi bo'lishi shart — u tuzilmani belgilaydi. Keyin reja, keyin yozish, oxirida tekshirish. Rejani tashlab yuborish yozish vaqtini tejamaydi, aksincha ko'paytiradi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Imtihonda 30 daqiqa yozish vaqtining 25-daqiqasidasiz va 2-asosiy xatboshi hali tugamagan. Eng to'g'ri harakat qaysi?",
+              "data": {
+                "options": [
+                  "Xatboshini qisqacha yakunlab, xulosaga o'tish",
+                  "Xatboshini rejalashtirilgandek to'liq yozib tugatish",
+                  "Kirishga qaytib, uni kuchaytirish",
+                  "1-xatboshini qayta o'qib, xatolarni tuzatish"
+                ]
+              },
+              "answer": { "value": "Xatboshini qisqacha yakunlab, xulosaga o'tish" },
+              "explanationUz": "Tugallanmagan esse Task Response bo'yicha avtomatik pasayadi — xulosaning yo'qligi zaif xatboshidan ancha qimmatga tushadi. Imtihon mantiqi: to'liq va o'rtacha > mukammal va chala."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Oxirgi 5 daqiqalik tekshiruvda qidiriladigan narsalarni belgilang (bir nechta):",
+              "data": {
+                "options": [
+                  "«all / always / everyone» kabi mutlaq so'zlar",
+                  "Gap boshidagi yolg'iz «This»",
+                  "Uchinchi shaxs birlikdagi -s qo'shimchasi",
+                  "Yangi asosiy xatboshi qo'shish imkoniyati",
+                  "Kirishni butunlay qayta yozish"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "«all / always / everyone» kabi mutlaq so'zlar",
+                  "Gap boshidagi yolg'iz «This»",
+                  "Uchinchi shaxs birlikdagi -s qo'shimchasi"
+                ]
+              },
+              "explanationUz": "Tekshiruv bosqichi — TUZATISH bosqichi, YOZISH bosqichi emas. Bu bosqichda qo'shilgan yangi gap deyarli har doim xato bilan chiqadi, kirishni qayta yozish esa vaqtni yeydi va tuzilmani buzadi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Qarshi fikrni rad etish (rebut) iborasini to'ldiring:",
+              "data": { "text": "This objection, ___ , rests on the assumption that wages will remain stable — an assumption the evidence does not support." },
+              "answer": { "accept": ["however", "though", "nevertheless"] },
+              "explanationUz": "«however» gap o'rtasida, vergullar bilan — bu C1 joylashuvi (B2 doim gap boshiga qo'yadi). Butun ibora «concede and rebut» sxemasining ikkinchi yarmi: e'tirozni tan olib, keyin uning zaif joyini ko'rsatasiz."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir esse bosqichini uning vazifasiga bog'lang:",
+              "data": {
+                "left": ["Kirish", "1-asosiy xatboshi", "Qarshi fikr qismi", "Xulosa"],
+                "right": [
+                  "E'tirozni tan olish va asosli rad etish",
+                  "Kontekst gapi + aniq tezis (40-50 so'z)",
+                  "Tezisni yangi ifodada tasdiqlash + shart yoki oqibat",
+                  "Eng kuchli da'vo + mexanizm + aniq misol"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "Kirish": "Kontekst gapi + aniq tezis (40-50 so'z)",
+                  "1-asosiy xatboshi": "Eng kuchli da'vo + mexanizm + aniq misol",
+                  "Qarshi fikr qismi": "E'tirozni tan olish va asosli rad etish",
+                  "Xulosa": "Tezisni yangi ifodada tasdiqlash + shart yoki oqibat"
+                }
+              },
+              "explanationUz": "Diqqat: eng kuchli da'vo BIRINCHI xatboshiga qo'yiladi, oxirgisiga emas. Baholovchi birinchi asosiy xatboshini eng diqqat bilan o'qiydi va umumiy taassurot shu yerda shakllanadi."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "Tekshiruv paytida shu gapni topdingiz: «All people always benefit from free education.» Ikkita mutlaq so'zdan birinchisini («All») nima bilan almashtirasiz? (bir-uch so'z)",
+              "data": { "text": "___ people benefit from free education." },
+              "answer": { "accept": ["Most", "Many", "A majority of", "most", "many"] },
+              "explanationUz": "«All» va «always» — isbotlab bo'lmaydigan mutlaq da'vo, Task Response bo'yicha jazolanadi. «Most people benefit» esa himoya qilinadigan da'vo. Bu ikki so'zlik tuzatish 30 soniya oladi, lekin real ball farqini beradi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Agar essening leksikasi va grammatikasi C1 darajada bo'lsa, qarshi fikr qismi bo'lmasa ham C1 bal olish mumkin." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Task Response alohida mezon va u leksikaga qaramaydi. C1 tavsifi «presents a balanced discussion» ni talab qiladi — qarshi fikrsiz esse bir tomonlama hisoblanadi va Task Response bo'yicha B2 da qoladi."
+            },
+            {
+              "type": "WRITING_TASK",
+              "skill": "WRITING",
+              "promptEn": "Timed exam simulation. Set a timer for 40 minutes and follow the 5-30-5 plan.\n\nTask: 'Some people believe that governments should invest heavily in public transport rather than in building new roads. To what extent do you agree?'\n\nWrite 250-300 words. Requirements: (1) a clear thesis in the introduction; (2) two body paragraphs following T-D-E-L, each with one concrete example; (3) a counter-argument that you concede and then rebut; (4) a conclusion that restates the thesis in new words and adds a condition; (5) no 'all', 'always', 'never', 'everyone'; (6) at least one participle or absolute clause and one inversion or cleft.",
+              "promptUz": "Vaqt cheklangan imtihon simulyatsiyasi. Taymerni 40 daqiqaga qo'ying va 5-30-5 sxemasini bajaring.\n\nVazifa: «Ba'zilar hukumatlar yangi yo'llar qurishdan ko'ra jamoat transportiga katta sarmoya kiritishi kerak deb hisoblaydi. Bunga qay darajada qo'shilasiz?»\n\n250-300 so'z yozing. Talablar: (1) kirishda aniq tezis; (2) T-D-E-L bo'yicha ikkita asosiy xatboshi, har birida bitta aniq misol; (3) tan olinib, keyin rad etilgan qarshi fikr; (4) tezisni yangi so'zlar bilan tasdiqlovchi va shart qo'shuvchi xulosa; (5) «all», «always», «never», «everyone» ishlatilmasin; (6) kamida bitta participle yoki absolute clause va bitta inversiya yoki cleft.",
+              "data": { "minWords": 250, "maxWords": 320 }
+            }
+          ]
+        },
+        {
+          "slug": "speaking-part-3-at-c1",
+          "titleUz": "Speaking Part 3 da C1: javobni qurish ramkalari",
+          "titleEn": "Speaking Part 3 at C1",
+          "skill": "SPEAKING",
+          "level": "C1",
+          "order": 1,
+          "estimatedMinutes": 35,
+          "objectivesUz": [
+            "Part 3 javobini to'rt harakatli ramka bo'yicha qurish: kengaytirish, tan olish, misol, xulosa",
+            "Qarshi fikrni tan olib, keyin uni asosli rad etishni og'zaki nutqda bajarish",
+            "Savolga to'g'ridan-to'g'ri javob berib, keyin uni kengaytirishni avtomatlashtirish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Part 3 nimani tekshiradi?",
+              "bodyUz": "Part 1 sizning kundalik tilingizni tekshiradi. Part 2 monologni tekshiradi. **Part 3 esa fikrlashingizni tekshiradi** — va aynan shu yerda B2 va C1 ajraladi.\n\nB2 nomzod savolga javob beradi va to'xtaydi:\n*— Should university education be free?*\n*— Yes, I think so, because it helps poor students to study.* (12 so'z, 6 soniya)\n\nBaholovchi kutadi. Nomzod jim. Baholovchi keyingi savolni beradi. Bu **Fluency and Coherence** bo'yicha B2.\n\nC1 nomzod javobni **quradi**: pozitsiya → mexanizm → qarshi tomon → misol → yakun. 40-60 soniya, tabiiy ravon nutq bilan.\n\nMuhim nuqta: C1 uchun **ko'p gapirish** emas, **tuzilgan** gapirish kerak. 60 soniyalik chala javob 40 soniyalik tuzilgan javobdan past baholanadi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "To'rt harakatli ramka: POSITION - MECHANISM - CONCESSION - EXAMPLE",
+              "bodyUz": "Har bir Part 3 javobini shu to'rt harakat bo'yicha quring. Ular bir xil tartibda, har doim.\n\n**1. POSITION (5 soniya)** — savolga TO'G'RIDAN-TO'G'RI javob bering.\n*«On balance, yes — though with one important qualification.»*\nBu eng ko'p tashlab ketiladigan harakat. Savolga javob bermay, atrofida aylanish — Task Response uchun halokat.\n\n**2. MECHANISM (15-20 soniya)** — NEGA shunday? Sababni tushuntiring.\n*«The main reason is that tuition fees deter precisely the students who would benefit most — those from low-income families who are most averse to taking on debt.»*\n\n**3. CONCESSION (10-15 soniya)** — qarshi tomonni tan oling va javob bering.\n*«Now, critics argue that free tuition subsidises the middle class, and there is something in that. But the answer is a progressive tax system, not fees.»*\n\n**4. EXAMPLE (10-15 soniya)** — aniq holat bilan mustahkamlang.\n*«Germany is the obvious case: it scrapped fees in 2014 and enrolment among first-generation students rose noticeably.»*\n\nJami: 40-55 soniya. Bu — ideal Part 3 javobi uzunligi."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: bir savol, ikki javob",
+              "headers": ["Harakat", "B2 javobi", "C1 javobi"],
+              "rows": [
+                ["Pozitsiya", "«Yes, I think so.»", "«On balance, yes — though with one important qualification.»"],
+                ["Mexanizm", "«Because it helps poor students.»", "«Fees deter precisely the students who would benefit most — those most averse to taking on debt.»"],
+                ["Qarshi fikr", "yo'q", "«Critics argue it subsidises the middle class, and there is something in that. But the answer is progressive taxation, not fees.»"],
+                ["Misol", "«For example, my cousin couldn't pay.»", "«Germany scrapped fees in 2014 and enrolment among first-generation students rose noticeably.»"],
+                ["Yakun", "yo'q (jim qoladi)", "«So the principle holds — the funding mechanism is what needs rethinking.»"],
+                ["Uzunlik", "6-10 soniya", "40-55 soniya, tuzilgan"],
+                ["Ohang", "Faqat «I think»", "«On balance», «arguably», «there is something in that» — kalibrlangan"]
+              ]
+            },
+            {
+              "type": "dialogue",
+              "titleUz": "To'liq C1 javobi, harakatlarga ajratilgan",
+              "lines": [
+                {
+                  "speaker": "Examiner",
+                  "en": "Do you think working from home will replace the traditional office?",
+                  "uz": "Sizningcha, uydan ishlash an'anaviy ofisning o'rnini bosadimi?"
+                },
+                {
+                  "speaker": "Candidate [POSITION]",
+                  "en": "Replace it entirely? I doubt it — but I do think the office will end up serving a completely different function.",
+                  "uz": "To'liq o'rnini bosadimi? Shubhalanaman — lekin ofis butunlay boshqa vazifani bajarishini o'ylayman. (Pozitsiya darhol va aniq berildi.)"
+                },
+                {
+                  "speaker": "Candidate [MECHANISM]",
+                  "en": "The reason is fairly simple. Individual, focused work is genuinely easier at home, but the things organisations struggle with — training junior staff, building trust, generating ideas that nobody was looking for — those still happen far more efficiently face to face.",
+                  "uz": "Sababi ancha oddiy. Yakka, diqqatni jamlagan ish uyda chindan ham osonroq, lekin tashkilotlar qiynaladigan narsalar — yosh xodimlarni o'qitish, ishonch qurish, hech kim izlamagan g'oyalarni tug'dirish — bular hamon yuzma-yuz ancha samarali. (Mexanizm: nega shunday.)"
+                },
+                {
+                  "speaker": "Candidate [CONCESSION]",
+                  "en": "Now, plenty of people would say that video calls have closed that gap, and to some extent they have. But there is a difference between a scheduled meeting and the conversation that happens by accident in a corridor.",
+                  "uz": "Ko'pchilik videoqo'ng'iroqlar bu tafovutni yopdi deyishadi va ma'lum darajada yopdi ham. Lekin rejalashtirilgan uchrashuv bilan koridorda tasodifan bo'lib qolgan suhbat o'rtasida farq bor. (Tan olish va asosli rad etish.)"
+                },
+                {
+                  "speaker": "Candidate [EXAMPLE + WRAP]",
+                  "en": "You can see this in what the big tech firms actually did: almost all of them announced permanent remote work in 2021, and almost all of them quietly reversed it within two years. So the office survives — just as a place people go to for a reason, rather than by default.",
+                  "uz": "Buni yirik texnologiya kompaniyalari aslida nima qilganidan ko'rish mumkin: deyarli hammasi 2021-yilda doimiy masofaviy ishni e'lon qildi va deyarli hammasi ikki yil ichida bundan jimgina qaytdi. Demak, ofis saqlanib qoladi — shunchaki odatga ko'ra emas, aniq maqsad bilan boriladigan joy sifatida. (Misol + yakun.)"
+                }
+              ]
+            },
+            {
+              "type": "example",
+              "titleUz": "Nutq ramkalari: yodlab oling",
+              "items": [
+                { "en": "POSITION: On balance, yes — though with one important qualification.", "uz": "Pozitsiya + shartni oldindan e'lon qilish. Sizga keyingi 30 soniya uchun yo'nalish beradi." },
+                { "en": "POSITION: I would go further than that, actually.", "uz": "Savolga rozilikdan kuchliroq javob berish. Ishonch ko'rsatadi." },
+                { "en": "MECHANISM: The reason, I think, comes down to ___ .", "uz": "Sababga o'tish. «comes down to» — «asosiy sabab shu» degan tabiiy og'zaki ibora." },
+                { "en": "MECHANISM: What tends to happen in practice is that ___ .", "uz": "«tends to» hedge bilan mexanizmni tushuntirish." },
+                { "en": "CONCESSION: Now, plenty of people would say that ___ , and to some extent they have a point.", "uz": "Qarshi fikrni tan olish. «and they have a point» — halollik ko'rsatadi, bu C1 belgisi." },
+                { "en": "CONCESSION: There is something in that, but it overlooks ___ .", "uz": "Tan olish + rad etish, ikkalasi bitta gapda. Eng tejamkor variant." },
+                { "en": "EXAMPLE: You can see this in what actually happened when ___ .", "uz": "Misolga o'tish. «For example» dan ko'ra tabiiyroq va kuchliroq." },
+                { "en": "WRAP: So the principle holds — it is the ___ that needs rethinking.", "uz": "Yakunlash + cleft tuzilmasi. Javobni ochiq qoldirmaydi." }
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Uchta halokatli Part 3 xatosi",
+              "bodyUz": "**1. Savolga javob bermaslik.** Savol: *Should governments regulate social media?* Nomzod ijtimoiy tarmoqlar haqida 60 soniya gapiradi, lekin «ha» yoki «yo'q» demaydi. Baholovchi buni Fluency emas, **Coherence** xatosi deb qayd etadi. Har doim POSITION bilan boshlang.\n\n**2. Bir xil da'voni takrorlash.** Nomzod bitta fikrni uch xil so'z bilan qaytaradi va buni «kengaytirish» deb o'ylaydi. Aslida bu — «repetitive» belgisi. Kengaytirish = **yangi** qatlam qo'shish (mexanizm, qarshi fikr, misol), takror emas.\n\n**3. Yodlangan iboralar to'plami.** *In today's modern world, it is a well-known fact that...* — baholovchilar bu iboralarni ming marta eshitgan va ular ball bermaydi. Ramkalar (POSITION, CONCESSION) esa boshqa narsa: ular sizga **tuzilma** beradi, mazmun esa sizniki bo'ladi.\n\n**Test:** javobingizdan barcha «go'zal» iboralarni olib tashlang. Ostida real fikr qoldimi? Agar ha — bu C1. Agar yo'q — bu yodlangan matn."
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Fluency and Coherence.** C1 tavsifi: «speaks fluently with only occasional repetition or self-correction» va «develops topics fully and appropriately».\n\nIkkinchi jumla kalit: «develops topics **fully**». Bu uzoq gapirish emas — bu **qatlam qo'shish**. Har bir javobda kamida uchta qatlam bo'lsin: pozitsiya, sabab, qarshi fikr yoki misol.\n\nMashq metodikasi: uydan 10 ta Part 3 savolini oling. Har biriga to'rt harakatli ramka bo'yicha javob bering va **ovozingizni yozib oling**. Keyin eshiting va sanang: nechta qatlam bor edi? Agar ikkitadan kam bo'lsa — javobni qayta qiling. Ikki hafta shu mashq Fluency and Coherence bo'yicha real farq beradi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "ORDERING",
+              "skill": "SPEAKING",
+              "promptUz": "C1 Part 3 javobining to'rt harakatini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "Qarshi fikrni tan olish va unga javob berish (CONCESSION)",
+                  "Savolga to'g'ridan-to'g'ri javob berish (POSITION)",
+                  "Aniq holat bilan mustahkamlash (EXAMPLE)",
+                  "Sababni tushuntirish (MECHANISM)"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Savolga to'g'ridan-to'g'ri javob berish (POSITION)",
+                  "Sababni tushuntirish (MECHANISM)",
+                  "Qarshi fikrni tan olish va unga javob berish (CONCESSION)",
+                  "Aniq holat bilan mustahkamlash (EXAMPLE)"
+                ]
+              },
+              "explanationUz": "Pozitsiya har doim birinchi — savolga javob bermay kengaytirish Coherence xatosi hisoblanadi. Misol esa oxirida keladi, chunki u da'voni va qarshi fikrga bergan javobingizni birgalikda mustahkamlaydi."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "SPEAKING",
+              "promptUz": "Savol: «Should social media be regulated?» Qaysi javob boshlanishi C1 darajada?",
+              "data": {
+                "options": [
+                  "Broadly yes, though I would draw the line in a different place from most regulators.",
+                  "Social media is a very interesting topic in today's modern world.",
+                  "Well, there are many opinions about this and it depends on many factors.",
+                  "Yes, I think so, because it is dangerous."
+                ]
+              },
+              "answer": { "value": "Broadly yes, though I would draw the line in a different place from most regulators." },
+              "explanationUz": "Bu javob POSITION ni darhol beradi («Broadly yes»), hedge qo'shadi («broadly») va keyingi 30 soniya uchun yo'nalish e'lon qiladi («I would draw the line differently»). Qolgan uchtasi javobni kechiktiradi yoki juda qisqa."
+            },
+            {
+              "type": "MATCHING",
+              "skill": "SPEAKING",
+              "promptUz": "Har bir nutq ramkasini u bajaradigan harakatga bog'lang:",
+              "data": {
+                "left": [
+                  "On balance, yes — though with one important qualification.",
+                  "The reason, I think, comes down to how the incentives are set up.",
+                  "There is something in that, but it overlooks the long-term cost.",
+                  "You can see this in what actually happened in Germany after 2014."
+                ],
+                "right": ["EXAMPLE", "POSITION", "CONCESSION", "MECHANISM"]
+              },
+              "answer": {
+                "pairs": {
+                  "On balance, yes — though with one important qualification.": "POSITION",
+                  "The reason, I think, comes down to how the incentives are set up.": "MECHANISM",
+                  "There is something in that, but it overlooks the long-term cost.": "CONCESSION",
+                  "You can see this in what actually happened in Germany after 2014.": "EXAMPLE"
+                }
+              },
+              "explanationUz": "Bu to'rt ramkani yodlang — ular sizga tuzilma beradi, mazmun esa har safar sizniki bo'ladi. Aynan shuning uchun ular yodlangan iboralar kabi sun'iy eshitilmaydi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "SPEAKING",
+              "promptUz": "Qarshi fikrni tan olish iborasini to'ldiring (ikki so'z):",
+              "data": { "text": "Plenty of people would say that video calls have closed the gap, and to some ___ they have." },
+              "answer": { "accept": ["extent", "degree", "extent,"] },
+              "explanationUz": "«to some extent» — qisman rozilikni bildiruvchi hedge. CONCESSION harakatida u muhim: siz qarshi tomonni to'liq rad etmay, qisman haq deb tan olasiz — bu C1 muvozanatining belgisi."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "SPEAKING",
+              "promptUz": "Part 3 javobini haqiqiy kengaytirish usullarini belgilang (bir nechta):",
+              "data": {
+                "options": [
+                  "Yangi qatlam qo'shish: mexanizmni tushuntirish",
+                  "Qarshi fikrni tan olib, unga javob berish",
+                  "Aniq holat yoki raqam keltirish",
+                  "Bir xil fikrni boshqa so'zlar bilan qaytarish",
+                  "«In today's modern world» kabi kirish iborasini qo'shish"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "Yangi qatlam qo'shish: mexanizmni tushuntirish",
+                  "Qarshi fikrni tan olib, unga javob berish",
+                  "Aniq holat yoki raqam keltirish"
+                ]
+              },
+              "explanationUz": "Kengaytirish = YANGI qatlam. Bir xil fikrni qaytarish «repetitive» deb qayd etiladi, yodlangan kirish iboralari esa hech qanday ball bermaydi — baholovchilar ularni ming marta eshitgan."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "SPEAKING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Part 3 da imkon qadar uzoq gapirish har doim yuqori ball keltiradi." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. 60 soniyalik tuzilmasiz javob 40 soniyalik tuzilgan javobdan past baholanadi. Mezon «develops topics fully» — ya'ni qatlam qo'shish, vaqtni to'ldirish emas. Ideal uzunlik: 40-55 soniya, to'rt harakat bilan."
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Speaking Part 3 question: 'Do you think working from home will eventually replace the traditional office?' Speak for about 60 seconds using all four moves in order: POSITION (answer directly), MECHANISM (explain why), CONCESSION (acknowledge the opposing view and respond to it), EXAMPLE (one concrete case). Do not use 'In today's modern world' or 'It is a well-known fact that'.",
+              "promptUz": "Speaking Part 3 savoli: «Sizningcha, uydan ishlash oxir-oqibat an'anaviy ofisning o'rnini bosadimi?» Taxminan 60 soniya gapiring va to'rt harakatni tartib bilan bajaring: POSITION (savolga to'g'ridan-to'g'ri javob), MECHANISM (nega shunday), CONCESSION (qarshi fikrni tan oling va javob bering), EXAMPLE (bitta aniq holat). «In today's modern world» va «It is a well-known fact that» iboralarini ishlatmang.",
+              "data": { "preparationSeconds": 30, "recordSeconds": 60 }
+            },
+            {
+              "type": "SPEAKING_TASK",
+              "skill": "SPEAKING",
+              "promptEn": "Speaking Part 3 question: 'Some people argue that international tourism does more harm than good to local communities. What is your view?' Speak for about 75 seconds. This time the CONCESSION move must come first: begin by stating the strongest version of the view you disagree with, then dismantle it, then give your own position with one example.",
+              "promptUz": "Speaking Part 3 savoli: «Ba'zilar xalqaro turizm mahalliy jamoalarga foydadan ko'ra ko'proq zarar keltiradi deb hisoblaydi. Sizning fikringiz qanday?» Taxminan 75 soniya gapiring. Bu safar CONCESSION harakati BIRINCHI bo'lsin: o'zingiz qo'shilmaydigan fikrning eng kuchli variantini aytib bering, keyin uni asosli rad eting, so'ng o'z pozitsiyangizni bitta misol bilan bayon qiling.",
+              "data": { "preparationSeconds": 45, "recordSeconds": 75 }
+            }
+          ]
+        },
+        {
+          "slug": "error-log-system",
+          "titleUz": "O'z xatolaringizni tizimlashtirish: takroriy xatolar daftari",
+          "titleEn": "Systematising your own errors",
+          "skill": "WRITING",
+          "level": "C1",
+          "order": 2,
+          "estimatedMinutes": 30,
+          "objectivesUz": [
+            "Xatolarni uch sinfga ajratish: tizimli, beparvo va bilim yetishmasligi",
+            "Besh ustunli xatolar daftarini yuritish",
+            "Haftalik yig'ish - tasniflash - mashq - qayta sinov siklini o'rnatish"
+          ],
+          "content": [
+            {
+              "type": "theory",
+              "titleUz": "Nega xatolaringiz takrorlanadi?",
+              "bodyUz": "Bu tanish holatmi? O'qituvchi essengizni tuzatadi. Siz tuzatishlarni o'qiysiz, bosh irg'aysiz, «tushundim» deysiz. Keyingi hafta **aynan o'sha xatoni** yana qilasiz.\n\nSabab shundaki, xatoni **tushunish** va uni **yo'q qilish** — ikki xil jarayon. Tushunish 5 soniya oladi. Yo'q qilish esa o'sha xatoni bir necha marta ongli ravishda to'g'ri bajarishni talab qiladi.\n\nB2 da qotib qolishning eng katta sababi ham shu: talaba yangi materialga o'tadi, lekin eski xatolar u bilan birga ko'chib yuradi. Uch yildan keyin uning so'z boyligi C1 darajada bo'ladi, lekin baholovchi hali ham bir xil 8 ta xatoni ko'radi.\n\n**Muhim raqam:** o'rtacha talabaning imtihon essesidagi xatolarning **80 foizi** — atigi **6-10 xil** takroriy xato. Yangi xatolar deyarli yo'q. Ya'ni siz 10 ta muammoni hal qilsangiz, xatolaringizning aksariyati yo'qoladi.\n\nBu — butun kursdagi eng katta samaradorlikka ega ish."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Xatolarning uch sinfi (har biriga boshqa davo kerak)",
+              "bodyUz": "**1-sinf: TIZIMLI xato (systematic).** Siz qoidani noto'g'ri bilasiz yoki umuman bilmaysiz.\nMisol: *I am agree*, *discuss about*, *informations*.\n**Davosi:** qoidani o'rganish + 10 ta gapda mashq. Bir marta hal qilinadi va qaytmaydi.\n\n**2-sinf: BEPARVO xato (careless / slip).** Siz qoidani bilasiz, lekin shoshganingizda unutasiz.\nMisol: uchinchi shaxs -s (*the government decide*), artikl tushib qolishi, ko'plik -s.\n**Davosi:** o'rganish YORDAM BERMAYDI — siz allaqachon bilasiz. Faqat **tekshirish ro'yxati** yordam beradi. Bu xatolarni oxirgi 5 daqiqada maxsus qidirasiz.\n\n**3-sinf: BILIM YETISHMASLIGI (unknown).** Siz umuman bilmagan narsa — kollokatsiya, predlog, registr.\nMisol: *make a research*, *depend of*, *very concerned*.\n**Davosi:** yig'ish va yodlash. Ular cheksiz emas — imtihon mavzularida ular takrorlanadi.\n\n**Nima uchun bu tasnif muhim?** Chunki ko'pchilik uchala sinfga bir xil davo qo'llaydi — «qoidani qayta o'qish». 2-sinf uchun bu **umuman ishlamaydi** va shuning uchun o'sha xato yillar davomida qaytadi."
+            },
+            {
+              "type": "table",
+              "titleUz": "B2 -> C1: xato ustida ishlash uslubi",
+              "headers": ["Bosqich", "B2 talabasi", "C1 ga chiqayotgan talaba"],
+              "rows": [
+                ["Tuzatishni olgach", "O'qiydi, bosh irg'aydi, o'tib ketadi", "Har bir xatoni daftarga ko'chiradi va sinfini belgilaydi"],
+                ["Xato turi", "«Xato qildim» — turini ajratmaydi", "Tizimli / beparvo / bilim yetishmasligi — uchtasiga uch xil davo"],
+                ["Takroriylikni kuzatish", "Kuzatmaydi", "Har bir xatoni sanaydi: 3 marta uchradimi — bu shaxsiy TOP-10 ga kiradi"],
+                ["Mashq", "Yangi mavzuga o'tadi", "Xuddi shu xato ustida 10 ta gap yozadi, keyin bir hafta o'tib qayta sinaydi"],
+                ["Imtihon tekshiruvi", "Umumiy o'qib chiqadi", "O'zining TOP-5 xatosini nomma-nom qidiradi"],
+                ["Bir oydan keyin", "Xuddi shu 8 ta xatoni qiladi", "Eski 8 tadan 5 tasi yo'qolgan, ro'yxat yangilangan"],
+                ["Natija", "So'z boyligi o'sadi, bal o'smaydi", "So'z boyligi o'sadi VA aniqlik o'sadi — ikkalasi ham balga aylanadi"]
+              ]
+            },
+            {
+              "type": "theory",
+              "titleUz": "Besh ustunli daftar",
+              "bodyUz": "Daftar qog'ozda ham, jadval faylida ham bo'lishi mumkin. Muhimi — **besh ustun**:\n\n| # | MENING XATOM | TO'G'RISI | SINF | NECHA MARTA |\n|---|---|---|---|---|\n| 1 | I made a research on it | I conducted research on it | bilim (kollokatsiya) | IIII |\n| 2 | The government decide | The government decides | beparvo (-s) | IIIIII |\n| 3 | discuss about the issue | discuss the issue | tizimli (predlog) | III |\n| 4 | very concerned about | deeply concerned about | bilim (zaif juftlik) | II |\n| 5 | Moreover... Furthermore... | (bog'lovchini kamaytirish) | tizimli (uslub) | IIIII |\n\n**Qoidalar:**\n\n**1. O'z gapingizni yozing, qoidani emas.** «Uchinchi shaxs -s qoidasi» emas — aynan siz yozgan xato gap. Miya o'z xatosini yaxshiroq eslab qoladi.\n\n**2. Sanoq ustuni eng muhimi.** U sizga **shaxsiy TOP-5** ni beradi. Umumiy xatolar ro'yxatlari foydasiz — sizga o'zingizniki kerak.\n\n**3. Daftar 15 qatordan oshmasin.** Hal qilingan xatoni o'chiring. Uzun ro'yxat ishlatilmaydi.\n\n**4. Har bir yozuvda TO'G'RI variant to'liq gap bo'lsin.** Yarim tuzatish yodda qolmaydi."
+            },
+            {
+              "type": "theory",
+              "titleUz": "Haftalik sikl: yig'ish - tasniflash - mashq - qayta sinov",
+              "bodyUz": "**Dushanba-shanba: YIG'ISH (kuniga 2 daqiqa).**\nYozgan har bir matningizdagi tuzatishlarni daftarga ko'chiring. Faqat ko'chiring, tahlil qilmang.\n\n**Yakshanba, 1-qadam: TASNIFLASH (10 daqiqa).**\nHar bir yangi xatoga sinf belgilang va sanoqni yangilang. Eng ko'p takrorlangan **beshtasini** ajrating.\n\n**Yakshanba, 2-qadam: MASHQ (20 daqiqa).**\nTOP-5 dan har biri uchun **o'zingiz** 5 ta gap yozing — to'g'ri variantda, turli kontekstlarda. Jami 25 gap.\nMuhim: mashqni tayyor testdan emas, **o'z gaplaringizdan** qiling. Tayyor testda siz javobni taniysiz, lekin uni ishlab chiqarmaysiz.\n\n**Keyingi yakshanba, 3-qadam: QAYTA SINOV (10 daqiqa).**\nBir hafta oldingi TOP-5 ni oling. Har biri uchun yangi gap yozing — daftar oldingizda bo'lmasin. Xato takrorlansa, u ro'yxatda qoladi. Ikki hafta ketma-ket toza chiqsa — o'chiring.\n\n**Jami: haftasiga 50 daqiqa.** Bu — imtihonga tayyorgarlikdagi eng yuqori samarali 50 daqiqa. Sabab oddiy: siz hamma narsani emas, aynan **o'zingizni** to'sib turgan narsani tuzatasiz."
+            },
+            {
+              "type": "example",
+              "titleUz": "Daftar yozuvi qanday ko'rinadi",
+              "items": [
+                {
+                  "en": "✗ Mine: 'Many researches show that pollution is increasing.' ✓ Correct: 'A good deal of research shows that pollution is increasing.' [SINF: tizimli — sanalmaydigan ot] [4 marta]",
+                  "uz": "«research» sanalmaydi: researches ✗, a research ✗. Bu tizimli xato — qoidani bir marta o'rganib, 10 ta gapda mashq qilsangiz, butunlay yo'qoladi."
+                },
+                {
+                  "en": "✗ Mine: 'The government have decided to increase the tax.' ✓ Correct: 'The government has decided to increase the tax.' [SINF: beparvo — kelishuv] [7 marta]",
+                  "uz": "Siz bu qoidani bilasiz. Shoshganda unutasiz. Davosi — o'rganish emas, tekshirish ro'yxatiga qo'shish: oxirgi 5 daqiqada aynan shuni qidirasiz."
+                },
+                {
+                  "en": "✗ Mine: 'This shows that the situation is very serious.' ✓ Better: 'This finding underlines the gravity of the situation.' [SINF: bilim — zaif leksika] [5 marta]",
+                  "uz": "Bu xato emas — zaiflik. Lekin u besh marta takrorlangani uchun daftarga tushadi. C1 chegarasida aynan shunday «xato bo'lmagan zaifliklar» ballni ushlab turadi."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "bodyUz": "**Baholash mezoni: Grammatical Range and Accuracy — «produces frequent error-free sentences».** E'tibor bering: «error-free **sentences**», ya'ni butunlay toza gaplar soni sanaladi.\n\nBu juda amaliy ma'noga ega. Agar 15 gapli essengizda 6 ta xato bo'lsa va ular 6 ta turli gapga tarqalgan bo'lsa — sizda 9 ta toza gap bor. Agar shu 6 ta xatoning 5 tasi sizning TOP-5 takroriy xatoingiz bo'lsa va siz ularni yo'q qilsangiz — sizda 14 ta toza gap bo'ladi.\n\nBu — yangi grammatika o'rganmasdan, yangi so'z yodlamasdan olinadigan ball. Aynan shuning uchun bu dars butun kursning oxirida turadi: qolgan 11 dars sizga yangi qurollar berdi, bu dars esa ularni ishlatishda qiladigan xatolaringizni yo'q qiladi."
+            }
+          ],
+          "exercises": [
+            {
+              "type": "MATCHING",
+              "skill": "WRITING",
+              "promptUz": "Har bir xatoni uning sinfiga bog'lang:",
+              "data": {
+                "left": [
+                  "The government decide to act. (bilasiz, lekin shoshganda unutdingiz)",
+                  "I am agree with this view.",
+                  "Scientists made a research on the topic.",
+                  "Moreover... Furthermore... In addition... (har gapda)"
+                ],
+                "right": [
+                  "TIZIMLI: qoida noto'g'ri o'rganilgan",
+                  "BEPARVO: qoida ma'lum, shoshganda unutiladi",
+                  "TIZIMLI: uslub qoidasi bilinmaydi",
+                  "BILIM YETISHMASLIGI: kollokatsiya"
+                ]
+              },
+              "answer": {
+                "pairs": {
+                  "The government decide to act. (bilasiz, lekin shoshganda unutdingiz)": "BEPARVO: qoida ma'lum, shoshganda unutiladi",
+                  "I am agree with this view.": "TIZIMLI: qoida noto'g'ri o'rganilgan",
+                  "Scientists made a research on the topic.": "BILIM YETISHMASLIGI: kollokatsiya",
+                  "Moreover... Furthermore... In addition... (har gapda)": "TIZIMLI: uslub qoidasi bilinmaydi"
+                }
+              },
+              "explanationUz": "Tasnif muhim, chunki har bir sinfga BOSHQA davo kerak: tizimli — qoidani o'rganish; beparvo — tekshirish ro'yxati; bilim yetishmasligi — juftlikni yig'ish va yodlash."
+            },
+            {
+              "type": "MCQ_SINGLE",
+              "skill": "WRITING",
+              "promptUz": "Siz «the government decide» xatosini har bir essede takrorlaysiz, garchi qoidani mukammal bilsangiz ham. Eng samarali davo qaysi?",
+              "data": {
+                "options": [
+                  "Xatoni shaxsiy tekshirish ro'yxatiga qo'shib, oxirgi 5 daqiqada maxsus qidirish",
+                  "Uchinchi shaxs -s qoidasini yana bir bor o'qib chiqish",
+                  "Grammatika darsligidan shu mavzuni boshidan takrorlash",
+                  "Ko'proq inglizcha kitob o'qish"
+                ]
+              },
+              "answer": { "value": "Xatoni shaxsiy tekshirish ro'yxatiga qo'shib, oxirgi 5 daqiqada maxsus qidirish" },
+              "explanationUz": "Bu — beparvo (careless) xato: siz qoidani allaqachon bilasiz, shuning uchun qayta o'rganish hech narsa bermaydi. Faqat ongli tekshiruv yordam beradi. Ko'pchilik aynan shu yerda vaqtini behuda sarflaydi."
+            },
+            {
+              "type": "ORDERING",
+              "skill": "WRITING",
+              "promptUz": "Haftalik xato ustida ishlash siklini to'g'ri tartibda joylashtiring:",
+              "data": {
+                "items": [
+                  "Har bir xatoga sinf belgilash va sanoqni yangilash",
+                  "Kun davomida barcha tuzatishlarni daftarga ko'chirish",
+                  "Bir hafta o'tib daftarsiz qayta sinov o'tkazish",
+                  "TOP-5 xato uchun o'z gaplaringizni yozib mashq qilish"
+                ]
+              },
+              "answer": {
+                "order": [
+                  "Kun davomida barcha tuzatishlarni daftarga ko'chirish",
+                  "Har bir xatoga sinf belgilash va sanoqni yangilash",
+                  "TOP-5 xato uchun o'z gaplaringizni yozib mashq qilish",
+                  "Bir hafta o'tib daftarsiz qayta sinov o'tkazish"
+                ]
+              },
+              "explanationUz": "Yig'ish -> tasniflash -> mashq -> qayta sinov. Qayta sinov bosqichisiz sikl yopilmaydi: siz xatoni chindan yo'q qildingizmi yoki shunchaki bir marta to'g'ri yozdingizmi — buni faqat bir hafta o'tib bilib olasiz."
+            },
+            {
+              "type": "MCQ_MULTI",
+              "skill": "WRITING",
+              "promptUz": "Samarali xatolar daftarining belgilarini tanlang (bir nechta):",
+              "data": {
+                "options": [
+                  "Har bir yozuvda o'zingiz yozgan aynan o'sha xato gap bor",
+                  "Takrorlanish soni sanab boriladi",
+                  "Ro'yxat 15 qatordan oshmaydi, hal qilingan xatolar o'chiriladi",
+                  "Unda internetdan olingan 200 ta umumiy xato ro'yxati bor",
+                  "Faqat qoidalar yozib boriladi, misollar yozilmaydi"
+                ]
+              },
+              "answer": {
+                "values": [
+                  "Har bir yozuvda o'zingiz yozgan aynan o'sha xato gap bor",
+                  "Takrorlanish soni sanab boriladi",
+                  "Ro'yxat 15 qatordan oshmaydi, hal qilingan xatolar o'chiriladi"
+                ]
+              },
+              "explanationUz": "Daftar SIZNING xatolaringiz haqida bo'lishi kerak. Internetdagi umumiy ro'yxatlar ishlamaydi, chunki ularning aksariyati sizga tegishli emas. Sanoq ustuni esa shaxsiy TOP-5 ni beradi — aynan shu ro'yxat imtihonda ishlatiladi."
+            },
+            {
+              "type": "GAP_FILL",
+              "skill": "WRITING",
+              "promptUz": "Daftardagi xatoni tuzating (bitta so'z):",
+              "data": { "text": "✗ Mening xatom: «Many researches show that...» ✓ To'g'risi: «A good deal of ___ shows that...»" },
+              "answer": { "accept": ["research"] },
+              "explanationUz": "«research» sanalmaydigan ot: researches ✗, a research ✗, many researches ✗. To'g'ri variantlar: a good deal of research, much research, a body of research, several studies."
+            },
+            {
+              "type": "SHORT_ANSWER",
+              "skill": "WRITING",
+              "promptUz": "Daftaringizga tushgan zaiflikni kuchaytiring: «This shows that the situation is very serious.» — «very serious» o'rniga bitta kuchli ot ishlating: «This finding underlines the ___ of the situation.»",
+              "data": { "text": "This finding underlines the ___ of the situation." },
+              "answer": { "accept": ["gravity", "seriousness", "severity", "urgency"] },
+              "explanationUz": "«the gravity / severity of the situation» — nominalizatsiya va kuchli kollokatsiya. Bu xato emas, zaiflik; lekin agar u besh marta takrorlansa, daftarga tushishi va tuzatilishi kerak — C1 chegarasida aynan shunday zaifliklar ballni ushlab turadi."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "Beparvo (careless) xatolarni yo'q qilishning eng yaxshi usuli — tegishli grammatika qoidasini qayta-qayta o'qish." },
+              "answer": { "value": "false" },
+              "explanationUz": "Noto'g'ri. Beparvo xatoda siz qoidani ALLAQACHON bilasiz — muammo bilimda emas, diqqatda. Qoidani qayta o'qish vaqtni yeydi va natija bermaydi. Yagona ishlaydigan davo — shaxsiy tekshirish ro'yxati va oxirgi 5 daqiqada ongli qidiruv."
+            },
+            {
+              "type": "TRUE_FALSE",
+              "skill": "WRITING",
+              "promptUz": "Quyidagi fikr to'g'rimi?",
+              "data": { "statement": "O'rtacha talabaning imtihon essesidagi xatolarning katta qismi atigi 6-10 xil takroriy xatodan iborat bo'ladi." },
+              "answer": { "value": "true" },
+              "explanationUz": "To'g'ri. Aynan shuning uchun xatolar daftari shunchalik samarali: siz «ingliz tili grammatikasini» emas, o'zingizning 10 ta muammongizni hal qilasiz. Bu — imtihonga tayyorgarlikdagi eng yuqori samaradorlikka ega ish."
             }
           ]
         }

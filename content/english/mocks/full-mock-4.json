@@ -39,7 +39,9 @@
                   "An apology from the member of staff she saw before"
                 ]
               },
-              "answer": { "value": "The fault to be taken seriously rather than dismissed" },
+              "answer": {
+                "value": "The fault to be taken seriously rather than dismissed"
+              },
               "points": 1
             },
             {
@@ -56,7 +58,9 @@
                   "She admits the pain is worse than she first said"
                 ]
               },
-              "answer": { "value": "She accepts an arrangement she cannot plan around" },
+              "answer": {
+                "value": "She accepts an arrangement she cannot plan around"
+              },
               "points": 1
             },
             {
@@ -73,7 +77,9 @@
                   "It would require a doctor's certificate specifically"
                 ]
               },
-              "answer": { "value": "It would trigger a process unlikely to end in his favour" },
+              "answer": {
+                "value": "It would trigger a process unlikely to end in his favour"
+              },
               "points": 1
             },
             {
@@ -90,7 +96,9 @@
                   "The gym is unpleasantly crowded in January and February"
                 ]
               },
-              "answer": { "value": "Beginning too ambitiously is the usual reason people give up" },
+              "answer": {
+                "value": "Beginning too ambitiously is the usual reason people give up"
+              },
               "points": 1
             },
             {
@@ -107,7 +115,9 @@
                   "It will protect him if the passport is misused later"
                 ]
               },
-              "answer": { "value": "It will protect him if the passport is misused later" },
+              "answer": {
+                "value": "It will protect him if the passport is misused later"
+              },
               "points": 1
             },
             {
@@ -124,7 +134,9 @@
                   "The thirty-first is already fully booked"
                 ]
               },
-              "answer": { "value": "Delays build up as the day goes on" },
+              "answer": {
+                "value": "Delays build up as the day goes on"
+              },
               "points": 1
             },
             {
@@ -141,7 +153,9 @@
                   "She declines to express any opinion about it"
                 ]
               },
-              "answer": { "value": "She thinks it is worth buying only for peace of mind" },
+              "answer": {
+                "value": "She thinks it is worth buying only for peace of mind"
+              },
               "points": 1
             },
             {
@@ -158,7 +172,9 @@
                   "He is afraid of being asked to leave himself"
                 ]
               },
-              "answer": { "value": "The neighbours apologise sincerely but nothing changes" },
+              "answer": {
+                "value": "The neighbours apologise sincerely but nothing changes"
+              },
               "points": 1
             }
           ]
@@ -178,8 +194,17 @@
               "type": "GAP_FILL",
               "promptEn": "NOTES — Whitcombe Gallery: Most of the collection was in fact bought by Sir Henry's ____________.",
               "promptUz": "QAYDLAR — Whitcombe galereyasi: Kolleksiyaning katta qismini aslida Ser Genrining ____________ sotib olgan.",
-              "data": { "text": "Most of the collection was in fact bought by Sir Henry's ____________." },
-              "answer": { "accept": ["daughter", "his daughter", "daughter Eleanor", "Eleanor"] },
+              "data": {
+                "text": "Most of the collection was in fact bought by Sir Henry's ____________."
+              },
+              "answer": {
+                "accept": [
+                  "daughter",
+                  "his daughter",
+                  "daughter Eleanor",
+                  "Eleanor"
+                ]
+              },
               "points": 1
             },
             {
@@ -187,8 +212,16 @@
               "type": "GAP_FILL",
               "promptEn": "NOTES — Whitcombe Gallery: Until 1912 the room was used as the ____________.",
               "promptUz": "QAYDLAR — Whitcombe galereyasi: 1912-yilgacha bu xona ____________ sifatida ishlatilgan.",
-              "data": { "text": "Until 1912 the room was used as the ____________." },
-              "answer": { "accept": ["stables", "the stables", "stable"] },
+              "data": {
+                "text": "Until 1912 the room was used as the ____________."
+              },
+              "answer": {
+                "accept": [
+                  "stables",
+                  "the stables",
+                  "stable"
+                ]
+              },
               "points": 1
             },
             {
@@ -196,8 +229,16 @@
               "type": "GAP_FILL",
               "promptEn": "NOTES — Whitcombe Gallery: The original seascape was sold in 1936 in order to pay for the ____________.",
               "promptUz": "QAYDLAR — Whitcombe galereyasi: Dengiz manzarasining asl nusxasi 1936-yilda ____________ uchun pul topish maqsadida sotilgan.",
-              "data": { "text": "The original seascape was sold in 1936 to pay for the ____________." },
-              "answer": { "accept": ["roof", "the roof", "new roof"] },
+              "data": {
+                "text": "The original seascape was sold in 1936 to pay for the ____________."
+              },
+              "answer": {
+                "accept": [
+                  "roof",
+                  "the roof",
+                  "new roof"
+                ]
+              },
               "points": 1
             },
             {
@@ -205,8 +246,16 @@
               "type": "GAP_FILL",
               "promptEn": "NOTES — Conference: Delegates should collect their badge from ____________.",
               "promptUz": "QAYDLAR — Konferensiya: Ishtirokchilar bejlarini ____________ dan olishlari kerak.",
-              "data": { "text": "Delegates should collect their badge from ____________." },
-              "answer": { "accept": ["desk B", "Desk B", "B"] },
+              "data": {
+                "text": "Delegates should collect their badge from ____________."
+              },
+              "answer": {
+                "accept": [
+                  "desk B",
+                  "Desk B",
+                  "B"
+                ]
+              },
               "points": 1
             },
             {
@@ -214,8 +263,16 @@
               "type": "GAP_FILL",
               "promptEn": "NOTES — Conference: The excursion coach departs from the ____________.",
               "promptUz": "QAYDLAR — Konferensiya: Ekskursiya avtobusi ____________ dan jo'naydi.",
-              "data": { "text": "The excursion coach departs from the ____________." },
-              "answer": { "accept": ["rear car park", "car park", "the car park"] },
+              "data": {
+                "text": "The excursion coach departs from the ____________."
+              },
+              "answer": {
+                "accept": [
+                  "rear car park",
+                  "car park",
+                  "the car park"
+                ]
+              },
               "points": 1
             },
             {
@@ -223,8 +280,16 @@
               "type": "GAP_FILL",
               "promptEn": "NOTES — Conference: The new wifi password is ____________.",
               "promptUz": "QAYDLAR — Konferensiya: Yangi wifi paroli — ____________.",
-              "data": { "text": "The new wifi password is ____________." },
-              "answer": { "accept": ["harbour2026", "harbour 2026", "Harbour2026"] },
+              "data": {
+                "text": "The new wifi password is ____________."
+              },
+              "answer": {
+                "accept": [
+                  "harbour2026",
+                  "harbour 2026",
+                  "Harbour2026"
+                ]
+              },
               "points": 1
             }
           ]
@@ -252,7 +317,9 @@
                   "It flatly contradicts the follow-up item"
                 ]
               },
-              "answer": { "value": "The question was hypothetical and attached no real cost" },
+              "answer": {
+                "value": "The question was hypothetical and attached no real cost"
+              },
               "points": 1
             },
             {
@@ -268,7 +335,9 @@
                   "It was specifically required by the project's funder"
                 ]
               },
-              "answer": { "value": "It reveals how respondents wish to present themselves" },
+              "answer": {
+                "value": "It reveals how respondents wish to present themselves"
+              },
               "points": 1
             },
             {
@@ -284,7 +353,9 @@
                   "The press release has already gone out to journalists"
                 ]
               },
-              "answer": { "value": "The way participants were recruited distorted the sample" },
+              "answer": {
+                "value": "The way participants were recruited distorted the sample"
+              },
               "points": 1
             },
             {
@@ -300,10 +371,13 @@
                   "Give the sampling limitation greater prominence"
                 ]
               },
-              "answer": { "value": "Give the sampling limitation greater prominence" },
+              "answer": {
+                "value": "Give the sampling limitation greater prominence"
+              },
               "points": 1
             }
-          ]
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-4-part3.mp3"
         },
         {
           "order": 3,
@@ -328,7 +402,9 @@
                   "It applies only to small historic city centres"
                 ]
               },
-              "answer": { "value": "It overstates a policy that always permits some vehicles" },
+              "answer": {
+                "value": "It overstates a policy that always permits some vehicles"
+              },
               "points": 1
             },
             {
@@ -344,7 +420,9 @@
                   "Shopkeepers rarely read the consultation documents"
                 ]
               },
-              "answer": { "value": "It shapes who objects and whether the dispute can be settled with facts" },
+              "answer": {
+                "value": "It shapes who objects and whether the dispute can be settled with facts"
+              },
               "points": 1
             },
             {
@@ -360,7 +438,9 @@
                   "Costs are felt long before the benefits appear"
                 ]
               },
-              "answer": { "value": "Costs are felt long before the benefits appear" },
+              "answer": {
+                "value": "Costs are felt long before the benefits appear"
+              },
               "points": 1
             },
             {
@@ -376,7 +456,9 @@
                   "They fail to consult disabled residents at an early stage"
                 ]
               },
-              "answer": { "value": "They design attractive spaces that give people no reason to use them" },
+              "answer": {
+                "value": "They design attractive spaces that give people no reason to use them"
+              },
               "points": 1
             },
             {
@@ -392,7 +474,9 @@
                   "The streets should be closed at weekends as a trial"
                 ]
               },
-              "answer": { "value": "The public transport alternative must already be working" },
+              "answer": {
+                "value": "The public transport alternative must already be working"
+              },
               "points": 1
             }
           ]
@@ -412,8 +496,17 @@
               "type": "GAP_FILL",
               "promptEn": "The speaker argues that passion is usually a ____________ of competence rather than its cause.",
               "promptUz": "Ma'ruzachining fikricha, ishtiyoq ko'pincha malakaning sababi emas, balki uning ____________ hisoblanadi.",
-              "data": { "text": "Passion is usually a ____________ of competence rather than its cause." },
-              "answer": { "accept": ["consequence", "result", "a consequence", "product"] },
+              "data": {
+                "text": "Passion is usually a ____________ of competence rather than its cause."
+              },
+              "answer": {
+                "accept": [
+                  "consequence",
+                  "result",
+                  "a consequence",
+                  "product"
+                ]
+              },
               "points": 1
             },
             {
@@ -421,8 +514,16 @@
               "type": "GAP_FILL",
               "promptEn": "Successful changes alter either the industry or the ____________, but never both at the same time.",
               "promptUz": "Muvaffaqiyatli o'zgarishlarda yo soha, yo ____________ o'zgaradi, lekin hech qachon ikkalasi birdan emas.",
-              "data": { "text": "Successful changes alter either the industry or the ____________, but not both at once." },
-              "answer": { "accept": ["function", "the function", "job function"] },
+              "data": {
+                "text": "Successful changes alter either the industry or the ____________, but not both at once."
+              },
+              "answer": {
+                "accept": [
+                  "function",
+                  "the function",
+                  "job function"
+                ]
+              },
               "points": 1
             },
             {
@@ -430,8 +531,16 @@
               "type": "GAP_FILL",
               "promptEn": "Before retraining, you should take on one small ____________ as a test.",
               "promptUz": "Qayta o'qishdan oldin sinov sifatida bitta kichik ____________ olish kerak.",
-              "data": { "text": "Before retraining, take on one small ____________ as a test." },
-              "answer": { "accept": ["paid project", "project", "a paid project"] },
+              "data": {
+                "text": "Before retraining, take on one small ____________ as a test."
+              },
+              "answer": {
+                "accept": [
+                  "paid project",
+                  "project",
+                  "a paid project"
+                ]
+              },
               "points": 1
             },
             {
@@ -439,8 +548,16 @@
               "type": "GAP_FILL",
               "promptEn": "About a ____________ of the speaker's clients realise at that stage that they wanted the identity, not the job.",
               "promptUz": "Ma'ruzachi mijozlarining taxminan ____________ qismi aynan shu bosqichda ular ishni emas, obrazni xohlaganini anglab yetadi.",
-              "data": { "text": "About a ____________ of clients realise they wanted the identity, not the job." },
-              "answer": { "accept": ["third", "a third", "one third"] },
+              "data": {
+                "text": "About a ____________ of clients realise they wanted the identity, not the job."
+              },
+              "answer": {
+                "accept": [
+                  "third",
+                  "a third",
+                  "one third"
+                ]
+              },
               "points": 1
             },
             {
@@ -448,8 +565,16 @@
               "type": "GAP_FILL",
               "promptEn": "Career changers should expect their income to fall for approximately ____________.",
               "promptUz": "Kasbini o'zgartiruvchilar daromadi taxminan ____________ davomida pasayishini kutishlari kerak.",
-              "data": { "text": "Expect your income to fall for approximately ____________." },
-              "answer": { "accept": ["two years", "2 years", "about two years"] },
+              "data": {
+                "text": "Expect your income to fall for approximately ____________."
+              },
+              "answer": {
+                "accept": [
+                  "two years",
+                  "2 years",
+                  "about two years"
+                ]
+              },
               "points": 1
             },
             {
@@ -457,8 +582,16 @@
               "type": "GAP_FILL",
               "promptEn": "Older applicants, the speaker says, are hired for their ____________ rather than their potential.",
               "promptUz": "Ma'ruzachining aytishicha, kattaroq yoshdagi nomzodlar salohiyati uchun emas, ____________ uchun ishga olinadi.",
-              "data": { "text": "Older applicants are hired for their ____________ rather than their potential." },
-              "answer": { "accept": ["judgement", "judgment", "their judgement"] },
+              "data": {
+                "text": "Older applicants are hired for their ____________ rather than their potential."
+              },
+              "answer": {
+                "accept": [
+                  "judgement",
+                  "judgment",
+                  "their judgement"
+                ]
+              },
               "points": 1
             }
           ]
@@ -486,7 +619,9 @@
                   "The original work was never actually published"
                 ]
               },
-              "answer": { "value": "It originated in an observation about psychological adjustment, not habits" },
+              "answer": {
+                "value": "It originated in an observation about psychological adjustment, not habits"
+              },
               "points": 1
             },
             {
@@ -502,7 +637,9 @@
                   "The variation between behaviours and people is enormous"
                 ]
               },
-              "answer": { "value": "The variation between behaviours and people is enormous" },
+              "answer": {
+                "value": "The variation between behaviours and people is enormous"
+              },
               "points": 1
             },
             {
@@ -518,7 +655,9 @@
                   "The routine begins to demand more conscious attention"
                 ]
               },
-              "answer": { "value": "The behaviour depends less on the reward than before" },
+              "answer": {
+                "value": "The behaviour depends less on the reward than before"
+              },
               "points": 1
             },
             {
@@ -534,7 +673,9 @@
                   "Over-training seems to damage the capacity to learn"
                 ]
               },
-              "answer": { "value": "Habits can persist even when they no longer benefit us" },
+              "answer": {
+                "value": "Habits can persist even when they no longer benefit us"
+              },
               "points": 1
             },
             {
@@ -550,7 +691,9 @@
                   "As his own opinion, going beyond the strict evidence"
                 ]
               },
-              "answer": { "value": "As his own opinion, going beyond the strict evidence" },
+              "answer": {
+                "value": "As his own opinion, going beyond the strict evidence"
+              },
               "points": 1
             },
             {
@@ -566,7 +709,9 @@
                   "Changing environment is impractical for most people"
                 ]
               },
-              "answer": { "value": "It is disputed whether this model explains addiction" },
+              "answer": {
+                "value": "It is disputed whether this model explains addiction"
+              },
               "points": 1
             }
           ]
@@ -615,7 +760,9 @@
                   "The reasons people still choose to come in"
                 ]
               },
-              "answer": { "value": "A crisis postponed by long contracts" },
+              "answer": {
+                "value": "A crisis postponed by long contracts"
+              },
               "points": 1
             },
             {
@@ -634,7 +781,9 @@
                   "The reasons people still choose to come in"
                 ]
               },
-              "answer": { "value": "The reasons people still choose to come in" },
+              "answer": {
+                "value": "The reasons people still choose to come in"
+              },
               "points": 1
             },
             {
@@ -653,7 +802,9 @@
                   "The reasons people still choose to come in"
                 ]
               },
-              "answer": { "value": "Why turning offices into flats is harder than it looks" },
+              "answer": {
+                "value": "Why turning offices into flats is harder than it looks"
+              },
               "points": 1
             },
             {
@@ -672,7 +823,9 @@
                   "The reasons people still choose to come in"
                 ]
               },
-              "answer": { "value": "The wider economic ripple effects" },
+              "answer": {
+                "value": "The wider economic ripple effects"
+              },
               "points": 1
             },
             {
@@ -691,7 +844,9 @@
                   "The reasons people still choose to come in"
                 ]
               },
-              "answer": { "value": "Mixed neighbourhoods weather the change better" },
+              "answer": {
+                "value": "Mixed neighbourhoods weather the change better"
+              },
               "points": 1
             },
             {
@@ -710,7 +865,9 @@
                   "The reasons people still choose to come in"
                 ]
               },
-              "answer": { "value": "Incremental measures outperform grand projects" },
+              "answer": {
+                "value": "Incremental measures outperform grand projects"
+              },
               "points": 1
             }
           ]
@@ -736,7 +893,9 @@
                   "It applies only to shift workers and night staff"
                 ]
               },
-              "answer": { "value": "It suggests a repayment process far more exact than reality allows" },
+              "answer": {
+                "value": "It suggests a repayment process far more exact than reality allows"
+              },
               "points": 1
             },
             {
@@ -752,7 +911,9 @@
                   "Sustained attention was unaffected until the very last days"
                 ]
               },
-              "answer": { "value": "The gap between how impaired participants felt and how impaired they were" },
+              "answer": {
+                "value": "The gap between how impaired participants felt and how impaired they were"
+              },
               "points": 1
             },
             {
@@ -760,8 +921,12 @@
               "type": "TRUE_FALSE",
               "promptEn": "According to the text, sleeping late at weekends has no effect on alertness.",
               "promptUz": "Matnga ko'ra, dam olish kunlari uzoq uxlash hushyorlikka hech qanday ta'sir qilmaydi.",
-              "data": { "statement": "According to the text, sleeping late at weekends has no effect on alertness." },
-              "answer": { "value": "false" },
+              "data": {
+                "statement": "According to the text, sleeping late at weekends has no effect on alertness."
+              },
+              "answer": {
+                "value": "false"
+              },
               "points": 1
             },
             {
@@ -769,8 +934,12 @@
               "type": "TRUE_FALSE",
               "promptEn": "According to the text, metabolic measures recover more slowly than alertness does.",
               "promptUz": "Matnga ko'ra, metabolik ko'rsatkichlar hushyorlikka qaraganda sekinroq tiklanadi.",
-              "data": { "statement": "According to the text, metabolic measures recover more slowly than alertness does." },
-              "answer": { "value": "true" },
+              "data": {
+                "statement": "According to the text, metabolic measures recover more slowly than alertness does."
+              },
+              "answer": {
+                "value": "true"
+              },
               "points": 1
             },
             {
@@ -786,7 +955,9 @@
                   "It was intended to apply only to young people"
                 ]
               },
-              "answer": { "value": "It is an average that conceals real variation between individuals" },
+              "answer": {
+                "value": "It is an average that conceals real variation between individuals"
+              },
               "points": 1
             },
             {
@@ -802,7 +973,9 @@
                   "Most of them are impaired despite believing otherwise"
                 ]
               },
-              "answer": { "value": "Most of them are impaired despite believing otherwise" },
+              "answer": {
+                "value": "Most of them are impaired despite believing otherwise"
+              },
               "points": 1
             },
             {
@@ -810,8 +983,12 @@
               "type": "TRUE_FALSE",
               "promptEn": "The writer claims that the biological link between short sleep and heart disease is now fully understood.",
               "promptUz": "Muallif kam uyqu va yurak kasalliklari o'rtasidagi biologik bog'liqlik endi to'liq tushuntirilgan deb da'vo qiladi.",
-              "data": { "statement": "The writer claims that the biological link between short sleep and heart disease is now fully understood." },
-              "answer": { "value": "false" },
+              "data": {
+                "statement": "The writer claims that the biological link between short sleep and heart disease is now fully understood."
+              },
+              "answer": {
+                "value": "false"
+              },
               "points": 1
             },
             {
@@ -827,7 +1004,9 @@
                   "Taking a short nap during the working day"
                 ]
               },
-              "answer": { "value": "Keeping bedtimes and waking times consistent" },
+              "answer": {
+                "value": "Keeping bedtimes and waking times consistent"
+              },
               "points": 1
             }
           ]
@@ -853,7 +1032,9 @@
                   "Spending per pupil rose faster than in any comparable country."
                 ]
               },
-              "answer": { "value": "The transformation is usually attributed to a single decision: to make teaching an elite career." },
+              "answer": {
+                "value": "The transformation is usually attributed to a single decision: to make teaching an elite career."
+              },
               "points": 1
             },
             {
@@ -869,7 +1050,9 @@
                   "University funding was tied directly to the employment rates of graduates."
                 ]
               },
-              "answer": { "value": "Teacher training was moved into research-intensive universities and made a five-year master's degree." },
+              "answer": {
+                "value": "Teacher training was moved into research-intensive universities and made a five-year master's degree."
+              },
               "points": 1
             },
             {
@@ -885,7 +1068,9 @@
                   "A national curriculum was written in unprecedented detail."
                 ]
               },
-              "answer": { "value": "Homework was cut, the school day shortened and the list of compulsory subjects trimmed." },
+              "answer": {
+                "value": "Homework was cut, the school day shortened and the list of compulsory subjects trimmed."
+              },
               "points": 1
             },
             {
@@ -901,7 +1086,9 @@
                   "Parents shared the concern and began withdrawing their children."
                 ]
               },
-              "answer": { "value": "They did not fall, though nobody has satisfactorily explained why not." },
+              "answer": {
+                "value": "They did not fall, though nobody has satisfactorily explained why not."
+              },
               "points": 1
             },
             {
@@ -917,7 +1104,9 @@
                   "The international assessments that made the country famous measure something narrower than the headlines implied."
                 ]
               },
-              "answer": { "value": "The international assessments that made the country famous measure something narrower than the headlines implied." },
+              "answer": {
+                "value": "The international assessments that made the country famous measure something narrower than the headlines implied."
+              },
               "points": 1
             },
             {
@@ -933,7 +1122,9 @@
                   "Most imitators abandoned the reforms within two academic years."
                 ]
               },
-              "answer": { "value": "Districts that adopted the timetable have rarely reproduced the outcomes." },
+              "answer": {
+                "value": "Districts that adopted the timetable have rarely reproduced the outcomes."
+              },
               "points": 1
             },
             {
@@ -949,7 +1140,9 @@
                   "The country's own results have slipped slightly in recent assessments."
                 ]
               },
-              "answer": { "value": "Some of what worked may not have been the policy at all." },
+              "answer": {
+                "value": "Some of what worked may not have been the policy at all."
+              },
               "points": 1
             }
           ]
@@ -975,7 +1168,9 @@
                   "To summarise the findings of the research literature"
                 ]
               },
-              "answer": { "value": "To acknowledge that parts of it are true, which complicates his criticism" },
+              "answer": {
+                "value": "To acknowledge that parts of it are true, which complicates his criticism"
+              },
               "points": 1
             },
             {
@@ -991,7 +1186,9 @@
                   "They have benefited from shorter and quieter commutes"
                 ]
               },
-              "answer": { "value": "Some are now managed by people with a weaker grasp of their jobs" },
+              "answer": {
+                "value": "Some are now managed by people with a weaker grasp of their jobs"
+              },
               "points": 1
             },
             {
@@ -1007,7 +1204,9 @@
                   "recently outdated"
                 ]
               },
-              "answer": { "value": "somewhat dishonest" },
+              "answer": {
+                "value": "somewhat dishonest"
+              },
               "points": 1
             },
             {
@@ -1023,7 +1222,9 @@
                   "The abandonment of formal promotion criteria"
                 ]
               },
-              "answer": { "value": "An informal division between visible and invisible employees" },
+              "answer": {
+                "value": "An informal division between visible and invisible employees"
+              },
               "points": 1
             },
             {
@@ -1039,7 +1240,9 @@
                   "Price rises are the principal cause of increased local spending"
                 ]
               },
-              "answer": { "value": "The rises have produced few identifiable local winners" },
+              "answer": {
+                "value": "The rises have produced few identifiable local winners"
+              },
               "points": 1
             },
             {
@@ -1055,7 +1258,9 @@
                   "Towns still depend on remaining connected to the cities"
                 ]
               },
-              "answer": { "value": "Towns still depend on remaining connected to the cities" },
+              "answer": {
+                "value": "Towns still depend on remaining connected to the cities"
+              },
               "points": 1
             },
             {
@@ -1071,7 +1276,9 @@
                   "Remote work has done most harm to parents and disabled workers"
                 ]
               },
-              "answer": { "value": "Remote work is beneficial but should not be described as inclusive" },
+              "answer": {
+                "value": "Remote work is beneficial but should not be described as inclusive"
+              },
               "points": 1
             }
           ]
@@ -1097,7 +1304,9 @@
                   "How rapidly the situation has changed in recent years"
                 ]
               },
-              "answer": { "value": "Disagreement about the basic definitions involved" },
+              "answer": {
+                "value": "Disagreement about the basic definitions involved"
+              },
               "points": 1
             },
             {
@@ -1105,8 +1314,16 @@
               "type": "SHORT_ANSWER",
               "promptEn": "According to Fishman's model, what is the decisive threshold in language loss? (NO MORE THAN THREE WORDS)",
               "promptUz": "Fishman modeliga ko'ra, til yo'qolishidagi hal qiluvchi chegara nima? (KO'PI BILAN UCH SO'Z)",
-              "data": { "text": "Fishman's decisive threshold: ____________" },
-              "answer": { "accept": ["intergenerational transmission", "the intergenerational transmission", "transmission"] },
+              "data": {
+                "text": "Fishman's decisive threshold: ____________"
+              },
+              "answer": {
+                "accept": [
+                  "intergenerational transmission",
+                  "the intergenerational transmission",
+                  "transmission"
+                ]
+              },
               "points": 1
             },
             {
@@ -1122,7 +1339,9 @@
                   "It applies only to very small language communities"
                 ]
               },
-              "answer": { "value": "It depends on a hypothesis that is only weakly supported" },
+              "answer": {
+                "value": "It depends on a hypothesis that is only weakly supported"
+              },
               "points": 1
             },
             {
@@ -1130,8 +1349,16 @@
               "type": "SHORT_ANSWER",
               "promptEn": "What is the name of the grammatical markers that oblige speakers to indicate how they know what they assert? (ONE WORD)",
               "promptUz": "So'zlovchini aytayotgan ma'lumotini qayerdan bilishini ko'rsatishga majbur qiladigan grammatik ko'rsatkichlar nima deb ataladi? (BIR SO'Z)",
-              "data": { "text": "Markers of source of knowledge: ____________" },
-              "answer": { "accept": ["evidentials", "evidential", "evidential markers"] },
+              "data": {
+                "text": "Markers of source of knowledge: ____________"
+              },
+              "answer": {
+                "accept": [
+                  "evidentials",
+                  "evidential",
+                  "evidential markers"
+                ]
+              },
               "points": 1
             },
             {
@@ -1147,7 +1374,9 @@
                   "Very few linguists have any training in biology"
                 ]
               },
-              "answer": { "value": "The systems of classification themselves differ" },
+              "answer": {
+                "value": "The systems of classification themselves differ"
+              },
               "points": 1
             },
             {
@@ -1163,7 +1392,9 @@
                   "They have largely replaced traditional fieldwork"
                 ]
               },
-              "answer": { "value": "They preserve a record without producing new speakers" },
+              "answer": {
+                "value": "They preserve a record without producing new speakers"
+              },
               "points": 1
             },
             {
@@ -1171,8 +1402,16 @@
               "type": "SHORT_ANSWER",
               "promptEn": "According to the final paragraph, which factor rather than sentiment appears to determine successful revitalisation? (ONE WORD)",
               "promptUz": "Oxirgi xatboshiga ko'ra, tilni tiklashda muvaffaqiyatni his-tuyg'u emas, qaysi omil belgilaydi? (BIR SO'Z)",
-              "data": { "text": "The operative variable is ____________, not sentiment." },
-              "answer": { "accept": ["necessity", "need", "necessity not sentiment"] },
+              "data": {
+                "text": "The operative variable is ____________, not sentiment."
+              },
+              "answer": {
+                "accept": [
+                  "necessity",
+                  "need",
+                  "necessity not sentiment"
+                ]
+              },
               "points": 1
             }
           ]
@@ -1198,7 +1437,11 @@
               "type": "WRITING_TASK",
               "promptEn": "You have received this email from your friend Dilnoza:\n\n\"Hi! I need to think out loud at someone, and you're the person whose judgement I trust. I've been offered a two-year contract in Warsaw — better money, better title, but I'd be leaving my parents, my flat and basically everyone I know. Part of me thinks I'd regret not going. Part of me thinks I'm romanticising it. Would you go? What would worry you most? And be honest — you're the only person who hasn't just told me what I want to hear. Dilnoza\"\n\nWrite a reply to Dilnoza. Answer all three of her questions and give her a clear recommendation. Write at least 50 words.",
               "promptUz": "Do'stingiz Dilnozadan xat keldi (yuqorida): unga Varshavada ikki yillik shartnoma taklif qilishgan, lekin u ikkilanmoqda. Javob xat yozing: uning uchala savoliga ham javob bering va aniq maslahat bering. Kamida 50 so'z. Norasmiy uslub.",
-              "data": { "minWords": 50, "maxWords": 120, "register": "informal" },
+              "data": {
+                "minWords": 50,
+                "maxWords": 120,
+                "register": "informal"
+              },
               "points": 1,
               "rubric": {
                 "criteria": [
@@ -1215,7 +1458,11 @@
               "type": "WRITING_TASK",
               "promptEn": "You work for an educational organisation. You have decided to approach Bright Path Language School with a proposal for a partnership.\n\nWrite a formal email to the Director of Bright Path Language School. In your email you should:\n- introduce your organisation briefly and explain why you are writing;\n- outline what the proposed partnership would involve and what each side would contribute;\n- explain the specific benefits for the language school;\n- propose a concrete next step.\n\nWrite 120-150 words in an appropriate formal register.",
               "promptUz": "Siz ta'lim tashkilotida ishlaysiz va «Bright Path» til maktabiga hamkorlik taklif qilmoqchisiz.\n\nMaktab direktoriga rasmiy elektron xat yozing. Xatda:\n- tashkilotingizni qisqacha tanishtiring va murojaat sababini yozing;\n- hamkorlik nimani o'z ichiga olishini va har bir tomon nima qo'shishini bayon qiling;\n- til maktabi uchun aniq foydani tushuntiring;\n- keyingi aniq qadamni taklif qiling.\n\n120-150 so'z, rasmiy uslubda.",
-              "data": { "minWords": 120, "maxWords": 150, "register": "formal" },
+              "data": {
+                "minWords": 120,
+                "maxWords": 150,
+                "register": "formal"
+              },
               "points": 1,
               "rubric": {
                 "criteria": [
@@ -1241,7 +1488,11 @@
               "type": "WRITING_TASK",
               "promptEn": "Write an essay on the following topic:\n\n\"Some argue that governments should prioritise economic growth over environmental protection. Others believe the opposite. Discuss both views and give your own opinion.\"\n\nSupport your argument with reasons and relevant examples. Write at least 250 words.",
               "promptUz": "Quyidagi mavzuda esse yozing:\n\n«Ba'zilar hukumatlar atrof-muhitni muhofaza qilishdan ko'ra iqtisodiy o'sishni ustuvor qilishi kerak deb hisoblaydi. Boshqalar esa aksincha fikrda. Ikkala qarashni ham muhokama qiling va o'z fikringizni bildiring.»\n\nFikringizni sabab va misollar bilan asoslang. Kamida 250 so'z.",
-              "data": { "minWords": 250, "maxWords": 350, "register": "formal academic" },
+              "data": {
+                "minWords": 250,
+                "maxWords": 350,
+                "register": "formal academic"
+              },
               "points": 2,
               "rubric": {
                 "criteria": [
@@ -1276,10 +1527,18 @@
               "type": "SPEAKING_TASK",
               "promptEn": "Let's talk about your work or studies and your free time. What do you do at the moment — do you work or are you a student? What is the most interesting part of it, and what is the least? And when you finish for the day, how do you usually switch off?",
               "promptUz": "Ish yoki o'qishingiz va bo'sh vaqtingiz haqida gaplashamiz. Hozir nima bilan shug'ullanasiz — ishlaysizmi yoki o'qiysizmi? Undagi eng qiziqarli va eng zerikarli jihat nima? Kun tugagach, odatda qanday dam olasiz?",
-              "data": { "preparationSeconds": 10, "recordSeconds": 60 },
+              "data": {
+                "preparationSeconds": 10,
+                "recordSeconds": 60
+              },
               "points": 1,
               "rubric": {
-                "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"],
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
                 "level": "B1-B2: answers all parts of the question, extends beyond one-sentence replies, uses a range of present and past tenses accurately"
               }
             }
@@ -1297,10 +1556,18 @@
               "type": "SPEAKING_TASK",
               "promptEn": "More and more adults are returning to study in their thirties, forties and beyond — retraining, taking online courses, or doing a second degree. Describe the advantages and disadvantages of continuing to learn formally throughout your working life. Then say what you personally would choose: to keep retraining every few years, or to build deep expertise in one field and stay there. Explain your reasoning.",
               "promptUz": "Tobora ko'proq kattalar 30, 40 va undan keyingi yoshda yana o'qishga qaytmoqda — qayta tayyorlanish, onlayn kurslar yoki ikkinchi oliy ta'lim. Butun mehnat faoliyati davomida rasmiy o'qishni davom ettirishning afzalliklari va kamchiliklarini tasvirlab bering. So'ng siz shaxsan nimani tanlashingizni ayting: har necha yilda qayta o'qishnimi yoki bitta sohada chuqur mutaxassis bo'lib qolishnimi. Sababini tushuntiring.",
-              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "data": {
+                "preparationSeconds": 60,
+                "recordSeconds": 120
+              },
               "points": 1,
               "rubric": {
-                "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"],
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
                 "level": "B2-C1: clearly structured long turn, both sides covered before the personal choice, topic-specific lexis (retraining, obsolescence, transferable skills), accurate conditionals and comparison"
               }
             }
@@ -1318,10 +1585,18 @@
               "type": "SPEAKING_TASK",
               "promptEn": "\"Technology has made us more connected but less close.\" Discuss both sides of this statement. Consider what digital communication has genuinely made possible, as well as what it may have replaced or weakened, and make it clear where you finally stand and why.",
               "promptUz": "«Texnologiya bizni ko'proq bog'lab qo'ydi, lekin bir-birimizga yaqinligimizni kamaytirdi». Bu fikrning ikkala tomonini ham muhokama qiling. Raqamli muloqot haqiqatan nimani mumkin qilganini va nimaning o'rnini egallab, nimani zaiflashtirgan bo'lishi mumkinligini ko'rib chiqing, so'ng o'z pozitsiyangizni aniq bildiring va asoslang.",
-              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "data": {
+                "preparationSeconds": 60,
+                "recordSeconds": 120
+              },
               "points": 1,
               "rubric": {
-                "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"],
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
                 "level": "C1: sustained abstract argument, explicit concession and rebuttal, precise and idiomatic lexis, wide grammatical range with only occasional slips, natural stress and intonation"
               }
             }

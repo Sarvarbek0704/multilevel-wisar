@@ -111,7 +111,15 @@ export class TelegramService implements OnModuleInit, OnModuleDestroy {
       this.logger.log(`Webhook o‘rnatildi: @${this.botUsername}`);
     } else {
       await bot.api.deleteWebhook({ drop_pending_updates: true });
-      void bot.start({ drop_pending_updates: true });
+      // Polling rad etilsa (masalan bir token bilan ikkinchi nusxa ishga tushsa,
+      // Telegram 409 qaytaradi) — bu API'ni yiqitmasligi kerak: bot o'chadi,
+      // qolgan xizmatlar ishlashda davom etadi.
+      void bot.start({ drop_pending_updates: true }).catch((error: Error) => {
+        this.bot = null;
+        this.logger.error(
+          `Polling to'xtadi: ${error.message}. Bot o'chirildi, API ishlashda davom etadi.`,
+        );
+      });
       this.logger.log(`Polling boshlandi: @${this.botUsername}`);
     }
   }

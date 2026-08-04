@@ -36,3 +36,7 @@ apps/api/prisma/*.db
 # Misc
 coverage/
 tmp/
+
+# Next.js
+.next/
+next-env.d.ts

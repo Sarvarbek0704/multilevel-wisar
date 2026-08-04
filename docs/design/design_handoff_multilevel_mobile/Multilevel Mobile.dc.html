@@ -1,0 +1,2351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  body { margin:0; background:#EDEAE4; -webkit-font-smoothing:antialiased; }
+  * { box-sizing:border-box; }
+  a { color:#1B3C73; text-decoration:none; }
+  a:hover { color:#12294F; }
+  button { font-family:inherit; cursor:pointer; }
+  textarea, input { font-family:inherit; }
+  ::-webkit-scrollbar { width:0; height:0; }
+  @keyframes fadeUp { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
+  @keyframes pop { from { opacity:0; transform:scale(0.96); } to { opacity:1; transform:none; } }
+</style>
+</helmet>
+
+<div style="min-height:100vh;display:flex;justify-content:center;align-items:flex-start;padding:28px 16px 48px;font-family:'IBM Plex Sans',system-ui,sans-serif;color:#14161A">
+<div style="width:390px;height:844px;background:#FBFAF7;border:1px solid #D5D1C8;position:relative;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 26px 70px rgba(20,22,26,0.16)">
+
+  <div style="height:40px;flex:none;display:flex;align-items:flex-end;justify-content:space-between;padding:0 20px 6px;font-size:12px;font-weight:600;letter-spacing:0.01em;color:#14161A">
+    <span>9:41</span>
+    <div style="display:flex;align-items:center;gap:5px">
+      <span style="width:16px;height:8px;border:1px solid #14161A;display:block"></span>
+      <span style="width:3px;height:8px;background:#14161A;display:block"></span>
+    </div>
+  </div>
+
+  <div style="flex:1;overflow-y:auto;overflow-x:hidden;position:relative">
+
+  <sc-if value="{{ isLanding }}" hint-placeholder-val="{{ true }}">
+    <div>
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 20px 18px">
+        <div style="display:flex;align-items:baseline;gap:1px">
+          <span style="font-family:'Archivo',sans-serif;font-weight:700;font-size:17px;letter-spacing:-0.02em">multilevel</span>
+          <span style="font-size:12px;color:#82878F">.wisar.uz</span>
+        </div>
+        <div style="display:flex;border:1px solid #D5D1C8">
+          <span style="padding:4px 8px;font-size:11px;font-weight:600;background:#14161A;color:#FBFAF7">UZ</span>
+          <span style="padding:4px 8px;font-size:11px;font-weight:500;color:#82878F">EN</span>
+        </div>
+      </div>
+
+      <div style="background:#14161A;color:#F6F4F0;padding:32px 20px 28px">
+        <div style="display:inline-block;border:1px solid #4B5058;padding:4px 8px;font-size:10px;letter-spacing:0.14em;font-weight:600;color:#C9C6C0;margin-bottom:20px">UZBMB MULTILEVEL · CEFR</div>
+        <h1 style="font-family:'Archivo',sans-serif;font-size:34px;line-height:1.08;letter-spacing:-0.025em;font-weight:700;margin:0 0 14px;text-wrap:pretty">CEFR'ga bepul tayyorlaning — AI ustoz bilan</h1>
+        <p style="margin:0 0 26px;font-size:15px;line-height:1.55;color:#B9B6B0;max-width:300px;text-wrap:pretty">Haqiqiy formatdagi mocklar, Writing va Speaking uchun o'zbek tilida batafsil AI tahlil, shaxsiy o'quv reja. To'lov yo'q, cheklov yo'q.</p>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <button onClick="{{ goRegister }}" style="width:100%;padding:16px;background:#FBFAF7;color:#14161A;border:none;font-size:15px;font-weight:600;font-family:'Archivo',sans-serif;letter-spacing:-0.01em" style-hover="background:#FFFFFF">Bepul boshlash</button>
+          <button onClick="{{ goRegister }}" style="width:100%;padding:16px;background:transparent;color:#F6F4F0;border:1px solid #4B5058;font-size:15px;font-weight:500" style-hover="border-color:#82878F">Darajamni aniqlash</button>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid #E4E1DA">
+        <div style="padding:18px 20px;border-right:1px solid #E4E1DA;border-bottom:1px solid #E4E1DA">
+          <div style="font-family:'Archivo',sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em">412</div>
+          <div style="font-size:12px;color:#82878F;margin-top:2px">dars</div>
+        </div>
+        <div style="padding:18px 20px;border-bottom:1px solid #E4E1DA">
+          <div style="font-family:'Archivo',sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em">38</div>
+          <div style="font-size:12px;color:#82878F;margin-top:2px">mock imtihon</div>
+        </div>
+        <div style="padding:18px 20px;border-right:1px solid #E4E1DA">
+          <div style="font-family:'Archivo',sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em">6 200</div>
+          <div style="font-size:12px;color:#82878F;margin-top:2px">so'z bazasi</div>
+        </div>
+        <div style="padding:18px 20px">
+          <div style="font-family:'Archivo',sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em">94 517</div>
+          <div style="font-size:12px;color:#82878F;margin-top:2px">AI baholash</div>
+        </div>
+      </div>
+
+      <div style="padding:32px 20px 8px">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:16px">QANDAY ISHLAYDI</div>
+        <div style="display:flex;flex-direction:column;gap:0">
+          <div style="display:flex;gap:14px;padding:14px 0;border-top:1px solid #E4E1DA">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#1B3C73;padding-top:3px">01</span>
+            <div>
+              <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600;letter-spacing:-0.01em">Placement test</div>
+              <div style="font-size:13px;color:#4B5058;line-height:1.5;margin-top:3px">25 daqiqada joriy darajangizni aniqlaymiz.</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:14px;padding:14px 0;border-top:1px solid #E4E1DA">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#1B3C73;padding-top:3px">02</span>
+            <div>
+              <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600;letter-spacing:-0.01em">Shaxsiy reja</div>
+              <div style="font-size:13px;color:#4B5058;line-height:1.5;margin-top:3px">Maqsad darajangiz va imtihon sanangizga qarab kunlik vazifalar.</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:14px;padding:14px 0;border-top:1px solid #E4E1DA">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#1B3C73;padding-top:3px">03</span>
+            <div>
+              <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600;letter-spacing:-0.01em">Darslar va mocklar</div>
+              <div style="font-size:13px;color:#4B5058;line-height:1.5;margin-top:3px">Har kuni 30-60 daqiqa: nazariya, mashqlar, to'liq imtihon mashqi.</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:14px;padding:14px 0;border-top:1px solid #E4E1DA;border-bottom:1px solid #E4E1DA">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#1B3C73;padding-top:3px">04</span>
+            <div>
+              <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600;letter-spacing:-0.01em">AI tahlil</div>
+              <div style="font-size:13px;color:#4B5058;line-height:1.5;margin-top:3px">Writing va Speaking javoblaringiz mezonlar bo'yicha o'zbekcha tahlil qilinadi.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding:32px 20px 8px">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:16px">IMKONIYATLAR</div>
+        <div style="display:grid;gap:10px">
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+            <div style="font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">AI Writing va Speaking baholash</div>
+            <div style="font-size:13px;color:#4B5058;line-height:1.5;margin-top:4px">To'rt mezon, xatolar jadvali, yaxshilangan versiya — hammasi o'zbek tilida.</div>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+            <div style="font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Haqiqiy formatdagi mocklar</div>
+            <div style="font-size:13px;color:#4B5058;line-height:1.5;margin-top:4px">Listening audiosi, Reading passajlari, timer — imtihon kunidek.</div>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+            <div style="font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Lug'at (spaced repetition)</div>
+            <div style="font-size:13px;color:#4B5058;line-height:1.5;margin-top:4px">Har so'z esdan chiqishga yaqin kuni qaytib keladi.</div>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+            <div style="font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Telegram bot</div>
+            <div style="font-size:13px;color:#4B5058;line-height:1.5;margin-top:4px">Kunlik eslatma va mock natijalari to'g'ridan-to'g'ri botga tushadi.</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding:32px 20px 8px">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:16px">NATIJA QANDAY KO'RINADI</div>
+        <div style="border:1px solid #D5D1C8;background:#FFFFFF">
+          <div style="background:#14161A;color:#F6F4F0;padding:16px;display:flex;align-items:flex-end;justify-content:space-between">
+            <div>
+              <div style="font-size:11px;color:#9A9791;letter-spacing:0.08em">UMUMIY BALL</div>
+              <div style="font-family:'Archivo',sans-serif;font-size:30px;font-weight:700;letter-spacing:-0.02em;line-height:1.1">48.8<span style="font-size:15px;font-weight:500;color:#9A9791">/75</span></div>
+            </div>
+            <div style="border:1px solid #9A7A20;color:#E4C86A;padding:4px 10px;font-size:12px;font-weight:600;letter-spacing:0.06em">B1</div>
+          </div>
+          <div style="padding:16px">
+            <div style="font-size:12px;color:#82878F;margin-bottom:8px">Writing · AI tahlil</div>
+            <div style="font-size:13px;line-height:1.55;color:#14161A">Fikrlaringiz aniq tuzilgan, lekin bog'lovchilar takrorlanmoqda. <span style="background:#FCE9E9;padding:0 3px">4 ta grammatik xato</span> topildi — asosan artikllar.</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding:32px 20px 8px">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:8px">KO'P BERILADIGAN SAVOLLAR</div>
+        <div>
+          <div style="border-top:1px solid #E4E1DA">
+            <button onClick="{{ faq0 }}" style="width:100%;background:none;border:none;padding:16px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;font-size:14px;font-weight:500;color:#14161A">Haqiqatan ham bepulmi?<span style="color:#82878F;font-size:16px">{{ faqMark0 }}</span></button>
+            <sc-if value="{{ faqOpen0 }}" hint-placeholder-val="{{ false }}"><div style="font-size:13px;color:#4B5058;line-height:1.6;padding-bottom:16px">Ha. Barcha darslar, mocklar va AI baholashlar to'liq bepul. Pullik tarif yo'q.</div></sc-if>
+          </div>
+          <div style="border-top:1px solid #E4E1DA">
+            <button onClick="{{ faq1 }}" style="width:100%;background:none;border:none;padding:16px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;font-size:14px;font-weight:500;color:#14161A">AI baholash qanchalik aniq?<span style="color:#82878F;font-size:16px">{{ faqMark1 }}</span></button>
+            <sc-if value="{{ faqOpen1 }}" hint-placeholder-val="{{ false }}"><div style="font-size:13px;color:#4B5058;line-height:1.6;padding-bottom:16px">Baholash UzBMB mezonlariga moslangan. Ball taxminiy, lekin xatolar tahlili va tavsiyalar real imtihonga tayyorlanish uchun yetarli.</div></sc-if>
+          </div>
+          <div style="border-top:1px solid #E4E1DA">
+            <button onClick="{{ faq2 }}" style="width:100%;background:none;border:none;padding:16px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;font-size:14px;font-weight:500;color:#14161A">Ona tili fani ham bormi?<span style="color:#82878F;font-size:16px">{{ faqMark2 }}</span></button>
+            <sc-if value="{{ faqOpen2 }}" hint-placeholder-val="{{ false }}"><div style="font-size:13px;color:#4B5058;line-height:1.6;padding-bottom:16px">Ha, Ona tili bo'yicha alohida kurs va mocklar mavjud. Fanni profilda yoki kurslar sahifasida almashtirasiz.</div></sc-if>
+          </div>
+          <div style="border-top:1px solid #E4E1DA;border-bottom:1px solid #E4E1DA">
+            <button onClick="{{ faq3 }}" style="width:100%;background:none;border:none;padding:16px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;font-size:14px;font-weight:500;color:#14161A">Telefonda ishlaydimi?<span style="color:#82878F;font-size:16px">{{ faqMark3 }}</span></button>
+            <sc-if value="{{ faqOpen3 }}" hint-placeholder-val="{{ false }}"><div style="font-size:13px;color:#4B5058;line-height:1.6;padding-bottom:16px">Platforma birinchi navbatda telefon uchun ishlangan. Speaking yozish brauzerdan to'g'ridan-to'g'ri amalga oshadi.</div></sc-if>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#14161A;color:#9A9791;padding:28px 20px 32px;margin-top:32px">
+        <div style="display:flex;align-items:baseline;gap:1px;margin-bottom:14px">
+          <span style="font-family:'Archivo',sans-serif;font-weight:700;font-size:15px;color:#F6F4F0;letter-spacing:-0.02em">multilevel</span>
+          <span style="font-size:11px">.wisar.uz</span>
+        </div>
+        <div style="display:grid;gap:8px;font-size:13px">
+          <a href="#" style="color:#9A9791">Kurslar</a>
+          <a href="#" style="color:#9A9791">Mocklar</a>
+          <a href="#" style="color:#9A9791">Telegram bot</a>
+          <a href="#" style="color:#9A9791">Wisar.uz</a>
+        </div>
+        <div style="font-size:11px;margin-top:20px;color:#6A6862">© 2026 Wisar.uz oilasining bir qismi</div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isDash }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:8px 0 24px">
+      <div style="padding:0 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
+        <div>
+          <div style="font-family:'Archivo',sans-serif;font-size:24px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">Salom, Dilnoza</div>
+          <div style="font-size:13px;color:#4B5058;margin-top:4px">Imtihongacha <span style="color:#1B3C73;font-weight:600">{{ examDays }} kun</span> · maqsad B2</div>
+        </div>
+        <button onClick="{{ goProfile }}" style="width:40px;height:40px;flex:none;background:#14161A;color:#FBFAF7;border:none;display:flex;align-items:center;justify-content:center;font-family:'Archivo',sans-serif;font-size:14px;font-weight:600">DR</button>
+      </div>
+
+      <sc-if value="{{ isNew }}" hint-placeholder-val="{{ false }}">
+        <div style="margin:22px 20px 0;border:1px solid #D5D1C8;background:#FFFFFF;padding:28px 20px;text-align:center">
+          <div style="width:100%;height:88px;background:repeating-linear-gradient(135deg,#F1EFEA 0 8px,#FBFAF7 8px 16px);border:1px solid #E4E1DA;display:flex;align-items:center;justify-content:center;margin-bottom:20px">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#9A9791;letter-spacing:0.08em">BO'SH HOLAT ILLYUSTRATSIYASI</span>
+          </div>
+          <div style="font-family:'Archivo',sans-serif;font-size:18px;font-weight:600;letter-spacing:-0.01em">Reja hali tuzilmagan</div>
+          <div style="font-size:13px;color:#4B5058;line-height:1.55;margin:8px 0 18px">Darajangizni aniqlaymiz va imtihon sanangizga qarab kunlik vazifalar tuzamiz.</div>
+          <button style="width:100%;padding:15px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Darajamni aniqlash</button>
+          <button style="width:100%;padding:13px;background:none;border:none;color:#82878F;font-size:13px;margin-top:6px">O'tkazib yuborish</button>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isReturning }}" hint-placeholder-val="{{ true }}">
+      <div>
+        <sc-if value="{{ showGame }}" hint-placeholder-val="{{ true }}">
+          <div style="margin:22px 20px 0;border:1px solid #E4E1DA;background:#FFFFFF;display:flex">
+            <div style="padding:16px;border-right:1px solid #E4E1DA;flex:none;width:118px">
+              <div style="font-size:10px;letter-spacing:0.12em;color:#82878F;font-weight:600">KETMA-KET</div>
+              <div style="font-family:'Archivo',sans-serif;font-size:28px;font-weight:700;letter-spacing:-0.02em;line-height:1.2">12 <span style="font-size:13px;font-weight:500;color:#82878F">kun</span></div>
+            </div>
+            <div style="padding:16px;flex:1;display:flex;justify-content:space-between;align-items:center">
+              <sc-for list="{{ week }}" as="d" hint-placeholder-count="7">
+                <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+                  <span style="font-size:10px;color:#9A9791">{{ d.l }}</span>
+                  <span style="width:9px;height:9px;display:block;background: {{ d.c }}"></span>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+
+          <div style="margin:10px 20px 0;border:1px solid #E4E1DA;background:#FFFFFF;padding:16px;display:flex;align-items:center;gap:16px">
+            <svg width="58" height="58" viewBox="0 0 58 58" style="flex:none;transform:rotate(-90deg)">
+              <circle cx="29" cy="29" r="25" fill="none" stroke="#EDEAE4" stroke-width="6"></circle>
+              <circle cx="29" cy="29" r="25" fill="none" stroke="#1B3C73" stroke-width="6" stroke-dasharray="157" stroke-dashoffset="{{ ringOffset }}"></circle>
+            </svg>
+            <div style="flex:1">
+              <div style="font-size:10px;letter-spacing:0.12em;color:#82878F;font-weight:600">BUGUNGI MAQSAD</div>
+              <div style="font-family:'Archivo',sans-serif;font-size:19px;font-weight:600;letter-spacing:-0.01em;margin-top:2px">25 / 60 daqiqa</div>
+              <div style="font-size:12px;color:#4B5058;margin-top:2px">Bugun +80 XP · jami 1 240 XP</div>
+            </div>
+          </div>
+        </sc-if>
+
+        <div style="padding:28px 20px 0">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px">
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F">BUGUNGI REJA</div>
+            <span style="font-size:12px;color:#82878F">1/4 bajarildi</span>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF">
+            <div style="padding:14px 16px;display:flex;gap:12px;align-items:center;border-bottom:1px solid #E4E1DA;opacity:0.55">
+              <span style="width:18px;height:18px;flex:none;background:#1E6B4F;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:11px">✓</span>
+              <div style="flex:1">
+                <div style="font-size:14px;font-weight:500;text-decoration:line-through">24 so'zni takrorlash</div>
+                <div style="font-size:12px;color:#82878F;margin-top:1px">Lug'at · 10 daqiqa</div>
+              </div>
+            </div>
+            <div style="padding:14px 16px;display:flex;gap:12px;align-items:center;border-bottom:1px solid #E4E1DA">
+              <span style="width:18px;height:18px;flex:none;border:1px solid #C9C6C0;display:block"></span>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:14px;font-weight:500">Present Perfect vs Past Simple</div>
+                <div style="font-size:12px;color:#82878F;margin-top:1px">B1 Grammatika · 15 daqiqa</div>
+              </div>
+              <button onClick="{{ goLesson }}" style="flex:none;padding:9px 14px;background:#14161A;color:#FBFAF7;border:none;font-size:12px;font-weight:600">Boshlash</button>
+            </div>
+            <div style="padding:14px 16px;display:flex;gap:12px;align-items:center;border-bottom:1px solid #E4E1DA">
+              <span style="width:18px;height:18px;flex:none;border:1px solid #C9C6C0;display:block"></span>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:14px;font-weight:500">Listening Part 2 mashqi</div>
+                <div style="font-size:12px;color:#82878F;margin-top:1px">Mini mock · 12 daqiqa</div>
+              </div>
+              <button style="flex:none;padding:9px 14px;background:none;color:#14161A;border:1px solid #C9C6C0;font-size:12px;font-weight:600">Boshlash</button>
+            </div>
+            <div style="padding:14px 16px;display:flex;gap:12px;align-items:center">
+              <span style="width:18px;height:18px;flex:none;border:1px solid #C9C6C0;display:block"></span>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:14px;font-weight:500">Writing Task 1: xat yozish</div>
+                <div style="font-size:12px;color:#82878F;margin-top:1px">AI amaliyot · 20 daqiqa</div>
+              </div>
+              <button style="flex:none;padding:9px 14px;background:none;color:#14161A;border:1px solid #C9C6C0;font-size:12px;font-weight:600">Boshlash</button>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin:10px 20px 0;border:1px solid #1B3C73;background:#EEF1F7;padding:14px 16px;display:flex;align-items:center;gap:12px">
+          <div style="flex:1">
+            <div style="font-size:14px;font-weight:600;color:#12294F">24 ta so'z takrorlashni kutmoqda</div>
+            <div style="font-size:12px;color:#3E567F;margin-top:2px">Bugun o'tkazib yuborsangiz, ertaga 40 ta bo'ladi</div>
+          </div>
+          <button style="flex:none;padding:9px 14px;background:#1B3C73;color:#FFF;border:none;font-size:12px;font-weight:600">Takrorlash</button>
+        </div>
+
+        <div style="padding:28px 20px 0">
+          <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">OXIRGI MOCK NATIJASI</div>
+          <button onClick="{{ goResult }}" style="width:100%;text-align:left;border:1px solid #D5D1C8;background:#FFFFFF;padding:0;display:block">
+            <div style="padding:16px;display:flex;align-items:center;gap:16px">
+              <div>
+                <div style="font-family:'Archivo',sans-serif;font-size:28px;font-weight:700;letter-spacing:-0.02em;line-height:1.1">48.8<span style="font-size:14px;font-weight:500;color:#82878F">/75</span></div>
+                <div style="font-size:12px;color:#82878F;margin-top:3px">2-avgust · To'liq mock #4</div>
+              </div>
+              <div style="flex:1;display:flex;justify-content:flex-end;align-items:center;gap:10px">
+                <span style="border:1px solid #9A7A20;color:#7A5F14;padding:4px 10px;font-size:12px;font-weight:600;letter-spacing:0.06em">B1</span>
+                <span style="color:#82878F;font-size:16px">→</span>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <div style="padding:28px 20px 0">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px">
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F">FAOLLIK</div>
+            <span style="font-size:12px;color:#82878F">oxirgi 18 hafta</span>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 12px">
+            <div style="display:grid;grid-template-columns:repeat(18,1fr);gap:3px">
+              <sc-for list="{{ heat }}" as="c" hint-placeholder-count="126">
+                <span style="display:block;aspect-ratio:1;background: {{ c }}"></span>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+      </div>
+      </sc-if>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isLesson }}" hint-placeholder-val="{{ false }}">
+    <div>
+      <div style="position:sticky;top:0;background:#FBFAF7;z-index:5;border-bottom:1px solid #E4E1DA">
+        <div style="display:flex;align-items:center;gap:12px;padding:8px 16px 10px">
+          <button onClick="{{ prevStep }}" style="background:none;border:none;padding:6px;color:#14161A;font-size:16px;line-height:1">←</button>
+          <div style="flex:1;min-width:0">
+            <div style="font-size:12px;color:#82878F">B1 Grammatika</div>
+            <div style="font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Present Perfect vs Past Simple</div>
+          </div>
+          <button onClick="{{ goDash }}" style="background:none;border:none;padding:6px;color:#82878F;font-size:16px;line-height:1">✕</button>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:0 16px 10px">
+          <div style="flex:1;height:3px;background:#E4E1DA">
+            <div style="height:3px;background:#1B3C73;width: {{ lessonPct }}"></div>
+          </div>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#82878F">{{ stepLabel }}</span>
+        </div>
+      </div>
+
+      <div style="padding:24px 20px 120px">
+        <sc-if value="{{ at0 }}" hint-placeholder-val="{{ true }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">NAZARIYA</div>
+            <h2 style="font-family:'Archivo',sans-serif;font-size:24px;font-weight:700;letter-spacing:-0.025em;line-height:1.15;margin:0 0 16px">Ikki o'tgan zamon, ikki xil maqsad</h2>
+            <p style="font-size:16px;line-height:1.65;color:#22262C;margin:0 0 14px;text-wrap:pretty"><b>Past Simple</b> — ish-harakat qachon bo'lganini bilamiz va u tugagan. Vaqt aniq: <i>yesterday, in 2019, two days ago, last week</i>.</p>
+            <p style="font-size:16px;line-height:1.65;color:#22262C;margin:0 0 14px;text-wrap:pretty"><b>Present Perfect</b> — harakat o'tgan zamonda bo'lgan, lekin muhimi <b>natija hozir</b>. Aniq vaqt aytilmaydi.</p>
+            <ul style="margin:0 0 14px;padding-left:20px;font-size:16px;line-height:1.7;color:#22262C">
+              <li>Tajriba: <i>I have been to Samarkand.</i></li>
+              <li>Hozirgacha davom etayotgan holat: <i>She has worked here for 3 years.</i></li>
+              <li>Yaqinda bo'lgan va natijasi ko'rinib turgan ish: <i>I have lost my keys.</i></li>
+            </ul>
+            <p style="font-size:16px;line-height:1.65;color:#22262C;margin:0">Imtihonda eng ko'p uchraydigan xato — Present Perfect'ni aniq vaqt bilan ishlatish. Buni eslab qolsangiz, Writing'da bir nechta ball tejaysiz.</p>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ at1 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">MISOLLAR</div>
+            <div style="display:grid;gap:10px">
+              <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+                <div style="font-size:18px;line-height:1.4;font-weight:500">I finished my homework an hour ago.</div>
+                <div style="font-size:14px;color:#4B5058;margin-top:6px">Uy vazifamni bir soat oldin tugatdim.</div>
+              </div>
+              <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+                <div style="font-size:18px;line-height:1.4;font-weight:500">I have finished my homework.</div>
+                <div style="font-size:14px;color:#4B5058;margin-top:6px">Uy vazifamni tugatdim. (Endi bo'shman — natija hozir muhim.)</div>
+              </div>
+              <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+                <div style="font-size:18px;line-height:1.4;font-weight:500">Have you ever taken the multilevel exam?</div>
+                <div style="font-size:14px;color:#4B5058;margin-top:6px">Hech multilevel imtihonini topshirganmisiz?</div>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ at2 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">JADVAL</div>
+            <h3 style="font-family:'Archivo',sans-serif;font-size:19px;font-weight:600;letter-spacing:-0.015em;margin:0 0 14px">Vaqt ifodalari qaysi zaman bilan keladi</h3>
+            <div style="overflow-x:auto;border:1px solid #E4E1DA;background:#FFFFFF">
+              <table style="border-collapse:collapse;min-width:460px;font-size:14px">
+                <thead>
+                  <tr style="background:#F1EFEA">
+                    <th style="text-align:left;padding:11px 14px;font-size:11px;letter-spacing:0.08em;color:#4B5058;border-bottom:1px solid #E4E1DA;white-space:nowrap">VAQT IFODASI</th>
+                    <th style="text-align:left;padding:11px 14px;font-size:11px;letter-spacing:0.08em;color:#4B5058;border-bottom:1px solid #E4E1DA;white-space:nowrap">ZAMON</th>
+                    <th style="text-align:left;padding:11px 14px;font-size:11px;letter-spacing:0.08em;color:#4B5058;border-bottom:1px solid #E4E1DA;white-space:nowrap">MISOL</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4;white-space:nowrap">yesterday, ago</td>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4;color:#4B5058;white-space:nowrap">Past Simple</td>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4">He called me yesterday.</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4;white-space:nowrap">ever, never</td>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4;color:#4B5058;white-space:nowrap">Present Perfect</td>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4">I have never tried it.</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4;white-space:nowrap">for, since</td>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4;color:#4B5058;white-space:nowrap">Present Perfect</td>
+                    <td style="padding:11px 14px;border-bottom:1px solid #EDEAE4">We have known each other since 2020.</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:11px 14px;white-space:nowrap">just, already, yet</td>
+                    <td style="padding:11px 14px;color:#4B5058;white-space:nowrap">Present Perfect</td>
+                    <td style="padding:11px 14px">She has just left.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div style="font-size:12px;color:#9A9791;margin-top:8px">← jadvalni yon tomonga suring</div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ at3 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">DIALOG</div>
+            <div style="display:grid;gap:12px">
+              <div style="display:flex;gap:10px">
+                <span style="width:26px;height:26px;flex:none;background:#EDEAE4;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#4B5058">A</span>
+                <div style="background:#FFFFFF;border:1px solid #E4E1DA;padding:12px 14px;max-width:270px">
+                  <div style="font-size:15px;line-height:1.45">Have you finished the reading section?</div>
+                  <div style="font-size:13px;color:#82878F;margin-top:5px">Reading bo'limini tugatdingizmi?</div>
+                </div>
+              </div>
+              <div style="display:flex;gap:10px;flex-direction:row-reverse">
+                <span style="width:26px;height:26px;flex:none;background:#14161A;color:#FBFAF7;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600">B</span>
+                <div style="background:#EEF1F7;border:1px solid #C7D2E3;padding:12px 14px;max-width:270px">
+                  <div style="font-size:15px;line-height:1.45">Yes, I have. I finished it twenty minutes ago.</div>
+                  <div style="font-size:13px;color:#3E567F;margin-top:5px">Ha, tugatdim. Yigirma daqiqa oldin tugatdim.</div>
+                </div>
+              </div>
+              <div style="display:flex;gap:10px">
+                <span style="width:26px;height:26px;flex:none;background:#EDEAE4;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#4B5058">A</span>
+                <div style="background:#FFFFFF;border:1px solid #E4E1DA;padding:12px 14px;max-width:270px">
+                  <div style="font-size:15px;line-height:1.45">Was it difficult?</div>
+                  <div style="font-size:13px;color:#82878F;margin-top:5px">Qiyin bo'ldimi?</div>
+                </div>
+              </div>
+              <div style="display:flex;gap:10px;flex-direction:row-reverse">
+                <span style="width:26px;height:26px;flex:none;background:#14161A;color:#FBFAF7;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600">B</span>
+                <div style="background:#EEF1F7;border:1px solid #C7D2E3;padding:12px 14px;max-width:270px">
+                  <div style="font-size:15px;line-height:1.45">Not really. I have done six mocks, so I'm used to it now.</div>
+                  <div style="font-size:13px;color:#3E567F;margin-top:5px">Unchalik emas. Oltita mock yechganman, endi o'rganib qolganman.</div>
+                </div>
+              </div>
+            </div>
+            <div style="font-size:13px;color:#4B5058;line-height:1.6;margin-top:16px;padding-top:14px;border-top:1px solid #E4E1DA">E'tibor bering: <i>twenty minutes ago</i> — Past Simple, <i>I have done six mocks</i> — vaqt aytilmagan, natija muhim.</div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ at4 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">MASLAHAT</div>
+            <div style="border-left:3px solid #1B3C73;background:#EEF1F7;padding:18px 18px 18px 16px">
+              <div style="font-family:'Archivo',sans-serif;font-size:18px;font-weight:600;letter-spacing:-0.015em;color:#12294F;margin-bottom:8px">Bitta savol bering</div>
+              <div style="font-size:15px;line-height:1.6;color:#22262C">Gapni yozishdan oldin o'zingizdan so'rang: <b>"Qachon bo'lgani muhimmi?"</b> Agar javob "ha" bo'lsa — Past Simple. Agar "yo'q, natijasi muhim" bo'lsa — Present Perfect.</div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ at5 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px">
+              <span style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73">MASHQ 1 · BITTA JAVOB</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9A9791">1/4</span>
+            </div>
+            <div style="font-size:18px;line-height:1.45;font-weight:500;margin-bottom:18px;text-wrap:pretty">Qaysi gap grammatik jihatdan to'g'ri?</div>
+            <div style="display:grid;gap:8px">
+              <sc-for list="{{ mcqOpts }}" as="o" hint-placeholder-count="4">
+                <button onClick="{{ o.pick }}" style="width:100%;text-align:left;padding:14px 16px;display:flex;align-items:center;gap:12px;font-size:15px;background:#FFFFFF; {{ o.style }}">
+                  <span style="width:22px;height:22px;flex:none;border:1px solid #C9C6C0;display:flex;align-items:center;justify-content:center;font-size:11px;font-family:'IBM Plex Mono',monospace;color:#4B5058">{{ o.letter }}</span>
+                  <span style="flex:1">{{ o.text }}</span>
+                  <span style="font-size:14px;font-weight:600">{{ o.mark }}</span>
+                </button>
+              </sc-for>
+            </div>
+            <sc-if value="{{ mcqChecked }}" hint-placeholder-val="{{ false }}">
+              <div style="margin-top:16px;padding:16px;border:1px solid #E4E1DA;background:#FFFFFF">
+                <div style="font-size:13px;font-weight:600;margin-bottom:6px">{{ mcqVerdict }}</div>
+                <div style="font-size:14px;line-height:1.6;color:#22262C"><i>yesterday</i> — aniq o'tgan vaqt, shuning uchun Past Simple: <b>I saw him yesterday</b>. Present Perfect aniq vaqt ifodasi bilan kelmaydi.</div>
+              </div>
+            </sc-if>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ at6 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px">
+              <span style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73">MASHQ 2 · TO'G'RI / XATO</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9A9791">2/4</span>
+            </div>
+            <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px;margin-bottom:16px">
+              <div style="font-size:17px;line-height:1.45">"She has lived in Tashkent for ten years."</div>
+            </div>
+            <div style="font-size:15px;line-height:1.5;margin-bottom:16px;color:#22262C">Bu gap <b>u hozir ham Toshkentda yashaydi</b> degan ma'noni beradi.</div>
+            <div style="display:grid;gap:8px">
+              <sc-for list="{{ tfOpts }}" as="o" hint-placeholder-count="2">
+                <button onClick="{{ o.pick }}" style="width:100%;text-align:left;padding:14px 16px;display:flex;align-items:center;gap:12px;font-size:15px;background:#FFFFFF; {{ o.style }}">
+                  <span style="flex:1;font-weight:500">{{ o.text }}</span>
+                  <span style="font-size:14px;font-weight:600">{{ o.mark }}</span>
+                </button>
+              </sc-for>
+            </div>
+            <sc-if value="{{ tfChecked }}" hint-placeholder-val="{{ false }}">
+              <div style="margin-top:16px;padding:16px;border:1px solid #E4E1DA;background:#FFFFFF">
+                <div style="font-size:13px;font-weight:600;margin-bottom:6px">{{ tfVerdict }}</div>
+                <div style="font-size:14px;line-height:1.6;color:#22262C"><i>for ten years</i> + Present Perfect — holat o'tmishda boshlangan va hozir ham davom etmoqda. Agar ko'chib ketgan bo'lsa: <i>She lived in Tashkent for ten years.</i></div>
+              </div>
+            </sc-if>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ at7 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px">
+              <span style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73">MASHQ 3 · BO'SH JOYNI TO'LDIRING</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9A9791">3/4</span>
+            </div>
+            <div style="font-size:18px;line-height:1.6;margin-bottom:6px">I <span style="border-bottom:2px solid #1B3C73;padding:0 24px">&nbsp;</span> my homework yet.</div>
+            <div style="font-size:13px;color:#82878F;margin-bottom:16px">(not / finish) — Present Perfect'da yozing</div>
+            <input value="{{ gapVal }}" onInput="{{ onGap }}" placeholder="javobingiz" style="width:100%;padding:14px 16px;font-size:16px;border:1px solid #C9C6C0;background:#FFFFFF;color:#14161A;outline:none" style-focus="border-color:#1B3C73" />
+            <sc-if value="{{ gapChecked }}" hint-placeholder-val="{{ false }}">
+              <div style="margin-top:16px;padding:16px;border:1px solid #E4E1DA;background:#FFFFFF">
+                <div style="font-size:13px;font-weight:600;margin-bottom:6px">{{ gapVerdict }}</div>
+                <div style="font-size:14px;line-height:1.6;color:#22262C;margin-bottom:6px">To'g'ri javob: <b>haven't finished</b> (yoki <i>have not finished</i>).</div>
+                <div style="font-size:14px;line-height:1.6;color:#4B5058"><i>yet</i> — Present Perfect'ning belgisi, inkor va so'roq gaplarda gap oxirida keladi.</div>
+              </div>
+            </sc-if>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ at8 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px">
+              <span style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73">MASHQ 4 · WRITING</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9A9791">4/4</span>
+            </div>
+            <div style="font-size:16px;line-height:1.55;margin-bottom:16px;text-wrap:pretty">Oxirgi bir yilda hayotingizda qanday o'zgarishlar bo'ldi? Present Perfect'dan kamida uch marta foydalanib <b>60-80 so'z</b> yozing.</div>
+            <textarea value="{{ wtext }}" onInput="{{ onW }}" placeholder="This year I have..." style="width:100%;height:180px;padding:14px 16px;font-size:15px;line-height:1.6;border:1px solid #C9C6C0;background:#FFFFFF;color:#14161A;outline:none;resize:none" style-focus="border-color:#1B3C73"></textarea>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;font-size:12px">
+              <span style="color: {{ wcColor }}">{{ wcount }} so'z · kamida 60</span>
+              <span style="color:#9A9791">Saqlandi ✓</span>
+            </div>
+
+            <sc-if value="{{ aiPending }}" hint-placeholder-val="{{ false }}">
+              <div style="margin-top:18px;border:1px solid #E4E1DA;background:#FFFFFF;padding:20px;text-align:center">
+                <div style="font-size:14px;font-weight:600;margin-bottom:6px">AI baholayapti…</div>
+                <div style="font-size:13px;color:#82878F">Odatda 20-40 soniya oladi</div>
+                <div style="height:3px;background:#EDEAE4;margin-top:14px"><div style="height:3px;background:#1B3C73;width:40%;animation:fadeUp 1s infinite alternate"></div></div>
+              </div>
+            </sc-if>
+
+            <sc-if value="{{ aiDone }}" hint-placeholder-val="{{ false }}">
+              <div style="margin-top:18px;border:1px solid #D5D1C8;background:#FFFFFF;animation:pop 0.25s ease-out">
+                <div style="padding:16px;border-bottom:1px solid #E4E1DA;display:flex;justify-content:space-between;align-items:center">
+                  <div style="font-size:10px;letter-spacing:0.12em;font-weight:600;color:#82878F">AI TAHLIL</div>
+                  <div style="font-family:'Archivo',sans-serif;font-size:18px;font-weight:700">5.5<span style="font-size:12px;color:#82878F;font-weight:500">/7</span></div>
+                </div>
+                <div style="padding:16px;border-bottom:1px solid #E4E1DA;display:grid;gap:10px">
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="font-size:13px;width:118px;flex:none">Task Achievement</span>
+                    <span style="flex:1;height:5px;background:#EDEAE4;display:block"><span style="display:block;height:5px;width:86%;background:#1B3C73"></span></span>
+                    <span style="font-size:12px;font-family:'IBM Plex Mono',monospace;color:#4B5058">6.0</span>
+                  </div>
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="font-size:13px;width:118px;flex:none">Coherence</span>
+                    <span style="flex:1;height:5px;background:#EDEAE4;display:block"><span style="display:block;height:5px;width:71%;background:#1B3C73"></span></span>
+                    <span style="font-size:12px;font-family:'IBM Plex Mono',monospace;color:#4B5058">5.0</span>
+                  </div>
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="font-size:13px;width:118px;flex:none">Lexical Resource</span>
+                    <span style="flex:1;height:5px;background:#EDEAE4;display:block"><span style="display:block;height:5px;width:79%;background:#1B3C73"></span></span>
+                    <span style="font-size:12px;font-family:'IBM Plex Mono',monospace;color:#4B5058">5.5</span>
+                  </div>
+                  <div style="display:flex;align-items:center;gap:10px">
+                    <span style="font-size:13px;width:118px;flex:none">Grammar</span>
+                    <span style="flex:1;height:5px;background:#EDEAE4;display:block"><span style="display:block;height:5px;width:79%;background:#1B3C73"></span></span>
+                    <span style="font-size:12px;font-family:'IBM Plex Mono',monospace;color:#4B5058">5.5</span>
+                  </div>
+                </div>
+                <div style="padding:16px;border-bottom:1px solid #E4E1DA">
+                  <div style="font-size:11px;letter-spacing:0.1em;color:#1E6B4F;font-weight:600;margin-bottom:8px">KUCHLI TOMONLAR</div>
+                  <div style="font-size:14px;line-height:1.6;color:#22262C">Present Perfect'ni to'rt marta to'g'ri qo'llagansiz. Gaplar uzunligi xilma-xil, bu yaxshi taassurot qoldiradi.</div>
+                </div>
+                <div style="padding:16px">
+                  <div style="font-size:11px;letter-spacing:0.1em;color:#A32B2B;font-weight:600;margin-bottom:10px">XATOLAR</div>
+                  <div style="display:grid;gap:12px">
+                    <div style="border-left:2px solid #E8C9C9;padding-left:12px">
+                      <div style="font-size:14px;text-decoration:line-through;color:#A32B2B">I have started my job in 2025.</div>
+                      <div style="font-size:14px;color:#1E6B4F;margin-top:3px">I started my job in 2025.</div>
+                      <div style="font-size:12px;color:#82878F;margin-top:4px">Aniq sana bilan Past Simple ishlatiladi.</div>
+                    </div>
+                    <div style="border-left:2px solid #E8C9C9;padding-left:12px">
+                      <div style="font-size:14px;text-decoration:line-through;color:#A32B2B">I have learn many things.</div>
+                      <div style="font-size:14px;color:#1E6B4F;margin-top:3px">I have learned many things.</div>
+                      <div style="font-size:12px;color:#82878F;margin-top:4px">Present Perfect: have + V3.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </sc-if>
+          </div>
+        </sc-if>
+      </div>
+
+      <div style="position:absolute;left:0;right:0;bottom:0;padding:14px 16px 18px;background:#FBFAF7;border-top:1px solid #E4E1DA">
+        <sc-if value="{{ footerEnabled }}" hint-placeholder-val="{{ true }}">
+          <button onClick="{{ footerAction }}" style="width:100%;padding:16px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600;letter-spacing:-0.01em" style-hover="background:#22262C">{{ footerLabel }}</button>
+        </sc-if>
+        <sc-if value="{{ footerDisabled }}" hint-placeholder-val="{{ false }}">
+          <button style="width:100%;padding:16px;background:#E4E1DA;color:#9A9791;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600;cursor:not-allowed">{{ footerLabel }}</button>
+        </sc-if>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isResult }}" hint-placeholder-val="{{ false }}">
+    <div style="padding-bottom:24px">
+      <div style="display:flex;align-items:center;gap:12px;padding:8px 16px 12px">
+        <button onClick="{{ goDash }}" style="background:none;border:none;padding:6px;color:#14161A;font-size:16px;line-height:1">←</button>
+        <div style="flex:1">
+          <div style="font-size:13px;font-weight:600">To'liq mock #4</div>
+          <div style="font-size:12px;color:#82878F">2-avgust, 2026 · 2 soat 15 daqiqa</div>
+        </div>
+      </div>
+
+      <div style="margin:0 20px;background:#14161A;color:#F6F4F0;padding:20px">
+        <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:20px">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.12em;color:#9A9791;font-weight:600">UMUMIY BALL</div>
+            <div style="font-family:'Archivo',sans-serif;font-size:42px;font-weight:700;letter-spacing:-0.03em;line-height:1.05">48.8<span style="font-size:18px;font-weight:500;color:#9A9791">/75</span></div>
+          </div>
+          <div style="text-align:right">
+            <div style="border:1px solid #9A7A20;color:#E4C86A;padding:5px 12px;font-size:14px;font-weight:600;letter-spacing:0.06em;display:inline-block">B1</div>
+            <div style="font-size:11px;color:#9A9791;margin-top:6px">B2 gacha 8.2 ball</div>
+          </div>
+        </div>
+        <div style="display:grid;gap:9px">
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="font-size:12px;width:74px;flex:none;color:#C9C6C0">Listening</span>
+            <span style="flex:1;height:6px;background:#2C3038;display:block"><span style="display:block;height:6px;width:72%;background:#F6F4F0"></span></span>
+            <span style="font-size:12px;font-family:'IBM Plex Mono',monospace;width:34px;text-align:right">13.5</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="font-size:12px;width:74px;flex:none;color:#C9C6C0">Reading</span>
+            <span style="flex:1;height:6px;background:#2C3038;display:block"><span style="display:block;height:6px;width:64%;background:#F6F4F0"></span></span>
+            <span style="font-size:12px;font-family:'IBM Plex Mono',monospace;width:34px;text-align:right">12.0</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="font-size:12px;width:74px;flex:none;color:#C9C6C0">Writing</span>
+            <span style="flex:1;height:6px;background:#2C3038;display:block"><span style="display:block;height:6px;width:63%;background:#F6F4F0"></span></span>
+            <span style="font-size:12px;font-family:'IBM Plex Mono',monospace;width:34px;text-align:right">11.8</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="font-size:12px;width:74px;flex:none;color:#C9C6C0">Speaking</span>
+            <span style="flex:1;height:6px;background:#2C3038;display:block"><span style="display:block;height:6px;width:61%;background:#E4C86A"></span></span>
+            <span style="font-size:12px;font-family:'IBM Plex Mono',monospace;width:34px;text-align:right">11.5</span>
+          </div>
+        </div>
+        <div style="font-size:11px;color:#6A6862;margin-top:12px">Har bo'lim maksimal 18.75 ball</div>
+      </div>
+
+      <div style="display:flex;gap:0;margin:22px 20px 0;border-bottom:1px solid #E4E1DA">
+        <sc-for list="{{ rtabs }}" as="t" hint-placeholder-count="3">
+          <button onClick="{{ t.pick }}" style="flex:1;background:none;border:none;padding:11px 4px;font-size:13px;font-weight:600; {{ t.style }}">{{ t.label }}</button>
+        </sc-for>
+      </div>
+
+      <sc-if value="{{ rLR }}" hint-placeholder-val="{{ true }}">
+        <div style="padding:18px 20px 0">
+          <div style="display:flex;justify-content:space-between;font-size:12px;color:#82878F;margin-bottom:10px">
+            <span>Listening 27/35 · Reading 24/35</span>
+            <span>xatolar: 19</span>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF">
+            <sc-for list="{{ lrRows }}" as="r" hint-placeholder-count="6">
+              <div style="padding:12px 14px;border-bottom:1px solid #EDEAE4;display:flex;gap:12px;align-items:flex-start">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9A9791;width:22px;flex:none;padding-top:2px">{{ r.n }}</span>
+                <div style="flex:1;min-width:0">
+                  <div style="font-size:13px;color:#4B5058">Sizning javob: <span style="color: {{ r.color }};font-weight:600">{{ r.mine }}</span></div>
+                  <div style="font-size:13px;color:#4B5058;margin-top:2px">{{ r.correctLine }}</div>
+                </div>
+                <span style="font-size:14px;color: {{ r.color }}">{{ r.mark }}</span>
+              </div>
+            </sc-for>
+            <div style="padding:12px 14px;text-align:center"><a href="#" style="font-size:13px;font-weight:600">Barcha 70 savolni ko'rish</a></div>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ rW }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:18px 20px 0">
+          <div style="font-size:10px;letter-spacing:0.12em;color:#82878F;font-weight:600;margin-bottom:10px">TASK 2 · JAVOBINGIZ</div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px;font-size:14px;line-height:1.65;color:#22262C">Many people think that public transport in big cities should be free. I agree with this idea because it can reduce traffic. In my city, the number of cars <span style="background:#FCE9E9;padding:0 2px">have increased</span> very fast in last five years, and the roads are always full…</div>
+
+          <div style="margin-top:20px;border:1px solid #D5D1C8;background:#FFFFFF">
+            <div style="padding:16px;border-bottom:1px solid #E4E1DA;display:flex;justify-content:space-between;align-items:center">
+              <div style="font-size:10px;letter-spacing:0.12em;font-weight:600;color:#82878F">AI TAHLIL · MEZONLAR</div>
+              <div style="font-family:'Archivo',sans-serif;font-size:18px;font-weight:700">11.8<span style="font-size:12px;color:#82878F;font-weight:500">/18.75</span></div>
+            </div>
+            <div style="padding:16px;border-bottom:1px solid #E4E1DA;display:grid;gap:14px">
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600"><span>Task Achievement</span><span style="font-family:'IBM Plex Mono',monospace">5.5/7</span></div>
+                <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-top:4px">Savolning ikkinchi qismiga (kamchiliklari) javob bermagansiz.</div>
+              </div>
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600"><span>Coherence &amp; Cohesion</span><span style="font-family:'IBM Plex Mono',monospace">5.0/7</span></div>
+                <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-top:4px">Bog'lovchilar takrorlanadi: <i>and</i> 9 marta. <i>moreover, in contrast</i> kabi variantlarni sinab ko'ring.</div>
+              </div>
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600"><span>Lexical Resource</span><span style="font-family:'IBM Plex Mono',monospace">5.5/7</span></div>
+                <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-top:4px">Mavzuga mos lug'at bor, lekin <i>big, good, bad</i> kabi umumiy so'zlar ko'p.</div>
+              </div>
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600"><span>Grammar</span><span style="font-family:'IBM Plex Mono',monospace">5.5/7</span></div>
+                <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-top:4px">Asosiy muammo — artikllar va son moslashuvi (4 ta xato).</div>
+              </div>
+            </div>
+            <div style="padding:16px;border-bottom:1px solid #E4E1DA">
+              <div style="font-size:11px;letter-spacing:0.1em;color:#A32B2B;font-weight:600;margin-bottom:12px">XATOLAR JADVALI</div>
+              <div style="display:grid;gap:14px">
+                <div style="border-left:2px solid #E8C9C9;padding-left:12px">
+                  <div style="font-size:14px;text-decoration:line-through;color:#A32B2B">the number of cars have increased</div>
+                  <div style="font-size:14px;color:#1E6B4F;margin-top:3px">the number of cars has increased</div>
+                  <div style="font-size:12px;color:#82878F;margin-top:4px"><i>the number of</i> — birlik, shuning uchun <i>has</i>.</div>
+                </div>
+                <div style="border-left:2px solid #E8C9C9;padding-left:12px">
+                  <div style="font-size:14px;text-decoration:line-through;color:#A32B2B">in last five years</div>
+                  <div style="font-size:14px;color:#1E6B4F;margin-top:3px">in the last five years</div>
+                  <div style="font-size:12px;color:#82878F;margin-top:4px"><i>last</i> oldidan aniq artikl kerak.</div>
+                </div>
+                <div style="border-left:2px solid #E8C9C9;padding-left:12px">
+                  <div style="font-size:14px;text-decoration:line-through;color:#A32B2B">it can reduce traffic</div>
+                  <div style="font-size:14px;color:#1E6B4F;margin-top:3px">it can reduce traffic congestion</div>
+                  <div style="font-size:12px;color:#82878F;margin-top:4px">Aniqroq atama yuqori ball beradi.</div>
+                </div>
+              </div>
+            </div>
+            <div style="padding:16px;border-bottom:1px solid #E4E1DA">
+              <div style="font-size:11px;letter-spacing:0.1em;color:#1E6B4F;font-weight:600;margin-bottom:8px">YAXSHILANGAN VERSIYA</div>
+              <div style="font-size:14px;line-height:1.65;color:#22262C;background:#F3F6F1;padding:14px;border:1px solid #DCE5D9">Many people believe that public transport in large cities should be free of charge. I agree, mainly because it would reduce traffic congestion. In my city, the number of cars has increased sharply in the last five years, and the roads are congested throughout the day…</div>
+            </div>
+            <div style="padding:16px">
+              <div style="font-size:11px;letter-spacing:0.1em;color:#82878F;font-weight:600;margin-bottom:8px">UMUMIY XULOSA</div>
+              <div style="font-size:14px;line-height:1.65;color:#22262C">Fikringiz aniq va tuzilma to'g'ri. B2 uchun ikkita narsa yetishmayapti: savolning barcha qismlariga javob berish va bog'lovchilar xilma-xilligi. Grammatikada artikllarni takrorlash tavsiya etiladi.</div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ rS }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:18px 20px 0">
+          <div style="font-size:10px;letter-spacing:0.12em;color:#82878F;font-weight:600;margin-bottom:10px">PART 2 · JAVOBINGIZ</div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 16px;display:flex;align-items:center;gap:14px">
+            <button onClick="{{ togglePlay }}" style="width:38px;height:38px;flex:none;background:#14161A;border:none;display:flex;align-items:center;justify-content:center;color:#FBFAF7;font-size:12px">{{ playIcon }}</button>
+            <div style="flex:1">
+              <div style="height:4px;background:#EDEAE4"><div style="height:4px;background:#1B3C73;width: {{ playPct }}"></div></div>
+              <div style="display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#82878F;margin-top:6px"><span>{{ playTime }}</span><span>1:52</span></div>
+            </div>
+          </div>
+          <div style="margin-top:14px;border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+            <div style="font-size:11px;letter-spacing:0.1em;color:#82878F;font-weight:600;margin-bottom:8px">TRANSKRIPT</div>
+            <div style="font-size:14px;line-height:1.7;color:#22262C">"I want to talk about my best friend, Aziz. We <span style="background:#FCE9E9;padding:0 2px">know</span> each other since primary school. He is very kind and he always help me when I have a problem. Last year we <span style="background:#FCE9E9;padding:0 2px">have travelled</span> to Bukhara together…"</div>
+          </div>
+          <div style="margin-top:20px;border:1px solid #D5D1C8;background:#FFFFFF">
+            <div style="padding:16px;border-bottom:1px solid #E4E1DA;display:flex;justify-content:space-between;align-items:center">
+              <div style="font-size:10px;letter-spacing:0.12em;font-weight:600;color:#82878F">AI TAHLIL · MEZONLAR</div>
+              <div style="font-family:'Archivo',sans-serif;font-size:18px;font-weight:700">11.5<span style="font-size:12px;color:#82878F;font-weight:500">/18.75</span></div>
+            </div>
+            <div style="padding:16px;border-bottom:1px solid #E4E1DA;display:grid;gap:14px">
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600"><span>Fluency</span><span style="font-family:'IBM Plex Mono',monospace">5.5/7</span></div>
+                <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-top:4px">Nutq ravon, lekin 6 marta uzun to'xtalish bo'ldi (o'rtacha 2.4 soniya).</div>
+              </div>
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600"><span>Pronunciation</span><span style="font-family:'IBM Plex Mono',monospace">5.0/7</span></div>
+                <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-top:4px"><i>-ed</i> oxirlari ko'pincha aytilmayapti: <i>travelled, helped</i>.</div>
+              </div>
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600"><span>Grammar</span><span style="font-family:'IBM Plex Mono',monospace">5.0/7</span></div>
+                <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-top:4px">Present Perfect va Past Simple almashib ketgan (3 ta xato).</div>
+              </div>
+            </div>
+            <div style="padding:16px">
+              <div style="font-size:11px;letter-spacing:0.1em;color:#A32B2B;font-weight:600;margin-bottom:12px">XATOLAR</div>
+              <div style="display:grid;gap:14px">
+                <div style="border-left:2px solid #E8C9C9;padding-left:12px">
+                  <div style="font-size:14px;text-decoration:line-through;color:#A32B2B">We know each other since primary school.</div>
+                  <div style="font-size:14px;color:#1E6B4F;margin-top:3px">We have known each other since primary school.</div>
+                  <div style="font-size:12px;color:#82878F;margin-top:4px"><i>since</i> + Present Perfect.</div>
+                </div>
+                <div style="border-left:2px solid #E8C9C9;padding-left:12px">
+                  <div style="font-size:14px;text-decoration:line-through;color:#A32B2B">Last year we have travelled to Bukhara.</div>
+                  <div style="font-size:14px;color:#1E6B4F;margin-top:3px">Last year we travelled to Bukhara.</div>
+                  <div style="font-size:12px;color:#82878F;margin-top:4px"><i>last year</i> — aniq vaqt, Past Simple.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+      <div style="padding:24px 20px 0">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">KEYINGI QADAM</div>
+        <button onClick="{{ goLesson }}" style="width:100%;text-align:left;border:1px solid #1B3C73;background:#EEF1F7;padding:16px;display:flex;align-items:center;gap:12px">
+          <div style="flex:1">
+            <div style="font-size:11px;color:#3E567F;letter-spacing:0.08em;font-weight:600">ENG ZAIF BO'LIM · SPEAKING</div>
+            <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600;color:#12294F;margin-top:4px">Present Perfect vs Past Simple</div>
+            <div style="font-size:12px;color:#3E567F;margin-top:2px">B1 Grammatika · 15 daqiqa</div>
+          </div>
+          <span style="color:#1B3C73;font-size:16px">→</span>
+        </button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isMocks }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:8px 0 24px">
+      <div style="padding:0 20px">
+        <div style="font-family:'Archivo',sans-serif;font-size:24px;font-weight:700;letter-spacing:-0.025em">Mocklar</div>
+        <div style="font-size:13px;color:#4B5058;margin-top:4px">Haqiqiy formatda, audio va timer bilan</div>
+      </div>
+
+      <div style="display:flex;margin:18px 20px 0;border:1px solid #D5D1C8">
+        <sc-for list="{{ subjTabs }}" as="t" hint-placeholder-count="2">
+          <button onClick="{{ t.pick }}" style="flex:1;padding:10px 4px;border:none;font-size:13px;font-weight:600; {{ t.style }}">{{ t.label }}</button>
+        </sc-for>
+      </div>
+
+      <div style="display:flex;gap:8px;padding:14px 20px 0;overflow-x:auto">
+        <sc-for list="{{ kindTabs }}" as="t" hint-placeholder-count="3">
+          <button onClick="{{ t.pick }}" style="flex:none;padding:7px 14px;font-size:12px;font-weight:600;background:#FBFAF7; {{ t.style }}">{{ t.label }}</button>
+        </sc-for>
+      </div>
+
+      <div style="padding:16px 20px 0;display:grid;gap:10px">
+        <div style="border:1px solid #8A5A2B;background:#FDF7EF;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
+            <div style="flex:1">
+              <div style="font-size:10px;letter-spacing:0.12em;font-weight:600;color:#8A5A2B">TUGALLANMAGAN URINISH</div>
+              <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600;margin-top:4px">To'liq mock #5</div>
+              <div style="font-size:12px;color:#6B5334;margin-top:2px">Reading bo'limida to'xtagan · 41 daqiqa qoldi</div>
+            </div>
+          </div>
+          <button onClick="{{ goExam }}" style="width:100%;margin-top:14px;padding:13px;background:#8A5A2B;color:#FFF;border:none;font-size:14px;font-weight:600">Davom ettirish</button>
+        </div>
+
+        <button onClick="{{ goMockStart }}" style="width:100%;text-align:left;border:1px solid #D5D1C8;background:#FFFFFF;padding:16px;display:block">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px">
+            <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">To'liq mock #6</div>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#82878F;flex:none">2s 45d</span>
+          </div>
+          <div style="display:flex;gap:14px;margin-top:10px;font-size:12px;color:#4B5058">
+            <span>L 35</span><span>R 35</span><span>W 3</span><span>S 3</span>
+          </div>
+          <div style="font-size:12px;color:#82878F;margin-top:10px">Yangi · avgust 2026 varianti</div>
+        </button>
+
+        <button onClick="{{ goMockStart }}" style="width:100%;text-align:left;border:1px solid #E4E1DA;background:#FFFFFF;padding:16px;display:block">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px">
+            <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">Mini mock: Listening</div>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#82878F;flex:none">18d</span>
+          </div>
+          <div style="display:flex;gap:14px;margin-top:10px;font-size:12px;color:#4B5058"><span>L 15</span></div>
+        </button>
+
+        <button onClick="{{ goMockStart }}" style="width:100%;text-align:left;border:1px solid #E4E1DA;background:#FFFFFF;padding:16px;display:block">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px">
+            <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">Placement test</div>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#82878F;flex:none">25d</span>
+          </div>
+          <div style="font-size:12px;color:#82878F;margin-top:10px">Darajangizni aniqlash uchun</div>
+        </button>
+      </div>
+
+      <div style="padding:28px 20px 0">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">MENING URINISHLARIM</div>
+        <div style="border:1px solid #E4E1DA;background:#FFFFFF">
+          <button onClick="{{ goResult }}" style="width:100%;text-align:left;background:none;border:none;border-bottom:1px solid #EDEAE4;padding:14px 16px;display:flex;align-items:center;gap:12px">
+            <div style="flex:1">
+              <div style="font-size:14px;font-weight:500">To'liq mock #4</div>
+              <div style="font-size:12px;color:#82878F;margin-top:1px">2-avgust, 2026</div>
+            </div>
+            <span style="font-family:'Archivo',sans-serif;font-size:15px;font-weight:700">48.8</span>
+            <span style="border:1px solid #9A7A20;color:#7A5F14;padding:3px 8px;font-size:11px;font-weight:600">B1</span>
+          </button>
+          <button onClick="{{ goResult }}" style="width:100%;text-align:left;background:none;border:none;border-bottom:1px solid #EDEAE4;padding:14px 16px;display:flex;align-items:center;gap:12px">
+            <div style="flex:1">
+              <div style="font-size:14px;font-weight:500">To'liq mock #3</div>
+              <div style="font-size:12px;color:#82878F;margin-top:1px">21-iyul, 2026</div>
+            </div>
+            <span style="font-family:'Archivo',sans-serif;font-size:15px;font-weight:700">45.2</span>
+            <span style="border:1px solid #9A7A20;color:#7A5F14;padding:3px 8px;font-size:11px;font-weight:600">B1</span>
+          </button>
+          <button onClick="{{ goResult }}" style="width:100%;text-align:left;background:none;border:none;padding:14px 16px;display:flex;align-items:center;gap:12px">
+            <div style="flex:1">
+              <div style="font-size:14px;font-weight:500">Placement test</div>
+              <div style="font-size:12px;color:#82878F;margin-top:1px">3-iyul, 2026</div>
+            </div>
+            <span style="font-family:'Archivo',sans-serif;font-size:15px;font-weight:700">38.5</span>
+            <span style="border:1px solid #C9C6C0;color:#4B5058;padding:3px 8px;font-size:11px;font-weight:600">A2</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isMockStart }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:8px 0 24px">
+      <div style="display:flex;align-items:center;gap:12px;padding:0 16px 8px">
+        <button onClick="{{ goMocks }}" style="background:none;border:none;padding:6px;color:#14161A;font-size:16px;line-height:1">←</button>
+        <div style="font-size:13px;color:#82878F">Mocklar</div>
+      </div>
+      <div style="padding:8px 20px 0">
+        <div style="font-family:'Archivo',sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">To'liq mock #6</div>
+        <div style="font-size:14px;color:#4B5058;line-height:1.6;margin-top:10px">To'rt bo'lim, jami 2 soat 45 daqiqa. Haqiqiy UzBMB multilevel formati: Listening 35, Reading 35 savol, Writing 3 va Speaking 3 topshiriq.</div>
+      </div>
+
+      <div style="margin:22px 20px 0;border:1px solid #E4E1DA;background:#FFFFFF">
+        <div style="display:flex;padding:11px 16px;background:#F1EFEA;font-size:11px;letter-spacing:0.08em;color:#4B5058;border-bottom:1px solid #E4E1DA">
+          <span style="flex:1">BO'LIM</span><span style="width:64px;text-align:right">SAVOL</span><span style="width:60px;text-align:right">VAQT</span>
+        </div>
+        <div style="display:flex;padding:13px 16px;font-size:14px;border-bottom:1px solid #EDEAE4"><span style="flex:1">Listening</span><span style="width:64px;text-align:right;color:#4B5058">35</span><span style="width:60px;text-align:right;font-family:'IBM Plex Mono',monospace;color:#4B5058">30d</span></div>
+        <div style="display:flex;padding:13px 16px;font-size:14px;border-bottom:1px solid #EDEAE4"><span style="flex:1">Reading</span><span style="width:64px;text-align:right;color:#4B5058">35</span><span style="width:60px;text-align:right;font-family:'IBM Plex Mono',monospace;color:#4B5058">60d</span></div>
+        <div style="display:flex;padding:13px 16px;font-size:14px;border-bottom:1px solid #EDEAE4"><span style="flex:1">Writing</span><span style="width:64px;text-align:right;color:#4B5058">3</span><span style="width:60px;text-align:right;font-family:'IBM Plex Mono',monospace;color:#4B5058">60d</span></div>
+        <div style="display:flex;padding:13px 16px;font-size:14px"><span style="flex:1">Speaking</span><span style="width:64px;text-align:right;color:#4B5058">3</span><span style="width:60px;text-align:right;font-family:'IBM Plex Mono',monospace;color:#4B5058">15d</span></div>
+      </div>
+
+      <div style="margin:14px 20px 0;border-left:3px solid #8A5A2B;background:#FDF7EF;padding:16px">
+        <div style="font-size:11px;letter-spacing:0.1em;font-weight:600;color:#8A5A2B;margin-bottom:10px">QOIDALAR</div>
+        <div style="display:grid;gap:8px;font-size:13px;line-height:1.5;color:#3C3629">
+          <div>Har audio faqat bir marta ijro etiladi — pauza yo'q.</div>
+          <div>Timer to'xtamaydi, sahifani yopsangiz ham davom etadi.</div>
+          <div>Bo'limni yakunlagandan keyin unga qaytib bo'lmaydi.</div>
+          <div>Speaking uchun mikrofonga ruxsat berish talab qilinadi.</div>
+        </div>
+      </div>
+
+      <div style="padding:20px 20px 0">
+        <button onClick="{{ goExam }}" style="width:100%;padding:16px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Imtihonni boshlash</button>
+        <div style="font-size:12px;color:#9A9791;text-align:center;margin-top:10px">Boshlagandan so'ng timer darhol ishga tushadi</div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isExam }}" hint-placeholder-val="{{ false }}">
+    <div style="height:100%;display:flex;flex-direction:column">
+      <div style="flex:none;background:#14161A;color:#F6F4F0;padding:10px 16px 12px">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.12em;color:#9A9791;font-weight:600">{{ secLabel }}</div>
+            <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600;letter-spacing:-0.01em">{{ secName }}</div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:24px;font-weight:500;letter-spacing:-0.01em;color: {{ timerColor }}">{{ timerText }}</div>
+            <div style="font-size:10px;color:#9A9791;letter-spacing:0.08em">QOLGAN VAQT</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="flex:none;border-bottom:1px solid #E4E1DA;background:#FBFAF7;padding:10px 12px">
+        <div style="display:flex;flex-wrap:wrap;gap:4px">
+          <sc-for list="{{ navItems }}" as="q" hint-placeholder-count="35">
+            <button onClick="{{ q.pick }}" style="width:26px;height:24px;font-family:'IBM Plex Mono',monospace;font-size:11px;display:flex;align-items:center;justify-content:center; {{ q.style }}">{{ q.n }}</button>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="flex:1;overflow-y:auto">
+        <sc-if value="{{ exL }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:18px 20px 24px">
+            <div style="border:1px solid #D5D1C8;background:#FFFFFF;padding:16px">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+                <div style="font-size:11px;letter-spacing:0.1em;font-weight:600;color:#82878F">PART 1 · AUDIO</div>
+                <div style="font-size:11px;color:#A32B2B;font-weight:600">{{ audioNote }}</div>
+              </div>
+              <div style="display:flex;align-items:center;gap:14px">
+                <button onClick="{{ playAudio }}" style="width:44px;height:44px;flex:none;background:#14161A;border:none;color:#FBFAF7;font-size:13px;display:flex;align-items:center;justify-content:center">{{ audioIcon }}</button>
+                <div style="flex:1">
+                  <div style="height:4px;background:#EDEAE4"><div style="height:4px;background:#1B3C73;width: {{ audioPct }}"></div></div>
+                  <div style="display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#82878F;margin-top:6px"><span>{{ audioTime }}</span><span>4:20</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top:22px">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#1B3C73;font-weight:500">SAVOL {{ lqNum }}</span>
+                <button onClick="{{ flagQ }}" style="background:none;border:1px solid #C9C6C0;padding:5px 10px;font-size:11px;font-weight:600;color:#4B5058">{{ flagLabel }}</button>
+              </div>
+              <div style="font-size:17px;line-height:1.45;font-weight:500;margin-bottom:16px;text-wrap:pretty">{{ lqText }}</div>
+              <div style="display:grid;gap:8px">
+                <sc-for list="{{ lOpts }}" as="o" hint-placeholder-count="4">
+                  <button onClick="{{ o.pick }}" style="width:100%;text-align:left;padding:14px 16px;display:flex;align-items:center;gap:12px;font-size:15px;background:#FFFFFF; {{ o.style }}">
+                    <span style="width:22px;height:22px;flex:none;border:1px solid #C9C6C0;display:flex;align-items:center;justify-content:center;font-size:11px;font-family:'IBM Plex Mono',monospace;color:#4B5058">{{ o.letter }}</span>
+                    <span style="flex:1">{{ o.text }}</span>
+                  </button>
+                </sc-for>
+              </div>
+              <div style="display:flex;gap:10px;margin-top:18px">
+                <button onClick="{{ prevQ }}" style="flex:none;padding:13px 18px;background:none;border:1px solid #C9C6C0;font-size:14px;font-weight:600;color:#14161A">←</button>
+                <button onClick="{{ nextQ }}" style="flex:1;padding:13px;background:#14161A;color:#FBFAF7;border:none;font-size:14px;font-weight:600">Keyingi savol</button>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ exR }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:0 0 24px">
+            <div style="position:sticky;top:0;background:#F1EFEA;border-bottom:1px solid #E4E1DA;z-index:2">
+              <button onClick="{{ togglePassage }}" style="width:100%;background:none;border:none;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:600;letter-spacing:0.08em;color:#4B5058">
+                <span>PASSAGE 1 · THE RETURN OF THE NIGHT TRAIN</span><span style="font-size:14px">{{ passMark }}</span>
+              </button>
+            </div>
+            <sc-if value="{{ passOpen }}" hint-placeholder-val="{{ true }}">
+              <div style="padding:16px 20px;border-bottom:1px solid #E4E1DA;background:#FFFFFF;font-size:15px;line-height:1.7;color:#22262C">
+                <p style="margin:0 0 12px">For decades, the sleeper train seemed to belong to the past. Cheap flights made overnight journeys look slow and unnecessary, and one operator after another closed its night routes.</p>
+                <p style="margin:0 0 12px">That trend has now reversed. Several European countries have reopened sleeper lines, and bookings on some routes have doubled in two years. Passengers give two reasons: the environmental cost of flying, and the simple convenience of falling asleep in one city and waking up in another.</p>
+                <p style="margin:0">Critics point out that night trains remain expensive to operate. Carriages sit unused during the day, staff costs are high, and a single train carries far fewer passengers than an aircraft on the same route.</p>
+              </div>
+            </sc-if>
+            <div style="padding:18px 20px">
+              <div style="font-size:13px;color:#4B5058;margin-bottom:14px">Matnga ko'ra gaplar to'g'ri, xato yoki aytilmaganini belgilang.</div>
+              <div style="display:grid;gap:20px">
+                <div>
+                  <div style="display:flex;gap:10px;margin-bottom:10px">
+                    <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#1B3C73;padding-top:2px">36</span>
+                    <span style="font-size:15px;line-height:1.5;flex:1">Cheap flights were one reason night trains closed.</span>
+                  </div>
+                  <div style="display:flex;gap:6px">
+                    <sc-for list="{{ r1 }}" as="o" hint-placeholder-count="3">
+                      <button onClick="{{ o.pick }}" style="flex:1;padding:11px 4px;font-size:12px;font-weight:600;background:#FFFFFF; {{ o.style }}">{{ o.text }}</button>
+                    </sc-for>
+                  </div>
+                </div>
+                <div>
+                  <div style="display:flex;gap:10px;margin-bottom:10px">
+                    <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#1B3C73;padding-top:2px">37</span>
+                    <span style="font-size:15px;line-height:1.5;flex:1">Bookings have doubled on every reopened route.</span>
+                  </div>
+                  <div style="display:flex;gap:6px">
+                    <sc-for list="{{ r2 }}" as="o" hint-placeholder-count="3">
+                      <button onClick="{{ o.pick }}" style="flex:1;padding:11px 4px;font-size:12px;font-weight:600;background:#FFFFFF; {{ o.style }}">{{ o.text }}</button>
+                    </sc-for>
+                  </div>
+                </div>
+                <div>
+                  <div style="display:flex;gap:10px;margin-bottom:10px">
+                    <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#1B3C73;padding-top:2px">38</span>
+                    <span style="font-size:15px;line-height:1.5;flex:1">Night trains carry fewer passengers than planes on the same route.</span>
+                  </div>
+                  <div style="display:flex;gap:6px">
+                    <sc-for list="{{ r3 }}" as="o" hint-placeholder-count="3">
+                      <button onClick="{{ o.pick }}" style="flex:1;padding:11px 4px;font-size:12px;font-weight:600;background:#FFFFFF; {{ o.style }}">{{ o.text }}</button>
+                    </sc-for>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ exW }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:18px 20px 24px">
+            <div style="border:1px solid #D5D1C8;background:#FFFFFF;padding:16px;margin-bottom:16px">
+              <div style="font-size:11px;letter-spacing:0.1em;font-weight:600;color:#82878F;margin-bottom:8px">TASK 2 · 20 DAQIQA · KAMIDA 120 SO'Z</div>
+              <div style="font-size:16px;line-height:1.55;color:#22262C;text-wrap:pretty">Some people believe that public transport in large cities should be free for everyone. Discuss the advantages and disadvantages of this idea and give your own opinion.</div>
+            </div>
+            <textarea value="{{ w2 }}" onInput="{{ onW2 }}" placeholder="Javobingizni shu yerga yozing…" style="width:100%;height:260px;padding:14px 16px;font-size:15px;line-height:1.65;border:1px solid #C9C6C0;background:#FFFFFF;color:#14161A;outline:none;resize:none" style-focus="border-color:#1B3C73"></textarea>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;font-size:12px">
+              <span style="color: {{ w2Color }};font-weight:500">{{ w2count }} / 120 so'z</span>
+              <span style="color:#9A9791">Saqlandi ✓</span>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ exS }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:18px 20px 24px">
+            <div style="border:1px solid #D5D1C8;background:#FFFFFF;padding:16px;margin-bottom:18px">
+              <div style="font-size:11px;letter-spacing:0.1em;font-weight:600;color:#82878F;margin-bottom:8px">PART 2 · 1 DAQIQA TAYYORGARLIK · 2 DAQIQA GAPIRISH</div>
+              <div style="font-size:16px;line-height:1.55;color:#22262C;margin-bottom:12px">Describe a skill you have learned recently. You should say:</div>
+              <div style="display:grid;gap:6px;font-size:15px;line-height:1.5;color:#22262C;padding-left:14px">
+                <div>— what the skill is</div>
+                <div>— how you learned it</div>
+                <div>— why you decided to learn it</div>
+                <div>— and explain how useful it has been.</div>
+              </div>
+            </div>
+
+            <sc-if value="{{ spIdle }}" hint-placeholder-val="{{ true }}">
+              <div style="text-align:center;padding:8px 0">
+                <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-bottom:18px">Tayyor bo'lsangiz boshlang. Tayyorgarlik uchun 60 soniya beriladi, keyin yozish avtomatik boshlanadi.</div>
+                <button onClick="{{ startPrep }}" style="width:100%;padding:16px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Tayyorgarlikni boshlash</button>
+              </div>
+            </sc-if>
+
+            <sc-if value="{{ spPrep }}" hint-placeholder-val="{{ false }}">
+              <div style="text-align:center;padding:8px 0">
+                <div style="font-size:11px;letter-spacing:0.12em;font-weight:600;color:#8A5A2B;margin-bottom:16px">TAYYORGARLIK</div>
+                <svg width="132" height="132" viewBox="0 0 132 132" style="transform:rotate(-90deg)">
+                  <circle cx="66" cy="66" r="58" fill="none" stroke="#EDEAE4" stroke-width="8"></circle>
+                  <circle cx="66" cy="66" r="58" fill="none" stroke="#8A5A2B" stroke-width="8" stroke-dasharray="364" stroke-dashoffset="{{ prepOffset }}"></circle>
+                </svg>
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:30px;margin-top:-86px;margin-bottom:56px">{{ spLeftText }}</div>
+                <div style="font-size:13px;color:#4B5058">Yozish avtomatik boshlanadi</div>
+              </div>
+            </sc-if>
+
+            <sc-if value="{{ spRec }}" hint-placeholder-val="{{ false }}">
+              <div style="text-align:center;padding:8px 0">
+                <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:20px">
+                  <span style="width:9px;height:9px;background:#A32B2B;display:block;border-radius:50%"></span>
+                  <span style="font-size:11px;letter-spacing:0.12em;font-weight:600;color:#A32B2B">YOZILMOQDA</span>
+                </div>
+                <div style="display:flex;align-items:center;justify-content:center;gap:3px;height:76px;margin-bottom:18px">
+                  <sc-for list="{{ waves }}" as="h" hint-placeholder-count="28">
+                    <span style="width:4px;display:block;background:#1B3C73;height: {{ h }}"></span>
+                  </sc-for>
+                </div>
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:30px;margin-bottom:6px">{{ spLeftText }}</div>
+                <div style="font-size:13px;color:#82878F;margin-bottom:20px">2:00 dan qolgan vaqt</div>
+                <button onClick="{{ stopRec }}" style="width:100%;padding:15px;background:none;border:1px solid #A32B2B;color:#A32B2B;font-size:14px;font-weight:600">Yozishni tugatish</button>
+              </div>
+            </sc-if>
+
+            <sc-if value="{{ spDone }}" hint-placeholder-val="{{ false }}">
+              <div>
+                <div style="border:1px solid #1E6B4F;background:#F1F7F3;padding:14px 16px;font-size:13px;font-weight:600;color:#155540;margin-bottom:14px">Javob yozildi ✓</div>
+                <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 16px;display:flex;align-items:center;gap:14px">
+                  <button onClick="{{ togglePlay }}" style="width:38px;height:38px;flex:none;background:#14161A;border:none;color:#FBFAF7;font-size:12px">{{ playIcon }}</button>
+                  <div style="flex:1">
+                    <div style="height:4px;background:#EDEAE4"><div style="height:4px;background:#1B3C73;width: {{ playPct }}"></div></div>
+                    <div style="display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#82878F;margin-top:6px"><span>{{ playTime }}</span><span>1:47</span></div>
+                  </div>
+                </div>
+                <button onClick="{{ startPrep }}" style="width:100%;margin-top:10px;padding:13px;background:none;border:1px solid #C9C6C0;font-size:14px;font-weight:600;color:#14161A">Qayta yozish (1 imkon qoldi)</button>
+              </div>
+            </sc-if>
+          </div>
+        </sc-if>
+      </div>
+
+      <div style="flex:none;border-top:1px solid #E4E1DA;background:#FBFAF7;padding:12px 16px 16px">
+        <button onClick="{{ askSubmit }}" style="width:100%;padding:15px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:14px;font-weight:600">{{ submitLabel }}</button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isGrading }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:80px 24px 40px;text-align:center">
+      <div style="font-family:'Archivo',sans-serif;font-size:24px;font-weight:700;letter-spacing:-0.025em">Natijalar hisoblanmoqda</div>
+      <div style="font-size:14px;color:#4B5058;line-height:1.55;margin-top:10px">Listening va Reading darhol tayyor. Writing va Speaking AI navbatida — odatda 1-2 daqiqa.</div>
+      <div style="margin-top:28px;border:1px solid #E4E1DA;background:#FFFFFF;text-align:left">
+        <sc-for list="{{ gradeRows }}" as="g" hint-placeholder-count="4">
+          <div style="padding:14px 16px;border-bottom:1px solid #EDEAE4;display:flex;align-items:center;gap:12px">
+            <span style="width:20px;height:20px;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;color:#FFF;background: {{ g.bg }}">{{ g.mark }}</span>
+            <span style="flex:1;font-size:14px;font-weight:500">{{ g.name }}</span>
+            <span style="font-size:12px;color:#82878F">{{ g.status }}</span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="margin-top:16px;border-left:3px solid #1B3C73;background:#EEF1F7;padding:14px 16px;text-align:left;font-size:13px;line-height:1.55;color:#12294F">Telegram ulangan — natija botga ham yuboriladi. Bu sahifani yopsangiz ham baholash davom etadi.</div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isCourses }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:8px 0 24px">
+      <div style="padding:0 20px">
+        <div style="font-family:'Archivo',sans-serif;font-size:24px;font-weight:700;letter-spacing:-0.025em">Kurslar</div>
+        <div style="font-size:13px;color:#4B5058;margin-top:4px">Hammasi ochiq — istagan joydan boshlang</div>
+      </div>
+      <div style="display:flex;margin:18px 20px 0;border:1px solid #D5D1C8">
+        <sc-for list="{{ subjTabs }}" as="t" hint-placeholder-count="2">
+          <button onClick="{{ t.pick }}" style="flex:1;padding:10px 4px;border:none;font-size:13px;font-weight:600; {{ t.style }}">{{ t.label }}</button>
+        </sc-for>
+      </div>
+
+      <div style="padding:18px 20px 0;display:grid;gap:10px">
+        <button onClick="{{ goCourse }}" style="width:100%;text-align:left;border:1px solid #14161A;background:#FFFFFF;padding:16px;display:block">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+            <span style="font-size:10px;letter-spacing:0.12em;font-weight:600;color:#1B3C73">DAVOM ETMOQDA</span>
+            <span style="border:1px solid #8A5A2B;color:#8A5A2B;padding:2px 7px;font-size:11px;font-weight:600">B1</span>
+          </div>
+          <div style="font-family:'Archivo',sans-serif;font-size:17px;font-weight:600;margin-top:8px">Grammatika: B1 darajasi</div>
+          <div style="font-size:12px;color:#82878F;margin-top:3px">24 dars · 9 tugallandi</div>
+          <div style="height:4px;background:#EDEAE4;margin-top:12px"><div style="height:4px;background:#1B3C73;width:38%"></div></div>
+        </button>
+
+        <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">Ilk qadamlar</span><span style="border:1px solid #C9C6C0;color:#4B5058;padding:2px 7px;font-size:11px;font-weight:600">A1</span></div>
+          <div style="font-size:12px;color:#82878F;margin-top:3px">18 dars</div>
+        </div>
+        <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">Poydevor</span><span style="border:1px solid #C9C6C0;color:#4B5058;padding:2px 7px;font-size:11px;font-weight:600">A2</span></div>
+          <div style="font-size:12px;color:#82878F;margin-top:3px">22 dars · 22 tugallandi</div>
+          <div style="height:4px;background:#EDEAE4;margin-top:12px"><div style="height:4px;background:#1E6B4F;width:100%"></div></div>
+        </div>
+        <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">Writing: xat va esse</span><span style="border:1px solid #8A5A2B;color:#8A5A2B;padding:2px 7px;font-size:11px;font-weight:600">B1</span></div>
+          <div style="font-size:12px;color:#82878F;margin-top:3px">14 dars</div>
+        </div>
+        <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">Yuqori daraja</span><span style="border:1px solid #6B5B8A;color:#5B4C78;padding:2px 7px;font-size:11px;font-weight:600">B2</span></div>
+          <div style="font-size:12px;color:#82878F;margin-top:3px">26 dars</div>
+        </div>
+        <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">Mahorat</span><span style="border:1px solid #9A7A20;color:#7A5F14;padding:2px 7px;font-size:11px;font-weight:600">C1</span></div>
+          <div style="font-size:12px;color:#82878F;margin-top:3px">20 dars</div>
+        </div>
+      </div>
+
+      <div style="padding:28px 20px 0">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">ALOHIDA</div>
+        <div style="display:grid;gap:10px">
+          <div style="border:1px solid #1B3C73;background:#EEF1F7;padding:16px">
+            <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600;color:#12294F">Imtihon strategiyasi</div>
+            <div style="font-size:12px;color:#3E567F;margin-top:3px">9 dars · vaqtni boshqarish, savol turlari</div>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+            <div style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">Speaking mashqlari</div>
+            <div style="font-size:12px;color:#82878F;margin-top:3px">16 dars</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isCourse }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:8px 0 24px">
+      <div style="display:flex;align-items:center;gap:12px;padding:0 16px 8px">
+        <button onClick="{{ goCourses }}" style="background:none;border:none;padding:6px;color:#14161A;font-size:16px;line-height:1">←</button>
+        <div style="font-size:13px;color:#82878F">Kurslar</div>
+      </div>
+      <div style="padding:8px 20px 0">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <span style="border:1px solid #8A5A2B;color:#8A5A2B;padding:3px 8px;font-size:11px;font-weight:600">B1</span>
+          <span style="font-size:12px;color:#82878F">Ingliz tili</span>
+        </div>
+        <div style="font-family:'Archivo',sans-serif;font-size:25px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">Grammatika: B1 darajasi</div>
+        <div style="font-size:14px;color:#4B5058;line-height:1.6;margin-top:10px">Multilevel imtihonida eng ko'p uchraydigan grammatik mavzular. Har dars nazariya, misollar va mashqlardan iborat.</div>
+        <div style="display:flex;align-items:center;gap:12px;margin-top:16px">
+          <div style="flex:1;height:5px;background:#EDEAE4"><div style="height:5px;background:#1B3C73;width:38%"></div></div>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4B5058">9/24</span>
+        </div>
+      </div>
+
+      <div style="padding:26px 20px 0">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:6px">MODUL 2 · ZAMONLAR</div>
+        <div style="border-left:1px solid #E4E1DA;margin-left:11px;padding-left:22px;position:relative">
+          <sc-for list="{{ pathItems }}" as="l" hint-placeholder-count="6">
+            <button onClick="{{ l.pick }}" style="width:100%;text-align:left;background:none;border:none;padding:0;display:block;position:relative;margin:14px 0">
+              <span style="position:absolute;left:-29px;top:14px;width:13px;height:13px;display:block; {{ l.dot }}"></span>
+              <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 16px; {{ l.card }}">
+                <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
+                  <span style="font-size:15px;font-weight:500;flex:1">{{ l.title }}</span>
+                  <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9A9791;flex:none">{{ l.mins }}</span>
+                </div>
+                <div style="font-size:12px;color:#82878F;margin-top:3px">{{ l.meta }}</div>
+              </div>
+            </button>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="padding:22px 20px 0">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">MODUL 3 · MODAL FE'LLAR</div>
+        <div style="border:1px solid #E4E1DA;background:#F6F4F0;padding:16px;font-size:13px;color:#4B5058;line-height:1.55">5 dars · modul 2 tugagach ochiladi (lekin xohlagan vaqtda kirishingiz mumkin)</div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isVocab }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:8px 0 24px">
+      <div style="padding:0 20px">
+        <div style="font-family:'Archivo',sans-serif;font-size:24px;font-weight:700;letter-spacing:-0.025em">Lug'at</div>
+        <div style="font-size:13px;color:#4B5058;margin-top:4px">Har so'z esdan chiqishga yaqin kuni qaytadi</div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;margin:20px 20px 0;border:1px solid #E4E1DA;background:#FFFFFF">
+        <div style="padding:14px 16px;border-right:1px solid #E4E1DA;border-bottom:1px solid #E4E1DA">
+          <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700">412</div>
+          <div style="font-size:11px;color:#82878F;margin-top:2px">jami so'z</div>
+        </div>
+        <div style="padding:14px 16px;border-bottom:1px solid #E4E1DA">
+          <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700">168</div>
+          <div style="font-size:11px;color:#82878F;margin-top:2px">o'rganilmoqda</div>
+        </div>
+        <div style="padding:14px 16px;border-right:1px solid #E4E1DA">
+          <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700;color:#1E6B4F">196</div>
+          <div style="font-size:11px;color:#82878F;margin-top:2px">puxta</div>
+        </div>
+        <div style="padding:14px 16px">
+          <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700;color:#1B3C73">24</div>
+          <div style="font-size:11px;color:#82878F;margin-top:2px">bugun kutmoqda</div>
+        </div>
+      </div>
+
+      <div style="padding:14px 20px 0">
+        <button onClick="{{ startFlash }}" style="width:100%;padding:16px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">24 so'zni takrorlash</button>
+        <div style="font-size:12px;color:#9A9791;text-align:center;margin-top:10px">Taxminan 8 daqiqa</div>
+      </div>
+
+      <div style="padding:28px 20px 0">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px">
+          <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F">MAVZULAR</div>
+          <span style="font-size:12px;color:#82878F">B1 · B2</span>
+        </div>
+        <div style="display:grid;gap:8px">
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 16px;display:flex;align-items:center;gap:12px">
+            <div style="flex:1"><div style="font-size:14px;font-weight:500">Ta'lim va universitet</div><div style="font-size:12px;color:#82878F;margin-top:2px">86 so'z · 40 o'rganilgan</div></div>
+            <span style="font-size:12px;color:#1B3C73;font-weight:600">Qo'shish</span>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 16px;display:flex;align-items:center;gap:12px">
+            <div style="flex:1"><div style="font-size:14px;font-weight:500">Atrof-muhit</div><div style="font-size:12px;color:#82878F;margin-top:2px">74 so'z</div></div>
+            <span style="font-size:12px;color:#1B3C73;font-weight:600">Qo'shish</span>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 16px;display:flex;align-items:center;gap:12px">
+            <div style="flex:1"><div style="font-size:14px;font-weight:500">Ish va martaba</div><div style="font-size:12px;color:#82878F;margin-top:2px">92 so'z · 12 o'rganilgan</div></div>
+            <span style="font-size:12px;color:#1B3C73;font-weight:600">Qo'shish</span>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 16px;display:flex;align-items:center;gap:12px">
+            <div style="flex:1"><div style="font-size:14px;font-weight:500">Texnologiya</div><div style="font-size:12px;color:#82878F;margin-top:2px">68 so'z</div></div>
+            <span style="font-size:12px;color:#1B3C73;font-weight:600">Qo'shish</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isFlash }}" hint-placeholder-val="{{ false }}">
+    <div style="height:100%;display:flex;flex-direction:column">
+      <div style="flex:none;padding:8px 16px 12px">
+        <div style="display:flex;align-items:center;gap:12px">
+          <button onClick="{{ goVocab }}" style="background:none;border:none;padding:6px;color:#82878F;font-size:16px;line-height:1">✕</button>
+          <div style="flex:1;height:3px;background:#E4E1DA"><div style="height:3px;background:#1B3C73;width: {{ flashPct }}"></div></div>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#82878F">{{ flashLabel }}</span>
+        </div>
+      </div>
+
+      <sc-if value="{{ flashRunning }}" hint-placeholder-val="{{ true }}">
+        <div style="flex:1;display:flex;flex-direction:column;padding:0 20px 20px">
+          <button onClick="{{ flip }}" style="flex:1;width:100%;border:1px solid #D5D1C8;background:#FFFFFF;padding:28px 22px;display:flex;flex-direction:column;justify-content:center;text-align:left">
+            <sc-if value="{{ flashFront }}" hint-placeholder-val="{{ true }}">
+              <div>
+                <div style="font-family:'Archivo',sans-serif;font-size:34px;font-weight:700;letter-spacing:-0.025em;line-height:1.1">{{ word }}</div>
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:14px;color:#82878F;margin-top:10px">{{ phon }}</div>
+                <div style="display:inline-flex;align-items:center;gap:8px;margin-top:22px;border:1px solid #C9C6C0;padding:9px 14px">
+                  <span style="font-size:12px">▶</span><span style="font-size:12px;font-weight:600">Tinglash</span>
+                </div>
+                <div style="font-size:12px;color:#9A9791;margin-top:26px">Javobni ko'rish uchun kartani bosing</div>
+              </div>
+            </sc-if>
+            <sc-if value="{{ flashBack }}" hint-placeholder-val="{{ false }}">
+              <div>
+                <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700;letter-spacing:-0.02em">{{ word }}</div>
+                <div style="font-size:20px;font-weight:600;color:#1B3C73;margin-top:6px">{{ trans }}</div>
+                <div style="font-size:14px;color:#4B5058;line-height:1.6;margin-top:16px;padding-top:16px;border-top:1px solid #EDEAE4">{{ def }}</div>
+                <div style="font-size:15px;line-height:1.55;margin-top:16px">{{ exEn }}</div>
+                <div style="font-size:13px;color:#82878F;line-height:1.55;margin-top:5px">{{ exUz }}</div>
+              </div>
+            </sc-if>
+          </button>
+
+          <sc-if value="{{ flashBack }}" hint-placeholder-val="{{ false }}">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px">
+              <sc-for list="{{ grades }}" as="g" hint-placeholder-count="4">
+                <button onClick="{{ g.pick }}" style="padding:14px 6px;font-size:13px;font-weight:600;background:#FFFFFF; {{ g.style }}">
+                  <span style="display:block">{{ g.label }}</span>
+                  <span style="display:block;font-size:10px;font-weight:500;margin-top:3px;opacity:0.7">{{ g.next }}</span>
+                </button>
+              </sc-for>
+            </div>
+          </sc-if>
+          <sc-if value="{{ flashFront }}" hint-placeholder-val="{{ true }}">
+            <button onClick="{{ flip }}" style="width:100%;margin-top:14px;padding:15px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Javobni ko'rsatish</button>
+          </sc-if>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ flashDone }}" hint-placeholder-val="{{ false }}">
+        <div style="flex:1;padding:40px 24px;text-align:center">
+          <div style="font-family:'Archivo',sans-serif;font-size:24px;font-weight:700;letter-spacing:-0.025em">Sessiya tugadi</div>
+          <div style="font-size:14px;color:#4B5058;margin-top:8px">Bugungi 24 so'zdan 5 tasi ko'rildi</div>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #E4E1DA;background:#FFFFFF;margin:24px 0;text-align:left">
+            <div style="padding:14px;border-right:1px solid #E4E1DA">
+              <div style="font-family:'Archivo',sans-serif;font-size:20px;font-weight:700;color:#1E6B4F">{{ knownCount }}</div>
+              <div style="font-size:11px;color:#82878F;margin-top:2px">bildim</div>
+            </div>
+            <div style="padding:14px;border-right:1px solid #E4E1DA">
+              <div style="font-family:'Archivo',sans-serif;font-size:20px;font-weight:700;color:#8A5A2B">{{ hardCount }}</div>
+              <div style="font-size:11px;color:#82878F;margin-top:2px">qiyin</div>
+            </div>
+            <div style="padding:14px">
+              <div style="font-family:'Archivo',sans-serif;font-size:20px;font-weight:700;color:#A32B2B">{{ unknownCount }}</div>
+              <div style="font-size:11px;color:#82878F;margin-top:2px">bilmadim</div>
+            </div>
+          </div>
+          <div style="border-left:3px solid #1B3C73;background:#EEF1F7;padding:14px 16px;text-align:left;font-size:13px;line-height:1.55;color:#12294F">Keyingi takrorlash: ertaga soat 09:00 · 19 so'z</div>
+          <button onClick="{{ goVocab }}" style="width:100%;margin-top:18px;padding:15px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Lug'atga qaytish</button>
+        </div>
+      </sc-if>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isPlan }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:8px 0 24px">
+      <div style="padding:0 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
+        <div>
+          <div style="font-family:'Archivo',sans-serif;font-size:24px;font-weight:700;letter-spacing:-0.025em">O'quv reja</div>
+          <div style="font-size:13px;color:#4B5058;margin-top:4px">B1 → B2 · imtihongacha {{ examDays }} kun</div>
+        </div>
+      </div>
+
+      <sc-if value="{{ isNew }}" hint-placeholder-val="{{ false }}">
+        <div style="margin:22px 20px 0;border:1px solid #D5D1C8;background:#FFFFFF;padding:24px 20px;text-align:center">
+          <div style="width:100%;height:80px;background:repeating-linear-gradient(135deg,#F1EFEA 0 8px,#FBFAF7 8px 16px);border:1px solid #E4E1DA;display:flex;align-items:center;justify-content:center;margin-bottom:18px">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#9A9791;letter-spacing:0.08em">REJA ILLYUSTRATSIYASI</span>
+          </div>
+          <div style="font-family:'Archivo',sans-serif;font-size:18px;font-weight:600">Hali reja yo'q</div>
+          <div style="font-size:13px;color:#4B5058;line-height:1.55;margin:8px 0 18px">Maqsad daraja, imtihon sanasi va kunlik vaqtni tanlang — qolganini biz tuzamiz.</div>
+          <button style="width:100%;padding:15px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Reja tuzish</button>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isReturning }}" hint-placeholder-val="{{ true }}">
+      <div>
+        <div style="padding:22px 20px 0">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px">
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F">BUGUN · 4-AVGUST</div>
+            <span style="font-size:12px;color:#82878F">25/60 daqiqa</span>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF">
+            <div style="padding:14px 16px;display:flex;gap:12px;align-items:center;border-bottom:1px solid #E4E1DA;opacity:0.55">
+              <span style="width:18px;height:18px;flex:none;background:#1E6B4F;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:11px">✓</span>
+              <div style="flex:1"><div style="font-size:14px;font-weight:500;text-decoration:line-through">24 so'zni takrorlash</div><div style="font-size:12px;color:#82878F;margin-top:1px">10 daqiqa</div></div>
+            </div>
+            <div style="padding:14px 16px;display:flex;gap:12px;align-items:center;border-bottom:1px solid #E4E1DA">
+              <span style="width:18px;height:18px;flex:none;border:1px solid #C9C6C0;display:block"></span>
+              <div style="flex:1;min-width:0"><div style="font-size:14px;font-weight:500">Present Perfect vs Past Simple</div><div style="font-size:12px;color:#82878F;margin-top:1px">15 daqiqa</div></div>
+              <button onClick="{{ goLesson }}" style="flex:none;padding:9px 14px;background:#14161A;color:#FBFAF7;border:none;font-size:12px;font-weight:600">Boshlash</button>
+            </div>
+            <div style="padding:14px 16px;display:flex;gap:12px;align-items:center;border-bottom:1px solid #E4E1DA">
+              <span style="width:18px;height:18px;flex:none;border:1px solid #C9C6C0;display:block"></span>
+              <div style="flex:1;min-width:0"><div style="font-size:14px;font-weight:500">Listening Part 2 mashqi</div><div style="font-size:12px;color:#82878F;margin-top:1px">12 daqiqa</div></div>
+              <button onClick="{{ goMocks }}" style="flex:none;padding:9px 14px;background:none;border:1px solid #C9C6C0;font-size:12px;font-weight:600;color:#14161A">Boshlash</button>
+            </div>
+            <div style="padding:14px 16px;display:flex;gap:12px;align-items:center">
+              <span style="width:18px;height:18px;flex:none;border:1px solid #C9C6C0;display:block"></span>
+              <div style="flex:1;min-width:0"><div style="font-size:14px;font-weight:500">Writing Task 1: xat yozish</div><div style="font-size:12px;color:#82878F;margin-top:1px">20 daqiqa</div></div>
+              <button style="flex:none;padding:9px 14px;background:none;border:1px solid #C9C6C0;font-size:12px;font-weight:600;color:#14161A">Boshlash</button>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding:26px 20px 0">
+          <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">BU HAFTA</div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;display:grid;grid-template-columns:repeat(7,1fr)">
+            <sc-for list="{{ planWeek }}" as="d" hint-placeholder-count="7">
+              <div style="padding:12px 0;text-align:center;border-right:1px solid #EDEAE4">
+                <div style="font-size:10px;color:#9A9791">{{ d.l }}</div>
+                <div style="font-family:'Archivo',sans-serif;font-size:14px;font-weight:600;margin-top:4px; {{ d.numStyle }}">{{ d.n }}</div>
+                <span style="width:7px;height:7px;display:block;margin:7px auto 0;background: {{ d.c }}"></span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+
+        <div style="padding:26px 20px 0">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px">
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F">AVGUST</div>
+            <span style="font-size:12px;color:#82878F">18 kun bajarildi</span>
+          </div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px">
+            <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:6px">
+              <sc-for list="{{ planMonth }}" as="d" hint-placeholder-count="31">
+                <div style="aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:11px; {{ d.style }}">{{ d.n }}</div>
+              </sc-for>
+            </div>
+            <div style="display:flex;gap:14px;margin-top:14px;font-size:11px;color:#82878F">
+              <span style="display:flex;align-items:center;gap:5px"><span style="width:8px;height:8px;background:#1B3C73;display:block"></span>bajarildi</span>
+              <span style="display:flex;align-items:center;gap:5px"><span style="width:8px;height:8px;background:#E8C9C9;display:block"></span>qoldirildi</span>
+              <span style="display:flex;align-items:center;gap:5px"><span style="width:8px;height:8px;background:#EDEAE4;display:block"></span>kelgusi</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding:26px 20px 0">
+          <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">BOSQICHLAR</div>
+          <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:16px">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
+              <span style="flex:none;font-size:11px;font-weight:600;color:#1E6B4F">A2</span>
+              <span style="flex:1;height:3px;background:#1E6B4F;display:block"></span>
+              <span style="flex:none;font-size:11px;font-weight:600;color:#1B3C73">B1</span>
+              <span style="flex:1;height:3px;background:#EDEAE4;display:block"><span style="display:block;height:3px;width:38%;background:#1B3C73"></span></span>
+              <span style="flex:none;font-size:11px;font-weight:600;color:#9A9791">B2</span>
+            </div>
+            <div style="font-size:13px;color:#4B5058;line-height:1.55">Hozir B1 bosqichidasiz. Rejaga ko'ra 12-oktabrga B2 materialiga o'tasiz.</div>
+          </div>
+          <button style="width:100%;margin-top:10px;padding:14px;background:none;border:1px solid #C9C6C0;font-size:14px;font-weight:600;color:#14161A">Rejani qayta tuzish</button>
+        </div>
+      </div>
+      </sc-if>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isAuth }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:20px 20px 32px;min-height:100%;display:flex;flex-direction:column">
+      <div style="display:flex;align-items:baseline;gap:1px;margin-bottom:36px">
+        <span style="font-family:'Archivo',sans-serif;font-weight:700;font-size:16px;letter-spacing:-0.02em">multilevel</span>
+        <span style="font-size:11px;color:#82878F">.wisar.uz</span>
+      </div>
+
+      <div style="font-family:'Archivo',sans-serif;font-size:27px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">{{ authTitle }}</div>
+      <div style="font-size:14px;color:#4B5058;line-height:1.55;margin-top:8px">{{ authSub }}</div>
+
+      <button onClick="{{ authTelegram }}" style="width:100%;margin-top:26px;padding:15px;background:#229ED9;color:#FFFFFF;border:none;font-size:15px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:10px">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor"><path d="M16.5 2.2 1.6 7.9c-.6.2-.6.9 0 1.1l3.3 1 1.3 4c.1.5.7.6 1 .3l1.9-1.6 3.3 2.4c.5.4 1.2.1 1.3-.5l2.6-11.6c.1-.6-.5-1-1-.8z"></path></svg>
+        Telegram bilan davom etish
+      </button>
+      <button onClick="{{ authGoogle }}" style="width:100%;margin-top:8px;padding:15px;background:#FFFFFF;color:#14161A;border:1px solid #C9C6C0;font-size:15px;font-weight:600">Google bilan davom etish</button>
+
+      <div style="display:flex;align-items:center;gap:12px;margin:22px 0">
+        <span style="flex:1;height:1px;background:#E4E1DA;display:block"></span>
+        <span style="font-size:11px;color:#9A9791;letter-spacing:0.08em">YOKI EMAIL BILAN</span>
+        <span style="flex:1;height:1px;background:#E4E1DA;display:block"></span>
+      </div>
+
+      <div style="display:grid;gap:10px">
+        <sc-if value="{{ isRegister }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="font-size:12px;color:#4B5058;margin-bottom:6px;font-weight:500">Ismingiz</div>
+            <input value="{{ regName }}" onInput="{{ onRegName }}" placeholder="Dilnoza Rasulova" style="width:100%;padding:14px 16px;font-size:15px;border:1px solid #C9C6C0;background:#FFFFFF;color:#14161A;outline:none" style-focus="border-color:#1B3C73" />
+          </div>
+        </sc-if>
+        <div>
+          <div style="font-size:12px;color:#4B5058;margin-bottom:6px;font-weight:500">Email</div>
+          <input value="{{ authEmail }}" onInput="{{ onEmail }}" placeholder="siz@mail.uz" style="width:100%;padding:14px 16px;font-size:15px;background:#FFFFFF;color:#14161A;outline:none; {{ emailBorder }}" style-focus="border-color:#1B3C73" />
+          <sc-if value="{{ emailErr }}" hint-placeholder-val="{{ false }}">
+            <div style="font-size:12px;color:#A32B2B;margin-top:6px">{{ emailErrText }}</div>
+          </sc-if>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px">
+            <span style="font-size:12px;color:#4B5058;font-weight:500">Parol</span>
+            <sc-if value="{{ isLogin }}" hint-placeholder-val="{{ false }}"><a href="#" style="font-size:12px">Unutdingizmi?</a></sc-if>
+          </div>
+          <input type="password" value="{{ authPass }}" onInput="{{ onPass }}" placeholder="kamida 8 belgi" style="width:100%;padding:14px 16px;font-size:15px;background:#FFFFFF;color:#14161A;outline:none; {{ passBorder }}" style-focus="border-color:#1B3C73" />
+          <sc-if value="{{ passErr }}" hint-placeholder-val="{{ false }}">
+            <div style="font-size:12px;color:#A32B2B;margin-top:6px">{{ passErrText }}</div>
+          </sc-if>
+        </div>
+      </div>
+
+      <button onClick="{{ authSubmit }}" style="width:100%;margin-top:18px;padding:16px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">{{ authCta }}</button>
+
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#9A9791;text-align:center;margin-top:12px">{{ authHint }}</div>
+
+      <div style="flex:1"></div>
+      <div style="text-align:center;font-size:13px;color:#4B5058;margin-top:24px">
+        {{ authSwapText }} <button onClick="{{ authSwap }}" style="background:none;border:none;padding:0;font-size:13px;font-weight:600;color:#1B3C73">{{ authSwapCta }}</button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isOnb }}" hint-placeholder-val="{{ false }}">
+    <div style="min-height:100%;display:flex;flex-direction:column;padding:12px 0 0">
+      <div style="flex:none;padding:0 16px">
+        <div style="display:flex;align-items:center;gap:10px">
+          <button onClick="{{ onbBack }}" style="background:none;border:none;padding:6px;color:#14161A;font-size:16px;line-height:1">←</button>
+          <sc-for list="{{ onbDots }}" as="d" hint-placeholder-count="4">
+            <span style="flex:1;height:3px;display:block;background: {{ d }}"></span>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="flex:1;padding:28px 20px 20px">
+        <sc-if value="{{ onb0 }}" hint-placeholder-val="{{ true }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">1 / 4</div>
+            <div style="font-family:'Archivo',sans-serif;font-size:25px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">Qaysi fanga tayyorlanasiz?</div>
+            <div style="font-size:14px;color:#4B5058;margin-top:8px">Keyinroq ikkinchisini ham qo'shishingiz mumkin.</div>
+            <div style="display:grid;gap:10px;margin-top:24px">
+              <sc-for list="{{ onbSubjects }}" as="o" hint-placeholder-count="2">
+                <button onClick="{{ o.pick }}" style="width:100%;text-align:left;padding:18px;background:#FFFFFF; {{ o.style }}">
+                  <div style="font-family:'Archivo',sans-serif;font-size:17px;font-weight:600">{{ o.title }}</div>
+                  <div style="font-size:13px;color:#4B5058;margin-top:4px">{{ o.sub }}</div>
+                </button>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ onb1 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">2 / 4</div>
+            <div style="font-family:'Archivo',sans-serif;font-size:25px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">Maqsad darajangiz qaysi?</div>
+            <div style="display:grid;gap:8px;margin-top:22px">
+              <sc-for list="{{ onbLevels }}" as="o" hint-placeholder-count="3">
+                <button onClick="{{ o.pick }}" style="width:100%;text-align:left;padding:16px;background:#FFFFFF;display:flex;align-items:center;gap:14px; {{ o.style }}">
+                  <span style="flex:none;font-family:'Archivo',sans-serif;font-size:16px;font-weight:700;width:26px">{{ o.lvl }}</span>
+                  <span style="flex:1;font-size:13px;color:#4B5058;line-height:1.45">{{ o.desc }}</span>
+                </button>
+              </sc-for>
+            </div>
+            <div style="margin-top:24px">
+              <div style="font-size:12px;color:#4B5058;font-weight:500;margin-bottom:6px">Imtihon sanasi (ixtiyoriy)</div>
+              <input value="{{ onbDate }}" onInput="{{ onOnbDate }}" placeholder="24.12.2026" style="width:100%;padding:14px 16px;font-size:15px;border:1px solid #C9C6C0;background:#FFFFFF;color:#14161A;outline:none;font-family:'IBM Plex Mono',monospace" style-focus="border-color:#1B3C73" />
+              <div style="font-size:12px;color:#82878F;margin-top:6px">Sanani bilsangiz, reja shunga moslanadi.</div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ onb2 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">3 / 4</div>
+            <div style="font-family:'Archivo',sans-serif;font-size:25px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">Kuniga qancha vaqt ajratasiz?</div>
+            <div style="font-size:14px;color:#4B5058;margin-top:8px">Halol javob bering — rejani bajarish osonlashadi.</div>
+            <div style="display:grid;gap:8px;margin-top:22px">
+              <sc-for list="{{ onbTimes }}" as="o" hint-placeholder-count="4">
+                <button onClick="{{ o.pick }}" style="width:100%;text-align:left;padding:16px;background:#FFFFFF;display:flex;align-items:baseline;justify-content:space-between;gap:12px; {{ o.style }}">
+                  <span style="font-family:'Archivo',sans-serif;font-size:16px;font-weight:600">{{ o.title }}</span>
+                  <span style="font-size:12px;color:#82878F">{{ o.sub }}</span>
+                </button>
+              </sc-for>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ onb3 }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:12px">4 / 4</div>
+            <div style="font-family:'Archivo',sans-serif;font-size:25px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">Darajangizni aniqlaymizmi?</div>
+            <div style="font-size:14px;color:#4B5058;line-height:1.6;margin-top:10px">25 daqiqalik placement test rejani ancha aniqroq qiladi. Hozir o'tkazib yuborsangiz, keyin profildan topasiz.</div>
+            <div style="border:1px solid #E4E1DA;background:#FFFFFF;margin-top:22px">
+              <div style="padding:14px 16px;border-bottom:1px solid #EDEAE4;display:flex;justify-content:space-between;font-size:13px"><span style="color:#4B5058">Fan</span><span style="font-weight:500">{{ sumSubj }}</span></div>
+              <div style="padding:14px 16px;border-bottom:1px solid #EDEAE4;display:flex;justify-content:space-between;font-size:13px"><span style="color:#4B5058">Maqsad daraja</span><span style="font-weight:500">{{ sumLevel }}</span></div>
+              <div style="padding:14px 16px;border-bottom:1px solid #EDEAE4;display:flex;justify-content:space-between;font-size:13px"><span style="color:#4B5058">Imtihon sanasi</span><span style="font-weight:500;font-family:'IBM Plex Mono',monospace">{{ sumDate }}</span></div>
+              <div style="padding:14px 16px;display:flex;justify-content:space-between;font-size:13px"><span style="color:#4B5058">Kunlik vaqt</span><span style="font-weight:500">{{ sumTime }}</span></div>
+            </div>
+          </div>
+        </sc-if>
+      </div>
+
+      <div style="flex:none;padding:0 20px 24px">
+        <sc-if value="{{ onbLast }}" hint-placeholder-val="{{ false }}">
+          <div>
+            <button onClick="{{ goMockStart }}" style="width:100%;padding:16px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Placement testni boshlash</button>
+            <button onClick="{{ finishOnb }}" style="width:100%;padding:14px;background:none;border:none;color:#82878F;font-size:13px;margin-top:4px">O'tkazib yuborish</button>
+          </div>
+        </sc-if>
+        <sc-if value="{{ onbNotLast }}" hint-placeholder-val="{{ true }}">
+          <button onClick="{{ onbNext }}" style="width:100%;padding:16px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Davom etish</button>
+        </sc-if>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isProfile }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:8px 0 24px">
+      <div style="padding:0 20px;display:flex;align-items:center;gap:14px">
+        <div style="width:52px;height:52px;flex:none;background:#14161A;color:#FBFAF7;display:flex;align-items:center;justify-content:center;font-family:'Archivo',sans-serif;font-size:18px;font-weight:600">DR</div>
+        <div style="flex:1;min-width:0">
+          <div style="font-family:'Archivo',sans-serif;font-size:19px;font-weight:700;letter-spacing:-0.02em">Dilnoza Rasulova</div>
+          <div style="font-size:13px;color:#82878F">dilnoza@mail.uz</div>
+        </div>
+      </div>
+
+      <div style="margin:22px 20px 0;border:1px solid #E4E1DA;background:#FFFFFF">
+        <div style="padding:14px 16px;border-bottom:1px solid #EDEAE4;display:flex;justify-content:space-between;font-size:14px"><span style="color:#4B5058">Joriy daraja</span><span style="font-weight:600">B1</span></div>
+        <div style="padding:14px 16px;border-bottom:1px solid #EDEAE4;display:flex;justify-content:space-between;font-size:14px"><span style="color:#4B5058">Maqsad daraja</span><span style="font-weight:600">B2</span></div>
+        <div style="padding:14px 16px;border-bottom:1px solid #EDEAE4;display:flex;justify-content:space-between;font-size:14px"><span style="color:#4B5058">Imtihon sanasi</span><span style="font-weight:600;font-family:'IBM Plex Mono',monospace">24.12.2026</span></div>
+        <div style="padding:14px 16px;display:flex;justify-content:space-between;font-size:14px"><span style="color:#4B5058">Kunlik maqsad</span><span style="font-weight:600">60 daqiqa</span></div>
+      </div>
+
+      <div style="padding:22px 20px 0">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">TELEGRAM</div>
+        <sc-if value="{{ tgOn }}" hint-placeholder-val="{{ false }}">
+          <div style="border:1px solid #1E6B4F;background:#F1F7F3;padding:16px">
+            <div style="display:flex;align-items:center;gap:12px">
+              <span style="width:20px;height:20px;flex:none;background:#1E6B4F;color:#FFF;display:flex;align-items:center;justify-content:center;font-size:12px">✓</span>
+              <div style="flex:1">
+                <div style="font-size:14px;font-weight:600;color:#155540">Bot ulangan</div>
+                <div style="font-size:12px;color:#3E6B58;margin-top:2px">@dilnoza_r · natijalar va eslatmalar botga keladi</div>
+              </div>
+            </div>
+            <button onClick="{{ toggleTg }}" style="width:100%;margin-top:14px;padding:11px;background:none;border:1px solid #A8C4B6;font-size:13px;font-weight:600;color:#155540">Uzish</button>
+          </div>
+        </sc-if>
+        <sc-if value="{{ tgOff }}" hint-placeholder-val="{{ true }}">
+          <div style="border:1px solid #C7D2E3;background:#EEF1F7;padding:16px">
+            <div style="font-size:14px;font-weight:600;color:#12294F">Bot ulanmagan</div>
+            <div style="font-size:13px;color:#3E567F;line-height:1.55;margin-top:4px">Ulasangiz kunlik eslatma, mock natijalari va so'z takrorlash xabarlari Telegram'ga keladi.</div>
+            <button onClick="{{ toggleTg }}" style="width:100%;margin-top:14px;padding:13px;background:#229ED9;color:#FFF;border:none;font-size:14px;font-weight:600">Botni ulash</button>
+          </div>
+        </sc-if>
+      </div>
+
+      <div style="padding:22px 20px 0">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">SOZLAMALAR</div>
+        <div style="border:1px solid #E4E1DA;background:#FFFFFF">
+          <div style="padding:13px 16px;border-bottom:1px solid #EDEAE4;display:flex;align-items:center;justify-content:space-between;gap:12px">
+            <span style="font-size:14px;color:#4B5058">Interfeys tili</span>
+            <div style="display:flex;border:1px solid #D5D1C8">
+              <sc-for list="{{ langOpts }}" as="o" hint-placeholder-count="2">
+                <button onClick="{{ o.pick }}" style="padding:6px 12px;border:none;font-size:12px;font-weight:600; {{ o.style }}">{{ o.label }}</button>
+              </sc-for>
+            </div>
+          </div>
+          <div style="padding:13px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+            <span style="font-size:14px;color:#4B5058">Tema</span>
+            <div style="display:flex;border:1px solid #D5D1C8">
+              <sc-for list="{{ themeOpts }}" as="o" hint-placeholder-count="3">
+                <button onClick="{{ o.pick }}" style="padding:6px 11px;border:none;font-size:12px;font-weight:600; {{ o.style }}">{{ o.label }}</button>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding:22px 20px 0">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#82878F;margin-bottom:12px">STATISTIKA</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;border:1px solid #E4E1DA;background:#FFFFFF">
+          <div style="padding:14px;border-right:1px solid #E4E1DA"><div style="font-family:'Archivo',sans-serif;font-size:19px;font-weight:700">1 240</div><div style="font-size:11px;color:#82878F;margin-top:2px">XP</div></div>
+          <div style="padding:14px;border-right:1px solid #E4E1DA"><div style="font-family:'Archivo',sans-serif;font-size:19px;font-weight:700">31</div><div style="font-size:11px;color:#82878F;margin-top:2px">dars</div></div>
+          <div style="padding:14px"><div style="font-family:'Archivo',sans-serif;font-size:19px;font-weight:700">18s</div><div style="font-size:11px;color:#82878F;margin-top:2px">jami vaqt</div></div>
+        </div>
+        <div style="border:1px solid #E4E1DA;background:#FFFFFF;padding:14px 12px;margin-top:10px">
+          <div style="display:grid;grid-template-columns:repeat(18,1fr);gap:3px">
+            <sc-for list="{{ heat }}" as="c" hint-placeholder-count="126">
+              <span style="display:block;aspect-ratio:1;background: {{ c }}"></span>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding:22px 20px 0">
+        <button onClick="{{ goLanding }}" style="width:100%;padding:14px;background:none;border:1px solid #E8C9C9;color:#A32B2B;font-size:14px;font-weight:600">Chiqish</button>
+        <button onClick="{{ go404 }}" style="width:100%;margin-top:10px;padding:10px;background:none;border:none;color:#C9C6C0;font-size:11px;font-family:'IBM Plex Mono',monospace">namuna: 404 sahifasi</button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ is404 }}" hint-placeholder-val="{{ false }}">
+    <div style="min-height:100%;display:flex;flex-direction:column;justify-content:center;padding:40px 24px;text-align:center">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:52px;color:#D5D1C8;letter-spacing:-0.02em">404</div>
+      <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700;letter-spacing:-0.02em;margin-top:14px">Sahifa topilmadi</div>
+      <div style="font-size:14px;color:#4B5058;line-height:1.6;margin-top:10px">Havola o'zgargan yoki sahifa o'chirilgan bo'lishi mumkin.</div>
+      <button onClick="{{ goHome }}" style="width:100%;margin-top:26px;padding:15px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Bosh sahifaga</button>
+      <button onClick="{{ goMocks }}" style="width:100%;margin-top:8px;padding:13px;background:none;border:1px solid #C9C6C0;font-size:14px;font-weight:600;color:#14161A">Mocklarga o'tish</button>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ isSoon }}" hint-placeholder-val="{{ false }}">
+    <div style="padding:80px 32px;text-align:center">
+      <div style="width:100%;height:96px;background:repeating-linear-gradient(135deg,#F1EFEA 0 8px,#FBFAF7 8px 16px);border:1px solid #E4E1DA;display:flex;align-items:center;justify-content:center;margin-bottom:22px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#9A9791;letter-spacing:0.08em">{{ soonTitle }}</span>
+      </div>
+      <div style="font-family:'Archivo',sans-serif;font-size:18px;font-weight:600">Bu ekran keyingi bosqichda</div>
+      <div style="font-size:13px;color:#4B5058;line-height:1.55;margin-top:8px">Birinchi bosqichda Landing, Dashboard, Dars pleyeri va Natija sahifasi chizildi.</div>
+      <button onClick="{{ goHome }}" style="margin-top:20px;padding:13px 20px;background:none;border:1px solid #C9C6C0;font-size:14px;font-weight:600;color:#14161A">Bosh sahifaga</button>
+    </div>
+  </sc-if>
+
+  </div>
+
+  <sc-if value="{{ showTabs }}" hint-placeholder-val="{{ false }}">
+    <div style="flex:none;border-top:1px solid #E4E1DA;background:#FBFAF7;display:grid;grid-template-columns:repeat(5,1fr);padding:8px 0 12px">
+      <button onClick="{{ tabHome }}" style="background:none;border:none;display:flex;flex-direction:column;align-items:center;gap:5px;padding:4px 0;color: {{ cHome }}">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8.5 10 3l7 5.5V17H3z"></path></svg>
+        <span style="font-size:10px;font-weight:500">Bosh</span>
+      </button>
+      <button onClick="{{ tabCourses }}" style="background:none;border:none;display:flex;flex-direction:column;align-items:center;gap:5px;padding:4px 0;color: {{ cCourses }}">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 4h6l1 2h7v10H3z"></path></svg>
+        <span style="font-size:10px;font-weight:500">Kurslar</span>
+      </button>
+      <button onClick="{{ tabMocks }}" style="background:none;border:none;display:flex;flex-direction:column;align-items:center;gap:5px;padding:4px 0;color: {{ cMocks }}">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 3h10v14H5zM8 7h4M8 11h4"></path></svg>
+        <span style="font-size:10px;font-weight:500">Mocklar</span>
+      </button>
+      <button onClick="{{ tabVocab }}" style="background:none;border:none;display:flex;flex-direction:column;align-items:center;gap:5px;padding:4px 0;color: {{ cVocab }}">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5h7v12H3zM10 5h7v12h-7z"></path></svg>
+        <span style="font-size:10px;font-weight:500">Lug'at</span>
+      </button>
+      <button onClick="{{ tabPlan }}" style="background:none;border:none;display:flex;flex-direction:column;align-items:center;gap:5px;padding:4px 0;color: {{ cPlan }}">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5h14v12H3zM3 9h14M7 3v3M13 3v3"></path></svg>
+        <span style="font-size:10px;font-weight:500">Reja</span>
+      </button>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ showSubmit }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:rgba(20,22,26,0.55);display:flex;align-items:center;justify-content:center;padding:24px;z-index:20">
+      <div style="width:100%;background:#FBFAF7;padding:24px 20px 20px;animation:pop 0.2s ease-out">
+        <div style="font-family:'Archivo',sans-serif;font-size:20px;font-weight:700;letter-spacing:-0.02em;line-height:1.2">{{ submitTitle }}</div>
+        <div style="font-size:14px;color:#4B5058;line-height:1.6;margin-top:10px">{{ submitBody }}</div>
+        <div style="display:grid;gap:8px;margin-top:20px">
+          <button onClick="{{ confirmSubmit }}" style="width:100%;padding:15px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">{{ submitConfirmLabel }}</button>
+          <button onClick="{{ cancelSubmit }}" style="width:100%;padding:13px;background:none;border:1px solid #C9C6C0;font-size:14px;font-weight:600;color:#14161A">Bekor qilish</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ showFinish }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:rgba(20,22,26,0.55);display:flex;align-items:flex-end;z-index:20">
+      <div style="width:100%;background:#FBFAF7;padding:28px 20px 22px;animation:fadeUp 0.25s ease-out">
+        <div style="font-size:10px;letter-spacing:0.14em;font-weight:600;color:#1B3C73;margin-bottom:10px">DARS TUGALLANDI</div>
+        <div style="font-family:'Archivo',sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.025em;line-height:1.15">Present Perfect vs Past Simple</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #E4E1DA;background:#FFFFFF;margin:20px 0">
+          <div style="padding:14px;border-right:1px solid #E4E1DA">
+            <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700">{{ finalPct }}</div>
+            <div style="font-size:11px;color:#82878F;margin-top:2px">to'g'ri javob</div>
+          </div>
+          <div style="padding:14px;border-right:1px solid #E4E1DA">
+            <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700">+50</div>
+            <div style="font-size:11px;color:#82878F;margin-top:2px">XP</div>
+          </div>
+          <div style="padding:14px">
+            <div style="font-family:'Archivo',sans-serif;font-size:22px;font-weight:700">13</div>
+            <div style="font-size:11px;color:#82878F;margin-top:2px">kun ketma-ket</div>
+          </div>
+        </div>
+        <button onClick="{{ goDash }}" style="width:100%;padding:16px;background:#14161A;color:#FBFAF7;border:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600">Keyingi dars: Passive Voice</button>
+        <button onClick="{{ goDash }}" style="width:100%;padding:13px;background:none;border:none;color:#82878F;font-size:13px;margin-top:4px">Bosh sahifaga qaytish</button>
+      </div>
+    </div>
+  </sc-if>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:424,&quot;height&quot;:920},&quot;newUser&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Holatlar&quot;},&quot;hideGamification&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Holatlar&quot;},&quot;timerLow&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Holatlar&quot;},&quot;examDays&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:142,&quot;min&quot;:0,&quot;max&quot;:400,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Ma'lumot&quot;}}">
+class Component extends DCLogic {
+  state = {
+    screen: 'landing', tab: 'home', step: 0, faq: -1,
+    mcq: null, mcqChecked: false, tf: null, tfChecked: false,
+    gap: '', gapChecked: false, wtext: '', aiPending: false, aiDone: false,
+    showFinish: false, rtab: 'lr', playing: false,
+    subj: 'en', kind: 'full',
+    sec: 0, left: 1800, lq: 1, ansL: {}, ansR: {}, flags: {},
+    w2: '', passOpen: true, audioPlaying: false, audioPlayed: false, audioAt: 0,
+    spPhase: 'idle', spLeft: 60, tick: 0, showSubmit: false, gradeStep: 0,
+    fi: 0, flipped: false, fgrades: [],
+    authMode: 'register', regName: '', email: '', pass: '', authErr: '',
+    onb: 0, onbSubj: 'en', onbLevel: 'B2', onbDate: '', onbTime: 60,
+    tg: false, lang: 'uz', theme: 'light'
+  };
+
+  WORDS = [
+    { w: 'reluctant', p: '/rɪˈlʌktənt/', t: 'istamaydigan, xohishsiz', d: 'unwilling and hesitating to do something', en: 'She was reluctant to speak in front of the class.', uz: 'U sinf oldida gapirishni xohlamadi.' },
+    { w: 'sustainable', p: '/səˈsteɪnəbl/', t: 'barqaror', d: 'able to continue over a long period without harming the environment', en: 'The city has invested in sustainable transport.', uz: 'Shahar barqaror transportga sarmoya kiritdi.' },
+    { w: 'to acknowledge', p: '/əkˈnɒlɪdʒ/', t: 'tan olmoq, e\u2019tirof etmoq', d: 'to accept or admit that something is true', en: 'He acknowledged that the deadline was too short.', uz: 'U muddat juda qisqa ekanini tan oldi.' },
+    { w: 'drawback', p: '/ˈdrɔːbæk/', t: 'kamchilik, salbiy tomon', d: 'a disadvantage of a situation or plan', en: 'The main drawback of the plan is its cost.', uz: 'Rejaning asosiy kamchiligi — narxi.' },
+    { w: 'to thrive', p: '/θraɪv/', t: 'gullab-yashnamoq', d: 'to grow or develop well and successfully', en: 'Small businesses have thrived in the new district.', uz: 'Yangi tumanda kichik biznes gullab-yashnadi.' }
+  ];
+
+  SECS = [
+    { key: 'L', label: 'BO\u2019LIM 1 / 4', name: 'Listening', qs: 35, mins: 30 },
+    { key: 'R', label: 'BO\u2019LIM 2 / 4', name: 'Reading', qs: 35, mins: 60 },
+    { key: 'W', label: 'BO\u2019LIM 3 / 4', name: 'Writing', qs: 3, mins: 60 },
+    { key: 'S', label: 'BO\u2019LIM 4 / 4', name: 'Speaking', qs: 3, mins: 15 }
+  ];
+
+  componentDidMount() {
+    this.timer = setInterval(() => {
+      const s = this.state;
+      if (s.screen === 'exam') {
+        const u = { tick: s.tick + 1 };
+        if (s.left > 0) u.left = s.left - 1;
+        if (s.audioPlaying) { u.audioAt = s.audioAt + 1; if (s.audioAt + 1 >= 260) { u.audioPlaying = false; } }
+        if (s.spPhase === 'prep') {
+          if (s.spLeft > 1) u.spLeft = s.spLeft - 1;
+          else { u.spPhase = 'rec'; u.spLeft = 120; }
+        } else if (s.spPhase === 'rec') {
+          if (s.spLeft > 1) u.spLeft = s.spLeft - 1;
+          else { u.spPhase = 'done'; u.spLeft = 0; }
+        }
+        this.setState(u);
+      } else if (s.screen === 'grading') {
+        if (s.gradeStep < 4) this.setState({ gradeStep: s.gradeStep + 1 });
+        else this.setState({ screen: 'result', tab: 'mocks', rtab: 'w' });
+      }
+    }, 1000);
+  }
+  componentWillUnmount() { clearInterval(this.timer); }
+
+  set(o) { this.setState(o); }
+
+  fmt(t) {
+    const m = Math.floor(Math.max(0, t) / 60), sc = Math.max(0, t) % 60;
+    return m + ':' + (sc < 10 ? '0' : '') + sc;
+  }
+
+  startSection(i) {
+    const low = this.props.timerLow === true;
+    this.set({
+      screen: 'exam', sec: i, left: low ? 297 : this.SECS[i].mins * 60,
+      lq: i === 0 ? 1 : 36, showSubmit: false,
+      audioPlaying: false, audioPlayed: false, audioAt: 0, spPhase: 'idle', spLeft: 60
+    });
+  }
+
+  optStyle(idx, sel, checked, correct) {
+    if (!checked) return sel === idx ? 'border:1px solid #14161A;box-shadow:inset 0 0 0 1px #14161A' : 'border:1px solid #E4E1DA';
+    if (idx === correct) return 'border:1px solid #1E6B4F;background:#F1F7F3';
+    if (idx === sel) return 'border:1px solid #A32B2B;background:#FCF1F1';
+    return 'border:1px solid #E4E1DA;opacity:0.5';
+  }
+  optMark(idx, sel, checked, correct) {
+    if (!checked) return '';
+    if (idx === correct) return '✓';
+    if (idx === sel) return '✗';
+    return '';
+  }
+
+  gapOk() {
+    const v = (this.state.gap || '').toLowerCase().replace(/[’']/g, "'").replace(/\s+/g, ' ').trim();
+    return v === "haven't finished" || v === 'have not finished';
+  }
+
+  renderVals() {
+    const s = this.state;
+    const p = this.props;
+    const newUser = p.newUser === true;
+    const showGame = p.hideGamification !== true;
+    const step = s.step;
+    const totalSteps = 9;
+
+    const mcqCorrect = 1;
+    const mcqTexts = ['I have seen him yesterday.', 'I saw him yesterday.', 'I have saw him yesterday.', 'I seen him yesterday.'];
+    const mcqOpts = mcqTexts.map((t, i) => ({
+      text: t, letter: 'ABCD'[i],
+      style: this.optStyle(i, s.mcq, s.mcqChecked, mcqCorrect),
+      mark: this.optMark(i, s.mcq, s.mcqChecked, mcqCorrect),
+      pick: () => { if (!s.mcqChecked) this.set({ mcq: i }); }
+    }));
+    const tfTexts = ["To'g'ri", 'Xato'];
+    const tfOpts = tfTexts.map((t, i) => ({
+      text: t,
+      style: this.optStyle(i, s.tf, s.tfChecked, 0),
+      mark: this.optMark(i, s.tf, s.tfChecked, 0),
+      pick: () => { if (!s.tfChecked) this.set({ tf: i }); }
+    }));
+
+    let footerLabel = 'Davom etish', enabled = true, action = () => this.set({ step: Math.min(step + 1, totalSteps - 1) });
+    if (step === 5) {
+      if (!s.mcqChecked) { footerLabel = 'Tekshirish'; enabled = s.mcq !== null; action = () => this.set({ mcqChecked: true }); }
+    } else if (step === 6) {
+      if (!s.tfChecked) { footerLabel = 'Tekshirish'; enabled = s.tf !== null; action = () => this.set({ tfChecked: true }); }
+    } else if (step === 7) {
+      if (!s.gapChecked) { footerLabel = 'Tekshirish'; enabled = s.gap.trim().length > 0; action = () => this.set({ gapChecked: true }); }
+    } else if (step === 8) {
+      if (s.aiDone) { footerLabel = 'Darsni tugatish'; action = () => this.set({ showFinish: true }); }
+      else if (s.aiPending) { footerLabel = 'Baholanmoqda…'; enabled = false; }
+      else {
+        footerLabel = "AI'ga yuborish";
+        enabled = s.wtext.trim().split(/\s+/).filter(Boolean).length >= 20;
+        action = () => { this.set({ aiPending: true }); setTimeout(() => this.set({ aiPending: false, aiDone: true }), 1600); };
+      }
+    }
+
+    const wcount = s.wtext.trim() ? s.wtext.trim().split(/\s+/).filter(Boolean).length : 0;
+
+    const week = ['D', 'S', 'C', 'P', 'J', 'S', 'Y'].map((l, i) => ({ l, c: i <= 4 ? '#1B3C73' : (i === 5 ? '#C7D2E3' : '#E4E1DA') }));
+
+    const heat = [];
+    for (let i = 0; i < 126; i++) {
+      const r = (Math.sin(i * 12.9898) * 43758.5453) % 1;
+      const v = Math.abs(r);
+      heat.push(i > 118 ? '#EDEAE4' : v < 0.28 ? '#EDEAE4' : v < 0.52 ? '#C7D2E3' : v < 0.76 ? '#6C87B0' : '#1B3C73');
+    }
+
+    const rtabs = [
+      { key: 'lr', label: 'L · R' }, { key: 'w', label: 'Writing' }, { key: 's', label: 'Speaking' }
+    ].map(t => ({
+      label: t.label,
+      style: s.rtab === t.key ? 'color:#14161A;border-bottom:2px solid #14161A' : 'color:#82878F;border-bottom:2px solid transparent',
+      pick: () => this.set({ rtab: t.key })
+    }));
+
+    const lr = [
+      { n: '01', mine: 'B', ok: true }, { n: '02', mine: 'A', ok: true },
+      { n: '03', mine: 'D', ok: false, right: 'C' }, { n: '04', mine: 'library', ok: true },
+      { n: '05', mine: '—', ok: false, right: '14 March' }, { n: '06', mine: 'C', ok: false, right: 'A' }
+    ];
+    const lrRows = lr.map(r => ({
+      n: r.n, mine: r.mine, mark: r.ok ? '✓' : '✗',
+      color: r.ok ? '#1E6B4F' : '#A32B2B',
+      correctLine: r.ok ? "To'g'ri javob" : "To'g'ri javob: " + r.right
+    }));
+
+    // ——— exam ———
+    const S = this.SECS[s.sec];
+    const isExam = s.screen === 'exam';
+    const w2count = s.w2.trim() ? s.w2.trim().split(/\s+/).filter(Boolean).length : 0;
+
+    const navStart = s.sec === 0 ? 1 : s.sec === 1 ? 36 : 71;
+    const navCount = S.qs;
+    const ansSet = s.sec === 0 ? s.ansL : s.ansR;
+    const navItems = [];
+    for (let i = 0; i < navCount; i++) {
+      const n = navStart + i;
+      const answered = s.sec === 2 ? w2count > 0 : s.sec === 3 ? s.spPhase === 'done' : !!ansSet[n];
+      const cur = (s.sec === 0 && n === s.lq);
+      let st;
+      if (cur) st = 'border:1px solid #14161A;background:#14161A;color:#FBFAF7';
+      else if (s.flags[n]) st = 'border:1px solid #8A5A2B;background:#FDF7EF;color:#8A5A2B';
+      else if (answered) st = 'border:1px solid #C7D2E3;background:#EEF1F7;color:#12294F';
+      else st = 'border:1px solid #E4E1DA;background:#FFFFFF;color:#9A9791';
+      navItems.push({ n: String(n), style: st, pick: () => (s.sec === 0 ? this.set({ lq: n }) : null) });
+    }
+
+    const lQs = [
+      { t: 'Where does the woman suggest meeting?', o: ['At the library entrance', 'Outside the metro station', 'In the university cafe', 'Near the bus stop'] },
+      { t: 'What time does the seminar start?', o: ['9:30', '10:00', '10:30', '11:00'] },
+      { t: 'Why is the man calling?', o: ['To cancel a booking', 'To change a date', 'To ask about prices', 'To complain about a delay'] }
+    ];
+    const lCur = lQs[(s.lq - 1) % 3];
+    const lOpts = lCur.o.map((t, i) => ({
+      text: t, letter: 'ABCD'[i],
+      style: s.ansL[s.lq] === i ? 'border:1px solid #14161A;box-shadow:inset 0 0 0 1px #14161A' : 'border:1px solid #E4E1DA',
+      pick: () => this.set({ ansL: Object.assign({}, s.ansL, { [s.lq]: i }) })
+    }));
+
+    const rOpts = (qn) => ["TO'G'RI", 'XATO', 'AYTILMAGAN'].map((t, i) => ({
+      text: t,
+      style: s.ansR[qn] === i ? 'border:1px solid #14161A;box-shadow:inset 0 0 0 1px #14161A' : 'border:1px solid #E4E1DA;color:#4B5058',
+      pick: () => this.set({ ansR: Object.assign({}, s.ansR, { [qn]: i }) })
+    }));
+
+    const waves = [];
+    for (let i = 0; i < 28; i++) {
+      const v = Math.abs(Math.sin(i * 0.7 + s.tick * 0.9));
+      waves.push(Math.round(10 + v * 62) + 'px');
+    }
+
+    const lastSection = s.sec === 3;
+    const gradeRows = ['Listening', 'Reading', 'Writing', 'Speaking'].map((name, i) => {
+      const ready = s.gradeStep > i || i < 2;
+      return {
+        name,
+        mark: ready ? '✓' : '',
+        bg: ready ? '#1E6B4F' : '#D5D1C8',
+        status: ready ? 'tayyor' : (i === 2 ? 'AI baholayapti…' : 'navbatda')
+      };
+    });
+
+    // ——— kurs yo'li ———
+    const lessons = [
+      { title: 'Past Simple: tuzilishi', mins: '12 daq', meta: 'Grammar · tugallandi', st: 'done' },
+      { title: 'Present Perfect: have + V3', mins: '14 daq', meta: 'Grammar · tugallandi', st: 'done' },
+      { title: 'Present Perfect vs Past Simple', mins: '15 daq', meta: 'Grammar · boshlangan', st: 'cur' },
+      { title: 'for va since', mins: '10 daq', meta: 'Grammar', st: 'open' },
+      { title: 'Past Continuous', mins: '13 daq', meta: 'Grammar', st: 'open' },
+      { title: "Modul testi: zamonlar", mins: '18 daq', meta: '20 savol', st: 'open' }
+    ];
+    const pathItems = lessons.map(l => ({
+      title: l.title, mins: l.mins, meta: l.meta,
+      dot: l.st === 'done' ? 'background:#1E6B4F' : l.st === 'cur' ? 'background:#1B3C73' : 'background:#FBFAF7;border:1px solid #C9C6C0',
+      card: l.st === 'cur' ? 'border:1px solid #14161A' : l.st === 'done' ? 'opacity:0.6' : '',
+      pick: () => this.set({ screen: 'lesson', step: 0 })
+    }));
+
+    // ——— flashcard ———
+    const card = this.WORDS[Math.min(s.fi, this.WORDS.length - 1)];
+    const gradeDefs = [
+      { label: 'Bilmadim', next: '10 daqiqa', v: 0, st: 'border:1px solid #A32B2B;color:#A32B2B' },
+      { label: 'Qiyin', next: '1 kun', v: 3, st: 'border:1px solid #8A5A2B;color:#8A5A2B' },
+      { label: 'Yaxshi', next: '4 kun', v: 4, st: 'border:1px solid #1E6B4F;color:#1E6B4F' },
+      { label: 'Oson', next: '9 kun', v: 5, st: 'border:1px solid #1B3C73;color:#1B3C73' }
+    ];
+    const grades = gradeDefs.map(g => ({
+      label: g.label, next: g.next, style: g.st,
+      pick: () => this.set({ fgrades: s.fgrades.concat([g.v]), fi: s.fi + 1, flipped: false })
+    }));
+    const flashDone = s.fi >= this.WORDS.length;
+
+    const planWeek = [
+      { l: 'D', n: '3', c: '#1B3C73' }, { l: 'S', n: '4', c: '#C7D2E3', cur: true },
+      { l: 'C', n: '5', c: '#EDEAE4' }, { l: 'P', n: '6', c: '#EDEAE4' },
+      { l: 'J', n: '7', c: '#EDEAE4' }, { l: 'S', n: '8', c: '#EDEAE4' }, { l: 'Y', n: '9', c: '#EDEAE4' }
+    ].map(d => ({ l: d.l, n: d.n, c: d.c, numStyle: d.cur ? 'color:#1B3C73' : 'color:#14161A' }));
+
+    const planMonth = [];
+    for (let i = 1; i <= 31; i++) {
+      let st = 'background:#EDEAE4;color:#9A9791';
+      if (i <= 3) st = 'background:#1B3C73;color:#FFFFFF';
+      if (i === 2) st = 'background:#E8C9C9;color:#8A2B2B';
+      if (i === 4) st = 'border:1px solid #14161A;color:#14161A';
+      planMonth.push({ n: String(i), style: st });
+    }
+
+    // ——— auth ———
+    const isRegister = s.authMode === 'register';
+    const emailErr = s.authErr === 'email-taken' || s.authErr === 'email-empty';
+    const passErr = s.authErr === 'pass-short' || s.authErr === 'wrong';
+    const doAuth = () => {
+      const e = s.email.trim().toLowerCase();
+      if (!e || e.indexOf('@') < 0) return this.set({ authErr: 'email-empty' });
+      if (isRegister) {
+        if (e === 'dilnoza@mail.uz') return this.set({ authErr: 'email-taken' });
+        if (s.pass.length < 8) return this.set({ authErr: 'pass-short' });
+        return this.set({ screen: 'onb', onb: 0, authErr: '' });
+      }
+      if (s.pass !== 'parol1234') return this.set({ authErr: 'wrong' });
+      return this.set({ screen: 'dash', tab: 'home', authErr: '' });
+    };
+
+    const onbSubjects = [
+      { k: 'en', title: 'Ingliz tili', sub: 'Listening, Reading, Writing, Speaking' },
+      { k: 'uz', title: 'Ona tili', sub: 'Savodxonlik, matn tahlili, yozish' }
+    ].map(o => ({
+      title: o.title, sub: o.sub,
+      style: s.onbSubj === o.k ? 'border:1px solid #14161A;box-shadow:inset 0 0 0 1px #14161A' : 'border:1px solid #E4E1DA',
+      pick: () => this.set({ onbSubj: o.k })
+    }));
+    const onbLevels = [
+      { k: 'B1', d: 'Kundalik mavzularda erkin muloqot. Ko\u2019pchilik uchun boshlang\u2019ich maqsad.' },
+      { k: 'B2', d: 'Universitet va ish uchun talab qilinadigan daraja.' },
+      { k: 'C1', d: 'Murakkab matnlar va erkin akademik nutq.' }
+    ].map(o => ({
+      lvl: o.k, desc: o.d,
+      style: s.onbLevel === o.k ? 'border:1px solid #14161A;box-shadow:inset 0 0 0 1px #14161A' : 'border:1px solid #E4E1DA',
+      pick: () => this.set({ onbLevel: o.k })
+    }));
+    const onbTimes = [
+      { v: 30, t: '30 daqiqa', s2: 'kuniga 1 dars' },
+      { v: 60, t: '1 soat', s2: 'tavsiya etiladi' },
+      { v: 120, t: '2 soat', s2: 'tezkor tayyorgarlik' },
+      { v: 180, t: '3 soat va ko\u2019proq', s2: 'intensiv' }
+    ].map(o => ({
+      title: o.t, sub: o.s2,
+      style: s.onbTime === o.v ? 'border:1px solid #14161A;box-shadow:inset 0 0 0 1px #14161A' : 'border:1px solid #E4E1DA',
+      pick: () => this.set({ onbTime: o.v })
+    }));
+    const onbDots = [0, 1, 2, 3].map(i => (i <= s.onb ? '#1B3C73' : '#E4E1DA'));
+
+    const seg = (cur, k) => (cur === k ? 'background:#14161A;color:#FBFAF7' : 'background:#FBFAF7;color:#82878F');
+
+    const soonTitle = { courses: 'KURSLAR', mocks: 'MOCKLAR', vocab: "LUG'AT", plan: 'REJA' }[s.tab] || '';
+    const tabColor = k => (s.tab === k && s.screen !== 'landing' ? '#14161A' : '#9A9791');
+
+    let correctCount = 0;
+    if (s.mcqChecked && s.mcq === mcqCorrect) correctCount++;
+    if (s.tfChecked && s.tf === 0) correctCount++;
+    if (s.gapChecked && this.gapOk()) correctCount++;
+    if (s.aiDone) correctCount++;
+
+    return {
+      isLanding: s.screen === 'landing',
+      isDash: s.screen === 'dash',
+      isLesson: s.screen === 'lesson',
+      isResult: s.screen === 'result',
+      isSoon: s.screen === 'soon',
+      isMocks: s.screen === 'mocks',
+      isAuth: s.screen === 'auth',
+      isOnb: s.screen === 'onb',
+      isProfile: s.screen === 'profile',
+      is404: s.screen === 'e404',
+      isRegister, isLogin: !isRegister,
+      authTitle: isRegister ? 'Bepul hisob yarating' : 'Xush kelibsiz',
+      authSub: isRegister ? 'Bir daqiqada boshlaysiz. Karta ham, to\u2019lov ham kerak emas.' : 'Hisobingizga kiring va rejangizni davom ettiring.',
+      authCta: isRegister ? "Ro'yxatdan o'tish" : 'Kirish',
+      authHint: isRegister ? 'prototip: dilnoza@mail.uz \u2014 band email' : 'prototip: parol1234',
+      authSwapText: isRegister ? 'Hisobingiz bormi?' : 'Hisobingiz yo\u2019qmi?',
+      authSwapCta: isRegister ? 'Kirish' : "Ro'yxatdan o'tish",
+      authSwap: () => this.set({ authMode: isRegister ? 'login' : 'register', authErr: '' }),
+      goRegister: () => this.set({ screen: 'auth', authMode: 'register', authErr: '' }),
+      goLanding: () => this.set({ screen: 'landing' }),
+      goProfile: () => this.set({ screen: 'profile', tab: 'home' }),
+      go404: () => this.set({ screen: 'e404' }),
+      regName: s.regName, onRegName: e => this.set({ regName: e.target.value }),
+      authEmail: s.email, onEmail: e => this.set({ email: e.target.value, authErr: '' }),
+      authPass: s.pass, onPass: e => this.set({ pass: e.target.value, authErr: '' }),
+      emailErr, passErr,
+      emailBorder: emailErr ? 'border:1px solid #A32B2B' : 'border:1px solid #C9C6C0',
+      passBorder: passErr ? 'border:1px solid #A32B2B' : 'border:1px solid #C9C6C0',
+      emailErrText: s.authErr === 'email-taken' ? 'Bu email allaqachon band. Kirishni sinab ko\u2019ring.' : 'Email manzilini to\u2019g\u2019ri kiriting.',
+      passErrText: s.authErr === 'pass-short' ? 'Parol kamida 8 belgidan iborat bo\u2019lishi kerak.' : 'Email yoki parol xato.',
+      authSubmit: doAuth,
+      authTelegram: () => this.set({ screen: 'onb', onb: 0 }),
+      authGoogle: () => this.set({ screen: 'onb', onb: 0 }),
+
+      onb0: s.onb === 0, onb1: s.onb === 1, onb2: s.onb === 2, onb3: s.onb === 3,
+      onbLast: s.onb === 3, onbNotLast: s.onb < 3, onbDots,
+      onbSubjects, onbLevels, onbTimes,
+      onbDate: s.onbDate, onOnbDate: e => this.set({ onbDate: e.target.value }),
+      onbNext: () => this.set({ onb: Math.min(3, s.onb + 1) }),
+      onbBack: () => (s.onb === 0 ? this.set({ screen: 'auth' }) : this.set({ onb: s.onb - 1 })),
+      finishOnb: () => this.set({ screen: 'dash', tab: 'home' }),
+      sumSubj: s.onbSubj === 'en' ? 'Ingliz tili' : 'Ona tili',
+      sumLevel: s.onbLevel,
+      sumDate: s.onbDate || '—',
+      sumTime: s.onbTime === 180 ? '3+ soat' : s.onbTime === 120 ? '2 soat' : s.onbTime === 60 ? '1 soat' : '30 daqiqa',
+
+      tgOn: s.tg, tgOff: !s.tg, toggleTg: () => this.set({ tg: !s.tg }),
+      langOpts: [{ k: 'uz', l: 'UZ' }, { k: 'en', l: 'EN' }].map(o => ({
+        label: o.l, style: seg(s.lang, o.k), pick: () => this.set({ lang: o.k })
+      })),
+      themeOpts: [{ k: 'light', l: 'Light' }, { k: 'dark', l: 'Dark' }, { k: 'auto', l: 'Auto' }].map(o => ({
+        label: o.l, style: seg(s.theme, o.k), pick: () => this.set({ theme: o.k })
+      })),
+
+      isCourses: s.screen === 'courses',
+      isCourse: s.screen === 'course',
+      isVocab: s.screen === 'vocab',
+      isFlash: s.screen === 'flash',
+      isPlan: s.screen === 'plan',
+      goCourses: () => this.set({ screen: 'courses', tab: 'courses' }),
+      goCourse: () => this.set({ screen: 'course', tab: 'courses' }),
+      goVocab: () => this.set({ screen: 'vocab', tab: 'vocab' }),
+      startFlash: () => this.set({ screen: 'flash', fi: 0, flipped: false, fgrades: [] }),
+      flip: () => this.set({ flipped: !s.flipped }),
+      flashRunning: !flashDone, flashDone,
+      flashFront: !s.flipped, flashBack: s.flipped,
+      flashPct: Math.round((Math.min(s.fi, 5) / 5) * 100) + '%',
+      flashLabel: Math.min(s.fi + 1, 5) + '/5',
+      word: card.w, phon: card.p, trans: card.t, def: card.d, exEn: card.en, exUz: card.uz,
+      grades,
+      knownCount: s.fgrades.filter(g => g >= 4).length,
+      hardCount: s.fgrades.filter(g => g === 3).length,
+      unknownCount: s.fgrades.filter(g => g === 0).length,
+      pathItems, planWeek, planMonth,
+      isMockStart: s.screen === 'mockstart',
+      isExam: isExam,
+      isGrading: s.screen === 'grading',
+      showTabs: ['dash', 'result', 'soon', 'mocks', 'courses', 'course', 'vocab', 'plan', 'profile'].indexOf(s.screen) >= 0,
+
+      subjTabs: [{ k: 'en', l: 'Ingliz tili' }, { k: 'uz', l: 'Ona tili' }].map(t => ({
+        label: t.l,
+        style: s.subj === t.k ? 'background:#14161A;color:#FBFAF7' : 'background:#FBFAF7;color:#4B5058',
+        pick: () => this.set({ subj: t.k })
+      })),
+      kindTabs: [{ k: 'full', l: "To'liq" }, { k: 'mini', l: 'Mini' }, { k: 'place', l: 'Placement' }].map(t => ({
+        label: t.l,
+        style: s.kind === t.k ? 'border:1px solid #14161A;color:#14161A' : 'border:1px solid #E4E1DA;color:#82878F',
+        pick: () => this.set({ kind: t.k })
+      })),
+      goMocks: () => this.set({ screen: 'mocks', tab: 'mocks' }),
+      goMockStart: () => this.set({ screen: 'mockstart', tab: 'mocks' }),
+      goExam: () => this.startSection(0),
+
+      secLabel: S.label, secName: S.name,
+      timerText: this.fmt(s.left),
+      timerColor: s.left < 300 ? '#F08A8A' : '#F6F4F0',
+      navItems,
+      exL: s.sec === 0, exR: s.sec === 1, exW: s.sec === 2, exS: s.sec === 3,
+      lqNum: String(s.lq), lqText: lCur.t, lOpts,
+      prevQ: () => this.set({ lq: Math.max(1, s.lq - 1) }),
+      nextQ: () => this.set({ lq: Math.min(35, s.lq + 1) }),
+      flagQ: () => this.set({ flags: Object.assign({}, s.flags, { [s.lq]: !s.flags[s.lq] }) }),
+      flagLabel: s.flags[s.lq] ? 'Belgi olindi' : 'Belgilash',
+      playAudio: () => (s.audioPlayed && !s.audioPlaying ? null : this.set({ audioPlaying: !s.audioPlaying, audioPlayed: true })),
+      audioIcon: s.audioPlaying ? '❙❙' : '▶',
+      audioNote: s.audioPlayed ? 'Bir marta ijro etildi' : 'Faqat bir marta eshitiladi',
+      audioPct: Math.min(100, Math.round((s.audioAt / 260) * 100)) + '%',
+      audioTime: this.fmt(s.audioAt),
+      togglePassage: () => this.set({ passOpen: !s.passOpen }),
+      passOpen: s.passOpen, passMark: s.passOpen ? '−' : '+',
+      r1: rOpts(36), r2: rOpts(37), r3: rOpts(38),
+      w2: s.w2, w2count, w2Color: w2count < 120 ? '#A32B2B' : '#1E6B4F',
+      onW2: e => this.set({ w2: e.target.value }),
+      spIdle: s.spPhase === 'idle', spPrep: s.spPhase === 'prep',
+      spRec: s.spPhase === 'rec', spDone: s.spPhase === 'done',
+      spLeftText: this.fmt(s.spLeft),
+      prepOffset: String(364 - 364 * (s.spLeft / 60)),
+      startPrep: () => this.set({ spPhase: 'prep', spLeft: 60 }),
+      stopRec: () => this.set({ spPhase: 'done', spLeft: 0 }),
+      waves,
+      submitLabel: lastSection ? 'Imtihonni topshirish' : "Bo'limni yakunlash",
+      askSubmit: () => this.set({ showSubmit: true }),
+      showSubmit: s.showSubmit,
+      submitTitle: lastSection ? 'Imtihonni topshirasizmi?' : S.name + " bo'limini yakunlaysizmi?",
+      submitBody: lastSection
+        ? 'Barcha javoblar baholashga yuboriladi. Writing va Speaking AI tahlili 1-2 daqiqada tayyor bo\u2019ladi.'
+        : 'Yakunlagandan keyin bu bo\u2019limga qaytib bo\u2019lmaydi. Qolgan vaqt keyingi bo\u2019limga o\u2019tmaydi.',
+      submitConfirmLabel: lastSection ? 'Ha, topshirish' : 'Ha, yakunlash',
+      cancelSubmit: () => this.set({ showSubmit: false }),
+      confirmSubmit: () => (lastSection
+        ? this.set({ screen: 'grading', showSubmit: false, gradeStep: 0 })
+        : this.startSection(s.sec + 1)),
+      gradeRows,
+      isNew: newUser, isReturning: !newUser, showGame,
+      examDays: p.examDays ?? 142,
+      ringOffset: String(157 - 157 * (25 / 60)),
+      week, heat,
+
+      goDash: () => this.set({ screen: 'dash', tab: 'home', showFinish: false }),
+      goHome: () => this.set({ screen: 'dash', tab: 'home' }),
+      goLesson: () => this.set({ screen: 'lesson', step: 0 }),
+      goResult: () => this.set({ screen: 'result', tab: 'mocks', rtab: 'lr' }),
+      tabHome: () => this.set({ screen: 'dash', tab: 'home' }),
+      tabCourses: () => this.set({ screen: 'courses', tab: 'courses' }),
+      tabMocks: () => this.set({ screen: 'mocks', tab: 'mocks' }),
+      tabVocab: () => this.set({ screen: 'vocab', tab: 'vocab' }),
+      tabPlan: () => this.set({ screen: 'plan', tab: 'plan' }),
+      cHome: tabColor('home'), cCourses: tabColor('courses'), cMocks: tabColor('mocks'),
+      cVocab: tabColor('vocab'), cPlan: tabColor('plan'),
+      soonTitle,
+
+      faq0: () => this.set({ faq: s.faq === 0 ? -1 : 0 }),
+      faq1: () => this.set({ faq: s.faq === 1 ? -1 : 1 }),
+      faq2: () => this.set({ faq: s.faq === 2 ? -1 : 2 }),
+      faq3: () => this.set({ faq: s.faq === 3 ? -1 : 3 }),
+      faqOpen0: s.faq === 0, faqOpen1: s.faq === 1, faqOpen2: s.faq === 2, faqOpen3: s.faq === 3,
+      faqMark0: s.faq === 0 ? '−' : '+', faqMark1: s.faq === 1 ? '−' : '+',
+      faqMark2: s.faq === 2 ? '−' : '+', faqMark3: s.faq === 3 ? '−' : '+',
+
+      at0: step === 0, at1: step === 1, at2: step === 2, at3: step === 3, at4: step === 4,
+      at5: step === 5, at6: step === 6, at7: step === 7, at8: step === 8,
+      stepLabel: 'Blok ' + (step + 1) + '/' + totalSteps,
+      lessonPct: Math.round(((step + 1) / totalSteps) * 100) + '%',
+      prevStep: () => (step === 0 ? this.set({ screen: 'dash' }) : this.set({ step: step - 1 })),
+      footerLabel, footerEnabled: enabled, footerDisabled: !enabled, footerAction: action,
+
+      mcqOpts, mcqChecked: s.mcqChecked,
+      mcqVerdict: s.mcq === mcqCorrect ? "To'g'ri" : 'Xato',
+      tfOpts, tfChecked: s.tfChecked,
+      tfVerdict: s.tf === 0 ? "To'g'ri" : 'Xato',
+      gapVal: s.gap, gapChecked: s.gapChecked,
+      gapVerdict: this.gapOk() ? "To'g'ri" : 'Xato',
+      onGap: e => this.set({ gap: e.target.value }),
+      wtext: s.wtext, wcount,
+      wcColor: wcount < 60 ? '#A32B2B' : '#1E6B4F',
+      onW: e => this.set({ wtext: e.target.value }),
+      aiPending: s.aiPending, aiDone: s.aiDone,
+
+      showFinish: s.showFinish,
+      finalPct: Math.round((correctCount / 4) * 100) + '%',
+
+      rtabs, rLR: s.rtab === 'lr', rW: s.rtab === 'w', rS: s.rtab === 's', lrRows,
+      togglePlay: () => this.set({ playing: !s.playing }),
+      playIcon: s.playing ? '❙❙' : '▶',
+      playPct: s.playing ? '48%' : '0%',
+      playTime: s.playing ? '0:54' : '0:00'
+    };
+  }
+}
+</script>
+</body>
+</html>

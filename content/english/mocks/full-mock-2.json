@@ -25,15 +25,144 @@
             "transcript": "Dialogue 1.\nW: Good morning, Silk Road Hotel. How can I help you?\nM: Hello, I'd like to book a room for the fifth of May, please. A double room.\nW: Certainly, sir. One double room for the fifth of May.\nM: Actually, sorry — my colleague is travelling with me, so we'd better have a twin room, with two separate beds.\nW: No problem at all. A twin room for the fifth of May. That's sixty dollars a night, breakfast included.\n\nDialogue 2.\nM: Good afternoon, City Clinic. How can I help?\nW: Hello, I'd like to see Dr Alimova, please. Is she free on Tuesday afternoon?\nM: Let me check... Yes, she has a free appointment at three o'clock on Tuesday.\nW: Oh dear, I work until five on Tuesdays. Is there anything on Wednesday morning?\nM: There's a free slot at ten o'clock on Wednesday.\nW: Perfect, I'll take that one. Thank you.\n\nDialogue 3.\nM: You look worried. What's wrong?\nW: I can't find my phone anywhere! I think I left it in the taxi this morning.\nM: Did you call the taxi company?\nW: I was about to, but wait... actually, I remember using it at the café when I paid for my coffee. I must have left it on the table there.\nM: Then let's ring the café right now — someone has probably handed it in.\n\nDialogue 4.\nM: Hi, how much is a monthly membership at this gym?\nW: It's normally three hundred thousand som a month, and that includes the swimming pool.\nM: Hmm, that's a bit expensive for me. I'm a university student.\nW: Oh, in that case you get our student discount — you'd only pay two hundred thousand som a month.\nM: Great, I'll sign up today then.\n\nDialogue 5.\nW: Excuse me, is the two o'clock train to Bukhara on time?\nM: I'm afraid not, madam. There was a problem on the line, so at first they announced a delay of twenty minutes.\nW: Twenty minutes? That's not too bad.\nM: Well, actually, they've just announced that it will now leave forty minutes late, at twenty to three.\nW: Forty minutes! I'd better go and get some tea, then.\n\nDialogue 6.\nM: It's Nilufar's birthday on Friday. What should we get her?\nW: How about a nice scarf? She loves fashion.\nM: She got three scarves last year. What about a book?\nW: Hmm, she mostly listens to audiobooks these days. Actually, you know her old headphones are broken — let's buy her a good pair of headphones.\nM: Perfect idea. She'll use them every single day.\n\nDialogue 7.\nW: Are we still having the picnic on Saturday?\nM: I've just checked the forecast — heavy rain all day on Saturday, I'm afraid.\nW: Oh no. What about Sunday?\nM: Sunday looks sunny and warm, about twenty-five degrees.\nW: Then let's move the picnic to Sunday and go to the cinema on Saturday instead.\nM: Sounds like a plan.\n\nDialogue 8.\nW: Are you ready to order, sir?\nM: Yes, I'd like the lagman, please.\nW: I'm very sorry, but the lagman is finished for today. The plov is excellent, though — it's just been made.\nM: All right, I'll have the plov then, and a fresh salad on the side.\nW: Certainly. And to drink?\nM: Just green tea, please."
           },
           "questions": [
-            { "number": 1, "type": "MCQ_SINGLE", "promptEn": "What type of room does the man book?", "data": { "options": ["A double room", "A twin room", "A single room", "A family room"] }, "answer": { "value": "A twin room" }, "points": 1 },
-            { "number": 2, "type": "MCQ_SINGLE", "promptEn": "When will the woman see the doctor?", "data": { "options": ["On Tuesday at 3 pm", "On Wednesday at 10 am", "On Tuesday at 5 pm", "On Wednesday at 3 pm"] }, "answer": { "value": "On Wednesday at 10 am" }, "points": 1 },
-            { "number": 3, "type": "MCQ_SINGLE", "promptEn": "Where did the woman most probably leave her phone?", "data": { "options": ["In the taxi", "At the café", "At her office", "On the bus"] }, "answer": { "value": "At the café" }, "points": 1 },
-            { "number": 4, "type": "MCQ_SINGLE", "promptEn": "How much will the man pay for the gym each month?", "data": { "options": ["300,000 som", "200,000 som", "100,000 som", "250,000 som"] }, "answer": { "value": "200,000 som" }, "points": 1 },
-            { "number": 5, "type": "MCQ_SINGLE", "promptEn": "How late will the train to Bukhara leave?", "data": { "options": ["20 minutes late", "40 minutes late", "One hour late", "It is on time"] }, "answer": { "value": "40 minutes late" }, "points": 1 },
-            { "number": 6, "type": "MCQ_SINGLE", "promptEn": "What will the speakers buy for Nilufar's birthday?", "data": { "options": ["A scarf", "A book", "Headphones", "An audiobook"] }, "answer": { "value": "Headphones" }, "points": 1 },
-            { "number": 7, "type": "MCQ_SINGLE", "promptEn": "When will the speakers have their picnic?", "data": { "options": ["On Saturday", "On Sunday", "Next weekend", "They have cancelled it"] }, "answer": { "value": "On Sunday" }, "points": 1 },
-            { "number": 8, "type": "MCQ_SINGLE", "promptEn": "What will the man eat as his main dish?", "data": { "options": ["Lagman", "Plov", "Only a salad", "Samsa"] }, "answer": { "value": "Plov" }, "points": 1 }
-          ]
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What type of room does the man book?",
+              "data": {
+                "options": [
+                  "A double room",
+                  "A twin room",
+                  "A single room",
+                  "A family room"
+                ]
+              },
+              "answer": {
+                "value": "A twin room"
+              },
+              "points": 1
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptEn": "When will the woman see the doctor?",
+              "data": {
+                "options": [
+                  "On Tuesday at 3 pm",
+                  "On Wednesday at 10 am",
+                  "On Tuesday at 5 pm",
+                  "On Wednesday at 3 pm"
+                ]
+              },
+              "answer": {
+                "value": "On Wednesday at 10 am"
+              },
+              "points": 1
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Where did the woman most probably leave her phone?",
+              "data": {
+                "options": [
+                  "In the taxi",
+                  "At the café",
+                  "At her office",
+                  "On the bus"
+                ]
+              },
+              "answer": {
+                "value": "At the café"
+              },
+              "points": 1
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How much will the man pay for the gym each month?",
+              "data": {
+                "options": [
+                  "300,000 som",
+                  "200,000 som",
+                  "100,000 som",
+                  "250,000 som"
+                ]
+              },
+              "answer": {
+                "value": "200,000 som"
+              },
+              "points": 1
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How late will the train to Bukhara leave?",
+              "data": {
+                "options": [
+                  "20 minutes late",
+                  "40 minutes late",
+                  "One hour late",
+                  "It is on time"
+                ]
+              },
+              "answer": {
+                "value": "40 minutes late"
+              },
+              "points": 1
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What will the speakers buy for Nilufar's birthday?",
+              "data": {
+                "options": [
+                  "A scarf",
+                  "A book",
+                  "Headphones",
+                  "An audiobook"
+                ]
+              },
+              "answer": {
+                "value": "Headphones"
+              },
+              "points": 1
+            },
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptEn": "When will the speakers have their picnic?",
+              "data": {
+                "options": [
+                  "On Saturday",
+                  "On Sunday",
+                  "Next weekend",
+                  "They have cancelled it"
+                ]
+              },
+              "answer": {
+                "value": "On Sunday"
+              },
+              "points": 1
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What will the man eat as his main dish?",
+              "data": {
+                "options": [
+                  "Lagman",
+                  "Plov",
+                  "Only a salad",
+                  "Samsa"
+                ]
+              },
+              "answer": {
+                "value": "Plov"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-2-part1.mp3"
         },
         {
           "order": 1,
@@ -45,13 +174,100 @@
             "transcript": "Announcement 1 — Airport.\nGood afternoon, passengers. This is an announcement for Uzbekistan Airways flight HY-273 to Istanbul. Please note a gate change: this flight will now board at gate 25 — that is gate two-five — not gate 12 as printed on your boarding passes. Boarding will begin at 13:50, and the gate will close twenty minutes before departure. May we remind all passengers that only one piece of hand luggage weighing up to 8 kilograms is allowed in the cabin. Larger bags must be checked in at the desk. Thank you.\n\nTalk 2 — City tour guide.\nGood morning, everyone, and welcome to Samarkand! My name is Kamola and I'll be your guide today. Our city tour begins at 9:30 sharp, so please don't be late — we leave from the hotel lobby, not from the car park. We'll start at the famous Registan Square, then walk through the Siyob Bazaar, and after lunch we'll visit the observatory of Ulugh Beg. The weather is going to be very hot today, so please bring a bottle of water and a hat — you'll really need them. The full-day tour costs 40 dollars per person, and that price includes lunch and all entrance tickets. We'll be back at the hotel by six o'clock in the evening. Right — any questions before we set off?"
           },
           "questions": [
-            { "number": 9, "type": "GAP_FILL", "promptEn": "Flight HY-273 will now board at gate ____.", "promptUz": "HY-273 reysi endi ____-darvozadan chiqadi.", "data": {}, "answer": { "accept": ["25", "twenty-five", "twenty five", "gate 25"] }, "points": 1 },
-            { "number": 10, "type": "GAP_FILL", "promptEn": "Boarding will begin at ____.", "promptUz": "Bortga chiqish ____ da boshlanadi.", "data": {}, "answer": { "accept": ["13:50", "13.50", "1350", "1:50", "ten to two"] }, "points": 1 },
-            { "number": 11, "type": "GAP_FILL", "promptEn": "Passengers may take one piece of hand luggage weighing up to ____ kilograms.", "promptUz": "Yo'lovchilar og'irligi ____ kilogrammgacha bo'lgan bitta qo'l yukini olishlari mumkin.", "data": {}, "answer": { "accept": ["8", "eight"] }, "points": 1 },
-            { "number": 12, "type": "GAP_FILL", "promptEn": "The city tour starts at ____ and leaves from the hotel lobby.", "promptUz": "Shahar ekskursiyasi ____ da boshlanadi va mehmonxona vestibyulidan jo'naydi.", "data": {}, "answer": { "accept": ["9:30", "9.30", "930", "half past nine", "nine thirty"] }, "points": 1 },
-            { "number": 13, "type": "GAP_FILL", "promptEn": "Because of the hot weather, tourists should bring a bottle of water and a ____.", "promptUz": "Issiq havo tufayli sayyohlar bir shisha suv va ____ olib kelishlari kerak.", "data": {}, "answer": { "accept": ["hat", "a hat"] }, "points": 1 },
-            { "number": 14, "type": "GAP_FILL", "promptEn": "The full-day tour costs ____ dollars, including lunch and entrance tickets.", "promptUz": "To'liq kunlik ekskursiya narxi ____ dollar bo'lib, tushlik va kirish chiptalarini o'z ichiga oladi.", "data": {}, "answer": { "accept": ["40", "forty"] }, "points": 1 }
-          ]
+            {
+              "number": 9,
+              "type": "GAP_FILL",
+              "promptEn": "Flight HY-273 will now board at gate ____.",
+              "promptUz": "HY-273 reysi endi ____-darvozadan chiqadi.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "25",
+                  "twenty-five",
+                  "twenty five",
+                  "gate 25"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 10,
+              "type": "GAP_FILL",
+              "promptEn": "Boarding will begin at ____.",
+              "promptUz": "Bortga chiqish ____ da boshlanadi.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "13:50",
+                  "13.50",
+                  "1350",
+                  "1:50",
+                  "ten to two"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 11,
+              "type": "GAP_FILL",
+              "promptEn": "Passengers may take one piece of hand luggage weighing up to ____ kilograms.",
+              "promptUz": "Yo'lovchilar og'irligi ____ kilogrammgacha bo'lgan bitta qo'l yukini olishlari mumkin.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "8",
+                  "eight"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 12,
+              "type": "GAP_FILL",
+              "promptEn": "The city tour starts at ____ and leaves from the hotel lobby.",
+              "promptUz": "Shahar ekskursiyasi ____ da boshlanadi va mehmonxona vestibyulidan jo'naydi.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "9:30",
+                  "9.30",
+                  "930",
+                  "half past nine",
+                  "nine thirty"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 13,
+              "type": "GAP_FILL",
+              "promptEn": "Because of the hot weather, tourists should bring a bottle of water and a ____.",
+              "promptUz": "Issiq havo tufayli sayyohlar bir shisha suv va ____ olib kelishlari kerak.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "hat",
+                  "a hat"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 14,
+              "type": "GAP_FILL",
+              "promptEn": "The full-day tour costs ____ dollars, including lunch and entrance tickets.",
+              "promptUz": "To'liq kunlik ekskursiya narxi ____ dollar bo'lib, tushlik va kirish chiptalarini o'z ichiga oladi.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "40",
+                  "forty"
+                ]
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-2-part2.mp3"
         },
         {
           "order": 2,
@@ -63,11 +279,76 @@
             "transcript": "M: Hi Malika, you look deep in thought. What's up?\nW: Hi Timur. I have to submit my university application by Friday, and I still can't decide between economics and computer science.\nM: Really? I thought you'd already chosen economics. Your father is an economist, isn't he?\nW: He is, and at first I simply wanted to follow in his footsteps. But last month I took part in a two-week programming camp, and honestly, I loved every minute of it. That's when I realised computer science suits me much better.\nM: Fair enough. What about the job market, though?\nW: That's actually another reason. The IT park in our city works with foreign companies, and they hire hundreds of graduates every year. Several of my friends who finished economics spent almost a year looking for their first job.\nM: That's a strong argument. Have you talked to anyone at the university about the course itself?\nW: Not yet. I was planning to email the admissions office this week.\nM: Emails take ages, and the answers are always so general. You know, the university is holding an open day this Friday. Why don't we go together? You can meet the computer science professors, and I want to have a look at the engineering department anyway.\nW: That's a brilliant idea. Let's meet at the main gate at ten o'clock.\nM: Deal. And bring your questions written down, so you don't forget anything.\nW: Good thinking. Thanks, Timur — I feel much better about this now."
           },
           "questions": [
-            { "number": 15, "type": "MCQ_SINGLE", "promptEn": "What is the woman's problem?", "data": { "options": ["She has missed the application deadline", "She cannot choose between two courses", "She has failed an economics exam", "She does not want to go to university"] }, "answer": { "value": "She cannot choose between two courses" }, "points": 1 },
-            { "number": 16, "type": "MCQ_SINGLE", "promptEn": "Why did the woman originally think about studying economics?", "data": { "options": ["Her father works in that field", "It offers the highest salaries", "Her best friend studies it", "It is easier than computer science"] }, "answer": { "value": "Her father works in that field" }, "points": 1 },
-            { "number": 17, "type": "MCQ_SINGLE", "promptEn": "What made the woman change her mind about her future course?", "data": { "options": ["A television programme about IT", "A two-week programming camp", "A conversation with a professor", "A visit to the IT park"] }, "answer": { "value": "A two-week programming camp" }, "points": 1 },
-            { "number": 18, "type": "MCQ_SINGLE", "promptEn": "What do the students decide to do on Friday?", "data": { "options": ["Email the admissions office together", "Go to the university open day", "Visit the IT park", "Meet the woman's father"] }, "answer": { "value": "Go to the university open day" }, "points": 1 }
-          ]
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the woman's problem?",
+              "data": {
+                "options": [
+                  "She has missed the application deadline",
+                  "She cannot choose between two courses",
+                  "She has failed an economics exam",
+                  "She does not want to go to university"
+                ]
+              },
+              "answer": {
+                "value": "She cannot choose between two courses"
+              },
+              "points": 1
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why did the woman originally think about studying economics?",
+              "data": {
+                "options": [
+                  "Her father works in that field",
+                  "It offers the highest salaries",
+                  "Her best friend studies it",
+                  "It is easier than computer science"
+                ]
+              },
+              "answer": {
+                "value": "Her father works in that field"
+              },
+              "points": 1
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What made the woman change her mind about her future course?",
+              "data": {
+                "options": [
+                  "A television programme about IT",
+                  "A two-week programming camp",
+                  "A conversation with a professor",
+                  "A visit to the IT park"
+                ]
+              },
+              "answer": {
+                "value": "A two-week programming camp"
+              },
+              "points": 1
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What do the students decide to do on Friday?",
+              "data": {
+                "options": [
+                  "Email the admissions office together",
+                  "Go to the university open day",
+                  "Visit the IT park",
+                  "Meet the woman's father"
+                ]
+              },
+              "answer": {
+                "value": "Go to the university open day"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-2-part3.mp3"
         },
         {
           "order": 3,
@@ -79,12 +360,93 @@
             "transcript": "W: Good evening, listeners, and welcome back to Business Voices. Today in our studio we have Jasur Rakhimov, who at just twenty-four runs one of the most popular coffee shops in Tashkent. Jasur, welcome to the programme.\nM: Thank you for inviting me. It's a pleasure to be here.\nW: Let's start at the beginning. Where did the idea for your coffee shop come from?\nM: Well, during my third year at university I spent two semesters in Seoul, in South Korea, as an exchange student, and I worked part-time as a barista there. I noticed that coffee shops in Korea were not just places to drink coffee — people studied there, worked there, met their friends there. I fell in love with that culture and I wanted to bring it home to Tashkent.\nW: Many people believe the hardest part of starting a business is finding the money. Was that true for you?\nM: Surprisingly, no. I received a young entrepreneurs' loan from the bank quite quickly — the paperwork took only three weeks. The real difficulty was finding the right location. I must have looked at more than thirty places over four months before I finally found a corner building near the university.\nW: And how did you attract your very first customers?\nM: We had almost no money left for advertising, so I simply started posting short videos on social media, showing exactly how we roast our beans and make our drinks. One of those videos got over a million views, and the next morning there was a queue outside the door before we even opened.\nW: That's incredible. I've also heard your café is a little unusual. Tell us about that.\nM: Yes — every Wednesday evening we hold a free English speaking club. Students practise with volunteers, and of course they usually buy a coffee or two while they're there. It brings the community together, and honestly, it has turned out to be the best advertising we've ever had.\nW: So what's next for Jasur Rakhimov?\nM: Next spring we're opening our second branch — not in Tashkent, but in Samarkand. My dream is to have a café in every big city of Uzbekistan one day.\nW: We wish you luck. That was Jasur Rakhimov, everyone."
           },
           "questions": [
-            { "number": 19, "type": "MCQ_SINGLE", "promptEn": "Where did Jasur get the idea for his coffee shop?", "data": { "options": ["During a holiday in Turkey", "While working as a barista in South Korea", "From a business course at university", "From his parents' restaurant"] }, "answer": { "value": "While working as a barista in South Korea" }, "points": 1 },
-            { "number": 20, "type": "MCQ_SINGLE", "promptEn": "What was Jasur's biggest problem when starting his business?", "data": { "options": ["Borrowing money from the bank", "Finding a suitable location", "Hiring experienced staff", "Getting a business licence"] }, "answer": { "value": "Finding a suitable location" }, "points": 1 },
-            { "number": 21, "type": "MCQ_SINGLE", "promptEn": "How did Jasur attract his first customers?", "data": { "options": ["With advertisements in newspapers", "With videos on social media", "With big opening discounts", "With a radio advertising campaign"] }, "answer": { "value": "With videos on social media" }, "points": 1 },
-            { "number": 22, "type": "MCQ_SINGLE", "promptEn": "What happens at the café every Wednesday evening?", "data": { "options": ["A live music concert", "A free English speaking club", "A coffee-making masterclass", "A student discount evening"] }, "answer": { "value": "A free English speaking club" }, "points": 1 },
-            { "number": 23, "type": "MCQ_SINGLE", "promptEn": "What is Jasur planning to do next spring?", "data": { "options": ["Open a second branch in Samarkand", "Move his café to Seoul", "Sell his business", "Open a school for baristas"] }, "answer": { "value": "Open a second branch in Samarkand" }, "points": 1 }
-          ]
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Where did Jasur get the idea for his coffee shop?",
+              "data": {
+                "options": [
+                  "During a holiday in Turkey",
+                  "While working as a barista in South Korea",
+                  "From a business course at university",
+                  "From his parents' restaurant"
+                ]
+              },
+              "answer": {
+                "value": "While working as a barista in South Korea"
+              },
+              "points": 1
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What was Jasur's biggest problem when starting his business?",
+              "data": {
+                "options": [
+                  "Borrowing money from the bank",
+                  "Finding a suitable location",
+                  "Hiring experienced staff",
+                  "Getting a business licence"
+                ]
+              },
+              "answer": {
+                "value": "Finding a suitable location"
+              },
+              "points": 1
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How did Jasur attract his first customers?",
+              "data": {
+                "options": [
+                  "With advertisements in newspapers",
+                  "With videos on social media",
+                  "With big opening discounts",
+                  "With a radio advertising campaign"
+                ]
+              },
+              "answer": {
+                "value": "With videos on social media"
+              },
+              "points": 1
+            },
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What happens at the café every Wednesday evening?",
+              "data": {
+                "options": [
+                  "A live music concert",
+                  "A free English speaking club",
+                  "A coffee-making masterclass",
+                  "A student discount evening"
+                ]
+              },
+              "answer": {
+                "value": "A free English speaking club"
+              },
+              "points": 1
+            },
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is Jasur planning to do next spring?",
+              "data": {
+                "options": [
+                  "Open a second branch in Samarkand",
+                  "Move his café to Seoul",
+                  "Sell his business",
+                  "Open a school for baristas"
+                ]
+              },
+              "answer": {
+                "value": "Open a second branch in Samarkand"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-2-part4.mp3"
         },
         {
           "order": 4,
@@ -96,13 +458,97 @@
             "transcript": "Good morning, everyone, and thank you for coming to this short talk about the changes at the Central City Library. My name is Mrs Yusupova and I'm the head librarian here.\n\nFirst of all, our opening hours. Many of you told us that you simply couldn't visit after work, so I'm happy to say that from the first of next month the library will stay open until nine o'clock in the evening, Monday to Saturday. On Sundays we will still close at five, as before.\n\nSecond, I'm delighted to announce our brand-new mobile app, called CityReads. With the app, members can borrow up to five e-books at a time without visiting the building at all. The books return themselves automatically after two weeks, so there are no late fees — ever.\n\nThird, we have opened six new study rooms upstairs. They are completely free of charge, but because they are already very popular, the rooms must be booked online — please note that you cannot reserve them by phone or at the front desk.\n\nNow, something for families. Our children's reading club has moved from Wednesday afternoons and now meets every Saturday at eleven o'clock, run by our wonderful volunteer teachers. Children aged five to ten are welcome.\n\nWe have also improved our printing service. Printing now costs five hundred som per page for black and white, and two thousand som per page for colour.\n\nFinally, if you are not a member yet, joining is completely free. Just bring your passport, and we will print your library card for you in about five minutes. Thank you very much — and now, are there any questions?"
           },
           "questions": [
-            { "number": 24, "type": "GAP_FILL", "promptEn": "From next month, the library will stay open until ____ in the evening, Monday to Saturday.", "promptUz": "Kelasi oydan boshlab kutubxona dushanbadan shanbagacha kechki ____ gacha ochiq bo'ladi.", "data": {}, "answer": { "accept": ["9 o'clock", "nine o'clock", "9", "nine", "9 pm"] }, "points": 1 },
-            { "number": 25, "type": "GAP_FILL", "promptEn": "With the CityReads app, members can borrow up to five ____ at a time.", "promptUz": "CityReads ilovasi orqali a'zolar bir vaqtda beshtagacha ____ olishlari mumkin.", "data": {}, "answer": { "accept": ["e-books", "ebooks", "e books", "electronic books"] }, "points": 1 },
-            { "number": 26, "type": "GAP_FILL", "promptEn": "The new study rooms are free, but they must be booked ____.", "promptUz": "Yangi o'quv xonalari bepul, lekin ularni ____ band qilish kerak.", "data": {}, "answer": { "accept": ["online"] }, "points": 1 },
-            { "number": 27, "type": "GAP_FILL", "promptEn": "The children's reading club now meets every ____ at 11 o'clock.", "promptUz": "Bolalar kitobxonlik klubi endi har ____ kuni soat 11 da yig'iladi.", "data": {}, "answer": { "accept": ["Saturday", "saturday"] }, "points": 1 },
-            { "number": 28, "type": "GAP_FILL", "promptEn": "Black-and-white printing costs ____ som per page.", "promptUz": "Oq-qora chop etish har bir sahifa uchun ____ so'm turadi.", "data": {}, "answer": { "accept": ["500", "five hundred"] }, "points": 1 },
-            { "number": 29, "type": "GAP_FILL", "promptEn": "To become a member, you only need to bring your ____.", "promptUz": "A'zo bo'lish uchun faqat ____ olib kelishingiz kifoya.", "data": {}, "answer": { "accept": ["passport", "a passport", "your passport"] }, "points": 1 }
-          ]
+            {
+              "number": 24,
+              "type": "GAP_FILL",
+              "promptEn": "From next month, the library will stay open until ____ in the evening, Monday to Saturday.",
+              "promptUz": "Kelasi oydan boshlab kutubxona dushanbadan shanbagacha kechki ____ gacha ochiq bo'ladi.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "9 o'clock",
+                  "nine o'clock",
+                  "9",
+                  "nine",
+                  "9 pm"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 25,
+              "type": "GAP_FILL",
+              "promptEn": "With the CityReads app, members can borrow up to five ____ at a time.",
+              "promptUz": "CityReads ilovasi orqali a'zolar bir vaqtda beshtagacha ____ olishlari mumkin.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "e-books",
+                  "ebooks",
+                  "e books",
+                  "electronic books"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 26,
+              "type": "GAP_FILL",
+              "promptEn": "The new study rooms are free, but they must be booked ____.",
+              "promptUz": "Yangi o'quv xonalari bepul, lekin ularni ____ band qilish kerak.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "online"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 27,
+              "type": "GAP_FILL",
+              "promptEn": "The children's reading club now meets every ____ at 11 o'clock.",
+              "promptUz": "Bolalar kitobxonlik klubi endi har ____ kuni soat 11 da yig'iladi.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "Saturday",
+                  "saturday"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 28,
+              "type": "GAP_FILL",
+              "promptEn": "Black-and-white printing costs ____ som per page.",
+              "promptUz": "Oq-qora chop etish har bir sahifa uchun ____ so'm turadi.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "500",
+                  "five hundred"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 29,
+              "type": "GAP_FILL",
+              "promptEn": "To become a member, you only need to bring your ____.",
+              "promptUz": "A'zo bo'lish uchun faqat ____ olib kelishingiz kifoya.",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "passport",
+                  "a passport",
+                  "your passport"
+                ]
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-2-part5.mp3"
         },
         {
           "order": 5,
@@ -114,13 +560,110 @@
             "transcript": "Good afternoon, everyone. In today's lecture we're going to look at the history of the Silk Road — perhaps the most famous trade network in human history.\n\nFirst of all, despite its name, the Silk Road was not a single road at all. It was a vast network of routes, stretching for more than six thousand kilometres, which connected China with the Mediterranean world for roughly one and a half thousand years. Merchants rarely travelled the whole distance; instead, goods changed hands many times along the way.\n\nInterestingly, the name itself is surprisingly modern. It was invented not by the traders who used the routes, but by a German geographer, Ferdinand von Richthofen, in the nineteenth century — hundreds of years after the routes had lost their importance.\n\nSilk, of course, was the most famous product carried west from China. But merchants also traded paper, spices, glass, silver and horses. Paper is a particularly good example: the secret of paper-making travelled from China through Samarkand, and from there it eventually reached Europe, changing the history of knowledge forever.\n\nHowever — and this is the key point of today's lecture — the Silk Road carried far more than goods. Religions such as Buddhism and Islam, together with scientific ideas, artistic styles, music and even new foods, spread along exactly the same routes. In that sense, you could call the Silk Road the internet of the ancient world: it connected distant cultures and let ideas travel as fast as camels could walk.\n\nCities such as Samarkand and Bukhara grew enormously rich because of their position on these routes. Caravans of camels needed food, water, fresh animals and safe places to rest, and these cities provided everything a tired merchant could possibly want. Their bazaars became legendary across three continents.\n\nSo why did it all come to an end? From the fifteenth and sixteenth centuries onwards, European ships began sailing directly to India and China. Transporting goods by sea was simply cheaper and safer than the long journey across mountains and deserts, and slowly the great overland routes lost their traffic, and the caravan cities lost their wealth.\n\nNext week, we'll look at how modern railway projects are trying to revive these ancient connections. Thank you."
           },
           "questions": [
-            { "number": 30, "type": "MCQ_SINGLE", "promptEn": "According to the lecturer, what exactly was the Silk Road?", "data": { "options": ["A single paved road built by China", "A network of many connected trade routes", "A railway between Europe and Asia", "A road used only for transporting silk"] }, "answer": { "value": "A network of many connected trade routes" }, "points": 1 },
-            { "number": 31, "type": "MCQ_SINGLE", "promptEn": "Where does the name \"Silk Road\" come from?", "data": { "options": ["Chinese merchants invented it", "It was created by a 19th-century German geographer", "It appears in Marco Polo's travel diary", "Traders in Samarkand first used it"] }, "answer": { "value": "It was created by a 19th-century German geographer" }, "points": 1 },
-            { "number": 32, "type": "MCQ_SINGLE", "promptEn": "What does the lecturer say about paper?", "data": { "options": ["It was invented in Samarkand", "Its production method spread from China to Europe", "It was more expensive than silk", "European merchants refused to buy it"] }, "answer": { "value": "Its production method spread from China to Europe" }, "points": 1 },
-            { "number": 33, "type": "MCQ_SINGLE", "promptEn": "Why does the lecturer call the Silk Road \"the internet of the ancient world\"?", "data": { "options": ["It spread ideas and cultures as well as goods", "It was the fastest transport system of its time", "It connected every country in the world", "Merchants used it to send written messages"] }, "answer": { "value": "It spread ideas and cultures as well as goods" }, "points": 1 },
-            { "number": 34, "type": "MCQ_SINGLE", "promptEn": "Why did cities like Samarkand and Bukhara become wealthy?", "data": { "options": ["They produced their own silk", "They provided everything passing merchants needed", "They built large sea ports", "They collected taxes from local farmers"] }, "answer": { "value": "They provided everything passing merchants needed" }, "points": 1 },
-            { "number": 35, "type": "MCQ_SINGLE", "promptEn": "What caused the decline of the Silk Road?", "data": { "options": ["Wars destroyed the main caravan cities", "Sea transport became cheaper and safer", "China stopped producing silk", "The climate became too dry for camels"] }, "answer": { "value": "Sea transport became cheaper and safer" }, "points": 1 }
-          ]
+            {
+              "number": 30,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the lecturer, what exactly was the Silk Road?",
+              "data": {
+                "options": [
+                  "A single paved road built by China",
+                  "A network of many connected trade routes",
+                  "A railway between Europe and Asia",
+                  "A road used only for transporting silk"
+                ]
+              },
+              "answer": {
+                "value": "A network of many connected trade routes"
+              },
+              "points": 1
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Where does the name \"Silk Road\" come from?",
+              "data": {
+                "options": [
+                  "Chinese merchants invented it",
+                  "It was created by a 19th-century German geographer",
+                  "It appears in Marco Polo's travel diary",
+                  "Traders in Samarkand first used it"
+                ]
+              },
+              "answer": {
+                "value": "It was created by a 19th-century German geographer"
+              },
+              "points": 1
+            },
+            {
+              "number": 32,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the lecturer say about paper?",
+              "data": {
+                "options": [
+                  "It was invented in Samarkand",
+                  "Its production method spread from China to Europe",
+                  "It was more expensive than silk",
+                  "European merchants refused to buy it"
+                ]
+              },
+              "answer": {
+                "value": "Its production method spread from China to Europe"
+              },
+              "points": 1
+            },
+            {
+              "number": 33,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does the lecturer call the Silk Road \"the internet of the ancient world\"?",
+              "data": {
+                "options": [
+                  "It spread ideas and cultures as well as goods",
+                  "It was the fastest transport system of its time",
+                  "It connected every country in the world",
+                  "Merchants used it to send written messages"
+                ]
+              },
+              "answer": {
+                "value": "It spread ideas and cultures as well as goods"
+              },
+              "points": 1
+            },
+            {
+              "number": 34,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why did cities like Samarkand and Bukhara become wealthy?",
+              "data": {
+                "options": [
+                  "They produced their own silk",
+                  "They provided everything passing merchants needed",
+                  "They built large sea ports",
+                  "They collected taxes from local farmers"
+                ]
+              },
+              "answer": {
+                "value": "They provided everything passing merchants needed"
+              },
+              "points": 1
+            },
+            {
+              "number": 35,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What caused the decline of the Silk Road?",
+              "data": {
+                "options": [
+                  "Wars destroyed the main caravan cities",
+                  "Sea transport became cheaper and safer",
+                  "China stopped producing silk",
+                  "The climate became too dry for camels"
+                ]
+              },
+              "answer": {
+                "value": "Sea transport became cheaper and safer"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-2-part6.mp3"
         }
       ]
     },
@@ -138,14 +681,138 @@
           "instructionsEn": "The text has six paragraphs (A-F). Choose the correct heading for each paragraph from the list. There is one extra heading you do not need.",
           "instructionsUz": "Matn oltita xatboshidan (A-F) iborat. Har bir xatboshiga ro'yxatdan mos sarlavhani tanlang. Bitta sarlavha ortiqcha.",
           "passageText": "How Sport Changes the Brain\n\nA. Scientists have discovered that regular physical activity has a direct effect on the hippocampus, the part of the brain responsible for storing new information. In one famous experiment, adults who walked briskly three times a week for a year actually increased the size of this brain region, while a non-exercising control group saw it shrink. The walkers also performed noticeably better on tests in which they had to recall lists of words and faces.\n\nB. When we feel pressure at work or before an exam, our bodies release the hormone cortisol, which in large amounts can damage brain cells. Exercise offers a powerful defence. Even twenty minutes of jogging, swimming or dancing causes the brain to release endorphins — natural chemicals that lower cortisol levels and create a feeling of calm that can last for hours after the activity ends.\n\nC. Teachers have long noticed that pupils behave better after PE lessons, and neuroscience now explains why. Short periods of movement increase blood flow to the prefrontal cortex, the brain area that controls attention. In schools where children do twenty minutes of morning exercise, pupils stay concentrated on tasks for longer and are less easily distracted during lessons.\n\nD. For most of the twentieth century, scientists believed that adults could never grow new brain cells — the brain you had at twenty was the brain you would die with. We now know this is wrong. Physical activity stimulates the birth of new neurons, a process called neurogenesis, and remarkably, this has been observed even in people in their seventies and eighties.\n\nE. The benefits of sport continue after the sun goes down. People who exercise regularly fall asleep faster, wake up less often during the night, and spend more time in deep sleep — the stage in which the brain washes away the waste products that build up during the day. This nightly cleaning process is believed to protect the brain against diseases of old age.\n\nF. Not all of sport's effects on the brain come from movement itself. Team games such as football, basketball and volleyball force players to read their teammates' intentions, predict opponents' actions and communicate under pressure. Psychologists say this constant social calculation is a workout for the brain's social circuits, and young team players tend to develop stronger cooperation skills than those who train alone.",
-          "context": { "headingsPool": ["Exercise improves memory", "A natural way to fight stress", "How exercise helps us focus", "New brain cells at any age", "Better sleep through movement", "Sport builds social skills", "Why professional athletes retire early"] },
+          "context": {
+            "headingsPool": [
+              "Exercise improves memory",
+              "A natural way to fight stress",
+              "How exercise helps us focus",
+              "New brain cells at any age",
+              "Better sleep through movement",
+              "Sport builds social skills",
+              "Why professional athletes retire early"
+            ]
+          },
           "questions": [
-            { "number": 1, "type": "MCQ_SINGLE", "promptEn": "Paragraph A", "data": { "options": ["Exercise improves memory", "A natural way to fight stress", "How exercise helps us focus", "New brain cells at any age", "Better sleep through movement", "Sport builds social skills", "Why professional athletes retire early"] }, "answer": { "value": "Exercise improves memory" }, "points": 1 },
-            { "number": 2, "type": "MCQ_SINGLE", "promptEn": "Paragraph B", "data": { "options": ["Exercise improves memory", "A natural way to fight stress", "How exercise helps us focus", "New brain cells at any age", "Better sleep through movement", "Sport builds social skills", "Why professional athletes retire early"] }, "answer": { "value": "A natural way to fight stress" }, "points": 1 },
-            { "number": 3, "type": "MCQ_SINGLE", "promptEn": "Paragraph C", "data": { "options": ["Exercise improves memory", "A natural way to fight stress", "How exercise helps us focus", "New brain cells at any age", "Better sleep through movement", "Sport builds social skills", "Why professional athletes retire early"] }, "answer": { "value": "How exercise helps us focus" }, "points": 1 },
-            { "number": 4, "type": "MCQ_SINGLE", "promptEn": "Paragraph D", "data": { "options": ["Exercise improves memory", "A natural way to fight stress", "How exercise helps us focus", "New brain cells at any age", "Better sleep through movement", "Sport builds social skills", "Why professional athletes retire early"] }, "answer": { "value": "New brain cells at any age" }, "points": 1 },
-            { "number": 5, "type": "MCQ_SINGLE", "promptEn": "Paragraph E", "data": { "options": ["Exercise improves memory", "A natural way to fight stress", "How exercise helps us focus", "New brain cells at any age", "Better sleep through movement", "Sport builds social skills", "Why professional athletes retire early"] }, "answer": { "value": "Better sleep through movement" }, "points": 1 },
-            { "number": 6, "type": "MCQ_SINGLE", "promptEn": "Paragraph F", "data": { "options": ["Exercise improves memory", "A natural way to fight stress", "How exercise helps us focus", "New brain cells at any age", "Better sleep through movement", "Sport builds social skills", "Why professional athletes retire early"] }, "answer": { "value": "Sport builds social skills" }, "points": 1 }
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph A",
+              "data": {
+                "options": [
+                  "Exercise improves memory",
+                  "A natural way to fight stress",
+                  "How exercise helps us focus",
+                  "New brain cells at any age",
+                  "Better sleep through movement",
+                  "Sport builds social skills",
+                  "Why professional athletes retire early"
+                ]
+              },
+              "answer": {
+                "value": "Exercise improves memory"
+              },
+              "points": 1
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph B",
+              "data": {
+                "options": [
+                  "Exercise improves memory",
+                  "A natural way to fight stress",
+                  "How exercise helps us focus",
+                  "New brain cells at any age",
+                  "Better sleep through movement",
+                  "Sport builds social skills",
+                  "Why professional athletes retire early"
+                ]
+              },
+              "answer": {
+                "value": "A natural way to fight stress"
+              },
+              "points": 1
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph C",
+              "data": {
+                "options": [
+                  "Exercise improves memory",
+                  "A natural way to fight stress",
+                  "How exercise helps us focus",
+                  "New brain cells at any age",
+                  "Better sleep through movement",
+                  "Sport builds social skills",
+                  "Why professional athletes retire early"
+                ]
+              },
+              "answer": {
+                "value": "How exercise helps us focus"
+              },
+              "points": 1
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph D",
+              "data": {
+                "options": [
+                  "Exercise improves memory",
+                  "A natural way to fight stress",
+                  "How exercise helps us focus",
+                  "New brain cells at any age",
+                  "Better sleep through movement",
+                  "Sport builds social skills",
+                  "Why professional athletes retire early"
+                ]
+              },
+              "answer": {
+                "value": "New brain cells at any age"
+              },
+              "points": 1
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph E",
+              "data": {
+                "options": [
+                  "Exercise improves memory",
+                  "A natural way to fight stress",
+                  "How exercise helps us focus",
+                  "New brain cells at any age",
+                  "Better sleep through movement",
+                  "Sport builds social skills",
+                  "Why professional athletes retire early"
+                ]
+              },
+              "answer": {
+                "value": "Better sleep through movement"
+              },
+              "points": 1
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph F",
+              "data": {
+                "options": [
+                  "Exercise improves memory",
+                  "A natural way to fight stress",
+                  "How exercise helps us focus",
+                  "New brain cells at any age",
+                  "Better sleep through movement",
+                  "Sport builds social skills",
+                  "Why professional athletes retire early"
+                ]
+              },
+              "answer": {
+                "value": "Sport builds social skills"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -156,14 +823,127 @@
           "instructionsUz": "Matnni o'qib, 7-14-savollarga javob bering. 12-14-savollarda matnga ko'ra fikr TO'G'RI yoki NOTO'G'RI ekanini aniqlang.",
           "passageText": "The Story of Chocolate\n\nToday chocolate is one of the most popular foods on Earth, but its story began more than three thousand years ago in the rainforests of Central America. The peoples of the region — first the Olmecs, later the Maya and the Aztecs — were the first to discover the secret of the cacao tree. They did not eat chocolate, however; they drank it. Cacao beans were roasted, ground into a paste and mixed with water, chilli pepper and spices to make a cold, bitter drink called \"xocolatl\", which was served at religious ceremonies and royal feasts.\n\nFor the Aztecs, cacao was far more than a food. The beans were so valuable that they were used as money: historical records show that a rabbit cost about ten beans, while a turkey cost two hundred. Emperor Montezuma was said to drink fifty cups of chocolate a day, believing it gave him strength and wisdom.\n\nEverything changed in the sixteenth century, when Spanish explorers brought cacao beans back to Europe. The bitter drink did not please European tastes at first, so the Spanish made one small change with enormous consequences: they replaced the chilli with sugar. Sweet drinking chocolate quickly became the favourite luxury of the Spanish court, and within a hundred years fashionable chocolate houses had opened in Madrid, Paris and London. Even then, chocolate remained something people drank, not ate.\n\nThe chocolate bar as we know it is a surprisingly recent invention. It was not until 1847 that the British company Fry's discovered how to mix cocoa powder, cocoa butter and sugar into a solid bar that could be moulded and sold in shops. Twenty-eight years later, in 1875, the Swiss inventor Daniel Peter, after eight years of failed experiments, finally succeeded in adding milk to the recipe, with help from his neighbour Henri Nestlé, who produced condensed milk. Milk chocolate was born, and Switzerland's reputation as the home of fine chocolate was established.\n\nToday the geography of chocolate is truly global — and rather surprising. Although chocolate is mostly eaten in Europe and North America, almost none of the raw material grows there. About sixty per cent of the world's cacao is now produced by just two West African countries, Ivory Coast and Ghana, thousands of kilometres from the plant's original home. Meanwhile, the world championship in eating chocolate belongs firmly to the Swiss, who consume around ten kilograms per person every year — roughly two hundred bars each.",
           "questions": [
-            { "number": 7, "type": "MCQ_SINGLE", "promptEn": "How did the Maya and Aztecs consume chocolate?", "data": { "options": ["As a sweet snack", "As a cold, bitter drink", "As a solid bar", "As a hot milky drink"] }, "answer": { "value": "As a cold, bitter drink" }, "points": 1 },
-            { "number": 8, "type": "MCQ_SINGLE", "promptEn": "Apart from making a drink, what did the Aztecs use cacao beans for?", "data": { "options": ["Feeding animals", "Building material", "Money", "Medicine for soldiers"] }, "answer": { "value": "Money" }, "points": 1 },
-            { "number": 9, "type": "MCQ_SINGLE", "promptEn": "What important change did the Spanish make to chocolate?", "data": { "options": ["They added milk to it", "They replaced the chilli with sugar", "They turned it into a solid bar", "They started serving it hot"] }, "answer": { "value": "They replaced the chilli with sugar" }, "points": 1 },
-            { "number": 10, "type": "MCQ_SINGLE", "promptEn": "When was the first solid chocolate bar produced?", "data": { "options": ["In 1547", "In 1847", "In 1875", "In 1900"] }, "answer": { "value": "In 1847" }, "points": 1 },
-            { "number": 11, "type": "MCQ_SINGLE", "promptEn": "Where is most of the world's cacao grown today?", "data": { "options": ["In Central America", "In Switzerland", "In West Africa", "In Spain"] }, "answer": { "value": "In West Africa" }, "points": 1 },
-            { "number": 12, "type": "TRUE_FALSE", "promptEn": "Milk chocolate was invented before the first solid chocolate bar.", "data": { "statement": "Milk chocolate was invented before the first solid chocolate bar." }, "answer": { "value": "false" }, "points": 1 },
-            { "number": 13, "type": "TRUE_FALSE", "promptEn": "The Swiss eat more chocolate per person than any other nation.", "data": { "statement": "The Swiss eat more chocolate per person than any other nation." }, "answer": { "value": "true" }, "points": 1 },
-            { "number": 14, "type": "TRUE_FALSE", "promptEn": "Europeans enjoyed the taste of chocolate immediately when it first arrived.", "data": { "statement": "Europeans enjoyed the taste of chocolate immediately when it first arrived." }, "answer": { "value": "false" }, "points": 1 }
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How did the Maya and Aztecs consume chocolate?",
+              "data": {
+                "options": [
+                  "As a sweet snack",
+                  "As a cold, bitter drink",
+                  "As a solid bar",
+                  "As a hot milky drink"
+                ]
+              },
+              "answer": {
+                "value": "As a cold, bitter drink"
+              },
+              "points": 1
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Apart from making a drink, what did the Aztecs use cacao beans for?",
+              "data": {
+                "options": [
+                  "Feeding animals",
+                  "Building material",
+                  "Money",
+                  "Medicine for soldiers"
+                ]
+              },
+              "answer": {
+                "value": "Money"
+              },
+              "points": 1
+            },
+            {
+              "number": 9,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What important change did the Spanish make to chocolate?",
+              "data": {
+                "options": [
+                  "They added milk to it",
+                  "They replaced the chilli with sugar",
+                  "They turned it into a solid bar",
+                  "They started serving it hot"
+                ]
+              },
+              "answer": {
+                "value": "They replaced the chilli with sugar"
+              },
+              "points": 1
+            },
+            {
+              "number": 10,
+              "type": "MCQ_SINGLE",
+              "promptEn": "When was the first solid chocolate bar produced?",
+              "data": {
+                "options": [
+                  "In 1547",
+                  "In 1847",
+                  "In 1875",
+                  "In 1900"
+                ]
+              },
+              "answer": {
+                "value": "In 1847"
+              },
+              "points": 1
+            },
+            {
+              "number": 11,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Where is most of the world's cacao grown today?",
+              "data": {
+                "options": [
+                  "In Central America",
+                  "In Switzerland",
+                  "In West Africa",
+                  "In Spain"
+                ]
+              },
+              "answer": {
+                "value": "In West Africa"
+              },
+              "points": 1
+            },
+            {
+              "number": 12,
+              "type": "TRUE_FALSE",
+              "promptEn": "Milk chocolate was invented before the first solid chocolate bar.",
+              "data": {
+                "statement": "Milk chocolate was invented before the first solid chocolate bar."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "points": 1
+            },
+            {
+              "number": 13,
+              "type": "TRUE_FALSE",
+              "promptEn": "The Swiss eat more chocolate per person than any other nation.",
+              "data": {
+                "statement": "The Swiss eat more chocolate per person than any other nation."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "points": 1
+            },
+            {
+              "number": 14,
+              "type": "TRUE_FALSE",
+              "promptEn": "Europeans enjoyed the taste of chocolate immediately when it first arrived.",
+              "data": {
+                "statement": "Europeans enjoyed the taste of chocolate immediately when it first arrived."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -174,13 +954,125 @@
           "instructionsUz": "Matnni o'qing. Matndan yettita gap olib tashlangan — [15]-[21] bo'shliqlar. Har bir bo'shliq uchun eng mos gapni tanlang.",
           "passageText": "Learning to Code as a Second Career\n\nMore and more adults in their thirties and forties are leaving stable jobs to learn computer programming. [15] Dilnoza Karimova, a 34-year-old former accountant from Tashkent, is one of them.\n\nShe first became interested in coding when her company introduced new accounting software. [16] Instead of feeling annoyed like everyone else, Dilnoza became curious — she wanted to understand how the program actually worked on the inside.\n\nAt first, she studied alone in the evenings, using free online courses. [17] So she joined a local coding bootcamp, where she could ask teachers questions face to face and practise on real projects with other students.\n\nThe change was far from easy. [18] For six months she had no income at all, and there were moments when she seriously considered giving up and returning to her old profession.\n\nHer first job applications were all rejected. [19] Finally, a small IT company offered her a junior position — partly, they admitted later, because her accounting background was exactly what they needed for the financial software they were building.\n\nToday, two years later, Dilnoza earns more than she ever did as an accountant. [20] She believes her story proves that it is never too late to change direction.\n\n[21] Recruitment specialists say that the combination of life experience, discipline and fresh technical skills makes career changers surprisingly valuable to employers — often more valuable than young graduates.",
           "questions": [
-            { "number": 15, "type": "MCQ_SINGLE", "promptEn": "Gap [15] — choose the sentence that fits best.", "data": { "options": ["Their reasons vary, but most hope for better pay and more flexible work.", "Most of them regret the decision within a year.", "Programming, however, is a skill that only young people can master.", "As a result, universities have closed their evening courses."] }, "answer": { "value": "Their reasons vary, but most hope for better pay and more flexible work." }, "points": 1 },
-            { "number": 16, "type": "MCQ_SINGLE", "promptEn": "Gap [16] — choose the sentence that fits best.", "data": { "options": ["The software was cheap and everyone loved it immediately.", "Many of her colleagues complained that it was confusing and difficult to use.", "She had studied programming at school for many years.", "Her manager asked her to stop using computers."] }, "answer": { "value": "Many of her colleagues complained that it was confusing and difficult to use." }, "points": 1 },
-            { "number": 17, "type": "MCQ_SINGLE", "promptEn": "Gap [17] — choose the sentence that fits best.", "data": { "options": ["The courses were so good that she finished within a week.", "However, she soon realised that studying without any support was slow and lonely.", "Online learning is always more effective than classroom learning.", "Her internet connection was the fastest in the city."] }, "answer": { "value": "However, she soon realised that studying without any support was slow and lonely." }, "points": 1 },
-            { "number": 18, "type": "MCQ_SINGLE", "promptEn": "Gap [18] — choose the sentence that fits best.", "data": { "options": ["Fortunately, the bootcamp paid her a monthly salary.", "Leaving a secure job meant giving up her regular salary while she studied full-time.", "Her old company immediately doubled her wages.", "The course lasted only two days."] }, "answer": { "value": "Leaving a secure job meant giving up her regular salary while she studied full-time." }, "points": 1 },
-            { "number": 19, "type": "MCQ_SINGLE", "promptEn": "Gap [19] — choose the sentence that fits best.", "data": { "options": ["Most employers wanted developers who already had commercial experience.", "She decided never to apply for a job again.", "Every company she contacted offered her a contract at once.", "She stopped writing code and became a designer instead."] }, "answer": { "value": "Most employers wanted developers who already had commercial experience." }, "points": 1 },
-            { "number": 20, "type": "MCQ_SINGLE", "promptEn": "Gap [20] — choose the sentence that fits best.", "data": { "options": ["More importantly, she says, she finally enjoys her daily work.", "However, she still cannot write a single line of code.", "Sadly, she was dismissed after her first week.", "Accounting, she now admits, was always her true passion."] }, "answer": { "value": "More importantly, she says, she finally enjoys her daily work." }, "points": 1 },
-            { "number": 21, "type": "MCQ_SINGLE", "promptEn": "Gap [21] — choose the sentence that fits best.", "data": { "options": ["Her story, it turns out, is far from unusual.", "No other adult has ever tried to change careers.", "Employers, however, refuse to hire people over thirty.", "This is why coding bootcamps have been banned."] }, "answer": { "value": "Her story, it turns out, is far from unusual." }, "points": 1 }
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [15] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "Their reasons vary, but most hope for better pay and more flexible work.",
+                  "Most of them regret the decision within a year.",
+                  "Programming, however, is a skill that only young people can master.",
+                  "As a result, universities have closed their evening courses."
+                ]
+              },
+              "answer": {
+                "value": "Their reasons vary, but most hope for better pay and more flexible work."
+              },
+              "points": 1
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [16] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "The software was cheap and everyone loved it immediately.",
+                  "Many of her colleagues complained that it was confusing and difficult to use.",
+                  "She had studied programming at school for many years.",
+                  "Her manager asked her to stop using computers."
+                ]
+              },
+              "answer": {
+                "value": "Many of her colleagues complained that it was confusing and difficult to use."
+              },
+              "points": 1
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [17] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "The courses were so good that she finished within a week.",
+                  "However, she soon realised that studying without any support was slow and lonely.",
+                  "Online learning is always more effective than classroom learning.",
+                  "Her internet connection was the fastest in the city."
+                ]
+              },
+              "answer": {
+                "value": "However, she soon realised that studying without any support was slow and lonely."
+              },
+              "points": 1
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [18] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "Fortunately, the bootcamp paid her a monthly salary.",
+                  "Leaving a secure job meant giving up her regular salary while she studied full-time.",
+                  "Her old company immediately doubled her wages.",
+                  "The course lasted only two days."
+                ]
+              },
+              "answer": {
+                "value": "Leaving a secure job meant giving up her regular salary while she studied full-time."
+              },
+              "points": 1
+            },
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [19] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "Most employers wanted developers who already had commercial experience.",
+                  "She decided never to apply for a job again.",
+                  "Every company she contacted offered her a contract at once.",
+                  "She stopped writing code and became a designer instead."
+                ]
+              },
+              "answer": {
+                "value": "Most employers wanted developers who already had commercial experience."
+              },
+              "points": 1
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [20] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "More importantly, she says, she finally enjoys her daily work.",
+                  "However, she still cannot write a single line of code.",
+                  "Sadly, she was dismissed after her first week.",
+                  "Accounting, she now admits, was always her true passion."
+                ]
+              },
+              "answer": {
+                "value": "More importantly, she says, she finally enjoys her daily work."
+              },
+              "points": 1
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [21] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "Her story, it turns out, is far from unusual.",
+                  "No other adult has ever tried to change careers.",
+                  "Employers, however, refuse to hire people over thirty.",
+                  "This is why coding bootcamps have been banned."
+                ]
+              },
+              "answer": {
+                "value": "Her story, it turns out, is far from unusual."
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -191,13 +1083,125 @@
           "instructionsUz": "Maqolani o'qib, 22-28-savollarga javob bering. Ba'zi savollar muallifning fikri va munosabati haqida.",
           "passageText": "Should Homework Be Abolished?\n\nFew school topics cause as much argument at the dinner table as homework. In recent years, several school systems — from parts of the United States to whole regions of Spain — have experimented with reducing it or banning it altogether, and every such announcement is greeted with cheers from children and heated debate among adults.\n\nThose who want to abolish homework make three main points. First, they argue that after a six- or seven-hour school day, children need rest, play and family time; instead, many spend their evenings hunched over worksheets, and doctors report rising levels of stress and poor sleep among pupils as young as ten. Second, homework quietly deepens inequality. A child with a quiet room, a laptop and university-educated parents completes the same task in half the time it takes a classmate who shares a small flat with noisy siblings and has nobody to ask for help. The task is identical; the conditions are not. Third, the research is surprisingly weak: studies repeatedly show that homework in primary school makes almost no measurable difference to academic results.\n\nSupporters of this view often point to Finland, where school days are short, homework is minimal, and yet students regularly perform near the top of international rankings. The example is attractive, but it should be treated with caution: Finland also has exceptionally well-trained teachers, small classes and a strong reading culture, so it is impossible to say how much of its success — if any — is explained by the lack of homework.\n\nDefenders of homework, meanwhile, have evidence of their own. In secondary school, moderate amounts of homework — around an hour a day — are consistently linked with better exam results. More importantly, they argue, homework teaches something no classroom can: the ability to organise your own time, struggle with a problem alone, and finish a task without a teacher standing over you. These are precisely the skills that university students and employees need most, and pupils who never practise them at school often struggle badly later.\n\nMy own view is that both camps are attacking the wrong target. The real problem is not homework itself but its quality. There is a world of difference between a photocopied worksheet of twenty identical exercises and a task that asks a child to interview a grandparent, design an experiment or read a chapter of a real book. Schools should set less homework, and better homework — meaningful tasks that children can complete independently, whatever their home conditions. Banning homework entirely, however tempting the headline, would be throwing the baby out with the bathwater.",
           "questions": [
-            { "number": 22, "type": "MCQ_SINGLE", "promptEn": "What is the writer's main purpose in this article?", "data": { "options": ["To prove that homework should be banned everywhere", "To examine both sides of the debate and suggest a middle way", "To criticise the Finnish school system", "To explain how to do homework faster"] }, "answer": { "value": "To examine both sides of the debate and suggest a middle way" }, "points": 1 },
-            { "number": 23, "type": "MCQ_SINGLE", "promptEn": "According to critics, why is homework unfair?", "data": { "options": ["Teachers give different tasks to different pupils", "Children have very different conditions for studying at home", "Only rich schools set homework", "Younger children get more homework than older ones"] }, "answer": { "value": "Children have very different conditions for studying at home" }, "points": 1 },
-            { "number": 24, "type": "MCQ_SINGLE", "promptEn": "What does research suggest about homework in primary school?", "data": { "options": ["It has little effect on academic results", "It doubles children's exam scores", "It improves sleep quality", "It is more useful than in secondary school"] }, "answer": { "value": "It has little effect on academic results" }, "points": 1 },
-            { "number": 25, "type": "MCQ_SINGLE", "promptEn": "Why is the writer cautious about the example of Finland?", "data": { "options": ["Finnish students perform poorly in international tests", "Finland actually gives large amounts of homework", "Other factors could explain Finland's success", "Finnish teachers oppose the policy"] }, "answer": { "value": "Other factors could explain Finland's success" }, "points": 1 },
-            { "number": 26, "type": "MCQ_SINGLE", "promptEn": "According to defenders of homework, what does it teach pupils?", "data": { "options": ["To work independently and manage their own time", "To memorise facts more quickly", "To respect their teachers", "To use computers effectively"] }, "answer": { "value": "To work independently and manage their own time" }, "points": 1 },
-            { "number": 27, "type": "MCQ_SINGLE", "promptEn": "What is the writer's attitude towards a complete ban on homework?", "data": { "options": ["Enthusiastic support", "Opposed — it would destroy something valuable", "Completely neutral", "Uninterested in the question"] }, "answer": { "value": "Opposed — it would destroy something valuable" }, "points": 1 },
-            { "number": 28, "type": "MCQ_SINGLE", "promptEn": "The phrase \"throwing the baby out with the bathwater\" in the final paragraph suggests that a ban would...", "data": { "options": ["lose something valuable while removing a problem", "be good for young children", "make school bathrooms cleaner", "solve the problem completely"] }, "answer": { "value": "lose something valuable while removing a problem" }, "points": 1 }
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the writer's main purpose in this article?",
+              "data": {
+                "options": [
+                  "To prove that homework should be banned everywhere",
+                  "To examine both sides of the debate and suggest a middle way",
+                  "To criticise the Finnish school system",
+                  "To explain how to do homework faster"
+                ]
+              },
+              "answer": {
+                "value": "To examine both sides of the debate and suggest a middle way"
+              },
+              "points": 1
+            },
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to critics, why is homework unfair?",
+              "data": {
+                "options": [
+                  "Teachers give different tasks to different pupils",
+                  "Children have very different conditions for studying at home",
+                  "Only rich schools set homework",
+                  "Younger children get more homework than older ones"
+                ]
+              },
+              "answer": {
+                "value": "Children have very different conditions for studying at home"
+              },
+              "points": 1
+            },
+            {
+              "number": 24,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does research suggest about homework in primary school?",
+              "data": {
+                "options": [
+                  "It has little effect on academic results",
+                  "It doubles children's exam scores",
+                  "It improves sleep quality",
+                  "It is more useful than in secondary school"
+                ]
+              },
+              "answer": {
+                "value": "It has little effect on academic results"
+              },
+              "points": 1
+            },
+            {
+              "number": 25,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why is the writer cautious about the example of Finland?",
+              "data": {
+                "options": [
+                  "Finnish students perform poorly in international tests",
+                  "Finland actually gives large amounts of homework",
+                  "Other factors could explain Finland's success",
+                  "Finnish teachers oppose the policy"
+                ]
+              },
+              "answer": {
+                "value": "Other factors could explain Finland's success"
+              },
+              "points": 1
+            },
+            {
+              "number": 26,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to defenders of homework, what does it teach pupils?",
+              "data": {
+                "options": [
+                  "To work independently and manage their own time",
+                  "To memorise facts more quickly",
+                  "To respect their teachers",
+                  "To use computers effectively"
+                ]
+              },
+              "answer": {
+                "value": "To work independently and manage their own time"
+              },
+              "points": 1
+            },
+            {
+              "number": 27,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the writer's attitude towards a complete ban on homework?",
+              "data": {
+                "options": [
+                  "Enthusiastic support",
+                  "Opposed — it would destroy something valuable",
+                  "Completely neutral",
+                  "Uninterested in the question"
+                ]
+              },
+              "answer": {
+                "value": "Opposed — it would destroy something valuable"
+              },
+              "points": 1
+            },
+            {
+              "number": 28,
+              "type": "MCQ_SINGLE",
+              "promptEn": "The phrase \"throwing the baby out with the bathwater\" in the final paragraph suggests that a ban would...",
+              "data": {
+                "options": [
+                  "lose something valuable while removing a problem",
+                  "be good for young children",
+                  "make school bathrooms cleaner",
+                  "solve the problem completely"
+                ]
+              },
+              "answer": {
+                "value": "lose something valuable while removing a problem"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -208,13 +1212,121 @@
           "instructionsUz": "Matnni o'qib, 29-35-savollarga javob bering. Qisqa javobli savollarga KO'PI BILAN IKKI SO'Z bilan javob yozing.",
           "passageText": "Water Scarcity in Central Asia\n\nCentral Asia is a region defined by water. Its two great rivers, the Amu Darya and the Syr Darya, rise in the high mountains of Tajikistan and Kyrgyzstan and flow for thousands of kilometres through deserts and steppes, supporting the lives of more than seventy million people. Yet today the region faces one of the most serious water crises on Earth — a crisis that is largely of human making.\n\nThe story begins in the 1960s, when Soviet planners decided to turn the deserts of Central Asia into enormous fields of cotton, a crop so profitable it was known as \"white gold\". Gigantic canals were dug to carry river water to the new plantations. The plan succeeded — the region became one of the world's leading cotton producers — but the price was catastrophic. So much water was taken from the two rivers that the Aral Sea, once the fourth-largest lake in the world, began to disappear. By the early twenty-first century it had lost around ninety per cent of its volume, and fishing ports that once employed thousands of people found themselves sixty kilometres from the water's edge.\n\nThe consequences reach far beyond the vanished fishing industry. The exposed seabed, covered with salt and agricultural chemicals, has become the source of violent dust storms that carry toxic particles hundreds of kilometres, and doctors in the region report unusually high rates of respiratory disease. The loss of the sea's moderating influence has even changed the local climate, making summers hotter and winters colder.\n\nAgriculture remains at the heart of the problem. It consumes roughly ninety per cent of all water used in the region, and much of that water never reaches a single plant: it evaporates from open canals or leaks into the sand through unlined channels built half a century ago. Engineers estimate that simply repairing and covering the main canals could save enough water to supply millions of people. Modern techniques offer further hope. Drip irrigation, which delivers water directly to the roots of each plant through narrow pipes, can cut water use by up to half while actually increasing harvests; yet it is still used on only a small fraction of the region's farmland, mainly because of the initial cost.\n\nThe future adds a further complication. The glaciers of Tajikistan and Kyrgyzstan, which act as frozen reservoirs feeding the rivers through the hot summer months, are melting at an alarming rate as the climate warms. Scientists warn that river flows could fall significantly by the middle of the century, just as the region's growing population needs more water than ever.\n\nNo single country can solve this crisis alone, for the rivers ignore national borders: water saved upstream is water gained downstream. The states of Central Asia have begun to cooperate more closely in recent years, sharing data and coordinating the use of reservoirs. Such cooperation, most experts agree, is not merely desirable — it is the region's only realistic path to water security.",
           "questions": [
-            { "number": 29, "type": "MCQ_SINGLE", "promptEn": "What was the main cause of the shrinking of the Aral Sea?", "data": { "options": ["A natural change in the climate", "River water being taken for irrigation", "The construction of fishing ports", "Rising temperatures in the mountains"] }, "answer": { "value": "River water being taken for irrigation" }, "points": 1 },
-            { "number": 30, "type": "SHORT_ANSWER", "promptEn": "Which crop was mainly responsible for the huge irrigation projects of the 1960s?", "promptUz": "1960-yillardagi ulkan sug'orish loyihalariga asosan qaysi ekin sabab bo'lgan?", "data": {}, "answer": { "accept": ["cotton", "Cotton", "white gold"] }, "points": 1 },
-            { "number": 31, "type": "MCQ_SINGLE", "promptEn": "According to the passage, how do the dust storms affect local people?", "data": { "options": ["They destroy cotton harvests", "They cause breathing illnesses", "They block the main canals", "They make winters warmer"] }, "answer": { "value": "They cause breathing illnesses" }, "points": 1 },
-            { "number": 32, "type": "MCQ_SINGLE", "promptEn": "Approximately how much of the region's water is used by agriculture?", "data": { "options": ["About 50 per cent", "About 60 per cent", "About 90 per cent", "About 30 per cent"] }, "answer": { "value": "About 90 per cent" }, "points": 1 },
-            { "number": 33, "type": "SHORT_ANSWER", "promptEn": "Which modern watering technique delivers water directly to plant roots and can halve water use?", "promptUz": "Suvni to'g'ridan-to'g'ri o'simlik ildiziga yetkazadigan va suv sarfini ikki baravar kamaytira oladigan zamonaviy usul qanday ataladi?", "data": {}, "answer": { "accept": ["drip irrigation", "Drip irrigation", "drip"] }, "points": 1 },
-            { "number": 34, "type": "MCQ_SINGLE", "promptEn": "Why are the mountain glaciers important for the region?", "data": { "options": ["They attract millions of tourists", "They feed the rivers during hot summer months", "They prevent dust storms", "They are used to store drinking water in tanks"] }, "answer": { "value": "They feed the rivers during hot summer months" }, "points": 1 },
-            { "number": 35, "type": "MCQ_SINGLE", "promptEn": "What is the writer's main conclusion?", "data": { "options": ["The crisis can no longer be solved", "Each country should protect its own water first", "The countries of the region must cooperate", "Cotton production should be doubled"] }, "answer": { "value": "The countries of the region must cooperate" }, "points": 1 }
+            {
+              "number": 29,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What was the main cause of the shrinking of the Aral Sea?",
+              "data": {
+                "options": [
+                  "A natural change in the climate",
+                  "River water being taken for irrigation",
+                  "The construction of fishing ports",
+                  "Rising temperatures in the mountains"
+                ]
+              },
+              "answer": {
+                "value": "River water being taken for irrigation"
+              },
+              "points": 1
+            },
+            {
+              "number": 30,
+              "type": "SHORT_ANSWER",
+              "promptEn": "Which crop was mainly responsible for the huge irrigation projects of the 1960s?",
+              "promptUz": "1960-yillardagi ulkan sug'orish loyihalariga asosan qaysi ekin sabab bo'lgan?",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "cotton",
+                  "Cotton",
+                  "white gold"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the passage, how do the dust storms affect local people?",
+              "data": {
+                "options": [
+                  "They destroy cotton harvests",
+                  "They cause breathing illnesses",
+                  "They block the main canals",
+                  "They make winters warmer"
+                ]
+              },
+              "answer": {
+                "value": "They cause breathing illnesses"
+              },
+              "points": 1
+            },
+            {
+              "number": 32,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Approximately how much of the region's water is used by agriculture?",
+              "data": {
+                "options": [
+                  "About 50 per cent",
+                  "About 60 per cent",
+                  "About 90 per cent",
+                  "About 30 per cent"
+                ]
+              },
+              "answer": {
+                "value": "About 90 per cent"
+              },
+              "points": 1
+            },
+            {
+              "number": 33,
+              "type": "SHORT_ANSWER",
+              "promptEn": "Which modern watering technique delivers water directly to plant roots and can halve water use?",
+              "promptUz": "Suvni to'g'ridan-to'g'ri o'simlik ildiziga yetkazadigan va suv sarfini ikki baravar kamaytira oladigan zamonaviy usul qanday ataladi?",
+              "data": {},
+              "answer": {
+                "accept": [
+                  "drip irrigation",
+                  "Drip irrigation",
+                  "drip"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 34,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why are the mountain glaciers important for the region?",
+              "data": {
+                "options": [
+                  "They attract millions of tourists",
+                  "They feed the rivers during hot summer months",
+                  "They prevent dust storms",
+                  "They are used to store drinking water in tanks"
+                ]
+              },
+              "answer": {
+                "value": "They feed the rivers during hot summer months"
+              },
+              "points": 1
+            },
+            {
+              "number": 35,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is the writer's main conclusion?",
+              "data": {
+                "options": [
+                  "The crisis can no longer be solved",
+                  "Each country should protect its own water first",
+                  "The countries of the region must cooperate",
+                  "Cotton production should be doubled"
+                ]
+              },
+              "answer": {
+                "value": "The countries of the region must cooperate"
+              },
+              "points": 1
+            }
           ]
         }
       ]
@@ -238,18 +1350,40 @@
               "type": "WRITING_TASK",
               "promptEn": "You received this email from your English friend Emma:\n\n\"Hi! I just heard the big news — you've started your new job (or was it a new course at university? Tell me!). Congratulations! So, what do you actually do all day? What are the people around you like? And do you still have any free time for your hobbies? Write back soon — I want to hear everything!\nEmma\"\n\nWrite a reply to Emma. Answer all three of her questions. Write at least 50 words.",
               "promptUz": "Ingliz do'stingiz Emmadan email keldi (yuqorida): u yangi ishingiz yoki o'qishingiz haqida so'rayapti. Emmaga javob yozing va uchala savoliga ham javob bering: kun davomida nima qilasiz, atrofingizdagi odamlar qanday, sevimli mashg'ulotlaringizga vaqt qoladimi. Kamida 50 so'z. Uslub — norasmiy.",
-              "data": { "minWords": 50, "maxWords": 100 },
+              "data": {
+                "minWords": 50,
+                "maxWords": 100
+              },
               "points": 1,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "informal email" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "informal email"
+              }
             },
             {
               "number": 2,
               "type": "WRITING_TASK",
               "promptEn": "Last week you ordered a ceramic tea set from the online shop \"HomeStyle Market\". When the parcel arrived today, two of the six cups were broken and the teapot was missing completely.\n\nWrite an email to the shop's customer service department. In your email:\n- say what you ordered and when;\n- describe the problems with the delivery;\n- explain what action you expect them to take (a refund or a replacement).\n\nWrite 120-150 words. Begin your email with \"Dear Sir or Madam\". Use a formal style.",
               "promptUz": "O'tgan hafta \"HomeStyle Market\" onlayn do'konidan sopol choy servizi buyurtma qildingiz. Bugun yetib kelgan jo'natmada oltita piyoladan ikkitasi singan, choynak esa umuman yo'q. Do'konning mijozlarga xizmat ko'rsatish bo'limiga email yozing: nima va qachon buyurtma qilganingizni ayting; yetkazib berishdagi muammolarni tasvirlab bering; qanday chora kutayotganingizni tushuntiring (pulni qaytarish yoki almashtirish). 120-150 so'z. \"Dear Sir or Madam\" bilan boshlang. Uslub — rasmiy.",
-              "data": { "minWords": 120, "maxWords": 150 },
+              "data": {
+                "minWords": 120,
+                "maxWords": 150
+              },
               "points": 1,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "formal complaint email" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "formal complaint email"
+              }
             }
           ]
         },
@@ -265,9 +1399,20 @@
               "type": "WRITING_TASK",
               "promptEn": "Some people think that universities should teach only practical skills that prepare students for specific jobs. Others believe that theoretical knowledge is just as valuable. Discuss both views and give your own opinion. Give reasons and examples from your own knowledge or experience. Write at least 180 words.",
               "promptUz": "Ba'zilar universitetlar faqat muayyan kasblarga tayyorlaydigan amaliy ko'nikmalarni o'rgatishi kerak deb hisoblaydi. Boshqalar esa nazariy bilim ham xuddi shunday qimmatli deb biladi. Ikkala fikrni ham muhokama qiling va o'z fikringizni bildiring. Sabab va misollar keltiring. Kamida 180 so'z.",
-              "data": { "minWords": 180, "maxWords": 250 },
+              "data": {
+                "minWords": 180,
+                "maxWords": 250
+              },
               "points": 2,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "formal discussion essay — both views + own opinion" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "formal discussion essay — both views + own opinion"
+              }
             }
           ]
         }
@@ -292,9 +1437,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "Let's talk about your daily routine and technology. What time do you usually get up, and how does a typical day start for you? How often do you use your phone or computer during the day, and what do you mainly use them for? Do you think you spend too much time online? Why or why not?",
               "promptUz": "Kundalik tartibingiz va texnologiya haqida gaplashamiz: odatda soat nechada turasiz va kuningiz qanday boshlanadi? Kun davomida telefon yoki kompyuterdan qanchalik tez-tez va asosan nima uchun foydalanasiz? Internetda haddan ortiq ko'p vaqt o'tkazaman deb o'ylaysizmi? Nima uchun?",
-              "data": { "preparationSeconds": 10, "recordSeconds": 60 },
+              "data": {
+                "preparationSeconds": 10,
+                "recordSeconds": 60
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "B1" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "B1"
+              }
             }
           ]
         },
@@ -310,9 +1466,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "More and more people now buy clothes, electronics and even food on the internet instead of going to shops. Describe the advantages and disadvantages of online shopping compared with traditional shopping. Which do you personally prefer, and why? Give examples from your own experience.",
               "promptUz": "Bugungi kunda tobora ko'p odamlar kiyim, texnika va hatto oziq-ovqatni do'konga bormasdan internetdan sotib olmoqda. Onlayn xaridning an'anaviy xaridga nisbatan afzalliklari va kamchiliklarini tasvirlab bering. Shaxsan siz qaysi birini afzal ko'rasiz va nima uchun? O'z tajribangizdan misollar keltiring.",
-              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "data": {
+                "preparationSeconds": 60,
+                "recordSeconds": 120
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "B2" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "B2"
+              }
             }
           ]
         },
@@ -328,9 +1495,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "\"Success depends more on luck than on hard work.\" To what extent do you agree or disagree with this statement? Discuss both sides: think about examples where people succeeded through effort, and situations where being in the right place at the right time mattered more. Support your ideas with examples.",
               "promptUz": "«Muvaffaqiyat mehnatdan ko'ra ko'proq omadga bog'liq». Bu fikrga qay darajada qo'shilasiz? Ikkala tomonni muhokama qiling: odamlar mehnat orqali muvaffaqiyatga erishgan misollarni hamda to'g'ri vaqtda to'g'ri joyda bo'lish muhimroq bo'lgan vaziyatlarni o'ylab ko'ring. Fikrlaringizni misollar bilan asoslang.",
-              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "data": {
+                "preparationSeconds": 60,
+                "recordSeconds": 120
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "C1" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "C1"
+              }
             }
           ]
         }

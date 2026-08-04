@@ -13,7 +13,15 @@
  * navbatlashadi; oddiy matn bitta ovoz bilan o'qiladi.
  */
 import { MsEdgeTTS, OUTPUT_FORMAT } from 'msedge-tts';
-import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync, createWriteStream } from 'fs';
+import {
+  readdirSync,
+  readFileSync,
+  writeFileSync,
+  mkdirSync,
+  existsSync,
+  createWriteStream,
+  unlinkSync,
+} from 'fs';
 import { join, resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -136,9 +144,23 @@ function splitIntoChunks(text, maxLen) {
   return chunks.filter(Boolean);
 }
 
+const PAUSE_BETWEEN_MS = 1500;
+const PAUSE_AFTER_FAIL_MS = 15_000;
+
+const pause = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** Vaqtinchalik segment fayllarini o'chirish. */
+function cleanupSegments(baseName, count) {
+  for (let i = 0; i < count; i++) {
+    const p = join(AUDIO_DIR, `${baseName}.seg${i}.mp3`);
+    try { if (existsSync(p)) unlinkSync(p); } catch { /* ignore */ }
+  }
+}
+
 async function main() {
   if (!existsSync(AUDIO_DIR)) mkdirSync(AUDIO_DIR, { recursive: true });
   let generated = 0;
+  const failed = [];
 
   for (const fileName of readdirSync(MOCKS_DIR).filter((f) => f.endsWith('.json'))) {
     const filePath = join(MOCKS_DIR, fileName);
@@ -157,24 +179,30 @@ async function main() {
         if (DRY) continue;
 
         const segments = segmentTranscript(transcript);
-        if (segments.length === 1) {
-          await synthesize(segments[0].text, segments[0].voice, outPath);
-        } else {
-          // Segmentlarni alohida sintez qilib birlashtirish (oddiy konkatenatsiya
-          // MP3 uchun ishlaydi — ko'p playerlar ketma-ket freymlarni o'qiydi)
-          const buffers = [];
-          for (const [i, seg] of segments.entries()) {
-            const tmpPath = join(AUDIO_DIR, `${baseName}.seg${i}.mp3`);
-            await synthesize(seg.text, seg.voice, tmpPath);
-            buffers.push(readFileSync(tmpPath));
+        try {
+          if (segments.length === 1) {
+            await synthesize(segments[0].text, segments[0].voice, outPath);
+          } else {
+            // Segmentlarni alohida sintez qilib birlashtirish (oddiy konkatenatsiya
+            // MP3 uchun ishlaydi — ko'p playerlar ketma-ket freymlarni o'qiydi)
+            const buffers = [];
+            for (const [i, seg] of segments.entries()) {
+              const tmpPath = join(AUDIO_DIR, `${baseName}.seg${i}.mp3`);
+              await synthesize(seg.text, seg.voice, tmpPath);
+              buffers.push(readFileSync(tmpPath));
+              await pause(PAUSE_BETWEEN_MS);
+            }
+            writeFileSync(outPath, Buffer.concat(buffers));
           }
-          writeFileSync(outPath, Buffer.concat(buffers));
-          for (let i = 0; i < segments.length; i++) {
-            try { const p = join(AUDIO_DIR, `${baseName}.seg${i}.mp3`);
-              if (existsSync(p)) { const { unlinkSync } = await import('fs'); unlinkSync(p); }
-            } catch { /* ignore */ }
-          }
+        } catch (error) {
+          // Bitta qism yiqilsa ham qolganini davom ettiramiz — keyingi ishga tushirishda qayta urinadi
+          console.log(`   ✗ ${baseName} o'tkazib yuborildi: ${error.message}`);
+          failed.push(baseName);
+          cleanupSegments(baseName, segments.length);
+          await pause(PAUSE_AFTER_FAIL_MS);
+          continue;
         }
+        cleanupSegments(baseName, segments.length);
 
         part.audioUrl = `/uploads/audio/listening/${baseName}.mp3`;
         changed = true;
@@ -182,6 +210,7 @@ async function main() {
 
         // Saqlash har qismdan keyin: uzilib qolsa ham progress yo'qolmaydi
         writeFileSync(filePath, JSON.stringify(mock, null, 2) + '\n', 'utf8');
+        await pause(PAUSE_BETWEEN_MS);
       }
     }
 
@@ -190,7 +219,17 @@ async function main() {
     }
   }
 
-  console.log(DRY ? 'Dry run tugadi' : `Tayyor: ${generated} ta audio. Endi seed qilib bazani yangilang.`);
+  if (DRY) {
+    console.log('Dry run tugadi');
+    return;
+  }
+  console.log(`Tayyor: ${generated} ta audio. Endi seed qilib bazani yangilang.`);
+  if (failed.length > 0) {
+    console.log(
+      `⚠ ${failed.length} ta qism yaratilmadi (${failed.join(', ')}). ` +
+        `Skriptni qayta ishga tushiring — faqat shular qayta urinadi.`,
+    );
+  }
 }
 
 main().catch((error) => {

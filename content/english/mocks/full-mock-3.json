@@ -21,17 +21,148 @@
           "titleEn": "Part 1: Short dialogues",
           "instructionsEn": "You will hear eight short conversations. For each question, choose the correct answer.",
           "instructionsUz": "Sakkizta qisqa suhbatni eshitasiz. Har bir savol uchun to'g'ri javobni tanlang.",
-          "context": { "transcript": "One.\nW: Hello, I'm calling about the two-room flat on Amir Temur Street. Is it still available?\nM: Yes, it is. It's on the fourth floor, fully furnished, with a new kitchen.\nW: Great. How much is the rent?\nM: It's four hundred and fifty dollars a month... no, wait, I do apologise — the owner raised it last week, so it's four hundred and eighty now, including utilities.\nW: I see. Could I come and view it tomorrow evening?\nM: Of course. Shall we say six o'clock?\n\nTwo.\nW: Good afternoon. Do you have anything for a sore throat?\nM: These lozenges are very effective. And if you also have a fever, I'd recommend these tablets.\nW: How should I take the tablets?\nM: One tablet twice a day — in the morning and in the evening. Make sure you take them after meals, never on an empty stomach.\nW: So one before breakfast and one before dinner?\nM: No — after eating, please. Otherwise they can upset your stomach.\nW: Understood. Thank you.\n\nThree.\nM: Are you coming to the match on Sunday? It's Pakhtakor against Nasaf.\nW: Definitely! What time does it start?\nM: Kick-off is at seven in the evening. Let's meet outside the west gate at six.\nW: Six o'clock... the traffic on Sunday evenings is terrible, though.\nM: You're right. Let's make it half past five instead — then we'll have time to find our seats.\nW: Perfect. Half past five at the west gate.\n\nFour.\nW: Hello, this is Tech Service calling about the laptop you brought in yesterday.\nM: Oh, good. Did you find the problem? I thought the battery was dying.\nW: At first we suspected the battery too, but after testing everything it turned out to be the cooling fan. It's completely blocked with dust, so the laptop overheats and switches itself off.\nM: I see. How much will the repair cost?\nW: Cleaning and a new fan will be a hundred and fifty thousand soums, and it'll be ready on Thursday.\nM: That's fine. Thank you.\n\nFive.\nM: Hello, City Taxi? I need a car to the international airport tomorrow morning.\nW: Certainly. What time is your flight?\nM: It leaves at seven fifteen, so I'd like to be at the airport by half past five.\nW: Then we'll pick you up at a quarter to five. What's your address?\nM: Twelve, Bobur Street, apartment eight — the entrance is at the back of the building.\nW: A quarter to five, twelve Bobur Street. The driver will call you when he arrives.\n\nSix.\nW: Timur! I'm so glad I caught you. My sister is getting married next Saturday, and we'd love you to come.\nM: Congratulations! Of course I'll come. Where's the ceremony?\nW: The wedding party will be at the Navruz restaurant, near the city park. It starts at five in the evening.\nM: Should I bring anything?\nW: Just yourself! Oh — and it would be lovely if you could take some photos. You're so good with your camera.\nM: With pleasure.\n\nSeven.\nM: Good morning, Star Language Centre.\nW: Hi, I'd like to join your English course. I saw the advert for the evening group.\nM: The evening group meets on Mondays, Wednesdays and Fridays at seven o'clock.\nW: Hmm, that's a problem — I work late shifts on Fridays. Do you have anything at the weekend?\nM: We do — the weekend group meets on Saturday and Sunday mornings at ten.\nW: That suits me much better. Can I register for that one, please?\nM: Of course. I just need your name and a copy of your passport.\n\nEight.\nM: Dilnoza, I missed Professor Rahimov's lecture on Tuesday — I was at the dentist's. Could I copy your notes?\nW: To be honest, my notes are a mess. But don't worry — the professor uploads his slides to the university portal after every lecture.\nM: Really? I didn't know that.\nW: And this time he even recorded the whole lecture on video, because half the group was away at the sports competition. Just log in and watch it.\nM: That's brilliant. I'll do that tonight. Thanks!" },
+          "context": {
+            "transcript": "One.\nW: Hello, I'm calling about the two-room flat on Amir Temur Street. Is it still available?\nM: Yes, it is. It's on the fourth floor, fully furnished, with a new kitchen.\nW: Great. How much is the rent?\nM: It's four hundred and fifty dollars a month... no, wait, I do apologise — the owner raised it last week, so it's four hundred and eighty now, including utilities.\nW: I see. Could I come and view it tomorrow evening?\nM: Of course. Shall we say six o'clock?\n\nTwo.\nW: Good afternoon. Do you have anything for a sore throat?\nM: These lozenges are very effective. And if you also have a fever, I'd recommend these tablets.\nW: How should I take the tablets?\nM: One tablet twice a day — in the morning and in the evening. Make sure you take them after meals, never on an empty stomach.\nW: So one before breakfast and one before dinner?\nM: No — after eating, please. Otherwise they can upset your stomach.\nW: Understood. Thank you.\n\nThree.\nM: Are you coming to the match on Sunday? It's Pakhtakor against Nasaf.\nW: Definitely! What time does it start?\nM: Kick-off is at seven in the evening. Let's meet outside the west gate at six.\nW: Six o'clock... the traffic on Sunday evenings is terrible, though.\nM: You're right. Let's make it half past five instead — then we'll have time to find our seats.\nW: Perfect. Half past five at the west gate.\n\nFour.\nW: Hello, this is Tech Service calling about the laptop you brought in yesterday.\nM: Oh, good. Did you find the problem? I thought the battery was dying.\nW: At first we suspected the battery too, but after testing everything it turned out to be the cooling fan. It's completely blocked with dust, so the laptop overheats and switches itself off.\nM: I see. How much will the repair cost?\nW: Cleaning and a new fan will be a hundred and fifty thousand soums, and it'll be ready on Thursday.\nM: That's fine. Thank you.\n\nFive.\nM: Hello, City Taxi? I need a car to the international airport tomorrow morning.\nW: Certainly. What time is your flight?\nM: It leaves at seven fifteen, so I'd like to be at the airport by half past five.\nW: Then we'll pick you up at a quarter to five. What's your address?\nM: Twelve, Bobur Street, apartment eight — the entrance is at the back of the building.\nW: A quarter to five, twelve Bobur Street. The driver will call you when he arrives.\n\nSix.\nW: Timur! I'm so glad I caught you. My sister is getting married next Saturday, and we'd love you to come.\nM: Congratulations! Of course I'll come. Where's the ceremony?\nW: The wedding party will be at the Navruz restaurant, near the city park. It starts at five in the evening.\nM: Should I bring anything?\nW: Just yourself! Oh — and it would be lovely if you could take some photos. You're so good with your camera.\nM: With pleasure.\n\nSeven.\nM: Good morning, Star Language Centre.\nW: Hi, I'd like to join your English course. I saw the advert for the evening group.\nM: The evening group meets on Mondays, Wednesdays and Fridays at seven o'clock.\nW: Hmm, that's a problem — I work late shifts on Fridays. Do you have anything at the weekend?\nM: We do — the weekend group meets on Saturday and Sunday mornings at ten.\nW: That suits me much better. Can I register for that one, please?\nM: Of course. I just need your name and a copy of your passport.\n\nEight.\nM: Dilnoza, I missed Professor Rahimov's lecture on Tuesday — I was at the dentist's. Could I copy your notes?\nW: To be honest, my notes are a mess. But don't worry — the professor uploads his slides to the university portal after every lecture.\nM: Really? I didn't know that.\nW: And this time he even recorded the whole lecture on video, because half the group was away at the sports competition. Just log in and watch it.\nM: That's brilliant. I'll do that tonight. Thanks!"
+          },
           "questions": [
-            { "number": 1, "type": "MCQ_SINGLE", "promptEn": "How much is the monthly rent for the flat?", "data": { "options": ["$450", "$480", "$415", "$540"] }, "answer": { "value": "$480" }, "points": 1 },
-            { "number": 2, "type": "MCQ_SINGLE", "promptEn": "How should the woman take the tablets?", "data": { "options": ["One tablet twice a day after meals", "Two tablets once a day before meals", "One tablet three times a day on an empty stomach", "Two tablets in the morning before breakfast"] }, "answer": { "value": "One tablet twice a day after meals" }, "points": 1 },
-            { "number": 3, "type": "MCQ_SINGLE", "promptEn": "What time will the friends meet before the match?", "data": { "options": ["5:30", "6:00", "7:00", "6:30"] }, "answer": { "value": "5:30" }, "points": 1 },
-            { "number": 4, "type": "MCQ_SINGLE", "promptEn": "What is actually wrong with the man's laptop?", "data": { "options": ["The battery is dead", "The cooling fan is blocked", "The screen is broken", "The keyboard does not work"] }, "answer": { "value": "The cooling fan is blocked" }, "points": 1 },
-            { "number": 5, "type": "MCQ_SINGLE", "promptEn": "What time will the taxi pick the man up?", "data": { "options": ["4:45", "5:30", "7:15", "5:15"] }, "answer": { "value": "4:45" }, "points": 1 },
-            { "number": 6, "type": "MCQ_SINGLE", "promptEn": "What does the woman ask the man to do at the wedding?", "data": { "options": ["Take photographs", "Bring some food", "Drive her sister to the restaurant", "Help decorate the hall"] }, "answer": { "value": "Take photographs" }, "points": 1 },
-            { "number": 7, "type": "MCQ_SINGLE", "promptEn": "Which group does the woman decide to join?", "data": { "options": ["The weekend morning group", "The Monday evening group", "The Friday evening group", "The Wednesday afternoon group"] }, "answer": { "value": "The weekend morning group" }, "points": 1 },
-            { "number": 8, "type": "MCQ_SINGLE", "promptEn": "How will the man catch up on the missed lecture?", "data": { "options": ["By watching a video on the university portal", "By copying the woman's notes", "By meeting the professor in person", "By attending the same lecture next week"] }, "answer": { "value": "By watching a video on the university portal" }, "points": 1 }
-          ]
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How much is the monthly rent for the flat?",
+              "data": {
+                "options": [
+                  "$450",
+                  "$480",
+                  "$415",
+                  "$540"
+                ]
+              },
+              "answer": {
+                "value": "$480"
+              },
+              "points": 1
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How should the woman take the tablets?",
+              "data": {
+                "options": [
+                  "One tablet twice a day after meals",
+                  "Two tablets once a day before meals",
+                  "One tablet three times a day on an empty stomach",
+                  "Two tablets in the morning before breakfast"
+                ]
+              },
+              "answer": {
+                "value": "One tablet twice a day after meals"
+              },
+              "points": 1
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What time will the friends meet before the match?",
+              "data": {
+                "options": [
+                  "5:30",
+                  "6:00",
+                  "7:00",
+                  "6:30"
+                ]
+              },
+              "answer": {
+                "value": "5:30"
+              },
+              "points": 1
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is actually wrong with the man's laptop?",
+              "data": {
+                "options": [
+                  "The battery is dead",
+                  "The cooling fan is blocked",
+                  "The screen is broken",
+                  "The keyboard does not work"
+                ]
+              },
+              "answer": {
+                "value": "The cooling fan is blocked"
+              },
+              "points": 1
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What time will the taxi pick the man up?",
+              "data": {
+                "options": [
+                  "4:45",
+                  "5:30",
+                  "7:15",
+                  "5:15"
+                ]
+              },
+              "answer": {
+                "value": "4:45"
+              },
+              "points": 1
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the woman ask the man to do at the wedding?",
+              "data": {
+                "options": [
+                  "Take photographs",
+                  "Bring some food",
+                  "Drive her sister to the restaurant",
+                  "Help decorate the hall"
+                ]
+              },
+              "answer": {
+                "value": "Take photographs"
+              },
+              "points": 1
+            },
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Which group does the woman decide to join?",
+              "data": {
+                "options": [
+                  "The weekend morning group",
+                  "The Monday evening group",
+                  "The Friday evening group",
+                  "The Wednesday afternoon group"
+                ]
+              },
+              "answer": {
+                "value": "The weekend morning group"
+              },
+              "points": 1
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How will the man catch up on the missed lecture?",
+              "data": {
+                "options": [
+                  "By watching a video on the university portal",
+                  "By copying the woman's notes",
+                  "By meeting the professor in person",
+                  "By attending the same lecture next week"
+                ]
+              },
+              "answer": {
+                "value": "By watching a video on the university portal"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-3-part1.mp3"
         },
         {
           "order": 1,
@@ -39,15 +170,108 @@
           "titleEn": "Part 2: Note completion",
           "instructionsEn": "You will hear two short talks. Complete the notes with NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
           "instructionsUz": "Ikkita qisqa nutqni eshitasiz. Har bir bo'sh joyga KO'PI BILAN IKKI SO'Z YOKI RAQAM yozing.",
-          "context": { "transcript": "Talk one. University orientation announcement.\nW: Good morning, everyone, and a very warm welcome to Tashkent International University! Before you rush off to explore, let me run through today's programme. The welcome meeting for all first-year students begins at nine o'clock sharp in the Main Hall — that's on the ground floor of Building A, straight through the glass doors. The rector will speak first, followed by the heads of each faculty. As soon as the meeting finishes, please make your way to the library, where staff will be waiting to hand out your student ID cards. Don't forget to bring your passport, or they won't be able to give you the card. You'll need the ID for the canteen, the buses and, of course, for borrowing books. Then, in the afternoon, at two o'clock, our student volunteers will take you on a guided tour of the campus — the sports centre, the computer labs, the dormitories, everything. The tour starts from the fountain in front of the Main Hall. One more thing: free Wi-Fi is available everywhere on campus, and you'll find the password printed on the back of your welcome pack. Enjoy your first day!\n\nTalk two. Swimming pool rules.\nM: Right, before we open the pool to our new members, let me quickly go over the safety rules — please listen carefully. First of all, everyone must take a shower before entering the water. This is not optional; it keeps the pool clean for all of us. Second, swimming caps are compulsory in every lane. If you haven't got one, don't worry — you can buy a cap at the reception desk for just fifteen thousand soums. Third, children under twelve must be accompanied by an adult at all times, both in the water and around the pool. The floor gets slippery, so no running, please. And finally, opening hours: on weekdays the pool closes at half past nine in the evening, and at the weekend we close an hour earlier. Any questions? No? Then enjoy your swim!" },
+          "context": {
+            "transcript": "Talk one. University orientation announcement.\nW: Good morning, everyone, and a very warm welcome to Tashkent International University! Before you rush off to explore, let me run through today's programme. The welcome meeting for all first-year students begins at nine o'clock sharp in the Main Hall — that's on the ground floor of Building A, straight through the glass doors. The rector will speak first, followed by the heads of each faculty. As soon as the meeting finishes, please make your way to the library, where staff will be waiting to hand out your student ID cards. Don't forget to bring your passport, or they won't be able to give you the card. You'll need the ID for the canteen, the buses and, of course, for borrowing books. Then, in the afternoon, at two o'clock, our student volunteers will take you on a guided tour of the campus — the sports centre, the computer labs, the dormitories, everything. The tour starts from the fountain in front of the Main Hall. One more thing: free Wi-Fi is available everywhere on campus, and you'll find the password printed on the back of your welcome pack. Enjoy your first day!\n\nTalk two. Swimming pool rules.\nM: Right, before we open the pool to our new members, let me quickly go over the safety rules — please listen carefully. First of all, everyone must take a shower before entering the water. This is not optional; it keeps the pool clean for all of us. Second, swimming caps are compulsory in every lane. If you haven't got one, don't worry — you can buy a cap at the reception desk for just fifteen thousand soums. Third, children under twelve must be accompanied by an adult at all times, both in the water and around the pool. The floor gets slippery, so no running, please. And finally, opening hours: on weekdays the pool closes at half past nine in the evening, and at the weekend we close an hour earlier. Any questions? No? Then enjoy your swim!"
+          },
           "questions": [
-            { "number": 9, "type": "GAP_FILL", "promptEn": "The welcome meeting begins at 9:00 in the ______ on the ground floor of Building A.", "data": { "text": "The welcome meeting begins at 9:00 in the ______ on the ground floor of Building A." }, "answer": { "accept": ["Main Hall", "main hall", "the Main Hall"] }, "points": 1 },
-            { "number": 10, "type": "GAP_FILL", "promptEn": "After the meeting, students collect their ID cards from the ______.", "data": { "text": "After the meeting, students collect their ID cards from the ______." }, "answer": { "accept": ["library", "the library"] }, "points": 1 },
-            { "number": 11, "type": "GAP_FILL", "promptEn": "The guided campus tour starts at ______ in the afternoon.", "data": { "text": "The guided campus tour starts at ______ in the afternoon." }, "answer": { "accept": ["2", "two", "2 pm", "2:00", "two o'clock", "2 o'clock"] }, "points": 1 },
-            { "number": 12, "type": "GAP_FILL", "promptEn": "Everyone must take a ______ before entering the water.", "data": { "text": "Everyone must take a ______ before entering the water." }, "answer": { "accept": ["shower"] }, "points": 1 },
-            { "number": 13, "type": "GAP_FILL", "promptEn": "Swimming caps can be bought at the ______.", "data": { "text": "Swimming caps can be bought at the ______." }, "answer": { "accept": ["reception", "reception desk", "the reception", "the reception desk"] }, "points": 1 },
-            { "number": 14, "type": "GAP_FILL", "promptEn": "Children under ______ must be accompanied by an adult.", "data": { "text": "Children under ______ must be accompanied by an adult." }, "answer": { "accept": ["12", "twelve"] }, "points": 1 }
-          ]
+            {
+              "number": 9,
+              "type": "GAP_FILL",
+              "promptEn": "The welcome meeting begins at 9:00 in the ______ on the ground floor of Building A.",
+              "data": {
+                "text": "The welcome meeting begins at 9:00 in the ______ on the ground floor of Building A."
+              },
+              "answer": {
+                "accept": [
+                  "Main Hall",
+                  "main hall",
+                  "the Main Hall"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 10,
+              "type": "GAP_FILL",
+              "promptEn": "After the meeting, students collect their ID cards from the ______.",
+              "data": {
+                "text": "After the meeting, students collect their ID cards from the ______."
+              },
+              "answer": {
+                "accept": [
+                  "library",
+                  "the library"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 11,
+              "type": "GAP_FILL",
+              "promptEn": "The guided campus tour starts at ______ in the afternoon.",
+              "data": {
+                "text": "The guided campus tour starts at ______ in the afternoon."
+              },
+              "answer": {
+                "accept": [
+                  "2",
+                  "two",
+                  "2 pm",
+                  "2:00",
+                  "two o'clock",
+                  "2 o'clock"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 12,
+              "type": "GAP_FILL",
+              "promptEn": "Everyone must take a ______ before entering the water.",
+              "data": {
+                "text": "Everyone must take a ______ before entering the water."
+              },
+              "answer": {
+                "accept": [
+                  "shower"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 13,
+              "type": "GAP_FILL",
+              "promptEn": "Swimming caps can be bought at the ______.",
+              "data": {
+                "text": "Swimming caps can be bought at the ______."
+              },
+              "answer": {
+                "accept": [
+                  "reception",
+                  "reception desk",
+                  "the reception",
+                  "the reception desk"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 14,
+              "type": "GAP_FILL",
+              "promptEn": "Children under ______ must be accompanied by an adult.",
+              "data": {
+                "text": "Children under ______ must be accompanied by an adult."
+              },
+              "answer": {
+                "accept": [
+                  "12",
+                  "twelve"
+                ]
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-3-part2.mp3"
         },
         {
           "order": 2,
@@ -55,13 +279,80 @@
           "titleEn": "Part 3: Conversation",
           "instructionsEn": "You will hear two colleagues planning a team-building event. For questions 15-18, choose the correct answer.",
           "instructionsUz": "Ikki hamkasbning jamoaviy tadbir rejalashtirish haqidagi suhbatini eshitasiz. 15-18-savollar uchun to'g'ri javobni tanlang.",
-          "context": { "transcript": "M: Nilufar, have you got a minute? We need to finalise the team-building event for the sales department.\nW: Sure, Aziz. Any ideas so far?\nM: Well, paintball was the most popular suggestion in the staff survey.\nW: I checked the prices — it's thirty-five dollars per person, and our budget is only twenty dollars a head. Finance will never approve it.\nM: That's a shame. What about hiking in the mountains, then?\nW: The forecast says rain all next week. I'd rather not risk twenty wet, unhappy colleagues. My suggestion is a cooking master class — the Italian studio in the city centre charges eighteen dollars a person, and that includes the lunch everyone cooks together.\nM: A cooking class... actually, that could be fun. Everyone works in small teams, just like in the office. Let's go with that. When should we do it — Friday afternoon?\nW: The director has a board meeting on Friday, remember. Saturday morning would be safer — everybody's free then.\nM: Saturday morning it is. Can you phone the studio and reserve it for, say, twenty people?\nW: I'll call them right after lunch. And you should email the whole team today so they can save the date.\nM: Will do. Thanks, Nilufar." },
+          "context": {
+            "transcript": "M: Nilufar, have you got a minute? We need to finalise the team-building event for the sales department.\nW: Sure, Aziz. Any ideas so far?\nM: Well, paintball was the most popular suggestion in the staff survey.\nW: I checked the prices — it's thirty-five dollars per person, and our budget is only twenty dollars a head. Finance will never approve it.\nM: That's a shame. What about hiking in the mountains, then?\nW: The forecast says rain all next week. I'd rather not risk twenty wet, unhappy colleagues. My suggestion is a cooking master class — the Italian studio in the city centre charges eighteen dollars a person, and that includes the lunch everyone cooks together.\nM: A cooking class... actually, that could be fun. Everyone works in small teams, just like in the office. Let's go with that. When should we do it — Friday afternoon?\nW: The director has a board meeting on Friday, remember. Saturday morning would be safer — everybody's free then.\nM: Saturday morning it is. Can you phone the studio and reserve it for, say, twenty people?\nW: I'll call them right after lunch. And you should email the whole team today so they can save the date.\nM: Will do. Thanks, Nilufar."
+          },
           "questions": [
-            { "number": 15, "type": "MCQ_SINGLE", "promptEn": "Which activity do the colleagues finally choose?", "data": { "options": ["A cooking master class", "Paintball", "Hiking in the mountains", "A team lunch at the office"] }, "answer": { "value": "A cooking master class" }, "points": 1 },
-            { "number": 16, "type": "MCQ_SINGLE", "promptEn": "Why do they reject the paintball idea?", "data": { "options": ["It costs more than the budget allows", "The weather will be bad", "It was unpopular in the survey", "The venue is too far away"] }, "answer": { "value": "It costs more than the budget allows" }, "points": 1 },
-            { "number": 17, "type": "MCQ_SINGLE", "promptEn": "When will the event take place?", "data": { "options": ["On Saturday morning", "On Friday afternoon", "On Friday morning", "On Sunday afternoon"] }, "answer": { "value": "On Saturday morning" }, "points": 1 },
-            { "number": 18, "type": "MCQ_SINGLE", "promptEn": "What will the woman do next?", "data": { "options": ["Telephone the cooking studio", "Email the whole team", "Speak to the finance department", "Check the weather forecast"] }, "answer": { "value": "Telephone the cooking studio" }, "points": 1 }
-          ]
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Which activity do the colleagues finally choose?",
+              "data": {
+                "options": [
+                  "A cooking master class",
+                  "Paintball",
+                  "Hiking in the mountains",
+                  "A team lunch at the office"
+                ]
+              },
+              "answer": {
+                "value": "A cooking master class"
+              },
+              "points": 1
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why do they reject the paintball idea?",
+              "data": {
+                "options": [
+                  "It costs more than the budget allows",
+                  "The weather will be bad",
+                  "It was unpopular in the survey",
+                  "The venue is too far away"
+                ]
+              },
+              "answer": {
+                "value": "It costs more than the budget allows"
+              },
+              "points": 1
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptEn": "When will the event take place?",
+              "data": {
+                "options": [
+                  "On Saturday morning",
+                  "On Friday afternoon",
+                  "On Friday morning",
+                  "On Sunday afternoon"
+                ]
+              },
+              "answer": {
+                "value": "On Saturday morning"
+              },
+              "points": 1
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What will the woman do next?",
+              "data": {
+                "options": [
+                  "Telephone the cooking studio",
+                  "Email the whole team",
+                  "Speak to the finance department",
+                  "Check the weather forecast"
+                ]
+              },
+              "answer": {
+                "value": "Telephone the cooking studio"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-3-part3.mp3"
         },
         {
           "order": 3,
@@ -69,14 +360,97 @@
           "titleEn": "Part 4: Podcast interview",
           "instructionsEn": "You will hear a podcast interview with a nutritionist about healthy eating myths. For questions 19-23, choose the correct answer.",
           "instructionsUz": "Dietolog bilan sog'lom ovqatlanish haqidagi afsonalar yuzasidan podkast intervyusini eshitasiz. 19-23-savollar uchun to'g'ri javobni tanlang.",
-          "context": { "transcript": "M: Welcome back to Health Matters, the podcast that separates science from nonsense. My guest today is Dr. Lola Karimova, a nutritionist with fifteen years of clinical experience. Doctor, food myths are everywhere. Why do they spread so quickly?\nW: Mostly because of social media. Anyone with a camera can call themselves a nutrition expert, and dramatic claims get far more clicks than careful scientific facts. Real research is complicated and full of 'maybes', but a slogan like 'sugar is poison' takes three seconds to share.\nM: Let's test a few myths, then. Number one: breakfast is the most important meal of the day, and skipping it is dangerous.\nW: That's simply not true for everyone. For some people breakfast is genuinely helpful — children, for example, concentrate better after it. But recent studies show that healthy adults who prefer to skip it come to no harm at all. What matters is the total amount and quality of food you eat across the whole day, not the clock on the wall.\nM: Myth number two: eating carbohydrates after six in the evening makes you gain weight.\nW: Another favourite of mine — and another myth. Your body doesn't keep a timetable. Weight gain happens when you regularly eat more calories than you burn. It makes very little difference whether you eat your rice at midday or at eight in the evening.\nM: And what about detox juices? They're everywhere at the moment.\nW: Honestly? They're a waste of money. Your liver and your kidneys already remove unwanted substances from your body every second of every day — that is their job, and they are very good at it. No juice can do it better. In fact, some of these fashionable drinks contain more sugar than a bottle of cola.\nM: Strong words! So what's your advice to our listeners?\nW: Before you believe any claim about food, check who is making it. Ask whether the person has a real qualification and whether serious research supports what they say. And remember — no single food is magic. Variety and moderation are what keep us healthy, boring as that sounds.\nM: Dr. Karimova, thank you very much." },
+          "context": {
+            "transcript": "M: Welcome back to Health Matters, the podcast that separates science from nonsense. My guest today is Dr. Lola Karimova, a nutritionist with fifteen years of clinical experience. Doctor, food myths are everywhere. Why do they spread so quickly?\nW: Mostly because of social media. Anyone with a camera can call themselves a nutrition expert, and dramatic claims get far more clicks than careful scientific facts. Real research is complicated and full of 'maybes', but a slogan like 'sugar is poison' takes three seconds to share.\nM: Let's test a few myths, then. Number one: breakfast is the most important meal of the day, and skipping it is dangerous.\nW: That's simply not true for everyone. For some people breakfast is genuinely helpful — children, for example, concentrate better after it. But recent studies show that healthy adults who prefer to skip it come to no harm at all. What matters is the total amount and quality of food you eat across the whole day, not the clock on the wall.\nM: Myth number two: eating carbohydrates after six in the evening makes you gain weight.\nW: Another favourite of mine — and another myth. Your body doesn't keep a timetable. Weight gain happens when you regularly eat more calories than you burn. It makes very little difference whether you eat your rice at midday or at eight in the evening.\nM: And what about detox juices? They're everywhere at the moment.\nW: Honestly? They're a waste of money. Your liver and your kidneys already remove unwanted substances from your body every second of every day — that is their job, and they are very good at it. No juice can do it better. In fact, some of these fashionable drinks contain more sugar than a bottle of cola.\nM: Strong words! So what's your advice to our listeners?\nW: Before you believe any claim about food, check who is making it. Ask whether the person has a real qualification and whether serious research supports what they say. And remember — no single food is magic. Variety and moderation are what keep us healthy, boring as that sounds.\nM: Dr. Karimova, thank you very much."
+          },
           "questions": [
-            { "number": 19, "type": "MCQ_SINGLE", "promptEn": "According to Dr. Karimova, why do food myths spread so quickly?", "data": { "options": ["Dramatic claims on social media attract more attention than facts", "Scientists refuse to talk to the public", "People do not trust their doctors", "Food companies pay for advertising"] }, "answer": { "value": "Dramatic claims on social media attract more attention than facts" }, "points": 1 },
-            { "number": 20, "type": "MCQ_SINGLE", "promptEn": "What does the nutritionist say about skipping breakfast?", "data": { "options": ["It causes no harm to healthy adults", "It is dangerous for everyone", "It helps people lose weight quickly", "It improves concentration in children"] }, "answer": { "value": "It causes no harm to healthy adults" }, "points": 1 },
-            { "number": 21, "type": "MCQ_SINGLE", "promptEn": "According to the doctor, weight gain mainly depends on", "data": { "options": ["how many calories you eat compared with how many you burn", "what time of day you eat carbohydrates", "how often you eat rice in the evening", "whether you follow a fixed meal timetable"] }, "answer": { "value": "how many calories you eat compared with how many you burn" }, "points": 1 },
-            { "number": 22, "type": "MCQ_SINGLE", "promptEn": "What is her opinion of detox juices?", "data": { "options": ["They are unnecessary because the body cleans itself", "They work better than medicine", "They are useful after holidays", "They contain no sugar at all"] }, "answer": { "value": "They are unnecessary because the body cleans itself" }, "points": 1 },
-            { "number": 23, "type": "MCQ_SINGLE", "promptEn": "What final advice does Dr. Karimova give to listeners?", "data": { "options": ["Check the qualifications and evidence behind food claims", "Avoid social media completely", "Eat the same healthy foods every day", "Follow the advice of popular bloggers"] }, "answer": { "value": "Check the qualifications and evidence behind food claims" }, "points": 1 }
-          ]
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to Dr. Karimova, why do food myths spread so quickly?",
+              "data": {
+                "options": [
+                  "Dramatic claims on social media attract more attention than facts",
+                  "Scientists refuse to talk to the public",
+                  "People do not trust their doctors",
+                  "Food companies pay for advertising"
+                ]
+              },
+              "answer": {
+                "value": "Dramatic claims on social media attract more attention than facts"
+              },
+              "points": 1
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does the nutritionist say about skipping breakfast?",
+              "data": {
+                "options": [
+                  "It causes no harm to healthy adults",
+                  "It is dangerous for everyone",
+                  "It helps people lose weight quickly",
+                  "It improves concentration in children"
+                ]
+              },
+              "answer": {
+                "value": "It causes no harm to healthy adults"
+              },
+              "points": 1
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the doctor, weight gain mainly depends on",
+              "data": {
+                "options": [
+                  "how many calories you eat compared with how many you burn",
+                  "what time of day you eat carbohydrates",
+                  "how often you eat rice in the evening",
+                  "whether you follow a fixed meal timetable"
+                ]
+              },
+              "answer": {
+                "value": "how many calories you eat compared with how many you burn"
+              },
+              "points": 1
+            },
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is her opinion of detox juices?",
+              "data": {
+                "options": [
+                  "They are unnecessary because the body cleans itself",
+                  "They work better than medicine",
+                  "They are useful after holidays",
+                  "They contain no sugar at all"
+                ]
+              },
+              "answer": {
+                "value": "They are unnecessary because the body cleans itself"
+              },
+              "points": 1
+            },
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What final advice does Dr. Karimova give to listeners?",
+              "data": {
+                "options": [
+                  "Check the qualifications and evidence behind food claims",
+                  "Avoid social media completely",
+                  "Eat the same healthy foods every day",
+                  "Follow the advice of popular bloggers"
+                ]
+              },
+              "answer": {
+                "value": "Check the qualifications and evidence behind food claims"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-3-part4.mp3"
         },
         {
           "order": 4,
@@ -84,15 +458,102 @@
           "titleEn": "Part 5: Monologue — sentence completion",
           "instructionsEn": "You will hear a museum guide describing an exhibition of ancient manuscripts. Complete the sentences with NO MORE THAN TWO WORDS AND/OR A NUMBER.",
           "instructionsUz": "Muzey yo'lboshchisining qadimiy qo'lyozmalar ko'rgazmasi haqidagi hikoyasini eshitasiz. Gaplarni KO'PI BILAN IKKI SO'Z YOKI RAQAM bilan to'ldiring.",
-          "context": { "transcript": "W: Ladies and gentlemen, welcome to the National Museum. My name is Madina, and I'll be your guide this morning. We are about to enter our newest exhibition, 'Written Treasures', which you will find on the second floor, just past the ceramics gallery. The exhibition brings together more than two hundred ancient manuscripts from libraries and private collections across Central Asia. The oldest item on display is a fragment of a medical text written in the ninth century — that's more than eleven hundred years ago. As you walk round, look closely at the paper itself: many of these manuscripts were written on fine paper made from mulberry bark, a speciality of Samarkand that was famous far beyond the region. The decoration is remarkable too — several of the manuscripts are illuminated with real gold ink, which still shines today. Now, you may wonder why the room feels rather cool. To protect the fragile pages, the temperature in the hall is kept at exactly eighteen degrees, and the sealed glass cases control the humidity around each manuscript. You are very welcome to take photographs, but please do not use flash — strong light gradually destroys the old inks. A free audio guide is available in Uzbek, Russian and English at the information desk, and our museum shop sells beautiful replicas of the most famous pages. One last thing before we go in: this exhibition is temporary and will close at the end of October, so do tell your friends not to leave their visit too late. Now, follow me, please." },
+          "context": {
+            "transcript": "W: Ladies and gentlemen, welcome to the National Museum. My name is Madina, and I'll be your guide this morning. We are about to enter our newest exhibition, 'Written Treasures', which you will find on the second floor, just past the ceramics gallery. The exhibition brings together more than two hundred ancient manuscripts from libraries and private collections across Central Asia. The oldest item on display is a fragment of a medical text written in the ninth century — that's more than eleven hundred years ago. As you walk round, look closely at the paper itself: many of these manuscripts were written on fine paper made from mulberry bark, a speciality of Samarkand that was famous far beyond the region. The decoration is remarkable too — several of the manuscripts are illuminated with real gold ink, which still shines today. Now, you may wonder why the room feels rather cool. To protect the fragile pages, the temperature in the hall is kept at exactly eighteen degrees, and the sealed glass cases control the humidity around each manuscript. You are very welcome to take photographs, but please do not use flash — strong light gradually destroys the old inks. A free audio guide is available in Uzbek, Russian and English at the information desk, and our museum shop sells beautiful replicas of the most famous pages. One last thing before we go in: this exhibition is temporary and will close at the end of October, so do tell your friends not to leave their visit too late. Now, follow me, please."
+          },
           "questions": [
-            { "number": 24, "type": "GAP_FILL", "promptEn": "The 'Written Treasures' exhibition is located on the ______ floor of the museum.", "data": { "text": "The 'Written Treasures' exhibition is located on the ______ floor of the museum." }, "answer": { "accept": ["second", "2nd"] }, "points": 1 },
-            { "number": 25, "type": "GAP_FILL", "promptEn": "The oldest manuscript, a medical text, was written in the ______ century.", "data": { "text": "The oldest manuscript, a medical text, was written in the ______ century." }, "answer": { "accept": ["ninth", "9th", "9"] }, "points": 1 },
-            { "number": 26, "type": "GAP_FILL", "promptEn": "Many manuscripts were written on paper made from ______ bark.", "data": { "text": "Many manuscripts were written on paper made from ______ bark." }, "answer": { "accept": ["mulberry"] }, "points": 1 },
-            { "number": 27, "type": "GAP_FILL", "promptEn": "To protect the pages, the temperature in the hall is kept at ______ degrees.", "data": { "text": "To protect the pages, the temperature in the hall is kept at ______ degrees." }, "answer": { "accept": ["18", "eighteen"] }, "points": 1 },
-            { "number": 28, "type": "GAP_FILL", "promptEn": "Visitors may take photographs, but they must not use ______.", "data": { "text": "Visitors may take photographs, but they must not use ______." }, "answer": { "accept": ["flash", "a flash", "the flash"] }, "points": 1 },
-            { "number": 29, "type": "GAP_FILL", "promptEn": "The exhibition will close at the end of ______.", "data": { "text": "The exhibition will close at the end of ______." }, "answer": { "accept": ["October"] }, "points": 1 }
-          ]
+            {
+              "number": 24,
+              "type": "GAP_FILL",
+              "promptEn": "The 'Written Treasures' exhibition is located on the ______ floor of the museum.",
+              "data": {
+                "text": "The 'Written Treasures' exhibition is located on the ______ floor of the museum."
+              },
+              "answer": {
+                "accept": [
+                  "second",
+                  "2nd"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 25,
+              "type": "GAP_FILL",
+              "promptEn": "The oldest manuscript, a medical text, was written in the ______ century.",
+              "data": {
+                "text": "The oldest manuscript, a medical text, was written in the ______ century."
+              },
+              "answer": {
+                "accept": [
+                  "ninth",
+                  "9th",
+                  "9"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 26,
+              "type": "GAP_FILL",
+              "promptEn": "Many manuscripts were written on paper made from ______ bark.",
+              "data": {
+                "text": "Many manuscripts were written on paper made from ______ bark."
+              },
+              "answer": {
+                "accept": [
+                  "mulberry"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 27,
+              "type": "GAP_FILL",
+              "promptEn": "To protect the pages, the temperature in the hall is kept at ______ degrees.",
+              "data": {
+                "text": "To protect the pages, the temperature in the hall is kept at ______ degrees."
+              },
+              "answer": {
+                "accept": [
+                  "18",
+                  "eighteen"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 28,
+              "type": "GAP_FILL",
+              "promptEn": "Visitors may take photographs, but they must not use ______.",
+              "data": {
+                "text": "Visitors may take photographs, but they must not use ______."
+              },
+              "answer": {
+                "accept": [
+                  "flash",
+                  "a flash",
+                  "the flash"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 29,
+              "type": "GAP_FILL",
+              "promptEn": "The exhibition will close at the end of ______.",
+              "data": {
+                "text": "The exhibition will close at the end of ______."
+              },
+              "answer": {
+                "accept": [
+                  "October"
+                ]
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-3-part5.mp3"
         },
         {
           "order": 5,
@@ -100,15 +561,114 @@
           "titleEn": "Part 6: Lecture",
           "instructionsEn": "You will hear part of a lecture about how memory works and effective study techniques. For questions 30-35, choose the correct answer.",
           "instructionsUz": "Xotira qanday ishlashi va samarali o'qish usullari haqidagi ma'ruzaning bir qismini eshitasiz. 30-35-savollar uchun to'g'ri javobni tanlang.",
-          "context": { "transcript": "M: Good afternoon, everyone. Today's lecture is about how memory works — and how you can use that knowledge to study far more effectively. When you learn something new, the information first enters your short-term memory. This store is surprisingly small and fragile: it holds around seven items for about a minute — actually, let me correct myself, recent research suggests it's even less than that: no more than thirty seconds, unless you actively repeat the information. If you do nothing with it, it simply disappears. A German psychologist called Hermann Ebbinghaus demonstrated this more than a century ago. He showed that within just a few days we forget most of what we have learned — unless we review it. His famous graph is known as the forgetting curve. So how do we move knowledge into long-term memory? The single most effective technique, confirmed by hundreds of studies, is spaced repetition: reviewing material at increasing intervals — after a day, then a week, then a month. Each review at the right moment makes the memory stronger and slower to fade. Testing yourself works for the same reason: the effort of pulling information out of your memory strengthens it far more than passively looking at it again. And that brings me to a very common mistake. Many students prepare for exams by rereading their notes and highlighting them the night before. It feels productive, but the research is clear: rereading creates only an illusion of knowledge — the text looks familiar, so you believe you know it, when in fact you don't. Finally, whatever you do, don't sacrifice your sleep. During deep sleep, the brain replays the day's experiences and transfers important information from short-term into long-term storage. A student who sleeps eight hours after studying remembers significantly more the next morning than one who stays up all night cramming. In short: space your reviews, test yourself, and go to bed. Next week we'll look at how emotion affects what we remember." },
+          "context": {
+            "transcript": "M: Good afternoon, everyone. Today's lecture is about how memory works — and how you can use that knowledge to study far more effectively. When you learn something new, the information first enters your short-term memory. This store is surprisingly small and fragile: it holds around seven items for about a minute — actually, let me correct myself, recent research suggests it's even less than that: no more than thirty seconds, unless you actively repeat the information. If you do nothing with it, it simply disappears. A German psychologist called Hermann Ebbinghaus demonstrated this more than a century ago. He showed that within just a few days we forget most of what we have learned — unless we review it. His famous graph is known as the forgetting curve. So how do we move knowledge into long-term memory? The single most effective technique, confirmed by hundreds of studies, is spaced repetition: reviewing material at increasing intervals — after a day, then a week, then a month. Each review at the right moment makes the memory stronger and slower to fade. Testing yourself works for the same reason: the effort of pulling information out of your memory strengthens it far more than passively looking at it again. And that brings me to a very common mistake. Many students prepare for exams by rereading their notes and highlighting them the night before. It feels productive, but the research is clear: rereading creates only an illusion of knowledge — the text looks familiar, so you believe you know it, when in fact you don't. Finally, whatever you do, don't sacrifice your sleep. During deep sleep, the brain replays the day's experiences and transfers important information from short-term into long-term storage. A student who sleeps eight hours after studying remembers significantly more the next morning than one who stays up all night cramming. In short: space your reviews, test yourself, and go to bed. Next week we'll look at how emotion affects what we remember."
+          },
           "questions": [
-            { "number": 30, "type": "MCQ_SINGLE", "promptEn": "According to the lecturer, where does new information go first?", "data": { "options": ["Into short-term memory", "Into long-term memory", "Directly into deep sleep storage", "Into the forgetting curve"] }, "answer": { "value": "Into short-term memory" }, "points": 1 },
-            { "number": 31, "type": "MCQ_SINGLE", "promptEn": "According to recent research mentioned in the lecture, how long can short-term memory hold information without repetition?", "data": { "options": ["No more than 30 seconds", "About a minute", "About seven minutes", "A few days"] }, "answer": { "value": "No more than 30 seconds" }, "points": 1 },
-            { "number": 32, "type": "MCQ_SINGLE", "promptEn": "What did Hermann Ebbinghaus demonstrate?", "data": { "options": ["Most information is forgotten within days unless it is reviewed", "People remember everything they learn for a century", "Memory works better in the afternoon", "Graphs help students remember facts"] }, "answer": { "value": "Most information is forgotten within days unless it is reviewed" }, "points": 1 },
-            { "number": 33, "type": "MCQ_SINGLE", "promptEn": "Which technique does the lecturer describe as the most effective?", "data": { "options": ["Reviewing material at increasing intervals", "Rereading notes the night before an exam", "Highlighting important sentences", "Studying in complete silence"] }, "answer": { "value": "Reviewing material at increasing intervals" }, "points": 1 },
-            { "number": 34, "type": "MCQ_SINGLE", "promptEn": "Why is rereading notes a poor study strategy?", "data": { "options": ["It gives a false feeling of knowing the material", "It takes too much time", "It damages eyesight", "It only works for mathematics"] }, "answer": { "value": "It gives a false feeling of knowing the material" }, "points": 1 },
-            { "number": 35, "type": "MCQ_SINGLE", "promptEn": "What happens in the brain during deep sleep?", "data": { "options": ["Information is transferred into long-term memory", "Short-term memory is completely erased", "The forgetting curve becomes steeper", "The brain stops working to save energy"] }, "answer": { "value": "Information is transferred into long-term memory" }, "points": 1 }
-          ]
+            {
+              "number": 30,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the lecturer, where does new information go first?",
+              "data": {
+                "options": [
+                  "Into short-term memory",
+                  "Into long-term memory",
+                  "Directly into deep sleep storage",
+                  "Into the forgetting curve"
+                ]
+              },
+              "answer": {
+                "value": "Into short-term memory"
+              },
+              "points": 1
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to recent research mentioned in the lecture, how long can short-term memory hold information without repetition?",
+              "data": {
+                "options": [
+                  "No more than 30 seconds",
+                  "About a minute",
+                  "About seven minutes",
+                  "A few days"
+                ]
+              },
+              "answer": {
+                "value": "No more than 30 seconds"
+              },
+              "points": 1
+            },
+            {
+              "number": 32,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What did Hermann Ebbinghaus demonstrate?",
+              "data": {
+                "options": [
+                  "Most information is forgotten within days unless it is reviewed",
+                  "People remember everything they learn for a century",
+                  "Memory works better in the afternoon",
+                  "Graphs help students remember facts"
+                ]
+              },
+              "answer": {
+                "value": "Most information is forgotten within days unless it is reviewed"
+              },
+              "points": 1
+            },
+            {
+              "number": 33,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Which technique does the lecturer describe as the most effective?",
+              "data": {
+                "options": [
+                  "Reviewing material at increasing intervals",
+                  "Rereading notes the night before an exam",
+                  "Highlighting important sentences",
+                  "Studying in complete silence"
+                ]
+              },
+              "answer": {
+                "value": "Reviewing material at increasing intervals"
+              },
+              "points": 1
+            },
+            {
+              "number": 34,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why is rereading notes a poor study strategy?",
+              "data": {
+                "options": [
+                  "It gives a false feeling of knowing the material",
+                  "It takes too much time",
+                  "It damages eyesight",
+                  "It only works for mathematics"
+                ]
+              },
+              "answer": {
+                "value": "It gives a false feeling of knowing the material"
+              },
+              "points": 1
+            },
+            {
+              "number": 35,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What happens in the brain during deep sleep?",
+              "data": {
+                "options": [
+                  "Information is transferred into long-term memory",
+                  "Short-term memory is completely erased",
+                  "The forgetting curve becomes steeper",
+                  "The brain stops working to save energy"
+                ]
+              },
+              "answer": {
+                "value": "Information is transferred into long-term memory"
+              },
+              "points": 1
+            }
+          ],
+          "audioUrl": "/uploads/audio/listening/english-full-mock-3-part6.mp3"
         }
       ]
     },
@@ -126,14 +686,138 @@
           "instructionsEn": "The text has six paragraphs, A-F. Choose the correct heading for each paragraph. There is one extra heading which you do not need to use.",
           "instructionsUz": "Matn oltita xatboshidan (A-F) iborat. Har bir xatboshiga mos sarlavhani tanlang. Bitta sarlavha ortiqcha.",
           "passageText": "The Rise of Electric Cars\n\nA. Many people imagine that electric cars are a twenty-first-century invention. In fact, at the beginning of the 1900s electric vehicles were more popular in American cities than petrol ones: they were quiet, clean and easy to drive. It was only when cheap petrol and mass-produced models like the Ford Model T arrived that electric cars almost disappeared from the roads for a hundred years.\n\nB. The heart of every modern electric car is its battery, and this is where progress has been fastest. Twenty years ago batteries were heavy, expensive and offered a range of barely one hundred kilometres. Today's lithium-ion packs cost a fraction of the price and can power a family car for four or five hundred kilometres on a single charge — and researchers promise that the next generation of solid-state batteries will go even further.\n\nC. Supporters point out that electric cars produce no exhaust fumes, which could dramatically improve air quality in crowded cities. However, scientists remind us that an electric car is only as clean as the electricity it runs on. In countries that burn coal to generate power, the environmental advantage becomes much smaller. The greenest electric car is one charged with energy from the sun, the wind or water.\n\nD. Price remains a serious obstacle for many families. A new electric model usually costs noticeably more than a similar petrol car. On the other hand, owners spend far less on fuel and maintenance, because electric motors have very few moving parts. Many governments also offer subsidies, free parking or tax reductions, so over several years the total cost of ownership can actually turn out to be lower.\n\nE. Perhaps the biggest practical problem is where to charge. Drivers with a private garage can simply plug in overnight, but millions of people live in blocks of flats. Long queues at motorway charging stations during the holidays show that infrastructure has not kept up with sales. Experts warn that without hundreds of thousands of new public chargers, the growth of electric driving will slow down.\n\nF. Despite these difficulties, most analysts believe the direction of travel is clear. Several European countries plan to ban the sale of new petrol and diesel cars by 2035, and major manufacturers have announced that their future models will be fully electric. If battery prices continue to fall, the electric car may dominate our roads within a generation.",
-          "context": { "headingsPool": ["An invention older than it seems", "Better batteries, longer journeys", "Cleaner air — with one condition", "Counting the costs", "The charging challenge", "A look into the future", "The world's fastest electric car"] },
+          "context": {
+            "headingsPool": [
+              "An invention older than it seems",
+              "Better batteries, longer journeys",
+              "Cleaner air — with one condition",
+              "Counting the costs",
+              "The charging challenge",
+              "A look into the future",
+              "The world's fastest electric car"
+            ]
+          },
           "questions": [
-            { "number": 1, "type": "MCQ_SINGLE", "promptEn": "Paragraph A", "data": { "options": ["An invention older than it seems", "Better batteries, longer journeys", "Cleaner air — with one condition", "Counting the costs", "The charging challenge", "A look into the future", "The world's fastest electric car"] }, "answer": { "value": "An invention older than it seems" }, "points": 1 },
-            { "number": 2, "type": "MCQ_SINGLE", "promptEn": "Paragraph B", "data": { "options": ["An invention older than it seems", "Better batteries, longer journeys", "Cleaner air — with one condition", "Counting the costs", "The charging challenge", "A look into the future", "The world's fastest electric car"] }, "answer": { "value": "Better batteries, longer journeys" }, "points": 1 },
-            { "number": 3, "type": "MCQ_SINGLE", "promptEn": "Paragraph C", "data": { "options": ["An invention older than it seems", "Better batteries, longer journeys", "Cleaner air — with one condition", "Counting the costs", "The charging challenge", "A look into the future", "The world's fastest electric car"] }, "answer": { "value": "Cleaner air — with one condition" }, "points": 1 },
-            { "number": 4, "type": "MCQ_SINGLE", "promptEn": "Paragraph D", "data": { "options": ["An invention older than it seems", "Better batteries, longer journeys", "Cleaner air — with one condition", "Counting the costs", "The charging challenge", "A look into the future", "The world's fastest electric car"] }, "answer": { "value": "Counting the costs" }, "points": 1 },
-            { "number": 5, "type": "MCQ_SINGLE", "promptEn": "Paragraph E", "data": { "options": ["An invention older than it seems", "Better batteries, longer journeys", "Cleaner air — with one condition", "Counting the costs", "The charging challenge", "A look into the future", "The world's fastest electric car"] }, "answer": { "value": "The charging challenge" }, "points": 1 },
-            { "number": 6, "type": "MCQ_SINGLE", "promptEn": "Paragraph F", "data": { "options": ["An invention older than it seems", "Better batteries, longer journeys", "Cleaner air — with one condition", "Counting the costs", "The charging challenge", "A look into the future", "The world's fastest electric car"] }, "answer": { "value": "A look into the future" }, "points": 1 }
+            {
+              "number": 1,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph A",
+              "data": {
+                "options": [
+                  "An invention older than it seems",
+                  "Better batteries, longer journeys",
+                  "Cleaner air — with one condition",
+                  "Counting the costs",
+                  "The charging challenge",
+                  "A look into the future",
+                  "The world's fastest electric car"
+                ]
+              },
+              "answer": {
+                "value": "An invention older than it seems"
+              },
+              "points": 1
+            },
+            {
+              "number": 2,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph B",
+              "data": {
+                "options": [
+                  "An invention older than it seems",
+                  "Better batteries, longer journeys",
+                  "Cleaner air — with one condition",
+                  "Counting the costs",
+                  "The charging challenge",
+                  "A look into the future",
+                  "The world's fastest electric car"
+                ]
+              },
+              "answer": {
+                "value": "Better batteries, longer journeys"
+              },
+              "points": 1
+            },
+            {
+              "number": 3,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph C",
+              "data": {
+                "options": [
+                  "An invention older than it seems",
+                  "Better batteries, longer journeys",
+                  "Cleaner air — with one condition",
+                  "Counting the costs",
+                  "The charging challenge",
+                  "A look into the future",
+                  "The world's fastest electric car"
+                ]
+              },
+              "answer": {
+                "value": "Cleaner air — with one condition"
+              },
+              "points": 1
+            },
+            {
+              "number": 4,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph D",
+              "data": {
+                "options": [
+                  "An invention older than it seems",
+                  "Better batteries, longer journeys",
+                  "Cleaner air — with one condition",
+                  "Counting the costs",
+                  "The charging challenge",
+                  "A look into the future",
+                  "The world's fastest electric car"
+                ]
+              },
+              "answer": {
+                "value": "Counting the costs"
+              },
+              "points": 1
+            },
+            {
+              "number": 5,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph E",
+              "data": {
+                "options": [
+                  "An invention older than it seems",
+                  "Better batteries, longer journeys",
+                  "Cleaner air — with one condition",
+                  "Counting the costs",
+                  "The charging challenge",
+                  "A look into the future",
+                  "The world's fastest electric car"
+                ]
+              },
+              "answer": {
+                "value": "The charging challenge"
+              },
+              "points": 1
+            },
+            {
+              "number": 6,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Paragraph F",
+              "data": {
+                "options": [
+                  "An invention older than it seems",
+                  "Better batteries, longer journeys",
+                  "Cleaner air — with one condition",
+                  "Counting the costs",
+                  "The charging challenge",
+                  "A look into the future",
+                  "The world's fastest electric car"
+                ]
+              },
+              "answer": {
+                "value": "A look into the future"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -144,14 +828,127 @@
           "instructionsUz": "Matnni o'qib, 7-14-savollarga javob bering. TRUE/FALSE savollarda gap matndagi ma'lumotga mos kelishini aniqlang.",
           "passageText": "Honeybees and Why They Matter\n\nWhen people think of honeybees, they usually think of honey. Yet the sweet liquid in our tea is actually the least important thing these insects give us. Around one third of the food on our plates — including apples, cherries, cucumbers, almonds and melons — depends on pollination, the process by which bees carry pollen from one flower to another so that plants can produce fruit and seeds. Scientists estimate that the work done by bees and other pollinators is worth more than 150 billion dollars to the world economy every year.\n\nA single honeybee colony is a remarkable society of up to sixty thousand individuals, almost all of them female workers. Each worker changes jobs as she grows older: she begins by cleaning the hive and feeding the young, later guards the entrance, and only in the final weeks of her life flies out to collect nectar and pollen. To produce one kilogram of honey, the bees of a hive together fly a distance roughly equal to three times around the Earth.\n\nCommunication inside the colony is equally impressive. When a worker discovers a rich source of flowers, she performs a special 'waggle dance' on the honeycomb. The direction and length of the dance tell her sisters exactly where the flowers are — a discovery that won the Austrian scientist Karl von Frisch a Nobel Prize in 1973.\n\nWorryingly, bee populations have been falling in many parts of the world for two decades, and researchers do not blame a single cause. Chemical pesticides weaken bees' memory and navigation; parasites such as the Varroa mite spread deadly viruses; and modern farming replaces wildflower meadows with endless fields of a single crop, leaving bees with a poor and monotonous diet. Climate change adds further stress by confusing the timing of flowering.\n\nThe good news is that everyone can help. Planting flowers rich in nectar — lavender, sunflowers or simple wildflowers — provides food for bees in towns and cities. Buying honey from local beekeepers supports the people who care for colonies, and even leaving a corner of a garden wild makes a difference. City authorities are joining in too: Paris, London and Tashkent now host thousands of urban hives on rooftops and in parks. Interestingly, studies show that city bees are often healthier than their country cousins, thanks to the greater variety of flowers in parks and on balconies and the lower use of agricultural chemicals.",
           "questions": [
-            { "number": 7, "type": "MCQ_SINGLE", "promptEn": "According to the text, what is the most valuable thing bees give humans?", "data": { "options": ["Honey for tea", "The pollination of food crops", "Wax for candles", "Medicine from the hive"] }, "answer": { "value": "The pollination of food crops" }, "points": 1 },
-            { "number": 8, "type": "MCQ_SINGLE", "promptEn": "How much is the work of pollinators worth to the world economy each year?", "data": { "options": ["More than $150 billion", "About $60 billion", "More than $150 million", "About $30 billion"] }, "answer": { "value": "More than $150 billion" }, "points": 1 },
-            { "number": 9, "type": "MCQ_SINGLE", "promptEn": "What does a worker bee do in the final weeks of her life?", "data": { "options": ["She collects nectar and pollen outside the hive", "She cleans the hive", "She feeds the young bees", "She guards the entrance"] }, "answer": { "value": "She collects nectar and pollen outside the hive" }, "points": 1 },
-            { "number": 10, "type": "TRUE_FALSE", "promptEn": "Most of the bees in a colony are male.", "data": { "statement": "Most of the bees in a colony are male." }, "answer": { "value": "false" }, "points": 1 },
-            { "number": 11, "type": "MCQ_SINGLE", "promptEn": "What did Karl von Frisch receive a Nobel Prize for?", "data": { "options": ["Explaining how bees tell each other where flowers are", "Discovering how bees make honey", "Inventing the modern beehive", "Finding a cure for bee viruses"] }, "answer": { "value": "Explaining how bees tell each other where flowers are" }, "points": 1 },
-            { "number": 12, "type": "TRUE_FALSE", "promptEn": "Researchers believe that a single cause explains the decline in bee populations.", "data": { "statement": "Researchers believe that a single cause explains the decline in bee populations." }, "answer": { "value": "false" }, "points": 1 },
-            { "number": 13, "type": "MCQ_SINGLE", "promptEn": "Why does modern farming harm bees?", "data": { "options": ["It reduces the variety of flowers available to them", "It uses machines that destroy hives", "It produces too much honey", "It attracts too many parasites to cities"] }, "answer": { "value": "It reduces the variety of flowers available to them" }, "points": 1 },
-            { "number": 14, "type": "TRUE_FALSE", "promptEn": "According to the text, bees living in cities are often healthier than bees in the countryside.", "data": { "statement": "According to the text, bees living in cities are often healthier than bees in the countryside." }, "answer": { "value": "true" }, "points": 1 }
+            {
+              "number": 7,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the text, what is the most valuable thing bees give humans?",
+              "data": {
+                "options": [
+                  "Honey for tea",
+                  "The pollination of food crops",
+                  "Wax for candles",
+                  "Medicine from the hive"
+                ]
+              },
+              "answer": {
+                "value": "The pollination of food crops"
+              },
+              "points": 1
+            },
+            {
+              "number": 8,
+              "type": "MCQ_SINGLE",
+              "promptEn": "How much is the work of pollinators worth to the world economy each year?",
+              "data": {
+                "options": [
+                  "More than $150 billion",
+                  "About $60 billion",
+                  "More than $150 million",
+                  "About $30 billion"
+                ]
+              },
+              "answer": {
+                "value": "More than $150 billion"
+              },
+              "points": 1
+            },
+            {
+              "number": 9,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What does a worker bee do in the final weeks of her life?",
+              "data": {
+                "options": [
+                  "She collects nectar and pollen outside the hive",
+                  "She cleans the hive",
+                  "She feeds the young bees",
+                  "She guards the entrance"
+                ]
+              },
+              "answer": {
+                "value": "She collects nectar and pollen outside the hive"
+              },
+              "points": 1
+            },
+            {
+              "number": 10,
+              "type": "TRUE_FALSE",
+              "promptEn": "Most of the bees in a colony are male.",
+              "data": {
+                "statement": "Most of the bees in a colony are male."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "points": 1
+            },
+            {
+              "number": 11,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What did Karl von Frisch receive a Nobel Prize for?",
+              "data": {
+                "options": [
+                  "Explaining how bees tell each other where flowers are",
+                  "Discovering how bees make honey",
+                  "Inventing the modern beehive",
+                  "Finding a cure for bee viruses"
+                ]
+              },
+              "answer": {
+                "value": "Explaining how bees tell each other where flowers are"
+              },
+              "points": 1
+            },
+            {
+              "number": 12,
+              "type": "TRUE_FALSE",
+              "promptEn": "Researchers believe that a single cause explains the decline in bee populations.",
+              "data": {
+                "statement": "Researchers believe that a single cause explains the decline in bee populations."
+              },
+              "answer": {
+                "value": "false"
+              },
+              "points": 1
+            },
+            {
+              "number": 13,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does modern farming harm bees?",
+              "data": {
+                "options": [
+                  "It reduces the variety of flowers available to them",
+                  "It uses machines that destroy hives",
+                  "It produces too much honey",
+                  "It attracts too many parasites to cities"
+                ]
+              },
+              "answer": {
+                "value": "It reduces the variety of flowers available to them"
+              },
+              "points": 1
+            },
+            {
+              "number": 14,
+              "type": "TRUE_FALSE",
+              "promptEn": "According to the text, bees living in cities are often healthier than bees in the countryside.",
+              "data": {
+                "statement": "According to the text, bees living in cities are often healthier than bees in the countryside."
+              },
+              "answer": {
+                "value": "true"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -162,13 +959,125 @@
           "instructionsUz": "Matnni o'qing. Yettita gap tushirib qoldirilgan — [15]-[21] bo'shliqlar. Har bir bo'shliq uchun eng mos gapni tanlang.",
           "passageText": "Volunteering Changed My Life\n\nTwo years ago I was a typical second-year student: lectures in the morning, computer games in the evening, and a quiet feeling that something was missing. [15] At first I ignored it, telling myself that volunteering was for people with too much free time.\n\nA month later my best friend dragged me along to the centre's open day. [16] Instead, I met engineers, doctors and grandmothers, all sorting donated books for village schools with enormous enthusiasm.\n\nThat same week I signed up for the weekend literacy project. My job was to read stories to children at a local orphanage. [17] My hands were shaking and I forgot half the story. But the children didn't care — they begged me to come back the following week.\n\nLittle by little, those visits became the best part of my week. [18] For example, I learned to explain difficult words simply, to listen patiently, and to stay calm when twenty children are all talking at once.\n\nThe biggest surprise, though, came at university. [19] My marks actually improved because, for the first time in my life, I was managing my time instead of wasting it.\n\nLast spring the centre asked me to coordinate a new team of fifteen volunteers. [20] Leading people turned out to be the hardest and most rewarding thing I had ever done.\n\nLooking back, I realise that the person who benefited most from my volunteering was me. [21] If you are hesitating the way I was, my advice is simple: go to that open day. You have nothing to lose except a few free evenings — and so much to gain.",
           "questions": [
-            { "number": 15, "type": "MCQ_SINGLE", "promptEn": "Gap [15] — choose the sentence that fits best.", "data": { "options": ["One day I noticed a poster in the university corridor inviting students to join a local volunteer centre.", "That is why I decided to give up my studies completely.", "My parents had always told me to spend more time playing games.", "The exam results that day were the best in my group."] }, "answer": { "value": "One day I noticed a poster in the university corridor inviting students to join a local volunteer centre." }, "points": 1 },
-            { "number": 16, "type": "MCQ_SINGLE", "promptEn": "Gap [16] — choose the sentence that fits best.", "data": { "options": ["I expected to find a small room full of bored teenagers.", "The building had been closed for repairs for two years.", "I had already been a volunteer there for many years.", "Unfortunately, the open day was cancelled at the last minute."] }, "answer": { "value": "I expected to find a small room full of bored teenagers." }, "points": 1 },
-            { "number": 17, "type": "MCQ_SINGLE", "promptEn": "Gap [17] — choose the sentence that fits best.", "data": { "options": ["I still remember how nervous I was on my first visit.", "Reading aloud had always been my greatest talent.", "The orphanage was too far away, so I never went there.", "The children refused to listen to any stories at all."] }, "answer": { "value": "I still remember how nervous I was on my first visit." }, "points": 1 },
-            { "number": 18, "type": "MCQ_SINGLE", "promptEn": "Gap [18] — choose the sentence that fits best.", "data": { "options": ["Without noticing it, I was developing skills that no classroom could teach me.", "Sadly, I soon became bored with the whole project.", "The centre paid me a good salary for every visit.", "My computer games were still more important to me."] }, "answer": { "value": "Without noticing it, I was developing skills that no classroom could teach me." }, "points": 1 },
-            { "number": 19, "type": "MCQ_SINGLE", "promptEn": "Gap [19] — choose the sentence that fits best.", "data": { "options": ["Although I now had less free time, I stopped falling behind in my studies.", "I decided that university was no longer necessary for me.", "My professors asked me to stop volunteering immediately.", "I began to miss more and more lectures every month."] }, "answer": { "value": "Although I now had less free time, I stopped falling behind in my studies." }, "points": 1 },
-            { "number": 20, "type": "MCQ_SINGLE", "promptEn": "Gap [20] — choose the sentence that fits best.", "data": { "options": ["I hesitated, because I had never been responsible for other people before.", "I refused, because coordinating sounded far too easy.", "The team had already found a much better coordinator.", "By then I had already left the volunteer centre for good."] }, "answer": { "value": "I hesitated, because I had never been responsible for other people before." }, "points": 1 },
-            { "number": 21, "type": "MCQ_SINGLE", "promptEn": "Gap [21] — choose the sentence that fits best.", "data": { "options": ["The children got stories, but I got confidence, friends and a clear idea of what I want to do with my life.", "Unfortunately, volunteering gave me nothing in return for my time.", "The centre closed down soon afterwards, which proved my point.", "Reading stories is, after all, a skill nobody really needs."] }, "answer": { "value": "The children got stories, but I got confidence, friends and a clear idea of what I want to do with my life." }, "points": 1 }
+            {
+              "number": 15,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [15] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "One day I noticed a poster in the university corridor inviting students to join a local volunteer centre.",
+                  "That is why I decided to give up my studies completely.",
+                  "My parents had always told me to spend more time playing games.",
+                  "The exam results that day were the best in my group."
+                ]
+              },
+              "answer": {
+                "value": "One day I noticed a poster in the university corridor inviting students to join a local volunteer centre."
+              },
+              "points": 1
+            },
+            {
+              "number": 16,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [16] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "I expected to find a small room full of bored teenagers.",
+                  "The building had been closed for repairs for two years.",
+                  "I had already been a volunteer there for many years.",
+                  "Unfortunately, the open day was cancelled at the last minute."
+                ]
+              },
+              "answer": {
+                "value": "I expected to find a small room full of bored teenagers."
+              },
+              "points": 1
+            },
+            {
+              "number": 17,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [17] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "I still remember how nervous I was on my first visit.",
+                  "Reading aloud had always been my greatest talent.",
+                  "The orphanage was too far away, so I never went there.",
+                  "The children refused to listen to any stories at all."
+                ]
+              },
+              "answer": {
+                "value": "I still remember how nervous I was on my first visit."
+              },
+              "points": 1
+            },
+            {
+              "number": 18,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [18] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "Without noticing it, I was developing skills that no classroom could teach me.",
+                  "Sadly, I soon became bored with the whole project.",
+                  "The centre paid me a good salary for every visit.",
+                  "My computer games were still more important to me."
+                ]
+              },
+              "answer": {
+                "value": "Without noticing it, I was developing skills that no classroom could teach me."
+              },
+              "points": 1
+            },
+            {
+              "number": 19,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [19] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "Although I now had less free time, I stopped falling behind in my studies.",
+                  "I decided that university was no longer necessary for me.",
+                  "My professors asked me to stop volunteering immediately.",
+                  "I began to miss more and more lectures every month."
+                ]
+              },
+              "answer": {
+                "value": "Although I now had less free time, I stopped falling behind in my studies."
+              },
+              "points": 1
+            },
+            {
+              "number": 20,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [20] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "I hesitated, because I had never been responsible for other people before.",
+                  "I refused, because coordinating sounded far too easy.",
+                  "The team had already found a much better coordinator.",
+                  "By then I had already left the volunteer centre for good."
+                ]
+              },
+              "answer": {
+                "value": "I hesitated, because I had never been responsible for other people before."
+              },
+              "points": 1
+            },
+            {
+              "number": 21,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Gap [21] — choose the sentence that fits best.",
+              "data": {
+                "options": [
+                  "The children got stories, but I got confidence, friends and a clear idea of what I want to do with my life.",
+                  "Unfortunately, volunteering gave me nothing in return for my time.",
+                  "The centre closed down soon afterwards, which proved my point.",
+                  "Reading stories is, after all, a skill nobody really needs."
+                ]
+              },
+              "answer": {
+                "value": "The children got stories, but I got confidence, friends and a clear idea of what I want to do with my life."
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -179,13 +1088,125 @@
           "instructionsUz": "Maqolani o'qib, 22-28-savollarga javob bering. Ba'zi savollar muallifning fikri va munosabati haqida.",
           "passageText": "Is Social Media Making Us Lonely?\n\nWe have never been so connected — and, if we believe the headlines, never so lonely. The average teenager now spends over four hours a day on social platforms, collecting friends, followers and likes by the hundred. Yet in survey after survey, young people report feeling more isolated than any generation before them. Is the technology that promised to bring us together actually pushing us apart?\n\nThe pessimists have some powerful evidence. Psychologists point out that scrolling through other people's carefully edited highlights — the holidays, the parties, the perfect breakfasts — invites us to compare our ordinary lives with an impossible standard. Comparison, not connection, is the default activity on many platforms. One influential American study found that the more time participants spent on social media, the worse they felt afterwards; face-to-face contact had exactly the opposite effect.\n\nThere is also the question of what online contact replaces. An evening spent exchanging comments with strangers is an evening not spent having dinner with family or walking with a friend. Sociologists call this 'displacement', and it worries them most in the case of teenagers, whose social skills are still developing. If you learn to end every awkward conversation by simply closing an app, how do you ever learn to repair a real friendship after an argument?\n\nAnd yet the story is not so simple. For many people, online communities are a lifeline rather than a substitute. A teenager with a rare illness, a young mother at home with a baby, a student who has moved to a city where she knows nobody — for them, a phone can be the difference between isolation and belonging. Research increasingly suggests that how we use social media matters far more than how much. People who actively message friends, plan meetings and join groups tend to feel more connected; those who silently scroll through strangers' photos tend to feel worse.\n\nMy own view is that social media is neither a disease nor a cure, but a mirror — one that exaggerates whatever we bring to it. A sociable person uses it to arrange picnics; a lonely person uses it to watch other people's picnics. Blaming the platforms for loneliness is comfortable, because it saves us from asking harder questions about long working hours, disappearing public spaces and neighbourhoods where nobody knows anybody. Smartphones did not create human loneliness, and deleting an app will not end it. The real challenge is to treat these tools as a bridge to real contact rather than a replacement for it — and to be honest with ourselves about which of the two we are actually doing.",
           "questions": [
-            { "number": 22, "type": "MCQ_SINGLE", "promptEn": "What point does the writer make in the first paragraph?", "data": { "options": ["Being more connected has not made young people feel less alone", "Teenagers spend too little time on social platforms", "Older generations were lonelier than today's young people", "Headlines about loneliness are always false"] }, "answer": { "value": "Being more connected has not made young people feel less alone" }, "points": 1 },
-            { "number": 23, "type": "MCQ_SINGLE", "promptEn": "What did the American study mentioned in the text find?", "data": { "options": ["People felt worse the more time they spent on social media", "Face-to-face contact made people feel more isolated", "Social media improved participants' mood", "Participants stopped using social media after the study"] }, "answer": { "value": "People felt worse the more time they spent on social media" }, "points": 1 },
-            { "number": 24, "type": "MCQ_SINGLE", "promptEn": "In the text, 'displacement' refers to", "data": { "options": ["online activity taking the place of real-life contact", "moving to a new city for work or study", "deleting social media applications", "the disappearance of public spaces"] }, "answer": { "value": "online activity taking the place of real-life contact" }, "points": 1 },
-            { "number": 25, "type": "MCQ_SINGLE", "promptEn": "Why are sociologists especially worried about teenagers?", "data": { "options": ["Their social skills are still developing", "They argue with their friends too often", "They cannot afford smartphones", "They refuse to join online communities"] }, "answer": { "value": "Their social skills are still developing" }, "points": 1 },
-            { "number": 26, "type": "MCQ_SINGLE", "promptEn": "Why does the writer mention the student who has moved to a new city?", "data": { "options": ["To show that online communities can protect some people from isolation", "To prove that students should not move away from home", "To show that phones are dangerous for young people", "To argue that universities cause loneliness"] }, "answer": { "value": "To show that online communities can protect some people from isolation" }, "points": 1 },
-            { "number": 27, "type": "MCQ_SINGLE", "promptEn": "According to the research mentioned, feeling connected depends mainly on", "data": { "options": ["the way people use social media rather than the amount of time", "the total number of hours spent online", "the number of followers a person has", "the quality of a person's smartphone"] }, "answer": { "value": "the way people use social media rather than the amount of time" }, "points": 1 },
-            { "number": 28, "type": "MCQ_SINGLE", "promptEn": "Which of the following best describes the writer's overall attitude?", "data": { "options": ["Balanced — social media magnifies habits we already have", "Strongly negative — social media should be banned", "Enthusiastic — social media has ended human loneliness", "Indifferent — the topic does not deserve attention"] }, "answer": { "value": "Balanced — social media magnifies habits we already have" }, "points": 1 }
+            {
+              "number": 22,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What point does the writer make in the first paragraph?",
+              "data": {
+                "options": [
+                  "Being more connected has not made young people feel less alone",
+                  "Teenagers spend too little time on social platforms",
+                  "Older generations were lonelier than today's young people",
+                  "Headlines about loneliness are always false"
+                ]
+              },
+              "answer": {
+                "value": "Being more connected has not made young people feel less alone"
+              },
+              "points": 1
+            },
+            {
+              "number": 23,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What did the American study mentioned in the text find?",
+              "data": {
+                "options": [
+                  "People felt worse the more time they spent on social media",
+                  "Face-to-face contact made people feel more isolated",
+                  "Social media improved participants' mood",
+                  "Participants stopped using social media after the study"
+                ]
+              },
+              "answer": {
+                "value": "People felt worse the more time they spent on social media"
+              },
+              "points": 1
+            },
+            {
+              "number": 24,
+              "type": "MCQ_SINGLE",
+              "promptEn": "In the text, 'displacement' refers to",
+              "data": {
+                "options": [
+                  "online activity taking the place of real-life contact",
+                  "moving to a new city for work or study",
+                  "deleting social media applications",
+                  "the disappearance of public spaces"
+                ]
+              },
+              "answer": {
+                "value": "online activity taking the place of real-life contact"
+              },
+              "points": 1
+            },
+            {
+              "number": 25,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why are sociologists especially worried about teenagers?",
+              "data": {
+                "options": [
+                  "Their social skills are still developing",
+                  "They argue with their friends too often",
+                  "They cannot afford smartphones",
+                  "They refuse to join online communities"
+                ]
+              },
+              "answer": {
+                "value": "Their social skills are still developing"
+              },
+              "points": 1
+            },
+            {
+              "number": 26,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Why does the writer mention the student who has moved to a new city?",
+              "data": {
+                "options": [
+                  "To show that online communities can protect some people from isolation",
+                  "To prove that students should not move away from home",
+                  "To show that phones are dangerous for young people",
+                  "To argue that universities cause loneliness"
+                ]
+              },
+              "answer": {
+                "value": "To show that online communities can protect some people from isolation"
+              },
+              "points": 1
+            },
+            {
+              "number": 27,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the research mentioned, feeling connected depends mainly on",
+              "data": {
+                "options": [
+                  "the way people use social media rather than the amount of time",
+                  "the total number of hours spent online",
+                  "the number of followers a person has",
+                  "the quality of a person's smartphone"
+                ]
+              },
+              "answer": {
+                "value": "the way people use social media rather than the amount of time"
+              },
+              "points": 1
+            },
+            {
+              "number": 28,
+              "type": "MCQ_SINGLE",
+              "promptEn": "Which of the following best describes the writer's overall attitude?",
+              "data": {
+                "options": [
+                  "Balanced — social media magnifies habits we already have",
+                  "Strongly negative — social media should be banned",
+                  "Enthusiastic — social media has ended human loneliness",
+                  "Indifferent — the topic does not deserve attention"
+                ]
+              },
+              "answer": {
+                "value": "Balanced — social media magnifies habits we already have"
+              },
+              "points": 1
+            }
           ]
         },
         {
@@ -196,13 +1217,121 @@
           "instructionsUz": "Matnni o'qib, 29-35-savollarga javob bering. 33-35-savollarga KO'PI BILAN UCH SO'ZDAN iborat qisqa javob yozing.",
           "passageText": "The Psychology of First Impressions\n\nHow long does it take to form an opinion of a stranger? According to research carried out at Princeton University, considerably less time than most people imagine. When psychologists Janine Willis and Alexander Todorov showed participants photographs of unfamiliar faces, judgements about trustworthiness, competence and attractiveness were made after an exposure of just one tenth of a second. Longer viewing times did not change these first judgements; they merely increased the participants' confidence in them.\n\nSuch speed suggests that first impressions are not careful decisions but automatic processes, inherited from a distant past in which an instant reading of friend or enemy could decide survival. The brain region most involved, the amygdala, reacts to faces before we are even conscious of seeing them. In evolutionary terms, a system that produced fast, roughly accurate guesses was more useful than a slow, perfectly fair one.\n\nThe trouble is that the modern world punishes this ancient shortcut. Studies consistently show that adults with 'baby faces' — round cheeks and large eyes — are judged to be warmer but less competent, and are less likely to be promoted to senior positions, although there is no evidence that they perform worse. Similarly, taller candidates enjoy measurable advantages in job interviews and even in elections. Interviewers who feel they are objectively assessing a candidate's answers are often, in reality, defending a verdict reached in the first ninety seconds of the meeting — a tendency psychologists call confirmation bias: the habit of noticing evidence that supports what we already believe and overlooking evidence that contradicts it.\n\nCan a bad first impression be repaired? The news is mixed. Experiments indicate that negative first impressions are considerably more resistant to change than positive ones, apparently because threatening information receives priority in memory. On average, participants needed to observe around eight instances of positive behaviour before they revised an initial negative judgement of a person — while a single negative act was often enough to destroy a positive one. Psychologists refer to this asymmetry as negativity bias.\n\nNevertheless, first impressions are not destiny. Awareness of the process appears to weaken its power: interviewers trained to delay their judgement, to use structured questions and to score answers against written criteria make measurably fairer decisions. Some orchestras discovered this decades ago. When they began holding 'blind' auditions, with musicians performing behind a screen, the proportion of women hired rose dramatically — clear evidence of how much irrelevant visual information had been influencing supposedly expert judgements.\n\nThe practical lesson is twofold. When meeting others, we should remember that our instant verdicts are guesses, not knowledge, and give people a genuine second chance. And when being met — at an interview, or on a first day at work — it is worth accepting the reality of the shortcut: arrive on time, smile, and pay attention to the details, because the judgement made in that first tenth of a second will be defended, often unconsciously, for a long time afterwards.",
           "questions": [
-            { "number": 29, "type": "MCQ_SINGLE", "promptEn": "In the Princeton experiment, what was the effect of longer viewing times?", "data": { "options": ["People became more certain of judgements they had already made", "People completely changed their first judgements", "People refused to judge the faces at all", "People remembered the faces less accurately"] }, "answer": { "value": "People became more certain of judgements they had already made" }, "points": 1 },
-            { "number": 30, "type": "MCQ_SINGLE", "promptEn": "According to the text, why did humans develop such fast judgements?", "data": { "options": ["Quick decisions about strangers once helped survival", "Slow decisions were impossible in ancient times", "The brain was smaller in the distant past", "People had fewer strangers to meet"] }, "answer": { "value": "Quick decisions about strangers once helped survival" }, "points": 1 },
-            { "number": 31, "type": "MCQ_SINGLE", "promptEn": "What is 'confirmation bias', as described in the text?", "data": { "options": ["Noticing mainly the evidence that supports an existing opinion", "Confirming an appointment before an interview", "Preferring taller candidates in elections", "Changing your opinion whenever new evidence appears"] }, "answer": { "value": "Noticing mainly the evidence that supports an existing opinion" }, "points": 1 },
-            { "number": 32, "type": "MCQ_SINGLE", "promptEn": "What happened when orchestras introduced 'blind' auditions?", "data": { "options": ["A much higher proportion of women were hired", "The quality of the music fell noticeably", "Fewer musicians applied for positions", "The screens made the sound harder to judge"] }, "answer": { "value": "A much higher proportion of women were hired" }, "points": 1 },
-            { "number": 33, "type": "SHORT_ANSWER", "promptEn": "Which brain region reacts to faces before we are conscious of seeing them?", "data": { "maxWords": 3 }, "answer": { "accept": ["amygdala", "the amygdala"] }, "points": 1 },
-            { "number": 34, "type": "SHORT_ANSWER", "promptEn": "On average, how many examples of positive behaviour were needed to change a negative first impression?", "data": { "maxWords": 3 }, "answer": { "accept": ["eight", "8", "around eight", "about eight"] }, "points": 1 },
-            { "number": 35, "type": "SHORT_ANSWER", "promptEn": "What do psychologists call the tendency for negative information to outweigh positive information?", "data": { "maxWords": 3 }, "answer": { "accept": ["negativity bias", "the negativity bias"] }, "points": 1 }
+            {
+              "number": 29,
+              "type": "MCQ_SINGLE",
+              "promptEn": "In the Princeton experiment, what was the effect of longer viewing times?",
+              "data": {
+                "options": [
+                  "People became more certain of judgements they had already made",
+                  "People completely changed their first judgements",
+                  "People refused to judge the faces at all",
+                  "People remembered the faces less accurately"
+                ]
+              },
+              "answer": {
+                "value": "People became more certain of judgements they had already made"
+              },
+              "points": 1
+            },
+            {
+              "number": 30,
+              "type": "MCQ_SINGLE",
+              "promptEn": "According to the text, why did humans develop such fast judgements?",
+              "data": {
+                "options": [
+                  "Quick decisions about strangers once helped survival",
+                  "Slow decisions were impossible in ancient times",
+                  "The brain was smaller in the distant past",
+                  "People had fewer strangers to meet"
+                ]
+              },
+              "answer": {
+                "value": "Quick decisions about strangers once helped survival"
+              },
+              "points": 1
+            },
+            {
+              "number": 31,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What is 'confirmation bias', as described in the text?",
+              "data": {
+                "options": [
+                  "Noticing mainly the evidence that supports an existing opinion",
+                  "Confirming an appointment before an interview",
+                  "Preferring taller candidates in elections",
+                  "Changing your opinion whenever new evidence appears"
+                ]
+              },
+              "answer": {
+                "value": "Noticing mainly the evidence that supports an existing opinion"
+              },
+              "points": 1
+            },
+            {
+              "number": 32,
+              "type": "MCQ_SINGLE",
+              "promptEn": "What happened when orchestras introduced 'blind' auditions?",
+              "data": {
+                "options": [
+                  "A much higher proportion of women were hired",
+                  "The quality of the music fell noticeably",
+                  "Fewer musicians applied for positions",
+                  "The screens made the sound harder to judge"
+                ]
+              },
+              "answer": {
+                "value": "A much higher proportion of women were hired"
+              },
+              "points": 1
+            },
+            {
+              "number": 33,
+              "type": "SHORT_ANSWER",
+              "promptEn": "Which brain region reacts to faces before we are conscious of seeing them?",
+              "data": {
+                "maxWords": 3
+              },
+              "answer": {
+                "accept": [
+                  "amygdala",
+                  "the amygdala"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 34,
+              "type": "SHORT_ANSWER",
+              "promptEn": "On average, how many examples of positive behaviour were needed to change a negative first impression?",
+              "data": {
+                "maxWords": 3
+              },
+              "answer": {
+                "accept": [
+                  "eight",
+                  "8",
+                  "around eight",
+                  "about eight"
+                ]
+              },
+              "points": 1
+            },
+            {
+              "number": 35,
+              "type": "SHORT_ANSWER",
+              "promptEn": "What do psychologists call the tendency for negative information to outweigh positive information?",
+              "data": {
+                "maxWords": 3
+              },
+              "answer": {
+                "accept": [
+                  "negativity bias",
+                  "the negativity bias"
+                ]
+              },
+              "points": 1
+            }
           ]
         }
       ]
@@ -226,18 +1355,40 @@
               "type": "WRITING_TASK",
               "promptEn": "You received this email from your friend Emma:\n\n\"Hi! Great news — we're organising a picnic by Charvak lake this Saturday: swimming, barbecue, volleyball, the lot! Everyone's meeting at the bus station at 11 am. You're coming, right? Let me know! Emma\"\n\nWrite a reply to Emma. In your email: thank her for the invitation; explain why you cannot come on Saturday; suggest meeting at another time. Write at least 50 words.",
               "promptUz": "Do'stingiz Emmadan email keldi: u sizni shanba kuni Chorvoq ko'li bo'yidagi piknikka taklif qilmoqda (yuqorida). Emmaga javob yozing: taklifi uchun minnatdorchilik bildiring; shanba kuni nega bora olmasligingizni tushuntiring; boshqa vaqtda uchrashishni taklif qiling. Kamida 50 so'z.",
-              "data": { "minWords": 50, "maxWords": 100 },
+              "data": {
+                "minWords": 50,
+                "maxWords": 100
+              },
               "points": 1,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "informal email" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "informal email"
+              }
             },
             {
               "number": 2,
               "type": "WRITING_TASK",
               "promptEn": "You saw this announcement on an international website:\n\n\"GREEN SUMMER — International Volunteer Programme. Spend four weeks abroad helping real environmental projects: tree planting, river clean-ups, wildlife protection. Accommodation provided. For further information contact the programme coordinator, Ms Sarah Collins.\"\n\nWrite a formal email to Ms Collins. In your email, request information about: the exact dates and location of the programme; the costs and what they include; the requirements for applicants. Write 120-150 words.",
               "promptUz": "Xalqaro veb-saytda \"GREEN SUMMER\" yozgi volontyorlik dasturi haqidagi e'lonni ko'rdingiz (yuqorida). Dastur koordinatori Sarah Collinsga rasmiy email yozing va quyidagilar haqida ma'lumot so'rang: dasturning aniq sanalari va o'tkaziladigan joyi; narxi va unga nimalar kirishi; nomzodlarga qo'yiladigan talablar. 120-150 so'z yozing.",
-              "data": { "minWords": 120, "maxWords": 150 },
+              "data": {
+                "minWords": 120,
+                "maxWords": 150
+              },
               "points": 1,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "formal email" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "formal email"
+              }
             }
           ]
         },
@@ -253,9 +1404,20 @@
               "type": "WRITING_TASK",
               "promptEn": "Children spend too much time on smartphones. Some people blame parents for this, while others believe schools are responsible. Discuss both views and give your own opinion. Give reasons and examples from your own knowledge and experience. Write at least 180 words.",
               "promptUz": "Bolalar smartfonlarda haddan tashqari ko'p vaqt o'tkazmoqda. Ba'zilar bunda ota-onalarni ayblasa, boshqalar mas'uliyat maktablarda deb hisoblaydi. Ikkala qarashni ham muhokama qiling va o'z fikringizni bildiring. Fikrlaringizni sabab va misollar bilan asoslang. Kamida 180 so'z yozing.",
-              "data": { "minWords": 180, "maxWords": 250 },
+              "data": {
+                "minWords": 180,
+                "maxWords": 250
+              },
               "points": 2,
-              "rubric": { "criteria": ["Task fulfillment", "Coherence & cohesion", "Lexical resource", "Grammatical range & accuracy"], "style": "formal discursive essay" }
+              "rubric": {
+                "criteria": [
+                  "Task fulfillment",
+                  "Coherence & cohesion",
+                  "Lexical resource",
+                  "Grammatical range & accuracy"
+                ],
+                "style": "formal discursive essay"
+              }
             }
           ]
         }
@@ -280,9 +1442,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "Let's talk about where you live. Describe your hometown — what is it famous for, and what do you like most about living there? And tell me about your favourite season of the year. Why do you enjoy it?",
               "promptUz": "Yashash joyingiz haqida gaplashamiz. O'z shahringizni (qishlog'ingizni) tasvirlab bering — u nimasi bilan mashhur va u yerda yashashning sizga eng yoqadigan tomoni nima? Yilning eng sevimli faslingiz haqida ham gapirib bering. Nima uchun u sizga yoqadi?",
-              "data": { "preparationSeconds": 10, "recordSeconds": 60 },
+              "data": {
+                "preparationSeconds": 10,
+                "recordSeconds": 60
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "B1" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "B1"
+              }
             }
           ]
         },
@@ -298,9 +1471,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "Some school leavers go abroad for their university studies, while others prefer to study in their own country. What are the advantages and disadvantages of each option? Consider costs, language, career opportunities and being far from family. Which would you personally choose, and why?",
               "promptUz": "Ba'zi maktab bitiruvchilari oliy ta'limni chet elda olishni tanlaydi, boshqalari esa o'z mamlakatida o'qishni afzal ko'radi. Har bir variantning afzalliklari va kamchiliklari nimada? Xarajatlar, til, karyera imkoniyatlari va oiladan uzoqda bo'lishni hisobga oling. Siz shaxsan qaysi birini tanlardingiz va nima uchun?",
-              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "data": {
+                "preparationSeconds": 60,
+                "recordSeconds": 120
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "B2" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "B2"
+              }
             }
           ]
         },
@@ -316,9 +1500,20 @@
               "type": "SPEAKING_TASK",
               "promptEn": "\"Traditional professions will disappear because of automation.\" To what extent do you agree or disagree? Discuss both sides: which jobs machines may replace and why, and which human skills and professions are likely to survive. Support your ideas with examples.",
               "promptUz": "«An'anaviy kasblar avtomatlashtirish tufayli yo'qolib ketadi». Bu fikrga qay darajada qo'shilasiz? Ikkala tomonni muhokama qiling: mashinalar qaysi kasblarni va nima uchun egallashi mumkin, qaysi insoniy ko'nikma va kasblar esa saqlanib qolishi ehtimol. Fikrlaringizni misollar bilan asoslang.",
-              "data": { "preparationSeconds": 60, "recordSeconds": 120 },
+              "data": {
+                "preparationSeconds": 60,
+                "recordSeconds": 120
+              },
               "points": 1,
-              "rubric": { "criteria": ["Fluency & coherence", "Lexical resource", "Grammar", "Pronunciation"], "level": "C1" }
+              "rubric": {
+                "criteria": [
+                  "Fluency & coherence",
+                  "Lexical resource",
+                  "Grammar",
+                  "Pronunciation"
+                ],
+                "level": "C1"
+              }
             }
           ]
         }

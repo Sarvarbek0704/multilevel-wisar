@@ -9,7 +9,7 @@ Kurslar, mock imtihonlar, AI baholash (Writing/Speaking), so'z yodlash (spaced r
 ```
 apps/
   api/          NestJS backend (REST API + Telegram bot + AI baholash)
-  web/          Next.js frontend (dizayn bosqichidan keyin qo'shiladi)
+  web/          Next.js frontend (App Router + Tailwind, mobil-first)
 content/
   english/      Ingliz tili: kurslar, mocklar, lug'at (JSON)
   uzbek/        Ona tili (keyingi bosqich)
@@ -109,12 +109,32 @@ docker compose --profile prod up -d --build
 
 Production'da bot avtomatik webhook rejimiga o'tadi (`NODE_ENV=production`).
 
+## Frontend
+
+```bash
+cd apps/web
+cp .env.example .env.local     # API_ORIGIN va bot username
+pnpm dev                       # http://localhost:3000
+```
+
+Dizayn manbasi: `docs/design/design_handoff_multilevel_mobile/` (mobil-first, 390px).
+Tokenlar `apps/web/tailwind.config.ts` da, ranglar CSS o'zgaruvchilari orqali —
+shuning uchun dark mode komponentlarni o'zgartirmasdan ishlaydi.
+
+Sahifalar: landing (UZ/EN) · auth (5 usul + OTP + parol tiklash) · onboarding ·
+dashboard · kurslar · dars pleyeri · mocklar · imtihon rejimi (L/R/W/S) ·
+baholanish kutish · natija · lug'at + flashcard · o'quv reja · AI amaliyot ·
+profil · admin panel.
+
+> Ilova interfeysi o'zbekcha: darslar, mashqlar va AI izohlari ham o'zbek tilida —
+> bu platformaning asosiy qiymati. Landing sahifasi ikki tilli.
+
 ## Yo'l xaritasi
 
-- [x] Backend: auth, kurslar, mashqlar, lug'at+SRS, mock dvigatel, AI baholash, o'quv reja, progress, Telegram bot, admin
-- [x] Boshlang'ich kontent: A2/B1 kurslar, placement test, mini-mock, lug'at
-- [ ] Kontent fabrikasi: A1→C1 to'liq kurslar, ko'plab to'liq mocklar (listening audio bilan)
-- [ ] Listening audio generatsiya (TTS pipeline)
-- [ ] Ona tili (o'zbek) CEFR kontenti
-- [ ] Dizayn hujjatlari → dizayn → Next.js frontend
-- [ ] Production deploy: multilevel.wisar.uz
+- [x] Backend: auth (5 usul, OTP), kurslar, mashqlar, lug'at+SRS, mock dvigatel, AI baholash, o'quv reja, progress, Telegram bot, admin
+- [x] Kontent: A1→C1 ingliz tili kurslari, ona tili kursi, 7 mock (3 tasi to'liq, audio bilan), 180 so'z
+- [x] Listening audio (TTS pipeline: `node tools/generate-audio.mjs`)
+- [x] Telegram bot: flashcard, test, AI writing, eslatmalar, telefon OTP
+- [x] Frontend: barcha ekranlar, dark mode, desktop layout
+- [x] Haqiqiy AI baholash (Gemini) va email OTP (SMTP)
+- [ ] Production deploy: multilevel.wisar.uz — [docs/DEPLOY.md](docs/DEPLOY.md)
